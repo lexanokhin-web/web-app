@@ -19,7 +19,7 @@ export const GlassCard: React.FC<GlassCardProps> = ({
     const animationProps = animate ? {
         whileHover: { scale: 1.02, y: -4 },
         whileTap: { scale: 0.98 },
-        transition: { type: "spring", stiffness: 300, damping: 20 }
+        transition: { type: "spring" as const, stiffness: 300, damping: 20 }
     } : {};
 
     return (
