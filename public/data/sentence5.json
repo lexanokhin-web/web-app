@@ -1,0 +1,26 @@
+[
+    {
+        "id": "5-1",
+        "sentence": "Sie ___ gern Kaffee.",
+        "targetWord": "trinkt",
+        "targetWordTranslation": "пьёт",
+        "level": "A1",
+        "topic": "Напитки"
+    },
+    {
+        "id": "5-2",
+        "sentence": "Wir ___ am Wochenende Freunde.",
+        "targetWord": "treffen",
+        "targetWordTranslation": "встречаем",
+        "level": "A1",
+        "topic": "Общение"
+    },
+    {
+        "id": "5-3",
+        "sentence": "Du ___ sehr schön.",
+        "targetWord": "singst",
+        "targetWordTranslation": "поёшь",
+        "level": "A1",
+        "topic": "Музыка"
+    }
+]

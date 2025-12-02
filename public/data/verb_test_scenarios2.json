@@ -1,0 +1,2504 @@
+[
+  {
+    "id": "s3_scenario1",
+    "sentence": "Hallo, wie geht's dir heute? Mir geht's **...**.",
+    "sentenceTranslation": "Привет, как твои дела сегодня? У меня всё **...**.",
+    "targetWord": "gut",
+    "targetWordTranslation": "хорошо",
+    "options": ["schlecht", "gut", "langweilig", "interessant"],
+    "level": "A1",
+    "topic": "Begrüßung"
+  },
+  {
+    "id": "s3_scenario2",
+    "sentence": "Ich habe heute keine Lust, zu kochen. Wollen wir lieber etwas **...**?",
+    "sentenceTranslation": "У меня сегодня нет настроения готовить. Может, лучше **...** что-нибудь?",
+    "targetWord": "bestellen",
+    "targetWordTranslation": "заказать",
+    "options": ["einkaufen", "backen", "bestellen", "machen"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario3",
+    "sentence": "Entschuldigung, können Sie mir bitte **...**?",
+    "sentenceTranslation": "Извините, вы не могли бы мне **...**?",
+    "targetWord": "helfen",
+    "targetWordTranslation": "помочь",
+    "options": ["helfen", "erzählen", "schreiben", "sagen"],
+    "level": "A1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario4",
+    "sentence": "Das Wetter ist heute super! Lass uns **...** gehen.",
+    "sentenceTranslation": "Погода сегодня отличная! Давай **...** погуляем.",
+    "targetWord": "spazieren",
+    "targetWordTranslation": "погулять",
+    "options": ["kochen", "lernen", "spazieren", "schlafen"],
+    "level": "A1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s3_scenario5",
+    "sentence": "Ich habe einen neuen Job **...**! Ich bin so glücklich.",
+    "sentenceTranslation": "Я **...** новую работу! Я так счастлив.",
+    "targetWord": "gefunden",
+    "targetWordTranslation": "нашёл",
+    "options": ["verloren", "gesucht", "gearbeitet", "gefunden"],
+    "level": "A2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "s3_scenario6",
+    "sentence": "Morgen früh **...** ich um 7 Uhr auf, um zur Arbeit zu fahren.",
+    "sentenceTranslation": "Завтра утром я **...** в 7 утра, чтобы поехать на работу.",
+    "targetWord": "stehe",
+    "targetWordTranslation": "встаю",
+    "options": ["esse", "schlafe", "stehe", "gehe"],
+    "level": "A1",
+    "topic": "Tagesablauf"
+  },
+  {
+    "id": "s3_scenario7",
+    "sentence": "Ich habe es total vergessen! Das **...** mir leid.",
+    "sentenceTranslation": "Я совершенно забыл! Мне **...** жаль.",
+    "targetWord": "tut",
+    "targetWordTranslation": "очень",
+    "options": ["macht", "ist", "tut", "hat"],
+    "level": "A2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s3_scenario8",
+    "sentence": "Könnten Sie mir bitte sagen, wo der nächste Supermarkt **...**?",
+    "sentenceTranslation": "Не могли бы вы мне сказать, где **...** ближайший супермаркет?",
+    "targetWord": "ist",
+    "targetWordTranslation": "находится",
+    "options": ["war", "ist", "warum", "wann"],
+    "level": "A1",
+    "topic": "Wegbeschreibung"
+  },
+  {
+    "id": "s3_scenario9",
+    "sentence": "Ich habe die Prüfung nicht **...**. Ich muss noch mehr lernen.",
+    "sentenceTranslation": "Я не **...** экзамен. Мне нужно учить ещё больше.",
+    "targetWord": "bestanden",
+    "targetWordTranslation": "сдал",
+    "options": ["gemacht", "bestanden", "verloren", "bekommen"],
+    "level": "A2",
+    "topic": "Bildung"
+  },
+  {
+    "id": "s3_scenario10",
+    "sentence": "Das ist mir **...**, ich habe keine Ahnung.",
+    "sentenceTranslation": "Это мне **...**, я не имею понятия.",
+    "targetWord": "egal",
+    "targetWordTranslation": "всё равно",
+    "options": ["wichtig", "schwer", "leicht", "egal"],
+    "level": "B1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s3_scenario11",
+    "sentence": "Haben Sie Lust, heute Abend mit mir **...** zu gehen?",
+    "sentenceTranslation": "Хотите сегодня вечером **...** со мной?",
+    "targetWord": "auszugehen",
+    "targetWordTranslation": "куда-нибудь сходить",
+    "options": ["zu Hause", "auszugehen", "zu bleiben", "zu schlafen"],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s3_scenario12",
+    "sentence": "Ich bin **...**! Ich brauche jetzt einen Kaffee.",
+    "sentenceTranslation": "Я **...**! Мне сейчас нужен кофе.",
+    "targetWord": "müde",
+    "targetWordTranslation": "уставший",
+    "options": ["wach", "müde", "hungrig", "durstig"],
+    "level": "A1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s3_scenario13",
+    "sentence": "Ich habe einen **...** Termin und muss dringend los.",
+    "sentenceTranslation": "У меня **...** встреча, и мне нужно срочно уходить.",
+    "targetWord": "wichtigen",
+    "targetWordTranslation": "важная",
+    "options": ["langweiligen", "wichtigen", "schlechten", "kurzen"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "s3_scenario14",
+    "sentence": "Ich würde gerne ein neues Hobby **...**. Hast du eine Idee?",
+    "sentenceTranslation": "Я бы хотел **...** новое хобби. У тебя есть идеи?",
+    "targetWord": "beginnen",
+    "targetWordTranslation": "начать",
+    "options": ["beenden", "kaufen", "beginnen", "verlieren"],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s3_scenario15",
+    "sentence": "Es ist mir nicht **...**, das habe ich nicht so gemeint.",
+    "sentenceTranslation": "Я этого не **...**, я не это имел в виду.",
+    "targetWord": "bewusst",
+    "targetWordTranslation": "осознавал",
+    "options": ["bekannt", "bewusst", "wichtig", "egal"],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s3_scenario16",
+    "sentence": "Lass uns die Rechnung **...**.",
+    "sentenceTranslation": "Давай **...** счёт.",
+    "targetWord": "teilen",
+    "targetWordTranslation": "разделим",
+    "options": ["bezahlen", "zahlen", "teilen", "schreiben"],
+    "level": "A2",
+    "topic": "Restaurant"
+  },
+  {
+    "id": "s3_scenario17",
+    "sentence": "Ich muss mich dringend **...** und dann schlafen gehen.",
+    "sentenceTranslation": "Мне нужно срочно **...** и потом ложиться спать.",
+    "targetWord": "ausruhen",
+    "targetWordTranslation": "отдохнуть",
+    "options": ["arbeiten", "essen", "ausruhen", "feiern"],
+    "level": "B1",
+    "topic": "Gesundheit"
+  },
+  {
+    "id": "s3_scenario18",
+    "sentence": "Ich habe mich total in der Zeit **...**!",
+    "sentenceTranslation": "Я совершенно **...** со временем!",
+    "targetWord": "geirrt",
+    "targetWordTranslation": "ошибся",
+    "options": ["getäuscht", "geirrt", "verloren", "gefühlt"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario19",
+    "sentence": "Können Sie das bitte **...**?",
+    "sentenceTranslation": "Не могли бы вы это **...**?",
+    "targetWord": "wiederholen",
+    "targetWordTranslation": "повторить",
+    "options": ["sagen", "erklären", "wiederholen", "machen"],
+    "level": "A1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario20",
+    "sentence": "Ich **...** auf einen Anruf von meinem Chef.",
+    "sentenceTranslation": "Я **...** звонка от моего начальника.",
+    "targetWord": "warte",
+    "targetWordTranslation": "жду",
+    "options": ["denke", "frage", "mache", "warte"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario21",
+    "sentence": "Ich **...** mir morgen den Film im Kino an.",
+    "sentenceTranslation": "Я **...** завтра фильм в кинотеатре.",
+    "targetWord": "sehe",
+    "targetWordTranslation": "посмотрю",
+    "options": ["höre", "sehe", "kaufe", "esse"],
+    "level": "A1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s3_scenario22",
+    "sentence": "Das ist eine gute **...**! Das machen wir.",
+    "sentenceTranslation": "Это хорошая **...**! Так и сделаем.",
+    "targetWord": "Idee",
+    "targetWordTranslation": "идея",
+    "options": ["Frage", "Antwort", "Idee", "Sache"],
+    "level": "A1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario23",
+    "sentence": "Ich **...** nicht mehr, wohin ich meinen Schlüssel gelegt habe.",
+    "sentenceTranslation": "Я больше не **...**, куда положил свой ключ.",
+    "targetWord": "weiß",
+    "targetWordTranslation": "знаю",
+    "options": ["denke", "suche", "verstehe", "weiß"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario24",
+    "sentence": "Wir müssen uns **...** verabreden. Wann hast du Zeit?",
+    "sentenceTranslation": "Мы должны **...** встретиться. Когда у тебя есть время?",
+    "targetWord": "mal",
+    "targetWordTranslation": "как-нибудь",
+    "options": ["heute", "morgen", "bald", "mal"],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s3_scenario25",
+    "sentence": "Ich bin total **...**! Was soll ich jetzt machen?",
+    "sentenceTranslation": "Я совершенно **...**! Что мне теперь делать?",
+    "targetWord": "verwirrt",
+    "targetWordTranslation": "сбит с толку",
+    "options": ["glücklich", "traurig", "verwirrt", "zufrieden"],
+    "level": "B1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s3_scenario26",
+    "sentence": "Das habe ich ehrlich gesagt nicht **...**.",
+    "sentenceTranslation": "Честно говоря, я этого не **...**.",
+    "targetWord": "verstanden",
+    "targetWordTranslation": "понял",
+    "options": ["verstanden", "gesagt", "gehört", "gesehen"],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario27",
+    "sentence": "Ich habe einen Termin beim Arzt **...**.",
+    "sentenceTranslation": "Я **...** приём у врача.",
+    "targetWord": "vereinbart",
+    "targetWordTranslation": "договорился",
+    "options": ["gemacht", "vereinbart", "vergessen", "bekommen"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario28",
+    "sentence": "Es **...** mir auf die Nerven, dass er immer zu spät kommt.",
+    "sentenceTranslation": "Меня **...** до нервов, что он всегда опаздывает.",
+    "targetWord": "geht",
+    "targetWordTranslation": "доводит",
+    "options": ["kommt", "steht", "geht", "bleibt"],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s3_scenario29",
+    "sentence": "Ich habe die Entscheidung **...**, nach Deutschland zu ziehen.",
+    "sentenceTranslation": "Я **...** решение переехать в Германию.",
+    "targetWord": "getroffen",
+    "targetWordTranslation": "принял",
+    "options": ["gemacht", "gesagt", "getroffen", "gefunden"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario30",
+    "sentence": "Ich kann es nicht fassen, dass wir uns hier **...**!",
+    "sentenceTranslation": "Я не могу поверить, что мы здесь **...**!",
+    "targetWord": "treffen",
+    "targetWordTranslation": "встречаемся",
+    "options": ["finden", "treffen", "verlieren", "kennen"],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s3_scenario31",
+    "sentence": "Ich habe einen **...** am Telefon.",
+    "sentenceTranslation": "У меня **...** по телефону.",
+    "targetWord": "Anruf",
+    "targetWordTranslation": "звонок",
+    "options": ["Anruf", "Brief", "E-Mail", "Nachricht"],
+    "level": "A1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario32",
+    "sentence": "Können Sie mir sagen, wie **...** es ist?",
+    "sentenceTranslation": "Не могли бы вы сказать, сколько **...**?",
+    "targetWord": "spät",
+    "targetWordTranslation": "времени",
+    "options": ["früh", "spät", "schnell", "lang"],
+    "level": "A1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario33",
+    "sentence": "Ich habe ein Problem und ich **...** nicht, wie ich es lösen soll.",
+    "sentenceTranslation": "У меня проблема, и я **...** не знаю, как её решить.",
+    "targetWord": "weiß",
+    "targetWordTranslation": "знаю",
+    "options": ["vergesse", "wünsche", "weiß", "finde"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario34",
+    "sentence": "Könnten Sie das bitte **...**? Ich habe es nicht mitbekommen.",
+    "sentenceTranslation": "Не могли бы вы это **...**? Я не уловил.",
+    "targetWord": "erklären",
+    "targetWordTranslation": "объяснить",
+    "options": ["machen", "sagen", "erklären", "schreiben"],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario35",
+    "sentence": "Ich bin total **...**, weil ich so viel gearbeitet habe.",
+    "sentenceTranslation": "Я совершенно **...**, потому что так много работал.",
+    "targetWord": "erschöpft",
+    "targetWordTranslation": "измотан",
+    "options": ["glücklich", "erschöpft", "entspannt", "traurig"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s3_scenario36",
+    "sentence": "Ich habe ein neues Rezept **...** und es war köstlich.",
+    "sentenceTranslation": "Я **...** новый рецепт, и он был восхитителен.",
+    "targetWord": "ausprobiert",
+    "targetWordTranslation": "попробовал",
+    "options": ["gekocht", "ausprobiert", "gebacken", "gemacht"],
+    "level": "B1",
+    "topic": "Essen"
+  },
+  {
+    "id": "s3_scenario37",
+    "sentence": "Wir müssen uns **...**, bevor wir die Entscheidung treffen.",
+    "sentenceTranslation": "Мы должны **...** , прежде чем принимать решение.",
+    "targetWord": "besprechen",
+    "targetWordTranslation": "обсудить",
+    "options": ["entscheiden", "besprechen", "machen", "erzählen"],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario38",
+    "sentence": "Ich habe meine Schlüssel **...**.",
+    "sentenceTranslation": "Я **...** свои ключи.",
+    "targetWord": "verloren",
+    "targetWordTranslation": "потерял",
+    "options": ["gefunden", "verloren", "gekauft", "bekommen"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario39",
+    "sentence": "Die Sache ist nicht so einfach, wie sie **...**.",
+    "sentenceTranslation": "Это дело не такое простое, как **...**.",
+    "targetWord": "scheint",
+    "targetWordTranslation": "кажется",
+    "options": ["ist", "scheint", "kommt", "macht"],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s3_scenario40",
+    "sentence": "Ich **...** mir schon gedacht, dass das so endet.",
+    "sentenceTranslation": "Я **...** себе, что это так закончится.",
+    "targetWord": "habe",
+    "targetWordTranslation": "думал",
+    "options": ["habe", "bin", "werde", "mache"],
+    "level": "B1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s3_scenario41",
+    "sentence": "Ich möchte ein neues Auto **...**.",
+    "sentenceTranslation": "Я хочу **...** новую машину.",
+    "targetWord": "kaufen",
+    "targetWordTranslation": "купить",
+    "options": ["mieten", "kaufen", "verkaufen", "fahren"],
+    "level": "A1",
+    "topic": "Einkaufen"
+  },
+  {
+    "id": "s3_scenario42",
+    "sentence": "Entschuldigung, kann ich **...**?",
+    "sentenceTranslation": "Извините, могу я **...**?",
+    "targetWord": "eintreten",
+    "targetWordTranslation": "войти",
+    "options": ["eintreten", "gehen", "laufen", "fahren"],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario43",
+    "sentence": "Wir **...** uns am Wochenende im Park.",
+    "sentenceTranslation": "Мы **...** на выходных в парке.",
+    "targetWord": "treffen",
+    "targetWordTranslation": "встретимся",
+    "options": ["sehen", "bleiben", "fahren", "treffen"],
+    "level": "A1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s3_scenario44",
+    "sentence": "Ich **...** die Zeitung online.",
+    "sentenceTranslation": "Я **...** газету онлайн.",
+    "targetWord": "lese",
+    "targetWordTranslation": "читаю",
+    "options": ["höre", "sehe", "kaufe", "lese"],
+    "level": "A1",
+    "topic": "Tagesablauf"
+  },
+  {
+    "id": "s3_scenario45",
+    "sentence": "Ich habe mich **...**, wie spät es ist.",
+    "sentenceTranslation": "Я **...**, который час.",
+    "targetWord": "gefragt",
+    "targetWordTranslation": "спросил",
+    "options": ["gesagt", "gefragt", "erklärt", "vergessen"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario46",
+    "sentence": "Ich bin **...**, dass du mir geholfen hast.",
+    "sentenceTranslation": "Я **...**, что ты мне помог.",
+    "targetWord": "dankbar",
+    "targetWordTranslation": "благодарен",
+    "options": ["froh", "dankbar", "glücklich", "zufrieden"],
+    "level": "B1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s3_scenario47",
+    "sentence": "Kannst du mir einen **...** geben?",
+    "sentenceTranslation": "Можешь дать мне **...**?",
+    "targetWord": "Ratschlag",
+    "targetWordTranslation": "совет",
+    "options": ["Löffel", "Ratschlag", "Wort", "Buch"],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s3_scenario48",
+    "sentence": "Ich muss ein **...** mit meinem Chef führen.",
+    "sentenceTranslation": "Мне нужно провести **...** с моим начальником.",
+    "targetWord": "Gespräch",
+    "targetWordTranslation": "разговор",
+    "options": ["Lied", "Gespräch", "Brief", "Essen"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "s3_scenario49",
+    "sentence": "Ich **...** mir, was ich heute Abend anziehe.",
+    "sentenceTranslation": "Я **...**, что я сегодня вечером надену.",
+    "targetWord": "überlege",
+    "targetWordTranslation": "обдумываю",
+    "options": ["suche", "trage", "überlege", "kaufe"],
+    "level": "B2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s3_scenario50",
+    "sentence": "Das ist mir **...**, das ist mir nicht wichtig.",
+    "sentenceTranslation": "Это мне **...**, это для меня не важно.",
+    "targetWord": "egal",
+    "targetWordTranslation": "всё равно",
+    "options": ["wichtig", "schwer", "leicht", "egal"],
+    "level": "A2",
+    "topic": "Redewendungen"
+  }
+,
+  {
+    "id": "s4_scenario51",
+    "sentence": "Ich bin mit dem Auto **...**.",
+    "sentenceTranslation": "Я **...** на машине.",
+    "targetWord": "unterwegs",
+    "targetWordTranslation": "в пути",
+    "options": ["unterwegs", "gelaufen", "gefahren", "gegangen"],
+    "level": "A2",
+    "topic": "Reisen"
+  },
+  {
+    "id": "s4_scenario52",
+    "sentence": "Ich habe die Absicht, bald nach Berlin zu **...**.",
+    "sentenceTranslation": "У меня есть намерение скоро **...** в Берлин.",
+    "targetWord": "ziehen",
+    "targetWordTranslation": "переехать",
+    "options": ["fliegen", "fahren", "bleiben", "ziehen"],
+    "level": "B1",
+    "topic": "Reisen"
+  },
+  {
+    "id": "s4_scenario53",
+    "sentence": "Können Sie mir bitte einen **...** geben, wie ich das Problem löse?",
+    "sentenceTranslation": "Можете дать мне, пожалуйста, **...**, как мне решить эту проблему?",
+    "targetWord": "Ratschlag",
+    "targetWordTranslation": "совет",
+    "options": ["Lösung", "Ratschlag", "Hilfe", "Idee"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario54",
+    "sentence": "Ich habe keine Ahnung, was das **...** soll.",
+    "sentenceTranslation": "Я понятия не имею, что это **...**.",
+    "targetWord": "bedeuten",
+    "targetWordTranslation": "означает",
+    "options": ["sagen", "bedeuten", "machen", "tun"],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario55",
+    "sentence": "Lass uns etwas unternehmen. Ich bin total **...**.",
+    "sentenceTranslation": "Давай что-нибудь сделаем. Мне совсем **...**.",
+    "targetWord": "gelangweilt",
+    "targetWordTranslation": "скучно",
+    "options": ["glücklich", "müde", "langweilig", "gelangweilt"],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s4_scenario56",
+    "sentence": "Ich muss mich auf die Prüfung **...**.",
+    "sentenceTranslation": "Мне нужно **...** к экзамену.",
+    "targetWord": "vorbereiten",
+    "targetWordTranslation": "подготовиться",
+    "options": ["lernen", "vorbereiten", "machen", "schreiben"],
+    "level": "A2",
+    "topic": "Bildung"
+  },
+  {
+    "id": "s4_scenario57",
+    "sentence": "Ich habe das Gefühl, dass ich **...** habe.",
+    "sentenceTranslation": "У меня чувство, что я **...**.",
+    "targetWord": "enttäuscht",
+    "targetWordTranslation": "разочарован",
+    "options": ["glücklich", "zufrieden", "enttäuscht", "verwirrt"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s4_scenario58",
+    "sentence": "Wir **...** uns am Bahnhof. Wie spät?",
+    "sentenceTranslation": "Мы **...** на вокзале. Во сколько?",
+    "targetWord": "treffen",
+    "targetWordTranslation": "встретимся",
+    "options": ["sehen", "treffen", "sprechen", "fahren"],
+    "level": "A1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s4_scenario59",
+    "sentence": "Ich bin **...** mit meinem neuen Job.",
+    "sentenceTranslation": "Я **...** своей новой работой.",
+    "targetWord": "zufrieden",
+    "targetWordTranslation": "доволен",
+    "options": ["zufrieden", "unglücklich", "traurig", "gestresst"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "s4_scenario60",
+    "sentence": "Kann ich mir bitte einen **...** von dir ausleihen?",
+    "sentenceTranslation": "Могу я, пожалуйста, **...** у тебя ручку?",
+    "targetWord": "Kugelschreiber",
+    "targetWordTranslation": "ручку",
+    "options": ["Buch", "Kugelschreiber", "Geld", "Tisch"],
+    "level": "A1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario61",
+    "sentence": "Das ist mir **...**, das habe ich nicht so erwartet.",
+    "sentenceTranslation": "Это для меня **...**, я этого не ожидал.",
+    "targetWord": "überraschend",
+    "targetWordTranslation": "удивительно",
+    "options": ["logisch", "verständlich", "überraschend", "normal"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s4_scenario62",
+    "sentence": "Lass uns das **...** besprechen.",
+    "sentenceTranslation": "Давай **...** обсудим это.",
+    "targetWord": "später",
+    "targetWordTranslation": "позже",
+    "options": ["sofort", "jetzt", "später", "morgen"],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario63",
+    "sentence": "Ich habe mich in der Stadt **...**.",
+    "sentenceTranslation": "Я **...** в городе.",
+    "targetWord": "verlaufen",
+    "targetWordTranslation": "потерялся",
+    "options": ["gefunden", "verlaufen", "gefahren", "gegangen"],
+    "level": "B1",
+    "topic": "Wegbeschreibung"
+  },
+  {
+    "id": "s4_scenario64",
+    "sentence": "Ich muss mich von dem Stress **...**.",
+    "sentenceTranslation": "Мне нужно **...** от стресса.",
+    "targetWord": "erholen",
+    "targetWordTranslation": "отдохнуть",
+    "options": ["arbeiten", "erholen", "schlafen", "essen"],
+    "level": "B1",
+    "topic": "Gesundheit"
+  },
+  {
+    "id": "s4_scenario65",
+    "sentence": "Ich habe eine **...** Nachricht von meinem Freund bekommen.",
+    "sentenceTranslation": "Я получил **...** сообщение от моего друга.",
+    "targetWord": "kurze",
+    "targetWordTranslation": "короткое",
+    "options": ["lange", "schlechte", "kurze", "gute"],
+    "level": "A1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario66",
+    "sentence": "Können Sie mir sagen, wie viel **...** es kostet?",
+    "sentenceTranslation": "Не могли бы вы мне сказать, сколько это **...**?",
+    "targetWord": "es kostet",
+    "targetWordTranslation": "стоит",
+    "options": ["es dauert", "es kostet", "es ist", "es geht"],
+    "level": "A1",
+    "topic": "Einkaufen"
+  },
+  {
+    "id": "s4_scenario67",
+    "sentence": "Ich habe keine **...**, was ich kochen soll.",
+    "sentenceTranslation": "У меня нет **...**, что мне приготовить.",
+    "targetWord": "Ahnung",
+    "targetWordTranslation": "понятия",
+    "options": ["Zeit", "Lust", "Ahnung", "Idee"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario68",
+    "sentence": "Ich **...** mich sehr auf das Wochenende.",
+    "sentenceTranslation": "Я очень **...** выходные.",
+    "targetWord": "freue",
+    "targetWordTranslation": "жду",
+    "options": ["denke", "freue", "warte", "glaube"],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s4_scenario69",
+    "sentence": "Ich bin total **...** von der Situation.",
+    "sentenceTranslation": "Я совершенно **...** этой ситуацией.",
+    "targetWord": "überfordert",
+    "targetWordTranslation": "перегружен, не справляюсь",
+    "options": ["zufrieden", "überfordert", "entspannt", "glücklich"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s4_scenario70",
+    "sentence": "Ich habe die E-Mail **...**.",
+    "sentenceTranslation": "Я **...** электронное письмо.",
+    "targetWord": "gesendet",
+    "targetWordTranslation": "отправил",
+    "options": ["bekommen", "gesendet", "gelesen", "geschrieben"],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario71",
+    "sentence": "Ich möchte einen Tisch für zwei Personen **...**.",
+    "sentenceTranslation": "Я хочу **...** столик на двоих.",
+    "targetWord": "reservieren",
+    "targetWordTranslation": "забронировать",
+    "options": ["essen", "bestellen", "reservieren", "nehmen"],
+    "level": "A2",
+    "topic": "Restaurant"
+  },
+  {
+    "id": "s4_scenario72",
+    "sentence": "Ich bin total **...** von dem Film.",
+    "sentenceTranslation": "Я полностью **...** от фильма.",
+    "targetWord": "begeistert",
+    "targetWordTranslation": "в восторге",
+    "options": ["enttäuscht", "gelangweilt", "begeistert", "müde"],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s4_scenario73",
+    "sentence": "Können Sie mir bitte den Weg **...**?",
+    "sentenceTranslation": "Не могли бы вы мне, пожалуйста, **...** дорогу?",
+    "targetWord": "beschreiben",
+    "targetWordTranslation": "описать",
+    "options": ["zeigen", "gehen", "beschreiben", "laufen"],
+    "level": "A2",
+    "topic": "Wegbeschreibung"
+  },
+  {
+    "id": "s4_scenario74",
+    "sentence": "Ich muss mich dringend **...**.",
+    "sentenceTranslation": "Мне нужно срочно **...**.",
+    "targetWord": "entspannen",
+    "targetWordTranslation": "расслабиться",
+    "options": ["arbeiten", "entspannen", "essen", "lernen"],
+    "level": "B1",
+    "topic": "Gesundheit"
+  },
+  {
+    "id": "s4_scenario75",
+    "sentence": "Ich kann es kaum **...**.",
+    "sentenceTranslation": "Я едва могу в это **...**.",
+    "targetWord": "glauben",
+    "targetWordTranslation": "поверить",
+    "options": ["sehen", "machen", "glauben", "hören"],
+    "level": "B1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s4_scenario76",
+    "sentence": "Das ist mir **...**!",
+    "sentenceTranslation": "Это мне **...**!",
+    "targetWord": "egal",
+    "targetWordTranslation": "всё равно",
+    "options": ["wichtig", "schwer", "leicht", "egal"],
+    "level": "A2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s4_scenario77",
+    "sentence": "Ich habe eine wichtige **...** zu erledigen.",
+    "sentenceTranslation": "Мне нужно выполнить важное **...**.",
+    "targetWord": "Aufgabe",
+    "targetWordTranslation": "задание",
+    "options": ["Frage", "Antwort", "Sache", "Aufgabe"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "s4_scenario78",
+    "sentence": "Ich habe mich **...** entschlossen, zu kündigen.",
+    "sentenceTranslation": "Я **...** решил уволиться.",
+    "targetWord": "schweren Herzens",
+    "targetWordTranslation": "с тяжёлым сердцем",
+    "options": ["schnell", "schweren Herzens", "leicht", "sofort"],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s4_scenario79",
+    "sentence": "Ich bin **...**! Ich brauche jetzt eine Pause.",
+    "sentenceTranslation": "Я **...**! Мне сейчас нужен перерыв.",
+    "targetWord": "fertig",
+    "targetWordTranslation": "готов, закончил",
+    "options": ["fertig", "müde", "hungrig", "durstig"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario80",
+    "sentence": "Das ist eine gute **...**!",
+    "sentenceTranslation": "Это хорошая **...**!",
+    "targetWord": "Nachricht",
+    "targetWordTranslation": "новость",
+    "options": ["Frage", "Antwort", "Idee", "Nachricht"],
+    "level": "A1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario81",
+    "sentence": "Ich kann es nicht **...**.",
+    "sentenceTranslation": "Я не могу это **...**.",
+    "targetWord": "fassen",
+    "targetWordTranslation": "понять, осознать",
+    "options": ["machen", "sagen", "fassen", "denken"],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s4_scenario82",
+    "sentence": "Ich **...** die Meinung, dass wir mehr Sport machen sollten.",
+    "sentenceTranslation": "Я **...** мнение, что нам следует больше заниматься спортом.",
+    "targetWord": "bin",
+    "targetWordTranslation": "считаю",
+    "options": ["habe", "bin", "mache", "denke"],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario83",
+    "sentence": "Können Sie mir bitte das **...** geben?",
+    "sentenceTranslation": "Не могли бы вы дать мне, пожалуйста, **...**?",
+    "targetWord": "Salz",
+    "targetWordTranslation": "соль",
+    "options": ["Löffel", "Gabel", "Salz", "Pfeffer"],
+    "level": "A1",
+    "topic": "Essen"
+  },
+  {
+    "id": "s4_scenario84",
+    "sentence": "Ich habe die **...** in meinem Terminkalender notiert.",
+    "sentenceTranslation": "Я **...** в моём ежедневнике заметки.",
+    "targetWord": "Notiz",
+    "targetWordTranslation": "заметку",
+    "options": ["Notiz", "Zeitung", "Nachricht", "E-Mail"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario85",
+    "sentence": "Ich habe mich **...** entschieden, den Job anzunehmen.",
+    "sentenceTranslation": "Я **...** решил принять эту работу.",
+    "targetWord": "schließlich",
+    "targetWordTranslation": "в итоге",
+    "options": ["endlich", "schließlich", "sofort", "kurzfristig"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "s4_scenario86",
+    "sentence": "Ich bin **...**! Ich habe schon alles vorbereitet.",
+    "sentenceTranslation": "Я **...**! Я уже всё подготовил.",
+    "targetWord": "bereit",
+    "targetWordTranslation": "готов",
+    "options": ["müde", "langsam", "bereit", "zufrieden"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario87",
+    "sentence": "Das ist mir **...**, ich habe das noch nie gehört.",
+    "sentenceTranslation": "Это для меня **...**, я этого никогда не слышал.",
+    "targetWord": "unbekannt",
+    "targetWordTranslation": "неизвестно",
+    "options": ["bekannt", "neu", "unbekannt", "kompliziert"],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario88",
+    "sentence": "Ich **...** meinen Hund zum Spaziergang.",
+    "sentenceTranslation": "Я **...** мою собаку на прогулку.",
+    "targetWord": "führe",
+    "targetWordTranslation": "веду",
+    "options": ["lasse", "führe", "bringe", "nehme"],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s4_scenario89",
+    "sentence": "Es **...** mir gut, dass wir darüber gesprochen haben.",
+    "sentenceTranslation": "Мне **...** хорошо, что мы об этом поговорили.",
+    "targetWord": "tut",
+    "targetWordTranslation": "стало",
+    "options": ["macht", "ist", "hat", "tut"],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s4_scenario90",
+    "sentence": "Ich habe die Gelegenheit genutzt, um **...** zu lernen.",
+    "sentenceTranslation": "Я воспользовался возможностью, чтобы **...**.",
+    "targetWord": "zu",
+    "targetWordTranslation": "чтобы",
+    "options": ["gehen", "zu", "essen", "schlafen"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario91",
+    "sentence": "Das **...** mich sehr.",
+    "sentenceTranslation": "Это меня очень **...**.",
+    "targetWord": "interessiert",
+    "targetWordTranslation": "интересует",
+    "options": ["langweilt", "interessiert", "überrascht", "ärgert"],
+    "level": "A2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s4_scenario92",
+    "sentence": "Ich **...** gerade ein Buch.",
+    "sentenceTranslation": "Я **...** сейчас книгу.",
+    "targetWord": "lese",
+    "targetWordTranslation": "читаю",
+    "options": ["schreibe", "lese", "höre", "sehe"],
+    "level": "A1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s4_scenario93",
+    "sentence": "Ich habe eine **...** Entscheidung getroffen.",
+    "sentenceTranslation": "Я принял **...** решение.",
+    "targetWord": "wichtige",
+    "targetWordTranslation": "важное",
+    "options": ["leichte", "wichtige", "dumme", "schnelle"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario94",
+    "sentence": "Ich **...** meine Freunde zum Abendessen ein.",
+    "sentenceTranslation": "Я **...** своих друзей на ужин.",
+    "targetWord": "lade",
+    "targetWordTranslation": "приглашаю",
+    "options": ["rufe", "treffe", "lade", "koche"],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s4_scenario95",
+    "sentence": "Er hat das Spiel **...**.",
+    "sentenceTranslation": "Он **...** игру.",
+    "targetWord": "gewonnen",
+    "targetWordTranslation": "выиграл",
+    "options": ["verloren", "gewonnen", "gespielt", "gesehen"],
+    "level": "A2",
+    "topic": "Sport"
+  },
+  {
+    "id": "s4_scenario96",
+    "sentence": "Wir müssen uns **...**.",
+    "sentenceTranslation": "Мы должны **...**.",
+    "targetWord": "beeilen",
+    "targetWordTranslation": "поторопиться",
+    "options": ["ausruhen", "entspannen", "beeilen", "schlafen"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario97",
+    "sentence": "Ich habe die **...** verpasst.",
+    "sentenceTranslation": "Я **...** встречу.",
+    "targetWord": "Verabredung",
+    "targetWordTranslation": "договорённость",
+    "options": ["Arbeit", "Verabredung", "Schule", "Zeit"],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s4_scenario98",
+    "sentence": "Das ist eine **...** Idee.",
+    "sentenceTranslation": "Это **...** идея.",
+    "targetWord": "wunderbare",
+    "targetWordTranslation": "замечательная",
+    "options": ["schlechte", "langweilige", "wunderbare", "komische"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario99",
+    "sentence": "Ich muss mich an die **...** halten.",
+    "sentenceTranslation": "Я должен придерживаться **...**.",
+    "targetWord": "Regeln",
+    "targetWordTranslation": "правил",
+    "options": ["Gesetze", "Regeln", "Leute", "Vorschriften"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s4_scenario100",
+    "sentence": "Ich habe mich **...**.",
+    "sentenceTranslation": "Я **...**.",
+    "targetWord": "verletzt",
+    "targetWordTranslation": "поранился",
+    "options": ["gefreut", "gewundert", "verletzt", "erholt"],
+    "level": "A2",
+    "topic": "Gesundheit"
+  }
+,
+  {
+    "id": "s5_scenario101",
+    "sentence": "Ich gehe jetzt nach Hause. Na, wie läuft's denn so bei dir auf der Arbeit?",
+    "sentenceTranslation": "Я сейчас иду домой. Ну, как у тебя дела на работе?",
+    "targetWord": "läuft's",
+    "targetWordTranslation": "идут дела",
+    "options": [
+      "läuft's",
+      "schläft's",
+      "geht's",
+      "steht's"
+    ],
+    "level": "A2",
+    "topic": "Grußformeln"
+  },
+  {
+    "id": "s5_scenario102",
+    "sentence": "Nach dem langen Marathonlauf bin ich total **...** und kann kaum noch stehen.",
+    "sentenceTranslation": "После долгого марафона я совсем **...** и едва могу стоять.",
+    "targetWord": "fertig",
+    "targetWordTranslation": "уставший",
+    "options": [
+      "fertig",
+      "bereit",
+      "froh",
+      "gut"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario103",
+    "sentence": "Ich wollte zuerst das blaue Hemd kaufen, aber ich hab's mir **...** überlegt und nehme jetzt das rote.",
+    "sentenceTranslation": "Сначала я хотел купить синюю рубашку, но я **...** передумал и теперь возьму красную.",
+    "targetWord": "anders",
+    "targetWordTranslation": "по-другому",
+    "options": [
+      "anders",
+      "schnell",
+      "oft",
+      "nie"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario104",
+    "sentence": "Der Drucker ist kaputt, aber kein Problem, das kriegen wir **...** hin, indem wir ihn neu starten.",
+    "sentenceTranslation": "Принтер сломался, но не проблема, мы с этим **...** справимся, перезапустив его.",
+    "targetWord": "schon",
+    "targetWordTranslation": "уж",
+    "options": [
+      "schon",
+      "nicht",
+      "nie",
+      "leider"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario105",
+    "sentence": "Du siehst so traurig aus. Was ist denn **...** los?",
+    "sentenceTranslation": "Ты выглядишь таким грустным. Что же **...** случилось?",
+    "targetWord": "eigentlich",
+    "targetWordTranslation": "собственно",
+    "options": [
+      "eigentlich",
+      "jetzt",
+      "schon",
+      "hier"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario106",
+    "sentence": "Er hat mir zum zehnten Mal die gleiche Geschichte erzählt. Ich hab **...** die Nase voll.",
+    "sentenceTranslation": "Он рассказал мне одну и ту же историю в десятый раз. Мне **...** надоело.",
+    "targetWord": "davon",
+    "targetWordTranslation": "от этого",
+    "options": [
+      "davon",
+      "dafür",
+      "darin",
+      "dagegen"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario107",
+    "sentence": "Deine Idee ist **...**! So können wir das Problem schnell lösen.",
+    "sentenceTranslation": "Твоя идея **...**! Так мы сможем быстро решить проблему.",
+    "targetWord": "echt super",
+    "targetWordTranslation": "действительно здорово",
+    "options": [
+      "echt super",
+      "echt dumm",
+      "nicht gut",
+      "ganz normal"
+    ],
+    "level": "A2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario108",
+    "sentence": "Ich habe jetzt keine Zeit. Können wir das bitte **...** machen, wenn ich mit der Arbeit fertig bin?",
+    "sentenceTranslation": "У меня сейчас нет времени. Мы можем, пожалуйста, сделать это **...**, когда я закончу работу?",
+    "targetWord": "später",
+    "targetWordTranslation": "позже",
+    "options": [
+      "später",
+      "sofort",
+      "jetzt",
+      "morgen"
+    ],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario109",
+    "sentence": "Die Antwort steht im Buch auf Seite 10. Das ist doch **...**, oder?",
+    "sentenceTranslation": "Ответ находится в книге на странице 10. Это ведь **...**, не так ли?",
+    "targetWord": "klar",
+    "targetWordTranslation": "ясно",
+    "options": [
+      "klar",
+      "schwierig",
+      "kompliziert",
+      "neu"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario110",
+    "sentence": "Das Examen wird nicht so schwer. Mach dir **...** Sorgen.",
+    "sentenceTranslation": "Экзамен будет не таким сложным. Не **...** волнуйся.",
+    "targetWord": "keine",
+    "targetWordTranslation": "никаких",
+    "options": [
+      "keine",
+      "viele",
+      "einige",
+      "paar"
+    ],
+    "level": "A2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario111",
+    "sentence": "Er beschwert sich immer nur. Ich habe die **...** voll und will seine Klagen nicht mehr hören.",
+    "sentenceTranslation": "Он всегда только жалуется. Я **...** сыт по горло и больше не хочу слышать его жалоб.",
+    "targetWord": "Schnauze",
+    "targetWordTranslation": "по горло",
+    "options": [
+      "Schnauze",
+      "Hände",
+      "Tasche",
+      "Kopf"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario112",
+    "sentence": "Ob wir mit dem Bus oder mit der Bahn fahren, das ist mir **...**, Hauptsache, wir kommen pünktlich an.",
+    "sentenceTranslation": "Поедем ли мы на автобусе или на поезде, это мне **...**, главное, чтобы мы приехали вовремя.",
+    "targetWord": "egal",
+    "targetWordTranslation": "все равно",
+    "options": [
+      "egal",
+      "wichtig",
+      "neu",
+      "schwer"
+    ],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario113",
+    "sentence": "Er kann mich mal. Ob er kommt oder nicht, das ist mir **...**!",
+    "sentenceTranslation": "Он может идти куда угодно. Придет он или нет, это меня **...**!",
+    "targetWord": "wurst",
+    "targetWordTranslation": "совершенно не волнует",
+    "options": [
+      "wurst",
+      "brot",
+      "bier",
+      "käse"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario114",
+    "sentence": "Nachdem ich alle meine Ersparnisse für das Haus ausgegeben habe, bin ich total **...**.",
+    "sentenceTranslation": "После того как я потратил все свои сбережения на дом, я совершенно **...**.",
+    "targetWord": "pleite",
+    "targetWordTranslation": "на мели",
+    "options": [
+      "reich",
+      "pleite",
+      "glücklich",
+      "traurig"
+    ],
+    "level": "B2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario115",
+    "sentence": "Wir sind total **...** verabredet, weil wir den Treffpunkt falsch verstanden haben.",
+    "sentenceTranslation": "Мы совершенно **...** договорились, потому что неправильно поняли место встречи.",
+    "targetWord": "blöd",
+    "targetWordTranslation": "глупо",
+    "options": [
+      "gut",
+      "blöd",
+      "schnell",
+      "schön"
+    ],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario116",
+    "sentence": "Wir sind in Eile, also können wir das **...** machen, um den Zug noch zu erreichen?",
+    "sentenceTranslation": "Мы спешим, так что можем сделать это **...**, чтобы успеть на поезд?",
+    "targetWord": "schneller",
+    "targetWordTranslation": "быстрее",
+    "options": [
+      "schneller",
+      "langsamer",
+      "besser",
+      "schlechter"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario117",
+    "sentence": "Ich habe keine **...** mehr, um dieses langweilige Buch weiterzulesen.",
+    "sentenceTranslation": "У меня больше нет **...**, чтобы продолжать читать эту скучную книгу.",
+    "targetWord": "Lust",
+    "targetWordTranslation": "желания",
+    "options": [
+      "Zeit",
+      "Lust",
+      "Geld",
+      "Idee"
+    ],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s5_scenario118",
+    "sentence": "Schon wieder eine Stunde warten? Das ist mir **...**!",
+    "sentenceTranslation": "Снова ждать час? Это мне **...**!",
+    "targetWord": "zu blöd",
+    "targetWordTranslation": "надоело, слишком глупо",
+    "options": [
+      "zu blöd",
+      "zu gut",
+      "zu teuer",
+      "zu einfach"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario119",
+    "sentence": "Nach der Party gestern Abend bin ich total **...**, ich habe starke Kopfschmerzen.",
+    "sentenceTranslation": "После вечеринки вчера вечером я совершенно **...**, у меня сильная головная боль.",
+    "targetWord": "verkatert",
+    "targetWordTranslation": "с похмельем",
+    "options": [
+      "verkatert",
+      "müde",
+      "glücklich",
+      "wach"
+    ],
+    "level": "C1",
+    "topic": "Gesundheit"
+  },
+  {
+    "id": "s5_scenario120",
+    "sentence": "Der Zug fährt in fünf Minuten ab, wir müssen uns jetzt **...**.",
+    "sentenceTranslation": "Поезд отправляется через пять минут, мы должны сейчас **...**.",
+    "targetWord": "sputen",
+    "targetWordTranslation": "торопиться",
+    "options": [
+      "spazieren",
+      "treffen",
+      "spuren",
+      "sputen"
+    ],
+    "level": "C1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario121",
+    "sentence": "Das geht **...** gar nicht, das Projekt in so kurzer Zeit fertigzustellen.",
+    "sentenceTranslation": "Это **...** совсем не подходит, чтобы завершить проект за такое короткое время.",
+    "targetWord": "absolut",
+    "targetWordTranslation": "абсолютно",
+    "options": [
+      "absolut",
+      "leider",
+      "jetzt",
+      "nie"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario122",
+    "sentence": "Ich hab's **...**, immer die gleichen Aufgaben zu machen.",
+    "sentenceTranslation": "Я **...**, всегда выполнять одни и те же задачи.",
+    "targetWord": "satt",
+    "targetWordTranslation": "сыт по горло",
+    "options": [
+      "satt",
+      "genug",
+      "voll",
+      "leer"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario123",
+    "sentence": "Nach der anstrengenden Woche, lass uns am Freitag **...** und entspannen.",
+    "sentenceTranslation": "После напряженной недели, давай в пятницу **...** и расслабимся.",
+    "targetWord": "einen trinken gehen",
+    "targetWordTranslation": "выпьем",
+    "options": [
+      "einen trinken gehen",
+      "spazieren gehen",
+      "ins Kino gehen",
+      "zu Hause bleiben"
+    ],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s5_scenario124",
+    "sentence": "Wir haben das ganze Wochenende frei. Komm, wir **...** einfach auf dem Sofa und schauen Filme.",
+    "sentenceTranslation": "У нас свободны все выходные. Пойдем, мы просто **...** на диване и посмотрим фильмы.",
+    "targetWord": "chillen",
+    "targetWordTranslation": "расслабимся",
+    "options": [
+      "arbeiten",
+      "laufen",
+      "chillen",
+      "lernen"
+    ],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s5_scenario125",
+    "sentence": "Ich bin **...**! Sag mir einfach, wann und wo wir uns treffen, und ich bin da.",
+    "sentenceTranslation": "Я **...**! Просто скажи мне, когда и где мы встретимся, и я буду там.",
+    "targetWord": "am Start",
+    "targetWordTranslation": "в деле, готов",
+    "options": [
+      "am Start",
+      "im Ziel",
+      "fertig",
+      "allein"
+    ],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario126",
+    "sentence": "Ich habe dich schon ewig nicht gesehen. Was geht **...** bei dir?",
+    "sentenceTranslation": "Я тебя сто лет не видел. Что **...** у тебя происходит?",
+    "targetWord": "ab",
+    "targetWordTranslation": "происходит",
+    "options": [
+      "ab",
+      "an",
+      "auf",
+      "vor"
+    ],
+    "level": "B1",
+    "topic": "Grußformeln"
+  },
+  {
+    "id": "s5_scenario127",
+    "sentence": "Alle schwärmen vom neuen Film. Ich bin total **...** auf den Film, ich muss ihn unbedingt sehen!",
+    "sentenceTranslation": "Все в восторге от нового фильма. Я **...** по этому фильму, я обязательно должен его посмотреть!",
+    "targetWord": "heiß",
+    "targetWordTranslation": "в восторге",
+    "options": [
+      "heiß",
+      "kalt",
+      "müde",
+      "froh"
+    ],
+    "level": "B2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s5_scenario128",
+    "sentence": "Ob der Bus pünktlich kommt oder nicht, das ist mir **...**, ich habe keine Termine.",
+    "sentenceTranslation": "Придет ли автобус вовремя или нет, это мне **...**, у меня нет назначенных встреч.",
+    "targetWord": "schneewurst",
+    "targetWordTranslation": "абсолютно все равно",
+    "options": [
+      "schneewurst",
+      "schneemann",
+      "schnee",
+      "schwein"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario129",
+    "sentence": "Du hast doch gesagt, du hast gewonnen. Das ist **...**, du machst doch nur Spaß, oder?",
+    "sentenceTranslation": "Ты же сказал, что выиграл. Это **...**, ты же просто шутишь, не так ли?",
+    "targetWord": "ein Witz",
+    "targetWordTranslation": "шутка",
+    "options": [
+      "ein Witz",
+      "ein Problem",
+      "ein Thema",
+      "eine Sache"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario130",
+    "sentence": "Ich hab das Meeting **...**, weil mein Wecker nicht geklingelt hat.",
+    "sentenceTranslation": "Я **...** это совещание, потому что мой будильник не прозвенел.",
+    "targetWord": "verpennt",
+    "targetWordTranslation": "проспал",
+    "options": [
+      "verpennt",
+      "verpasst",
+      "gesehen",
+      "gelesen"
+    ],
+    "level": "B2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario131",
+    "sentence": "Ich bin gestolpert und hingefallen. Das ist so **...** vor so vielen Leuten.",
+    "sentenceTranslation": "Я споткнулся и упал. Это так **...** перед таким количеством людей.",
+    "targetWord": "peinlich",
+    "targetWordTranslation": "неловко",
+    "options": [
+      "lustig",
+      "schön",
+      "peinlich",
+      "gut"
+    ],
+    "level": "B1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario132",
+    "sentence": "Lass uns heute Abend **...** und uns einfach auf ein Bier treffen.",
+    "sentenceTranslation": "Давай сегодня вечером **...** и просто встретимся на пиво.",
+    "targetWord": "abhängen",
+    "targetWordTranslation": "потусуемся",
+    "options": [
+      "abhängen",
+      "arbeiten",
+      "lernen",
+      "kochen"
+    ],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s5_scenario133",
+    "sentence": "Ich muss lernen, aber ich hab **...** Bock dazu.",
+    "sentenceTranslation": "Я должен учиться, но у меня **...** желания.",
+    "targetWord": "keinen",
+    "targetWordTranslation": "нет",
+    "options": [
+      "keinen",
+      "großen",
+      "einen",
+      "viel"
+    ],
+    "level": "A2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario134",
+    "sentence": "Der Trick, den der Magier gemacht hat, war so **...**!",
+    "sentenceTranslation": "Фокус, который сделал фокусник, был такой **...**!",
+    "targetWord": "krank",
+    "targetWordTranslation": "сумасшедше, круто",
+    "options": [
+      "krank",
+      "gesund",
+      "normal",
+      "schlecht"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario135",
+    "sentence": "Er hat schon wieder den falschen Weg genommen, obwohl ich es ihm genau erklärt habe. Er ist ein **...**.",
+    "sentenceTranslation": "Он снова пошел не тем путем, хотя я ему все подробно объяснил. Он **...**.",
+    "targetWord": "Vollidiot",
+    "targetWordTranslation": "полный идиот",
+    "options": [
+      "Vollidiot",
+      "Freund",
+      "Kollege",
+      "Nachbar"
+    ],
+    "level": "B2",
+    "topic": "Personenbeschreibung"
+  },
+  {
+    "id": "s5_scenario136",
+    "sentence": "Entschuldigung, ich muss mal kurz **...**. Wo ist die Toilette?",
+    "sentenceTranslation": "Извините, мне нужно ненадолго **...**. Где туалет?",
+    "targetWord": "austreten",
+    "targetWordTranslation": "выйти (в туалет)",
+    "options": [
+      "austreten",
+      "eintreten",
+      "aufstehen",
+      "hinsetzen"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario137",
+    "sentence": "Diese neue Technologie ist **...**, sie wird die ganze Branche verändern.",
+    "sentenceTranslation": "Эта новая технология — **...**, она изменит всю отрасль.",
+    "targetWord": "der Hammer",
+    "targetWordTranslation": "нечто, потрясающе",
+    "options": [
+      "der Hammer",
+      "die Gabel",
+      "der Löffel",
+      "das Messer"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario138",
+    "sentence": "Das Restaurant war viel kleiner, als ich dachte. Ich hab's mir **...** vorgestellt.",
+    "sentenceTranslation": "Ресторан был намного меньше, чем я думал. Я **...** это представлял.",
+    "targetWord": "anders",
+    "targetWordTranslation": "по-другому",
+    "options": [
+      "anders",
+      "genau so",
+      "schnell",
+      "schlecht"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario139",
+    "sentence": "Deine Augen sind ganz rot. Was ist **...** los?",
+    "sentenceTranslation": "Твои глаза совсем красные. Что **...** случилось?",
+    "targetWord": "denn",
+    "targetWordTranslation": "же",
+    "options": [
+      "denn",
+      "dann",
+      "wenn",
+      "wann"
+    ],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario140",
+    "sentence": "Ich habe heute einen wichtigen Termin. Können wir das **...** verschieben?",
+    "sentenceTranslation": "У меня сегодня важная встреча. Мы можем **...** это перенести?",
+    "targetWord": "ein bisschen",
+    "targetWordTranslation": "немного",
+    "options": [
+      "ein bisschen",
+      "einmal",
+      "nie",
+      "oft"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario141",
+    "sentence": "Nach 12 Stunden Arbeit ohne Pause bin ich total **...** und brauche Schlaf.",
+    "sentenceTranslation": "После 12 часов работы без перерыва я совершенно **...** и нуждаюсь во сне.",
+    "targetWord": "durch",
+    "targetWordTranslation": "измотан",
+    "options": [
+      "durch",
+      "dabei",
+      "draußen",
+      "drinnen"
+    ],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario142",
+    "sentence": "Ich war gestern auf einer Party und habe zu viel getrunken. Heute habe ich einen **...**.",
+    "sentenceTranslation": "Вчера я был на вечеринке и слишком много выпил. Сегодня у меня **...**.",
+    "targetWord": "Kater",
+    "targetWordTranslation": "похмелье",
+    "options": [
+      "Kater",
+      "Hund",
+      "Vogel",
+      "Fisch"
+    ],
+    "level": "B2",
+    "topic": "Gesundheit"
+  },
+  {
+    "id": "s5_scenario143",
+    "sentence": "Die Idee, dass man die Welt mit einem Löffel graben kann, ist reiner **...**.",
+    "sentenceTranslation": "Идея, что можно вырыть мир ложкой, — это чистый **...**.",
+    "targetWord": "Schwachsinn",
+    "targetWordTranslation": "бред, ерунда",
+    "options": [
+      "Schwachsinn",
+      "Sinn",
+      "Wahrheit",
+      "Lüge"
+    ],
+    "level": "C1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario144",
+    "sentence": "Ich habe es satt, immer wieder die gleichen Fehler zu machen. Ich habe die **...**.",
+    "sentenceTranslation": "Мне надоело постоянно делать одни и те же ошибки. У меня **...**.",
+    "targetWord": "Schnauze voll",
+    "targetWordTranslation": "достало",
+    "options": [
+      "Schnauze voll",
+      "Hände voll",
+      "Zeit voll",
+      "Kopf voll"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario145",
+    "sentence": "Die Prüfung ist morgen, aber keine Sorge, wir **...** das schon.",
+    "sentenceTranslation": "Экзамен завтра, но не волнуйся, мы **...** это уже.",
+    "targetWord": "schaffen",
+    "targetWordTranslation": "сделаем",
+    "options": [
+      "schaffen",
+      "machen",
+      "tun",
+      "haben"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario146",
+    "sentence": "Dein neues Handy ist **...**! Ich will auch so eins haben.",
+    "sentenceTranslation": "Твой новый телефон — **...**! Я тоже хочу такой.",
+    "targetWord": "mega",
+    "targetWordTranslation": "мега",
+    "options": [
+      "mega",
+      "normal",
+      "schlecht",
+      "gut"
+    ],
+    "level": "A2",
+    "topic": "Umgangssprache"
+  },
+  {
+    "id": "s5_scenario147",
+    "sentence": "Ich habe meinen Schlüssel verloren und bin schon zum dritten Mal in die falsche Richtung gelaufen. Ich bin heute total **...**.",
+    "sentenceTranslation": "Я потерял свой ключ и уже в третий раз пошел не в ту сторону. Я сегодня совсем **...**.",
+    "targetWord": "verpeilt",
+    "targetWordTranslation": "рассеянный",
+    "options": [
+      "verpeilt",
+      "wach",
+      "konzentriert",
+      "sicher"
+    ],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario148",
+    "sentence": "Nachdem ich den ganzen Tag in der Warteschleife gehangen habe, habe ich die **...** verloren.",
+    "sentenceTranslation": "Провисев весь день в режиме ожидания, я **...** потерял.",
+    "targetWord": "Nerven",
+    "targetWordTranslation": "нервы",
+    "options": [
+      "Nerven",
+      "Hände",
+      "Schlüssel",
+      "Tasche"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario149",
+    "sentence": "Wir sind schon spät dran für den Flug. Wir müssen uns **...**, um nicht zu spät zu kommen.",
+    "sentenceTranslation": "Мы уже опаздываем на рейс. Мы должны **...**, чтобы не опоздать.",
+    "targetWord": "ranhalten",
+    "targetWordTranslation": "поторопиться",
+    "options": [
+      "ranhalten",
+      "entspannen",
+      "laufen",
+      "fahren"
+    ],
+    "level": "B2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario150",
+    "sentence": "Wir haben das Projekt fast fertig. Lass uns das **...** bei einem Kaffee bequatschen.",
+    "sentenceTranslation": "Мы почти закончили проект. Давай **...** это обсудим за чашкой кофе.",
+    "targetWord": "mal",
+    "targetWordTranslation": "как-нибудь",
+    "options": [
+      "mal",
+      "nie",
+      "oft",
+      "jetzt"
+    ],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario151",
+    "sentence": "Ich bin heute total **...**, ich habe starke Migräne und muss den ganzen Tag im Bett bleiben.",
+    "sentenceTranslation": "Я сегодня совершенно **...**, у меня сильная мигрень, и я должен весь день оставаться в постели.",
+    "targetWord": "durch den Wind",
+    "targetWordTranslation": "не в себе, дезориентирован",
+    "options": [
+      "durch den Wind",
+      "auf dem Holzweg",
+      "am Ende",
+      "auf Wolke sieben"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario152",
+    "sentence": "Die Arbeit heute war wirklich anstrengend, ich habe jetzt **...**.",
+    "sentenceTranslation": "Сегодняшняя работа была действительно напряженной, я теперь **...**.",
+    "targetWord": "Feierabend",
+    "targetWordTranslation": "окончание рабочего дня",
+    "options": [
+      "Feierabend",
+      "Feiertag",
+      "Wochenende",
+      "Urlaub"
+    ],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario153",
+    "sentence": "Obwohl er krank ist, hat er sich **...** aufgerappelt und ist zur Arbeit gegangen.",
+    "sentenceTranslation": "Хотя он болен, он **...** собрался и пошел на работу.",
+    "targetWord": "trotzdem",
+    "targetWordTranslation": "все-таки",
+    "options": [
+      "trotzdem",
+      "deshalb",
+      "weil",
+      "obwohl"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario154",
+    "sentence": "Er ist sehr unzuverlässig, du kannst dich **...** nicht auf ihn verlassen.",
+    "sentenceTranslation": "Он очень ненадежный, ты **...** не можешь на него положиться.",
+    "targetWord": "einfach",
+    "targetWordTranslation": "просто",
+    "options": [
+      "einfach",
+      "immer",
+      "schon",
+      "nie"
+    ],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario155",
+    "sentence": "Ich habe die ganze Nacht gelernt und bin jetzt total **...** und kann mich nicht mehr konzentrieren.",
+    "sentenceTranslation": "Я учился всю ночь и теперь совершенно **...** и не могу больше концентрироваться.",
+    "targetWord": "am Limit",
+    "targetWordTranslation": "на пределе",
+    "options": [
+      "am Limit",
+      "am Ziel",
+      "am Start",
+      "am Ende"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario156",
+    "sentence": "Wir sind **...** verabredet, aber ich bin mir nicht sicher, ob er kommt.",
+    "sentenceTranslation": "Мы **...** договорились, но я не уверен, придет ли он.",
+    "targetWord": "eigentlich",
+    "targetWordTranslation": "вообще-то",
+    "options": [
+      "eigentlich",
+      "jetzt",
+      "schon",
+      "hier"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario157",
+    "sentence": "Er ist ein sehr guter Freund, er hat mir **...** geholfen, als ich in Not war.",
+    "sentenceTranslation": "Он очень хороший друг, он **...** мне помог, когда я был в беде.",
+    "targetWord": "immer",
+    "targetWordTranslation": "всегда",
+    "options": [
+      "immer",
+      "nie",
+      "manchmal",
+      "oft"
+    ],
+    "level": "A2",
+    "topic": "Personenbeschreibung"
+  },
+  {
+    "id": "s5_scenario158",
+    "sentence": "Nach dem Gespräch fühle ich mich **...** besser und bin nicht mehr so traurig.",
+    "sentenceTranslation": "После разговора я чувствую себя **...** лучше и больше не так грустно.",
+    "targetWord": "ein wenig",
+    "targetWordTranslation": "немного",
+    "options": [
+      "ein wenig",
+      "sehr",
+      "gar nicht",
+      "absolut"
+    ],
+    "level": "B1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario159",
+    "sentence": "Lass uns nicht **...** reden, sondern direkt zum Punkt kommen.",
+    "sentenceTranslation": "Давай не будем **...** говорить, а перейдем прямо к делу.",
+    "targetWord": "um den heißen Brei",
+    "targetWordTranslation": "вокруг да около",
+    "options": [
+      "um den heißen Brei",
+      "über den Zaun",
+      "am Lagerfeuer",
+      "unter dem Tisch"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario160",
+    "sentence": "Ich habe die ganze Nacht durchgearbeitet und sehe jetzt total **...** aus.",
+    "sentenceTranslation": "Я работал всю ночь напролет и теперь выгляжу совершенно **...**.",
+    "targetWord": "fertig",
+    "targetWordTranslation": "измотанно",
+    "options": [
+      "fertig",
+      "gut",
+      "erholt",
+      "frisch"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario161",
+    "sentence": "Die Prüfung war **...** schwer. Ich glaube, ich habe sie nicht bestanden.",
+    "sentenceTranslation": "Экзамен был **...** сложным. Я думаю, я его не сдал.",
+    "targetWord": "sau",
+    "targetWordTranslation": "чертовски (очень)",
+    "options": [
+      "sau",
+      "mega",
+      "super",
+      "toll"
+    ],
+    "level": "C1",
+    "topic": "Umgangssprache"
+  },
+  {
+    "id": "s5_scenario162",
+    "sentence": "Ich bin so **...**, ich habe keine Energie mehr für nichts.",
+    "sentenceTranslation": "Я так **...**, у меня нет сил ни на что.",
+    "targetWord": "am Ende",
+    "targetWordTranslation": "на исходе сил",
+    "options": [
+      "am Ende",
+      "am Anfang",
+      "in der Mitte",
+      "am Start"
+    ],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario163",
+    "sentence": "Er hat die Prüfung nur mit Ach und Krach bestanden. Es war wirklich **...**.",
+    "sentenceTranslation": "Он сдал экзамен с горем пополам. Это было действительно **...**.",
+    "targetWord": "knapp",
+    "targetWordTranslation": "впритык",
+    "options": [
+      "knapp",
+      "einfach",
+      "leicht",
+      "schlecht"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario164",
+    "sentence": "Nachdem ich das Problem gelöst habe, fühle ich mich **...** erleichtert.",
+    "sentenceTranslation": "После того, как я решил проблему, я чувствую себя **...** облегченным.",
+    "targetWord": "total",
+    "targetWordTranslation": "полностью",
+    "options": [
+      "total",
+      "kaum",
+      "nie",
+      "immer"
+    ],
+    "level": "A2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario165",
+    "sentence": "Es ist mir **...**, was du denkst. Ich mache es trotzdem.",
+    "sentenceTranslation": "Мне **...**, что ты думаешь. Я все равно это сделаю.",
+    "targetWord": "wurst",
+    "targetWordTranslation": "все равно",
+    "options": [
+      "wurst",
+      "egal",
+      "brot",
+      "bier"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario166",
+    "sentence": "Wir hatten eine tolle Party gestern. Es war **...**.",
+    "sentenceTranslation": "Вчера у нас была отличная вечеринка. Было **...**.",
+    "targetWord": "der Hammer",
+    "targetWordTranslation": "потрясающе",
+    "options": [
+      "der Hammer",
+      "die Gabel",
+      "der Löffel",
+      "das Messer"
+    ],
+    "level": "B2",
+    "topic": "Umgangssprache"
+  },
+  {
+    "id": "s5_scenario167",
+    "sentence": "Ich bin zu müde zum Kochen. Lass uns heute Abend **...** bestellen.",
+    "sentenceTranslation": "Я слишком устал, чтобы готовить. Давай сегодня вечером **...** закажем.",
+    "targetWord": "Essen",
+    "targetWordTranslation": "еду",
+    "options": [
+      "Essen",
+      "Trinken",
+      "Bücher",
+      "Kino"
+    ],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario168",
+    "sentence": "Wir müssen uns **...**, sonst verpassen wir den Bus!",
+    "sentenceTranslation": "Нам нужно **...**, иначе мы опоздаем на автобус!",
+    "targetWord": "beeilen",
+    "targetWordTranslation": "поторопиться",
+    "options": [
+      "beeilen",
+      "entspannen",
+      "warten",
+      "verlaufen"
+    ],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario169",
+    "sentence": "Du hast ja **...**! Ich wusste nicht, dass du so gut singen kannst.",
+    "sentenceTranslation": "Ты **...**! Я не знал, что ты так хорошо поешь.",
+    "targetWord": "den Vogel abgeschossen",
+    "targetWordTranslation": "превзошел всех",
+    "options": [
+      "den Vogel abgeschossen",
+      "den Fisch gebraten",
+      "die Katze im Sack gekauft",
+      "den Hund begraben"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario170",
+    "sentence": "Ich kann jetzt nicht, ich bin gerade **...**.",
+    "sentenceTranslation": "Я не могу сейчас, я как раз **...**.",
+    "targetWord": "dabei",
+    "targetWordTranslation": "занят",
+    "options": [
+      "dabei",
+      "draussen",
+      "drinnen",
+      "dafür"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario171",
+    "sentence": "Die Situation ist sehr **...**, wir müssen vorsichtig sein.",
+    "sentenceTranslation": "Ситуация очень **...**, мы должны быть осторожны.",
+    "targetWord": "heikel",
+    "targetWordTranslation": "щекотливая, сложная",
+    "options": [
+      "heikel",
+      "einfach",
+      "sicher",
+      "gut"
+    ],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario172",
+    "sentence": "Ich habe keine Ahnung, was ich machen soll. Ich bin total **...**.",
+    "sentenceTranslation": "Я понятия не имею, что делать. Я совершенно **...**.",
+    "targetWord": "planlos",
+    "targetWordTranslation": "без плана",
+    "options": [
+      "planlos",
+      "planvoll",
+      "zielstrebig",
+      "erfolgreich"
+    ],
+    "level": "B1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario173",
+    "sentence": "Das ist doch **...**, das versteht ja jeder!",
+    "sentenceTranslation": "Это же **...**, это поймет каждый!",
+    "targetWord": "sonnenklar",
+    "targetWordTranslation": "предельно ясно",
+    "options": [
+      "sonnenklar",
+      "unklar",
+      "kompliziert",
+      "schwierig"
+    ],
+    "level": "C1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario174",
+    "sentence": "Der Lehrer hat uns **...** aufgegeben, dass wir das Buch bis morgen lesen müssen.",
+    "sentenceTranslation": "Учитель **...** дал нам задание, что мы должны прочитать книгу до завтра.",
+    "targetWord": "unmissverständlich",
+    "targetWordTranslation": "недвусмысленно",
+    "options": [
+      "unmissverständlich",
+      "leise",
+      "schnell",
+      "verwirrt"
+    ],
+    "level": "C1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario175",
+    "sentence": "Ich bin so glücklich! Ich fühle mich wie auf **...**.",
+    "sentenceTranslation": "Я так счастлив! Я чувствую себя как на **...**.",
+    "targetWord": "Wolke sieben",
+    "targetWordTranslation": "седьмом небе",
+    "options": [
+      "Wolke sieben",
+      "dem Boden der Tatsachen",
+      "dem Mond",
+      "der Erde"
+    ],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario176",
+    "sentence": "Die Veranstaltung war ein voller Erfolg. Das war ein echtes **...**.",
+    "sentenceTranslation": "Мероприятие имело полный успех. Это был настоящий **...**.",
+    "targetWord": "Highlight",
+    "targetWordTranslation": "изюминка, основной момент",
+    "options": [
+      "Highlight",
+      "Problem",
+      "Reinfall",
+      "Desaster"
+    ],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s5_scenario177",
+    "sentence": "Wir sind **...** auf der Party, obwohl wir uns nicht kannten, haben wir uns gut verstanden.",
+    "sentenceTranslation": "Мы **...** на вечеринке, хотя мы не были знакомы, мы хорошо ладили.",
+    "targetWord": "gut klargekommen",
+    "targetWordTranslation": "хорошо поладили",
+    "options": [
+      "gut klargekommen",
+      "gestritten",
+      "ignoriert",
+      "verloren"
+    ],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario178",
+    "sentence": "Ich bin total **...** mit meinem neuen Auto. Es fährt sich so gut.",
+    "sentenceTranslation": "Я совершенно **...** своим новым автомобилем. Он так хорошо ездит.",
+    "targetWord": "happy",
+    "targetWordTranslation": "доволен, счастлив",
+    "options": [
+      "happy",
+      "traurig",
+      "wütend",
+      "müde"
+    ],
+    "level": "A2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario179",
+    "sentence": "Obwohl er viel Geld hat, ist er **...** nicht glücklich.",
+    "sentenceTranslation": "Хотя у него много денег, он **...** не счастлив.",
+    "targetWord": "trotzdem",
+    "targetWordTranslation": "все-таки",
+    "options": [
+      "trotzdem",
+      "deshalb",
+      "weil",
+      "obwohl"
+    ],
+    "level": "B1",
+    "topic": "Personenbeschreibung"
+  },
+  {
+    "id": "s5_scenario180",
+    "sentence": "Ich habe einen Termin um 14 Uhr. Ich muss **...**, sonst komme ich zu spät.",
+    "sentenceTranslation": "У меня встреча в 14:00. Мне нужно **...**, иначе я опоздаю.",
+    "targetWord": "mich sputen",
+    "targetWordTranslation": "торопиться",
+    "options": [
+      "mich sputen",
+      "mich entspannen",
+      "mich ausruhen",
+      "mich hinsetzen"
+    ],
+    "level": "C1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario181",
+    "sentence": "Ich kann dieses Problem nicht alleine lösen. Ich **...** deine Hilfe.",
+    "sentenceTranslation": "Я не могу решить эту проблему один. Мне **...** твоя помощь.",
+    "targetWord": "brauche",
+    "targetWordTranslation": "нужна",
+    "options": [
+      "brauche",
+      "gebe",
+      "habe",
+      "sehe"
+    ],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario182",
+    "sentence": "Nach dem langen Spaziergang durch den Wald fühle ich mich **...** und erfrischt.",
+    "sentenceTranslation": "После долгой прогулки по лесу я чувствую себя **...** и освеженным.",
+    "targetWord": "wieder fit",
+    "targetWordTranslation": "снова в форме",
+    "options": [
+      "wieder fit",
+      "immer noch müde",
+      "sehr krank",
+      "ganz schwach"
+    ],
+    "level": "B1",
+    "topic": "Gesundheit"
+  },
+  {
+    "id": "s5_scenario183",
+    "sentence": "Ich habe die ganze Sache **...**.",
+    "sentenceTranslation": "Я **...** всю эту историю.",
+    "targetWord": "satt",
+    "targetWordTranslation": "сыт по горло",
+    "options": [
+      "satt",
+      "hungrig",
+      "durstig",
+      "froh"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario184",
+    "sentence": "Die Prüfung war **...** schwer, ich habe sie locker bestanden.",
+    "sentenceTranslation": "Экзамен был **...** сложным, я его легко сдал.",
+    "targetWord": "nicht besonders",
+    "targetWordTranslation": "не особенно",
+    "options": [
+      "nicht besonders",
+      "sehr",
+      "extrem",
+      "total"
+    ],
+    "level": "B1",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario185",
+    "sentence": "Ich habe heute morgen **...** meinen Wecker verpennt.",
+    "sentenceTranslation": "Я сегодня утром **...** проспал свой будильник.",
+    "targetWord": "schon wieder",
+    "targetWordTranslation": "опять",
+    "options": [
+      "schon wieder",
+      "noch nie",
+      "immer noch",
+      "immer wieder"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario186",
+    "sentence": "Er ist ein totaler **...**, er erzählt nur Unsinn.",
+    "sentenceTranslation": "Он полный **...**, он говорит только ерунду.",
+    "targetWord": "Schwätzer",
+    "targetWordTranslation": "болтун",
+    "options": [
+      "Schwätzer",
+      "Denker",
+      "Redner",
+      "Zuhörer"
+    ],
+    "level": "B2",
+    "topic": "Personenbeschreibung"
+  },
+  {
+    "id": "s5_scenario187",
+    "sentence": "Ich bin total **...** und habe keine Ahnung, wo wir sind.",
+    "sentenceTranslation": "Я совершенно **...** и понятия не имею, где мы находимся.",
+    "targetWord": "verloren",
+    "targetWordTranslation": "потерялся",
+    "options": [
+      "verloren",
+      "angekommen",
+      "zu Hause",
+      "gefunden"
+    ],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario188",
+    "sentence": "Das ist doch **...**! Wie konntest du das nur machen?",
+    "sentenceTranslation": "Это же **...**! Как ты мог это сделать?",
+    "targetWord": "Wahnsinn",
+    "targetWordTranslation": "безумие",
+    "options": [
+      "Wahnsinn",
+      "normal",
+      "logisch",
+      "vernünftig"
+    ],
+    "level": "C1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario189",
+    "sentence": "Der Film war so langweilig, ich habe mich zu **...** gefühlt.",
+    "sentenceTranslation": "Фильм был таким скучным, я чувствовал себя **...**.",
+    "targetWord": "Tode gelangweilt",
+    "targetWordTranslation": "смертельно скучающим",
+    "options": [
+      "Tode gelangweilt",
+      "Tode amüsiert",
+      "Tode erschreckt",
+      "Tode traurig"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario190",
+    "sentence": "Lass uns die Sache **...** besprechen, wenn wir mehr Zeit haben.",
+    "sentenceTranslation": "Давай обсудим это **...**, когда у нас будет больше времени.",
+    "targetWord": "später",
+    "targetWordTranslation": "позже",
+    "options": [
+      "später",
+      "sofort",
+      "jetzt",
+      "nie"
+    ],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario191",
+    "sentence": "Ich bin so **...** auf das Konzert, ich warte schon so lange darauf.",
+    "sentenceTranslation": "Я так **...** жду этого концерта, я так долго этого ждал.",
+    "targetWord": "heiß",
+    "targetWordTranslation": "в нетерпении",
+    "options": [
+      "heiß",
+      "kalt",
+      "müde",
+      "traurig"
+    ],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario192",
+    "sentence": "Er ist total **...** und vergisst immer alles.",
+    "sentenceTranslation": "Он совершенно **...** и всегда все забывает.",
+    "targetWord": "verpeilt",
+    "targetWordTranslation": "рассеянный",
+    "options": [
+      "verpeilt",
+      "konzentriert",
+      "aufmerksam",
+      "genau"
+    ],
+    "level": "B2",
+    "topic": "Personenbeschreibung"
+  },
+  {
+    "id": "s5_scenario193",
+    "sentence": "Wir müssen uns **...**, um dieses Ziel zu erreichen.",
+    "sentenceTranslation": "Мы должны **...**, чтобы достичь этой цели.",
+    "targetWord": "ranhalten",
+    "targetWordTranslation": "поднажать",
+    "options": [
+      "ranhalten",
+      "langsamer machen",
+      "aufgeben",
+      "warten"
+    ],
+    "level": "B2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario194",
+    "sentence": "Ich habe die Nase **...** von dieser Situation.",
+    "sentenceTranslation": "Мне **...** надоела эта ситуация.",
+    "targetWord": "gestrichen voll",
+    "targetWordTranslation": "очень сильно, по горло",
+    "options": [
+      "gestrichen voll",
+      "ein bisschen voll",
+      "halb leer",
+      "gar nicht voll"
+    ],
+    "level": "C1",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario195",
+    "sentence": "Das ist doch **...**, wir schaffen das!",
+    "sentenceTranslation": "Это же **...**, мы справимся с этим!",
+    "targetWord": "locker",
+    "targetWordTranslation": "легко",
+    "options": [
+      "locker",
+      "schwer",
+      "unmöglich",
+      "hart"
+    ],
+    "level": "A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "s5_scenario196",
+    "sentence": "Ich habe heute Morgen verschlafen und das ist mir total **...**.",
+    "sentenceTranslation": "Я сегодня утром проспал, и мне это совершенно **...**.",
+    "targetWord": "peinlich",
+    "targetWordTranslation": "неловко",
+    "options": [
+      "peinlich",
+      "lustig",
+      "egal",
+      "gut"
+    ],
+    "level": "B1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "s5_scenario197",
+    "sentence": "Dieses Projekt wird uns **...** viel Arbeit kosten.",
+    "sentenceTranslation": "Этот проект будет стоить нам **...** много работы.",
+    "targetWord": "wahnsinnig",
+    "targetWordTranslation": "безумно",
+    "options": [
+      "wahnsinnig",
+      "wenig",
+      "gar nicht",
+      "kaum"
+    ],
+    "level": "B2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "s5_scenario198",
+    "sentence": "Lass uns einfach **...** und nicht so viel nachdenken.",
+    "sentenceTranslation": "Давай просто **...** и не будем так много думать.",
+    "targetWord": "chillen",
+    "targetWordTranslation": "расслабимся",
+    "options": [
+      "chillen",
+      "arbeiten",
+      "lernen",
+      "planen"
+    ],
+    "level": "A2",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "s5_scenario199",
+    "sentence": "Das ist doch **...**! Wir müssen uns jetzt beeilen.",
+    "sentenceTranslation": "Это же **...**! Мы должны сейчас поторопиться.",
+    "targetWord": "höchste Eisenbahn",
+    "targetWordTranslation": "самое время",
+    "options": [
+      "höchste Eisenbahn",
+      "niedrigste Eisenbahn",
+      "letzte Möglichkeit",
+      "erste Möglichkeit"
+    ],
+    "level": "B2",
+    "topic": "Redewendungen"
+  },
+  {
+    "id": "s5_scenario200",
+    "sentence": "Ich habe keine **...** mehr, um ihm zuzuhören.",
+    "sentenceTranslation": "У меня больше нет **...**, чтобы его слушать.",
+    "targetWord": "Lust",
+    "targetWordTranslation": "желания",
+    "options": [
+      "Lust",
+      "Zeit",
+      "Geld",
+      "Idee"
+    ],
+    "level": "A2",
+    "topic": "Gefühle"
+  }
+]

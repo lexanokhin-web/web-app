@@ -1,0 +1,802 @@
+[
+  {
+    "id": "v9w0x1y2-z3a4-5b6c-7d8e-9f0g1h2i3j4k",
+    "sentence": "Kannst du mir das bitte ___?",
+    "targetWord": "erklären",
+    "targetWordTranslation": "объяснить",
+    "level": "A1",
+    "topic": "Объяснение"
+  },
+  {
+    "id": "w0x1y2z3-a4b5-6c7d-8e9f-0g1h2i3j4k5l",
+    "sentence": "Bitte ___ das Licht ___.",
+    "targetWord": "mach aus",
+    "targetWordTranslation": "выключи",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "x1y2z3a4-b5c6-7d8e-9f0g-1h2i3j4k5l6m",
+    "sentence": "Bitte ___ mir ___.",
+    "targetWord": "hör zu",
+    "targetWordTranslation": "послушай",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "y2z3a4b5-c6d7-8e9f-0g1h-2i3j4k5l6m7n",
+    "sentence": "Ich ___ früh ___.",
+    "targetWord": "stehe auf",
+    "targetWordTranslation": "встаю",
+    "level": "A1",
+    "topic": "Утро"
+  },
+  {
+    "id": "z3a4b5c6-d7e8-9f0g-1h2i-3j4k5l6m7n8o",
+    "sentence": "Ich ___ auf den Bus.",
+    "targetWord": "warte",
+    "targetWordTranslation": "жду",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "a4b5c6d7-e8f9-0g1h-2i3j-4k5l6m7n8o9p",
+    "sentence": "Er ___ laut.",
+    "targetWord": "lacht",
+    "targetWordTranslation": "смеется",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "b5c6d7e8-f9g0-1h2i-3j4k-5l6m7n8o9p0q",
+    "sentence": "Ich ___ ein Visum ___.",
+    "targetWord": "beantrage",
+    "targetWordTranslation": "подаю заявление",
+    "level": "A1",
+    "topic": "Документы"
+  },
+  {
+    "id": "c6d7e8f9-g0h1-2i3j-4k5l-6m7n8o9p0q1r",
+    "sentence": "___ ich hier rauchen?",
+    "targetWord": "Darf",
+    "targetWordTranslation": "Можно",
+    "level": "A1",
+    "topic": "Правила"
+  },
+  {
+    "id": "d7e8f9g0-h1i2-3j4k-5l6m-7n8o9p0q1r2s",
+    "sentence": "Ich ___ nicht.",
+    "targetWord": "rauche",
+    "targetWordTranslation": "курю",
+    "level": "A1",
+    "topic": "Привычки"
+  },
+  {
+    "id": "e8f9g0h1-i2j3-4k5l-6m7n-8o9p0q1r2s3t",
+    "sentence": "Wo kann ich hier ___?",
+    "targetWord": "parken",
+    "targetWordTranslation": "парковаться",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "f9g0h1i2-j3k4-5l6m-7n8o-9p0q1r2s3t4u",
+    "sentence": "Ich ___ meine Schlüssel ___.",
+    "targetWord": "gebe ab",
+    "targetWordTranslation": "сдаю",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "g0h1i2j3-k4l5-6m7n-8o9p-0q1r2s3t4u5v",
+    "sentence": "Ich ___ meinen Rucksack ___.",
+    "targetWord": "nehme mit",
+    "targetWordTranslation": "беру с собой",
+    "level": "A1",
+    "topic": "Путешествия"
+  },
+  {
+    "id": "h1i2j3k4-l5m6-7n8o-9p0q-1r2s3t4u5v6w",
+    "sentence": "Was ___ das?",
+    "targetWord": "bedeutet",
+    "targetWordTranslation": "означает",
+    "level": "A1",
+    "topic": "Вопросы"
+  },
+  {
+    "id": "i2j3k4l5-m6n7-8o9p-0q1r-2s3t4u5v6w7x",
+    "sentence": "Bitte ___ das Wort ___.",
+    "targetWord": "wiederhole",
+    "targetWordTranslation": "повтори",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "j3k4l5m6-n7o8-9p0q-1r2s-3t4u5v6w7x8y",
+    "sentence": "Ich ___ das nicht.",
+    "targetWord": "verstehe",
+    "targetWordTranslation": "понимаю",
+    "level": "A1",
+    "topic": "Понимание"
+  },
+  {
+    "id": "k4l5m6n7-o8p9-0q1r-2s3t-4u5v6w7x8y9z",
+    "sentence": "Ich ___ meine Großeltern.",
+    "targetWord": "besuche",
+    "targetWordTranslation": "посещаю",
+    "level": "A1",
+    "topic": "Семья"
+  },
+  {
+    "id": "l5m6n7o8-p9q0-1r2s-3t4u-5v6w7x8y9z0a",
+    "sentence": "Kannst du mir ___?",
+    "targetWord": "helfen",
+    "targetWordTranslation": "помочь",
+    "level": "A1",
+    "topic": "Помощь"
+  },
+  {
+    "id": "m6n7o8p9-q0r1-2s3t-4u5v-6w7x8y9z0a1b",
+    "sentence": "Ich ___ Wasser.",
+    "targetWord": "hole",
+    "targetWordTranslation": "принесу",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "n7o8p9q0-r1s2-3t4u-5v6w-7x8y9z0a1b2c",
+    "sentence": "Wie viel ___ du?",
+    "targetWord": "verdienst",
+    "targetWordTranslation": "зарабатываешь",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "o8p9q0r1-s2t3-4u5v-6w7x-8y9z0a1b2c3d",
+    "sentence": "Ich ___ gern.",
+    "targetWord": "reise",
+    "targetWordTranslation": "путешествую",
+    "level": "A1",
+    "topic": "Путешествия"
+  },
+  {
+    "id": "p9q0r1s2-t3u4-5v6w-7x8y-9z0a1b2c3d4e",
+    "sentence": "Die Blumen ___.",
+    "targetWord": "welken",
+    "targetWordTranslation": "вянут",
+    "level": "A1",
+    "topic": "Природа"
+  },
+  {
+    "id": "q0r1s2t3-u4v5-6w7x-8y9z-0a1b2c3d4e5f",
+    "sentence": "Du ___ das tun.",
+    "targetWord": "sollst",
+    "targetWordTranslation": "должен",
+    "level": "A1",
+    "topic": "Обязанности"
+  },
+  {
+    "id": "r1s2t3u4-v5w6-7x8y-9z0a-1b2c3d4e5f6g",
+    "sentence": "Kannst du mir den Stift ___?",
+    "targetWord": "geben",
+    "targetWordTranslation": "дать",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "s2t3u4v5-w6x7-8y9z-0a1b-2c3d4e5f6g7h",
+    "sentence": "Ich ___ mich über die Neuigkeiten.",
+    "targetWord": "informiere",
+    "targetWordTranslation": "информирую",
+    "level": "A1",
+    "topic": "Информация"
+  },
+  {
+    "id": "t3u4v5w6-x7y8-9z0a-1b2c-3d4e5f6g7h8i",
+    "sentence": "Der Unterricht ___ heute ___.",
+    "targetWord": "fällt aus",
+    "targetWordTranslation": "отменяется",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "u4v5w6x7-y8z9-0a1b-2c3d-4e5f6g7h8i9j",
+    "sentence": "Kannst du dieses Programm ___?",
+    "targetWord": "verwenden",
+    "targetWordTranslation": "использовать",
+    "level": "A1",
+    "topic": "Техника"
+  },
+  {
+    "id": "v5w6x7y8-z9a0-1b2c-3d4e-5f6g7h8i9j0k",
+    "sentence": "Was ___ du da?",
+    "targetWord": "tust",
+    "targetWordTranslation": "делаешь",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "w6x7y8z9-a0b1-2c3d-4e5f-6g7h8i9j0k1l",
+    "sentence": "Ich ___ dir eine E-Mail.",
+    "targetWord": "schicke",
+    "targetWordTranslation": "отправляю",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "x7y8z9a0-b1c2-3d4e-5f6g-7h8i9j0k1l2m",
+    "sentence": "Ich werde morgen ___.",
+    "targetWord": "vorbeikommen",
+    "targetWordTranslation": "зайти",
+    "level": "A1",
+    "topic": "Визиты"
+  },
+  {
+    "id": "y8z9a0b1-c2d3-4e5f-6g7h-8i9j0k1l2m3n",
+    "sentence": "Das Buch ___ auf dem Tisch.",
+    "targetWord": "liegt",
+    "targetWordTranslation": "лежит",
+    "level": "A1",
+    "topic": "Местоположение"
+  },
+  {
+    "id": "z9a0b1c2-d3e4-5f6g-7h8i-9j0k1l2m3n4o",
+    "sentence": "Was ist ___?",
+    "targetWord": "passiert",
+    "targetWordTranslation": "произошло",
+    "level": "A1",
+    "topic": "События"
+  },
+  {
+    "id": "a0b1c2d3-e4f5-6g7h-8i9j-0k1l2m3n4o5p",
+    "sentence": "Ich ___ nach Hause.",
+    "targetWord": "fliege",
+    "targetWordTranslation": "лечу",
+    "level": "A1",
+    "topic": "Путешествия"
+  },
+  {
+    "id": "b1c2d3e4-f5g6-7h8i-9j0k-1l2m3n4o5p6q",
+    "sentence": "Ich ___ ein Buch in der Bibliothek ___.",
+    "targetWord": "leihe aus",
+    "targetWordTranslation": "беру напрокат",
+    "level": "A1",
+    "topic": "Библиотека"
+  },
+  {
+    "id": "c2d3e4f5-g6h7-8i9j-0k1l-2m3n4o5p6q7r",
+    "sentence": "Ich ___ die Dokumente.",
+    "targetWord": "kopiere",
+    "targetWordTranslation": "копирую",
+    "level": "A1",
+    "topic": "Документы"
+  },
+  {
+    "id": "d3e4f5g6-h7i8-9j0k-1l2m-3n4o5p6q7r8s",
+    "sentence": "Der Zug ___ um 10 Uhr ___.",
+    "targetWord": "fährt ab",
+    "targetWordTranslation": "отправляется",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "e4f5g6h7-i8j9-0k1l-2m3n-4o5p6q7r8s9t",
+    "sentence": "Ich ___ gern Ski.",
+    "targetWord": "fahre",
+    "targetWordTranslation": "катаюсь на лыжах",
+    "level": "A1",
+    "topic": "Спорт"
+  },
+  {
+    "id": "f5g6h7i8-j9k0-1l2m-3n4o-5p6q7r8s9t0u",
+    "sentence": "Wie ist das Problem ___?",
+    "targetWord": "aufgekommen",
+    "targetWordTranslation": "возникло",
+    "level": "A1",
+    "topic": "Проблемы"
+  },
+  {
+    "id": "g6h7i8j9-k0l1-2m3n-4o5p-6q7r8s9t0u1v",
+    "sentence": "Der Baum ist ___.",
+    "targetWord": "umgekippt",
+    "targetWordTranslation": "опрокинулся",
+    "level": "A1",
+    "topic": "Природа"
+  },
+  {
+    "id": "h7i8j9k0-l1m2-3n4o-5p6q-7r8s9t0u1v2w",
+    "sentence": "Das kann eine Kettenreaktion ___.",
+    "targetWord": "auslösen",
+    "targetWordTranslation": "вызвать",
+    "level": "A1",
+    "topic": "События"
+  },
+  {
+    "id": "i8j9k0l1-m2n3-4o5p-6q7r-8s9t0u1v2w3x",
+    "sentence": "Ich ___ mein Auto.",
+    "targetWord": "repariere",
+    "targetWordTranslation": "ремонтирую",
+    "level": "A1",
+    "topic": "Ремонт"
+  },
+  {
+    "id": "j9k0l1m2-n3o4-5p6q-7r8s-9t0u1v2w3x4y",
+    "sentence": "Ich ___ gern Kleider.",
+    "targetWord": "nähe",
+    "targetWordTranslation": "шью",
+    "level": "A1",
+    "topic": "Хобби"
+  },
+  {
+    "id": "k0l1m2n3-o4p5-6q7r-8s9t-0u1v2w3x4y5z",
+    "sentence": "Ich werde morgen ___.",
+    "targetWord": "vorbeikommen",
+    "targetWordTranslation": "зайти",
+    "level": "A1",
+    "topic": "Визиты"
+  },
+  {
+    "id": "l1m2n3o4-p5q6-7r8s-9t0u-1v2w3x4y5z6a",
+    "sentence": "Kannst du die Tür ___?",
+    "targetWord": "aufmachen",
+    "targetWordTranslation": "открыть",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "m2n3o4p5-q6r7-8s9t-0u1v-2w3x4y5z6a7b",
+    "sentence": "Kannst du die Tür ___?",
+    "targetWord": "zumachen",
+    "targetWordTranslation": "закрыть",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "n3o4p5q6-r7s8-9t0u-1v2w-3x4y5z6a7b8c",
+    "sentence": "Ich ___ das Fenster ___.",
+    "targetWord": "mache auf",
+    "targetWordTranslation": "открываю",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "o4p5q6r7-s8t9-0u1v-2w3x-4y5z6a7b8c9d",
+    "sentence": "Ich kann dir das Restaurant ___.",
+    "targetWord": "empfehlen",
+    "targetWordTranslation": "порекомендовать",
+    "level": "A1",
+    "topic": "Рекомендации"
+  },
+  {
+    "id": "p5q6r7s8-t9u0-1v2w-3x4y-5z6a7b8c9d0e",
+    "sentence": "Ich ___ einen Tisch.",
+    "targetWord": "reserviere",
+    "targetWordTranslation": "бронирую",
+    "level": "A1",
+    "topic": "Бронирование"
+  },
+  {
+    "id": "q6r7s8t9-u0v1-2w3x-4y5z-6a7b8c9d0e1f",
+    "sentence": "Bitte ___ den Knopf.",
+    "targetWord": "drück",
+    "targetWordTranslation": "нажми",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "r7s8t9u0-v1w2-3x4y-5z6a-7b8c9d0e1f2g",
+    "sentence": "Ich ___ mich für den Kurs ___.",
+    "targetWord": "melde an",
+    "targetWordTranslation": "регистрируюсь",
+    "level": "A1",
+    "topic": "Регистрация"
+  },
+  {
+    "id": "s8t9u0v1-w2x3-4y5z-6a7b-8c9d0e1f2g3h",
+    "sentence": "Kannst du das Kabel ___?",
+    "targetWord": "verbinden",
+    "targetWordTranslation": "соединить",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "t9u0v1w2-x3y4-5z6a-7b8c-9d0e1f2g3h4i",
+    "sentence": "Ich werde dich ___.",
+    "targetWord": "zurückrufen",
+    "targetWordTranslation": "перезвонить",
+    "level": "A1",
+    "topic": "Телефон"
+  },
+  {
+    "id": "u0v1w2x3-y4z5-6a7b-8c9d-0e1f2g3h4i5j",
+    "sentence": "Ich ___ eine Nachricht.",
+    "targetWord": "hinterlasse",
+    "targetWordTranslation": "оставляю",
+    "level": "A1",
+    "topic": "Сообщения"
+  },
+  {
+    "id": "v1w2x3y4-z5a6-7b8c-9d0e-1f2g3h4i5j6k",
+    "sentence": "Sie ___ gut ___.",
+    "targetWord": "sieht aus",
+    "targetWordTranslation": "выглядит",
+    "level": "A1",
+    "topic": "Внешность"
+  },
+  {
+    "id": "w2x3y4z5-a6b7-8c9d-0e1f-2g3h4i5j6k7l",
+    "sentence": "Ich ___ Pizza.",
+    "targetWord": "bestelle",
+    "targetWordTranslation": "заказываю",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "x3y4z5a6-b7c8-9d0e-1f2g-3h4i5j6k7l8m",
+    "sentence": "Ich kann dir meine Hilfe ___.",
+    "targetWord": "anbieten",
+    "targetWordTranslation": "предложить",
+    "level": "A1",
+    "topic": "Помощь"
+  },
+  {
+    "id": "y4z5a6b7-c8d9-0e1f-2g3h-4i5j6k7l8m9n",
+    "sentence": "Ich ___ den Schrank.",
+    "targetWord": "ziehe",
+    "targetWordTranslation": "тяну",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "z5a6b7c8-d9e0-1f2g-3h4i-5j6k7l8m9n0o",
+    "sentence": "Das T-Shirt ___ mir gut.",
+    "targetWord": "passt",
+    "targetWordTranslation": "подходит",
+    "level": "A1",
+    "topic": "Одежда"
+  },
+  {
+    "id": "a6b7c8d9-e0f1-2g3h-4i5j-6k7l8m9n0o1p",
+    "sentence": "Die Jacke ___ dir gut.",
+    "targetWord": "steht",
+    "targetWordTranslation": "идет",
+    "level": "A1",
+    "topic": "Одежда"
+  },
+  {
+    "id": "b7c8d9e0-f1g2-3h4i-5j6k-7l8m9n0o1p2q",
+    "sentence": "Ich ___ jeden Tag.",
+    "targetWord": "trainiere",
+    "targetWordTranslation": "тренируюсь",
+    "level": "A1",
+    "topic": "Спорт"
+  },
+  {
+    "id": "c8d9e0f1-g2h3-4i5j-6k7l-8m9n0o1p2q3r",
+    "sentence": "Ich ___ gern ___.",
+    "targetWord": "fahre Rad",
+    "targetWordTranslation": "езжу на велосипеде",
+    "level": "A1",
+    "topic": "Спорт"
+  },
+  {
+    "id": "d9e0f1g2-h3i4-5j6k-7l8m-9n0o1p2q3r4s",
+    "sentence": "Ich ___ Pizza.",
+    "targetWord": "mag",
+    "targetWordTranslation": "люблю",
+    "level": "A1",
+    "topic": "Вкусы"
+  },
+  {
+    "id": "e0f1g2h3-i4j5-6k7l-8m9n-0o1p2q3r4s5t",
+    "sentence": "Ich ___ das nicht.",
+    "targetWord": "weiß",
+    "targetWordTranslation": "знаю",
+    "level": "A1",
+    "topic": "Знание"
+  },
+  {
+    "id": "f1g2h3i4-j5k6-7l8m-9n0o-1p2q3r4s5t6u",
+    "sentence": "Ich ___ mir die Jacke ___.",
+    "targetWord": "ziehe an",
+    "targetWordTranslation": "надеваю",
+    "level": "A1",
+    "topic": "Одежда"
+  },
+  {
+    "id": "g2h3i4j5-k6l7-8m9n-0o1p-2q3r4s5t6u7v",
+    "sentence": "Ich ___ die Hose ___.",
+    "targetWord": "probiere an",
+    "targetWordTranslation": "примеряю",
+    "level": "A1",
+    "topic": "Покупки"
+  },
+  {
+    "id": "h3i4j5k6-l7m8-9n0o-1p2q-3r4s5t6u7v8w",
+    "sentence": "Das Bild ___ an der Wand.",
+    "targetWord": "hängt",
+    "targetWordTranslation": "висит",
+    "level": "A1",
+    "topic": "Местоположение"
+  },
+  {
+    "id": "i4j5k6l7-m8n9-0o1p-2q3r-4s5t6u7v8w9x",
+    "sentence": "Ich ___ den Schlüssel ins Schloss.",
+    "targetWord": "stecke",
+    "targetWordTranslation": "вставляю",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "j5k6l7m8-n9o0-1p2q-3r4s-5t6u7v8w9x0y",
+    "sentence": "Das Auto ___ vor dem Haus.",
+    "targetWord": "steht",
+    "targetWordTranslation": "стоит",
+    "level": "A1",
+    "topic": "Местоположение"
+  },
+  {
+    "id": "k6l7m8n9-o0p1-2q3r-4s5t-6u7v8w9x0y1z",
+    "sentence": "Ich ___ das Buch auf den Tisch.",
+    "targetWord": "lege",
+    "targetWordTranslation": "кладу",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "l7m8n9o0-p1q2-3r4s-5t6u-7v8w9x0y1z2a",
+    "sentence": "Bitte ___ mich nicht.",
+    "targetWord": "stör",
+    "targetWordTranslation": "не беспокой",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "m8n9o0p1-q2r3-4s5t-6u7v-8w9x0y1z2a3b",
+    "sentence": "Ich ___ die Flasche auf den Tisch.",
+    "targetWord": "stelle",
+    "targetWordTranslation": "ставлю",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "n9o0p1q2-r3s4-5t6u-7v8w-9x0y1z2a3b4c",
+    "sentence": "Wir ___ ein Haus.",
+    "targetWord": "bauen",
+    "targetWordTranslation": "строим",
+    "level": "A1",
+    "topic": "Строительство"
+  },
+  {
+    "id": "o0p1q2r3-s4t5-6u7v-8w9x-0y1z2a3b4c5d",
+    "sentence": "Der Apfel ist ___.",
+    "targetWord": "gefallen",
+    "targetWordTranslation": "упал",
+    "level": "A1",
+    "topic": "Движение"
+  },
+  {
+    "id": "p1q2r3s4-t5u6-7v8w-9x0y-1z2a3b4c5d6e",
+    "sentence": "Wann ___ der Zug ___?",
+    "targetWord": "kommt an",
+    "targetWordTranslation": "прибывает",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "q2r3s4t5-u6v7-8w9x-0y1z-2a3b4c5d6e7f",
+    "sentence": "Ich ___ den Müll.",
+    "targetWord": "trenne",
+    "targetWordTranslation": "разделяю",
+    "level": "A1",
+    "topic": "Дом"
+  },
+  {
+    "id": "r3s4t5u6-v7w8-9x0y-1z2a-3b4c5d6e7f8g",
+    "sentence": "Bitte ___ die Regeln.",
+    "targetWord": "beachte",
+    "targetWordTranslation": "соблюдай",
+    "level": "A1",
+    "topic": "Правила"
+  },
+  {
+    "id": "s4t5u6v7-w8x9-0y1z-2a3b-4c5d6e7f8g9h",
+    "sentence": "Bitte ___ das Auto ___.",
+    "targetWord": "stell ab",
+    "targetWordTranslation": "поставь",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "t5u6v7w8-x9y0-1z2a-3b4c-5d6e7f8g9h0i",
+    "sentence": "Ich ___ meine Wohnung.",
+    "targetWord": "kündige",
+    "targetWordTranslation": "расторгаю договор",
+    "level": "A1",
+    "topic": "Жилье"
+  },
+  {
+    "id": "u6v7w8x9-y0z1-2a3b-4c5d-6e7f8g9h0i1j",
+    "sentence": "Ich ___ auf das Beste.",
+    "targetWord": "hoffe",
+    "targetWordTranslation": "надеюсь",
+    "level": "A1",
+    "topic": "Надежды"
+  },
+  {
+    "id": "v7w8x9y0-z1a2-3b4c-5d6e-7f8g9h0i1j2k",
+    "sentence": "Ich ___ die Tür ___.",
+    "targetWord": "schließe ab",
+    "targetWordTranslation": "запираю",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "w8x9y0z1-a2b3-4c5d-6e7f-8g9h0i1j2k3l",
+    "sentence": "Die Preise ___.",
+    "targetWord": "steigen",
+    "targetWordTranslation": "повышаются",
+    "level": "A1",
+    "topic": "Экономика"
+  },
+  {
+    "id": "x9y0z1a2-b3c4-5d6e-7f8g-9h0i1j2k3l4m",
+    "sentence": "Bitte ___ den Schmutz.",
+    "targetWord": "entfern",
+    "targetWordTranslation": "убери",
+    "level": "A1",
+    "topic": "Уборка"
+  },
+  {
+    "id": "y0z1a2b3-c4d5-6d7e-8f9g-0h1i2j3k4l5n",
+    "sentence": "Ich ___ das Zimmer.",
+    "targetWord": "heize",
+    "targetWordTranslation": "отапливаю",
+    "level": "A1",
+    "topic": "Дом"
+  },
+  {
+    "id": "z1a2b3c4-d5e6-7f8g-9h0i-1j2k3l4m5n6o",
+    "sentence": "Du ___ ___.",
+    "targetWord": "hast recht",
+    "targetWordTranslation": "прав",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "a2b3c4d5-e6f7-8g9h-0i1j-2k3l4m5n6o7p",
+    "sentence": "Lass mich das ___.",
+    "targetWord": "machen",
+    "targetWordTranslation": "сделать",
+    "level": "A1",
+    "topic": "Разрешение"
+  },
+  {
+    "id": "b3c4d5e6-f7g8-9h0i-1j2k-3l4m5n6o7p8q",
+    "sentence": "Ich kann das nicht ___.",
+    "targetWord": "werten",
+    "targetWordTranslation": "оценить",
+    "level": "A1",
+    "topic": "Оценка"
+  },
+  {
+    "id": "c4d5e6f7-g8h9-0i1j-2k3l-4m5n6o7p8q9r",
+    "sentence": "Bitte ___ ___.",
+    "targetWord": "pass auf",
+    "targetWordTranslation": "будь внимателен",
+    "level": "A1",
+    "topic": "Внимание"
+  },
+  {
+    "id": "d5e6f7g8-h9i0-1j2k-3l4m-5n6o7p8q9r0s",
+    "sentence": "Ich ___ die Blumen.",
+    "targetWord": "gieße",
+    "targetWordTranslation": "поливаю",
+    "level": "A1",
+    "topic": "Природа"
+  },
+  {
+    "id": "e6f7g8h9-i0j1-2k3l-4m5n-6o7p8q9r0s1t",
+    "sentence": "Das Telefon ___.",
+    "targetWord": "klingelt",
+    "targetWordTranslation": "звонит",
+    "level": "A1",
+    "topic": "Телефон"
+  },
+  {
+    "id": "f7g8h9i0-j1k2-3l4m-5n6o-7p8q9r0s1t2u",
+    "sentence": "Wir ___ das Problem.",
+    "targetWord": "besprechen",
+    "targetWordTranslation": "обсуждаем",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "g8h9i0j1-k2l3-4m5n-6o7p-8q9r0s1t2u3v",
+    "sentence": "Ich ___ meine Katze.",
+    "targetWord": "füttere",
+    "targetWordTranslation": "кормлю",
+    "level": "A1",
+    "topic": "Домашние животные"
+  },
+  {
+    "id": "h9i0j1k2-l3m4-5n6o-7p8q-9r0s1t2u3v4w",
+    "sentence": "Ich kann die Aufgabe ___.",
+    "targetWord": "übernehmen",
+    "targetWordTranslation": "взять на себя",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "i0j1k2l3-m4n5-6o7p-8q9r-0s1t2u3v4w5x",
+    "sentence": "Es ___ gut.",
+    "targetWord": "riecht",
+    "targetWordTranslation": "пахнет",
+    "level": "A1",
+    "topic": "Ощущения"
+  },
+  {
+    "id": "j1k2l3m4-n5o6-7p8q-9r0s-1t2u3v4w5x6y",
+    "sentence": "Ich ___ meine Schuhe ___.",
+    "targetWord": "ziehe aus",
+    "targetWordTranslation": "снимаю",
+    "level": "A1",
+    "topic": "Одежда"
+  },
+  {
+    "id": "k2l3m4n5-o6p7-8q9r-0s1t-2u3v4w5x6y7z",
+    "sentence": "Das ___ mich nicht.",
+    "targetWord": "überrascht",
+    "targetWordTranslation": "удивляет",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "l3m4n5o6-p7q8-9r0s-1t2u-3v4w5x6y7z8a",
+    "sentence": "Ich kann das Projekt ___.",
+    "targetWord": "leiten",
+    "targetWordTranslation": "руководить",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "m4n5o6p7-q8r9-0s1t-2u3v-4w5x6y7z8a9b",
+    "sentence": "Ich ___ meinen Urlaub.",
+    "targetWord": "plane",
+    "targetWordTranslation": "планирую",
+    "level": "A1",
+    "topic": "Планирование"
+  },
+  {
+    "id": "n5o6p7q8-r9s0-1t2u-3v4w-5x6y7z8a9b0c",
+    "sentence": "Ich ___ mir die Telefonnummer.",
+    "targetWord": "notiere",
+    "targetWordTranslation": "записываю",
+    "level": "A1",
+    "topic": "Записи"
+  },
+  {
+    "id": "o6p7q8r9-s0t1-2u3v-4w5x-6y7z8a9b0c1d",
+    "sentence": "Bitte ___ ___ die Kinder.",
+    "targetWord": "achte auf",
+    "targetWordTranslation": "следи за",
+    "level": "A1",
+    "topic": "Внимание"
+  },
+  {
+    "id": "p7q8r9s0-t1u2-3v4w-5x6y-7z8a9b0c1d2e",
+    "sentence": "Ich ___ das Internet.",
+    "targetWord": "nutze",
+    "targetWordTranslation": "использую",
+    "level": "A1",
+    "topic": "Технологии"
+  },
+  {
+    "id": "q8r9s0t1-u2v3-4w5x-6y7z-8a9b0c1d2e3f",
+    "sentence": "Bitte ___ den Computer ___.",
+    "targetWord": "schalte aus",
+    "targetWordTranslation": "выключи",
+    "level": "A1",
+    "topic": "Техника"
+  }
+]

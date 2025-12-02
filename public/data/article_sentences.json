@@ -1,0 +1,3658 @@
+[
+    {
+        "id": "11a0c4f6-0e12-4b7d-8c9e-0f1a2b3c4d5e",
+        "sentence": "___ Hund ist groß.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Hund",
+        "translation": "Собака большая."
+    },
+    {
+        "id": "22b1d5f7-1f23-4c8e-9d0f-1b2c3d4e5f6a",
+        "sentence": "Ich sehe ___ Katze.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Katze",
+        "translation": "Я вижу кошку."
+    },
+    {
+        "id": "33c2e6f8-2g34-4d9f-a01g-2c3d4e5f6a7b",
+        "sentence": "Das ist das Haus ___ Mannes.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Mann",
+        "translation": "Это дом мужчины."
+    },
+    {
+        "id": "44d3f7g9-3h45-4e0a-b12h-3d4e5f6a7b8c",
+        "sentence": "Ich gebe das Buch ___ Kind.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Kind",
+        "translation": "Я даю книгу ребёнку."
+    },
+    {
+        "id": "55e4g8h0-4i56-4f1b-c23i-4e5f6a7b8c9d",
+        "sentence": "___ Apfel ist rot.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Apfel",
+        "translation": "Яблоко красное."
+    },
+    {
+        "id": "66f5h9i1-5j67-4g2c-d34j-5f6a7b8c9d0e",
+        "sentence": "Er trinkt ___ Wasser.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Wasser",
+        "translation": "Он пьёт воду."
+    },
+    {
+        "id": "77g6i0j2-6k78-4h3d-e45k-6a7b8c9d0e1f",
+        "sentence": "Die Größe ___ Stadt ist beeindruckend.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Stadt",
+        "translation": "Размер города впечатляет."
+    },
+    {
+        "id": "88h7j1k3-7l89-4i4e-f56l-7b8c9d0e1f2g",
+        "sentence": "Sie hilft ___ Freundin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Freundin",
+        "translation": "Она помогает подруге."
+    },
+    {
+        "id": "99i8k2l4-8m90-4j5f-g67m-8c9d0e1f2g3h",
+        "sentence": "___ Auto fährt schnell.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Auto",
+        "translation": "Машина едет быстро."
+    },
+    {
+        "id": "a0j9l3m5-9n01-4k6g-h78n-9d0e1f2g3h4i",
+        "sentence": "Wir besuchen ___ Museum.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Museum",
+        "translation": "Мы посещаем музей."
+    },
+    {
+        "id": "b1k0m4n6-0o12-4l7h-i89o-0e1f2g3h4i5j",
+        "sentence": "Der Geruch ___ Blumen ist süß.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Blumen",
+        "translation": "Запах цветов сладкий."
+    },
+    {
+        "id": "c2l1n5o7-1p23-4m8i-j90p-1f2g3h4i5j6k",
+        "sentence": "Ich gehe zu ___ Arzt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Arzt",
+        "translation": "Я иду к врачу."
+    },
+    {
+        "id": "d3m2o6p8-2q34-4n9j-k01q-2g3h4i5j6k7l",
+        "sentence": "___ Vögel singen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Vögel",
+        "translation": "Птицы поют."
+    },
+    {
+        "id": "e4n3p7q9-3r45-4o0k-l12r-3h4i5j6k7l8m",
+        "sentence": "Sie liest ___ Buch.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Buch",
+        "translation": "Она читает книгу."
+    },
+    {
+        "id": "f5o4q8r0-4s56-4p1l-m23s-4i5j6k7l8m9n",
+        "sentence": "Die Schönheit ___ Natur ist atemberaubend.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Natur",
+        "translation": "Красота природы захватывает дух."
+    },
+    {
+        "id": "g6p5r9s1-5t67-4q2m-n34t-5j6k7l8m9n0o",
+        "sentence": "Er fährt mit ___ Fahrrad.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Fahrrad",
+        "translation": "Он едет на велосипеде."
+    },
+    {
+        "id": "h7q6s0t2-6u78-4r3n-o45u-6k7l8m9n0o1p",
+        "sentence": "___ Kinder lachen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Kinder",
+        "translation": "Дети смеются."
+    },
+    {
+        "id": "i8r7t1u3-7v89-4s4o-p56v-7l8m9n0o1p2q",
+        "sentence": "Ich schreibe ___ Brief.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Brief",
+        "translation": "Я пишу письмо."
+    },
+    {
+        "id": "j9s8u2v4-8w90-4t5p-q67w-8m9n0o1p2q3r",
+        "sentence": "Der Klang ___ Musik ist beruhigend.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Musik",
+        "translation": "Звук музыки успокаивающий."
+    },
+    {
+        "id": "k0t9v3w5-9x01-4u6q-r78x-9n0o1p2q3r4s",
+        "sentence": "Sie wohnt in ___ Haus.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Haus",
+        "translation": "Она живёт в доме."
+    },
+    {
+        "id": "l1u0w4x6-0y12-4v7r-s89y-0o1p2q3r4s5t",
+        "sentence": "___ Bäume sind grün.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Bäume",
+        "translation": "Деревья зелёные."
+    },
+    {
+        "id": "m2v1x5y7-1z23-4w8s-t90z-1p2q3r4s5t6u",
+        "sentence": "Er kauft ___ Brot.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Brot",
+        "translation": "Он покупает хлеб."
+    },
+    {
+        "id": "n3w2y6z8-2a34-4x9t-u01a-2q3r4s5t6u7v",
+        "sentence": "Die Geschwindigkeit ___ Autos ist beeindruckend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Autos",
+        "translation": "Скорость автомобиля впечатляет."
+    },
+    {
+        "id": "o4x3z7a9-3b45-4y0u-v12b-3r4s5t6u7v8w",
+        "sentence": "Ich gehe zu ___ Bahnhof.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Bahnhof",
+        "translation": "Я иду на вокзал."
+    },
+    {
+        "id": "p5y4a8b0-4c56-4z1v-w23c-4s5t6u7v8w9x",
+        "sentence": "___ Meer ist blau.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Meer",
+        "translation": "Море синее."
+    },
+    {
+        "id": "q6z5b9c1-5d67-4a2w-x34d-5t6u7v8w9x0y",
+        "sentence": "Sie sieht ___ Film.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Film",
+        "translation": "Она смотрит фильм."
+    },
+    {
+        "id": "r7a6c0d2-6e78-4b3x-y45e-6u7v8w9x0y1z",
+        "sentence": "Der Geschmack ___ Weines ist ausgezeichnet.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Weines",
+        "translation": "Вкус вина превосходный."
+    },
+    {
+        "id": "s8b7d1e3-7f89-4c4y-z56f-7v8w9x0y1z2a",
+        "sentence": "Wir sprechen mit ___ Lehrer.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Lehrer",
+        "translation": "Мы разговариваем с учителем."
+    },
+    {
+        "id": "t9c8e2f4-8g90-4d5z-a67g-8w9x0y1z2a3b",
+        "sentence": "___ Wolken sind weiß.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Wolken",
+        "translation": "Облака белые."
+    },
+    {
+        "id": "u0d9f3g5-9h01-4e6a-b78h-9x0y1z2a3b4c",
+        "sentence": "Ich liebe ___ Schokolade.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Schokolade",
+        "translation": "Я люблю шоколад."
+    },
+    {
+        "id": "v1e0g4h6-0i12-4f7b-c89i-0y1z2a3b4c5d",
+        "sentence": "Die Lage ___ Hotels ist ideal.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Hotels",
+        "translation": "Расположение отеля идеальное."
+    },
+    {
+        "id": "w2f1h5i7-1j23-4g8c-d90j-1z2a3b4c5d6e",
+        "sentence": "Er dankt ___ Verkäuferin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Verkäuferin",
+        "translation": "Он благодарит продавщицу."
+    },
+    {
+        "id": "x3g2i6j8-2k34-4h9d-e01k-2a3b4c5d6e7f",
+        "sentence": "___ Katze schläft.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Katze",
+        "translation": "Кошка спит."
+    },
+    {
+        "id": "y4h3j7k9-3l45-4i0e-f12l-3b4c5d6e7f8g",
+        "sentence": "Wir essen ___ Pizza.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Pizza",
+        "translation": "Мы едим пиццу."
+    },
+    {
+        "id": "z5i4k8l0-4m56-4j1f-g23m-4c5d6e7f8g9h",
+        "sentence": "Die Geschichte ___ Stadt ist lang.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Stadt",
+        "translation": "История города долгая."
+    },
+    {
+        "id": "a6j5l9m1-5n67-4k2g-h34n-5d6e7f8g9h0i",
+        "sentence": "Ich gebe ___ Blumen Wasser.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Blumen",
+        "translation": "Я поливаю цветы."
+    },
+    {
+        "id": "b7k6m0n2-6o78-4l3h-i45o-6e7f8g9h0i1j",
+        "sentence": "___ Sonne geht unter.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Sonne",
+        "translation": "Солнце заходит."
+    },
+    {
+        "id": "c8l7n1o3-7p89-4m4i-j56p-7f8g9h0i1j2k",
+        "sentence": "Er trägt ___ Hut.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Hut",
+        "translation": "Он носит шляпу."
+    },
+    {
+        "id": "d9m8o2p4-8q90-4n5j-k67q-8g9h0i1j2k3l",
+        "sentence": "Der Bau ___ Brücke dauerte lange.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Brücke",
+        "translation": "Строительство моста заняло много времени."
+    },
+    {
+        "id": "e0n9p3q5-9r01-4o6k-l78r-9h0i1j2k3l4m",
+        "sentence": "Sie spricht mit ___ Professor.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Professor",
+        "translation": "Она разговаривает с профессором."
+    },
+    {
+        "id": "f1o0q4r6-0s12-4p7l-m89s-0i1j2k3l4m5n",
+        "sentence": "___ Handy ist neu.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Handy",
+        "translation": "Мобильный телефон новый."
+    },
+    {
+        "id": "g2p1r5s7-1t23-4q8m-n90t-1j2k3l4m5n6o",
+        "sentence": "Ich sehe ___ Film.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Film",
+        "translation": "Я смотрю фильм."
+    },
+    {
+        "id": "h3q2s6t8-2u34-4r9n-o01u-2k3l4m5n6o7p",
+        "sentence": "Die Farbe ___ Haares ist braun.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Haares",
+        "translation": "Цвет волос коричневый."
+    },
+    {
+        "id": "i4r3t7u9-3v45-4s0o-p12v-3l4m5n6o7p8q",
+        "sentence": "Er fährt mit ___ Zug.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Zug",
+        "translation": "Он едет на поезде."
+    },
+    {
+        "id": "j5s4u8v0-4w56-4t1p-q23w-4m5n6o7p8q9r",
+        "sentence": "___ Auto parkt hier.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Auto",
+        "translation": "Машина припаркована здесь."
+    },
+    {
+        "id": "k6t5v9w1-5x67-4u2q-r34x-5n6o7p8q9r0s",
+        "sentence": "Sie mag ___ Musik.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Musik",
+        "translation": "Ей нравится музыка."
+    },
+    {
+        "id": "l7u6w0x2-6y78-4v3r-s45y-6o7p8q9r0s1t",
+        "sentence": "Der Klang ___ Glocken ist laut.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Glocken",
+        "translation": "Звон колоколов громкий."
+    },
+    {
+        "id": "m8v7x1y3-7z89-4w4s-t56z-7p8q9r0s1t2u",
+        "sentence": "Ich gebe ___ Kindern Spielzeug.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Kindern",
+        "translation": "Я даю детям игрушки."
+    },
+    {
+        "id": "n9w8y2z4-8a90-4x5t-u67a-8q9r0s1t2u3v",
+        "sentence": "___ Tisch ist sauber.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Tisch",
+        "translation": "Стол чистый."
+    },
+    {
+        "id": "o0x9z3a5-9b01-4y6u-v78b-9r0s1t2u3v4w",
+        "sentence": "Er trinkt ___ Saft.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Saft",
+        "translation": "Он пьёт сок."
+    },
+    {
+        "id": "p1y0a4b6-0c12-4z7v-w89c-0s1t2u3v4w5x",
+        "sentence": "Die Bedeutung ___ Wortes ist unklar.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Wortes",
+        "translation": "Значение слова неясно."
+    },
+    {
+        "id": "q2z1b5c7-1d23-4a8w-x90d-1t2u3v4w5x6y",
+        "sentence": "Sie spricht mit ___ Freund.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Freund",
+        "translation": "Она разговаривает с другом."
+    },
+    {
+        "id": "r3a2c6d8-2e34-4b9x-y01e-2u3v4w5x6y7z",
+        "sentence": "___ Lampe ist hell.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Lampe",
+        "translation": "Лампа яркая."
+    },
+    {
+        "id": "s4b3d7e9-3f45-4c0y-z12f-3v4w5x6y7z8a",
+        "sentence": "Ich suche ___ Schlüssel.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Schlüssel",
+        "translation": "Я ищу ключ."
+    },
+    {
+        "id": "t5c4e8f0-4g56-4d1z-a23g-4w5x6y7z8a9b",
+        "sentence": "Der Wert ___ Ringes ist hoch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Ringes",
+        "translation": "Стоимость кольца высокая."
+    },
+    {
+        "id": "u6d5f9g1-5h67-4e2a-b34h-5x6y7z8a9b0c",
+        "sentence": "Er hilft ___ Studenten.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Studenten",
+        "translation": "Он помогает студентам."
+    },
+    {
+        "id": "v7e6g0h2-6i78-4f3b-c45i-6y7z8a9b0c1d",
+        "sentence": "___ Tasche ist leer.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Tasche",
+        "translation": "Сумка пустая."
+    },
+    {
+        "id": "w8f7h1i3-7j89-4g4c-d56j-7z8a9b0c1d2e",
+        "sentence": "Sie isst ___ Kuchen.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Kuchen",
+        "translation": "Она ест пирог."
+    },
+    {
+        "id": "x9g8i2j4-8k90-4h5d-e67k-8a9b0c1d2e3f",
+        "sentence": "Die Auswahl ___ Produkte ist groß.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Produkte",
+        "translation": "Выбор продуктов большой."
+    },
+    {
+        "id": "y0h9j3k5-9l01-4i6e-f78l-9b0c1d2e3f4g",
+        "sentence": "Wir fahren mit ___ Bahn.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Bahn",
+        "translation": "Мы едем на поезде."
+    },
+    {
+        "id": "z1i0k4l6-0m12-4j7f-g89m-0c1d2e3f4g5h",
+        "sentence": "___ Regen fällt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Regen",
+        "translation": "Идёт дождь."
+    },
+    {
+        "id": "a2j1l5m7-1n23-4k8g-h90n-1d2e3f4g5h6i",
+        "sentence": "Ich sehe ___ Sterne.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Sterne",
+        "translation": "Я вижу звёзды."
+    },
+    {
+        "id": "b3k2m6n8-2o34-4l9h-i01o-2e3f4g5h6i7j",
+        "sentence": "Die Qualität ___ Service ist exzellent.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Service",
+        "translation": "Качество обслуживания превосходное."
+    },
+    {
+        "id": "c4l3n7o9-3p45-4m0i-j12p-3f4g5h6i7j8k",
+        "sentence": "Er geht zu ___ Friseur.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Friseur",
+        "translation": "Он идёт к парикмахеру."
+    },
+    {
+        "id": "d5m4o8p0-4q56-4n1j-k23q-4g5h6i7j8k9l",
+        "sentence": "___ Vogel fliegt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vogel",
+        "translation": "Птица летит."
+    },
+    {
+        "id": "e6n5p9q1-5r67-4o2k-l34r-5h6i7j8k9l0m",
+        "sentence": "Wir lesen ___ Nachrichten.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Nachrichten",
+        "translation": "Мы читаем новости."
+    },
+    {
+        "id": "f7o6q0r2-6s78-4p3l-m45s-6i7j8k9l0m1n",
+        "sentence": "Die Farbe ___ Augen ist blau.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Augen",
+        "translation": "Цвет глаз синий."
+    },
+    {
+        "id": "g8p7r1s3-7t89-4q4m-n56t-7j8k9l0m1n2o",
+        "sentence": "Sie hilft ___ Nachbar.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Nachbar",
+        "translation": "Она помогает соседу."
+    },
+    {
+        "id": "h9q8s2t4-8u90-4r5n-o67u-8k9l0m1n2o3p",
+        "sentence": "___ Schiff segelt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Schiff",
+        "translation": "Корабль плывет."
+    },
+    {
+        "id": "i0r9t3u5-9v01-4s6o-p78v-9l0m1n2o3p4q",
+        "sentence": "Ich habe ___ Idee.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "Idee",
+        "translation": "У меня есть идея."
+    },
+    {
+        "id": "j1s0u4v6-0w12-4t7p-q89w-0m1n2o3p4q5r",
+        "sentence": "Das Ende ___ Geschichte ist traurig.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Geschichte",
+        "translation": "Конец истории грустный."
+    },
+    {
+        "id": "k2t1v5w7-1x23-4u8q-r90x-1n2o3p4q5r6s",
+        "sentence": "Wir gratulieren ___ Sieger.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Sieger",
+        "translation": "Мы поздравляем победителя."
+    },
+    {
+        "id": "l3u2w6x8-2y34-4v9r-s01y-2o3p4q5r6s7t",
+        "sentence": "___ Computer ist schnell.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Computer",
+        "translation": "Компьютер быстрый."
+    },
+    {
+        "id": "m4v3x7y9-3z45-4w0s-t12z-3p4q5r6s7t8u",
+        "sentence": "Er kauft ___ Auto.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Auto",
+        "translation": "Он покупает машину."
+    },
+    {
+        "id": "n5w4y8z0-4a56-4x1t-u23a-4q5r6s7t8u9v",
+        "sentence": "Die Zukunft ___ Welt ist ungewiss.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Welt",
+        "translation": "Будущее мира неопределенно."
+    },
+    {
+        "id": "o6x5z9a1-5b67-4y2u-v34b-5r6s7t8u9v0w",
+        "sentence": "Ich antworte auf ___ Frage.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Frage",
+        "translation": "Я отвечаю на вопрос."
+    },
+    {
+        "id": "p7y6a0b2-6c78-4z3v-w45c-6s7t8u9v0w1x",
+        "sentence": "___ Kamera ist neu.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Kamera",
+        "translation": "Камера новая."
+    },
+    {
+        "id": "q8z7b1c3-7d89-4a4w-x56d-7t8u9v0w1x2y",
+        "sentence": "Sie trägt ___ Kleid.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Kleid",
+        "translation": "Она носит платье."
+    },
+    {
+        "id": "r9a8c2d4-8e90-4b5x-y67e-8u9v0w1x2y3z",
+        "sentence": "Der Beginn ___ Vorlesung ist um 9 Uhr.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Vorlesung",
+        "translation": "Начало лекции в 9 часов."
+    },
+    {
+        "id": "s0b9d3e5-9f01-4c6y-z78f-9v0w1x2y3z4a",
+        "sentence": "Er fährt mit ___ Schiff.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Schiff",
+        "translation": "Он плывет на корабле."
+    },
+    {
+        "id": "t1c0e4f6-0g12-4d7z-a89g-0w1x2y3z4a5b",
+        "sentence": "___ Stuhl ist bequem.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Stuhl",
+        "translation": "Стул удобный."
+    },
+    {
+        "id": "u2d1f5g7-1h23-4e8a-b90h-1x2y3z4a5b6c",
+        "sentence": "Ich sehe ___ Freunde.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Freunde",
+        "translation": "Я вижу друзей."
+    },
+    {
+        "id": "v3e2g6h8-2i34-4f9b-c01i-2y3z4a5b6c7d",
+        "sentence": "Das Dach ___ Hauses ist rot.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Hauses",
+        "translation": "Крыша дома красная."
+    },
+    {
+        "id": "w4f3h7i9-3j45-4g0c-d12j-3z4a5b6c7d8e",
+        "sentence": "Sie hilft ___ Opa.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Opa",
+        "translation": "Она помогает дедушке."
+    },
+    {
+        "id": "x5g4i8j0-4k56-4h1d-e23k-4a5b6c7d8e9f",
+        "sentence": "___ Bild ist schön.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Bild",
+        "translation": "Картина красивая."
+    },
+    {
+        "id": "y6h5j9k1-5l67-4i2e-f34l-5b6c7d8e9f0g",
+        "sentence": "Er isst ___ Käse.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Käse",
+        "translation": "Он ест сыр."
+    },
+    {
+        "id": "z7i6k0l2-6m78-4j3f-g45m-6c7d8e9f0g1h",
+        "sentence": "Die Dauer ___ Fluges ist lang.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Fluges",
+        "translation": "Продолжительность полёта большая."
+    },
+    {
+        "id": "a8j7l1m3-7n89-4k4g-h56n-7d8e9f0g1h2i",
+        "sentence": "Ich schreibe ___ Lehrerin eine E-Mail.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Lehrerin",
+        "translation": "Я пишу учительнице электронное письмо."
+    },
+    {
+        "id": "b9k8m2n4-8o90-4l5h-i67o-8e9f0g1h2i3j",
+        "sentence": "___ Tür ist offen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Tür",
+        "translation": "Дверь открыта."
+    },
+    {
+        "id": "c0l9n3o5-9p01-4m6i-j78p-9f0g1h2i3j4k",
+        "sentence": "Sie besucht ___ Park.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Park",
+        "translation": "Она посещает парк."
+    },
+    {
+        "id": "d1m0o4p6-0q12-4n7j-k89q-0g1h2i3j4k5l",
+        "sentence": "Das Ziel ___ Reise ist unbekannt.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Reise",
+        "translation": "Цель путешествия неизвестна."
+    },
+    {
+        "id": "e2n1p5q7-1r23-4o8k-l90r-1h2i3j4k5l6m",
+        "sentence": "Wir gehen zu ___ See.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "See",
+        "translation": "Мы идём к озеру."
+    },
+    {
+        "id": "f3o2q6r8-2s34-4p9l-m01s-2i3j4k5l6m7n",
+        "sentence": "___ Glas ist voll.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Glas",
+        "translation": "Стакан полный."
+    },
+    {
+        "id": "g4p3r7s9-3t45-4q0m-n12t-3j4k5l6m7n8o",
+        "sentence": "Ich trinke ___ Milch.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Milch",
+        "translation": "Я пью молоко."
+    },
+    {
+        "id": "h5q4s8t0-4u56-4r1n-o23u-4k5l6m7n8o9p",
+        "sentence": "Der Beginn ___ Films ist interessant.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Films",
+        "translation": "Начало фильма интересное."
+    },
+    {
+        "id": "i6r5t9u1-5v67-4s2o-p34v-5l6m7n8o9p0q",
+        "sentence": "Er gibt ___ Katze Futter.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Katze",
+        "translation": "Он даёт кошке еду."
+    },
+    {
+        "id": "j7s6u0v2-6w78-4t3p-q45w-6m7n8o9p0q1r",
+        "sentence": "___ Zug ist pünktlich.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Zug",
+        "translation": "Поезд пунктуален."
+    },
+    {
+        "id": "k8t7v1w3-7x89-4u4q-r56x-7n8o9p0q1r2s",
+        "sentence": "Sie kauft ___ Schuhe.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Schuhe",
+        "translation": "Она покупает туфли."
+    },
+    {
+        "id": "l9u8w2x4-8y90-4v5r-s67y-8o9p0q1r2s3t",
+        "sentence": "Die Aussicht ___ Berges ist fantastisch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Berges",
+        "translation": "Вид с горы фантастический."
+    },
+    {
+        "id": "m0v9x3y5-9z01-4w6s-t78z-9p0q1r2s3t4u",
+        "sentence": "Ich schlafe in ___ Bett.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Bett",
+        "translation": "Я сплю в кровати."
+    },
+    {
+        "id": "n1w0y4z6-0a12-4x7t-u89a-0q1r2s3t4u5v",
+        "sentence": "___ Himmel ist blau.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Himmel",
+        "translation": "Небо голубое."
+    },
+    {
+        "id": "o2x1z5a7-1b23-4y8u-v90b-1r2s3t4u5v6w",
+        "sentence": "Er fährt ___ Fahrrad.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Fahrrad",
+        "translation": "Он едет на велосипеде."
+    },
+    {
+        "id": "p3y2a6b8-2c34-4z9v-w01c-2s3t4u5v6w7x",
+        "sentence": "Die Wurzel ___ Problems ist tief.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Problems",
+        "translation": "Корень проблемы глубокий."
+    },
+    {
+        "id": "q4z3b7c9-3d45-4a0w-x12d-3t4u5v6w7x8y",
+        "sentence": "Sie arbeitet bei ___ Bank.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Bank",
+        "translation": "Она работает в банке."
+    },
+    {
+        "id": "r5a4c8d0-4e56-4b1x-y23e-4u5v6w7x8y9z",
+        "sentence": "___ Blume riecht gut.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок пахнет хорошо."
+    },
+    {
+        "id": "s6b5d9e1-5f67-4c2y-z34f-5v6w7x8y9z0a",
+        "sentence": "Wir sehen ___ Mond.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Mond",
+        "translation": "Мы видим луну."
+    },
+    {
+        "id": "t7c6e0f2-6g78-4d3z-a45g-6w7x8y9z0a1b",
+        "sentence": "Das Licht ___ Lampe ist hell.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Lampe",
+        "translation": "Свет лампы яркий."
+    },
+    {
+        "id": "u8d7f1g3-7h89-4e4a-b56h-7x8y9z0a1b2c",
+        "sentence": "Ich gehe zu ___ Post.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Post",
+        "translation": "Я иду на почту."
+    },
+    {
+        "id": "v9e8g2h4-8i90-4f5b-c67i-8y9z0a1b2c3d",
+        "sentence": "___ Arzt ist freundlich.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Arzt",
+        "translation": "Врач дружелюбен."
+    },
+    {
+        "id": "w0f9h3i5-9j01-4g6c-d78j-9z0a1b2c3d4e",
+        "sentence": "Er isst ___ Salat.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Salat",
+        "translation": "Он ест салат."
+    },
+    {
+        "id": "x1g0i4j6-0k12-4h7d-e89k-0a1b2c3d4e5f",
+        "sentence": "Der Zweck ___ Übung ist klar.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Übung",
+        "translation": "Цель упражнения ясна."
+    },
+    {
+        "id": "y2h1j5k7-1l23-4i8e-f90l-1b2c3d4e5f6g",
+        "sentence": "Wir sitzen auf ___ Bank.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Bank",
+        "translation": "Мы сидим на скамейке."
+    },
+    {
+        "id": "z3i2k6l8-2m34-4j9f-g01m-2c3d4e5f6g7h",
+        "sentence": "___ Mädchen singt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Mädchen",
+        "translation": "Девочка поёт."
+    },
+    {
+        "id": "a4j3l7m9-3n45-4k0g-h12n-3d4e5f6g7h8i",
+        "sentence": "Sie hat ___ Frage.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "Frage",
+        "translation": "У неё есть вопрос."
+    },
+    {
+        "id": "b5k4m8n0-4o56-4l1h-i23o-4e5f6g7h8i9j",
+        "sentence": "Die Lösung ___ Problems ist einfach.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Problems",
+        "translation": "Решение проблемы простое."
+    },
+    {
+        "id": "c6l5n9o1-5p67-4m2i-j34p-5f6g7h8i9j0k",
+        "sentence": "Ich schreibe ___ Opa einen Brief.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Opa",
+        "translation": "Я пишу дедушке письмо."
+    },
+    {
+        "id": "d7m6o0p2-6q78-4n3j-k45q-6g7h8i9j0k1l",
+        "sentence": "___ Stift ist neu.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Stift",
+        "translation": "Ручка новая."
+    },
+    {
+        "id": "e8n7p1q3-7r89-4o4k-l56r-7h8i9j0k1l2m",
+        "sentence": "Er malt ___ Bild.",
+        "correctArticle": "ein",
+        "caseName": "Akkusativ",
+        "noun": "Bild",
+        "translation": "Он рисует картину."
+    },
+    {
+        "id": "f9o8q2r4-8s90-4p5l-m67s-8i9j0k1l2m3n",
+        "sentence": "Der Anfang ___ Jahres ist kalt.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Jahres",
+        "translation": "Начало года холодное."
+    },
+    {
+        "id": "g0p9r3s5-9t01-4q6m-n78t-9j0k1l2m3n4o",
+        "sentence": "Sie arbeitet an ___ Projekt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Projekt",
+        "translation": "Она работает над проектом."
+    },
+    {
+        "id": "h1q0s4t6-0u12-4r7n-o89u-0k1l2m3n4o5p",
+        "sentence": "___ Flasche ist leer.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Flasche",
+        "translation": "Бутылка пустая."
+    },
+    {
+        "id": "i2r1t5u7-1v23-4s8o-p90v-1l2m3n4o5p6q",
+        "sentence": "Ich sehe ___ Berge.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Berge",
+        "translation": "Я вижу горы."
+    },
+    {
+        "id": "j3s2u6v8-2w34-4t9p-q01w-2m3n4o5p6q7r",
+        "sentence": "Die Größe ___ Raumes ist ausreichend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Raumes",
+        "translation": "Размер комнаты достаточен."
+    },
+    {
+        "id": "k4t3v7w9-3x45-4u0q-r12x-3n4o5p6q7r8s",
+        "sentence": "Wir spielen mit ___ Ball.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Ball",
+        "translation": "Мы играем с мячом."
+    },
+    {
+        "id": "l5u4w8x0-4y56-4v1r-s23y-4o5p6q7r8s9t",
+        "sentence": "___ Blume blüht.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок цветёт."
+    },
+    {
+        "id": "m6v5x9y1-5z67-4w2s-t34z-5p6q7r8s9t0u",
+        "sentence": "Er fährt ___ Bus.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Bus",
+        "translation": "Он ведёт автобус."
+    },
+    {
+        "id": "n7w6y0z2-6a78-4x3t-u45a-6q7r8s9t0u1v",
+        "sentence": "Der Klang ___ Regens ist beruhigend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Regens",
+        "translation": "Звук дождя успокаивающий."
+    },
+    {
+        "id": "o8x7z1a3-7b89-4y4u-v56b-7r8s9t0u1v2w",
+        "sentence": "Sie hilft ___ Kollegin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Kollegin",
+        "translation": "Она помогает коллеге (женщине)."
+    },
+    {
+        "id": "p9y8a2b4-8c90-4z5v-w67c-8s9t0u1v2w3x",
+        "sentence": "___ Handy klingelt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Handy",
+        "translation": "Телефон звонит."
+    },
+    {
+        "id": "q0z9b3c5-9d01-4a6w-x78d-9t0u1v2w3x4y",
+        "sentence": "Ich schreibe ___ E-Mail.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "E-Mail",
+        "translation": "Я пишу электронное письмо."
+    },
+    {
+        "id": "r1a0c4d6-0e12-4b7x-y89e-0u1v2w3x4y5z",
+        "sentence": "Der Wert ___ Hauses ist gestiegen.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Hauses",
+        "translation": "Стоимость дома выросла."
+    },
+    {
+        "id": "s2b1d5e7-1f23-4c8y-z90f-1v2w3x4y5z6a",
+        "sentence": "Er gibt ___ Studentin ein Buch.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Studentin",
+        "translation": "Он даёт студентке книгу."
+    },
+    {
+        "id": "t3c2e6f8-2g34-4d9z-a01g-2w3x4y5z6a7b",
+        "sentence": "___ Computer stürzt ab.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Computer",
+        "translation": "Компьютер зависает."
+    },
+    {
+        "id": "u4d3f7g9-3h45-4e0a-b12h-3x4y5z6a7b8c",
+        "sentence": "Sie besucht ___ Freund.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Freund",
+        "translation": "Она навещает друга."
+    },
+    {
+        "id": "v5e4g8h0-4i56-4f1b-c23i-4y5z6a7b8c9d",
+        "sentence": "Die Geschichte ___ Familie ist interessant.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Familie",
+        "translation": "История семьи интересна."
+    },
+    {
+        "id": "w6f5h9i1-5j67-4g2c-d34j-5z6a7b8c9d0e",
+        "sentence": "Ich telefoniere mit ___ Mutter.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Mutter",
+        "translation": "Я разговариваю по телефону с мамой."
+    },
+    {
+        "id": "x7g6i0j2-6k78-4h3d-e45k-6a7b8c9d0e1f",
+        "sentence": "___ Lied ist schön.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Lied",
+        "translation": "Песня красивая."
+    },
+    {
+        "id": "y8h7j1k3-7l89-4i4e-f56l-7b8c9d0e1f2g",
+        "sentence": "Wir hören ___ Radio.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Radio",
+        "translation": "Мы слушаем радио."
+    },
+    {
+        "id": "z9i8k2l4-8m90-4j5f-g67m-8c9d0e1f2g3h",
+        "sentence": "Der Klang ___ Geige ist sanft.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Geige",
+        "translation": "Звук скрипки нежный."
+    },
+    {
+        "id": "a0j9l3m5-9n01-4k6g-h78n-9d0e1f2g3h4i",
+        "sentence": "Er gibt ___ Patientin Medizin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Patientin",
+        "translation": "Он даёт пациентке лекарство."
+    },
+    {
+        "id": "b1k0m4n6-0o12-4l7h-i89o-0e1f2g3h4i5j",
+        "sentence": "___ Student lernt fleißig.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Student",
+        "translation": "Студент усердно учится."
+    },
+    {
+        "id": "c2l1n5o7-1p23-4m8i-j90p-1f2g3h4i5j6k",
+        "sentence": "Ich trage ___ Pullover.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Pullover",
+        "translation": "Я ношу свитер."
+    },
+    {
+        "id": "d3m2o6p8-2q34-4n9j-k01q-2g3h4i5j6k7l",
+        "sentence": "Die Schönheit ___ Landschaft ist bemerkenswert.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Landschaft",
+        "translation": "Красота пейзажа замечательна."
+    },
+    {
+        "id": "e4n3p7q9-3r45-4o0k-l12r-3h4i5j6k7l8m",
+        "sentence": "Sie spricht über ___ Urlaub.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Urlaub",
+        "translation": "Она говорит об отпуске."
+    },
+    {
+        "id": "f5o4q8r0-4s56-4p1l-m23s-4i5j6k7l8m9n",
+        "sentence": "___ Zeitung liegt auf dem Tisch.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Zeitung",
+        "translation": "Газета лежит на столе."
+    },
+    {
+        "id": "g6p5r9s1-5t67-4q2m-n34t-5j6k7l8m9n0o",
+        "sentence": "Wir sehen ___ Mond.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Mond",
+        "translation": "Мы видим луну."
+    },
+    {
+        "id": "h7q6s0t2-6u78-4r3n-o45u-6k7l8m9n0o1p",
+        "sentence": "Das ist das Auto ___ Vaters.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Vaters",
+        "translation": "Это машина отца."
+    },
+    {
+        "id": "i8r7t1u3-7v89-4s4o-p56v-7l8m9n0o1p2q",
+        "sentence": "Ich gehe zu ___ Supermarkt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Supermarkt",
+        "translation": "Я иду в супермаркет."
+    },
+    {
+        "id": "j9s8u2v4-8w90-4t5p-q67w-8m9n0o1p2q3r",
+        "sentence": "___ Sonne scheint.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Sonne",
+        "translation": "Солнце светит."
+    },
+    {
+        "id": "k0t9v3w5-9x01-4u6q-r78x-9n0o1p2q3r4s",
+        "sentence": "Er kauft ___ Computer.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Computer",
+        "translation": "Он покупает компьютер."
+    },
+    {
+        "id": "l1u0w4x6-0y12-4v7r-s89y-0o1p2q3r4s5t",
+        "sentence": "Die Farbe ___ Hauses ist weiß.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Hauses",
+        "translation": "Цвет дома белый."
+    },
+    {
+        "id": "m2v1x5y7-1z23-4w8s-t90z-1p2q3r4s5t6u",
+        "sentence": "Sie hilft ___ Freund.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Freund",
+        "translation": "Она помогает другу."
+    },
+    {
+        "id": "n3w2y6z8-2a34-4x9t-u01a-2q3r4s5t6u7v",
+        "sentence": "___ Wasser kocht.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Wasser",
+        "translation": "Вода кипит."
+    },
+    {
+        "id": "o4x3z7a9-3b45-4y0u-v12b-3r4s5t6u7v8w",
+        "sentence": "Ich trinke ___ Tee.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Tee",
+        "translation": "Я пью чай."
+    },
+    {
+        "id": "p5y4a8b0-4c56-4z1v-w23c-4s5t6u7v8w9x",
+        "sentence": "Der Inhalt ___ Buches ist spannend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Buches",
+        "translation": "Содержание книги увлекательное."
+    },
+    {
+        "id": "q6z5b9c1-5d67-4a2w-x34d-5t6u7v8w9x0y",
+        "sentence": "Wir wohnen in ___ Stadt.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Stadt",
+        "translation": "Мы живём в городе."
+    },
+    {
+        "id": "r7a6c0d2-6e78-4b3x-y45e-6u7v8w9x0y1z",
+        "sentence": "___ Vogel zwitschert.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vogel",
+        "translation": "Птица щебечет."
+    },
+    {
+        "id": "s8b7d1e3-7f89-4c4y-z56f-7v8w9x0y1z2a",
+        "sentence": "Sie isst ___ Reis.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Reis",
+        "translation": "Она ест рис."
+    },
+    {
+        "id": "t9c8e2f4-8g90-4d5z-a67g-8w9x0y1z2a3b",
+        "sentence": "Die Schönheit ___ Natur ist unbeschreiblich.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Natur",
+        "translation": "Красота природы неописуема."
+    },
+    {
+        "id": "u0d9f3g5-9h01-4e6a-b78h-9x0y1z2a3b4c",
+        "sentence": "Er hilft ___ Kindern.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Kindern",
+        "translation": "Он помогает детям."
+    },
+    {
+        "id": "v1e0g4h6-0i12-4f7b-c89i-0y1z2a3b4c5d",
+        "sentence": "___ Schule beginnt um 8 Uhr.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Schule",
+        "translation": "Школа начинается в 8 часов."
+    },
+    {
+        "id": "w2f1h5i7-1j23-4g8c-d90j-1z2a3b4c5d6e",
+        "sentence": "Ich schreibe ___ Text.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Text",
+        "translation": "Я пишу текст."
+    },
+    {
+        "id": "x3g2i6j8-2k34-4h9d-e01k-2a3b4c5d6e7f",
+        "sentence": "Die Geschichte ___ Menschheit ist lang.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Menschheit",
+        "translation": "История человечества долгая."
+    },
+    {
+        "id": "y4h3j7k9-3l45-4i0e-f12l-3b4c5d6e7f8g",
+        "sentence": "Sie fährt mit ___ Auto.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Auto",
+        "translation": "Она едет на машине."
+    },
+    {
+        "id": "z5i4k8l0-4m56-4j1f-g23m-4c5d6e7f8g9h",
+        "sentence": "___ Katze miaut.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Katze",
+        "translation": "Кошка мяукает."
+    },
+    {
+        "id": "a6j5l9m1-5n67-4k2g-h34n-5d6e7f8g9h0i",
+        "sentence": "Wir sehen ___ Sterne am Himmel.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Sterne",
+        "translation": "Мы видим звёзды на небе."
+    },
+    {
+        "id": "b7k6m0n2-6o78-4l3h-i45o-6e7f8g9h0i1j",
+        "sentence": "Der Geruch ___ Kaffees ist stark.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Kaffees",
+        "translation": "Запах кофе сильный."
+    },
+    {
+        "id": "c8l7n1o3-7p89-4m4i-j56p-7f8g9h0i1j2k",
+        "sentence": "Ich spreche mit ___ Eltern.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Eltern",
+        "translation": "Я разговариваю с родителями."
+    },
+    {
+        "id": "d9m8o2p4-8q90-4n5j-k67q-8g9h0i1j2k3l",
+        "sentence": "___ Himmel ist bewölkt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Himmel",
+        "translation": "Небо облачное."
+    },
+    {
+        "id": "e0n9p3q5-9r01-4o6k-l78r-9h0i1j2k3l4m",
+        "sentence": "Er liest ___ Artikel.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Artikel",
+        "translation": "Он читает статью."
+    },
+    {
+        "id": "f1o0q4r6-0s12-4p7l-m89s-0i1j2k3l4m5n",
+        "sentence": "Die Aussicht ___ Fensters ist schön.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Fensters",
+        "translation": "Вид из окна красивый."
+    },
+    {
+        "id": "g2p1r5s7-1t23-4q8m-n90t-1j2k3l4m5n6o",
+        "sentence": "Sie hilft ___ Kollegen.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Kollegen",
+        "translation": "Она помогает коллеге (мужчине)."
+    },
+    {
+        "id": "h3q2s6t8-2u34-4r9n-o01u-2k3l4m5n6o7p",
+        "sentence": "___ Blume ist verwelkt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок завял."
+    },
+    {
+        "id": "i4r3t7u9-3v45-4s0o-p12v-3l4m5n6o7p8q",
+        "sentence": "Ich esse ___ Nudeln.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Nudeln",
+        "translation": "Я ем макароны."
+    },
+    {
+        "id": "j5s4u8v0-4w56-4t1p-q23w-4m5n6o7p8q9r",
+        "sentence": "Die Bedeutung ___ Lebens ist tiefgründig.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Lebens",
+        "translation": "Смысл жизни глубокий."
+    },
+    {
+        "id": "k6t5v9w1-5x67-4u2q-r34x-5n6o7p8q9r0s",
+        "sentence": "Wir gehen in ___ Kino.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Kino",
+        "translation": "Мы идём в кино."
+    },
+    {
+        "id": "l7u6w0x2-6y78-4v3r-s45y-6o7p8q9r0s1t",
+        "sentence": "___ Vogel singt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vogel",
+        "translation": "Птица поёт."
+    },
+    {
+        "id": "m8v7x1y3-7z89-4w4s-t56z-7p8q9r0s1t2u",
+        "sentence": "Er fährt ___ Motorrad.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Motorrad",
+        "translation": "Он ведёт мотоцикл."
+    },
+    {
+        "id": "n9w8y2z4-8a90-4x5t-u67a-8q9r0s1t2u3v",
+        "sentence": "Die Größe ___ Zimmers ist klein.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Zimmers",
+        "translation": "Размер комнаты маленький."
+    },
+    {
+        "id": "o0x9z3a5-9b01-4y6u-v78b-9r0s1t2u3v4w",
+        "sentence": "Ich gebe ___ Pflanze Wasser.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Pflanze",
+        "translation": "Я поливаю растение."
+    },
+    {
+        "id": "p1y0a4b6-0c12-4z7v-w89c-0s1t2u3v4w5x",
+        "sentence": "___ Küche ist modern.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Küche",
+        "translation": "Кухня современная."
+    },
+    {
+        "id": "q2z1b5c7-1d23-4a8w-x90d-1t2u3v4w5x6y",
+        "sentence": "Sie liest ___ Geschichte.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "Geschichte",
+        "translation": "Она читает историю."
+    },
+    {
+        "id": "r3a2c6d8-2e34-4b9x-y01e-2u3v4w5x6y7z",
+        "sentence": "Das ist das Auto ___ Freundes.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Freundes",
+        "translation": "Это машина друга."
+    },
+    {
+        "id": "s4b3d7e9-3f45-4c0y-z12f-3v4w5x6y7z8a",
+        "sentence": "Wir fahren mit ___ Bahn.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Bahn",
+        "translation": "Мы едем на поезде."
+    },
+    {
+        "id": "t5c4e8f0-4g56-4d1z-a23g-4w5x6y7z8a9b",
+        "sentence": "___ Wetter ist schön.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Wetter",
+        "translation": "Погода хорошая."
+    },
+    {
+        "id": "u6d5f9g1-5h67-4e2a-b34h-5x6y7z8a9b0c",
+        "sentence": "Ich kaufe ___ Hemd.",
+        "correctArticle": "ein",
+        "caseName": "Akkusativ",
+        "noun": "Hemd",
+        "translation": "Я покупаю рубашку."
+    },
+    {
+        "id": "v7e6g0h2-6i78-4f3b-c45i-6y7z8a9b0c1d",
+        "sentence": "Der Geschmack ___ Kuchens ist süß.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Kuchens",
+        "translation": "Вкус пирога сладкий."
+    },
+    {
+        "id": "w8f7h1i3-7j89-4g4c-d56j-7z8a9b0c1d2e",
+        "sentence": "Er hilft ___ armen Mann.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Mann",
+        "translation": "Он помогает бедному мужчине."
+    },
+    {
+        "id": "x9g8i2j4-8k90-4h5d-e67k-8a9b0c1d2e3f",
+        "sentence": "___ Rose duftet.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Rose",
+        "translation": "Роза пахнет."
+    },
+    {
+        "id": "y0h9j3k5-9l01-4i6e-f78l-9b0c1d2e3f4g",
+        "sentence": "Sie sieht ___ Sterne.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Sterne",
+        "translation": "Она видит звёзды."
+    },
+    {
+        "id": "z1i0k4l6-0m12-4j7f-g89m-0c1d2e3f4g5h",
+        "sentence": "Die Oberfläche ___ Tisches ist glatt.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Tisches",
+        "translation": "Поверхность стола гладкая."
+    },
+    {
+        "id": "a2j1l5m7-1n23-4k8g-h90n-1d2e3f4g5h6i",
+        "sentence": "Ich spreche mit ___ Chefin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Chefin",
+        "translation": "Я разговариваю с начальницей."
+    },
+    {
+        "id": "b3k2m6n8-2o34-4l9h-i01o-2e3f4g5h6i7j",
+        "sentence": "___ Telefon klingelt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Telefon",
+        "translation": "Телефон звонит."
+    },
+    {
+        "id": "c4l3n7o9-3p45-4m0i-j12p-3f4g5h6i7j8k",
+        "sentence": "Er trinkt ___ Bier.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Bier",
+        "translation": "Он пьёт пиво."
+    },
+    {
+        "id": "d5m4o8p0-4q56-4n1j-k23q-4g5h6i7j8k9l",
+        "sentence": "Die Farbe ___ Himmels ist blau.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Himmels",
+        "translation": "Цвет неба синий."
+    },
+    {
+        "id": "e6n5p9q1-5r67-4o2k-l34r-5h6i7j8k9l0m",
+        "sentence": "Wir gehen zu ___ Arzt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Arzt",
+        "translation": "Мы идём к врачу."
+    },
+    {
+        "id": "f7o6q0r2-6s78-4p3l-m45s-6i7j8k9l0m1n",
+        "sentence": "___ Bahnhof ist weit entfernt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Bahnhof",
+        "translation": "Вокзал далеко."
+    },
+    {
+        "id": "g8p7r1s3-7t89-4q4m-n56t-7j8k9l0m1n2o",
+        "sentence": "Ich habe ___ Fahrrad gesehen.",
+        "correctArticle": "ein",
+        "caseName": "Akkusativ",
+        "noun": "Fahrrad",
+        "translation": "Я видел велосипед."
+    },
+    {
+        "id": "h9q8s2t4-8u90-4r5n-o67u-8k9l0m1n2o3p",
+        "sentence": "Das Licht ___ Sonne ist hell.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Sonne",
+        "translation": "Свет солнца яркий."
+    },
+    {
+        "id": "i0r9t3u5-9v01-4s6o-p78v-9l0m1n2o3p4q",
+        "sentence": "Sie gibt ___ Blume Wasser.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Blume",
+        "translation": "Она поливает цветок."
+    },
+    {
+        "id": "j1s0u4v6-0w12-4t7p-q89w-0m1n2o3p4q5r",
+        "sentence": "___ Buch ist interessant.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Buch",
+        "translation": "Книга интересная."
+    },
+    {
+        "id": "k2t1v5w7-1x23-4u8q-r90x-1n2o3p4q5r6s",
+        "sentence": "Er trinkt ___ Kaffee.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Kaffee",
+        "translation": "Он пьёт кофе."
+    },
+    {
+        "id": "l3u2w6x8-2y34-4v9r-s01y-2o3p4q5r6s7t",
+        "sentence": "Der Klang ___ Musik ist entspannend.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Musik",
+        "translation": "Звук музыки расслабляет."
+    },
+    {
+        "id": "m4v3x7y9-3z45-4w0s-t12z-3p4q5r6s7t8u",
+        "sentence": "Ich helfe ___ alten Mann.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Mann",
+        "translation": "Я помогаю старому мужчине."
+    },
+    {
+        "id": "n5w4y8z0-4a56-4x1t-u23a-4q5r6s7t8u9v",
+        "sentence": "___ Katze schläft auf dem Sofa.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Katze",
+        "translation": "Кошка спит на диване."
+    },
+    {
+        "id": "o6x5z9a1-5b67-4y2u-v34b-5r6s7t8u9v0w",
+        "sentence": "Wir besuchen ___ Tante.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Tante",
+        "translation": "Мы навещаем тётю."
+    },
+    {
+        "id": "p7y6a0b2-6c78-4z3v-w45c-6s7t8u9v0w1x",
+        "sentence": "Der Zweck ___ Reise ist unklar.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Reise",
+        "translation": "Цель поездки неясна."
+    },
+    {
+        "id": "q8z7b1c3-7d89-4a4w-x56d-7t8u9v0w1x2y",
+        "sentence": "Sie dankt ___ Kindern.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Kindern",
+        "translation": "Она благодарит детей."
+    },
+    {
+        "id": "r9a8c2d4-8e90-4b5x-y67e-8u9v0w1x2y3z",
+        "sentence": "___ Auto ist schnell.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Auto",
+        "translation": "Машина быстрая."
+    },
+    {
+        "id": "s0b9d3e5-9f01-4c6y-z78f-9v0w1x2y3z4a",
+        "sentence": "Ich habe ___ Kopfschmerzen.",
+        "correctArticle": "Kopfschmerzen (нет артикля)",
+        "caseName": "Akkusativ",
+        "noun": "Kopfschmerzen",
+        "translation": "У меня болит голова (головная боль)."
+    },
+    {
+        "id": "t1c0e4f6-0g12-4d7z-a89g-0w1x2y3z4a5b",
+        "sentence": "Die Höhe ___ Baumes ist beeindruckend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Baumes",
+        "translation": "Высота дерева впечатляет."
+    },
+    {
+        "id": "u2d1f5g7-1h23-4e8a-b34h-5x6y7z8a9b0c",
+        "sentence": "Er fährt mit ___ Freund.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Freund",
+        "translation": "Он едет с другом."
+    },
+    {
+        "id": "v3e2g6h8-2i34-4f9b-c01i-2y3z4a5b6c7d",
+        "sentence": "___ Vögel fliegen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Vögel",
+        "translation": "Птицы летают."
+    },
+    {
+        "id": "w4f3h7i9-3j45-4g0c-d12j-3z4a5b6c7d8e",
+        "sentence": "Sie schreibt ___ Brief.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Brief",
+        "translation": "Она пишет письмо."
+    },
+    {
+        "id": "x5g4i8j0-4k56-4h1d-e23k-4a5b6c7d8e9f",
+        "sentence": "Der Preis ___ Autos ist hoch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Autos",
+        "translation": "Цена машины высокая."
+    },
+    {
+        "id": "y6h5j9k1-5l67-4i2e-f34l-5b6c7d8e9f0g",
+        "sentence": "Ich gebe ___ Katze Milch.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Katze",
+        "translation": "Я даю кошке молоко."
+    },
+    {
+        "id": "z7i6k0l2-6m78-4j3f-g45m-6c7d8e9f0g1h",
+        "sentence": "___ Mann ist müde.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Mann",
+        "translation": "Мужчина устал."
+    },
+    {
+        "id": "a8j7l1m3-7n89-4k4g-h56n-7d8e9f0g1h2i",
+        "sentence": "Wir sehen ___ Film.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Film",
+        "translation": "Мы смотрим фильм."
+    },
+    {
+        "id": "b9k8m2n4-8o90-4l5h-i67o-8e9f0g1h2i3j",
+        "sentence": "Das Ende ___ Buches ist überraschend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Buches",
+        "translation": "Конец книги удивительный."
+    },
+    {
+        "id": "c0l9n3o5-9p01-4m6i-j78p-9f0g1h2i3j4k",
+        "sentence": "Er fährt zu ___ Universität.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Universität",
+        "translation": "Он едет в университет."
+    },
+    {
+        "id": "d1m0o4p6-0q12-4n7j-k89q-0g1h2i3j4k5l",
+        "sentence": "___ Kinder spielen im Garten.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Kinder",
+        "translation": "Дети играют в саду."
+    },
+    {
+        "id": "e2n1p5q7-1r23-4o8k-l90r-1h2i3j4k5l6m",
+        "sentence": "Sie isst ___ Pizza.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Pizza",
+        "translation": "Она ест пиццу."
+    },
+    {
+        "id": "f3o2q6r8-2s34-4p9l-m01s-2i3j4k5l6m7n",
+        "sentence": "Die Größe ___ Raumes ist ausreichend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Raumes",
+        "translation": "Размер комнаты достаточен."
+    },
+    {
+        "id": "g4p3r7s9-3t45-4q0m-n12t-3j4k5l6m7n8o",
+        "sentence": "Ich gebe ___ Lehrer eine Frage.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Lehrer",
+        "translation": "Я задаю учителю вопрос."
+    },
+    {
+        "id": "h5q4s8t0-4u56-4r1n-o23u-4k5l6m7n8o9p",
+        "sentence": "___ Haus ist alt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Haus",
+        "translation": "Дом старый."
+    },
+    {
+        "id": "i6r5t9u1-5v67-4s2o-p34v-5l6m7n8o9p0q",
+        "sentence": "Er trinkt ___ Wasser.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Wasser",
+        "translation": "Он пьёт воду."
+    },
+    {
+        "id": "j7s6u0v2-6w78-4t3p-q45w-6m7n8o9p0q1r",
+        "sentence": "Der Anfang ___ Films ist spannend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Films",
+        "translation": "Начало фильма увлекательное."
+    },
+    {
+        "id": "k8t7v1w3-7x89-4u4q-r56x-7n8o9p0q1r2s",
+        "sentence": "Sie hilft ___ Freundin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Freundin",
+        "translation": "Она помогает подруге."
+    },
+    {
+        "id": "l9u8w2x4-8y90-4v5r-s67y-8o9p0q1r2s3t",
+        "sentence": "___ Lampe steht auf dem Tisch.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Lampe",
+        "translation": "Лампа стоит на столе."
+    },
+    {
+        "id": "m0v9x3y5-9z01-4w6s-t78z-9p0q1r2s3t4u",
+        "sentence": "Ich habe ___ Idee.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "Idee",
+        "translation": "У меня есть идея."
+    },
+    {
+        "id": "n1w0y4z6-0a12-4x7t-u89a-0q1r2s3t4u5v",
+        "sentence": "Die Geschichte ___ Stadt ist lang.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Stadt",
+        "translation": "История города долгая."
+    },
+    {
+        "id": "o2x1z5a7-1b23-4y8u-v90b-1r2s3t4u5v6w",
+        "sentence": "Wir gehen zu ___ See.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "See",
+        "translation": "Мы идём к озеру."
+    },
+    {
+        "id": "p3y2a6b8-2c34-4z9v-w01c-2s3t4u5v6w7x",
+        "sentence": "___ Apfel liegt auf dem Tisch.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Apfel",
+        "translation": "Яблоко лежит на столе."
+    },
+    {
+        "id": "q4z3b7c9-3d45-4a0w-x12d-3t4u5v6w7x8y",
+        "sentence": "Er isst ___ Brot.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Brot",
+        "translation": "Он ест хлеб."
+    },
+    {
+        "id": "r5a4c8d0-4e56-4b1x-y23e-4u5v6w7x8y9z",
+        "sentence": "Der Geruch ___ Blumen ist angenehm.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Blumen",
+        "translation": "Запах цветов приятный."
+    },
+    {
+        "id": "s6b5d9e1-5f67-4c2y-z34f-5v6w7x8y9z0a",
+        "sentence": "Ich schreibe ___ Opa eine Karte.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Opa",
+        "translation": "Я пишу дедушке открытку."
+    },
+    {
+        "id": "t7c6e0f2-6g78-4d3z-a45g-6w7x8y9z0a1b",
+        "sentence": "___ Bild hängt an der Wand.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Bild",
+        "translation": "Картина висит на стене."
+    },
+    {
+        "id": "u8d7f1g3-7h89-4e4a-b56h-7x8y9z0a1b2c",
+        "sentence": "Sie kauft ___ Kleid.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Kleid",
+        "translation": "Она покупает платье."
+    },
+    {
+        "id": "v9e8g2h4-8i90-4f5b-c67i-8y9z0a1b2c3d",
+        "sentence": "Die Aussicht ___ Berges ist wunderschön.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Berges",
+        "translation": "Вид с горы прекрасный."
+    },
+    {
+        "id": "w0f9h3i5-9j01-4g6c-d78j-9z0a1b2c3d4e",
+        "sentence": "Wir gehen mit ___ Hund spazieren.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Hund",
+        "translation": "Мы гуляем с собакой."
+    },
+    {
+        "id": "x1g0i4j6-0k12-4h7d-e89k-0a1b2c3d4e5f",
+        "sentence": "___ Mädchen spielt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Mädchen",
+        "translation": "Девочка играет."
+    },
+    {
+        "id": "y2h1j5k7-1l23-4i8e-f90l-1b2c3d4e5f6g",
+        "sentence": "Ich sehe ___ Lehrerin.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Lehrerin",
+        "translation": "Я вижу учительницу."
+    },
+    {
+        "id": "z3i2k6l8-2m34-4j9f-g01m-2c3d4e5f6g7h",
+        "sentence": "Der Beginn ___ Unterrichts ist um 8 Uhr.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Unterrichts",
+        "translation": "Начало занятий в 8 часов."
+    },
+    {
+        "id": "a4j3l7m9-3n45-4k0g-h12n-3d4e5f6g7h8i",
+        "sentence": "Er spricht mit ___ Studentin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Studentin",
+        "translation": "Он разговаривает со студенткой."
+    },
+    {
+        "id": "b5k4m8n0-4o56-4l1h-i23o-4e5f6g7h8i9j",
+        "sentence": "___ Auto fährt langsam.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Auto",
+        "translation": "Машина едет медленно."
+    },
+    {
+        "id": "c6l5n9o1-5p67-4m2i-j34p-5f6g7h8i9j0k",
+        "sentence": "Sie isst ___ Apfel.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Apfel",
+        "translation": "Она ест яблоко."
+    },
+    {
+        "id": "d7m6o0p2-6q78-4n3j-k45q-6g7h8i9j0k1l",
+        "sentence": "Die Größe ___ Tasche ist klein.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Tasche",
+        "translation": "Размер сумки маленький."
+    },
+    {
+        "id": "e8n7p1q3-7r89-4o4k-l56r-7h8i9j0k1l2m",
+        "sentence": "Ich gebe ___ Mann das Geld.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Mann",
+        "translation": "Я даю мужчине деньги."
+    },
+    {
+        "id": "f9o8q2r4-8s90-4p5l-m67s-8i9j0k1l2m3n",
+        "sentence": "___ Blumen blühen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blumen",
+        "translation": "Цветы цветут."
+    },
+    {
+        "id": "g0p9r3s5-9t01-4q6m-n78t-9j0k1l2m3n4o",
+        "sentence": "Er hat ___ Hund.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Hund",
+        "translation": "У него есть собака."
+    },
+    {
+        "id": "h1q0s4t6-0u12-4r7n-o89u-0k1l2m3n4o5p",
+        "sentence": "Der Preis ___ Kaffees ist hoch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Kaffees",
+        "translation": "Цена кофе высокая."
+    },
+    {
+        "id": "i2r1t5u7-1v23-4s8o-p90v-1l2m3n4o5p6q",
+        "sentence": "Wir fahren mit ___ U-Bahn.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "U-Bahn",
+        "translation": "Мы едем на метро."
+    },
+    {
+        "id": "j3s2u6v8-2w34-4t9p-q01w-2m3n4o5p6q7r",
+        "sentence": "___ Buch liegt auf ___ Regal.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Buch",
+        "translation": "Книга лежит на полке."
+    },
+    {
+        "id": "k4t3v7w9-3x45-4u0q-r12x-3n4o5p6q7r8s",
+        "sentence": "Ich kaufe ___ Lampe.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "Lampe",
+        "translation": "Я покупаю лампу."
+    },
+    {
+        "id": "l5u4w8x0-4y56-4v1r-s23y-4o5p6q7r8s9t",
+        "sentence": "Die Farbe ___ Haare ist blond.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Haare",
+        "translation": "Цвет волос светлый."
+    },
+    {
+        "id": "m6v5x9y1-5z67-4w2s-t34z-5p6q7r8s9t0u",
+        "sentence": "Sie hilft ___ kranken Mann.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Mann",
+        "translation": "Она помогает больному мужчине."
+    },
+    {
+        "id": "n7w6y0z2-6a78-4x3t-u45a-6q7r8s9t0u1v",
+        "sentence": "___ Himmel ist klar.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Himmel",
+        "translation": "Небо ясное."
+    },
+    {
+        "id": "o8x7z1a3-7b89-4y4u-v56b-7r8s9t0u1v2w",
+        "sentence": "Er liest ___ Buch.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Buch",
+        "translation": "Он читает книгу."
+    },
+    {
+        "id": "p9y8a2b4-8c90-4z5v-w67c-8s9t0u1v2w3x",
+        "sentence": "Der Klang ___ Glocken ist angenehm.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Glocken",
+        "translation": "Звон колоколов приятный."
+    },
+    {
+        "id": "q0z9b3c5-9d01-4a6w-x78d-9t0u1v2w3x4y",
+        "sentence": "Ich gebe ___ Katze ein Spielzeug.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Katze",
+        "translation": "Я даю кошке игрушку."
+    },
+    {
+        "id": "r1a0c4d6-0e12-4b7x-y89e-0u1v2w3x4y5z",
+        "sentence": "___ Lehrer ist nett.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Lehrer",
+        "translation": "Учитель добрый."
+    },
+    {
+        "id": "s2b1d5e7-1f23-4c8y-z90f-1v2w3x4y5z6a",
+        "sentence": "Sie sieht ___ Auto.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Auto",
+        "translation": "Она видит машину."
+    },
+    {
+        "id": "t3c2e6f8-2g34-4d9z-a01g-2w3x4y5z6a7b",
+        "sentence": "Die Aussicht ___ Fensters ist wunderschön.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Fensters",
+        "translation": "Вид из окна прекрасный."
+    },
+    {
+        "id": "u4d3f7g9-3h45-4e0a-b12h-3x4y5z6a7b8c",
+        "sentence": "Wir gehen zu ___ Park.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Park",
+        "translation": "Мы идём в парк."
+    },
+    {
+        "id": "v5e4g8h0-4i56-4f1b-c23i-4y5z6a7b8c9d",
+        "sentence": "___ Blume ist rot.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок красный."
+    },
+    {
+        "id": "w6f5h9i1-5j67-4g2c-d34j-5z6a7b8c9d0e",
+        "sentence": "Er isst ___ Apfel.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Apfel",
+        "translation": "Он ест яблоко."
+    },
+    {
+        "id": "x7g6i0j2-6k78-4h3d-e45k-6a7b8c9d0e1f",
+        "sentence": "Die Bedeutung ___ Wortes ist tief.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Wortes",
+        "translation": "Значение слова глубокое."
+    },
+    {
+        "id": "y8h7j1k3-7l89-4i4e-f56l-7b8c9d0e1f2g",
+        "sentence": "Ich schreibe ___ Freundin eine E-Mail.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Freundin",
+        "translation": "Я пишу подруге электронное письмо."
+    },
+    {
+        "id": "z9i8k2l4-8m90-4j5f-g67m-8c9d0e1f2g3h",
+        "sentence": "___ Mädchen liest.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Mädchen",
+        "translation": "Девочка читает."
+    },
+    {
+        "id": "a0j9l3m5-9n01-4k6g-h78n-9d0e1f2g3h4i",
+        "sentence": "Wir kaufen ___ Brot.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Brot",
+        "translation": "Мы покупаем хлеб."
+    },
+    {
+        "id": "b1k0m4n6-0o12-4l7h-i89o-0e1f2g3h4i5j",
+        "sentence": "Die Qualität ___ Weines ist gut.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Weines",
+        "translation": "Качество вина хорошее."
+    },
+    {
+        "id": "c2l1n5o7-1p23-4m8i-j90p-1f2g3h4i5j6k",
+        "sentence": "Er hilft ___ Student.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Student",
+        "translation": "Он помогает студенту."
+    },
+    {
+        "id": "d3m2o6p8-2q34-4n9j-k01q-2g3h4i5j6k7l",
+        "sentence": "___ Stuhl ist alt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Stuhl",
+        "translation": "Стул старый."
+    },
+    {
+        "id": "e4n3p7q9-3r45-4o0k-l12r-3h4i5j6k7l8m",
+        "sentence": "Ich sehe ___ Film.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Film",
+        "translation": "Я смотрю фильм."
+    },
+    {
+        "id": "f5o4q8r0-4s56-4p1l-m23s-4i5j6k7l8m9n",
+        "sentence": "Die Entfernung ___ Bahnhofs ist kurz.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Bahnhofs",
+        "translation": "Расстояние до вокзала короткое."
+    },
+    {
+        "id": "g6p5r9s1-5t67-4q2m-n34t-5j6k7l8m9n0o",
+        "sentence": "Sie spricht mit ___ Arzt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Arzt",
+        "translation": "Она разговаривает с врачом."
+    },
+    {
+        "id": "h7q6s0t2-6u78-4r3n-o45u-6k7l8m9n0o1p",
+        "sentence": "___ Baum ist hoch.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Baum",
+        "translation": "Дерево высокое."
+    },
+    {
+        "id": "i8r7t1u3-7v89-4s4o-p56v-7l8m9n0o1p2q",
+        "sentence": "Wir essen ___ Pizza.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Pizza",
+        "translation": "Мы едим пиццу."
+    },
+    {
+        "id": "j9s8u2v4-8w90-4t5p-q67w-8m9n0o1p2q3r",
+        "sentence": "Der Preis ___ Hauses ist hoch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Hauses",
+        "translation": "Цена дома высокая."
+    },
+    {
+        "id": "k0t9v3w5-9x01-4u6q-r78x-9n0o1p2q3r4s",
+        "sentence": "Ich gebe ___ Lehrerin das Buch.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Lehrerin",
+        "translation": "Я даю учительнице книгу."
+    },
+    {
+        "id": "l1u0w4x6-0y12-4v7r-s89y-0o1p2q3r4s5t",
+        "sentence": "___ Zimmer ist klein.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Zimmer",
+        "translation": "Комната маленькая."
+    },
+    {
+        "id": "m2v1x5y7-1z23-4w8s-t90z-1p2q3r4s5t6u",
+        "sentence": "Er fährt ___ Auto.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Auto",
+        "translation": "Он ведёт машину."
+    },
+    {
+        "id": "n3w2y6z8-2a34-4x9t-u01a-2q3r4s5t6u7v",
+        "sentence": "Die Farbe ___ Haare ist schwarz.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Haare",
+        "translation": "Цвет волос чёрный."
+    },
+    {
+        "id": "o4x3z7a9-3b45-4y0u-v12b-3r4s5t6u7v8w",
+        "sentence": "Sie hilft ___ Kollegen.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Kollegen",
+        "translation": "Она помогает коллеге."
+    },
+    {
+        "id": "p5y4a8b0-4c56-4z1v-w23c-4s5t6u7v8w9x",
+        "sentence": "___ Katze schläft.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Katze",
+        "translation": "Кошка спит."
+    },
+    {
+        "id": "q6z5b9c1-5d67-4a2w-x34d-5t6u7v8w9x0y",
+        "sentence": "Ich schreibe ___ Brief.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Brief",
+        "translation": "Я пишу письмо."
+    },
+    {
+        "id": "r7a6c0d2-6e78-4b3x-y45e-6u7v8w9x0y1z",
+        "sentence": "Der Geruch ___ Käses ist intensiv.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Käses",
+        "translation": "Запах сыра интенсивный."
+    },
+    {
+        "id": "s8b7d1e3-7f89-4c4y-z56f-7v8w9x0y1z2a",
+        "sentence": "Wir sitzen auf ___ Sofa.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Sofa",
+        "translation": "Мы сидим на диване."
+    },
+    {
+        "id": "t9c8e2f4-8g90-4d5z-a67g-8w9x0y1z2a3b",
+        "sentence": "___ Wetter ist schlecht.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Wetter",
+        "translation": "Погода плохая."
+    },
+    {
+        "id": "u0d9f3g5-9h01-4e6a-b78h-9x0y1z2a3b4c",
+        "sentence": "Er isst ___ Kuchen.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Kuchen",
+        "translation": "Он ест пирог."
+    },
+    {
+        "id": "v1e0g4h6-0i12-4f7b-c89i-0y1z2a3b4c5d",
+        "sentence": "Die Qualität ___ Service ist durchschnittlich.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Service",
+        "translation": "Качество обслуживания среднее."
+    },
+    {
+        "id": "w2f1h5i7-1j23-4g8c-d90j-1z2a3b4c5d6e",
+        "sentence": "Ich gebe ___ Kindern Süßigkeiten.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Kindern",
+        "translation": "Я даю детям сладости."
+    },
+    {
+        "id": "x3g2i6j8-2k34-4h9d-e01k-2a3b4c5d6e7f",
+        "sentence": "___ Telefon klingelt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Telefon",
+        "translation": "Телефон звонит."
+    },
+    {
+        "id": "y4h3j7k9-3l45-4i0e-f12l-3b4c5d6e7f8g",
+        "sentence": "Sie kauft ___ Schuhe.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Schuhe",
+        "translation": "Она покупает туфли."
+    },
+    {
+        "id": "z5i4k8l0-4m56-4j1f-g23m-4c5d6e7f8g9h",
+        "sentence": "Die Aussicht ___ Berges ist wunderschön.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Berges",
+        "translation": "Вид с горы прекрасный."
+    },
+    {
+        "id": "a6j5l9m1-5n67-4k2g-h34n-5d6e7f8g9h0i",
+        "sentence": "Er fährt mit ___ Bus.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Bus",
+        "translation": "Он едет на автобусе."
+    },
+    {
+        "id": "b7k6m0n2-6o78-4l3h-i45o-6e7f8g9h0i1j",
+        "sentence": "___ Vögel singen laut.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Vögel",
+        "translation": "Птицы поют громко."
+    },
+    {
+        "id": "c8l7n1o3-7p89-4m4i-j56p-7f8g9h0i1j2k",
+        "sentence": "Ich trinke ___ Tee.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Tee",
+        "translation": "Я пью чай."
+    },
+    {
+        "id": "d9m8o2p4-8q90-4n5j-k67q-8g9h0i1j2k3l",
+        "sentence": "Der Klang ___ Musik ist harmonisch.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Musik",
+        "translation": "Звук музыки гармоничный."
+    },
+    {
+        "id": "e0n9p3q5-9r01-4o6k-l78r-9h0i1j2k3l4m",
+        "sentence": "Sie hilft ___ armen Leute.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Leute",
+        "translation": "Она помогает бедным людям."
+    },
+    {
+        "id": "f1o0q4r6-0s12-4p7l-m89s-0i1j2k3l4m5n",
+        "sentence": "___ Himmel ist blau.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Himmel",
+        "translation": "Небо голубое."
+    },
+    {
+        "id": "g2p1r5s7-1t23-4q8m-n90t-1j2k3l4m5n6o",
+        "sentence": "Wir essen ___ Abendessen.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Abendessen",
+        "translation": "Мы едим ужин."
+    },
+    {
+        "id": "h3q2s6t8-2u34-4r9n-o01u-2k3l4m5n6o7p",
+        "sentence": "Die Größe ___ Stadt ist beeindruckend.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Stadt",
+        "translation": "Размер города впечатляет."
+    },
+    {
+        "id": "i4r3t7u9-3v45-4s0o-p12v-3l4m5n6o7p8q",
+        "sentence": "Ich gehe zu ___ Bahnhof.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Bahnhof",
+        "translation": "Я иду на вокзал."
+    },
+    {
+        "id": "j5s4u8v0-4w56-4t1p-q23w-4m5n6o7p8q9r",
+        "sentence": "___ Haus ist neu.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Haus",
+        "translation": "Дом новый."
+    },
+    {
+        "id": "k6t5v9w1-5x67-4u2q-r34x-5n6o7p8q9r0s",
+        "sentence": "Er liest ___ Zeitung.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Zeitung",
+        "translation": "Он читает газету."
+    },
+    {
+        "id": "l7u6w0x2-6y78-4v3r-s45y-6o7p8q9r0s1t",
+        "sentence": "Der Beginn ___ Kurses ist nächste Woche.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Kurses",
+        "translation": "Начало курса на следующей неделе."
+    },
+    {
+        "id": "m8v7x1y3-7z89-4w4s-t56z-7p8q9r0s1t2u",
+        "sentence": "Sie arbeitet bei ___ Firma.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Firma",
+        "translation": "Она работает в фирме."
+    },
+    {
+        "id": "n9w8y2z4-8a90-4x5t-u67a-8q9r0s1t2u3v",
+        "sentence": "___ Kind weint.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Kind",
+        "translation": "Ребёнок плачет."
+    },
+    {
+        "id": "o0x9z3a5-9b01-4y6u-v78b-9r0s1t2u3v4w",
+        "sentence": "Ich suche ___ Schlüssel.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Schlüssel",
+        "translation": "Я ищу ключ."
+    },
+    {
+        "id": "p1y0a4b6-0c12-4z7v-w89c-0s1t2u3v4w5x",
+        "sentence": "Die Farbe ___ Hauses ist braun.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Hauses",
+        "translation": "Цвет дома коричневый."
+    },
+    {
+        "id": "q2z1b5c7-1d23-4a8w-x90d-1t2u3v4w5x6y",
+        "sentence": "Wir spielen mit ___ Kindern.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Kindern",
+        "translation": "Мы играем с детьми."
+    },
+    {
+        "id": "r3a2c6d8-2e34-4b9x-y01e-2u3v4w5x6y7z",
+        "sentence": "___ Blume duftet.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок пахнет."
+    },
+    {
+        "id": "s4b3d7e9-3f45-4c0y-z12f-3v4w5x6y7z8a",
+        "sentence": "Sie hat ___ Tasche verloren.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Tasche",
+        "translation": "Она потеряла сумку."
+    },
+    {
+        "id": "t5c4e8f0-4g56-4d1z-a23g-4w5x6y7z8a9b",
+        "sentence": "Der Klang ___ Regens ist leise.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Regens",
+        "translation": "Звук дождя тихий."
+    },
+    {
+        "id": "u6d5f9g1-5h67-4e2a-b34h-5x6y7z8a9b0c",
+        "sentence": "Ich gehe zu ___ Post.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Post",
+        "translation": "Я иду на почту."
+    },
+    {
+        "id": "v7e6g0h2-6i78-4f3b-c45i-6y7z8a9b0c1d",
+        "sentence": "___ Zug fährt ab.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Zug",
+        "translation": "Поезд отправляется."
+    },
+    {
+        "id": "w8f7h1i3-7j89-4g4c-d56j-7z8a9b0c1d2e",
+        "sentence": "Er fährt ___ Fahrrad.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Fahrrad",
+        "translation": "Он едет на велосипеде."
+    },
+    {
+        "id": "x9g8i2j4-8k90-4h5d-e67k-8a9b0c1d2e3f",
+        "sentence": "Die Schönheit ___ Natur ist wunderbar.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Natur",
+        "translation": "Красота природы чудесна."
+    },
+    {
+        "id": "y0h9j3k5-9l01-4i6e-f78l-9b0c1d2e3f4g",
+        "sentence": "Sie hilft ___ Opa.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Opa",
+        "translation": "Она помогает дедушке."
+    },
+    {
+        "id": "z1i0k4l6-0m12-4j7f-g89m-0c1d2e3f4g5h",
+        "sentence": "___ Mond scheint.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Mond",
+        "translation": "Луна светит."
+    },
+    {
+        "id": "a2j1l5m7-1n23-4k8g-h90n-1d2e3f4g5h6i",
+        "sentence": "Wir essen ___ Suppe.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Suppe",
+        "translation": "Мы едим суп."
+    },
+    {
+        "id": "b3k2m6n8-2o34-4l9h-i01o-2e3f4g5h6i7j",
+        "sentence": "Das Ende ___ Geschichte ist gut.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Geschichte",
+        "translation": "Конец истории хороший."
+    },
+    {
+        "id": "c4l3n7o9-3p45-4m0i-j12p-3f4g5h6i7j8k",
+        "sentence": "Ich gebe ___ Katze Futter.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Katze",
+        "translation": "Я даю кошке корм."
+    },
+    {
+        "id": "d5m4o8p0-4q56-4n1j-k23q-4g5h6i7j8k9l",
+        "sentence": "___ Buch ist dick.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Buch",
+        "translation": "Книга толстая."
+    },
+    {
+        "id": "e6n5p9q1-5r67-4o2k-l34r-5h6i7j8k9l0m",
+        "sentence": "Sie kauft ___ Brot.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Brot",
+        "translation": "Она покупает хлеб."
+    },
+    {
+        "id": "f7o6q0r2-6s78-4p3l-m45s-6i7j8k9l0m1n",
+        "sentence": "Der Geschmack ___ Kuchens ist lecker.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Kuchens",
+        "translation": "Вкус пирога вкусный."
+    },
+    {
+        "id": "g8p7r1s3-7t89-4q4m-n56t-7j8k9l0m1n2o",
+        "sentence": "Er fährt mit ___ Zug.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Zug",
+        "translation": "Он едет на поезде."
+    },
+    {
+        "id": "h9q8s2t4-8u90-4r5n-o67u-8k9l0m1n2o3p",
+        "sentence": "___ Blume riecht stark.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок сильно пахнет."
+    },
+    {
+        "id": "i0r9t3u5-9v01-4s6o-p78v-9l0m1n2o3p4q",
+        "sentence": "Ich schreibe ___ Brief.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Brief",
+        "translation": "Я пишу письмо."
+    },
+    {
+        "id": "j1s0u4v6-0w12-4t7p-q89w-0m1n2o3p4q5r",
+        "sentence": "Die Aussicht ___ Fensters ist fantastisch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Fensters",
+        "translation": "Вид из окна фантастический."
+    },
+    {
+        "id": "k2t1v5w7-1x23-4u8q-r90x-1n2o3p4q5r6s",
+        "sentence": "Wir helfen ___ alten Frau.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Frau",
+        "translation": "Мы помогаем старой женщине."
+    },
+    {
+        "id": "l3u2w6x8-2y34-4v9r-s01y-2o3p4q5r6s7t",
+        "sentence": "___ Junge spielt Fußball.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Junge",
+        "translation": "Мальчик играет в футбол."
+    },
+    {
+        "id": "m4v3x7y9-3z45-4w0s-t12z-3p4q5r6s7t8u",
+        "sentence": "Sie sieht ___ Film.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Film",
+        "translation": "Она смотрит фильм."
+    },
+    {
+        "id": "n5w4y8z0-4a56-4x1t-u23a-4q5r6s7t8u9v",
+        "sentence": "Der Preis ___ Autos ist niedrig.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Autos",
+        "translation": "Цена автомобилей низкая."
+    },
+    {
+        "id": "o6x5z9a1-5b67-4y2u-v34b-5r6s7t8u9v0w",
+        "sentence": "Ich gebe ___ Kind ein Spielzeug.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Kind",
+        "translation": "Я даю ребёнку игрушку."
+    },
+    {
+        "id": "p7y6a0b2-6c78-4z3v-w45c-6s7t8u9v0w1x",
+        "sentence": "___ Zimmer ist ordentlich.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Zimmer",
+        "translation": "Комната убрана."
+    },
+    {
+        "id": "q8z7b1c3-7d89-4a4w-x56d-7t8u9v0w1x2y",
+        "sentence": "Er trinkt ___ Saft.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Saft",
+        "translation": "Он пьёт сок."
+    },
+    {
+        "id": "r9a8c2d4-8e90-4b5x-y67e-8u9v0w1x2y3z",
+        "sentence": "Die Geschichte ___ Stadt ist faszinierend.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Stadt",
+        "translation": "История города завораживающая."
+    },
+    {
+        "id": "s0b9d3e5-9f01-4c6y-z78f-9v0w1x2y3z4a",
+        "sentence": "Sie arbeitet bei ___ Krankenhaus.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Krankenhaus",
+        "translation": "Она работает в больнице."
+    },
+    {
+        "id": "t1c0e4f6-0g12-4d7z-a89g-0w1x2y3z4a5b",
+        "sentence": "___ Katze miaut laut.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Katze",
+        "translation": "Кошка громко мяукает."
+    },
+    {
+        "id": "u2d1f5g7-1h23-4e8a-b90h-1x2y3z4a5b6c",
+        "sentence": "Ich esse ___ Pizza.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Pizza",
+        "translation": "Я ем пиццу."
+    },
+    {
+        "id": "v3e2g6h8-2i34-4f9b-c01i-2y3z4a5b6c7d",
+        "sentence": "Der Klang ___ Musik ist beruhigend.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Musik",
+        "translation": "Звук музыки успокаивающий."
+    },
+    {
+        "id": "w4f3h7i9-3j45-4g0c-d12j-3z4a5b6c7d8e",
+        "sentence": "Wir sprechen mit ___ Lehrer.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Lehrer",
+        "translation": "Мы разговариваем с учителем."
+    },
+    {
+        "id": "x5g4i8j0-4k56-4h1d-e23k-4a5b6c7d8e9f",
+        "sentence": "___ Sonne scheint hell.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Sonne",
+        "translation": "Солнце светит ярко."
+    },
+    {
+        "id": "y6h5j9k1-5l67-4i2e-f34l-5b6c7d8e9f0g",
+        "sentence": "Er kauft ___ Brot.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Brot",
+        "translation": "Он покупает хлеб."
+    },
+    {
+        "id": "z7i6k0l2-6m78-4j3f-g45m-6c7d8e9f0g1h",
+        "sentence": "Das ist das Haus ___ Mannes.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Mannes",
+        "translation": "Это дом мужчины."
+    },
+    {
+        "id": "a8j7l1m3-7n89-4k4g-h56n-7d8e9f0g1h2i",
+        "sentence": "Ich gehe zu ___ Park.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Park",
+        "translation": "Я иду в парк."
+    },
+    {
+        "id": "b9k8m2n4-8o90-4l5h-i67o-8e9f0g1h2i3j",
+        "sentence": "___ Computer ist schnell.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Computer",
+        "translation": "Компьютер быстрый."
+    },
+    {
+        "id": "c0l9n3o5-9p01-4m6i-j78p-9f0g1h2i3j4k",
+        "sentence": "Sie trägt ___ Hut.",
+        "correctArticle": "einen",
+        "caseName": "Akkusativ",
+        "noun": "Hut",
+        "translation": "Она носит шляпу."
+    },
+    {
+        "id": "d1m0o4p6-0q12-4n7j-k89q-0g1h2i3j4k5l",
+        "sentence": "Die Farbe ___ Himmels ist blau.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Himmels",
+        "translation": "Цвет неба синий."
+    },
+    {
+        "id": "e2n1p5q7-1r23-4o8k-l90r-1h2i3j4k5l6m",
+        "sentence": "Wir fahren mit ___ Auto.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Auto",
+        "translation": "Мы едем на машине."
+    },
+    {
+        "id": "f3o2q6r8-2s34-4p9l-m01s-2i3j4k5l6m7n",
+        "sentence": "___ Vogel fliegt hoch.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vogel",
+        "translation": "Птица летит высоко."
+    },
+    {
+        "id": "g4p3r7s9-3t45-4q0m-n12t-3j4k5l6m7n8o",
+        "sentence": "Ich sehe ___ Sterne.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Sterne",
+        "translation": "Я вижу звёзды."
+    },
+    {
+        "id": "h5q4s8t0-4u56-4r1n-o23u-4k5l6m7n8o9p",
+        "sentence": "Der Geruch ___ Blumen ist süß.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Blumen",
+        "translation": "Запах цветов сладкий."
+    },
+    {
+        "id": "i6r5t9u1-5v67-4s2o-p34v-5l6m7n8o9p0q",
+        "sentence": "Er hilft ___ armen Kind.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Kind",
+        "translation": "Он помогает бедному ребёнку."
+    },
+    {
+        "id": "j7s6u0v2-6w78-4t3p-q45w-6m7n8o9p0q1r",
+        "sentence": "___ Telefon ist neu.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Telefon",
+        "translation": "Телефон новый."
+    },
+    {
+        "id": "k8t7v1w3-7x89-4u4q-r56x-7n8o9p0q1r2s",
+        "sentence": "Sie mag ___ Musik.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Musik",
+        "translation": "Ей нравится музыка."
+    },
+    {
+        "id": "l9u8w2x4-8y90-4v5r-s67y-8o9p0q1r2s3t",
+        "sentence": "Die Aussicht ___ Fensters ist großartig.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Fensters",
+        "translation": "Вид из окна великолепный."
+    },
+    {
+        "id": "m0v9x3y5-9z01-4w6s-t78z-9p0q1r2s3t4u",
+        "sentence": "Ich spreche mit ___ Chefin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Chefin",
+        "translation": "Я разговариваю с начальницей."
+    },
+    {
+        "id": "n1w0y4z6-0a12-4x7t-u89a-0q1r2s3t4u5v",
+        "sentence": "___ Stuhl ist unbequem.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Stuhl",
+        "translation": "Стул неудобный."
+    },
+    {
+        "id": "o2x1z5a7-1b23-4y8u-v90b-1r2s3t4u5v6w",
+        "sentence": "Er kauft ___ T-Shirt.",
+        "correctArticle": "ein",
+        "caseName": "Akkusativ",
+        "noun": "T-Shirt",
+        "translation": "Он покупает футболку."
+    },
+    {
+        "id": "p3y2a6b8-2c34-4z9v-w01c-2s3t4u5v6w7x",
+        "sentence": "Der Zweck ___ Übung ist unklar.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Übung",
+        "translation": "Цель упражнения неясна."
+    },
+    {
+        "id": "q4z3b7c9-3d45-4a0w-x12d-3t4u5v6w7x8y",
+        "sentence": "Sie sitzt auf ___ Bank.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Bank",
+        "translation": "Она сидит на скамейке."
+    },
+    {
+        "id": "r5a4c8d0-4e56-4b1x-y23e-4u5v6w7x8y9z",
+        "sentence": "___ Rose ist rot.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Rose",
+        "translation": "Роза красная."
+    },
+    {
+        "id": "s6b5d9e1-5f67-4c2y-z34f-5v6w7x8y9z0a",
+        "sentence": "Wir trinken ___ Wasser.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Wasser",
+        "translation": "Мы пьём воду."
+    },
+    {
+        "id": "t7c6e0f2-6g78-4d3z-a45g-6w7x8y9z0a1b",
+        "sentence": "Der Beginn ___ Reise ist morgen.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Reise",
+        "translation": "Начало поездки завтра."
+    },
+    {
+        "id": "u8d7f1g3-7h89-4e4a-b56h-7x8y9z0a1b2c",
+        "sentence": "Ich helfe ___ alten Dame.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Dame",
+        "translation": "Я помогаю старой даме."
+    },
+    {
+        "id": "v9e8g2h4-8i90-4f5b-c67i-8y9z0a1b2c3d",
+        "sentence": "___ Schiff fährt auf dem Meer.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Schiff",
+        "translation": "Корабль плывет по морю."
+    },
+    {
+        "id": "w0f9h3i5-9j01-4g6c-d78j-9z0a1b2c3d4e",
+        "sentence": "Er liest ___ Buch.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Buch",
+        "translation": "Он читает книгу."
+    },
+    {
+        "id": "x1g0i4j6-0k12-4h7d-e89k-0a1b2c3d4e5f",
+        "sentence": "Die Größe ___ Zimmers ist groß.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Zimmers",
+        "translation": "Размер комнаты большой."
+    },
+    {
+        "id": "y2h1j5k7-1l23-4i8e-f90l-1b2c3d4e5f6g",
+        "sentence": "Sie spricht mit ___ Mann.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Mann",
+        "translation": "Она разговаривает с мужчиной."
+    },
+    {
+        "id": "z3i2k6l8-2m34-4j9f-g01m-2c3d4e5f6g7h",
+        "sentence": "___ Mädchen lacht.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Mädchen",
+        "translation": "Девочка смеётся."
+    },
+    {
+        "id": "a4j3l7m9-3n45-4k0g-h12n-3d4e5f6g7h8i",
+        "sentence": "Ich trage ___ Pullover.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Pullover",
+        "translation": "Я ношу свитер."
+    },
+    {
+        "id": "b5k4m8n0-4o56-4l1h-i23o-4e5f6g7h8i9j",
+        "sentence": "Der Klang ___ Regens ist schön.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Regens",
+        "translation": "Звук дождя красивый."
+    },
+    {
+        "id": "c6l5n9o1-5p67-4m2i-j34p-5f6g7h8i9j0k",
+        "sentence": "Er gibt ___ Frau Blumen.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Frau",
+        "translation": "Он дарит женщине цветы."
+    },
+    {
+        "id": "d7m6o0p2-6q78-4n3j-k45q-6g7h8i9j0k1l",
+        "sentence": "___ Bäume sind groß.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Bäume",
+        "translation": "Деревья большие."
+    },
+    {
+        "id": "e8n7p1q3-7r89-4o4k-l56r-7h8i9j0k1l2m",
+        "sentence": "Wir besuchen ___ Museum.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Museum",
+        "translation": "Мы посещаем музей."
+    },
+    {
+        "id": "f9o8q2r4-8s90-4p5l-m67s-8i9j0k1l2m3n",
+        "sentence": "Die Farbe ___ Haares ist rot.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Haares",
+        "translation": "Цвет волос красный."
+    },
+    {
+        "id": "g0p9r3s5-9t01-4q6m-n78t-9j0k1l2m3n4o",
+        "sentence": "Sie hilft ___ Freund.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Freund",
+        "translation": "Она помогает другу."
+    },
+    {
+        "id": "h1q0s4t6-0u12-4r7n-o89u-0k1l2m3n4o5p",
+        "sentence": "___ Himmel ist grau.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Himmel",
+        "translation": "Небо серое."
+    },
+    {
+        "id": "i2r1t5u7-1v23-4s8o-p90v-1l2m3n4o5p6q",
+        "sentence": "Ich schreibe ___ Artikel.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Artikel",
+        "translation": "Я пишу статью."
+    },
+    {
+        "id": "j3s2u6v8-2w34-4t9p-q01w-2m3n4o5p6q7r",
+        "sentence": "Der Preis ___ Kaffees ist hoch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Kaffees",
+        "translation": "Цена кофе высокая."
+    },
+    {
+        "id": "k4t3v7w9-3x45-4u0q-r12x-3n4o5p6q7r8s",
+        "sentence": "Wir gehen zu ___ Supermarkt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Supermarkt",
+        "translation": "Мы идём в супермаркет."
+    },
+    {
+        "id": "l5u4w8x0-4y56-4v1r-s23y-4o5p6q7r8s9t",
+        "sentence": "___ Tasse ist voll.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Tasse",
+        "translation": "Чашка полная."
+    },
+    {
+        "id": "m6v5x9y1-5z67-4w2s-t34z-5p6q7r8s9t0u",
+        "sentence": "Er isst ___ Salat.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Salat",
+        "translation": "Он ест салат."
+    },
+    {
+        "id": "n7w6y0z2-6a78-4x3t-u45a-6q7r8s9t0u1v",
+        "sentence": "Die Aussicht ___ Berges ist atemberaubend.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Berges",
+        "translation": "Вид с горы захватывает дух."
+    },
+    {
+        "id": "o8x7z1a3-7b89-4y4u-v56b-7r8s9t0u1v2w",
+        "sentence": "Sie hilft ___ Patientin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Patientin",
+        "translation": "Она помогает пациентке."
+    },
+    {
+        "id": "p9y8a2b4-8c90-4z5v-w67c-8s9t0u1v2w3x",
+        "sentence": "___ Buch ist dünn.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Buch",
+        "translation": "Книга тонкая."
+    },
+    {
+        "id": "q0z9b3c5-9d01-4a6w-x78d-9t0u1v2w3x4y",
+        "sentence": "Ich trinke ___ Milch.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Milch",
+        "translation": "Я пью молоко."
+    },
+    {
+        "id": "r1a0c4d6-0e12-4b7x-y89e-0u1v2w3x4y5z",
+        "sentence": "Das Ende ___ Films ist traurig.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Films",
+        "translation": "Конец фильма грустный."
+    },
+    {
+        "id": "s2b1d5e7-1f23-4c8y-z90f-1v2w3x4y5z6a",
+        "sentence": "Er gibt ___ Lehrerin ein Geschenk.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Lehrerin",
+        "translation": "Он дарит учительнице подарок."
+    },
+    {
+        "id": "t3c2e6f8-2g34-4d9z-a01g-2w3x4y5z6a7b",
+        "sentence": "___ Junge spielt mit ___ Ball.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Junge",
+        "translation": "Мальчик играет с мячом."
+    },
+    {
+        "id": "u4d3f7g9-3h45-4e0a-b12h-3x4y5z6a7b8c",
+        "sentence": "Wir essen ___ Pizza.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Pizza",
+        "translation": "Мы едим пиццу."
+    },
+    {
+        "id": "v5e4g8h0-4i56-4f1b-c23i-4y5z6a7b8c9d",
+        "sentence": "Die Länge ___ Straße ist lang.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Straße",
+        "translation": "Длина улицы большая."
+    },
+    {
+        "id": "w6f5h9i1-5j67-4g2c-d34j-5z6a7b8c9d0e",
+        "sentence": "Ich schlafe in ___ Bett.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Bett",
+        "translation": "Я сплю в кровати."
+    },
+    {
+        "id": "x7g6i0j2-6k78-4h3d-e45k-6a7b8c9d0e1f",
+        "sentence": "___ Lampe ist aus.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Lampe",
+        "translation": "Лампа выключена."
+    },
+    {
+        "id": "y8h7j1k3-7l89-4i4e-f56l-7b8c9d0e1f2g",
+        "sentence": "Er malt ___ Bild.",
+        "correctArticle": "ein",
+        "caseName": "Akkusativ",
+        "noun": "Bild",
+        "translation": "Он рисует картину."
+    },
+    {
+        "id": "z9i8k2l4-8m90-4j5f-g67m-8c9d0e1f2g3h",
+        "sentence": "Das Licht ___ Sonne ist warm.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Sonne",
+        "translation": "Свет солнца тёплый."
+    },
+    {
+        "id": "a0j9l3m5-9n01-4k6g-h78n-9d0e1f2g3h4i",
+        "sentence": "Sie hilft ___ Kollege.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Kollege",
+        "translation": "Она помогает коллеге (мужчине)."
+    },
+    {
+        "id": "b1k0m4n6-0o12-4l7h-i89o-0e1f2g3h4i5j",
+        "sentence": "___ Hund bellt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Hund",
+        "translation": "Собака лает."
+    },
+    {
+        "id": "c2l1n5o7-1p23-4m8i-j90p-1f2g3h4i5j6k",
+        "sentence": "Ich habe ___ Problem.",
+        "correctArticle": "ein",
+        "caseName": "Akkusativ",
+        "noun": "Problem",
+        "translation": "У меня есть проблема."
+    },
+    {
+        "id": "d3m2o6p8-2q34-4n9j-k01q-2g3h4i5j6k7l",
+        "sentence": "Der Preis ___ Brotes ist fair.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Brotes",
+        "translation": "Цена хлеба справедливая."
+    },
+    {
+        "id": "e4n3p7q9-3r45-4o0k-l12r-3h4i5j6k7l8m",
+        "sentence": "Wir gehen zu ___ Arzt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Arzt",
+        "translation": "Мы идём к врачу."
+    },
+    {
+        "id": "f5o4q8r0-4s56-4p1l-m23s-4i5j6k7l8m9n",
+        "sentence": "___ Vögel singen leise.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Vögel",
+        "translation": "Птицы поют тихо."
+    },
+    {
+        "id": "g6p5r9s1-5t67-4q2m-n34t-5j6k7l8m9n0o",
+        "sentence": "Er trinkt ___ Bier.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Bier",
+        "translation": "Он пьёт пиво."
+    },
+    {
+        "id": "h7q6s0t2-6u78-4r3n-o45u-6k7l8m9n0o1p",
+        "sentence": "Die Schönheit ___ Natur ist unbeschreiblich.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Natur",
+        "translation": "Красота природы неописуема."
+    },
+    {
+        "id": "i8r7t1u3-7v89-4s4o-p56v-7l8m9n0o1p2q",
+        "sentence": "Sie hilft ___ Freundin.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Freundin",
+        "translation": "Она помогает подруге."
+    },
+    {
+        "id": "j9s8u2v4-8w90-4t5p-q67w-8m9n0o1p2q3r",
+        "sentence": "___ Fenster ist sauber.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Fenster",
+        "translation": "Окно чистое."
+    },
+    {
+        "id": "k0t9v3w5-9x01-4u6q-r78x-9n0o1p2q3r4s",
+        "sentence": "Ich esse ___ Nudeln.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Nudeln",
+        "translation": "Я ем макароны."
+    },
+    {
+        "id": "l1u0w4x6-0y12-4v7r-s89y-0o1p2q3r4s5t",
+        "sentence": "Das Dach ___ Hauses ist neu.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Hauses",
+        "translation": "Крыша дома новая."
+    },
+    {
+        "id": "m2v1x5y7-1z23-4w8s-t90z-1p2q3r4s5t6u",
+        "sentence": "Er fährt mit ___ Bahn.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Bahn",
+        "translation": "Он едет на поезде."
+    },
+    {
+        "id": "n3w2y6z8-2a34-4x9t-u01a-2q3r4s5t6u7v",
+        "sentence": "___ Tisch ist groß.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Tisch",
+        "translation": "Стол большой."
+    },
+    {
+        "id": "o4x3z7a9-3b45-4y0u-v12b-3r4s5t6u7v8w",
+        "sentence": "Sie kauft ___ Jacke.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "Jacke",
+        "translation": "Она покупает куртку."
+    },
+    {
+        "id": "p5y4a8b0-4c56-4z1v-w23c-4s5t6u7v8w9x",
+        "sentence": "Die Dauer ___ Fluges ist lang.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Fluges",
+        "translation": "Продолжительность полёта большая."
+    },
+    {
+        "id": "q6z5b9c1-5d67-4a2w-x34d-5t6u7v8w9x0y",
+        "sentence": "Ich gebe ___ Pflanze Wasser.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Pflanze",
+        "translation": "Я поливаю растение."
+    },
+    {
+        "id": "r7a6c0d2-6e78-4b3x-y45e-6u7v8w9x0y1z",
+        "sentence": "___ Telefon ist alt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Telefon",
+        "translation": "Телефон старый."
+    },
+    {
+        "id": "s8b7d1e3-7f89-4c4y-z56f-7v8w9x0y1z2a",
+        "sentence": "Er trinkt ___ Limonade.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Limonade",
+        "translation": "Он пьёт лимонад."
+    },
+    {
+        "id": "t9c8e2f4-8g90-4d5z-a67g-8w9x0y1z2a3b",
+        "sentence": "Der Klang ___ Glocken ist laut.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Glocken",
+        "translation": "Звон колоколов громкий."
+    },
+    {
+        "id": "u0d9f3g5-9h01-4e6a-b78h-9x0y1z2a3b4c",
+        "sentence": "Sie hilft ___ kranken Mann.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Mann",
+        "translation": "Она помогает больному мужчине."
+    },
+    {
+        "id": "v1e0g4h6-0i12-4f7b-c89i-0y1z2a3b4c5d",
+        "sentence": "___ Uhr ist kaputt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Uhr",
+        "translation": "Часы сломаны."
+    },
+    {
+        "id": "w2f1h5i7-1j23-4g8c-d90j-1z2a3b4c5d6e",
+        "sentence": "Ich sehe ___ Sterne.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Sterne",
+        "translation": "Я вижу звёзды."
+    },
+    {
+        "id": "x3g2i6j8-2k34-4h9d-e01k-2a3b4c5d6e7f",
+        "sentence": "Das ist das Haus ___ Frau.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Frau",
+        "translation": "Это дом женщины."
+    },
+    {
+        "id": "y4h3j7k9-3l45-4i0e-f12l-3b4c5d6e7f8g",
+        "sentence": "Wir fahren mit ___ Straßenbahn.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Straßenbahn",
+        "translation": "Мы едем на трамвае."
+    },
+    {
+        "id": "z5i4k8l0-4m56-4j1f-g23m-4c5d6e7f8g9h",
+        "sentence": "___ Stift liegt auf dem Tisch.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Stift",
+        "translation": "Ручка лежит на столе."
+    },
+    {
+        "id": "a6j5l9m1-5n67-4k2g-h34n-5d6e7f8g9h0i",
+        "sentence": "Er isst ___ Apfelkuchen.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Apfelkuchen",
+        "translation": "Он ест яблочный пирог."
+    },
+    {
+        "id": "b7k6m0n2-6o78-4l3h-i45o-6e7f8g9h0i1j",
+        "sentence": "Die Aussicht ___ Berges ist schön.",
+        "correctArticle": "vom",
+        "caseName": "Dativ",
+        "noun": "Berg",
+        "translation": "Вид с горы красивый."
+    },
+    {
+        "id": "c8l7n1o3-7p89-4m4i-j56p-7f8g9h0i1j2k",
+        "sentence": "Ich gebe ___ Freundin ein Geschenk.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Freundin",
+        "translation": "Я дарю подруге подарок."
+    },
+    {
+        "id": "d9m8o2p4-8q90-4n5j-k67q-8g9h0i1j2k3l",
+        "sentence": "___ Lied ist lang.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Lied",
+        "translation": "Песня длинная."
+    },
+    {
+        "id": "e0n9p3q5-9r01-4o6k-l78r-9h0i1j2k3l4m",
+        "sentence": "Sie kauft ___ Buch.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Buch",
+        "translation": "Она покупает книгу."
+    },
+    {
+        "id": "f1o0q4r6-0s12-4p7l-m89s-0i1j2k3l4m5n",
+        "sentence": "Der Beginn ___ Unterrichts ist bald.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Unterrichts",
+        "translation": "Начало занятий скоро."
+    },
+    {
+        "id": "g2p1r5s7-1t23-4q8m-n90t-1j2k3l4m5n6o",
+        "sentence": "Er fährt mit ___ Fahrrad.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Fahrrad",
+        "translation": "Он едет на велосипеде."
+    },
+    {
+        "id": "h3q2s6t8-2u34-4r9n-o01u-2k3l4m5n6o7p",
+        "sentence": "___ Blume ist gelb.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок жёлтый."
+    },
+    {
+        "id": "i4r3t7u9-3v45-4s0o-p12v-3l4m5n6o7p8q",
+        "sentence": "Ich sehe ___ Mond am Himmel.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Mond",
+        "translation": "Я вижу луну на небе."
+    },
+    {
+        "id": "j5s4u8v0-4w56-4t1p-q23w-4m5n6o7p8q9r",
+        "sentence": "Die Qualität ___ Weines ist ausgezeichnet.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Weines",
+        "translation": "Качество вина превосходное."
+    },
+    {
+        "id": "k6t5v9w1-5x67-4u2q-r34x-5n6o7p8q9r0s",
+        "sentence": "Wir gehen zu ___ Arzt.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Arzt",
+        "translation": "Мы идём к врачу."
+    },
+    {
+        "id": "l7u6w0x2-6y78-4v3r-s45y-6o7p8q9r0s1t",
+        "sentence": "___ Tisch ist rund.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Tisch",
+        "translation": "Стол круглый."
+    },
+    {
+        "id": "m8v7x1y3-7z89-4w4s-t56z-7p8q9r0s1t2u",
+        "sentence": "Sie isst ___ Käse.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Käse",
+        "translation": "Она ест сыр."
+    },
+    {
+        "id": "n9w8y2z4-8a90-4x5t-u67a-8q9r0s1t2u3v",
+        "sentence": "Der Klang ___ Musik ist laut.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Musik",
+        "translation": "Звук музыки громкий."
+    },
+    {
+        "id": "o0x9z3a5-9b01-4y6u-v78b-9r0s1t2u3v4w",
+        "sentence": "Ich spreche mit ___ Chef.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Chef",
+        "translation": "Я разговариваю с начальником."
+    },
+    {
+        "id": "p1y0a4b6-0c12-4z7v-w89c-0s1t2u3v4w5x",
+        "sentence": "___ Haus ist klein.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Haus",
+        "translation": "Дом маленький."
+    },
+    {
+        "id": "q2z1b5c7-1d23-4a8w-x90d-1t2u3v4w5x6y",
+        "sentence": "Er fährt ___ Motorrad.",
+        "correctArticle": "das",
+        "caseName": "Akkusativ",
+        "noun": "Motorrad",
+        "translation": "Он ведёт мотоцикл."
+    },
+    {
+        "id": "r3a2c6d8-2e34-4b9x-y01e-2u3v4w5x6y7z",
+        "sentence": "Die Farbe ___ Haare ist braun.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Haare",
+        "translation": "Цвет волос коричневый."
+    },
+    {
+        "id": "s4b3d7e9-3f45-4c0y-z12f-3v4w5x6y7z8a",
+        "sentence": "Sie hilft ___ Kindern.",
+        "correctArticle": "den",
+        "caseName": "Dativ",
+        "noun": "Kindern",
+        "translation": "Она помогает детям."
+    },
+    {
+        "id": "t5c4e8f0-4g56-4d1z-a23g-4w5x6y7z8a9b",
+        "sentence": "___ Mädchen spielt im Garten.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Mädchen",
+        "translation": "Девочка играет в саду."
+    },
+    {
+        "id": "u6d5f9g1-5h67-4e2a-b34h-5x6y7z8a9b0c",
+        "sentence": "Ich schreibe ___ E-Mail.",
+        "correctArticle": "eine",
+        "caseName": "Akkusativ",
+        "noun": "E-Mail",
+        "translation": "Я пишу электронное письмо."
+    },
+    {
+        "id": "v7e6g0h2-6i78-4f3b-c45i-6y7z8a9b0c1d",
+        "sentence": "Der Preis ___ Buches ist hoch.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Buches",
+        "translation": "Цена книги высокая."
+    },
+    {
+        "id": "w8f7h1i3-7j89-4g4c-d56j-7z8a9b0c1d2e",
+        "sentence": "Wir fahren mit ___ Bus.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Bus",
+        "translation": "Мы едем на автобусе."
+    },
+    {
+        "id": "x9g8i2j4-8k90-4h5d-e67k-8a9b0c1d2e3f",
+        "sentence": "___ Computer ist alt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Computer",
+        "translation": "Компьютер старый."
+    },
+    {
+        "id": "y0h9j3k5-9l01-4i6e-f78l-9b0c1d2e3f4g",
+        "sentence": "Sie sieht ___ Sterne.",
+        "correctArticle": "die",
+        "caseName": "Akkusativ",
+        "noun": "Sterne",
+        "translation": "Она видит звёзды."
+    },
+    {
+        "id": "z1i0k4l6-0m12-4j7f-g89m-0c1d2e3f4g5h",
+        "sentence": "Die Aussicht ___ Fensters ist großartig.",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
+        "noun": "Fensters",
+        "translation": "Вид из окна великолепный."
+    },
+    {
+        "id": "a2j1l5m7-1n23-4k8g-h90n-1d2e3f4g5h6i",
+        "sentence": "Ich gebe ___ Studentin ein Buch.",
+        "correctArticle": "der",
+        "caseName": "Dativ",
+        "noun": "Studentin",
+        "translation": "Я даю студентке книгу."
+    },
+    {
+        "id": "b3k2m6n8-2o34-4l9h-i01o-2e3f4g5h6i7j",
+        "sentence": "___ Rose ist schön.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Rose",
+        "translation": "Роза красивая."
+    },
+    {
+        "id": "c4l3n7o9-3p45-4m0i-j12p-3f4g5h6i7j8k",
+        "sentence": "Er isst ___ Käse.",
+        "correctArticle": "den",
+        "caseName": "Akkusativ",
+        "noun": "Käse",
+        "translation": "Он ест сыр."
+    },
+    {
+        "id": "d5m4o8p0-4q56-4n1j-k23q-4g5h6i7j8k9l",
+        "sentence": "Die Geschichte ___ Familie ist langweilig.",
+        "correctArticle": "der",
+        "caseName": "Genitiv",
+        "noun": "Familie",
+        "translation": "История семьи скучная."
+    },
+    {
+        "id": "e6n5p9q1-5r67-4o2k-l34r-5h6i7j8k9l0m",
+        "sentence": "Sie spricht mit ___ Professor.",
+        "correctArticle": "dem",
+        "caseName": "Dativ",
+        "noun": "Professor",
+        "translation": "Она разговаривает с профессором."
+    },
+    {
+        "id": "f7o6q0r2-6s78-4p3l-m45s-6i7j8k9l0m1n",
+        "sentence": "___ Apfel ist grün.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Apfel",
+        "translation": "Яблоко зелёное."
+    }
+]

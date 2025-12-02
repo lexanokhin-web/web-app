@@ -1,0 +1,402 @@
+﻿[
+    {
+        "id": "v1",
+        "sentence": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten will.",
+        "targetWord": "weil",
+        "targetWordTranslation": "потому что",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v2",
+        "sentence": "Er ist krank, ___ geht er zur Arbeit.",
+        "targetWord": "trotzdem",
+        "targetWordTranslation": "несмотря на это",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v3",
+        "sentence": "Ich weiß, ___ du recht hast.",
+        "targetWord": "dass",
+        "targetWordTranslation": "что",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v4",
+        "sentence": "___ es regnet, gehen wir spazieren.",
+        "targetWord": "Obwohl",
+        "targetWordTranslation": "Хотя",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v5",
+        "sentence": "Ich habe keinen Hunger, ___ esse ich nichts.",
+        "targetWord": "deshalb",
+        "targetWordTranslation": "поэтому",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v6",
+        "sentence": "___ du Zeit hast, komm vorbei.",
+        "targetWord": "Wenn",
+        "targetWordTranslation": "Если",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v7",
+        "sentence": "Ich warte, ___ du fertig bist.",
+        "targetWord": "bis",
+        "targetWordTranslation": "пока",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v8",
+        "sentence": "Er fragt, ___ wir kommen.",
+        "targetWord": "ob",
+        "targetWordTranslation": "ли (придем ли мы)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v9",
+        "sentence": "Ich lerne viel, ___ ich die Prüfung bestehe.",
+        "targetWord": "damit",
+        "targetWordTranslation": "чтобы",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v10",
+        "sentence": "___ ich klein war, lebte ich in Berlin.",
+        "targetWord": "Als",
+        "targetWordTranslation": "Когда (в прошлом)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v11",
+        "sentence": "Ich rufe dich an, ___ ich zu Hause bin.",
+        "targetWord": "sobald",
+        "targetWordTranslation": "как только",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v12",
+        "sentence": "Wir bleiben hier, ___ der Regen aufhört.",
+        "targetWord": "solange",
+        "targetWordTranslation": "пока (длительность)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v13",
+        "sentence": "Er ist nicht nur klug, ___ auch fleißig.",
+        "targetWord": "sondern",
+        "targetWordTranslation": "но (не только... но и)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v14",
+        "sentence": "Entweder wir gehen ins Kino, ___ wir bleiben zu Hause.",
+        "targetWord": "oder",
+        "targetWordTranslation": "или",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v15",
+        "sentence": "Weder Tee ___ Kaffee schmeckt mir.",
+        "targetWord": "noch",
+        "targetWordTranslation": "ни (ни... ни)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v16",
+        "sentence": "Je mehr ich lerne, ___ besser spreche ich.",
+        "targetWord": "desto",
+        "targetWordTranslation": "тем (чем... тем)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v17",
+        "sentence": "Ich gehe nicht zur Party, ___ ich bin müde.",
+        "targetWord": "denn",
+        "targetWordTranslation": "так как",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v18",
+        "sentence": "___ dem Essen trinke ich Kaffee.",
+        "targetWord": "Nach",
+        "targetWordTranslation": "После",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v19",
+        "sentence": "___ der Arbeit gehe ich einkaufen.",
+        "targetWord": "Vor",
+        "targetWordTranslation": "Перед",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v20",
+        "sentence": "Ich bleibe zu Hause, ___ es regnet.",
+        "targetWord": "da",
+        "targetWordTranslation": "так как (известная причина)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v21",
+        "sentence": "Ich gehe schlafen, ___ ich müde bin.",
+        "targetWord": "weil",
+        "targetWordTranslation": "потому что",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v22",
+        "sentence": "Er arbeitet viel, ___ verdient er wenig.",
+        "targetWord": "trotzdem",
+        "targetWordTranslation": "несмотря на это",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v23",
+        "sentence": "Sie sagt, ___ sie kommt.",
+        "targetWord": "dass",
+        "targetWordTranslation": "что",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v24",
+        "sentence": "___ er reich ist, ist er nicht glücklich.",
+        "targetWord": "Obwohl",
+        "targetWordTranslation": "Хотя",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v25",
+        "sentence": "Der Zug hatte Verspätung, ___ kam ich zu spät.",
+        "targetWord": "deshalb",
+        "targetWordTranslation": "поэтому",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v26",
+        "sentence": "___ es schneit, bauen wir einen Schneemann.",
+        "targetWord": "Wenn",
+        "targetWordTranslation": "Если",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v27",
+        "sentence": "Warte hier, ___ ich zurückkomme.",
+        "targetWord": "bis",
+        "targetWordTranslation": "пока",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v28",
+        "sentence": "Ich weiß nicht, ___ er zu Hause ist.",
+        "targetWord": "ob",
+        "targetWordTranslation": "ли",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v29",
+        "sentence": "Mach das Licht an, ___ wir lesen können.",
+        "targetWord": "damit",
+        "targetWordTranslation": "чтобы",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v30",
+        "sentence": "___ ich in Paris war, besuchte ich den Eiffelturm.",
+        "targetWord": "Als",
+        "targetWordTranslation": "Когда (в прошлом)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v31",
+        "sentence": "Sag mir Bescheid, ___ du fertig bist.",
+        "targetWord": "sobald",
+        "targetWordTranslation": "как только",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v32",
+        "sentence": "Du kannst fernsehen, ___ du deine Hausaufgaben machst.",
+        "targetWord": "solange",
+        "targetWordTranslation": "пока (длительность)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v33",
+        "sentence": "Ich trinke keinen Tee, ___ Kaffee.",
+        "targetWord": "sondern",
+        "targetWordTranslation": "а (после отрицания)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v34",
+        "sentence": "Wir fahren ___ nach Spanien oder nach Italien.",
+        "targetWord": "entweder",
+        "targetWordTranslation": "либо (либо... либо)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v35",
+        "sentence": "Er spricht ___ Deutsch noch Englisch.",
+        "targetWord": "weder",
+        "targetWordTranslation": "ни (ни... ни)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v36",
+        "sentence": "Je schneller, ___ besser.",
+        "targetWord": "desto",
+        "targetWordTranslation": "тем",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v37",
+        "sentence": "Ich lerne, ___ ich will eine gute Note.",
+        "targetWord": "denn",
+        "targetWordTranslation": "так как (потому что)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v38",
+        "sentence": "___ dem Kino gehen wir essen.",
+        "targetWord": "Nach",
+        "targetWordTranslation": "После",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v39",
+        "sentence": "___ dem Schlafen putze ich die Zähne.",
+        "targetWord": "Vor",
+        "targetWordTranslation": "Перед",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v40",
+        "sentence": "___ es kalt ist, ziehe ich eine Jacke an.",
+        "targetWord": "Da",
+        "targetWordTranslation": "Так как",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v41",
+        "sentence": "Er ist müde, ___ er geht nicht schlafen.",
+        "targetWord": "aber",
+        "targetWordTranslation": "но",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v42",
+        "sentence": "Ich möchte kommen, ___ ich habe keine Zeit.",
+        "targetWord": "doch",
+        "targetWordTranslation": "однако (но)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v43",
+        "sentence": "Wir gehen spazieren, ___ wir bleiben hier.",
+        "targetWord": "oder",
+        "targetWordTranslation": "или",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v44",
+        "sentence": "Ich esse Pizza ___ trinke Cola.",
+        "targetWord": "und",
+        "targetWordTranslation": "и",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v45",
+        "sentence": "Er lernt nicht, ___ er spielt.",
+        "targetWord": "sondern",
+        "targetWordTranslation": "а (он играет)",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v46",
+        "sentence": "Zuerst essen wir, ___ gehen wir.",
+        "targetWord": "dann",
+        "targetWordTranslation": "потом",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v47",
+        "sentence": "Ich arbeite, ___ du schläfst.",
+        "targetWord": "während",
+        "targetWordTranslation": "в то время как",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v48",
+        "sentence": "___ ich dich anrufe, gehe ich.",
+        "targetWord": "Bevor",
+        "targetWordTranslation": "Прежде чем",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v49",
+        "sentence": "___ ich hier bin, lerne ich.",
+        "targetWord": "Seitdem",
+        "targetWordTranslation": "С тех пор как",
+        "level": "B1",
+        "topic": "Verbindungen"
+    },
+    {
+        "id": "v50",
+        "sentence": "Er tut so, ___ er alles wüsste.",
+        "targetWord": "als ob",
+        "targetWordTranslation": "как будто",
+        "level": "B1",
+        "topic": "Verbindungen"
+    }
+]

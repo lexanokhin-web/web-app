@@ -1,0 +1,1094 @@
+[
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "sentence": "___ sehe dich.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я вижу тебя."
+    },
+    {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "sentence": "Kannst du ___ helfen?",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Можешь мне помочь?"
+    },
+    {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "sentence": "Er gibt ___ das Buch.",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Он даёт мне книгу."
+    },
+    {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "sentence": "___ liebt sie.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он любит её."
+    },
+    {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "sentence": "Wir sehen ___ morgen.",
+        "correctPronoun": "euch",
+        "caseName": "Akkusativ",
+        "translation": "Мы увидим вас завтра."
+    },
+    {
+        "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+        "sentence": "___ hilft uns oft.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она часто помогает нам."
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+        "sentence": "Kannst du ___ hören?",
+        "correctPronoun": "mich",
+        "caseName": "Akkusativ",
+        "translation": "Ты можешь меня слышать?"
+    },
+    {
+        "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+        "sentence": "___ gebt ihr das Geschenk.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "Вы даёте ей подарок."
+    },
+    {
+        "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+        "sentence": "Er sieht ___ nicht.",
+        "correctPronoun": "sie",
+        "caseName": "Akkusativ",
+        "translation": "Он её не видит."
+    },
+    {
+        "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+        "sentence": "___ danken Ihnen.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы благодарим Вас."
+    },
+    {
+        "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+        "sentence": "Kannst du ___ anrufen?",
+        "correctPronoun": "mich",
+        "caseName": "Akkusativ",
+        "translation": "Ты можешь мне позвонить?"
+    },
+    {
+        "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z1a",
+        "sentence": "Er gibt ___ das Geld.",
+        "correctPronoun": "dir",
+        "caseName": "Dativ",
+        "translation": "Он даёт тебе деньги."
+    },
+    {
+        "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z1a2b",
+        "sentence": "___ sehen uns später.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы увидимся позже."
+    },
+    {
+        "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z1a2b3c",
+        "sentence": "Sie liebt ___ sehr.",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Она очень его любит."
+    },
+    {
+        "id": "5o6p7q8r-9s0t-1u2v-3w4x-5y6z1a2b3c4d",
+        "sentence": "__ gebt mir Bescheid.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "Вы сообщите мне."
+    },
+    {
+        "id": "6p7q8r9s-0t1u-2v3w-4x5y-6z1a2b3c4d5e",
+        "sentence": "Kannst du ___ etwas sagen?",
+        "correctPronoun": "ihm",
+        "caseName": "Dativ",
+        "translation": "Ты можешь ему что-то сказать?"
+    },
+    {
+        "id": "7q8r9s0t-1u2v-3w4x-5y6z-1a2b3c4d5e6f",
+        "sentence": "___ sehe dich.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я вижу тебя."
+    },
+    {
+        "id": "8r9s0t1u-2v3w-4x5y-6z1a-2b3c4d5e6f7g",
+        "sentence": "Er hilft ___ oft.",
+        "correctPronoun": "uns",
+        "caseName": "Dativ",
+        "translation": "Он часто помогает нам."
+    },
+    {
+        "id": "9s0t1u2v-3w4x-5y6z-1a2b-3c4d5e6f7g8h",
+        "sentence": "Ich gebe ___ das Geschenk.",
+        "correctPronoun": "dir",
+        "caseName": "Dativ",
+        "translation": "Я даю тебе подарок."
+    },
+    {
+        "id": "0t1u2v3w-4x5y-6z1a-2b3c-4d5e6f7g8h9i",
+        "sentence": "___ sind müde.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Они устали."
+    },
+    {
+        "id": "1u2v3w4x-5y6z-1a2b-3c4d-5e6f7g8h9i0j",
+        "sentence": "Besuchst du ___ am Wochenende?",
+        "correctPronoun": "uns",
+        "caseName": "Akkusativ",
+        "translation": "Ты навестишь нас на выходных?"
+    },
+    {
+        "id": "2v3w4x5y-6z1a-2b3c-4d5e-6f7g8h9i0j1k",
+        "sentence": "___ hat Durst.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он хочет пить."
+    },
+    {
+        "id": "3w4x5y6z-1a2b-3c4d-5e6f-7g8h9i0j1k2l",
+        "sentence": "Wir sprechen mit ___.",
+        "correctPronoun": "ihnen",
+        "caseName": "Dativ",
+        "translation": "Мы говорим с ними."
+    },
+    {
+        "id": "4x5y6z1a-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+        "sentence": "Kannst du ___ das geben?",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Ты можешь мне это дать?"
+    },
+    {
+        "id": "5y6z1a2b-3c4d-5e6f-7g8h-9i0j1k2l3m4n",
+        "sentence": "___ kommt später.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она придет позже."
+    },
+    {
+        "id": "6z1a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+        "sentence": "Sie rufen ___ an.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Они звонят тебе."
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "sentence": "___ ist hier.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он здесь."
+    },
+    {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "sentence": "Ich helfe ___ gern.",
+        "correctPronoun": "dir",
+        "caseName": "Dativ",
+        "translation": "Я с удовольствием тебе помогу."
+    },
+    {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "sentence": "___ fahren in den Urlaub.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы едем в отпуск."
+    },
+    {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "sentence": "Können wir ___ sehen?",
+        "correctPronoun": "euch",
+        "caseName": "Akkusativ",
+        "translation": "Мы можем вас увидеть?"
+    },
+    {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "sentence": "___ haben Hunger.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "Вы голодны."
+    },
+    {
+        "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+        "sentence": "Er gibt ___ einen Kuss.",
+        "correctPronoun": "ihr",
+        "caseName": "Dativ",
+        "translation": "Он даёт ей поцелуй."
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+        "sentence": "___ kommt aus Deutschland.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я из Германии."
+    },
+    {
+        "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+        "sentence": "Sie fragt ___ nach dem Weg.",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Она спрашивает у него дорогу."
+    },
+    {
+        "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+        "sentence": "___ versteht das nicht.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он этого не понимает."
+    },
+    {
+        "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+        "sentence": "Wir geben ___ die Blumen.",
+        "correctPronoun": "ihnen",
+        "caseName": "Dativ",
+        "translation": "Мы даём им цветы."
+    },
+    {
+        "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+        "sentence": "___ kauft ein Auto.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она покупает машину."
+    },
+    {
+        "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z1a",
+        "sentence": "Könntest du ___ das Buch bringen?",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Не мог бы ты принести мне эту книгу?"
+    },
+    {
+        "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z1a2b",
+        "sentence": "___ gehen spazieren.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы идём гулять."
+    },
+    {
+        "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z1a2b3c",
+        "sentence": "Er sieht ___ nicht.",
+        "correctPronoun": "uns",
+        "caseName": "Akkusativ",
+        "translation": "Он нас не видит."
+    },
+    {
+        "id": "5o6p7q8r-9s0t-1u2v-3w4x-5y6z1a2b3c4d",
+        "sentence": "___ seid klug.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "Вы умны."
+    },
+    {
+        "id": "6p7q8r9s-0t1u-2v3w-4x5y-6z1a2b3c4d5e",
+        "sentence": "Sie erzählt ___ eine Geschichte.",
+        "correctPronoun": "ihm",
+        "caseName": "Dativ",
+        "translation": "Она рассказывает ему историю."
+    },
+    {
+        "id": "7q8r9s0t-1u2v-3w4x-5y6z-1a2b3c4d5e6f",
+        "sentence": "___ lerne Deutsch.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я учу немецкий."
+    },
+    {
+        "id": "8r9s0t1u-2v3w-4x5y-6z1a-2b3c4d5e6f7g",
+        "sentence": "Ich besuche ___ heute Abend.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Я навещу тебя сегодня вечером."
+    },
+    {
+        "id": "9s0t1u2v-3w4x-5y6z-1a2b-3c4d5e6f7g8h",
+        "sentence": "___ arbeitet viel.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он много работает."
+    },
+    {
+        "id": "0t1u2v3w-4x5y-6z1a-2b3c-4d5e6f7g8h9i",
+        "sentence": "Kannst du ___ das erklären?",
+        "correctPronoun": "uns",
+        "caseName": "Dativ",
+        "translation": "Ты можешь нам это объяснить?"
+    },
+    {
+        "id": "1u2v3w4x-5y6z-1a2b-3c4d-5e6f7g8h9i0j",
+        "sentence": "___ fährt Fahrrad.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она едет на велосипеде."
+    },
+    {
+        "id": "2v3w4x5y-6z1a-2b3c-4d5e-6f7g8h9i0j1k",
+        "sentence": "Wir treffen ___ morgen.",
+        "correctPronoun": "euch",
+        "caseName": "Akkusativ",
+        "translation": "Мы встретимся с вами завтра."
+    },
+    {
+        "id": "3w4x5y6z-1a2b-3c4d-5e6f-7g8h9i0j1k2l",
+        "sentence": "___ lest ein Buch.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "Вы читаете книгу."
+    },
+    {
+        "id": "4x5y6z1a-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+        "sentence": "Sie gibt ___ ein Lächeln.",
+        "correctPronoun": "ihm",
+        "caseName": "Dativ",
+        "translation": "Она дарит ему улыбку."
+    },
+    {
+        "id": "5y6z1a2b-3c4d-5e6f-7g8h-9i0j1k2l3m4n",
+        "sentence": "___ habe Hunger.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я голоден."
+    },
+    {
+        "id": "6z1a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+        "sentence": "Er mag ___ sehr.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Он очень тебя любит."
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "sentence": "___ sind hier.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы здесь."
+    },
+    {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "sentence": "Ich danke ___.",
+        "correctPronoun": "ihr",
+        "caseName": "Dativ",
+        "translation": "Я благодарю её."
+    },
+    {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "sentence": "___ essen gern Pizza.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Они любят есть пиццу."
+    },
+    {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "sentence": "Kannst du ___ abholen?",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Ты можешь его забрать?"
+    },
+    {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "sentence": "___ habt schöne Augen.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "У вас красивые глаза."
+    },
+    {
+        "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+        "sentence": "Er gibt ___ die Schlüssel.",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Он даёт мне ключи."
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+        "sentence": "___ gehe jetzt.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я сейчас пойду."
+    },
+    {
+        "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+        "sentence": "Wir besuchen ___ morgen.",
+        "correctPronoun": "sie",
+        "caseName": "Akkusativ",
+        "translation": "Мы навестим её завтра."
+    },
+    {
+        "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+        "sentence": "___ trinkt Wasser.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он пьёт воду."
+    },
+    {
+        "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+        "sentence": "Kannst du ___ das Buch geben?",
+        "correctPronoun": "ihm",
+        "caseName": "Dativ",
+        "translation": "Ты можешь дать ему книгу?"
+    },
+    {
+        "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+        "sentence": "___ singt schön.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она красиво поёт."
+    },
+    {
+        "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z1a",
+        "sentence": "Ich habe ___ gesehen.",
+        "correctPronoun": "euch",
+        "caseName": "Akkusativ",
+        "translation": "Я вас видел."
+    },
+    {
+        "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z1a2b",
+        "sentence": "___ kommt bald.",
+        "correctPronoun": "Es",
+        "caseName": "Nominativ",
+        "translation": "Оно скоро придет."
+    },
+    {
+        "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z1a2b3c",
+        "sentence": "Gibst du ___ einen Stift?",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Ты дашь мне ручку?"
+    },
+    {
+        "id": "5o6p7q8r-9s0t-1u2v-3w4x-5y6z1a2b3c4d",
+        "sentence": "___ spiele gern Fußball.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я люблю играть в футбол."
+    },
+    {
+        "id": "6p7q8r9s-0t1u-2v3w-4x5y-6z1a2b3c4d5e",
+        "sentence": "Er versteht ___ nicht.",
+        "correctPronoun": "uns",
+        "caseName": "Akkusativ",
+        "translation": "Он нас не понимает."
+    },
+    {
+        "id": "7q8r9s0t-1u2v-3w4x-5y6z-1a2b3c4d5e6f",
+        "sentence": "___ kocht gut.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она хорошо готовит."
+    },
+    {
+        "id": "8r9s0t1u-2v3w-4x5y-6z1a-2b3c4d5e6f7g",
+        "sentence": "Ich helfe ___ immer.",
+        "correctPronoun": "ihr",
+        "caseName": "Dativ",
+        "translation": "Я всегда ей помогаю."
+    },
+    {
+        "id": "9s0t1u2v-3w4x-5y6z-1a2b-3c4d5e6f7g8h",
+        "sentence": "___ gehen ins Kino.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы идём в кино."
+    },
+    {
+        "id": "0t1u2v3w-4x5y-6z1a-2b3c-4d5e6f7g8h9i",
+        "sentence": "Sie sehen ___ oft.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Они часто тебя видят."
+    },
+    {
+        "id": "1u2v3w4x-5y6z-1a2b-3c4d-5e6f7g8h9i0j",
+        "sentence": "___ malt ein Bild.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он рисует картину."
+    },
+    {
+        "id": "2v3w4x5y-6z1a-2b3c-4d5e-6f7g8h9i0j1k",
+        "sentence": "Kannst du ___ das erzählen?",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Ты можешь мне это рассказать?"
+    },
+    {
+        "id": "3w4x5y6z-1a2b-3c4d-5e6f-7g8h9i0j1k2l",
+        "sentence": "___ sind traurig.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Они грустят."
+    },
+    {
+        "id": "4x5y6z1a-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+        "sentence": "Ich habe ___ lieb.",
+        "correctPronoun": "euch",
+        "caseName": "Akkusativ",
+        "translation": "Я вас люблю."
+    },
+    {
+        "id": "5y6z1a2b-3c4d-5e6f-7g8h-9i0j1k2l3m4n",
+        "sentence": "___ habt Recht.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "Вы правы."
+    },
+    {
+        "id": "6z1a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+        "sentence": "Er bringt ___ ein Geschenk.",
+        "correctPronoun": "uns",
+        "caseName": "Dativ",
+        "translation": "Он приносит нам подарок."
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "sentence": "___ habe einen Hund.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "У меня есть собака."
+    },
+    {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "sentence": "Kannst du ___ vertrauen?",
+        "correctPronoun": "ihm",
+        "caseName": "Dativ",
+        "translation": "Ты можешь ему доверять?"
+    },
+    {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "sentence": "___ warten auf den Bus.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Они ждут автобус."
+    },
+    {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "sentence": "Ich rufe ___ später an.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Я позвоню тебе позже."
+    },
+    {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "sentence": "___ mögen Schokolade.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы любим шоколад."
+    },
+    {
+        "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+        "sentence": "Er schenkt ___ Blumen.",
+        "correctPronoun": "ihr",
+        "caseName": "Dativ",
+        "translation": "Он дарит ей цветы."
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+        "sentence": "___ sehe den Baum.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я вижу дерево."
+    },
+    {
+        "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+        "sentence": "Sie trifft ___ am Abend.",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Она встретит его вечером."
+    },
+    {
+        "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+        "sentence": "___ arbeitet im Büro.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он работает в офисе."
+    },
+    {
+        "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+        "sentence": "Kannst du ___ helfen?",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Ты можешь мне помочь?"
+    },
+    {
+        "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+        "sentence": "___ liest ein Buch.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она читает книгу."
+    },
+    {
+        "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z1a",
+        "sentence": "Wir lieben ___.",
+        "correctPronoun": "euch",
+        "caseName": "Akkusativ",
+        "translation": "Мы вас любим."
+    },
+    {
+        "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z1a2b",
+        "sentence": "___ kauft ein neues Handy.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он покупает новый телефон."
+    },
+    {
+        "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z1a2b3c",
+        "sentence": "Sie gibt ___ das Geld zurück.",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Она возвращает мне деньги."
+    },
+    {
+        "id": "5o6p7q8r-9s0t-1u2v-3w4x-5y6z1a2b3c4d",
+        "sentence": "___ sprechen Spanisch.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы говорим по-испански."
+    },
+    {
+        "id": "6p7q8r9s-0t1u-2v3w-4x5y-6z1a2b3c4d5e",
+        "sentence": "Er holt ___ ab.",
+        "correctPronoun": "sie",
+        "caseName": "Akkusativ",
+        "translation": "Он забирает её."
+    },
+    {
+        "id": "7q8r9s0t-1u2v-3w4x-5y6z-1a2b3c4d5e6f",
+        "sentence": "___ geht es gut.",
+        "correctPronoun": "Mir",
+        "caseName": "Dativ",
+        "translation": "У меня всё хорошо."
+    },
+    {
+        "id": "8r9s0t1u-2v3w-4x5y-6z1a-2b3c4d5e6f7g",
+        "sentence": "___ sind Freunde.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы друзья."
+    },
+    {
+        "id": "9s0t1u2v-3w4x-5y6z-1a2b-3c4d5e6f7g8h",
+        "sentence": "Kannst du ___ sehen?",
+        "correctPronoun": "mich",
+        "caseName": "Akkusativ",
+        "translation": "Ты можешь меня видеть?"
+    },
+    {
+        "id": "0t1u2v3w-4x5y-6z1a-2b3c-4d5e6f7g8h9i",
+        "sentence": "___ hat Geburtstag.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "У неё день рождения."
+    },
+    {
+        "id": "1u2v3w4x-5y6z-1a2b-3c4d-5e6f7g8h9i0j",
+        "sentence": "Er schreibt ___ einen Brief.",
+        "correctPronoun": "ihm",
+        "caseName": "Dativ",
+        "translation": "Он пишет ему письмо."
+    },
+    {
+        "id": "2v3w4x5y-6z1a-2b3c-4d5e-6f7g8h9i0j1k",
+        "sentence": "___ wohnt in Berlin.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я живу в Берлине."
+    },
+    {
+        "id": "3w4x5y6z-1a2b-3c4d-5e6f-7g8h9i0j1k2l",
+        "sentence": "Besuchen Sie ___ bald?",
+        "correctPronoun": "uns",
+        "caseName": "Akkusativ",
+        "translation": "Вы скоро нас навестите?"
+    },
+    {
+        "id": "4x5y6z1a-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+        "sentence": "___ sind glücklich.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы счастливы."
+    },
+    {
+        "id": "5y6z1a2b-3c4d-5e6f-7g8h-9i0j1k2l3m4n",
+        "sentence": "Sie gibt ___ Wasser.",
+        "correctPronoun": "dir",
+        "caseName": "Dativ",
+        "translation": "Она даёт тебе воду."
+    },
+    {
+        "id": "6z1a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+        "sentence": "___ spielt Klavier.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он играет на пианино."
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "sentence": "Ich habe ___ lieb.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Я тебя люблю."
+    },
+    {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "sentence": "___ geht es gut.",
+        "correctPronoun": "Ihm",
+        "caseName": "Dativ",
+        "translation": "У него всё хорошо."
+    },
+    {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "sentence": "___ tanzen gern.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Они любят танцевать."
+    },
+    {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "sentence": "Wir helfen ___.",
+        "correctPronoun": "euch",
+        "caseName": "Dativ",
+        "translation": "Мы вам помогаем."
+    },
+    {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "sentence": "___ hat Hunger.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он голоден."
+    },
+    {
+        "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+        "sentence": "Kannst du ___ hören?",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Ты можешь его слышать?"
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+        "sentence": "___ bin Student.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я студент."
+    },
+    {
+        "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+        "sentence": "Er gibt ___ einen Rat.",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Он даёт мне совет."
+    },
+    {
+        "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+        "sentence": "___ geht in die Schule.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она идёт в школу."
+    },
+    {
+        "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+        "sentence": "Wir besuchen ___ im Krankenhaus.",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Мы навестим его в больнице."
+    },
+    {
+        "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+        "sentence": "___ wissen Bescheid.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы в курсе."
+    },
+    {
+        "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z1a",
+        "sentence": "Kannst du ___ das sagen?",
+        "correctPronoun": "ihr",
+        "caseName": "Dativ",
+        "translation": "Ты можешь ей это сказать?"
+    },
+    {
+        "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z1a2b",
+        "sentence": "___ spielt gern Fußball.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он любит играть в футбол."
+    },
+    {
+        "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z1a2b3c",
+        "sentence": "Ich brauche ___.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Ты мне нужен."
+    },
+    {
+        "id": "5o6p7q8r-9s0t-1u2v-3w4x-5y6z1a2b3c4d",
+        "sentence": "___ studiert Medizin.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она изучает медицину."
+    },
+    {
+        "id": "6p7q8r9s-0t1u-2v3w-4x5y-6z1a2b3c4d5e",
+        "sentence": "Er gibt ___ die Hand.",
+        "correctPronoun": "dir",
+        "caseName": "Dativ",
+        "translation": "Он даёт тебе руку."
+    },
+    {
+        "id": "7q8r9s0t-1u2v-3w4x-5y6z-1a2b3c4d5e6f",
+        "sentence": "___ sind hier.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы здесь."
+    },
+    {
+        "id": "8r9s0t1u-2v3w-4x5y-6z1a-2b3c4d5e6f7g",
+        "sentence": "Sie versteht ___ nicht.",
+        "correctPronoun": "mich",
+        "caseName": "Akkusativ",
+        "translation": "Она меня не понимает."
+    },
+    {
+        "id": "9s0t1u2v-3w4x-5y6z-1a2b-3c4d5e6f7g8h",
+        "sentence": "___ haben keine Zeit.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "У нас нет времени."
+    },
+    {
+        "id": "0t1u2v3w-4x5y-6z1a-2b3c-4d5e6f7g8h9i",
+        "sentence": "Ich helfe ___ gern.",
+        "correctPronoun": "euch",
+        "caseName": "Dativ",
+        "translation": "Я с удовольствием вам помогу."
+    },
+    {
+        "id": "1u2v3w4x-5y6z-1a2b-3c4d-5e6f7g8h9i0j",
+        "sentence": "___ kommt aus Spanien.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он из Испании."
+    },
+    {
+        "id": "2v3w4x5y-6z1a-2b3c-4d5e-6f7g8h9i0j1k",
+        "sentence": "Wir sehen ___ im Park.",
+        "correctPronoun": "sie",
+        "caseName": "Akkusativ",
+        "translation": "Мы увидим её в парке."
+    },
+    {
+        "id": "3w4x5y6z-1a2b-3c4d-5e6f-7g8h9i0j1k2l",
+        "sentence": "___ ist nett.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она милая."
+    },
+    {
+        "id": "4x5y6z1a-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+        "sentence": "Er gibt ___ die Antwort.",
+        "correctPronoun": "ihnen",
+        "caseName": "Dativ",
+        "translation": "Он даёт им ответ."
+    },
+    {
+        "id": "5y6z1a2b-3c4d-5e6f-7g8h-9i0j1k2l3m4n",
+        "sentence": "___ esse gern Äpfel.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я люблю есть яблоки."
+    },
+    {
+        "id": "6z1a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+        "sentence": "Kannst du ___ besuchen?",
+        "correctPronoun": "uns",
+        "caseName": "Akkusativ",
+        "translation": "Ты можешь нас навестить?"
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+        "sentence": "___ studiert in München.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он учится в Мюнхене."
+    },
+    {
+        "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+        "sentence": "Sie schreibt ___ eine E-Mail.",
+        "correctPronoun": "dir",
+        "caseName": "Dativ",
+        "translation": "Она пишет тебе электронное письмо."
+    },
+    {
+        "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+        "sentence": "___ lernen Deutsch.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Они учат немецкий."
+    },
+    {
+        "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+        "sentence": "Ich sehe ___ oft.",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Я часто его вижу."
+    },
+    {
+        "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+        "sentence": "___ arbeiten zusammen.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы работаем вместе."
+    },
+    {
+        "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+        "sentence": "Er erzählt ___ einen Witz.",
+        "correctPronoun": "uns",
+        "caseName": "Dativ",
+        "translation": "Он рассказывает нам шутку."
+    },
+    {
+        "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+        "sentence": "___ bin müde.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я устал."
+    },
+    {
+        "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+        "sentence": "Sie liebt ___.",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Она его любит."
+    },
+    {
+        "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+        "sentence": "___ geht es gut.",
+        "correctPronoun": "Ihm",
+        "caseName": "Dativ",
+        "translation": "У него всё хорошо."
+    },
+    {
+        "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+        "sentence": "___ spricht Deutsch.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "Он говорит по-немецки."
+    },
+    {
+        "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+        "sentence": "Wir haben ___ eingeladen.",
+        "correctPronoun": "euch",
+        "caseName": "Akkusativ",
+        "translation": "Мы вас пригласили."
+    },
+    {
+        "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z1a",
+        "sentence": "___ haben viel zu tun.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "У нас много дел."
+    },
+    {
+        "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z1a2b",
+        "sentence": "Kannst du ___ das sagen?",
+        "correctPronoun": "mir",
+        "caseName": "Dativ",
+        "translation": "Ты можешь мне это сказать?"
+    },
+    {
+        "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z1a2b3c",
+        "sentence": "___ kauft ein Haus.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она покупает дом."
+    },
+    {
+        "id": "5o6p7q8r-9s0t-1u2v-3w4x-5y6z1a2b3c4d",
+        "sentence": "Ich sehe ___ im Kino.",
+        "correctPronoun": "dich",
+        "caseName": "Akkusativ",
+        "translation": "Я вижу тебя в кино."
+    },
+    {
+        "id": "6p7q8r9s-0t1u-2v3w-4x5y-6z1a2b3c4d5e",
+        "sentence": "___ hat Geburtstag.",
+        "correctPronoun": "Er",
+        "caseName": "Nominativ",
+        "translation": "У него день рождения."
+    },
+    {
+        "id": "7q8r9s0t-1u2v-3w4x-5y6z-1a2b3c4d5e6f",
+        "sentence": "Sie hilft ___ immer.",
+        "correctPronoun": "ihr",
+        "caseName": "Dativ",
+        "translation": "Она всегда ей помогает."
+    },
+    {
+        "id": "8r9s0t1u-2v3w-4x5y-6z1a-2b3c4d5e6f7g",
+        "sentence": "___ fahren in den Urlaub.",
+        "correctPronoun": "Wir",
+        "caseName": "Nominativ",
+        "translation": "Мы едем в отпуск."
+    },
+    {
+        "id": "9s0t1u2v-3w4x-5y6z-1a2b-3c4d5e6f7g8h",
+        "sentence": "Er ruft ___ an.",
+        "correctPronoun": "uns",
+        "caseName": "Akkusativ",
+        "translation": "Он звонит нам."
+    },
+    {
+        "id": "0t1u2v3w-4x5y-6z1a-2b3c-4d5e6f7g8h9i",
+        "sentence": "___ sind lustig.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Они забавные."
+    },
+    {
+        "id": "1u2v3w4x-5y6z-1a2b-3c4d-5e6f7g8h9i0j",
+        "sentence": "Ich gebe ___ das Buch.",
+        "correctPronoun": "dir",
+        "caseName": "Dativ",
+        "translation": "Я даю тебе книгу."
+    },
+    {
+        "id": "2v3w4x5y-6z1a-2b3c-4d5e-6f7g8h9i0j1k",
+        "sentence": "___ wohne in der Stadt.",
+        "correctPronoun": "Ich",
+        "caseName": "Nominativ",
+        "translation": "Я живу в городе."
+    },
+    {
+        "id": "3w4x5y6z-1a2b-3c4d-5e6f-7g8h9i0j1k2l",
+        "sentence": "Besuchst du ___ am Wochenende?",
+        "correctPronoun": "ihn",
+        "caseName": "Akkusativ",
+        "translation": "Ты навестишь его на выходных?"
+    },
+    {
+        "id": "4x5y6z1a-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+        "sentence": "___ sind hier.",
+        "correctPronoun": "Ihr",
+        "caseName": "Nominativ",
+        "translation": "Вы здесь."
+    },
+    {
+        "id": "5y6z1a2b-3c4d-5e6f-7g8h-9i0j1k2l3m4n",
+        "sentence": "Er erklärt ___ die Aufgabe.",
+        "correctPronoun": "ihnen",
+        "caseName": "Dativ",
+        "translation": "Он объясняет им задачу."
+    },
+    {
+        "id": "6z1a2b3c-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+        "sentence": "___ isst gern Obst.",
+        "correctPronoun": "Sie",
+        "caseName": "Nominativ",
+        "translation": "Она любит есть фрукты."
+    }
+]

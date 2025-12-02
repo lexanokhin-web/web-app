@@ -1,0 +1,1790 @@
+[
+    {
+        "id": "e1a2b3c4-d5e6-7f8a-9b0c-1d2e3f4a5b6c",
+        "word": "groß",
+        "options": [
+            "klein",
+            "mittel",
+            "winzig",
+            "riesig"
+        ],
+        "correct": "klein",
+        "translation": "большой"
+    },
+    {
+        "id": "f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7",
+        "word": "gut",
+        "options": [
+            "schlecht",
+            "mittelmäßig",
+            "ausgezeichnet",
+            "zufriedenstellend"
+        ],
+        "correct": "schlecht",
+        "translation": "хороший"
+    },
+    {
+        "id": "g3h4i5j6-k7l8-m9n0-o1p2-q3r4s5t6u7v8",
+        "word": "nah",
+        "options": [
+            "fern",
+            "weit",
+            "entfernt",
+            "seitlich"
+        ],
+        "correct": "fern",
+        "translation": "близкий"
+    },
+    {
+        "id": "h4i5j6k7-l8m9-n0o1-p2q3-r4s5t6u7v8w9",
+        "word": "laut",
+        "options": [
+            "leise",
+            "still",
+            "ruhig",
+            "gedämpft"
+        ],
+        "correct": "leise",
+        "translation": "громкий"
+    },
+    {
+        "id": "i5j6k7l8-m9n0-o1p2-q3r4-s5t6u7v8w9x0",
+        "word": "voll",
+        "options": [
+            "leer",
+            "halbvoll",
+            "gefüllt",
+            "überfüllt"
+        ],
+        "correct": "leer",
+        "translation": "полный"
+    },
+    {
+        "id": "j6k7l8m9-n0o1-p2q3-r4s5-t6u7v8w9x0y1",
+        "word": "reich",
+        "options": [
+            "arm",
+            "wohlhabend",
+            "bedürftig",
+            "vermögend"
+        ],
+        "correct": "arm",
+        "translation": "богатый"
+    },
+    {
+        "id": "k7l8m9n0-o1p2-q3r4-s5t6-u7v8w9x0y1z2",
+        "word": "breit",
+        "options": [
+            "schmal",
+            "eng",
+            "weit",
+            "umfangreich"
+        ],
+        "correct": "schmal",
+        "translation": "широкий"
+    },
+    {
+        "id": "l8m9n0o1-p2q3-r4s5-t6u7-v8w9x0y1z2a3",
+        "word": "gesund",
+        "options": [
+            "krank",
+            "fit",
+            "ungesund",
+            "vital"
+        ],
+        "correct": "krank",
+        "translation": "здоровый"
+    },
+    {
+        "id": "m9n0o1p2-q3r4-s5t6-u7v8-w9x0y1z2a3b4",
+        "word": "hart",
+        "options": [
+            "weich",
+            "fest",
+            "zäh",
+            "elastisch"
+        ],
+        "correct": "weich",
+        "translation": "твёрдый"
+    },
+    {
+        "id": "n0o1p2q3-r4s5-t6u7-v8w9-x0y1z2a3b4c5",
+        "word": "sauber",
+        "options": [
+            "schmutzig",
+            "rein",
+            "dreckig",
+            "ordentlich"
+        ],
+        "correct": "schmutzig",
+        "translation": "чистый"
+    },
+    {
+        "id": "o1p2q3r4-s5t6-u7v8-w9x0-y1z2a3b4c5d6",
+        "word": "lieb",
+        "options": [
+            "böse",
+            "freundlich",
+            "nett",
+            "gemein"
+        ],
+        "correct": "böse",
+        "translation": "милый"
+    },
+    {
+        "id": "p2q3r4s5-t6u7-v8w9-x0y1-z2a3b4c5d6e7",
+        "word": "stark",
+        "options": [
+            "schwach",
+            "kraftvoll",
+            "mächtig",
+            "hilflos"
+        ],
+        "correct": "schwach",
+        "translation": "сильный"
+    },
+    {
+        "id": "q3r4s5t6-u7v8-w9x0-y1z2-a3b4c5d6e7f8",
+        "word": "frisch",
+        "options": [
+            "alt",
+            "neu",
+            "verdorben",
+            "modern"
+        ],
+        "correct": "alt",
+        "translation": "свежий"
+    },
+    {
+        "id": "r4s5t6u7-v8w9-x0y1-z2a3-b4c5d6e7f8g9",
+        "word": "nass",
+        "options": [
+            "trocken",
+            "feucht",
+            "durchnässt",
+            "regenreich"
+        ],
+        "correct": "trocken",
+        "translation": "мокрый"
+    },
+    {
+        "id": "s5t6u7v8-w9x0-y1z2-a3b4-c5d6e7f8g9h0",
+        "word": "offen",
+        "options": [
+            "geschlossen",
+            "geöffnet",
+            "verriegelt",
+            "zugänglich"
+        ],
+        "correct": "geschlossen",
+        "translation": "открытый"
+    },
+    {
+        "id": "t6u7v8w9-x0y1-z2a3-b4c5-d6e7f8g9h0i1",
+        "word": "sauer",
+        "options": [
+            "süß",
+            "bitter",
+            "salzig",
+            "scharf"
+        ],
+        "correct": "süß",
+        "translation": "кислый"
+    },
+    {
+        "id": "u7v8w9x0-y1z2-a3b4-c5d6-e7f8g9h0i1j2",
+        "word": "hoch",
+        "options": [
+            "niedrig",
+            "kurz",
+            "klein",
+            "breit"
+        ],
+        "correct": "niedrig",
+        "translation": "высокий"
+    },
+    {
+        "id": "v8w9x0y1-z2a3-b4c5-d6e7-f8g9h0i1j2k3",
+        "word": "dick",
+        "options": [
+            "dünn",
+            "fett",
+            "schlank",
+            "massiv"
+        ],
+        "correct": "dünn",
+        "translation": "толстый"
+    },
+    {
+        "id": "w9x0y1z2-a3b4-c5d6-e7f8-g9h0i1j2k3l4",
+        "word": "tief",
+        "options": [
+            "flach",
+            "seicht",
+            "hoch",
+            "abgrundtief"
+        ],
+        "correct": "flach",
+        "translation": "глубокий"
+    },
+    {
+        "id": "x0y1z2a3-b4c5-d6e7-f8g9-h0i1j2k3l4m5",
+        "word": "schön",
+        "options": [
+            "hässlich",
+            "hübsch",
+            "attraktiv",
+            "unschön"
+        ],
+        "correct": "hässlich",
+        "translation": "красивый"
+    },
+    {
+        "id": "y1z2a3b4-c5d6-e7f8-g9h0-i1j2k3l4m5n6",
+        "word": "schwach",
+        "options": [
+            "stark",
+            "hilflos",
+            "zart",
+            "robust"
+        ],
+        "correct": "stark",
+        "translation": "слабый"
+    },
+    {
+        "id": "z2a3b4c5-d6e7-f8g9-h0i1-j2k3l4m5n6o7",
+        "word": "wahr",
+        "options": [
+            "falsch",
+            "richtig",
+            "lügenhaft",
+            "zutreffend"
+        ],
+        "correct": "falsch",
+        "translation": "правдивый"
+    },
+    {
+        "id": "a3b4c5d6-e7f8-g9h0-i1j2-k3l4m5n6o7p8",
+        "word": "alt",
+        "options": [
+            "neu",
+            "historisch",
+            "antik",
+            "modern"
+        ],
+        "correct": "neu",
+        "translation": "старый (о вещи)"
+    },
+    {
+        "id": "b4c5d6e7-f8g9-h0i1-j2k3-l4m5n6o7p8q9",
+        "word": "billig",
+        "options": [
+            "teuer",
+            "preiswert",
+            "günstig",
+            "erschwinglich"
+        ],
+        "correct": "teuer",
+        "translation": "дешёвый"
+    },
+    {
+        "id": "c5d6e7f8-g9h0-i1j2-k3l4-m5n6o7p8q9r0",
+        "word": "teuer",
+        "options": [
+            "billig",
+            "kostspielig",
+            "preiswert",
+            "luxuriös"
+        ],
+        "correct": "billig",
+        "translation": "дорогой"
+    },
+    {
+        "id": "d6e7f8g9-h0i1-j2k3-l4m5-n6o7p8q9r0s1",
+        "word": "kurz",
+        "options": [
+            "lang",
+            "knapp",
+            "mittellang",
+            "endlos"
+        ],
+        "correct": "lang",
+        "translation": "короткий"
+    },
+    {
+        "id": "e7f8g9h0-i1j2-k3l4-m5n6-o7p8q9r0s1t2",
+        "word": "lang",
+        "options": [
+            "kurz",
+            "ausgedehnt",
+            "unendlich",
+            "begrenzt"
+        ],
+        "correct": "kurz",
+        "translation": "длинный"
+    },
+    {
+        "id": "f8g9h0i1-j2k3-l4m5-n6o7-p8q9r0s1t2u3",
+        "word": "gerade",
+        "options": [
+            "krumm",
+            "schief",
+            "aufrecht",
+            "gewunden"
+        ],
+        "correct": "krumm",
+        "translation": "прямой"
+    },
+    {
+        "id": "g9h0i1j2-k3l4-m5n6-o7p8-q9r0s1t2u3v4",
+        "word": "süß",
+        "options": [
+            "sauer",
+            "bitter",
+            "salzig",
+            "scharf"
+        ],
+        "correct": "sauer",
+        "translation": "сладкий"
+    },
+    {
+        "id": "h0i1j2k3-l4m5-n6o7-p8q9-r0s1t2u3v4w5",
+        "word": "bitter",
+        "options": [
+            "süß",
+            "sauer",
+            "mild",
+            "scharf"
+        ],
+        "correct": "süß",
+        "translation": "горький"
+    },
+    {
+        "id": "i1j2k3l4-m5n6-o7p8-q9r0-s1t2u3v4w5x6",
+        "word": "scharf",
+        "options": [
+            "mild",
+            "stumpf",
+            "würzig",
+            "geschmacklos"
+        ],
+        "correct": "mild",
+        "translation": "острый"
+    },
+    {
+        "id": "j2k3l4m5-n6o7-p8q9-r0s1-t2u3v4w5x6y7",
+        "word": "salzig",
+        "options": [
+            "süß",
+            "fad",
+            "bitter",
+            "würzig"
+        ],
+        "correct": "fad",
+        "translation": "соленый"
+    },
+    {
+        "id": "k3l4m5n6-o7p8-q9r0-s1t2-u3v4w5x6y7z8",
+        "word": "glatt",
+        "options": [
+            "rau",
+            "eben",
+            "geschmeidig",
+            "holprig"
+        ],
+        "correct": "rau",
+        "translation": "гладкий"
+    },
+    {
+        "id": "l4m5n6o7-p8q9-r0s1-t2u3-v4w5x6y7z8a9",
+        "word": "rau",
+        "options": [
+            "glatt",
+            "weich",
+            "derb",
+            "uneben"
+        ],
+        "correct": "glatt",
+        "translation": "шершавый"
+    },
+    {
+        "id": "m5n6o7p8-q9r0-s1t2-u3v4-w5x6y7z8a9b0",
+        "word": "fest",
+        "options": [
+            "locker",
+            "stabil",
+            "massiv",
+            "wackelig"
+        ],
+        "correct": "locker",
+        "translation": "твердый, крепкий"
+    },
+    {
+        "id": "n6o7p8q9-r0s1-t2u3-v4w5-x6y7z8a9b0c1",
+        "word": "locker",
+        "options": [
+            "fest",
+            "lose",
+            "schlaff",
+            "gespannt"
+        ],
+        "correct": "fest",
+        "translation": "рыхлый, свободный"
+    },
+    {
+        "id": "o7p8q9r0-s1t2-u3v4-w5x6-y7z8a9b0c1d2",
+        "word": "feucht",
+        "options": [
+            "trocken",
+            "nass",
+            "durchnässt",
+            "staubig"
+        ],
+        "correct": "trocken",
+        "translation": "влажный"
+    },
+    {
+        "id": "p8q9r0s1-t2u3-v4w5-x6y7-z8a9b0c1d2e3",
+        "word": "sicher",
+        "options": [
+            "unsicher",
+            "gefährlich",
+            "bedroht",
+            "geschützt"
+        ],
+        "correct": "unsicher",
+        "translation": "безопасный"
+    },
+    {
+        "id": "q9r0s1t2-u3v4-w5x6-y7z8-a9b0c1d2e3f4",
+        "word": "arm",
+        "options": [
+            "reich",
+            "mittellos",
+            "vermögend",
+            "wohlhabend"
+        ],
+        "correct": "reich",
+        "translation": "бедный"
+    },
+    {
+        "id": "r0s1t2u3-v4w5-x6y7-z8a9-b0c1d2e3f4g5",
+        "word": "schuldig",
+        "options": [
+            "unschuldig",
+            "frei",
+            "sauber",
+            "klar"
+        ],
+        "correct": "unschuldig",
+        "translation": "виновный"
+    },
+    {
+        "id": "s1t2u3v4-w5x6-y7z8-a9b0-c1d2e3f4g5h6",
+        "word": "rein",
+        "options": [
+            "unrein",
+            "sauber",
+            "verunreinigt",
+            "makellos"
+        ],
+        "correct": "unrein",
+        "translation": "чистый, непорочный"
+    },
+    {
+        "id": "t2u3v4w5-x6y7-z8a9-b0c1-d2e3f4g5h6i7",
+        "word": "wichtig",
+        "options": [
+            "unwichtig",
+            "bedeutend",
+            "nebensächlich",
+            "relevant"
+        ],
+        "correct": "unwichtig",
+        "translation": "важный"
+    },
+    {
+        "id": "u3v4w5x6-y7z8-a9b0-c1d2-e3f4g5h6i7j8",
+        "word": "einfach",
+        "options": [
+            "kompliziert",
+            "simpel",
+            "schwierig",
+            "leicht"
+        ],
+        "correct": "kompliziert",
+        "translation": "простой"
+    },
+    {
+        "id": "v4w5x6y7-z8a9-b0c1-d2e3-f4g5h6i7j8k9",
+        "word": "klug",
+        "options": [
+            "dumm",
+            "intelligent",
+            "gewitzt",
+            "einfältig"
+        ],
+        "correct": "dumm",
+        "translation": "умный"
+    },
+    {
+        "id": "w5x6y7z8-a9b0-c1d2-e3f4-g5h6i7j8k9l0",
+        "word": "mutig",
+        "options": [
+            "feige",
+            "tapfer",
+            "ängstlich",
+            "verwegen"
+        ],
+        "correct": "feige",
+        "translation": "смелый"
+    },
+    {
+        "id": "x6y7z8a9-b0c1-d2e3-f4g5-h6i7j8k9l0m1",
+        "word": "fleißig",
+        "options": [
+            "faul",
+            "arbeitsam",
+            "träge",
+            "aktiv"
+        ],
+        "correct": "faul",
+        "translation": "прилежный"
+    },
+    {
+        "id": "y7z8a9b0-c1d2-e3f4-g5h6-i7j8k9l0m1n2",
+        "word": "fröhlich",
+        "options": [
+            "traurig",
+            "glücklich",
+            "lustig",
+            "niedergeschlagen"
+        ],
+        "correct": "traurig",
+        "translation": "весёлый"
+    },
+    {
+        "id": "z8a9b0c1-d2e3-f4g5-h6i7-j8k9l0m1n2o3",
+        "word": "ernst",
+        "options": [
+            "lustig",
+            "ernsthaft",
+            "albern",
+            "humorvoll"
+        ],
+        "correct": "lustig",
+        "translation": "серьёзный"
+    },
+    {
+        "id": "a9b0c1d2-e3f4-g5h6-i7j8-k9l0m1n2o3p4",
+        "word": "hell",
+        "options": [
+            "dunkel",
+            "licht",
+            "finster",
+            "strahlend"
+        ],
+        "correct": "dunkel",
+        "translation": "светлый"
+    },
+    {
+        "id": "b0c1d2e3-f4g5-h6i7-j8k9-l0m1n2o3p4q5",
+        "word": "glücklich",
+        "options": [
+            "unglücklich",
+            "fröhlich",
+            "traurig",
+            "zufrieden"
+        ],
+        "correct": "unglücklich",
+        "translation": "счастливый"
+    },
+    {
+        "id": "c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6",
+        "word": "vorsichtig",
+        "options": [
+            "unvorsichtig",
+            "achtsam",
+            "leichtsinnig",
+            "umsichtig"
+        ],
+        "correct": "unvorsichtig",
+        "translation": "осторожный"
+    },
+    {
+        "id": "e3f4g5h6-i7j8-k9l0-m1n2-o3p4q5r6s7t8",
+        "word": "gerecht",
+        "options": [
+            "ungerecht",
+            "fair",
+            "rechtschaffen",
+            "parteiisch"
+        ],
+        "correct": "ungerecht",
+        "translation": "справедливый"
+    },
+    {
+        "id": "f4g5h6i7-j8k9-l0m1-n2o3-p4q5r6s7t8u9",
+        "word": "ruhig",
+        "options": [
+            "unruhig",
+            "still",
+            "laut",
+            "gelassen"
+        ],
+        "correct": "unruhig",
+        "translation": "спокойный"
+    },
+    {
+        "id": "g5h6i7j8-k9l0-m1n2-o3p4-q5r6s7t8u9v0",
+        "word": "aktiv",
+        "options": [
+            "passiv",
+            "tätig",
+            "untätig",
+            "agil"
+        ],
+        "correct": "passiv",
+        "translation": "активный"
+    },
+    {
+        "id": "h6i7j8k9-l0m1-n2o3-p4q5-r6s7t8u9v0w1",
+        "word": "produktiv",
+        "options": [
+            "unproduktiv",
+            "effizient",
+            "ertragreich",
+            "nutzlos"
+        ],
+        "correct": "unproduktiv",
+        "translation": "продуктивный"
+    },
+    {
+        "id": "i7j8k9l0-m1n2-o3p4-q5r6-s7t8u9v0w1x2",
+        "word": "legal",
+        "options": [
+            "illegal",
+            "rechtlich",
+            "verboten",
+            "zulässig"
+        ],
+        "correct": "illegal",
+        "translation": "легальный"
+    },
+    {
+        "id": "j8k9l0m1-n2o3-p4q5-r6s7-t8u9v0w1x2y3",
+        "word": "möglich",
+        "options": [
+            "unmöglich",
+            "denkbar",
+            "undurchführbar",
+            "realisierbar"
+        ],
+        "correct": "unmöglich",
+        "translation": "возможный"
+    },
+    {
+        "id": "k9l0m1n2-o3p4-q5r6-s7t8-u9v0w1x2y3z4",
+        "word": "bekannt",
+        "options": [
+            "unbekannt",
+            "berühmt",
+            "vertraut",
+            "fremd"
+        ],
+        "correct": "unbekannt",
+        "translation": "известный"
+    },
+    {
+        "id": "l0m1n2o3-p4q5-r6s7-t8u9-v0w1x2y3z4a5",
+        "word": "günstig",
+        "options": [
+            "ungünstig",
+            "vorteilhaft",
+            "nachteilig",
+            "passend"
+        ],
+        "correct": "ungünstig",
+        "translation": "выгодный"
+    },
+    {
+        "id": "m1n2o3p4-q5r6-s7t8-u9v0-w1x2y3z4a5b6",
+        "word": "angenehm",
+        "options": [
+            "unangenehm",
+            "erfreulich",
+            "lästig",
+            "wohltuend"
+        ],
+        "correct": "unangenehm",
+        "translation": "приятный"
+    },
+    {
+        "id": "n2o3p4q5-r6s7-t8u9-v0w1-x2y3z4a5b6c7",
+        "word": "interessant",
+        "options": [
+            "uninteressant",
+            "spannend",
+            "langweilig",
+            "fesselnd"
+        ],
+        "correct": "uninteressant",
+        "translation": "интересный"
+    },
+    {
+        "id": "o3p4q5r6-s7t8-u9v0-w1x2-y3z4a5b6c7d8",
+        "word": "geduldig",
+        "options": [
+            "ungeduldig",
+            "ausdauernd",
+            "hastig",
+            "ruhig"
+        ],
+        "correct": "ungeduldig",
+        "translation": "терпеливый"
+    },
+    {
+        "id": "p4q5r6s7-t8u9-v0w1-x2y3-z4a5b6c7d8e9",
+        "word": "ordentlich",
+        "options": [
+            "unordentlich",
+            "chaotisch",
+            "gepflegt",
+            "strukturiert"
+        ],
+        "correct": "unordentlich",
+        "translation": "аккуратный"
+    },
+    {
+        "id": "q5r6s7t8-u9v0-w1x2-y3z4-a5b6c7d8e9f0",
+        "word": "höflich",
+        "options": [
+            "unhöflich",
+            "zuvorkommend",
+            "respektlos",
+            "galant"
+        ],
+        "correct": "unhöflich",
+        "translation": "вежливый"
+    },
+    {
+        "id": "r6s7t8u9-v0w1-x2y3-z4a5-b6c7d8e9f0g1",
+        "word": "fair",
+        "options": [
+            "unfair",
+            "gerecht",
+            "parteiisch",
+            "objektiv"
+        ],
+        "correct": "unfair",
+        "translation": "честный"
+    },
+    {
+        "id": "s7t8u9v0-w1x2-x3y4-y5z6-a7b8c9d0e1f2",
+        "word": "freundlich",
+        "options": [
+            "unfreundlich",
+            "nett",
+            "liebenswürdig",
+            "ablehnend"
+        ],
+        "correct": "unfreundlich",
+        "translation": "дружелюбный"
+    },
+    {
+        "id": "t8u9v0w1-x2y3-y4z5-z6a7-b8c9d0e1f2g3",
+        "word": "nett",
+        "options": [
+            "gemein",
+            "freundlich",
+            "unangenehm",
+            "zuvorkommend"
+        ],
+        "correct": "gemein",
+        "translation": "милый"
+    },
+    {
+        "id": "u9v0w1x2-y3z4-z5a6-a7b8-c9d0e1f2g3h4",
+        "word": "Tageslicht",
+        "options": [
+            "Nacht",
+            "Dunkelheit",
+            "Abend",
+            "Dämmerung"
+        ],
+        "correct": "Nacht",
+        "translation": "дневной свет"
+    },
+    {
+        "id": "v0w1x2y3-z4a5-a6b7-b8c9-d0e1f2g3h4i5",
+        "word": "gestern",
+        "options": [
+            "morgen",
+            "heute",
+            "vorgestern",
+            "nächste Woche"
+        ],
+        "correct": "morgen",
+        "translation": "вчера"
+    },
+    {
+        "id": "w1x2y3z4-a5b6-b7c8-c9d0-e1f2g3h4i5j6",
+        "word": "hier",
+        "options": [
+            "dort",
+            "überall",
+            "nirgendwo",
+            "weg"
+        ],
+        "correct": "dort",
+        "translation": "здесь"
+    },
+    {
+        "id": "x2y3z4a5-b6c7-c8d9-d0e1-f2g3h4i5j6k7",
+        "word": "oben",
+        "options": [
+            "unten",
+            "auf",
+            "unter",
+            "darüber"
+        ],
+        "correct": "unten",
+        "translation": "сверху"
+    },
+    {
+        "id": "y3z4a5b6-c7d8-d9e0-e1f2-g3h4i5j6k7l8",
+        "word": "anfangen",
+        "options": [
+            "aufhören",
+            "beginnen",
+            "starten",
+            "beenden"
+        ],
+        "correct": "aufhören",
+        "translation": "начинать"
+    },
+    {
+        "id": "b6c7d8e9-f0g1-g2h3-h4i5-j6k7l8m9n0o1",
+        "word": "kaufen",
+        "options": [
+            "verkaufen",
+            "erwerben",
+            "mieten",
+            "besitzen"
+        ],
+        "correct": "verkaufen",
+        "translation": "покупать"
+    },
+    {
+        "id": "c7d8e9f0-g1h2-h3i4-i5j6-k7l8m9n0o1p2",
+        "word": "öffnen",
+        "options": [
+            "schließen",
+            "aufmachen",
+            "verriegeln",
+            "zugänglich machen"
+        ],
+        "correct": "schließen",
+        "translation": "открывать"
+    },
+    {
+        "id": "d8e9f0g1-h2i3-i4j5-j6k7-l8m9n0o1p2q3",
+        "word": "lieben",
+        "options": [
+            "hassen",
+            "mögen",
+            "verachten",
+            "verehrung"
+        ],
+        "correct": "hassen",
+        "translation": "любить"
+    },
+    {
+        "id": "e9f0g1h2-i3j4-j5k6-k7l8-m9n0o1p2q3r4",
+        "word": "lachen",
+        "options": [
+            "weinen",
+            "lächeln",
+            "grinsen",
+            "schnauben"
+        ],
+        "correct": "weinen",
+        "translation": "смеяться"
+    },
+    {
+        "id": "f0g1h2i3-j4k5-k6l7-l8m9-n0o1p2q3r4s5",
+        "word": "fragen",
+        "options": [
+            "antworten",
+            "sagen",
+            "rufen",
+            "hören"
+        ],
+        "correct": "antworten",
+        "translation": "спрашивать"
+    },
+    {
+        "id": "g1h2i3j4-k5l6-l7m8-m9n0-o1p2q3r4s5t6",
+        "word": "vergessen",
+        "options": [
+            "erinnern",
+            "behalten",
+            "auslöschen",
+            "sich merken"
+        ],
+        "correct": "erinnern",
+        "translation": "забывать"
+    },
+    {
+        "id": "h2i3j4k5-l6m7-m8n9-n0o1-p2q3r4s5t6u7",
+        "word": "gewinnen",
+        "options": [
+            "verlieren",
+            "siegen",
+            "scheitern",
+            "triumphieren"
+        ],
+        "correct": "verlieren",
+        "translation": "выигрывать"
+    },
+    {
+        "id": "i3j4k5l6-m7n8-n9o0-o1p2-q3r4s5t6u7v8",
+        "word": "beginnen",
+        "options": [
+            "beenden",
+            "anfangen",
+            "starten",
+            "aufhören"
+        ],
+        "correct": "beenden",
+        "translation": "начинать"
+    },
+    {
+        "id": "j4k5l6m7-n8o9-o0p1-p2q3-r4s5t6u7v8w9",
+        "word": "stehen",
+        "options": [
+            "sitzen",
+            "liegen",
+            "fallen",
+            "aufrecht sein"
+        ],
+        "correct": "sitzen",
+        "translation": "стоять"
+    },
+    {
+        "id": "k5l6m7n8-o9p0-p1q2-q3r4-s5t6u7v8w9x0",
+        "word": "aufstehen",
+        "options": [
+            "hinsetzen",
+            "hinlegen",
+            "niederknien",
+            "aufrichten"
+        ],
+        "correct": "hinsetzen",
+        "translation": "вставать"
+    },
+    {
+        "id": "l6m7n8o9-p0q1-q2r3-r4s5-t6u7v8w9x0y1",
+        "word": "schlafen",
+        "options": [
+            "wach sein",
+            "rennen",
+            "essen",
+            "lesen"
+        ],
+        "correct": "wach sein",
+        "translation": "спать"
+    },
+    {
+        "id": "m7n8o9p0-q1r2-r3s4-s5t6-u7v8w9x0y1z2",
+        "word": "leben",
+        "options": [
+            "sterben",
+            "existieren",
+            "vergehen",
+            "verweilen"
+        ],
+        "correct": "sterben",
+        "translation": "жить"
+    },
+    {
+        "id": "n8o9p0q1-r2s3-s4t5-t6u7-v8w9x0y1z2a3",
+        "word": "erreichen",
+        "options": [
+            "verfehlen",
+            "gelangen",
+            "scheitern",
+            "schaffen"
+        ],
+        "correct": "verfehlen",
+        "translation": "достигать"
+    },
+    {
+        "id": "o9p0q1r2-s3t4-t5u6-u7v8-w9x0y1z2a3b4",
+        "word": "annehmen",
+        "options": [
+            "ablehnen",
+            "akzeptieren",
+            "verweigern",
+            "bestätigen"
+        ],
+        "correct": "ablehnen",
+        "translation": "принимать"
+    },
+    {
+        "id": "p0q1r2s3-t4u5-u6v7-v8w9-x0y1z2a3b4c5",
+        "word": "erlauben",
+        "options": [
+            "verbieten",
+            "gestatten",
+            "untersagen",
+            "dulden"
+        ],
+        "correct": "verbieten",
+        "translation": "разрешать"
+    },
+    {
+        "id": "q1r2s3t4-u5v6-v7w8-w9x0-y1z2a3b4c5d6",
+        "word": "finden",
+        "options": [
+            "verlieren",
+            "suchen",
+            "entdecken",
+            "auffinden"
+        ],
+        "correct": "verlieren",
+        "translation": "находить"
+    },
+    {
+        "id": "r2s3t4u5-v6w7-w8x9-x0y1-z2a3b4c5d6e7",
+        "word": "kennen",
+        "options": [
+            "fremd sein",
+            "vergessen",
+            "verlieren",
+            "suchen"
+        ],
+        "correct": "fremd sein",
+        "translation": "знать"
+    },
+    {
+        "id": "s3t4u5v6-w7x8-x9y0-y1z2-a3b4c5d6e7f8",
+        "word": "suchen",
+        "options": [
+            "finden",
+            "fahnden",
+            "verlieren",
+            "erforschen"
+        ],
+        "correct": "finden",
+        "translation": "искать"
+    },
+    {
+        "id": "t4u5v6w7-x8y9-y0z1-z2a3-b4c5d6e7f8g9",
+        "word": "fragen",
+        "options": [
+            "antworten",
+            "verhören",
+            "ausfragen",
+            "erwidern"
+        ],
+        "correct": "antworten",
+        "translation": "спрашивать"
+    },
+    {
+        "id": "u5v6w7x8-y9z0-z1a2-a3b4-c5d6e7f8g9h0",
+        "word": "sprechen",
+        "options": [
+            "schweigen",
+            "reden",
+            "flüstern",
+            "brüllen"
+        ],
+        "correct": "schweigen",
+        "translation": "говорить"
+    },
+    {
+        "id": "v6w7x8y9-z0a1-a2b3-b4c5-d6e7f8g9h0i1",
+        "word": "kommen",
+        "options": [
+            "gehen",
+            "eintreffen",
+            "weggehen",
+            "eintreten"
+        ],
+        "correct": "gehen",
+        "translation": "приходить"
+    },
+    {
+        "id": "w7x8y9z0-a1b2-b3c4-c5d6-e7f8g9h0i1j2",
+        "word": "geben",
+        "options": [
+            "nehmen",
+            "austeilen",
+            "bekommen",
+            "zurückgeben"
+        ],
+        "correct": "nehmen",
+        "translation": "давать"
+    },
+    {
+        "id": "x8y9z0a1-b2c3-c4d5-d6e7-f8g9h0i1j2k3",
+        "word": "verbinden",
+        "options": [
+            "trennen",
+            "verknüpfen",
+            "lösen",
+            "zusammenfügen"
+        ],
+        "correct": "trennen",
+        "translation": "соединять"
+    },
+    {
+        "id": "y9z0a1b2-c3d4-d5e6-e7f8-g9h0i1j2k3l4",
+        "word": "eintreten",
+        "options": [
+            "austreten",
+            "betreten",
+            "verlassen",
+            "eindringen"
+        ],
+        "correct": "austreten",
+        "translation": "входить"
+    },
+    {
+        "id": "z0a1b2c3-d4e5-e6f7-f8g9-h0i1j2k3l4m5",
+        "word": "bauen",
+        "options": [
+            "zerstören",
+            "errichten",
+            "abreißen",
+            "konstruieren"
+        ],
+        "correct": "zerstören",
+        "translation": "строить"
+    },
+    {
+        "id": "a1b2c3d4-e5f6-f7g8-g9h0-i1j2k3l4m5n6",
+        "word": "beginnen",
+        "options": [
+            "enden",
+            "anfangen",
+            "starten",
+            "aufhören"
+        ],
+        "correct": "enden",
+        "translation": "начинать"
+    },
+    {
+        "id": "b2c3d4e5-f6g7-g8h9-h0i1-j2k3l4m5n6o7",
+        "word": "erhöhen",
+        "options": [
+            "senken",
+            "steigen",
+            "reduzieren",
+            "steigern"
+        ],
+        "correct": "senken",
+        "translation": "повышать"
+    },
+    {
+        "id": "c3d4e5f6-g7h8-h9i0-i1j2-k3l4m5n6o7p8",
+        "word": "anziehen",
+        "options": [
+            "ausziehen",
+            "kleiden",
+            "abnehmen",
+            "bekleiden"
+        ],
+        "correct": "ausziehen",
+        "translation": "надевать"
+    },
+    {
+        "id": "d4e5f6g7-h8i9-i0j1-j2k3-l4m5n6o7p8q9",
+        "word": "einpacken",
+        "options": [
+            "auspacken",
+            "verpacken",
+            "einwickeln",
+            "entleeren"
+        ],
+        "correct": "auspacken",
+        "translation": "упаковывать"
+    },
+    {
+        "id": "e5f6g7h8-i9j0-j1k2-k3l4-m5n6o7p8q9r0",
+        "word": "einsteigen",
+        "options": [
+            "aussteigen",
+            "besteigen",
+            "zusteigen",
+            "absteigen"
+        ],
+        "correct": "aussteigen",
+        "translation": "садиться (в транспорт)"
+    },
+    {
+        "id": "f6g7h8i9-j0k1-k2l3-l4m5-n6o7p8q9r0s1",
+        "word": "einschalten",
+        "options": [
+            "ausschalten",
+            "anknipsen",
+            "abstellen",
+            "betätigen"
+        ],
+        "correct": "ausschalten",
+        "translation": "включать"
+    },
+    {
+        "id": "g7h8i9j0-k1l2-l3m4-m5n6-o7p8q9r0s1t2",
+        "word": "einschlafen",
+        "options": [
+            "aufwachen",
+            "einschlummern",
+            "erwachen",
+            "dösen"
+        ],
+        "correct": "aufwachen",
+        "translation": "засыпать"
+    },
+    {
+        "id": "h8i9j0k1-l2m3-m4n5-n6o7-p8q9r0s1t2u3",
+        "word": "einladen",
+        "options": [
+            "ausladen",
+            "beladen",
+            "entladen",
+            "einladen"
+        ],
+        "correct": "ausladen",
+        "translation": "приглашать/загружать"
+    },
+    {
+        "id": "i9j0k1l2-m3n4-n5o6-o7p8-q9r0s1t2u3v4",
+        "word": "einreisen",
+        "options": [
+            "ausreisen",
+            "einwandern",
+            "auswandern",
+            "einreisen"
+        ],
+        "correct": "ausreisen",
+        "translation": "въезжать"
+    },
+    {
+        "id": "j0k1l2m3-n4o5-o6p7-p8q9-r0s1t2u3v4w5",
+        "word": "einziehen",
+        "options": [
+            "ausziehen",
+            "umziehen",
+            "verlassen",
+            "beziehen"
+        ],
+        "correct": "ausziehen",
+        "translation": "въезжать (в жилище)"
+    },
+    {
+        "id": "k1l2m3n4-o5p6-p7q8-q9r0-s1t2u3v4w5x6",
+        "word": "hinzugeben",
+        "options": [
+            "entziehen",
+            "beifügen",
+            "wegnehmen",
+            "ergänzen"
+        ],
+        "correct": "entziehen",
+        "translation": "добавлять"
+    },
+    {
+        "id": "l2m3n4o5-p6q7-q8r9-r0s1-t2u3v4w5x6y7",
+        "word": "einatmen",
+        "options": [
+            "ausatmen",
+            "atmen",
+            "ausstoßen",
+            "einziehen"
+        ],
+        "correct": "ausatmen",
+        "translation": "вдыхать"
+    },
+    {
+        "id": "m3n4o5p6-q7r8-r9s0-s1t2-u3v4w5x6y7z8",
+        "word": "vorne",
+        "options": [
+            "hinten",
+            "vor",
+            "zurück",
+            "dahinter"
+        ],
+        "correct": "hinten",
+        "translation": "спереди"
+    },
+    {
+        "id": "n4o5p6q7-r8s9-s0t1-t2u3-v4w5x6y7z8a9",
+        "word": "links",
+        "options": [
+            "rechts",
+            "geradeaus",
+            "seitlich",
+            "links abbiegen"
+        ],
+        "correct": "rechts",
+        "translation": "слева"
+    },
+    {
+        "id": "o5p6q7r8-s9t0-t1u2-u3v4-w5x6y7z8a9b0",
+        "word": "drinnen",
+        "options": [
+            "draußen",
+            "innen",
+            "außen",
+            "drin"
+        ],
+        "correct": "draußen",
+        "translation": "внутри"
+    },
+    {
+        "id": "p6q7r8s9-t0u1-u2v3-v4w5-x6y7z8a9b0c1",
+        "word": "oben",
+        "options": [
+            "unten",
+            "auf",
+            "unter",
+            "darüber"
+        ],
+        "correct": "unten",
+        "translation": "наверху"
+    },
+    {
+        "id": "q7r8s9t0-u1v2-v3w4-w5x6-y7z8a9b0c1d2",
+        "word": "auf",
+        "options": [
+            "unter",
+            "neben",
+            "über",
+            "hinter"
+        ],
+        "correct": "unter",
+        "translation": "на"
+    },
+    {
+        "id": "r8s9t0u1-v2w3-w4x5-x6y7-z8a9b0c1d2e3",
+        "word": "vor",
+        "options": [
+            "hinter",
+            "neben",
+            "zwischen",
+            "dahinter"
+        ],
+        "correct": "hinter",
+        "translation": "перед"
+    },
+    {
+        "id": "s9t0u1v2-w3x4-x5y6-y7z8-a9b0c1d2e3f4",
+        "word": "hell",
+        "options": [
+            "dunkel",
+            "licht",
+            "finster",
+            "leuchtend"
+        ],
+        "correct": "dunkel",
+        "translation": "светлый"
+    },
+    {
+        "id": "t0u1v2w3-x4y5-y6z7-z8a9-b0c1d2e3f4g5",
+        "word": "richtig",
+        "options": [
+            "falsch",
+            "korrekt",
+            "fehlerhaft",
+            "zutreffend"
+        ],
+        "correct": "falsch",
+        "translation": "правильный"
+    },
+    {
+        "id": "u1v2w3x4-y5z6-z7a8-a9b0-c1d2e3f4g5h6",
+        "word": "schnell",
+        "options": [
+            "langsam",
+            "rasch",
+            "eilig",
+            "träge"
+        ],
+        "correct": "langsam",
+        "translation": "быстрый"
+    },
+    {
+        "id": "v2w3x4y5-z6a7-a8b9-b0c1-d2e3f4g5h6i7",
+        "word": "nah",
+        "options": [
+            "fern",
+            "dicht",
+            "entfernt",
+            "angrenzend"
+        ],
+        "correct": "fern",
+        "translation": "близкий"
+    },
+    {
+        "id": "w3x4y5z6-a7b8-b9c0-c1d2-e3f4g5h6i7j8",
+        "word": "billig",
+        "options": [
+            "teuer",
+            "günstig",
+            "preiswert",
+            "kostspielig"
+        ],
+        "correct": "teuer",
+        "translation": "дешёвый"
+    },
+    {
+        "id": "x4y5z6a7-b8c9-c0d1-d2e3-f4g5h6i7j8k9",
+        "word": "stark",
+        "options": [
+            "schwach",
+            "kräftig",
+            "mächtig",
+            "hilflos"
+        ],
+        "correct": "schwach",
+        "translation": "сильный"
+    },
+    {
+        "id": "y5z6a7b8-c9d0-d1e2-e3f4-g5h6i7j8k9l0",
+        "word": "jung",
+        "options": [
+            "alt",
+            "frisch",
+            "kindlich",
+            "betagt"
+        ],
+        "correct": "alt",
+        "translation": "молодой"
+    },
+    {
+        "id": "z6a7b8c9-d0e1-e2f3-f4g5-h6i7j8k9l0m1",
+        "word": "neu",
+        "options": [
+            "alt",
+            "modern",
+            "aktuell",
+            "veraltet"
+        ],
+        "correct": "alt",
+        "translation": "новый"
+    },
+    {
+        "id": "a7b8c9d0-e1f2-f3g4-g5h6-i7j8k9l0m1n2",
+        "word": "gesund",
+        "options": [
+            "krank",
+            "vital",
+            "fit",
+            "leidend"
+        ],
+        "correct": "krank",
+        "translation": "здоровый"
+    },
+    {
+        "id": "b8c9d0e1-f2g3-g4h5-h6i7-j8k9l0m1n2o3",
+        "word": "reich",
+        "options": [
+            "arm",
+            "wohlhabend",
+            "vermögend",
+            "mittellos"
+        ],
+        "correct": "arm",
+        "translation": "богатый"
+    },
+    {
+        "id": "c9d0e1f2-g3h4-h5i6-i7j8-k9l0m1n2o3p4",
+        "word": "frisch",
+        "options": [
+            "alt",
+            "neu",
+            "verdorben",
+            "abgestanden"
+        ],
+        "correct": "alt",
+        "translation": "свежий"
+    },
+    {
+        "id": "d0e1f2g3-h4i5-i6j7-j8k9-l0m1n2o3p4q5",
+        "word": "freundlich",
+        "options": [
+            "unfreundlich",
+            "nett",
+            "liebenswürdig",
+            "barsch"
+        ],
+        "correct": "unfreundlich",
+        "translation": "дружелюбный"
+    },
+    {
+        "id": "e1f2g3h4-i5j6-j7k8-k9l0-m1n2o3p4q5r6",
+        "word": "wahr",
+        "options": [
+            "falsch",
+            "richtig",
+            "zutreffend",
+            "gelogen"
+        ],
+        "correct": "falsch",
+        "translation": "правдивый"
+    },
+    {
+        "id": "f2g3h4i5-j6k7-k8l9-l0m1-n2o3p4q5r6s7",
+        "word": "voll",
+        "options": [
+            "leer",
+            "gefüllt",
+            "überladen",
+            "unbesetzt"
+        ],
+        "correct": "leer",
+        "translation": "полный"
+    },
+    {
+        "id": "g3h4i5j6-k7l8-l9m0-m1n2-o3p4q5r6s7t8",
+        "word": "glücklich",
+        "options": [
+            "unglücklich",
+            "fröhlich",
+            "zufrieden",
+            "traurig"
+        ],
+        "correct": "unglücklich",
+        "translation": "счастливый"
+    },
+    {
+        "id": "h4i5j6k7-l8m9-m0n1-n2o3-p4q5r6s7t8u9",
+        "word": "gut",
+        "options": [
+            "schlecht",
+            "ausgezeichnet",
+            "mittelmäßig",
+            "fehlerhaft"
+        ],
+        "correct": "schlecht",
+        "translation": "хороший"
+    },
+    {
+        "id": "i5j6k7l8-m9n0-n1o2-o3p4-q5r6s7t8u9v0",
+        "word": "viel",
+        "options": [
+            "wenig",
+            "zahlreich",
+            "reichlich",
+            "kaum"
+        ],
+        "correct": "wenig",
+        "translation": "много"
+    },
+    {
+        "id": "j6k7l8m9-n0o1-o2p3-p4q5-r6s7t8u9v0w1",
+        "word": "allein",
+        "options": [
+            "zusammen",
+            "einsam",
+            "gemeinsam",
+            "isoliert"
+        ],
+        "correct": "zusammen",
+        "translation": "один"
+    },
+    {
+        "id": "k7l8m9n0-o1p2-p3q4-q5r6-s7t8u9v0w1x2",
+        "word": "immer",
+        "options": [
+            "nie",
+            "stets",
+            "dauernd",
+            "niemals"
+        ],
+        "correct": "nie",
+        "translation": "всегда"
+    },
+    {
+        "id": "l8m9n0o1-p2q3-q4r5-r6s7-t8u9v0w1x2y3",
+        "word": "oben",
+        "options": [
+            "unten",
+            "drunten",
+            "hinter",
+            "darüber"
+        ],
+        "correct": "unten",
+        "translation": "вверху"
+    },
+    {
+        "id": "m9n0o1p2-q3r4-r5s6-s7t8-u9v0w1x2y3z4",
+        "word": "draußen",
+        "options": [
+            "drinnen",
+            "außen",
+            "innen",
+            "hinaus"
+        ],
+        "correct": "drinnen",
+        "translation": "снаружи"
+    },
+    {
+        "id": "n0o1p2q3-r4s5-s6t7-t8u9-v0w1x2y3z4a5",
+        "word": "links",
+        "options": [
+            "rechts",
+            "geradeaus",
+            "seitlich",
+            "linksherum"
+        ],
+        "correct": "rechts",
+        "translation": "слева"
+    },
+    {
+        "id": "o1p2q3r4-s5t6-t7u8-u9v0-w1x2y3z4a5b6",
+        "word": "vorne",
+        "options": [
+            "hinten",
+            "vorn",
+            "rückwärts",
+            "dahinter"
+        ],
+        "correct": "hinten",
+        "translation": "впереди"
+    },
+    {
+        "id": "p2q3r4s5-t6u7-u8v9-v0w1-x2y3z4a5b6c7",
+        "word": "oft",
+        "options": [
+            "selten",
+            "häufig",
+            "manchmal",
+            "nie"
+        ],
+        "correct": "selten",
+        "translation": "часто"
+    },
+    {
+        "id": "q3r4s5t6-u7v8-v9w0-w1x2-y3z4a5b6c7d8",
+        "word": "früher",
+        "options": [
+            "später",
+            "eher",
+            "nachher",
+            "damals"
+        ],
+        "correct": "später",
+        "translation": "раньше"
+    },
+    {
+        "id": "r4s5t6u7-v8w9-w0x1-x2y3-z4a5b6c7d8e9",
+        "word": "heute",
+        "options": [
+            "gestern",
+            "morgen",
+            "nächstes Jahr",
+            "danach"
+        ],
+        "correct": "gestern",
+        "translation": "сегодня"
+    },
+    {
+        "id": "s5t6u7v8-w9x0-x1y2-y3z4-a5b6c7d8e9f0",
+        "word": "Tag",
+        "options": [
+            "Nacht",
+            "Dunkelheit",
+            "Abend",
+            "Morgen"
+        ],
+        "correct": "Nacht",
+        "translation": "день"
+    },
+    {
+        "id": "t6u7v8w9-x0y1-y2z3-z4a5-b6c7d8e9f0g1",
+        "word": "Morgen",
+        "options": [
+            "Abend",
+            "Nacht",
+            "Mittag",
+            "Nachmittag"
+        ],
+        "correct": "Abend",
+        "translation": "утро"
+    },
+    {
+        "id": "u7v8w9x0-y1z2-z3a4-a5b6-c7d8e9f0g1h2",
+        "word": "Krieg",
+        "options": [
+            "Frieden",
+            "Kampf",
+            "Konflikt",
+            "Harmonie"
+        ],
+        "correct": "Frieden",
+        "translation": "война"
+    },
+    {
+        "id": "v8w9x0y1-z2a3-a4b5-b6c7-d8e9f0g1h2i3",
+        "word": "Himmel",
+        "options": [
+            "Hölle",
+            "Erde",
+            "Paradies",
+            "Fegefeuer"
+        ],
+        "correct": "Hölle",
+        "translation": "рай"
+    },
+    {
+        "id": "w9x0y1z2-a3b4-b5c6-c7d8-e9f0g1h2i3j4",
+        "word": "Anfang",
+        "options": [
+            "Ende",
+            "Start",
+            "Beginn",
+            "Abschluss"
+        ],
+        "correct": "Ende",
+        "translation": "начало"
+    },
+    {
+        "id": "x0y1z2a3-b4c5-c6d7-d8e9-f0g1h2i3j4k5",
+        "word": "Gewinn",
+        "options": [
+            "Verlust",
+            "Profit",
+            "Ertrag",
+            "Defizit"
+        ],
+        "correct": "Verlust",
+        "translation": "прибыль"
+    },
+    {
+        "id": "y1z2a3b4-c5d6-d7e8-e9f0-g1h2i3j4k5l6",
+        "word": "Eingang",
+        "options": [
+            "Ausgang",
+            "Eintritt",
+            "Zutritt",
+            "Ausfahrt"
+        ],
+        "correct": "Ausgang",
+        "translation": "вход"
+    },
+    {
+        "id": "z2a3b4c5-d6e7-e8f9-f0g1-h2i3j4k5l6m7",
+        "word": "Freund",
+        "options": [
+            "Feind",
+            "Bekannter",
+            "Begleiter",
+            "Gegner"
+        ],
+        "correct": "Feind",
+        "translation": "друг"
+    }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "s1",
+    "word": "weil",
+    "options": [
+      "da",
+      "aber",
+      "oder",
+      "und"
+    ],
+    "correct": "da",
+    "translation": "потому что"
+  },
+  {
+    "id": "s2",
+    "word": "aber",
+    "options": [
+      "jedoch",
+      "außerdem",
+      "daher",
+      "bereits"
+    ],
+    "correct": "jedoch",
+    "translation": "но"
+  },
+  {
+    "id": "s3",
+    "word": "und",
+    "options": [
+      "außerdem",
+      "dennoch",
+      "falls",
+      "demnächst"
+    ],
+    "correct": "außerdem",
+    "translation": "и"
+  },
+  {
+    "id": "s4",
+    "word": "deshalb",
+    "options": [
+      "daher",
+      "lediglich",
+      "möglicherweise",
+      "anschließend"
+    ],
+    "correct": "daher",
+    "translation": "поэтому"
+  },
+  {
+    "id": "s5",
+    "word": "trotzdem",
+    "options": [
+      "dennoch",
+      "falls",
+      "selbstverständlich",
+      "ständig"
+    ],
+    "correct": "dennoch",
+    "translation": "тем не менее"
+  },
+  {
+    "id": "s6",
+    "word": "nur",
+    "options": [
+      "lediglich",
+      "möglicherweise",
+      "beispielweise",
+      "nach wie vor"
+    ],
+    "correct": "lediglich",
+    "translation": "только"
+  },
+  {
+    "id": "s7",
+    "word": "wenn",
+    "options": [
+      "falls",
+      "selbstverständlich",
+      "bereits",
+      "erhalten"
+    ],
+    "correct": "falls",
+    "translation": "если"
+  },
+  {
+    "id": "s8",
+    "word": "vielleicht",
+    "options": [
+      "möglicherweise",
+      "beispielweise",
+      "derzeit",
+      "beginnen"
+    ],
+    "correct": "möglicherweise",
+    "translation": "возможно"
+  },
+  {
+    "id": "s9",
+    "word": "natürlich",
+    "options": [
+      "selbstverständlich",
+      "bereits",
+      "demnächst",
+      "unterstützen"
+    ],
+    "correct": "selbstverständlich",
+    "translation": "конечно"
+  },
+  {
+    "id": "s10",
+    "word": "zum Beispiel",
+    "options": [
+      "beispielweise",
+      "momentan",
+      "anschließend",
+      "benötigen"
+    ],
+    "correct": "beispielweise",
+    "translation": "например"
+  },
+  {
+    "id": "s11",
+    "word": "schon",
+    "options": [
+      "bereits",
+      "derzeit",
+      "ständig",
+      "die Schule besuchen"
+    ],
+    "correct": "bereits",
+    "translation": "уже"
+  },
+  {
+    "id": "s12",
+    "word": "jetzt",
+    "options": [
+      "derzeit",
+      "momentan",
+      "häufig",
+      "e. Termin vereinbaren"
+    ],
+    "correct": "derzeit",
+    "translation": "сейчас"
+  },
+  {
+    "id": "s13",
+    "word": "bald",
+    "options": [
+      "demnächst",
+      "nach wie vor",
+      "einige",
+      "korrekt"
+    ],
+    "correct": "demnächst",
+    "translation": "скоро"
+  },
+  {
+    "id": "s14",
+    "word": "dann",
+    "options": [
+      "anschließend",
+      "erhalten",
+      "preiswert",
+      "da"
+    ],
+    "correct": "anschließend",
+    "translation": "затем"
+  },
+  {
+    "id": "s15",
+    "word": "immer",
+    "options": [
+      "ständig",
+      "beginnen",
+      "zügig",
+      "aber"
+    ],
+    "correct": "ständig",
+    "translation": "всегда"
+  },
+  {
+    "id": "s16",
+    "word": "oft",
+    "options": [
+      "häufig",
+      "unterstützen",
+      "richtig",
+      "und"
+    ],
+    "correct": "häufig",
+    "translation": "часто"
+  },
+  {
+    "id": "s17",
+    "word": "immer noch",
+    "options": [
+      "nach wie vor",
+      "benötigen",
+      "jedoch",
+      "deshalb"
+    ],
+    "correct": "nach wie vor",
+    "translation": "всё ещё"
+  },
+  {
+    "id": "s18",
+    "word": "bekommen",
+    "options": [
+      "erhalten",
+      "die Schule besuchen",
+      "außerdem",
+      "trotzdem"
+    ],
+    "correct": "erhalten",
+    "translation": "получать"
+  },
+  {
+    "id": "s19",
+    "word": "anfangen",
+    "options": [
+      "beginnen",
+      "e. Termin vereinbaren",
+      "daher",
+      "nur"
+    ],
+    "correct": "beginnen",
+    "translation": "начинать"
+  },
+  {
+    "id": "s20",
+    "word": "helfen",
+    "options": [
+      "unterstützen",
+      "einige",
+      "dennoch",
+      "wenn"
+    ],
+    "correct": "unterstützen",
+    "translation": "помогать"
+  },
+  {
+    "id": "s21",
+    "word": "brauchen",
+    "options": [
+      "benötigen",
+      "preiswert",
+      "falls",
+      "vielleicht"
+    ],
+    "correct": "benötigen",
+    "translation": "нуждаться"
+  },
+  {
+    "id": "s22",
+    "word": "zur Schule gehen",
+    "options": [
+      "die Schule besuchen",
+      "zügig",
+      "möglicherweise",
+      "natürlich"
+    ],
+    "correct": "die Schule besuchen",
+    "translation": "ходить в школу"
+  },
+  {
+    "id": "s23",
+    "word": "einen Termin machen",
+    "options": [
+      "e. Termin vereinbaren",
+      "korrekt",
+      "selbstverständlich",
+      "zum Beispiel"
+    ],
+    "correct": "e. Termin vereinbaren",
+    "translation": "назначить встречу"
+  },
+  {
+    "id": "s24",
+    "word": "ein paar",
+    "options": [
+      "einige",
+      "well",
+      "schon",
+      "jetzt"
+    ],
+    "correct": "einige",
+    "translation": "несколько"
+  },
+  {
+    "id": "s25",
+    "word": "billig",
+    "options": [
+      "preiswert",
+      "aber",
+      "bald",
+      "dann"
+    ],
+    "correct": "preiswert",
+    "translation": "дешевый"
+  },
+  {
+    "id": "s26",
+    "word": "schnell",
+    "options": [
+      "zügig",
+      "und",
+      "immer",
+      "oft"
+    ],
+    "correct": "zügig",
+    "translation": "быстрый"
+  },
+  {
+    "id": "s27",
+    "word": "richtig",
+    "options": [
+      "korrekt",
+      "deshalb",
+      "immer noch",
+      "bekommen"
+    ],
+    "correct": "korrekt",
+    "translation": "правильный"
+  }
+]

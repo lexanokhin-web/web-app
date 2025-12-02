@@ -1,0 +1,402 @@
+[
+    {
+        "id": "a1",
+        "sentence": "Das ist ein ___ Mann.",
+        "targetWord": "netter",
+        "targetWordTranslation": "милый (Nom. Masc. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a2",
+        "sentence": "Ich sehe den ___ Hund.",
+        "targetWord": "schwarzen",
+        "targetWordTranslation": "черную (Akk. Masc. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a3",
+        "sentence": "Wir helfen der ___ Frau.",
+        "targetWord": "alten",
+        "targetWordTranslation": "старой (Dat. Fem. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a4",
+        "sentence": "Das ist ein ___ Haus.",
+        "targetWord": "schönes",
+        "targetWordTranslation": "красивый (Nom. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a5",
+        "sentence": "Ich trinke ___ Kaffee.",
+        "targetWord": "heißen",
+        "targetWordTranslation": "горячий (Akk. Masc. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a6",
+        "sentence": "Mit ___ Freunden macht es Spaß.",
+        "targetWord": "guten",
+        "targetWordTranslation": "хорошими (Dat. Pl. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a7",
+        "sentence": "Das ___ Auto gehört mir.",
+        "targetWord": "rote",
+        "targetWordTranslation": "красная (Nom. Neut. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a8",
+        "sentence": "Ich kaufe eine ___ Jacke.",
+        "targetWord": "neue",
+        "targetWordTranslation": "новую (Akk. Fem. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a9",
+        "sentence": "Er wohnt in einem ___ Haus.",
+        "targetWord": "großen",
+        "targetWordTranslation": "большом (Dat. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a10",
+        "sentence": "Die ___ Kinder spielen.",
+        "targetWord": "kleinen",
+        "targetWordTranslation": "маленькие (Nom. Pl. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a11",
+        "sentence": "Ich mag ___ Wein.",
+        "targetWord": "trockenen",
+        "targetWordTranslation": "сухое (Akk. Masc. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a12",
+        "sentence": "Das ist der ___ Tag meines Lebens.",
+        "targetWord": "beste",
+        "targetWordTranslation": "лучший (Nom. Masc. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a13",
+        "sentence": "Wir brauchen ___ Wasser.",
+        "targetWord": "frisches",
+        "targetWordTranslation": "свежая (Akk. Neut. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a14",
+        "sentence": "Sie trägt ein ___ Kleid.",
+        "targetWord": "blaues",
+        "targetWordTranslation": "синее (Akk. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a15",
+        "sentence": "Er hilft dem ___ Mann.",
+        "targetWord": "blinden",
+        "targetWordTranslation": "слепому (Dat. Masc. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a16",
+        "sentence": "Das sind ___ Schuhe.",
+        "targetWord": "teure",
+        "targetWordTranslation": "дорогие (Nom. Pl. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a17",
+        "sentence": "Ich habe einen ___ Tisch gekauft.",
+        "targetWord": "runden",
+        "targetWordTranslation": "круглый (Akk. Masc. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a18",
+        "sentence": "Bei ___ Wetter bleiben wir zu Hause.",
+        "targetWord": "schlechtem",
+        "targetWordTranslation": "плохой (Dat. Neut. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a19",
+        "sentence": "Die ___ Katze schläft.",
+        "targetWord": "weiße",
+        "targetWordTranslation": "белая (Nom. Fem. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a20",
+        "sentence": "Ich wünsche dir ein ___ Wochenende.",
+        "targetWord": "schönes",
+        "targetWordTranslation": "хороших (Akk. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a21",
+        "sentence": "Das ___ Kind lacht.",
+        "targetWord": "kleine",
+        "targetWordTranslation": "маленький (Nom. Neut. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a22",
+        "sentence": "Ich trage einen ___ Hut.",
+        "targetWord": "großen",
+        "targetWordTranslation": "большую (Akk. Masc. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a23",
+        "sentence": "Mit ___ Leuten spreche ich gern.",
+        "targetWord": "netten",
+        "targetWordTranslation": "милыми (Dat. Pl. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a24",
+        "sentence": "Das ist eine ___ Aufgabe.",
+        "targetWord": "schwere",
+        "targetWordTranslation": "трудная (Nom. Fem. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a25",
+        "sentence": "Ich sehe das ___ Meer.",
+        "targetWord": "blaue",
+        "targetWordTranslation": "синее (Akk. Neut. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a26",
+        "sentence": "Er hilft der ___ Dame.",
+        "targetWord": "jungen",
+        "targetWordTranslation": "молодой (Dat. Fem. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a27",
+        "sentence": "Wir kaufen ___ Brot.",
+        "targetWord": "frisches",
+        "targetWordTranslation": "свежий (Akk. Neut. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a28",
+        "sentence": "Der ___ Baum ist alt.",
+        "targetWord": "hohe",
+        "targetWordTranslation": "высокое (Nom. Masc. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a29",
+        "sentence": "Ich habe eine ___ Idee.",
+        "targetWord": "gute",
+        "targetWordTranslation": "хорошую (Akk. Fem. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a30",
+        "sentence": "In einem ___ Zimmer schläft man gut.",
+        "targetWord": "ruhigen",
+        "targetWordTranslation": "тихой (Dat. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a31",
+        "sentence": "Die ___ Blumen blühen.",
+        "targetWord": "bunten",
+        "targetWordTranslation": "пестрые (Nom. Pl. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a32",
+        "sentence": "Ich trinke ___ Tee.",
+        "targetWord": "schwarzen",
+        "targetWordTranslation": "черный (Akk. Masc. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a33",
+        "sentence": "Das ist mein ___ Freund.",
+        "targetWord": "bester",
+        "targetWordTranslation": "лучший (Nom. Masc. Poss.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a34",
+        "sentence": "Wir essen ___ Pizza.",
+        "targetWord": "italienische",
+        "targetWordTranslation": "итальянскую (Akk. Fem. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a35",
+        "sentence": "Er wohnt in der ___ Stadt.",
+        "targetWord": "großen",
+        "targetWordTranslation": "большом (Dat. Fem. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a36",
+        "sentence": "Das sind ___ Fragen.",
+        "targetWord": "wichtige",
+        "targetWordTranslation": "важные (Nom. Pl. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a37",
+        "sentence": "Ich sehe einen ___ Film.",
+        "targetWord": "lustigen",
+        "targetWordTranslation": "смешной (Akk. Masc. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a38",
+        "sentence": "Bei ___ Regen gehe ich nicht raus.",
+        "targetWord": "starkem",
+        "targetWordTranslation": "сильном (Dat. Masc. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a39",
+        "sentence": "Die ___ Sonne scheint.",
+        "targetWord": "warme",
+        "targetWordTranslation": "теплое (Nom. Fem. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a40",
+        "sentence": "Ich brauche ein ___ Hemd.",
+        "targetWord": "neues",
+        "targetWordTranslation": "новую (Akk. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a41",
+        "sentence": "Das ___ Buch ist spannend.",
+        "targetWord": "neue",
+        "targetWordTranslation": "новая (Nom. Neut. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a42",
+        "sentence": "Ich kenne den ___ Mann.",
+        "targetWord": "alten",
+        "targetWordTranslation": "старого (Akk. Masc. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a43",
+        "sentence": "Wir danken der ___ Lehrerin.",
+        "targetWord": "guten",
+        "targetWordTranslation": "хорошей (Dat. Fem. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a44",
+        "sentence": "Das ist ein ___ Problem.",
+        "targetWord": "großes",
+        "targetWordTranslation": "большая (Nom. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a45",
+        "sentence": "Ich esse ___ Suppe.",
+        "targetWord": "heiße",
+        "targetWordTranslation": "горячий (Akk. Fem. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a46",
+        "sentence": "Mit ___ Worten erklärte er es.",
+        "targetWord": "einfachen",
+        "targetWordTranslation": "простыми (Dat. Pl. Ohne)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a47",
+        "sentence": "Der ___ Stuhl ist kaputt.",
+        "targetWord": "alte",
+        "targetWordTranslation": "старый (Nom. Masc. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a48",
+        "sentence": "Ich kaufe eine ___ Tasche.",
+        "targetWord": "rote",
+        "targetWordTranslation": "красную (Akk. Fem. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a49",
+        "sentence": "In einem ___ Bett schläft man gut.",
+        "targetWord": "weichen",
+        "targetWordTranslation": "мягкой (Dat. Neut. Indef.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    },
+    {
+        "id": "a50",
+        "sentence": "Die ___ Vögel singen.",
+        "targetWord": "kleinen",
+        "targetWordTranslation": "маленькие (Nom. Pl. Def.)",
+        "level": "B1",
+        "topic": "Adjektivdeklination"
+    }
+]

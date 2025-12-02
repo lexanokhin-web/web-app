@@ -1,0 +1,402 @@
+[
+    {
+        "id": "p1",
+        "sentence": "Gestern ___ ich im Kino.",
+        "targetWord": "war",
+        "targetWordTranslation": "был",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p2",
+        "sentence": "Er ___ keine Zeit.",
+        "targetWord": "hatte",
+        "targetWordTranslation": "имел",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p3",
+        "sentence": "Wir ___ nach Hause.",
+        "targetWord": "gingen",
+        "targetWordTranslation": "шли",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p4",
+        "sentence": "Sie (Sg.) ___ einen Brief.",
+        "targetWord": "schrieb",
+        "targetWordTranslation": "писала",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p5",
+        "sentence": "Der Zug ___ pünktlich ab.",
+        "targetWord": "fuhr",
+        "targetWordTranslation": "отправился",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p6",
+        "sentence": "Ich ___ das nicht.",
+        "targetWord": "wusste",
+        "targetWordTranslation": "знал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p7",
+        "sentence": "Er ___ mir ein Geschenk.",
+        "targetWord": "gab",
+        "targetWordTranslation": "дал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p8",
+        "sentence": "Wir ___ einen Film.",
+        "targetWord": "sahen",
+        "targetWordTranslation": "смотрели",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p9",
+        "sentence": "Sie (Pl.) ___ sehr laut.",
+        "targetWord": "sprachen",
+        "targetWordTranslation": "говорили",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p10",
+        "sentence": "Ich ___ gestern spät auf.",
+        "targetWord": "stand",
+        "targetWordTranslation": "встал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p11",
+        "sentence": "Er ___ viel Bier.",
+        "targetWord": "trank",
+        "targetWordTranslation": "пил",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p12",
+        "sentence": "Wir ___ im Restaurant.",
+        "targetWord": "aßen",
+        "targetWordTranslation": "ели",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p13",
+        "sentence": "Sie (Sg.) ___ ein Buch.",
+        "targetWord": "las",
+        "targetWordTranslation": "читала",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p14",
+        "sentence": "Ich ___ meine Schlüssel.",
+        "targetWord": "verlor",
+        "targetWordTranslation": "потерял",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p15",
+        "sentence": "Er ___ schnell.",
+        "targetWord": "lief",
+        "targetWordTranslation": "бежал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p16",
+        "sentence": "Wir ___ zu Hause.",
+        "targetWord": "blieben",
+        "targetWordTranslation": "остались",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p17",
+        "sentence": "Sie (Pl.) ___ ein Lied.",
+        "targetWord": "sangen",
+        "targetWordTranslation": "пели",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p18",
+        "sentence": "Ich ___ dir helfen.",
+        "targetWord": "konnte",
+        "targetWordTranslation": "мог",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p19",
+        "sentence": "Er ___ Arzt werden.",
+        "targetWord": "wollte",
+        "targetWordTranslation": "хотел",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p20",
+        "sentence": "Wir ___ das machen.",
+        "targetWord": "mussten",
+        "targetWordTranslation": "должны были",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p21",
+        "sentence": "Er ___ den ganzen Tag.",
+        "targetWord": "schlief",
+        "targetWordTranslation": "спал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p22",
+        "sentence": "Sie (Sg.) ___ einen Apfel.",
+        "targetWord": "aß",
+        "targetWordTranslation": "ела",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p23",
+        "sentence": "Wir ___ uns sehr.",
+        "targetWord": "freuten",
+        "targetWordTranslation": "радовались",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p24",
+        "sentence": "Ich ___ den Schlüssel.",
+        "targetWord": "fand",
+        "targetWordTranslation": "нашел",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p25",
+        "sentence": "Der Hund ___ laut.",
+        "targetWord": "bellte",
+        "targetWordTranslation": "лаял",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p26",
+        "sentence": "Sie (Pl.) ___ nach Italien.",
+        "targetWord": "flogen",
+        "targetWordTranslation": "летели",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p27",
+        "sentence": "Er ___ mir das Buch.",
+        "targetWord": "brachte",
+        "targetWordTranslation": "принес",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p28",
+        "sentence": "Ich ___ an dich.",
+        "targetWord": "dachte",
+        "targetWordTranslation": "думал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p29",
+        "sentence": "Wir ___ Hilfe.",
+        "targetWord": "brauchten",
+        "targetWordTranslation": "нуждались",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p30",
+        "sentence": "Das Kind ___ laut.",
+        "targetWord": "schrie",
+        "targetWordTranslation": "кричало",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p31",
+        "sentence": "Sie (Sg.) ___ das Fenster.",
+        "targetWord": "schloss",
+        "targetWordTranslation": "закрыла",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p32",
+        "sentence": "Ich ___ den Namen.",
+        "targetWord": "nannte",
+        "targetWordTranslation": "назвал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p33",
+        "sentence": "Er ___ auf dem Stuhl.",
+        "targetWord": "saß",
+        "targetWordTranslation": "сидел",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p34",
+        "sentence": "Wir ___ das Spiel.",
+        "targetWord": "gewannen",
+        "targetWordTranslation": "выиграли",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p35",
+        "sentence": "Der Vogel ___ weg.",
+        "targetWord": "flog",
+        "targetWordTranslation": "улетел",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p36",
+        "sentence": "Ich ___ ihn gut.",
+        "targetWord": "kannte",
+        "targetWordTranslation": "знал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p37",
+        "sentence": "Sie (Pl.) ___ schnell.",
+        "targetWord": "rannten",
+        "targetWordTranslation": "бежали",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p38",
+        "sentence": "Er ___ das Glas.",
+        "targetWord": "nahm",
+        "targetWordTranslation": "взял",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p39",
+        "sentence": "Wir ___ im Meer.",
+        "targetWord": "schwammen",
+        "targetWordTranslation": "плавали",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p40",
+        "sentence": "Ich ___ einen Brief.",
+        "targetWord": "bekam",
+        "targetWordTranslation": "получил",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p41",
+        "sentence": "Sie (Sg.) ___ krank.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "стала",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p42",
+        "sentence": "Er ___ das Auto.",
+        "targetWord": "wusch",
+        "targetWordTranslation": "мыл",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p43",
+        "sentence": "Wir ___ die Wahrheit.",
+        "targetWord": "sagten",
+        "targetWordTranslation": "сказали",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p44",
+        "sentence": "Ich ___ es nicht.",
+        "targetWord": "tat",
+        "targetWordTranslation": "делал",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p45",
+        "sentence": "Der Wind ___ stark.",
+        "targetWord": "wehte",
+        "targetWordTranslation": "дул",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p46",
+        "sentence": "Sie (Pl.) ___ den Berg.",
+        "targetWord": "stiegen",
+        "targetWordTranslation": "поднимались",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p47",
+        "sentence": "Er ___ mir die Hand.",
+        "targetWord": "bot",
+        "targetWordTranslation": "предложил (подал)",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p48",
+        "sentence": "Ich ___ das Licht an.",
+        "targetWord": "machte",
+        "targetWordTranslation": "включил",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p49",
+        "sentence": "Wir ___ lange.",
+        "targetWord": "warteten",
+        "targetWordTranslation": "ждали",
+        "level": "B1",
+        "topic": "Präteritum"
+    },
+    {
+        "id": "p50",
+        "sentence": "Sie (Sg.) ___ das Bild.",
+        "targetWord": "malte",
+        "targetWordTranslation": "рисовала",
+        "level": "B1",
+        "topic": "Präteritum"
+    }
+]

@@ -1,0 +1,402 @@
+﻿[
+    {
+        "id": "r1",
+        "sentence": "Das ist der Mann, ___ ich gesehen habe.",
+        "targetWord": "den",
+        "targetWordTranslation": "которого (Akk. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r2",
+        "sentence": "Das ist die Frau, ___ mir geholfen hat.",
+        "targetWord": "die",
+        "targetWordTranslation": "которая (Nom. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r3",
+        "sentence": "Das ist das Kind, ___ spielt.",
+        "targetWord": "das",
+        "targetWordTranslation": "которое (Nom. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r4",
+        "sentence": "Das sind die Bücher, ___ ich gekauft habe.",
+        "targetWord": "die",
+        "targetWordTranslation": "которые (Akk. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r5",
+        "sentence": "Der Mann, ___ das Auto gehört, ist reich.",
+        "targetWord": "dem",
+        "targetWordTranslation": "которому (Dat. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r6",
+        "sentence": "Die Frau, ___ ich danke, ist nett.",
+        "targetWord": "der",
+        "targetWordTranslation": "которой (Dat. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r7",
+        "sentence": "Das Kind, ___ ich helfe, lernt Deutsch.",
+        "targetWord": "dem",
+        "targetWordTranslation": "которому (Dat. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r8",
+        "sentence": "Die Leute, ___ ich vertraue, sind meine Freunde.",
+        "targetWord": "denen",
+        "targetWordTranslation": "которым (Dat. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r9",
+        "sentence": "Das ist der Lehrer, ___ Auto kaputt ist.",
+        "targetWord": "dessen",
+        "targetWordTranslation": "чья (Gen. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r10",
+        "sentence": "Das ist die Frau, ___ Tasche gestohlen wurde.",
+        "targetWord": "deren",
+        "targetWordTranslation": "чья (Gen. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r11",
+        "sentence": "Das ist das Haus, in ___ ich wohne.",
+        "targetWord": "dem",
+        "targetWordTranslation": "в котором (Dat. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r12",
+        "sentence": "Die Stadt, aus ___ ich komme, ist klein.",
+        "targetWord": "der",
+        "targetWordTranslation": "из которой (Dat. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r13",
+        "sentence": "Der Stuhl, auf ___ ich sitze, ist bequem.",
+        "targetWord": "dem",
+        "targetWordTranslation": "на котором (Dat. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r14",
+        "sentence": "Die Freunde, mit ___ ich reise, sind lustig.",
+        "targetWord": "denen",
+        "targetWordTranslation": "с которыми (Dat. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r15",
+        "sentence": "Alles, ___ er sagt, ist wahr.",
+        "targetWord": "was",
+        "targetWordTranslation": "что (Indef.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r16",
+        "sentence": "Das Beste, ___ mir passiert ist.",
+        "targetWord": "was",
+        "targetWordTranslation": "что (Superlativ)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r17",
+        "sentence": "Der Ort, an ___ wir uns trafen.",
+        "targetWord": "dem",
+        "targetWordTranslation": "в котором (Dat. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r18",
+        "sentence": "Die Kinder, ___ Eltern arbeiten, sind in der Schule.",
+        "targetWord": "deren",
+        "targetWordTranslation": "чьи (Gen. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r19",
+        "sentence": "Das ist das Mädchen, ___ ich das Buch gab.",
+        "targetWord": "dem",
+        "targetWordTranslation": "которой (Dat. Neut. -> Mädchen)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r20",
+        "sentence": "Der Film, ___ wir gesehen haben, war gut.",
+        "targetWord": "den",
+        "targetWordTranslation": "который (Akk. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r21",
+        "sentence": "Der Mann, ___ dort steht, ist mein Vater.",
+        "targetWord": "der",
+        "targetWordTranslation": "который (Nom. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r22",
+        "sentence": "Die Frau, ___ ich liebe, heißt Anna.",
+        "targetWord": "die",
+        "targetWordTranslation": "которую (Akk. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r23",
+        "sentence": "Das Auto, ___ ich fahre, ist schnell.",
+        "targetWord": "das",
+        "targetWordTranslation": "на котором (Akk. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r24",
+        "sentence": "Die Kinder, ___ im Garten spielen, sind laut.",
+        "targetWord": "die",
+        "targetWordTranslation": "которые (Nom. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r25",
+        "sentence": "Der Lehrer, ___ ich frage, weiß alles.",
+        "targetWord": "den",
+        "targetWordTranslation": "которого (Akk. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r26",
+        "sentence": "Die Tasche, ___ mir gehört, ist weg.",
+        "targetWord": "die",
+        "targetWordTranslation": "которая (Nom. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r27",
+        "sentence": "Das Buch, ___ auf dem Tisch liegt, ist neu.",
+        "targetWord": "das",
+        "targetWordTranslation": "которая (Nom. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r28",
+        "sentence": "Die Freunde, ___ ich einlade, kommen gern.",
+        "targetWord": "die",
+        "targetWordTranslation": "которых (Akk. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r29",
+        "sentence": "Der Hund, ___ bellt, beißt nicht.",
+        "targetWord": "der",
+        "targetWordTranslation": "который (Nom. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r30",
+        "sentence": "Die Katze, ___ schläft, ist süß.",
+        "targetWord": "die",
+        "targetWordTranslation": "которая (Nom. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r31",
+        "sentence": "Das Haus, ___ wir kaufen, ist teuer.",
+        "targetWord": "das",
+        "targetWordTranslation": "который (Akk. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r32",
+        "sentence": "Die Blumen, ___ ich pflücke, sind schön.",
+        "targetWord": "die",
+        "targetWordTranslation": "которые (Akk. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r33",
+        "sentence": "Der Mann, mit ___ ich spreche, ist nett.",
+        "targetWord": "dem",
+        "targetWordTranslation": "с которым (Dat. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r34",
+        "sentence": "Die Frau, bei ___ ich wohne, kocht gut.",
+        "targetWord": "der",
+        "targetWordTranslation": "у которой (Dat. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r35",
+        "sentence": "Das Kind, mit ___ ich spiele, lacht.",
+        "targetWord": "dem",
+        "targetWordTranslation": "с которым (Dat. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r36",
+        "sentence": "Die Leute, von ___ ich erzähle, sind hier.",
+        "targetWord": "denen",
+        "targetWordTranslation": "о которых (Dat. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r37",
+        "sentence": "Der Schüler, ___ Heft fehlt, weint.",
+        "targetWord": "dessen",
+        "targetWordTranslation": "чья (Gen. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r38",
+        "sentence": "Die Mutter, ___ Kind krank ist, sorgt sich.",
+        "targetWord": "deren",
+        "targetWordTranslation": "чей (Gen. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r39",
+        "sentence": "Das Land, ___ Hauptstadt Berlin ist, heißt Deutschland.",
+        "targetWord": "dessen",
+        "targetWordTranslation": "чья (Gen. Neut.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r40",
+        "sentence": "Die Eltern, ___ Kinder lernen, sind stolz.",
+        "targetWord": "deren",
+        "targetWordTranslation": "чьи (Gen. Pl.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r41",
+        "sentence": "Der Park, in ___ wir gehen, ist groß.",
+        "targetWord": "den",
+        "targetWordTranslation": "в который (Akk. Masc. - Wohin?)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r42",
+        "sentence": "Die Schule, in ___ ich lerne, ist alt.",
+        "targetWord": "der",
+        "targetWordTranslation": "в которой (Dat. Fem. - Wo?)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r43",
+        "sentence": "Das Kino, in ___ wir gehen, ist neu.",
+        "targetWord": "das",
+        "targetWordTranslation": "в который (Akk. Neut. - Wohin?)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r44",
+        "sentence": "Die Städte, in ___ ich war, sind schön.",
+        "targetWord": "denen",
+        "targetWordTranslation": "в которых (Dat. Pl. - Wo?)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r45",
+        "sentence": "Nichts, ___ er tut, ist richtig.",
+        "targetWord": "was",
+        "targetWordTranslation": "что (Indef.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r46",
+        "sentence": "Das Schönste, ___ ich sah.",
+        "targetWord": "was",
+        "targetWordTranslation": "что (Superlativ)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r47",
+        "sentence": "Der Tag, an ___ wir uns sahen.",
+        "targetWord": "dem",
+        "targetWordTranslation": "в который (Dat. Masc.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r48",
+        "sentence": "Die Frau, für ___ ich arbeite.",
+        "targetWord": "die",
+        "targetWordTranslation": "для которой (Akk. Fem.)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r49",
+        "sentence": "Der Bus, auf ___ ich warte.",
+        "targetWord": "den",
+        "targetWordTranslation": "который (Akk. Masc. - warten auf)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    },
+    {
+        "id": "r50",
+        "sentence": "Das Geschenk, über ___ ich mich freue.",
+        "targetWord": "das",
+        "targetWordTranslation": "которому (Akk. Neut. - freuen über)",
+        "level": "B1",
+        "topic": "Relativsätze"
+    }
+]

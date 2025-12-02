@@ -1,0 +1,12 @@
+[
+  {"id": "r1", "sentence": "Das ist der Mann, ___ ich gesehen habe.", "targetWord": "den", "targetWordTranslation": "которого (Akk. Masc.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r2", "sentence": "Das ist die Frau, ___ mir geholfen hat.", "targetWord": "die", "targetWordTranslation": "которая (Nom. Fem.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r3", "sentence": "Das ist das Kind, ___ spielt.", "targetWord": "das", "targetWordTranslation": "которое (Nom. Neut.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r4", "sentence": "Das sind die Bücher, ___ ich gekauft habe.", "targetWord": "die", "targetWordTranslation": "которые (Akk. Pl.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r5", "sentence": "Der Mann, ___ das Auto gehört, ist reich.", "targetWord": "dem", "targetWordTranslation": "которому (Dat. Masc.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r6", "sentence": "Die Frau, ___ ich danke, ist nett.", "targetWord": "der", "targetWordTranslation": "которой (Dat. Fem.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r7", "sentence": "Das Kind, ___ ich helfe, lernt Deutsch.", "targetWord": "dem", "targetWordTranslation": "которому (Dat. Neut.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r8", "sentence": "Die Leute, ___ ich vertraue, sind meine Freunde.", "targetWord": "denen", "targetWordTranslation": "которым (Dat. Pl.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r9", "sentence": "Das ist der Lehrer, ___ Auto kaputt ist.", "targetWord": "dessen", "targetWordTranslation": "чья (Gen. Masc.)", "level": "B1", "topic": "Relativsätze"},
+  {"id": "r10", "sentence": "Das ist die Frau, ___ Tasche gestohlen wurde.", "targetWord": "deren", "targetWordTranslation": "чья (Gen. Fem.)", "level": "B1", "topic": "Relativsätze"}
+]

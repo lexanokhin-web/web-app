@@ -1,0 +1,2156 @@
+[
+  {
+    "id": "scenario1_1",
+    "sentence": "Welches Verb passt zu **«neue Dinge im Kopf speichern»**?",
+    "sentenceTranslation": "Какой глагол подходит к «сохранять новые вещи в голове»?",
+    "targetWord": "lernen",
+    "targetWordTranslation": "учиться, запоминать",
+    "options": ["lesen", "lernen", "schreiben", "arbeiten"],
+    "level": "A1/A2",
+    "topic": "Grundlagen"
+  },
+  {
+    "id": "scenario1_2",
+    "sentence": "Welches Verb passt zu **«mit der Stimme Wörter bilden»**?",
+    "sentenceTranslation": "Какой глагол подходит к «создавать слова голосом»?",
+    "targetWord": "sprechen",
+    "targetWordTranslation": "говорить, разговаривать",
+    "options": ["hören", "singen", "sprechen", "schauen"],
+    "level": "A1/A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "scenario1_3",
+    "sentence": "Welches Verb passt zu **«etwas besitzen»**?",
+    "sentenceTranslation": "Какой глагол подходит к «чем-то обладать»?",
+    "targetWord": "haben",
+    "targetWordTranslation": "иметь, обладать",
+    "options": ["gehen", "haben", "sein", "brauchen"],
+    "level": "A1/A2",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario1_4",
+    "sentence": "Welches Verb passt zu **«existieren oder da sein»**?",
+    "sentenceTranslation": "Какой глагол подходит к «существовать или быть»?",
+    "targetWord": "sein",
+    "targetWordTranslation": "быть",
+    "options": ["werden", "bleiben", "sein", "stehen"],
+    "level": "A1/A2",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario1_5",
+    "sentence": "Welches Verb passt zu **«mit den Augen sehen»**?",
+    "sentenceTranslation": "Какой глагол подходит к «видеть глазами»?",
+    "targetWord": "sehen",
+    "targetWordTranslation": "видеть",
+    "options": ["fühlen", "hören", "sehen", "riechen"],
+    "level": "A1/A2",
+    "topic": "Sinne"
+  },
+  {
+    "id": "scenario1_6",
+    "sentence": "Welches Verb passt zu **«Essen zu sich nehmen»**?",
+    "sentenceTranslation": "Какой глагол подходит к «принимать пищу»?",
+    "targetWord": "essen",
+    "targetWordTranslation": "есть",
+    "options": ["trinken", "kochen", "essen", "backen"],
+    "level": "A1/A2",
+    "topic": "Essen & Trinken"
+  },
+  {
+    "id": "scenario1_7",
+    "sentence": "Welches Verb passt zu **«einen Text mit der Hand oder auf dem Computer machen»**?",
+    "sentenceTranslation": "Какой глагол подходит к «создавать текст рукой или на компьютере»?",
+    "targetWord": "schreiben",
+    "targetWordTranslation": "писать",
+    "options": ["lesen", "schreiben", "malen", "sprechen"],
+    "level": "A1/A2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "scenario1_8",
+    "sentence": "Welches Verb passt zu **«an einem Ort wohnen oder leben»**?",
+    "sentenceTranslation": "Какой глагол подходит к «жить или проживать в одном месте»?",
+    "targetWord": "wohnen",
+    "targetWordTranslation": "жить, проживать",
+    "options": ["fahren", "wohnen", "besuchen", "arbeiten"],
+    "level": "A1/A2",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario1_9",
+    "sentence": "Welches Verb passt zu **«sich zu Fuß bewegen»**?",
+    "sentenceTranslation": "Какой глагол подходит к «передвигаться пешком»?",
+    "targetWord": "gehen",
+    "targetWordTranslation": "идти, ходить",
+    "options": ["stehen", "gehen", "bleiben", "springen"],
+    "level": "A1/A2",
+    "topic": "Bewegung"
+  },
+  {
+    "id": "scenario1_10",
+    "sentence": "Welches Verb passt zu **«etwas suchen und es bekommen»**?",
+    "sentenceTranslation": "Какой глагол подходит к «искать что-то и получить это»?",
+    "targetWord": "finden",
+    "targetWordTranslation": "находить",
+    "options": ["suchen", "finden", "verlieren", "zeigen"],
+    "level": "A1/A2",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario2_1",
+    "sentence": "Du sitzt am Tisch und hast großen Hunger. Was musst du tun?",
+    "sentenceTranslation": "Ты сидишь за столом и очень голоден. Что ты должен сделать?",
+    "targetWord": "essen",
+    "targetWordTranslation": "есть",
+    "options": ["trinken", "essen", "laufen", "schlafen"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "scenario2_2",
+    "sentence": "Deine Katze ist auf dem Schrank. Du möchtest, dass sie herunterkommt. Was sagst du?",
+    "sentenceTranslation": "Твоя кошка на шкафу. Ты хочешь, чтобы она спустилась. Что ты скажешь?",
+    "targetWord": "komm",
+    "targetWordTranslation": "приходить",
+    "options": ["bleibe!", "schlaf!", "komm!", "sing!"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "scenario2_3",
+    "sentence": "Du hast einen Stift und ein leeres Blatt Papier. Was machst du, um eine Geschichte zu erzählen?",
+    "sentenceTranslation": "У тебя есть ручка и пустой лист бумаги. Что ты сделаешь, чтобы рассказать историю?",
+    "targetWord": "schreiben",
+    "targetWordTranslation": "писать",
+    "options": ["lesen", "malen", "schreiben", "hören"],
+    "level": "A2",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario2_4",
+    "sentence": "Du bist müde nach einem langen Tag. Was brauchst du, um dich zu erholen?",
+    "sentenceTranslation": "Ты устал после долгого дня. Что тебе нужно, чтобы отдохнуть?",
+    "targetWord": "schlafen",
+    "targetWordTranslation": "спать",
+    "options": ["essen", "sehen", "spielen", "schlafen"],
+    "level": "A2",
+    "topic": "Alltag"
+  },
+  {
+    "id": "scenario2_5",
+    "sentence": "In der Schule ist es sehr laut. Der Lehrer möchte, dass alle still sind. Was soll die Klasse tun?",
+    "sentenceTranslation": "В школе очень шумно. Учитель хочет, чтобы все вели себя тихо. Что должен сделать класс?",
+    "targetWord": "schweigen",
+    "targetWordTranslation": "молчать",
+    "options": ["rufen", "sprechen", "singen", "schweigen"],
+    "level": "A2",
+    "topic": "Schule"
+  },
+  {
+    "id": "scenario3_1",
+    "sentence": "Du besuchst eine Vorlesung an der Universität. Am Ende der Stunde **...** der Professor die wichtigsten Punkte zusammen.",
+    "sentenceTranslation": "Ты присутствуешь на лекции в университете. В конце занятия профессор ... основные моменты.",
+    "targetWord": "fasst zusammen",
+    "targetWordTranslation": "подводить итог, резюмировать",
+    "options": ["betont", "berichtet", "fassten zusammen", "fasst zusammen"],
+    "level": "B1",
+    "topic": "Studium"
+  },
+  {
+    "id": "scenario3_2",
+    "sentence": "Dein Freund hat ein Problem. Du möchtest ihm helfen, indem du ihm deine ehrliche Meinung **...**.",
+    "sentenceTranslation": "У твоего друга проблема. Ты хочешь ему помочь, ... свое честное мнение.",
+    "targetWord": "mitteilst",
+    "targetWordTranslation": "сообщать, делиться",
+    "options": ["versteckst", "mitteilst", "entfernst", "leihst"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario3_3",
+    "sentence": "Auf einer Party siehst du jemanden, den du attraktiv findest. Du möchtest ihn kennenlernen, also **...** du ihn zu einem Getränk ein.",
+    "sentenceTranslation": "На вечеринке ты видишь кого-то привлекательного. Ты хочешь познакомиться, поэтому ... его выпить.",
+    "targetWord": "lädst ein",
+    "targetWordTranslation": "приглашать",
+    "options": ["sprichst an", "lädst ein", "bestellst", "empfiehlst"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario3_4",
+    "sentence": "Du hast einen Plan für das Wochenende. Was **...** du, um herauszufinden, ob dein Freund mitmachen will?",
+    "sentenceTranslation": "У тебя есть план на выходные. Что ты ... , чтобы узнать, хочет ли твой друг присоединиться?",
+    "targetWord": "fragst nach",
+    "targetWordTranslation": "уточнять, спрашивать",
+    "options": ["vorschlagen", "fragst nach", "bestätigst", "sagst ab"],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "scenario3_5",
+    "sentence": "Ein neues Gesetz wird in Kraft **...**. Das hat Konsequenzen für alle Bürger.",
+    "sentenceTranslation": "Новый закон **...** в силу. Это имеет последствия для всех граждан.",
+    "targetWord": "kommen",
+    "targetWordTranslation": "вступать в силу",
+    "options": ["kommen", "gehen", "machen", "bleiben"],
+    "level": "B1",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario4_1",
+    "sentence": "Du musst in deinem Projekt eine Entscheidung **...**, aber die Informationen sind unvollständig.",
+    "sentenceTranslation": "Ты должен ... решение по своему проекту, но информация неполная.",
+    "targetWord": "treffen",
+    "targetWordTranslation": "принимать",
+    "options": ["treffen", "machen", "geben", "bringen"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario4_2",
+    "sentence": "Der Staat versucht, die Umwelt zu schützen. Was muss er **...**?",
+    "sentenceTranslation": "Государство пытается защитить окружающую среду. Что оно должно ...?",
+    "targetWord": "fördern",
+    "targetWordTranslation": "способствовать, поощрять",
+    "options": ["befragen", "vermeiden", "fördern", "verkaufen"],
+    "level": "B1",
+    "topic": "Umwelt"
+  },
+  {
+    "id": "scenario4_3",
+    "sentence": "Um die Klimaziele zu erreichen, müssen alle Länder zusammenarbeiten. Sie müssen sich über die nächsten Schritte **...**.",
+    "sentenceTranslation": "Чтобы достичь климатических целей, все страны должны работать вместе. Они должны ... о следующих шагах.",
+    "targetWord": "einigen",
+    "targetWordTranslation": "договориться, прийти к соглашению",
+    "options": ["einigen", "diskutieren", "trennen", "verteidigen"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario4_4",
+    "sentence": "Du hast einen wichtigen Termin. Du musst dich auf die Präsentation **...**.",
+    "sentenceTranslation": "У тебя важная встреча. Ты должен ... к презентации.",
+    "targetWord": "vorbereiten",
+    "targetWordTranslation": "подготовиться",
+    "options": ["vorbereiten", "abgeben", "unterschreiben", "erklären"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario4_5",
+    "sentence": "Jemand hat eine falsche Information **...**. Du musst die Wahrheit herausfinden.",
+    "sentenceTranslation": "Кто-то ... ложную информацию. Ты должен выяснить правду.",
+    "targetWord": "verbreitet",
+    "targetWordTranslation": "распространять",
+    "options": ["verbreitet", "gesucht", "gefunden", "gedacht"],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "scenario5_1",
+    "sentence": "Ein Politiker muss vor der Wahl die Interessen der Wähler **...**.",
+    "sentenceTranslation": "Политик перед выборами должен ... интересы избирателей.",
+    "targetWord": "vertreten",
+    "targetWordTranslation": "представлять, защищать",
+    "options": ["verwalten", "vertreten", "bestreiten", "verlassen"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario5_2",
+    "sentence": "Um einen neuen Vertrag zu **...**, müssen alle Beteiligten zustimmen.",
+    "sentenceTranslation": "Чтобы ... новый договор, все участники должны согласиться.",
+    "targetWord": "abschließen",
+    "targetWordTranslation": "заключать",
+    "options": ["aufheben", "abschließen", "eröffnen", "unterbrechen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario5_3",
+    "sentence": "Die Wirtschaft **...** sich in den letzten Jahren sehr schnell.",
+    "sentenceTranslation": "Экономика ... очень быстро в последние годы.",
+    "targetWord": "entwickelt",
+    "targetWordTranslation": "развиваться",
+    "options": ["entwickelt", "verbindet", "verringert", "übernimmt"],
+    "level": "B1",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario5_4",
+    "sentence": "Bevor man ins Ausland reist, sollte man sich über die Kultur **...**.",
+    "sentenceTranslation": "Перед поездкой за границу нужно ... о культуре.",
+    "targetWord": "informieren",
+    "targetWordTranslation": "получить информацию, узнать",
+    "options": ["beschweren", "informieren", "verlieren", "erkennen"],
+    "level": "B1",
+    "topic": "Reisen"
+  },
+  {
+    "id": "scenario5_5",
+    "sentence": "Der Film hat mich tief **...**.",
+    "sentenceTranslation": "Фильм меня глубоко ... .",
+    "targetWord": "bewegt",
+    "targetWordTranslation": "волновать, трогать",
+    "options": ["bewegt", "verschoben", "gefallen", "betrogen"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "scenario6_1",
+    "sentence": "In einer Diskussion muss man seine eigene Meinung klar und deutlich **...**.",
+    "sentenceTranslation": "В дискуссии нужно свою точку зрения ясно и четко ... .",
+    "targetWord": "äußern",
+    "targetWordTranslation": "выражать, высказывать",
+    "options": ["erklären", "äußern", "bekommen", "verstehen"],
+    "level": "B2",
+    "topic": "Diskussion"
+  },
+  {
+    "id": "scenario6_2",
+    "sentence": "Um die Prüfung zu bestehen, muss man alle Vokabeln und die Grammatik **...**.",
+    "sentenceTranslation": "Чтобы сдать экзамен, нужно все слова и грамматику ... .",
+    "targetWord": "anwenden",
+    "targetWordTranslation": "применять",
+    "options": ["vergessen", "behalten", "anwenden", "vermeiden"],
+    "level": "B2",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario6_3",
+    "sentence": "Aufgrund des schlechten Wetters musste das Fußballspiel **...** werden.",
+    "sentenceTranslation": "Из-за плохой погоды футбольный матч должен был быть ... .",
+    "targetWord": "abgesagt",
+    "targetWordTranslation": "отменять",
+    "options": ["abgesagt", "beginnen", "verloren", "gefeiert"],
+    "level": "B1",
+    "topic": "Sport"
+  },
+  {
+    "id": "scenario6_4",
+    "sentence": "Um die Umwelt zu schützen, müssen wir den Verbrauch von Plastik **...**.",
+    "sentenceTranslation": "Чтобы защитить окружающую среду, мы должны ... потребление пластика.",
+    "targetWord": "reduzieren",
+    "targetWordTranslation": "сокращать, уменьшать",
+    "options": ["erhöhen", "reduzieren", "verändern", "produzieren"],
+    "level": "B2",
+    "topic": "Umwelt"
+  },
+  {
+    "id": "scenario6_5",
+    "sentence": "Wenn man eine neue Fremdsprache lernt, muss man sich an die neuen Regeln **...**.",
+    "sentenceTranslation": "Когда учишь новый иностранный язык, нужно ... новых правил.",
+    "targetWord": "halten",
+    "targetWordTranslation": "придерживаться, соблюдать",
+    "options": ["halten", "fragen", "machen", "vergessen"],
+    "level": "B1",
+    "topic": "Sprachenlernen"
+  },
+  {
+    "id": "scenario7_1",
+    "sentence": "Nach der Trennung muss man sich von der Vergangenheit **...**.",
+    "sentenceTranslation": "После расставания нужно от ... прошлого.",
+    "targetWord": "verabschieden",
+    "targetWordTranslation": "распрощаться, попрощаться",
+    "options": ["verabschieden", "freuen", "erinnern", "lieben"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "scenario7_2",
+    "sentence": "Um ein Ziel zu erreichen, muss man hart **...** und nicht aufgeben.",
+    "sentenceTranslation": "Чтобы достичь цели, нужно упорно ... и не сдаваться.",
+    "targetWord": "arbeiten",
+    "targetWordTranslation": "работать",
+    "options": ["träumen", "laufen", "arbeiten", "schlafen"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario7_3",
+    "sentence": "Wenn ein Buch sehr interessant ist, kann es einen Leser tief **...**.",
+    "sentenceTranslation": "Если книга очень интересная, она может глубоко ... читателя.",
+    "targetWord": "bewegen",
+    "targetWordTranslation": "волновать, трогать",
+    "options": ["langweilen", "bewegen", "lesen", "machen"],
+    "level": "B2",
+    "topic": "Kultur"
+  },
+  {
+    "id": "scenario7_4",
+    "sentence": "Ein Arzt muss die Symptome eines Patienten genau **...**, um die richtige Diagnose zu stellen.",
+    "sentenceTranslation": "Врач должен точно ... симптомы пациента, чтобы поставить правильный диагноз.",
+    "targetWord": "untersuchen",
+    "targetWordTranslation": "обследовать, исследовать",
+    "options": ["erfinden", "untersuchen", "versprechen", "vergessen"],
+    "level": "B2",
+    "topic": "Medizin"
+  },
+  {
+    "id": "scenario7_5",
+    "sentence": "Bei einem Interview muss man sich gut **...**, um einen positiven Eindruck zu hinterlassen.",
+    "sentenceTranslation": "На собеседовании нужно хорошо ... , чтобы оставить положительное впечатление.",
+    "targetWord": "präsentieren",
+    "targetWordTranslation": "представлять себя",
+    "options": ["verkaufen", "präsentieren", "verstecken", "ausruhen"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario8_1",
+    "sentence": "Nach einer langen Diskussion haben sich die Kollegen auf einen Kompromiss **...**.",
+    "sentenceTranslation": "После долгого обсуждения коллеги ... о компромиссе.",
+    "targetWord": "verständigt",
+    "targetWordTranslation": "договориться, прийти к соглашению",
+    "options": ["verständigt", "eingelassen", "gestritten", "gelöst"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario8_2",
+    "sentence": "Viele Menschen **...** die Meinung, dass man mehr für den Klimaschutz tun muss.",
+    "sentenceTranslation": "Многие люди ... мнение, что нужно больше делать для защиты климата.",
+    "targetWord": "vertreten",
+    "targetWordTranslation": "представлять, защищать, отстаивать",
+    "options": ["bekommen", "vertreten", "vergessen", "erklären"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario8_3",
+    "sentence": "Die Regierung hat beschlossen, die Steuern zu **...**.",
+    "sentenceTranslation": "Правительство решило ... налоги.",
+    "targetWord": "erhöhen",
+    "targetWordTranslation": "повышать",
+    "options": ["verbessern", "erhöhen", "erhalten", "verhindern"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario8_4",
+    "sentence": "Du hast einen Plan, aber du bist dir nicht sicher, ob er funktioniert. Was musst du zuerst **...**?",
+    "sentenceTranslation": "У тебя есть план, но ты не уверен, сработает ли он. Что ты должен сначала ...?",
+    "targetWord": "überprüfen",
+    "targetWordTranslation": "проверять",
+    "options": ["überprüfen", "entwickeln", "verändern", "vergessen"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "scenario8_5",
+    "sentence": "Ein Computerprogramm muss viele Daten **...**, um eine Analyse zu machen.",
+    "sentenceTranslation": "Компьютерная программа должна много данных ..., чтобы сделать анализ.",
+    "targetWord": "verarbeiten",
+    "targetWordTranslation": "обрабатывать",
+    "options": ["vermeiden", "verarbeiten", "verteilen", "veröffentlichen"],
+    "level": "B2",
+    "topic": "Technologie"
+  },
+  {
+    "id": "scenario9_1",
+    "sentence": "Nach einem Unfall hat die Polizei die genaue Ursache **...**.",
+    "sentenceTranslation": "После аварии полиция ... точную причину.",
+    "targetWord": "ermittelt",
+    "targetWordTranslation": "расследовать, выяснять",
+    "options": ["gegründet", "ermittelt", "verkauft", "versteckt"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario9_2",
+    "sentence": "Eine neue Studie **...** die Vorteile von gesunder Ernährung.",
+    "sentenceTranslation": "Новое исследование ... преимущества здорового питания.",
+    "targetWord": "beweist",
+    "targetWordTranslation": "доказывать",
+    "options": ["begründet", "beweist", "vergisst", "veröffentlicht"],
+    "level": "B2",
+    "topic": "Wissenschaft"
+  },
+  {
+    "id": "scenario9_3",
+    "sentence": "Um einen positiven Eindruck zu **...**, muss man freundlich und offen sein.",
+    "sentenceTranslation": "Чтобы ... положительное впечатление, нужно быть дружелюбным и открытым.",
+    "targetWord": "hinterlassen",
+    "targetWordTranslation": "оставлять",
+    "options": ["hinterlassen", "vermeiden", "bekommen", "ändern"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario9_4",
+    "sentence": "Der Dieb wurde von der Polizei **...**.",
+    "sentenceTranslation": "Вор был ... полицией.",
+    "targetWord": "festgenommen",
+    "targetWordTranslation": "арестовывать, задерживать",
+    "options": ["entlassen", "festgenommen", "übergeben", "gebeten"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario9_5",
+    "sentence": "Wenn man etwas nicht versteht, sollte man beim Lehrer **...**.",
+    "sentenceTranslation": "Если ты что-то не понимаешь, тебе следует ... у учителя.",
+    "targetWord": "nachfragen",
+    "targetWordTranslation": "уточнять, переспрашивать",
+    "options": ["nachschlagen", "nachfragen", "nachahmen", "nachdenken"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario10_1",
+    "sentence": "Ein Journalist muss die Fakten **...**, bevor er einen Artikel schreibt.",
+    "sentenceTranslation": "Журналист должен ... факты, прежде чем писать статью.",
+    "targetWord": "erforschen",
+    "targetWordTranslation": "исследовать",
+    "options": ["verfälschen", "erforschen", "verbergen", "erfinden"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario10_2",
+    "sentence": "Um die Effizienz zu **...**, hat die Firma neue Technologien eingeführt.",
+    "sentenceTranslation": "Чтобы ... эффективность, фирма внедрила новые технологии.",
+    "targetWord": "erhöhen",
+    "targetWordTranslation": "повышать, увеличивать",
+    "options": ["erhöhen", "verringern", "verbessern", "vermeiden"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario10_3",
+    "sentence": "Ein Künstler kann seine Gefühle in einem Gemälde **...**.",
+    "sentenceTranslation": "Художник может свои чувства в картине ... .",
+    "targetWord": "ausdrücken",
+    "targetWordTranslation": "выражать",
+    "options": ["verändern", "entdecken", "ausdrücken", "zerstören"],
+    "level": "B1",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario10_4",
+    "sentence": "Um ein Ziel zu **...**, muss man hart arbeiten und sich an den Plan halten.",
+    "sentenceTranslation": "Чтобы ... цели, нужно упорно работать и придерживаться плана.",
+    "targetWord": "erreichen",
+    "targetWordTranslation": "достигать",
+    "options": ["verlassen", "erreichen", "überzeugen", "verstehen"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "scenario10_5",
+    "sentence": "Eine Krise kann eine Gesellschaft spalten oder sie **...**.",
+    "sentenceTranslation": "Кризис может разделить общество или ... .",
+    "targetWord": "verstärken",
+    "targetWordTranslation": "усиливать, укреплять",
+    "options": ["verstärken", "überwinden", "verbieten", "versagen"],
+    "level": "B2",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario11_1",
+    "sentence": "Um neue Kunden zu **...**, muss man eine gute Marketingstrategie haben.",
+    "sentenceTranslation": "Чтобы ... новых клиентов, нужно иметь хорошую маркетинговую стратегию.",
+    "targetWord": "gewinnen",
+    "targetWordTranslation": "получать, приобретать, завоёвывать",
+    "options": ["verlieren", "gewinnen", "bekommen", "bestrafen"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario11_2",
+    "sentence": "Die Eltern müssen ihre Kinder **...**, um ihnen die richtigen Werte beizubringen.",
+    "sentenceTranslation": "Родители должны своих детей ... , чтобы привить им правильные ценности.",
+    "targetWord": "erziehen",
+    "targetWordTranslation": "воспитывать",
+    "options": ["ignorieren", "enttäuschen", "erziehen", "behandeln"],
+    "level": "B2",
+    "topic": "Familie"
+  },
+  {
+    "id": "scenario11_3",
+    "sentence": "Um die Klimakrise zu **...**, braucht es globale Zusammenarbeit.",
+    "sentenceTranslation": "Чтобы ... климатический кризис, необходимо глобальное сотрудничество.",
+    "targetWord": "verhindern",
+    "targetWordTranslation": "предотвращать, препятствовать",
+    "options": ["verhindern", "verschlimmern", "erzeugen", "akzeptieren"],
+    "level": "B2",
+    "topic": "Umwelt"
+  },
+  {
+    "id": "scenario11_4",
+    "sentence": "Die neue Software **...** die Arbeit in der Firma deutlich.",
+    "sentenceTranslation": "Новое программное обеспечение ... работу в фирме значительно.",
+    "targetWord": "beschleunigt",
+    "targetWordTranslation": "ускорять",
+    "options": ["beschleunigt", "verlangsamt", "kopiert", "zerstört"],
+    "level": "B2",
+    "topic": "Technologie"
+  },
+  {
+    "id": "scenario11_5",
+    "sentence": "Ein guter Freund muss dich in schwierigen Zeiten **...**.",
+    "sentenceTranslation": "Хороший друг должен тебя в трудные времена ... .",
+    "targetWord": "unterstützen",
+    "targetWordTranslation": "поддерживать",
+    "options": ["kritisiert", "verlässt", "unterstützen", "bekämpfen"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario12_1",
+    "sentence": "Um einen Text zu übersetzen, muss man die Bedeutung genau **...**.",
+    "sentenceTranslation": "Чтобы перевести текст, нужно точно ... значение.",
+    "targetWord": "verstehen",
+    "targetWordTranslation": "понимать",
+    "options": ["erfinden", "verstehen", "vergessen", "erklären"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario12_2",
+    "sentence": "Die Regierung muss Maßnahmen **...**, um die Krise zu bewältigen.",
+    "sentenceTranslation": "Правительство должно ... меры, чтобы справиться с кризисом.",
+    "targetWord": "nehmen",
+    "targetWordTranslation": "принимать",
+    "options": ["nehmen", "vergessen", "verlassen", "versuchen"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario12_3",
+    "sentence": "Ein Arzt muss die Symptome eines Patienten genau **...**, um die richtige Diagnose zu stellen.",
+    "sentenceTranslation": "Врач должен точно ... симптомы пациента, чтобы поставить правильный диагноз.",
+    "targetWord": "untersuchen",
+    "targetWordTranslation": "обследовать, исследовать",
+    "options": ["untersuchen", "erfinden", "versprechen", "vergessen"],
+    "level": "B2",
+    "topic": "Medizin"
+  },
+  {
+    "id": "scenario12_4",
+    "sentence": "Um einen positiven Eindruck zu **...**, muss man freundlich und offen sein.",
+    "sentenceTranslation": "Чтобы ... положительное впечатление, нужно быть дружелюбным и открытым.",
+    "targetWord": "hinterlassen",
+    "targetWordTranslation": "оставлять",
+    "options": ["hinterlassen", "vermeiden", "bekommen", "ändern"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario12_5",
+    "sentence": "Ein neues Gesetz wird in Kraft **...**.",
+    "sentenceTranslation": "Новый закон ... в силу.",
+    "targetWord": "kommen",
+    "targetWordTranslation": "вступать в силу",
+    "options": ["kommen", "gehen", "machen", "bleiben"],
+    "level": "B1",
+    "topic": "Recht"
+  },
+  
+  {
+    "id": "scenario11_1",
+    "sentence": "Um neue Kunden zu **...**, muss man eine gute Marketingstrategie haben.",
+    "sentenceTranslation": "Чтобы ... новых клиентов, нужно иметь хорошую маркетинговую стратегию.",
+    "targetWord": "gewinnen",
+    "targetWordTranslation": "получать, приобретать, завоёвывать",
+    "options": ["verlieren", "gewinnen", "bekommen", "bestrafen"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario11_2",
+    "sentence": "Die Eltern müssen ihre Kinder **...**, um ihnen die richtigen Werte beizubringen.",
+    "sentenceTranslation": "Родители должны своих детей ... , чтобы привить им правильные ценности.",
+    "targetWord": "erziehen",
+    "targetWordTranslation": "воспитывать",
+    "options": ["ignorieren", "enttäuschen", "erziehen", "behandeln"],
+    "level": "B2",
+    "topic": "Familie"
+  },
+  {
+    "id": "scenario11_3",
+    "sentence": "Um die Klimakrise zu **...**, braucht es globale Zusammenarbeit.",
+    "sentenceTranslation": "Чтобы ... климатический кризис, необходимо глобальное сотрудничество.",
+    "targetWord": "verhindern",
+    "targetWordTranslation": "предотвращать, препятствовать",
+    "options": ["verhindern", "verschlimmern", "erzeugen", "akzeptieren"],
+    "level": "B2",
+    "topic": "Umwelt"
+  },
+  {
+    "id": "scenario11_4",
+    "sentence": "Die neue Software **...** die Arbeit in der Firma deutlich.",
+    "sentenceTranslation": "Новое программное обеспечение ... работу в фирме значительно.",
+    "targetWord": "beschleunigt",
+    "targetWordTranslation": "ускорять",
+    "options": ["beschleunigt", "verlangsamt", "kopiert", "zerstört"],
+    "level": "B2",
+    "topic": "Technologie"
+  },
+  {
+    "id": "scenario11_5",
+    "sentence": "Ein guter Freund muss dich in schwierigen Zeiten **...**.",
+    "sentenceTranslation": "Хороший друг должен тебя в трудные времена ... .",
+    "targetWord": "unterstützen",
+    "targetWordTranslation": "поддерживать",
+    "options": ["kritisiert", "verlässt", "unterstützen", "bekämpfen"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario12_1",
+    "sentence": "Um einen Text zu übersetzen, muss man die Bedeutung genau **...**.",
+    "sentenceTranslation": "Чтобы перевести текст, нужно точно ... значение.",
+    "targetWord": "verstehen",
+    "targetWordTranslation": "понимать",
+    "options": ["erfinden", "verstehen", "vergessen", "erklären"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario12_2",
+    "sentence": "Die Regierung muss Maßnahmen **...**, um die Krise zu bewältigen.",
+    "sentenceTranslation": "Правительство должно ... меры, чтобы справиться с кризисом.",
+    "targetWord": "nehmen",
+    "targetWordTranslation": "принимать",
+    "options": ["nehmen", "vergessen", "verlassen", "versuchen"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario12_3",
+    "sentence": "Ein Arzt muss die Symptome eines Patienten genau **...**, um die richtige Diagnose zu stellen.",
+    "sentenceTranslation": "Врач должен точно ... симптомы пациента, чтобы поставить правильный диагноз.",
+    "targetWord": "untersuchen",
+    "targetWordTranslation": "обследовать, исследовать",
+    "options": ["untersuchen", "erfinden", "versprechen", "vergessen"],
+    "level": "B2",
+    "topic": "Medizin"
+  },
+  {
+    "id": "scenario12_4",
+    "sentence": "Um einen positiven Eindruck zu **...**, muss man freundlich und offen sein.",
+    "sentenceTranslation": "Чтобы ... положительное впечатление, нужно быть дружелюбным и открытым.",
+    "targetWord": "hinterlassen",
+    "targetWordTranslation": "оставлять",
+    "options": ["hinterlassen", "vermeiden", "bekommen", "ändern"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario12_5",
+    "sentence": "Ein neues Gesetz wird in Kraft **...**.",
+    "sentenceTranslation": "Новый закон ... в силу.",
+    "targetWord": "kommen",
+    "targetWordTranslation": "вступать в силу",
+    "options": ["kommen", "gehen", "machen", "bleiben"],
+    "level": "B1",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario13_1",
+    "sentence": "Ein Historiker muss alte Quellen **...**, um die Vergangenheit zu rekonstruieren.",
+    "sentenceTranslation": "Историк должен ... старые источники, чтобы реконструировать прошлое.",
+    "targetWord": "auswerten",
+    "targetWordTranslation": "анализировать, оценивать",
+    "options": ["auswerten", "verwerfen", "erfinden", "veröffentlichen"],
+    "level": "B2",
+    "topic": "Wissenschaft"
+  },
+  {
+    "id": "scenario13_2",
+    "sentence": "Viele Menschen **...** das Rauchen, weil es ihrer Gesundheit schadet.",
+    "sentenceTranslation": "Многие люди ... курение, потому что оно вредит их здоровью.",
+    "targetWord": "vermeiden",
+    "targetWordTranslation": "избегать",
+    "options": ["lieben", "fördern", "empfehlen", "vermeiden"],
+    "level": "B1",
+    "topic": "Gesundheit"
+  },
+  {
+    "id": "scenario13_3",
+    "sentence": "Wenn man eine neue Fremdsprache lernt, muss man regelmäßig **...**.",
+    "sentenceTranslation": "Когда учишь новый иностранный язык, нужно регулярно ... .",
+    "targetWord": "üben",
+    "targetWordTranslation": "упражняться, практиковаться",
+    "options": ["vergessen", "schlafen", "üben", "tanzen"],
+    "level": "A2",
+    "topic": "Sprachenlernen"
+  },
+  {
+    "id": "scenario13_4",
+    "sentence": "Nach einer langen Wanderung müssen wir uns **...**.",
+    "sentenceTranslation": "После долгого похода мы должны ... .",
+    "targetWord": "ausruhen",
+    "targetWordTranslation": "отдыхать",
+    "options": ["anstrengen", "arbeiten", "ausruhen", "fahren"],
+    "level": "B1",
+    "topic": "Freizeit"
+  },
+  {
+    "id": "scenario13_5",
+    "sentence": "Um ein Problem zu **...**, muss man kreativ denken.",
+    "sentenceTranslation": "Чтобы ... проблему, нужно мыслить творчески.",
+    "targetWord": "lösen",
+    "targetWordTranslation": "решать",
+    "options": ["schaffen", "lösen", "vermehren", "bekämpfen"],
+    "level": "B1",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario14_1",
+    "sentence": "Die Firma muss die Produktion **...**, um die Nachfrage zu decken.",
+    "sentenceTranslation": "Фирма должна ... производство, чтобы удовлетворить спрос.",
+    "targetWord": "steigern",
+    "targetWordTranslation": "увеличивать, повышать",
+    "options": ["senken", "stoppen", "steigern", "reduzieren"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario14_2",
+    "sentence": "Der Lehrer hat den Schülern die Grammatik **...**.",
+    "sentenceTranslation": "Учитель ... грамматику ученикам.",
+    "targetWord": "erklärt",
+    "targetWordTranslation": "объяснять",
+    "options": ["erfunden", "gelehrt", "erklärt", "vergessen"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario14_3",
+    "sentence": "Man muss die Gesetze **...**, um in einem Land zu leben.",
+    "sentenceTranslation": "Нужно ... законы, чтобы жить в стране.",
+    "targetWord": "befolgen",
+    "targetWordTranslation": "следовать, соблюдать",
+    "options": ["brechen", "erfinden", "befolgen", "ignorieren"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario14_4",
+    "sentence": "Ein guter Freund muss dich **...** und nicht im Stich lassen.",
+    "sentenceTranslation": "Хороший друг должен тебя ... и не бросать в беде.",
+    "targetWord": "unterstützen",
+    "targetWordTranslation": "поддерживать",
+    "options": ["bekämpfen", "unterstützen", "verlassen", "vergessen"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario14_5",
+    "sentence": "Man muss die Vergangenheit **...** und aus den Fehlern lernen.",
+    "sentenceTranslation": "Нужно ... прошлое и учиться на ошибках.",
+    "targetWord": "aufarbeiten",
+    "targetWordTranslation": "прорабатывать, преодолевать",
+    "options": ["aufarbeiten", "verdrängen", "vergessen", "wiederholen"],
+    "level": "B2",
+    "topic": "Geschichte"
+  },
+  {
+    "id": "scenario15_1",
+    "sentence": "Die Regierung muss Maßnahmen **...**, um die Wirtschaft anzukurbeln.",
+    "sentenceTranslation": "Правительство должно ... меры, чтобы стимулировать экономику.",
+    "targetWord": "ergreifen",
+    "targetWordTranslation": "предпринимать, принимать",
+    "options": ["verlieren", "entwerfen", "ergreifen", "zerstören"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario15_2",
+    "sentence": "Um einen Text zu übersetzen, muss man die Bedeutung genau **...**.",
+    "sentenceTranslation": "Чтобы перевести текст, нужно точно ... значение.",
+    "targetWord": "verstehen",
+    "targetWordTranslation": "понимать",
+    "options": ["erfinden", "verstehen", "vergessen", "erklären"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario15_3",
+    "sentence": "Eine Firma muss sich an die Gesetze **...**.",
+    "sentenceTranslation": "Фирма должна ... законов.",
+    "targetWord": "halten",
+    "targetWordTranslation": "придерживаться, соблюдать",
+    "options": ["verändern", "halten", "brechen", "ignorieren"],
+    "level": "B1",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario15_4",
+    "sentence": "Wenn man ein Problem hat, sollte man darüber mit einem Freund **...**.",
+    "sentenceTranslation": "Если у тебя есть проблема, нужно ... о ней с другом.",
+    "targetWord": "sprechen",
+    "targetWordTranslation": "говорить, разговаривать",
+    "options": ["schweigen", "laufen", "sprechen", "schauen"],
+    "level": "A2",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario15_5",
+    "sentence": "Um ein Ziel zu **...**, muss man hart arbeiten.",
+    "sentenceTranslation": "Чтобы ... цели, нужно упорно работать.",
+    "targetWord": "erreichen",
+    "targetWordTranslation": "достигать",
+    "options": ["verlassen", "erreichen", "überzeugen", "verstehen"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario16_1",
+    "sentence": "Ein guter Redner muss sein Publikum **...**.",
+    "sentenceTranslation": "Хороший оратор должен ... свою аудиторию.",
+    "targetWord": "überzeugen",
+    "targetWordTranslation": "убеждать",
+    "options": ["langweilen", "überzeugen", "verärgern", "verwöhnen"],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "scenario16_2",
+    "sentence": "Der Künstler konnte seine Gefühle in einem Gemälde **...**.",
+    "sentenceTranslation": "Художник смог ... свои чувства в картине.",
+    "targetWord": "ausdrücken",
+    "targetWordTranslation": "выражать",
+    "options": ["verbergen", "entdecken", "ausdrücken", "kopieren"],
+    "level": "B1",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario16_3",
+    "sentence": "In einer Demokratie **...** das Volk seinen Willen durch Wahlen.",
+    "sentenceTranslation": "В демократии народ ... свою волю через выборы.",
+    "targetWord": "bekundet",
+    "targetWordTranslation": "объявлять, выражать",
+    "options": ["versteckt", "ignoriert", "bekundet", "unterdrückt"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario16_4",
+    "sentence": "Der Lehrer muss die Schüler zu selbstständigem Denken **...**.",
+    "sentenceTranslation": "Учитель должен ... учеников к самостоятельному мышлению.",
+    "targetWord": "anregen",
+    "targetWordTranslation": "стимулировать, побуждать",
+    "options": ["verhindern", "zwingen", "anregen", "ausbilden"],
+    "level": "B2",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario16_5",
+    "sentence": "Ein gutes Argument muss seine These **...**.",
+    "sentenceTranslation": "Хороший аргумент должен ... свой тезис.",
+    "targetWord": "untermauern",
+    "targetWordTranslation": "подкреплять, обосновывать",
+    "options": ["zerstören", "vermeiden", "untermauern", "verlassen"],
+    "level": "B2",
+    "topic": "Diskussion"
+  },
+  {
+    "id": "scenario17_1",
+    "sentence": "Die Firma musste einen neuen Mitarbeiter **...**, weil sie expandiert.",
+    "sentenceTranslation": "Фирма должна была ... нового сотрудника, потому что она расширяется.",
+    "targetWord": "einstellen",
+    "targetWordTranslation": "нанимать, принимать на работу",
+    "options": ["entlassen", "einstellen", "kündigen", "verlieren"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario17_2",
+    "sentence": "Ein gutes Team muss seine Aufgaben gleichmäßig **...**.",
+    "sentenceTranslation": "Хорошая команда должна равномерно ... свои задачи.",
+    "targetWord": "verteilen",
+    "targetWordTranslation": "распределять",
+    "options": ["verstecken", "verteilen", "sammeln", "zerstören"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario17_3",
+    "sentence": "Der Staat muss die Wirtschaft **...**.",
+    "sentenceTranslation": "Государство должно ... экономику.",
+    "targetWord": "stabilisieren",
+    "targetWordTranslation": "стабилизировать",
+    "options": ["zerstören", "stabilisieren", "verändern", "verringern"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario17_4",
+    "sentence": "Ein guter Freund muss dich in schwierigen Zeiten **...**.",
+    "sentenceTranslation": "Хороший друг должен тебя в трудные времена ... .",
+    "targetWord": "unterstützen",
+    "targetWordTranslation": "поддерживать",
+    "options": ["kritisiert", "verlässt", "unterstützen", "bekämpfen"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario17_5",
+    "sentence": "Man muss die Fakten **...**, bevor man eine Entscheidung trifft.",
+    "sentenceTranslation": "Нужно ... факты, прежде чем принимать решение.",
+    "targetWord": "überprüfen",
+    "targetWordTranslation": "проверять",
+    "options": ["erfinden", "ignorieren", "überprüfen", "verlieren"],
+    "level": "B1",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario18_1",
+    "sentence": "Die Regierung hat beschlossen, die Steuern zu **...**.",
+    "sentenceTranslation": "Правительство решило ... налоги.",
+    "targetWord": "erhöhen",
+    "targetWordTranslation": "повышать",
+    "options": ["verbessern", "erhöhen", "erhalten", "verhindern"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario18_2",
+    "sentence": "Eine neue Studie **...** die Vorteile von gesunder Ernährung.",
+    "sentenceTranslation": "Новое исследование ... преимущества здорового питания.",
+    "targetWord": "beweist",
+    "targetWordTranslation": "доказывать",
+    "options": ["begründet", "beweist", "vergisst", "veröffentlicht"],
+    "level": "B2",
+    "topic": "Wissenschaft"
+  },
+  {
+    "id": "scenario18_3",
+    "sentence": "Der Dieb wurde von der Polizei **...**.",
+    "sentenceTranslation": "Вор был ... полицией.",
+    "targetWord": "festgenommen",
+    "targetWordTranslation": "арестовывать, задерживать",
+    "options": ["entlassen", "festgenommen", "übergeben", "gebeten"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario18_4",
+    "sentence": "Wenn man etwas nicht versteht, sollte man beim Lehrer **...**.",
+    "sentenceTranslation": "Если ты что-то не понимаешь, тебе следует ... у учителя.",
+    "targetWord": "nachfragen",
+    "targetWordTranslation": "уточнять, переспрашивать",
+    "options": ["nachschlagen", "nachfragen", "nachahmen", "nachdenken"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario18_5",
+    "sentence": "Der Film hat mich tief **...**.",
+    "sentenceTranslation": "Фильм меня глубоко ... .",
+    "targetWord": "bewegt",
+    "targetWordTranslation": "волновать, трогать",
+    "options": ["bewegt", "verschoben", "gefallen", "betrogen"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "scenario19_1",
+    "sentence": "Ein Journalist muss die Fakten **...**, bevor er einen Artikel schreibt.",
+    "sentenceTranslation": "Журналист должен ... факты, прежде чем писать статью.",
+    "targetWord": "erforschen",
+    "targetWordTranslation": "исследовать",
+    "options": ["verfälschen", "erforschen", "verbergen", "erfinden"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario19_2",
+    "sentence": "Die Regierung hat beschlossen, die Steuern zu **...**.",
+    "sentenceTranslation": "Правительство решило ... налоги.",
+    "targetWord": "erhöhen",
+    "targetWordTranslation": "повышать",
+    "options": ["erhöhen", "verringern", "verbessern", "vermeiden"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario19_3",
+    "sentence": "Ein Künstler kann seine Gefühle in einem Gemälde **...**.",
+    "sentenceTranslation": "Художник может свои чувства в картине ... .",
+    "targetWord": "ausdrücken",
+    "targetWordTranslation": "выражать",
+    "options": ["verändern", "entdecken", "ausdrücken", "zerstören"],
+    "level": "B1",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario19_4",
+    "sentence": "Um ein Ziel zu **...**, muss man hart arbeiten und sich an den Plan halten.",
+    "sentenceTranslation": "Чтобы ... цели, нужно упорно работать и придерживаться плана.",
+    "targetWord": "erreichen",
+    "targetWordTranslation": "достигать",
+    "options": ["verlassen", "erreichen", "überzeugen", "verstehen"],
+    "level": "B1",
+    "topic": "Alltag"
+  },
+  {
+    "id": "scenario19_5",
+    "sentence": "Eine Krise kann eine Gesellschaft spalten oder sie **...**.",
+    "sentenceTranslation": "Кризис может разделить общество или ... .",
+    "targetWord": "verstärken",
+    "targetWordTranslation": "усиливать, укреплять",
+    "options": ["verstärken", "überwinden", "verbieten", "versagen"],
+    "level": "B2",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario20_1",
+    "sentence": "Der Staat muss die Bürger vor Kriminalität **...**.",
+    "sentenceTranslation": "Государство должно ... граждан от преступности.",
+    "targetWord": "schützen",
+    "targetWordTranslation": "защищать",
+    "options": ["vermeiden", "schützen", "fördern", "verkaufen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario20_2",
+    "sentence": "Ein guter Freund muss dich in schwierigen Zeiten **...**.",
+    "sentenceTranslation": "Хороший друг должен тебя в трудные времена ... .",
+    "targetWord": "unterstützen",
+    "targetWordTranslation": "поддерживать",
+    "options": ["kritisiert", "verlässt", "unterstützen", "bekämpfen"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario20_3",
+    "sentence": "Um die Effizienz zu **...**, hat die Firma neue Technologien eingeführt.",
+    "sentenceTranslation": "Чтобы ... эффективность, фирма внедрила новые технологии.",
+    "targetWord": "erhöhen",
+    "targetWordTranslation": "повышать, увеличивать",
+    "options": ["erhöhen", "verringern", "verbessern", "vermeiden"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario20_4",
+    "sentence": "Die Eltern müssen ihre Kinder **...**, um ihnen die richtigen Werte beizubringen.",
+    "sentenceTranslation": "Родители должны своих детей ... , чтобы привить им правильные ценности.",
+    "targetWord": "erziehen",
+    "targetWordTranslation": "воспитывать",
+    "options": ["ignorieren", "enttäuschen", "erziehen", "behandeln"],
+    "level": "B2",
+    "topic": "Familie"
+  },
+  {
+    "id": "scenario20_5",
+    "sentence": "Um die Klimakrise zu **...**, braucht es globale Zusammenarbeit.",
+    "sentenceTranslation": "Чтобы ... климатический кризис, необходимо глобальное сотрудничество.",
+    "targetWord": "verhindern",
+    "targetWordTranslation": "предотвращать, препятствовать",
+    "options": ["verhindern", "verschlimmern", "erzeugen", "akzeptieren"],
+    "level": "B2",
+    "topic": "Umwelt"
+  },
+
+  {
+    "id": "scenario21_1",
+    "sentence": "Die Firma muss ihre Geschäftsprozesse **...**, um effizienter zu werden.",
+    "sentenceTranslation": "Фирма должна ... свои бизнес-процессы, чтобы стать эффективнее.",
+    "targetWord": "optimieren",
+    "targetWordTranslation": "оптимизировать",
+    "options": ["erhöhen", "verlangsamen", "optimieren", "löschen"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario21_2",
+    "sentence": "Um ein neues Land zu bereisen, muss man die Kultur **...**.",
+    "sentenceTranslation": "Чтобы путешествовать по новой стране, нужно ... культуру.",
+    "targetWord": "kennenlernen",
+    "targetWordTranslation": "узнавать, знакомиться",
+    "options": ["vermeiden", "vergessen", "kennenlernen", "erfinden"],
+    "level": "A2",
+    "topic": "Reisen"
+  },
+  {
+    "id": "scenario21_3",
+    "sentence": "Die Wissenschaftler **...** neue Wege, um Energie zu gewinnen.",
+    "sentenceTranslation": "Учёные ... новые пути для получения энергии.",
+    "targetWord": "erforschen",
+    "targetWordTranslation": "исследовать",
+    "options": ["erforschen", "verhindern", "wiederholen", "kopieren"],
+    "level": "B2",
+    "topic": "Wissenschaft"
+  },
+  {
+    "id": "scenario21_4",
+    "sentence": "Ein guter Freund sollte dich nicht **...**.",
+    "sentenceTranslation": "Хороший друг не должен тебя ... .",
+    "targetWord": "enttäuschen",
+    "targetWordTranslation": "разочаровывать",
+    "options": ["unterstützen", "enttäuschen", "motivieren", "begleiten"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario21_5",
+    "sentence": "Der Künstler konnte seine Gefühle im Gemälde **...**.",
+    "sentenceTranslation": "Художник смог ... свои чувства в картине.",
+    "targetWord": "ausdrücken",
+    "targetWordTranslation": "выражать",
+    "options": ["verbergen", "ausdrücken", "fälschen", "verlieren"],
+    "level": "B1",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario22_1",
+    "sentence": "Man muss die Vergangenheit **...** und aus den Fehlern lernen.",
+    "sentenceTranslation": "Нужно ... прошлое и учиться на ошибках.",
+    "targetWord": "aufarbeiten",
+    "targetWordTranslation": "прорабатывать, преодолевать",
+    "options": ["vergessen", "verdrängen", "aufarbeiten", "vermeiden"],
+    "level": "B2",
+    "topic": "Geschichte"
+  },
+  {
+    "id": "scenario22_2",
+    "sentence": "Um ein Buch zu schreiben, muss man die Ideen **...**.",
+    "sentenceTranslation": "Чтобы написать книгу, нужно ... идеи.",
+    "targetWord": "entwickeln",
+    "targetWordTranslation": "развивать, разрабатывать",
+    "options": ["verändern", "zerstören", "entwickeln", "veröffentlichen"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario22_3",
+    "sentence": "Der Lehrer hat den Schülern die Hausaufgaben **...**.",
+    "sentenceTranslation": "Учитель ... ученикам домашние задания.",
+    "targetWord": "aufgegeben",
+    "targetWordTranslation": "давать, задавать",
+    "options": ["gezeigt", "aufgegeben", "gelernt", "vergessen"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario22_4",
+    "sentence": "Ein guter Chef muss seine Mitarbeiter **...** und ihnen vertrauen.",
+    "sentenceTranslation": "Хороший начальник должен ... своих сотрудников и доверять им.",
+    "targetWord": "führen",
+    "targetWordTranslation": "руководить",
+    "options": ["kontrollieren", "bestrafen", "entlassen", "führen"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario22_5",
+    "sentence": "Die Stadtverwaltung hat beschlossen, die Müllgebühren zu **...**.",
+    "sentenceTranslation": "Городская администрация решила ... плату за вывоз мусора.",
+    "targetWord": "senken",
+    "targetWordTranslation": "снижать",
+    "options": ["erhöhen", "senken", "verstärken", "stabilisieren"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario23_1",
+    "sentence": "Um eine neue Sprache zu lernen, muss man sich neue Wörter **...**.",
+    "sentenceTranslation": "Чтобы выучить новый язык, нужно ... новые слова.",
+    "targetWord": "merken",
+    "targetWordTranslation": "запоминать",
+    "options": ["merken", "vergessen", "kopieren", "erfinden"],
+    "level": "A2",
+    "topic": "Sprachenlernen"
+  },
+  {
+    "id": "scenario23_2",
+    "sentence": "Die Polizei konnte den Täter **...**.",
+    "sentenceTranslation": "Полиция смогла ... преступника.",
+    "targetWord": "überführen",
+    "targetWordTranslation": "уличать, изобличать",
+    "options": ["festnehmen", "verhaften", "überführen", "verfolgen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario23_3",
+    "sentence": "Die neue Software **...** die Arbeit in der Firma.",
+    "sentenceTranslation": "Новое программное обеспечение ... работу в фирме.",
+    "targetWord": "erleichtert",
+    "targetWordTranslation": "облегчать",
+    "options": ["verlangsamt", "zerstört", "erleichtert", "kopiert"],
+    "level": "B2",
+    "topic": "Technologie"
+  },
+  {
+    "id": "scenario23_4",
+    "sentence": "Man muss die Fakten **...**, bevor man eine Entscheidung trifft.",
+    "sentenceTranslation": "Нужно ... факты, прежде чем принимать решение.",
+    "targetWord": "überprüfen",
+    "targetWordTranslation": "проверять",
+    "options": ["erfinden", "ignorieren", "überprüfen", "verlieren"],
+    "level": "B1",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario23_5",
+    "sentence": "Um einen Text zu übersetzen, muss man die Bedeutung genau **...**.",
+    "sentenceTranslation": "Чтобы перевести текст, нужно точно ... значение.",
+    "targetWord": "erfassen",
+    "targetWordTranslation": "понимать, улавливать",
+    "options": ["verstehen", "erklären", "erfassen", "vergessen"],
+    "level": "B2",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario24_1",
+    "sentence": "Ein guter Verkäufer muss die Kunden von seinem Produkt **...**.",
+    "sentenceTranslation": "Хороший продавец должен ... клиентов в своём продукте.",
+    "targetWord": "überzeugen",
+    "targetWordTranslation": "убеждать",
+    "options": ["verärgern", "überzeugen", "langweilen", "zwingen"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario24_2",
+    "sentence": "Die Stadt hat beschlossen, ein neues Stadion zu **...**.",
+    "sentenceTranslation": "Город решил ... новый стадион.",
+    "targetWord": "erbauen",
+    "targetWordTranslation": "возводить, строить",
+    "options": ["abreißen", "erbauen", "verkaufen", "vermieten"],
+    "level": "B2",
+    "topic": "Städtebau"
+  },
+  {
+    "id": "scenario24_3",
+    "sentence": "Nach dem Regen **...** sich ein Regenbogen am Himmel.",
+    "sentenceTranslation": "После дождя на небе ... радуга.",
+    "targetWord": "bildet",
+    "targetWordTranslation": "образовываться, формироваться",
+    "options": ["schwebt", "versteckt", "bildet", "fliegt"],
+    "level": "B1",
+    "topic": "Natur"
+  },
+  {
+    "id": "scenario24_4",
+    "sentence": "Um ein Problem zu **...**, muss man alle Aspekte berücksichtigen.",
+    "sentenceTranslation": "Чтобы ... проблему, нужно учесть все аспекты.",
+    "targetWord": "beheben",
+    "targetWordTranslation": "устранять, исправлять",
+    "options": ["verursachen", "vergrößern", "erfinden", "beheben"],
+    "level": "B2",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario24_5",
+    "sentence": "Die Regierung muss Maßnahmen **...**, um die Krise zu bewältigen.",
+    "sentenceTranslation": "Правительство должно ... меры, чтобы справиться с кризисом.",
+    "targetWord": "ergreifen",
+    "targetWordTranslation": "предпринимать, принимать",
+    "options": ["verlieren", "entwerfen", "zerstören", "ergreifen"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario25_1",
+    "sentence": "Der Lehrer hat den Stoff des letzten Themas noch einmal **...**.",
+    "sentenceTranslation": "Учитель ещё раз ... материал последней темы.",
+    "targetWord": "wiederholt",
+    "targetWordTranslation": "повторять",
+    "options": ["vergessen", "wiederholt", "erfunden", "gelehrt"],
+    "level": "B1",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario25_2",
+    "sentence": "Man muss die Gesetze **...**, um in einem Land zu leben.",
+    "sentenceTranslation": "Нужно ... законы, чтобы жить в стране.",
+    "targetWord": "einhalten",
+    "targetWordTranslation": "соблюдать",
+    "options": ["brechen", "ignorieren", "einhalten", "ändern"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario25_3",
+    "sentence": "Ein guter Freund muss dich in schwierigen Zeiten **...**.",
+    "sentenceTranslation": "Хороший друг должен тебя в трудные времена ... .",
+    "targetWord": "begleiten",
+    "targetWordTranslation": "сопровождать",
+    "options": ["verlassen", "bekämpfen", "ignorieren", "begleiten"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario25_4",
+    "sentence": "Um ein Ziel zu **...**, muss man hart arbeiten.",
+    "sentenceTranslation": "Чтобы ... цели, нужно упорно работать.",
+    "targetWord": "verwirklichen",
+    "targetWordTranslation": "реализовывать, осуществлять",
+    "options": ["verlieren", "erreichen", "verwirklichen", "vermeiden"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario25_5",
+    "sentence": "Der Film hat mich tief **...**.",
+    "sentenceTranslation": "Фильм меня глубоко ... .",
+    "targetWord": "berührt",
+    "targetWordTranslation": "трогать, волновать",
+    "options": ["verändert", "berührt", "kopiert", "zerstört"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "scenario26_1",
+    "sentence": "Die Stadt hat beschlossen, die alten Häuser zu **...**.",
+    "sentenceTranslation": "Город решил ... старые дома.",
+    "targetWord": "sanieren",
+    "targetWordTranslation": "санировать, реконструировать",
+    "options": ["abreißen", "bauen", "sanieren", "verkaufen"],
+    "level": "B2",
+    "topic": "Städtebau"
+  },
+  {
+    "id": "scenario26_2",
+    "sentence": "Um eine Reise zu **...**, muss man die Flüge und Hotels buchen.",
+    "sentenceTranslation": "Чтобы ... поездку, нужно забронировать перелёты и отели.",
+    "targetWord": "organisieren",
+    "targetWordTranslation": "организовывать",
+    "options": ["verpassen", "organisieren", "vergessen", "ändern"],
+    "level": "B1",
+    "topic": "Reisen"
+  },
+  {
+    "id": "scenario26_3",
+    "sentence": "Die Regierung muss die Bürger vor Kriminalität **...**.",
+    "sentenceTranslation": "Государство должно ... граждан от преступности.",
+    "targetWord": "schützen",
+    "targetWordTranslation": "защищать",
+    "options": ["vermeiden", "schützen", "fördern", "verkaufen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario26_4",
+    "sentence": "Ein gutes Argument muss seine These **...**.",
+    "sentenceTranslation": "Хороший аргумент должен ... свой тезис.",
+    "targetWord": "untermauern",
+    "targetWordTranslation": "подкреплять, обосновывать",
+    "options": ["zerstören", "vermeiden", "untermauern", "verlassen"],
+    "level": "B2",
+    "topic": "Diskussion"
+  },
+  {
+    "id": "scenario26_5",
+    "sentence": "Der Künstler konnte seine Gefühle in einem Gemälde **...**.",
+    "sentenceTranslation": "Художник смог ... свои чувства в картине.",
+    "targetWord": "darstellen",
+    "targetWordTranslation": "изображать, представлять",
+    "options": ["verbergen", "darstellen", "kopieren", "zerstören"],
+    "level": "B1",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario27_1",
+    "sentence": "Die Regierung hat beschlossen, die Steuern zu **...**.",
+    "sentenceTranslation": "Правительство решило ... налоги.",
+    "targetWord": "erhöhen",
+    "targetWordTranslation": "повышать",
+    "options": ["erhöhen", "verringern", "verbessern", "vermeiden"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario27_2",
+    "sentence": "Eine gute Beziehung muss man **...**.",
+    "sentenceTranslation": "Хорошие отношения нужно ... .",
+    "targetWord": "pflegen",
+    "targetWordTranslation": "заботиться, поддерживать",
+    "options": ["vergessen", "pflegen", "zerstören", "ignorieren"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario27_3",
+    "sentence": "Der Staat muss die Wirtschaft **...**.",
+    "sentenceTranslation": "Государство должно ... экономику.",
+    "targetWord": "stabilisieren",
+    "targetWordTranslation": "стабилизировать",
+    "options": ["zerstören", "stabilisieren", "verändern", "verringern"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario27_4",
+    "sentence": "Man muss die Fakten **...**, bevor man eine Entscheidung trifft.",
+    "sentenceTranslation": "Нужно ... факты, прежде чем принимать решение.",
+    "targetWord": "recherchieren",
+    "targetWordTranslation": "искать, расследовать",
+    "options": ["erfinden", "ignorieren", "recherchieren", "verlieren"],
+    "level": "B2",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario27_5",
+    "sentence": "Um ein Ziel zu **...**, muss man hart arbeiten.",
+    "sentenceTranslation": "Чтобы ... цели, нужно упорно работать.",
+    "targetWord": "anstreben",
+    "targetWordTranslation": "стремиться",
+    "options": ["verlieren", "erreichen", "anstreben", "aufgeben"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario28_1",
+    "sentence": "Ein guter Redner muss sein Publikum **...**.",
+    "sentenceTranslation": "Хороший оратор должен ... свою аудиторию.",
+    "targetWord": "fesseln",
+    "targetWordTranslation": "увлекать, завораживать",
+    "options": ["langweilen", "überzeugen", "fesseln", "verärgern"],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "scenario28_2",
+    "sentence": "Die Regierung muss die Korruption **...**.",
+    "sentenceTranslation": "Правительство должно ... коррупцию.",
+    "targetWord": "bekämpfen",
+    "targetWordTranslation": "бороться",
+    "options": ["fördern", "akzeptieren", "bekämpfen", "ignorieren"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario28_3",
+    "sentence": "Eine Krise kann eine Gesellschaft spalten oder sie **...**.",
+    "sentenceTranslation": "Кризис может разделить общество или ... .",
+    "targetWord": "stärken",
+    "targetWordTranslation": "укреплять, усиливать",
+    "options": ["schwächen", "verstärken", "überwinden", "stärken"],
+    "level": "B2",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario28_4",
+    "sentence": "Man muss die Vergangenheit **...** und aus den Fehlern lernen.",
+    "sentenceTranslation": "Нужно ... прошлое и учиться на ошибках.",
+    "targetWord": "bewältigen",
+    "targetWordTranslation": "преодолевать, справляться",
+    "options": ["vergessen", "verdrängen", "bewältigen", "vermeiden"],
+    "level": "B2",
+    "topic": "Geschichte"
+  },
+  {
+    "id": "scenario28_5",
+    "sentence": "Um ein neues Land zu bereisen, muss man die Kultur **...**.",
+    "sentenceTranslation": "Чтобы путешествовать по новой стране, нужно ... культуру.",
+    "targetWord": "erkunden",
+    "targetWordTranslation": "исследовать, открывать",
+    "options": ["vermeiden", "vergessen", "erkunden", "ignorieren"],
+    "level": "B1",
+    "topic": "Reisen"
+  },
+  {
+    "id": "scenario29_1",
+    "sentence": "Der Staat muss die Bürger vor Kriminalität **...**.",
+    "sentenceTranslation": "Государство должно ... граждан от преступности.",
+    "targetWord": "beschützen",
+    "targetWordTranslation": "защищать, оберегать",
+    "options": ["vermeiden", "schützen", "fördern", "beschützen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario29_2",
+    "sentence": "Um die Effizienz zu **...**, hat die Firma neue Technologien eingeführt.",
+    "sentenceTranslation": "Чтобы ... эффективность, фирма внедрила новые технологии.",
+    "targetWord": "steigern",
+    "targetWordTranslation": "повышать, увеличивать",
+    "options": ["senken", "stoppen", "steigern", "reduzieren"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario29_3",
+    "sentence": "Die Eltern müssen ihre Kinder **...**, um ihnen die richtigen Werte beizubringen.",
+    "sentenceTranslation": "Родители должны своих детей ... , чтобы привить им правильные ценности.",
+    "targetWord": "prägen",
+    "targetWordTranslation": "формировать, оказывать влияние",
+    "options": ["ignorieren", "enttäuschen", "prägen", "behandeln"],
+    "level": "B2",
+    "topic": "Familie"
+  },
+  {
+    "id": "scenario29_4",
+    "sentence": "Man muss die Natur **...**, um die Umwelt zu schützen.",
+    "sentenceTranslation": "Нужно ... природу, чтобы защитить окружающую среду.",
+    "targetWord": "achten",
+    "targetWordTranslation": "уважать, ценить",
+    "options": ["zerstören", "ignorieren", "achten", "verändern"],
+    "level": "B1",
+    "topic": "Umwelt"
+  },
+  {
+    "id": "scenario29_5",
+    "sentence": "Der Chef muss die Aufgaben an seine Mitarbeiter **...**.",
+    "sentenceTranslation": "Начальник должен ... задачи своим сотрудникам.",
+    "targetWord": "delegieren",
+    "targetWordTranslation": "делегировать",
+    "options": ["kontrollieren", "erledigen", "delegieren", "entscheiden"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario30_1",
+    "sentence": "Der Film hat mich sehr **...**.",
+    "sentenceTranslation": "Фильм меня очень ... .",
+    "targetWord": "beeindruckt",
+    "targetWordTranslation": "впечатлять",
+    "options": ["gelangweilt", "beeindruckt", "verwirrt", "enttäuscht"],
+    "level": "B1",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "scenario30_2",
+    "sentence": "Um ein Buch zu schreiben, muss man die Ideen **...**.",
+    "sentenceTranslation": "Чтобы написать книгу, нужно ... идеи.",
+    "targetWord": "strukturieren",
+    "targetWordTranslation": "структурировать",
+    "options": ["verändern", "zerstören", "strukturieren", "kopieren"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario30_3",
+    "sentence": "Die Firma musste einen neuen Mitarbeiter **...**, weil sie expandiert.",
+    "sentenceTranslation": "Фирма должна была ... нового сотрудника, потому что она расширяется.",
+    "targetWord": "einstellen",
+    "targetWordTranslation": "нанимать",
+    "options": ["entlassen", "kündigen", "verlieren", "einstellen"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario30_4",
+    "sentence": "Die Regierung hat beschlossen, die Armut zu **...**.",
+    "sentenceTranslation": "Правительство решило ... бедность.",
+    "targetWord": "bekämpfen",
+    "targetWordTranslation": "бороться",
+    "options": ["fördern", "akzeptieren", "bekämpfen", "ignorieren"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario30_5",
+    "sentence": "Man muss die Geschichte **...**, um die Zukunft zu gestalten.",
+    "sentenceTranslation": "Нужно ... историю, чтобы формировать будущее.",
+    "targetWord": "verstehen",
+    "targetWordTranslation": "понимать",
+    "options": ["vergessen", "verdrängen", "verstehen", "ignorieren"],
+    "level": "B1",
+    "topic": "Geschichte"
+  }
+    ,
+  {
+    "id": "scenario31_1",
+    "sentence": "Die Regierung hat Maßnahmen **...**, um die Wirtschaft zu beleben.",
+    "sentenceTranslation": "Правительство ... меры, чтобы оживить экономику.",
+    "targetWord": "eingeleitet",
+    "targetWordTranslation": "инициировать, начинать",
+    "options": ["beendet", "eingeleitet", "gestoppt", "verloren"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario31_2",
+    "sentence": "Um eine neue Sprache zu lernen, muss man sich **...**.",
+    "sentenceTranslation": "Чтобы выучить новый язык, нужно ... .",
+    "targetWord": "engagieren",
+    "targetWordTranslation": "заниматься, прилагать усилия",
+    "options": ["vermeiden", "vergessen", "engagieren", "ignorieren"],
+    "level": "B1",
+    "topic": "Sprachenlernen"
+  },
+  {
+    "id": "scenario31_3",
+    "sentence": "Der Architekt hat ein neues Gebäude **...**.",
+    "sentenceTranslation": "Архитектор ... новое здание.",
+    "targetWord": "entworfen",
+    "targetWordTranslation": "проектировать, разрабатывать",
+    "options": ["gebaut", "entworfen", "abgerissen", "verkauft"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario31_4",
+    "sentence": "Man muss die Natur **...**, um die Umwelt zu schützen.",
+    "sentenceTranslation": "Нужно ... природу, чтобы защитить окружающую среду.",
+    "targetWord": "bewahren",
+    "targetWordTranslation": "сохранять, оберегать",
+    "options": ["bewahren", "zerstören", "verändern", "vermeiden"],
+    "level": "B2",
+    "topic": "Umwelt"
+  },
+  {
+    "id": "scenario31_5",
+    "sentence": "Der Künstler konnte seine Gefühle in einem Gemälde **...**.",
+    "sentenceTranslation": "Художник смог ... свои чувства в картине.",
+    "targetWord": "vermitteln",
+    "targetWordTranslation": "передавать",
+    "options": ["verstecken", "vermitteln", "kopieren", "zerstören"],
+    "level": "B2",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario32_1",
+    "sentence": "Die Stadt hat beschlossen, die alten Häuser **...**.",
+    "sentenceTranslation": "Город решил ... старые дома.",
+    "targetWord": "abzureißen",
+    "targetWordTranslation": "сносить, разрушать",
+    "options": ["bauen", "sanieren", "abzureißen", "renovieren"],
+    "level": "B2",
+    "topic": "Städtebau"
+  },
+  {
+    "id": "scenario32_2",
+    "sentence": "Um eine gute Beziehung zu haben, muss man dem Partner **...**.",
+    "sentenceTranslation": "Чтобы иметь хорошие отношения, нужно ... партнёру.",
+    "targetWord": "vertrauen",
+    "targetWordTranslation": "доверять",
+    "options": ["verraten", "vertrauen", "lügen", "ignorieren"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario32_3",
+    "sentence": "Der Staat muss die Wirtschaft **...**.",
+    "sentenceTranslation": "Государство должно ... экономику.",
+    "targetWord": "ankurbeln",
+    "targetWordTranslation": "стимулировать, оживлять",
+    "options": ["senken", "stoppen", "ankurbeln", "reduzieren"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario32_4",
+    "sentence": "Man muss die Fakten **...**, bevor man eine Entscheidung trifft.",
+    "sentenceTranslation": "Нужно ... факты, прежде чем принимать решение.",
+    "targetWord": "prüfen",
+    "targetWordTranslation": "проверять, испытывать",
+    "options": ["erfinden", "ignorieren", "prüfen", "verlieren"],
+    "level": "B1",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario32_5",
+    "sentence": "Die Eltern müssen ihre Kinder zu unabhängigen Menschen **...**.",
+    "sentenceTranslation": "Родители должны ... своих детей независимыми людьми.",
+    "targetWord": "erziehen",
+    "targetWordTranslation": "воспитывать",
+    "options": ["verwöhnen", "erziehen", "ignorieren", "behandeln"],
+    "level": "B2",
+    "topic": "Familie"
+  },
+  {
+    "id": "scenario33_1",
+    "sentence": "Um ein Buch zu schreiben, muss man die Ideen **...**.",
+    "sentenceTranslation": "Чтобы написать книгу, нужно ... идеи.",
+    "targetWord": "ordnen",
+    "targetWordTranslation": "упорядочивать, систематизировать",
+    "options": ["verändern", "zerstören", "ordnen", "kopieren"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario33_2",
+    "sentence": "Die Polizei konnte den Täter **...**.",
+    "sentenceTranslation": "Полиция смогла ... преступника.",
+    "targetWord": "verhaften",
+    "targetWordTranslation": "арестовывать",
+    "options": ["festnehmen", "verhaften", "überführen", "freilassen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario33_3",
+    "sentence": "Die neue Software **...** die Kommunikation in der Firma.",
+    "sentenceTranslation": "Новое программное обеспечение ... общение в фирме.",
+    "targetWord": "vereinfacht",
+    "targetWordTranslation": "упрощать",
+    "options": ["erschwert", "zerstört", "vereinfacht", "verlangsamt"],
+    "level": "B2",
+    "topic": "Technologie"
+  },
+  {
+    "id": "scenario33_4",
+    "sentence": "Ein guter Redner muss sein Publikum **...**.",
+    "sentenceTranslation": "Хороший оратор должен ... свою аудиторию.",
+    "targetWord": "begeistern",
+    "targetWordTranslation": "вдохновлять, восхищать",
+    "options": ["langweilen", "überzeugen", "begeistern", "verärgern"],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "scenario33_5",
+    "sentence": "Der Lehrer hat den Schülern das Thema noch einmal **...**.",
+    "sentenceTranslation": "Учитель ещё раз ... тему ученикам.",
+    "targetWord": "erläutert",
+    "targetWordTranslation": "разъяснять, пояснять",
+    "options": ["erfunden", "vergessen", "erläutert", "gelehrt"],
+    "level": "B2",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario34_1",
+    "sentence": "Ein guter Verkäufer muss die Kunden von seinem Produkt **...**.",
+    "sentenceTranslation": "Хороший продавец должен ... клиентов в своём продукте.",
+    "targetWord": "beeinflussen",
+    "targetWordTranslation": "влиять",
+    "options": ["verärgern", "beeinflussen", "langweilen", "ignorieren"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario34_2",
+    "sentence": "Die Stadt hat beschlossen, ein neues Stadion zu **...**.",
+    "sentenceTranslation": "Город решил ... новый стадион.",
+    "targetWord": "errichten",
+    "targetWordTranslation": "возводить, строить",
+    "options": ["abreißen", "errichten", "verkaufen", "vermieten"],
+    "level": "B2",
+    "topic": "Städtebau"
+  },
+  {
+    "id": "scenario34_3",
+    "sentence": "Die neue Studie **...** die Vorteile von Sport.",
+    "sentenceTranslation": "Новое исследование ... преимущества спорта.",
+    "targetWord": "bestätigt",
+    "targetWordTranslation": "подтверждать",
+    "options": ["widerlegt", "erfindet", "bestätigt", "veröffentlicht"],
+    "level": "B2",
+    "topic": "Wissenschaft"
+  },
+  {
+    "id": "scenario34_4",
+    "sentence": "Um ein Problem zu **...**, muss man alle Aspekte berücksichtigen.",
+    "sentenceTranslation": "Чтобы ... проблему, нужно учесть все аспекты.",
+    "targetWord": "lösen",
+    "targetWordTranslation": "решать",
+    "options": ["verursachen", "vergrößern", "erfinden", "lösen"],
+    "level": "B1",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario34_5",
+    "sentence": "Die Regierung muss Maßnahmen **...**, um die Krise zu bewältigen.",
+    "sentenceTranslation": "Правительство должно ... меры, чтобы справиться с кризисом.",
+    "targetWord": "treffen",
+    "targetWordTranslation": "принимать",
+    "options": ["verlieren", "entwerfen", "zerstören", "treffen"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario35_1",
+    "sentence": "Der Lehrer hat den Stoff des letzten Themas noch einmal **...**.",
+    "sentenceTranslation": "Учитель ещё раз ... материал последней темы.",
+    "targetWord": "zusammengefasst",
+    "targetWordTranslation": "обобщать, резюмировать",
+    "options": ["vergessen", "erfunden", "zusammengefasst", "gelehrt"],
+    "level": "B2",
+    "topic": "Bildung"
+  },
+  {
+    "id": "scenario35_2",
+    "sentence": "Man muss die Gesetze **...**, um in einem Land zu leben.",
+    "sentenceTranslation": "Нужно ... законы, чтобы жить в стране.",
+    "targetWord": "respektieren",
+    "targetWordTranslation": "уважать",
+    "options": ["brechen", "ignorieren", "respektieren", "ändern"],
+    "level": "B1",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario35_3",
+    "sentence": "Ein guter Freund muss dich in schwierigen Zeiten **...**.",
+    "sentenceTranslation": "Хороший друг должен тебя в трудные времена ... .",
+    "targetWord": "trösten",
+    "targetWordTranslation": "утешать",
+    "options": ["verlassen", "trösten", "ignorieren", "bekämpfen"],
+    "level": "B1",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario35_4",
+    "sentence": "Um ein Ziel zu **...**, muss man hart arbeiten.",
+    "sentenceTranslation": "Чтобы ... цели, нужно упорно работать.",
+    "targetWord": "verfolgen",
+    "targetWordTranslation": "преследовать, добиваться",
+    "options": ["verlieren", "erreichen", "verfolgen", "vermeiden"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario35_5",
+    "sentence": "Der Film hat mich tief **...**.",
+    "sentenceTranslation": "Фильм меня глубоко ... .",
+    "targetWord": "nachdenklich",
+    "targetWordTranslation": "заставлять задуматься",
+    "options": ["amüsiert", "nachdenklich", "verwirrt", "enttäuscht"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "scenario36_1",
+    "sentence": "Die Stadt hat beschlossen, die alten Häuser zu **...**.",
+    "sentenceTranslation": "Город решил ... старые дома.",
+    "targetWord": "renovieren",
+    "targetWordTranslation": "ремонтировать",
+    "options": ["abreißen", "bauen", "renovieren", "verkaufen"],
+    "level": "B1",
+    "topic": "Städtebau"
+  },
+  {
+    "id": "scenario36_2",
+    "sentence": "Um eine Reise zu **...**, muss man die Flüge und Hotels buchen.",
+    "sentenceTranslation": "Чтобы ... поездку, нужно забронировать перелёты и отели.",
+    "targetWord": "planen",
+    "targetWordTranslation": "планировать",
+    "options": ["verpassen", "planen", "vergessen", "ändern"],
+    "level": "A2",
+    "topic": "Reisen"
+  },
+  {
+    "id": "scenario36_3",
+    "sentence": "Die Regierung muss die Bürger vor Kriminalität **...**.",
+    "sentenceTranslation": "Государство должно ... граждан от преступности.",
+    "targetWord": "verteidigen",
+    "targetWordTranslation": "защищать, оборонять",
+    "options": ["angreifen", "verteidigen", "fördern", "verkaufen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario36_4",
+    "sentence": "Ein gutes Argument muss seine These **...**.",
+    "sentenceTranslation": "Хороший аргумент должен ... свой тезис.",
+    "targetWord": "stützen",
+    "targetWordTranslation": "подкреплять, поддерживать",
+    "options": ["zerstören", "vermeiden", "stützen", "verlassen"],
+    "level": "B2",
+    "topic": "Diskussion"
+  },
+  {
+    "id": "scenario36_5",
+    "sentence": "Der Künstler konnte seine Gefühle in einem Gemälde **...**.",
+    "sentenceTranslation": "Художник смог ... свои чувства в картине.",
+    "targetWord": "widerspiegeln",
+    "targetWordTranslation": "отражать",
+    "options": ["verbergen", "widerspiegeln", "kopieren", "verzerren"],
+    "level": "B2",
+    "topic": "Kreativität"
+  },
+  {
+    "id": "scenario37_1",
+    "sentence": "Die Regierung hat beschlossen, die Steuern zu **...**.",
+    "sentenceTranslation": "Правительство решило ... налоги.",
+    "targetWord": "reduzieren",
+    "targetWordTranslation": "сокращать",
+    "options": ["erhöhen", "reduzieren", "verbessern", "vermeiden"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario37_2",
+    "sentence": "Eine gute Beziehung muss man **...**.",
+    "sentenceTranslation": "Хорошие отношения нужно ... .",
+    "targetWord": "aufbauen",
+    "targetWordTranslation": "строить, создавать",
+    "options": ["aufbauen", "zerstören", "ignorieren", "verlieren"],
+    "level": "B2",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario37_3",
+    "sentence": "Der Staat muss die Wirtschaft **...**.",
+    "sentenceTranslation": "Государство должно ... экономику.",
+    "targetWord": "fördern",
+    "targetWordTranslation": "способствовать, поощрять",
+    "options": ["zerstören", "stabilisieren", "fördern", "verringern"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario37_4",
+    "sentence": "Man muss die Fakten **...**, bevor man eine Entscheidung trifft.",
+    "sentenceTranslation": "Нужно ... факты, прежде чем принимать решение.",
+    "targetWord": "analysieren",
+    "targetWordTranslation": "анализировать",
+    "options": ["erfinden", "ignorieren", "analysieren", "verlieren"],
+    "level": "B2",
+    "topic": "Allgemein"
+  },
+  {
+    "id": "scenario37_5",
+    "sentence": "Um ein Ziel zu **...**, muss man hart arbeiten.",
+    "sentenceTranslation": "Чтобы ... цели, нужно упорно работать.",
+    "targetWord": "erreichen",
+    "targetWordTranslation": "достигать",
+    "options": ["verlieren", "erreichen", "aufgeben", "vermeiden"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario38_1",
+    "sentence": "Ein guter Redner muss sein Publikum **...**.",
+    "sentenceTranslation": "Хороший оратор должен ... свою аудиторию.",
+    "targetWord": "inspirieren",
+    "targetWordTranslation": "вдохновлять",
+    "options": ["langweilen", "inspirieren", "verärgern", "verwirren"],
+    "level": "B2",
+    "topic": "Kommunikation"
+  },
+  {
+    "id": "scenario38_2",
+    "sentence": "Die Regierung muss die Korruption **...**.",
+    "sentenceTranslation": "Правительство должно ... коррупцию.",
+    "targetWord": "bekämpfen",
+    "targetWordTranslation": "бороться",
+    "options": ["fördern", "akzeptieren", "bekämpfen", "ignorieren"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario38_3",
+    "sentence": "Eine Krise kann eine Gesellschaft spalten oder sie **...**.",
+    "sentenceTranslation": "Кризис может разделить общество или ... .",
+    "targetWord": "zusammenschweißen",
+    "targetWordTranslation": "сплачивать, объединять",
+    "options": ["zerstören", "schwächen", "zusammenschweißen", "vermeiden"],
+    "level": "B2",
+    "topic": "Soziales"
+  },
+  {
+    "id": "scenario38_4",
+    "sentence": "Man muss die Vergangenheit **...** und aus den Fehlern lernen.",
+    "sentenceTranslation": "Нужно ... прошлое и учиться на ошибках.",
+    "targetWord": "verarbeiten",
+    "targetWordTranslation": "перерабатывать, осмысливать",
+    "options": ["vergessen", "verdrängen", "verarbeiten", "vermeiden"],
+    "level": "B2",
+    "topic": "Geschichte"
+  },
+  {
+    "id": "scenario38_5",
+    "sentence": "Um ein neues Land zu bereisen, muss man die Kultur **...**.",
+    "sentenceTranslation": "Чтобы путешествовать по новой стране, нужно ... культуру.",
+    "targetWord": "erleben",
+    "targetWordTranslation": "познавать, переживать",
+    "options": ["vermeiden", "vergessen", "erleben", "ignorieren"],
+    "level": "B1",
+    "topic": "Reisen"
+  },
+  {
+    "id": "scenario39_1",
+    "sentence": "Der Staat muss die Bürger vor Kriminalität **...**.",
+    "sentenceTranslation": "Государство должно ... граждан от преступности.",
+    "targetWord": "sichern",
+    "targetWordTranslation": "обеспечивать безопасность",
+    "options": ["vermeiden", "sichern", "fördern", "verkaufen"],
+    "level": "B2",
+    "topic": "Recht"
+  },
+  {
+    "id": "scenario39_2",
+    "sentence": "Um die Effizienz zu **...**, hat die Firma neue Technologien eingeführt.",
+    "sentenceTranslation": "Чтобы ... эффективность, фирма внедрила новые технологии.",
+    "targetWord": "steigern",
+    "targetWordTranslation": "повышать, увеличивать",
+    "options": ["senken", "stoppen", "steigern", "reduzieren"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario39_3",
+    "sentence": "Die Eltern müssen ihre Kinder **...**, um ihnen die richtigen Werte beizubringen.",
+    "sentenceTranslation": "Родители должны своих детей ... , чтобы привить им правильные ценности.",
+    "targetWord": "lehren",
+    "targetWordTranslation": "учить, обучать",
+    "options": ["ignorieren", "enttäuschen", "lehren", "behandeln"],
+    "level": "B2",
+    "topic": "Familie"
+  },
+  {
+    "id": "scenario39_4",
+    "sentence": "Man muss die Natur **...**, um die Umwelt zu schützen.",
+    "sentenceTranslation": "Нужно ... природу, чтобы защитить окружающую среду.",
+    "targetWord": "respektieren",
+    "targetWordTranslation": "уважать, ценить",
+    "options": ["zerstören", "ignorieren", "respektieren", "verändern"],
+    "level": "B1",
+    "topic": "Umwelt"
+  },
+  {
+    "id": "scenario39_5",
+    "sentence": "Der Chef muss die Aufgaben an seine Mitarbeiter **...**.",
+    "sentenceTranslation": "Начальник должен ... задачи своим сотрудникам.",
+    "targetWord": "zuweisen",
+    "targetWordTranslation": "назначать, поручать",
+    "options": ["kontrollieren", "zuweisen", "erledigen", "entscheiden"],
+    "level": "B2",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario40_1",
+    "sentence": "Der Film hat mich sehr **...**.",
+    "sentenceTranslation": "Фильм меня очень ... .",
+    "targetWord": "fasziniert",
+    "targetWordTranslation": "очаровывать, увлекать",
+    "options": ["gelangweilt", "fasziniert", "verwirrt", "enttäuscht"],
+    "level": "B2",
+    "topic": "Gefühle"
+  },
+  {
+    "id": "scenario40_2",
+    "sentence": "Um ein Buch zu schreiben, muss man die Ideen **...**.",
+    "sentenceTranslation": "Чтобы написать книгу, нужно ... идеи.",
+    "targetWord": "sammeln",
+    "targetWordTranslation": "собирать",
+    "options": ["verändern", "zerstören", "sammeln", "kopieren"],
+    "level": "B1",
+    "topic": "Arbeit"
+  },
+  {
+    "id": "scenario40_3",
+    "sentence": "Die Firma musste einen neuen Mitarbeiter **...**, weil sie expandiert.",
+    "sentenceTranslation": "Фирма должна была ... нового сотрудника, потому что она расширяется.",
+    "targetWord": "aufnehmen",
+    "targetWordTranslation": "принимать, нанимать",
+    "options": ["entlassen", "kündigen", "verlieren", "aufnehmen"],
+    "level": "B2",
+    "topic": "Wirtschaft"
+  },
+  {
+    "id": "scenario40_4",
+    "sentence": "Die Regierung hat beschlossen, die Armut zu **...**.",
+    "sentenceTranslation": "Правительство решило ... бедность.",
+    "targetWord": "verringern",
+    "targetWordTranslation": "уменьшать",
+    "options": ["fördern", "akzeptieren", "verringern", "ignorieren"],
+    "level": "B2",
+    "topic": "Politik"
+  },
+  {
+    "id": "scenario40_5",
+    "sentence": "Man muss die Geschichte **...**, um die Zukunft zu gestalten.",
+    "sentenceTranslation": "Нужно ... историю, чтобы формировать будущее.",
+    "targetWord": "bewerten",
+    "targetWordTranslation": "оценивать",
+    "options": ["vergessen", "verdrängen", "bewerten", "ignorieren"],
+    "level": "B2",
+    "topic": "Geschichte"
+  }
+
+]

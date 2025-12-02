@@ -1,0 +1,810 @@
+[
+  {
+    "id": "e9f0g1h2-i3j4-5k6l-7m8n-9o0p1q2r3s4t",
+    "sentence": "Meine Oma ist vor kurzem ___ ___.",
+    "targetWord": "in Rente gegangen",
+    "targetWordTranslation": "вышла на пенсию",
+    "level": "A1",
+    "topic": "Жизненные этапы"
+  },
+  {
+    "id": "f0g1h2i3-j4k5-6l7m-8n9o-0p1q2r3s4t5u",
+    "sentence": "Du kannst dich auf mich ___.",
+    "targetWord": "verlassen",
+    "targetWordTranslation": "положиться",
+    "level": "A1",
+    "topic": "Доверие"
+  },
+  {
+    "id": "g1h2i3j4-k5l6-7m8n-9o0p-1q2r3s4t5u6v",
+    "sentence": "Ich möchte mich bei dir ___.",
+    "targetWord": "bedanken",
+    "targetWordTranslation": "поблагодарить",
+    "level": "A1",
+    "topic": "Благодарность"
+  },
+  {
+    "id": "h2i3j4k5-l6m7-8n9o-0p1q-2r3s4t5u6v7w",
+    "sentence": "Kannst du ihm etwas ___?",
+    "targetWord": "ausrichten",
+    "targetWordTranslation": "передать",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "i3j4k5l6-m7n8-9o0p-1q2r-3s4t5u6v7w8x",
+    "sentence": "Ich werde es ___.",
+    "targetWord": "versuchen",
+    "targetWordTranslation": "попробую",
+    "level": "A1",
+    "topic": "Попытки"
+  },
+  {
+    "id": "j4k5l6m7-n8o9-0p1q-2r3s-4t5u6v7w8x9y",
+    "sentence": "Ich kann dir meine Hilfe ___.",
+    "targetWord": "bieten",
+    "targetWordTranslation": "предложить",
+    "level": "A1",
+    "topic": "Предложение"
+  },
+  {
+    "id": "k5l6m7n8-o9p0-1q2r-3s4t-5u6v7w8x9y0z",
+    "sentence": "Das Gesetz ___ für alle.",
+    "targetWord": "gilt",
+    "targetWordTranslation": "действует",
+    "level": "A1",
+    "topic": "Правила"
+  },
+  {
+    "id": "l6m7n8o9-p0q1-2r3s-4t5u-6v7w8x9y0z1a",
+    "sentence": "Wir müssen uns mehr ___.",
+    "targetWord": "bewegen",
+    "targetWordTranslation": "двигаться",
+    "level": "A1",
+    "topic": "Движение"
+  },
+  {
+    "id": "m7n8o9p0-q1r2-3s4t-5u6v-7w8x9y0z1a2b",
+    "sentence": "Ich ___ mich für Sport.",
+    "targetWord": "interessiere",
+    "targetWordTranslation": "интересуюсь",
+    "level": "A1",
+    "topic": "Интересы"
+  },
+  {
+    "id": "n8o9p0q1-r2s3-4t5u-6v7w-8x9y0z1a2b3c",
+    "sentence": "Ich ___ mich gut.",
+    "targetWord": "fühle",
+    "targetWordTranslation": "чувствую",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "o9p0q1r2-s3t4-5u6v-7w8x-9y0z1a2b3c4d",
+    "sentence": "Ich ___ mich mit Freunden.",
+    "targetWord": "verabrede",
+    "targetWordTranslation": "договариваюсь о встрече",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "p0q1r2s3-t4u5-6v7w-8x9y-0z1a2b3c4d5e",
+    "sentence": "Ich muss mich ___.",
+    "targetWord": "ausruhen",
+    "targetWordTranslation": "отдохнуть",
+    "level": "A1",
+    "topic": "Отдых"
+  },
+  {
+    "id": "q1r2s3t4-u5v6-7w8x-9y0z-1a2b3c4d5e6f",
+    "sentence": "Ich ___ mich über das Wetter.",
+    "targetWord": "ärgere",
+    "targetWordTranslation": "злюсь",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "r2s3t4u5-v6w7-8x9y-0z1a-2b3c4d5e6f7g",
+    "sentence": "Ich ___ mich.",
+    "targetWord": "schminke",
+    "targetWordTranslation": "крашусь",
+    "level": "A1",
+    "topic": "Внешность"
+  },
+  {
+    "id": "s3t4u5v6-w7x8-9y0z-1a2b-3c4d5e6f7g8h",
+    "sentence": "Ich muss mich ___.",
+    "targetWord": "umziehen",
+    "targetWordTranslation": "переодеться",
+    "level": "A1",
+    "topic": "Одежда"
+  },
+  {
+    "id": "t4u5v6w7-x8y9-0z1a-2b3c-4d5e6f7g8h9i",
+    "sentence": "Ich ___ mich.",
+    "targetWord": "kämme",
+    "targetWordTranslation": "расчесываюсь",
+    "level": "A1",
+    "topic": "Внешность"
+  },
+  {
+    "id": "u5v6w7x8-y9z0-1a2b-3c4d-5e6f7g8h9i0j",
+    "sentence": "Ich ___ mich.",
+    "targetWord": "wasche",
+    "targetWordTranslation": "моюсь",
+    "level": "A1",
+    "topic": "Гигиена"
+  },
+  {
+    "id": "v6w7x8y9-z0a1-2b3c-4d5e-6f7g8h9i0j1k",
+    "sentence": "Ich muss mich ___.",
+    "targetWord": "beeilen",
+    "targetWordTranslation": "поторопиться",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "w7x8y9z0-a1b2-3c4d-5e6f-7g8h9i0j1k2l",
+    "sentence": "Ich muss mich auf die Arbeit ___.",
+    "targetWord": "konzentrieren",
+    "targetWordTranslation": "сосредоточиться",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "x8y9z0a1-b2c3-4d5e-6f7g-8h9i0j1k2l3m",
+    "sentence": "Ich ___ mich an meine Kindheit.",
+    "targetWord": "erinnere",
+    "targetWordTranslation": "вспоминаю",
+    "level": "A1",
+    "topic": "Воспоминания"
+  },
+  {
+    "id": "y9z0a1b2-c3d4-5e6f-7g8h-9i0j1k2l3m4n",
+    "sentence": "Ich ___ ___ dich.",
+    "targetWord": "denke an",
+    "targetWordTranslation": "думаю о",
+    "level": "A1",
+    "topic": "Мысли"
+  },
+  {
+    "id": "z0a1b2c3-d4e5-6f7g-8h9i-0j1k2l3m4n5o",
+    "sentence": "Die Kosten ___ 100 Euro.",
+    "targetWord": "betragen",
+    "targetWordTranslation": "составляют",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+    "sentence": "Ich kann das ___.",
+    "targetWord": "schaffen",
+    "targetWordTranslation": "сделать",
+    "level": "A1",
+    "topic": "Способности"
+  },
+  {
+    "id": "b2c3d4e5-f6g7-8h9i-0j1k-2l3m4n5o6p7q",
+    "sentence": "Das Kind ___ schnell.",
+    "targetWord": "läuft",
+    "targetWordTranslation": "бежит",
+    "level": "A1",
+    "topic": "Движение"
+  },
+  {
+    "id": "c3d4e5f6-g7h8-9i0j-1k2l-3m4n5o6p7q8r",
+    "sentence": "Du ___ ___.",
+    "targetWord": "übertreibst",
+    "targetWordTranslation": "преувеличиваешь",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "d4e5f6g7-h8i9-0j1k-2l3m-4n5o6p7q8r9s",
+    "sentence": "Ich ___ mich selbst.",
+    "targetWord": "suche",
+    "targetWordTranslation": "ищу",
+    "level": "A1",
+    "topic": "Поиск"
+  },
+  {
+    "id": "e5f6g7h8-i9j0-1k2l-3m4n-5o6p7q8r9s0t",
+    "sentence": "Ich ___ Geld.",
+    "targetWord": "spare",
+    "targetWordTranslation": "экономлю",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "f6g7h8i9-j0k1-2l3m-4n5o-6p7q8r9s0t1u",
+    "sentence": "Die Theorie ___ auf Fakten.",
+    "targetWord": "basiert",
+    "targetWordTranslation": "основывается",
+    "level": "A1",
+    "topic": "Знания"
+  },
+  {
+    "id": "g7h8i9j0-k1l2-3m4n-5o6p-7q8r9s0t1u2v",
+    "sentence": "Ich habe mich ___.",
+    "targetWord": "verletzt",
+    "targetWordTranslation": "поранился",
+    "level": "A1",
+    "topic": "Здоровье"
+  },
+  {
+    "id": "h8i9j0k1-l2m3-4n5o-6p7q-8r9s0t1u2v3w",
+    "sentence": "Meine Nase ___.",
+    "targetWord": "blutet",
+    "targetWordTranslation": "кровоточит",
+    "level": "A1",
+    "topic": "Здоровье"
+  },
+  {
+    "id": "i9j0k1l2-m3n4-5o6p-7q8r-9s0t1u2v3w4x",
+    "sentence": "Die Prüfung ___ aus drei Teilen.",
+    "targetWord": "besteht",
+    "targetWordTranslation": "состоит",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "j0k1l2m3-n4o5-6p7q-8r9s-0t1u2v3w4x5y",
+    "sentence": "Ich ___ seine Leistung ___.",
+    "targetWord": "erkenne an",
+    "targetWordTranslation": "признаю",
+    "level": "A1",
+    "topic": "Оценка"
+  },
+  {
+    "id": "k1l2m3n4-o5p6-7q8r-9s0t-1u2v3w4x5y6z",
+    "sentence": "Ich muss die Rechnung ___.",
+    "targetWord": "prüfen",
+    "targetWordTranslation": "проверить",
+    "level": "A1",
+    "topic": "Документы"
+  },
+  {
+    "id": "l2m3n4o5-p6q7-8r9s-0t1u-2v3w4x5y6z7a",
+    "sentence": "Ich ___ mich auf die Prüfung ___.",
+    "targetWord": "bereite vor",
+    "targetWordTranslation": "готовлюсь",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "m3n4o5p6-q7r8-9s0t-1u2v-3w4x5y6z7a8b",
+    "sentence": "Ich ___ gern.",
+    "targetWord": "bastle",
+    "targetWordTranslation": "мастерю",
+    "level": "A1",
+    "topic": "Хобби"
+  },
+  {
+    "id": "n4o5p6q7-r8s9-0t1u-2v3w-4x5y6z7a8b9c",
+    "sentence": "Ich muss mich ___.",
+    "targetWord": "entscheiden",
+    "targetWordTranslation": "решиться",
+    "level": "A1",
+    "topic": "Решения"
+  },
+  {
+    "id": "o5p6q7r8-s9t0-1u2v-3w4x-5y6z7a8b9c0d",
+    "sentence": "Ich ___ meiner Freundin Blumen.",
+    "targetWord": "schenke",
+    "targetWordTranslation": "дарю",
+    "level": "A1",
+    "topic": "Подарки"
+  },
+  {
+    "id": "p6q7r8s9-t0u1-2v3w-4x5y-6z7a8b9c0d1e",
+    "sentence": "Ich ___ gern Pferd.",
+    "targetWord": "reite",
+    "targetWordTranslation": "езжу верхом",
+    "level": "A1",
+    "topic": "Хобби"
+  },
+  {
+    "id": "q7r8s9t0-u1v2-3w4x-5y6z-7a8b9c0d1e2f",
+    "sentence": "Kannst du das bitte ___?",
+    "targetWord": "probieren",
+    "targetWordTranslation": "попробовать",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "r8s9t0u1-v2w3-4x5y-6z7a-8b9c0d1e2f3g",
+    "sentence": "Wir ___ die Pizza.",
+    "targetWord": "liefern",
+    "targetWordTranslation": "доставляем",
+    "level": "A1",
+    "topic": "Покупки"
+  },
+  {
+    "id": "s9t0u1v2-w3x4-5y6z-7a8b-9c0d1e2f3g4h",
+    "sentence": "Wie ___ du das?",
+    "targetWord": "nennst",
+    "targetWordTranslation": "называешь",
+    "level": "A1",
+    "topic": "Имена"
+  },
+  {
+    "id": "t0u1v2w3-x4y5-6z7a-8b9c-0d1e2f3g4h5i",
+    "sentence": "Ich kann meine Gefühle nicht ___.",
+    "targetWord": "ausdrücken",
+    "targetWordTranslation": "выразить",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "u1v2w3x4-y5z6-7a8b-9c0d-1e2f3g4h5i6j",
+    "sentence": "Ich ___ dich herzlich.",
+    "targetWord": "grüße",
+    "targetWordTranslation": "приветствую",
+    "level": "A1",
+    "topic": "Приветствие"
+  },
+  {
+    "id": "v2w3x4y5-z6a7-8b9c-0d1e-2f3g4h5i6j7k",
+    "sentence": "Das Baby ___.",
+    "targetWord": "weint",
+    "targetWordTranslation": "плачет",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "w3x4y5z6-a7b8-9c0d-1e2f-3g4h5i6j7k8l",
+    "sentence": "Er ___ die Tür.",
+    "targetWord": "tritt",
+    "targetWordTranslation": "пинает",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "x4y5z6a7-b8c9-0d1e-2f3g-4h5i6j7k8l9m",
+    "sentence": "Ich ___ einen Pullover.",
+    "targetWord": "trage",
+    "targetWordTranslation": "ношу",
+    "level": "A1",
+    "topic": "Одежда"
+  },
+  {
+    "id": "y5z6a7b8-c9d0-1e2f-3g4h-5i6j7k8l9m0n",
+    "sentence": "Wie viel Geld hast du ___?",
+    "targetWord": "ausgegeben",
+    "targetWordTranslation": "потратил",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "z6a7b8c9-d0e1-2f3g-4h5i-6j7k8l9m0n1o",
+    "sentence": "Wir ___ uns lange.",
+    "targetWord": "unterhalten",
+    "targetWordTranslation": "разговариваем",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3g4h-5i6j-7k8l9m0n1o2p",
+    "sentence": "Ich ___ den Raum.",
+    "targetWord": "dekoriere",
+    "targetWordTranslation": "украшаю",
+    "level": "A1",
+    "topic": "Дом"
+  },
+  {
+    "id": "b8c9d0e1-f2g3-4h5i-6j7k-8l9m0n1o2p3q",
+    "sentence": "Ich kann ihn nicht ___.",
+    "targetWord": "überzeugen",
+    "targetWordTranslation": "убедить",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "c9d0e1f2-g3h4-5i6j-7k8l-9m0n1o2p3q4r",
+    "sentence": "Das ___ mich sehr.",
+    "targetWord": "beeindruckt",
+    "targetWordTranslation": "впечатляет",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "d0e1f2g3-h4i5-6j7k-8l9m-0n1o2p3q4r5s",
+    "sentence": "Ich möchte gern ___.",
+    "targetWord": "mitspielen",
+    "targetWordTranslation": "поиграть",
+    "level": "A1",
+    "topic": "Игры"
+  },
+  {
+    "id": "e1f2g3h4-i5j6-7k8l-9m0n-1o2p3q4r5s6t",
+    "sentence": "Wir ___ heute Abend ___.",
+    "targetWord": "gehen aus",
+    "targetWordTranslation": "пойдем развлекаться",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "f2g3h4i5-j6k7-8l9m-0n1o-2p3q4r5s6t7u",
+    "sentence": "Ich ___ meine Zeit mit Freunden.",
+    "targetWord": "verbringe",
+    "targetWordTranslation": "провожу",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "g3h4i5j6-k7l8-9m0n-1o2p-3q4r5s6t7u8v",
+    "sentence": "Wir ___ etwas zusammen.",
+    "targetWord": "unternehmen",
+    "targetWordTranslation": "предпримем",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "h4i5j6k7-l8m9-0n1o-2p3q-4r5s6t7u8v9w",
+    "sentence": "Wie ___ du auf die Nachricht?",
+    "targetWord": "reagierst",
+    "targetWordTranslation": "реагируешь",
+    "level": "A1",
+    "topic": "Реакции"
+  },
+  {
+    "id": "i5j6k7l8-m9n0-1o2p-3q4r-5s6t7u8v9w0x",
+    "sentence": "Er ___ als Sänger ___.",
+    "targetWord": "tritt auf",
+    "targetWordTranslation": "выступает",
+    "level": "A1",
+    "topic": "Искусство"
+  },
+  {
+    "id": "j6k7l8m9-n0o1-2p3q-4r5s-6t7u8v9w0x1y",
+    "sentence": "Ich ___ einen Vorschlag.",
+    "targetWord": "schlage vor",
+    "targetWordTranslation": "предлагаю",
+    "level": "A1",
+    "topic": "Предложения"
+  },
+  {
+    "id": "k7l8m9n0-o1p2-3q4r-5s6t-7u8v9w0x1y2z",
+    "sentence": "Kannst du das Bild ___?",
+    "targetWord": "beschreiben",
+    "targetWordTranslation": "описать",
+    "level": "A1",
+    "topic": "Описание"
+  },
+  {
+    "id": "l8m9n0o1-p2q3-4r5s-6t7u-8v9w0x1y2z3a",
+    "sentence": "Ich habe mich ___.",
+    "targetWord": "verschluckt",
+    "targetWordTranslation": "поперхнулся",
+    "level": "A1",
+    "topic": "Здоровье"
+  },
+  {
+    "id": "m9n0o1p2-q3r4-5s6t-7u8v-9w0x1y2z3a4b",
+    "sentence": "Ich ___ das Paket.",
+    "targetWord": "versende",
+    "targetWordTranslation": "отправляю",
+    "level": "A1",
+    "topic": "Почта"
+  },
+  {
+    "id": "n0o1p2q3-r4s5-6t7u-8v9w-0x1y2z3a4b5c",
+    "sentence": "Wir ___ die Waren.",
+    "targetWord": "transportieren",
+    "targetWordTranslation": "транспортируем",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "o1p2q3r4-s5t6-7u8v-9w0x-1y2z3a4b5c6d",
+    "sentence": "Wie viel ___ du?",
+    "targetWord": "wiegst",
+    "targetWordTranslation": "весишь",
+    "level": "A1",
+    "topic": "Размеры"
+  },
+  {
+    "id": "p2q3r4s5-t6u7-8v9w-0x1y-2z3a4b5c6d7e",
+    "sentence": "Ich habe den Bus ___.",
+    "targetWord": "verpasst",
+    "targetWordTranslation": "пропустил",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "q3r4s5t6-u7v8-9w0x-1y2z-3a4b5c6d7e8f",
+    "sentence": "Ich muss meinen Plan ___.",
+    "targetWord": "ändern",
+    "targetWordTranslation": "изменить",
+    "level": "A1",
+    "topic": "Изменения"
+  },
+  {
+    "id": "r4s5t6u7-v8w9-0x1y-2z3a-4b5c6d7e8f9g",
+    "sentence": "Ich ___ mich in der Sonne.",
+    "targetWord": "sonne",
+    "targetWordTranslation": "загораю",
+    "level": "A1",
+    "topic": "Отдых"
+  },
+  {
+    "id": "s5t6u7v8-w9x0-1y2z-3a4b-5c6d7e8f9g0h",
+    "sentence": "Ich muss Geld ___.",
+    "targetWord": "einzahlen",
+    "targetWordTranslation": "внести на счет",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "t6u7v8w9-x0y1-2z3a-4b5c-6d7e8f9g0h1i",
+    "sentence": "Ich ___ nach Hause.",
+    "targetWord": "fliege",
+    "targetWordTranslation": "лечу",
+    "level": "A1",
+    "topic": "Путешествия"
+  },
+  {
+    "id": "u7v8w9x0-y1z2-3a4b-5c6d-7e8f9g0h1i2j",
+    "sentence": "Ich ___ Geld.",
+    "targetWord": "überweise",
+    "targetWordTranslation": "перевожу",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "v8w9x0y1-z2a3-4b5c-6d7e-8f9g0h1i2j3k",
+    "sentence": "Er ist gestern ___.",
+    "targetWord": "gestorben",
+    "targetWordTranslation": "умер",
+    "level": "A1",
+    "topic": "Жизнь и смерть"
+  },
+  {
+    "id": "w9x0y1z2-a3b4-5c6d-7e8f-9g0h1i2j3k4l",
+    "sentence": "Ich habe mich ___.",
+    "targetWord": "verliebt",
+    "targetWordTranslation": "влюбился",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "x0y1z2a3-b4c5-6d7e-8f9g-0h1i2j3k4l5m",
+    "sentence": "Ich werde ihn ___.",
+    "targetWord": "ansprechen",
+    "targetWordTranslation": "заговорить",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "y1z2a3b4-c5d6-7e8f-9g0h-1i2j3k4l5m6n",
+    "sentence": "Ich ___ dir.",
+    "targetWord": "danke",
+    "targetWordTranslation": "благодарю",
+    "level": "A1",
+    "topic": "Благодарность"
+  },
+  {
+    "id": "z2a3b4c5-d6e7-8f9g-0h1i-2j3k4l5m6n7o",
+    "sentence": "Ich ___ die Daten.",
+    "targetWord": "zentriere",
+    "targetWordTranslation": "центрирую",
+    "level": "A1",
+    "topic": "Техника"
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9g0h-1i2j-3k4l5m6n7o8p",
+    "sentence": "Ich ___ am Wochenende gern.",
+    "targetWord": "faulenze",
+    "targetWordTranslation": "ленюсь",
+    "level": "A1",
+    "topic": "Отдых"
+  },
+  {
+    "id": "b4c5d6e7-f8g9-0h1i-2j3k-4l5m6n7o8p9q",
+    "sentence": "Er hat ein neues Geschäft ___.",
+    "targetWord": "eröffnet",
+    "targetWordTranslation": "открыл",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "c5d6e7f8-g9h0-1i2j-3k4l-5m6n7o8p9q0r",
+    "sentence": "Ich muss das Brot ___.",
+    "targetWord": "besorgen",
+    "targetWordTranslation": "достать",
+    "level": "A1",
+    "topic": "Покупки"
+  },
+  {
+    "id": "d6e7f8g9-h0i1-2j3k-4l5m-6n7o8p9q0r1s",
+    "sentence": "Ich muss Geld ___.",
+    "targetWord": "abheben",
+    "targetWordTranslation": "снять со счета",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "e7f8g9h0-i1j2-3k4l-5m6n-7o8p9q0r1s2t",
+    "sentence": "Ich ___ ein Geschenk.",
+    "targetWord": "kriege",
+    "targetWordTranslation": "получаю",
+    "level": "A1",
+    "topic": "Подарки"
+  },
+  {
+    "id": "f8g9h0i1-j2k3-4l5m-6n7o-8p9q0r1s2t3u",
+    "sentence": "Ich kann deine Entschuldigung nicht ___.",
+    "targetWord": "akzeptieren",
+    "targetWordTranslation": "принять",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "g9h0i1j2-k3l4-5m6n-7o8p-9q0r1s2t3u4v",
+    "sentence": "Ich muss noch ein paar Sachen ___.",
+    "targetWord": "erledigen",
+    "targetWordTranslation": "сделать",
+    "level": "A1",
+    "topic": "Дела"
+  },
+  {
+    "id": "h0i1j2k3-l4m5-6n7o-8p9q-0r1s2t3u4v5w",
+    "sentence": "Ich ___ die Qualität.",
+    "targetWord": "kontrolliere",
+    "targetWordTranslation": "контролирую",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "i1j2k3l4-m5n6-7o8p-9q0r-1s2t3u4v5w6x",
+    "sentence": "Das Auto ist ___.",
+    "targetWord": "kaputtgegangen",
+    "targetWordTranslation": "сломалось",
+    "level": "A1",
+    "topic": "Техника"
+  },
+  {
+    "id": "j2k3l4m5-n6o7-8p9q-0r1s-2t3u4v5w6x7y",
+    "sentence": "Ich ___ ihn nicht.",
+    "targetWord": "erkenne",
+    "targetWordTranslation": "узнаю",
+    "level": "A1",
+    "topic": "Знакомства"
+  },
+  {
+    "id": "k3l4m5n6-o7p8-9q0r-1s2t-3u4v5w6x7y8z",
+    "sentence": "Ich muss die Daten ___.",
+    "targetWord": "überprüfen",
+    "targetWordTranslation": "проверить",
+    "level": "A1",
+    "topic": "Проверка"
+  },
+  {
+    "id": "l4m5n6o7-p8q9-0r1s-2t3u-4v5w6x7y8z9a",
+    "sentence": "Wir ___ das Haus.",
+    "targetWord": "renovieren",
+    "targetWordTranslation": "ремонтируем",
+    "level": "A1",
+    "topic": "Дом"
+  },
+  {
+    "id": "m5n6o7p8-q9r0-1s2t-3u4v-5w6x7y8z9a0b",
+    "sentence": "Ich werde heute ___.",
+    "targetWord": "übernachten",
+    "targetWordTranslation": "ночевать",
+    "level": "A1",
+    "topic": "Ночлег"
+  },
+  {
+    "id": "n6o7p8q9-r0s1-2t3u-4v5w-6x7y8z9a0b1c",
+    "sentence": "Ich bin ___.",
+    "targetWord": "dagegen",
+    "targetWordTranslation": "против",
+    "level": "A1",
+    "topic": "Мнения"
+  },
+  {
+    "id": "o7p8q9r0-s1t2-3u4v-5w6x-7y8z9a0b1c2d",
+    "sentence": "Ich bin ___.",
+    "targetWord": "dafür",
+    "targetWordTranslation": "за",
+    "level": "A1",
+    "topic": "Мнения"
+  },
+  {
+    "id": "p8q9r0s1-t2u3-4v5w-6x7y-8z9a0b1c2d3e",
+    "sentence": "Ich ___ das Angebot ___.",
+    "targetWord": "nehme an",
+    "targetWordTranslation": "принимаю",
+    "level": "A1",
+    "topic": "Предложения"
+  },
+  {
+    "id": "q9r0s1t2-u3v4-5w6x-7y8z-9a0b1c2d3e4f",
+    "sentence": "Ich ___ das Angebot ___.",
+    "targetWord": "lehne ab",
+    "targetWordTranslation": "отклоняю",
+    "level": "A1",
+    "topic": "Предложения"
+  },
+  {
+    "id": "r0s1t2u3-v4w5-6x7y-8z9a-0b1c2d3e4f5g",
+    "sentence": "Ich muss den LKW ___.",
+    "targetWord": "überholen",
+    "targetWordTranslation": "обогнать",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "s1t2u3v4-w5x6-7y8z-9a0b-1c2d3e4f5g6h",
+    "sentence": "Ich muss für meine Kinder ___.",
+    "targetWord": "sorgen",
+    "targetWordTranslation": "заботиться",
+    "level": "A1",
+    "topic": "Семья"
+  },
+  {
+    "id": "t2u3v4w5-x6y7-8z9a-0b1c-2d3e4f5g6h7i",
+    "sentence": "Man sollte Fehler ___.",
+    "targetWord": "vermeiden",
+    "targetWordTranslation": "избегать",
+    "level": "A1",
+    "topic": "Ошибки"
+  },
+  {
+    "id": "u3v4w5x6-y7z8-9a0b-1c2d-3e4f5g6h7i8j",
+    "sentence": "Ich ___ dir etwas.",
+    "targetWord": "verspreche",
+    "targetWordTranslation": "обещаю",
+    "level": "A1",
+    "topic": "Обещания"
+  },
+  {
+    "id": "v4w5x6y7-z8a9-0b1c-2d3e-4f5g6h7i8j9k",
+    "sentence": "Man kann den Unfall ___.",
+    "targetWord": "verhindern",
+    "targetWordTranslation": "предотвратить",
+    "level": "A1",
+    "topic": "Безопасность"
+  },
+  {
+    "id": "w5x6y7z8-a9b0-1c2d-3e4f-5g6h7i8j9k0l",
+    "sentence": "Ich muss meine Muskeln ___.",
+    "targetWord": "stärken",
+    "targetWordTranslation": "укреплять",
+    "level": "A1",
+    "topic": "Спорт"
+  },
+  {
+    "id": "x6y7z8a9-b0c1-2d3e-4f5g-6h7i8j9k0l1m",
+    "sentence": "Kannst du das Seil ___?",
+    "targetWord": "längen",
+    "targetWordTranslation": "удлинить",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "y7z8a9b0-c1d2-3e4f-5g6h-7i8j9k0l1m2n",
+    "sentence": "Es ist mir ___.",
+    "targetWord": "aufgefallen",
+    "targetWordTranslation": "бросилось в глаза",
+    "level": "A1",
+    "topic": "Внимание"
+  },
+  {
+    "id": "z8a9b0c1-d2e3-4f5g-6h7i-8j9k0l1m2n3o",
+    "sentence": "Die Kinder ___ auf dem Trampolin.",
+    "targetWord": "hüpfen",
+    "targetWordTranslation": "прыгают",
+    "level": "A1",
+    "topic": "Движение"
+  },
+  {
+    "id": "a9b0c1d2-e3f4-5g6h-7i8j-9k0l1m2n3o4p",
+    "sentence": "Das Feuer ___.",
+    "targetWord": "brennt",
+    "targetWordTranslation": "горит",
+    "level": "A1",
+    "topic": "Природа"
+  }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "id": "b0Khm8n0-4o56-4l1h-i23o-4e5f6g7h8i9j",
+    "sentence": "Ich ___ meine Hausaufgaben.",
+    "targetWord": "mache",
+    "targetWordTranslation": "делаю",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "b5nj90n0-8ju6-H7yd-i23o-4enjkiu89j",
+    "sentence": "Er ___ im Supermarkt ein.",
+    "targetWord": "kauft",
+    "targetWordTranslation": "покупает",
+    "level": "A1",
+    "topic": "Покупки"
+  },
+  {
+    "id": "90uefh8n0-4o56-ewduhf1h-i23o-9uehefkji9j",
+    "sentence": "Wir ___ einen Film.",
+    "targetWord": "sehen",
+    "targetWordTranslation": "смотрим",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
+    "sentence": "Ich ___ Anna.",
+    "targetWord": "heiße",
+    "targetWordTranslation": "зовут",
+    "level": "A1",
+    "topic": "Представление"
+  },
+  {
+    "id": "b2c3d4e5-f6g7-8h9i-0j1k-2l3m4n5o6p7q",
+    "sentence": "Woher ___ du?",
+    "targetWord": "kommst",
+    "targetWordTranslation": "приезжаешь",
+    "level": "A1",
+    "topic": "Происхождение"
+  },
+  {
+    "id": "c3d4e5f6-g7h8-9i0j-1k2l-3m4n5o6p7q8r",
+    "sentence": "Ich ___ Deutsch.",
+    "targetWord": "spreche",
+    "targetWordTranslation": "говорю",
+    "level": "A1",
+    "topic": "Языки"
+  },
+  {
+    "id": "d4e5f6g7-h8i9-0j1k-2l3m-4n5o6p7q8r9s",
+    "sentence": "Kannst du das bitte ___?",
+    "targetWord": "buchstabieren",
+    "targetWordTranslation": "произнести по буквам",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "e5f6g7h8-i9j0-1k2l-3m4n-5o6p7q8r9s0t",
+    "sentence": "Ich ___ ein Buch.",
+    "targetWord": "lese",
+    "targetWordTranslation": "читаю",
+    "level": "A1",
+    "topic": "Чтение"
+  },
+  {
+    "id": "f6g7h8i9-j0k1-2l3m-4n5o-6p7q8r9s0t1u",
+    "sentence": "Ich ___ Musik.",
+    "targetWord": "höre",
+    "targetWordTranslation": "слушаю",
+    "level": "A1",
+    "topic": "Музыка"
+  },
+  {
+    "id": "g7h8i9j0-k1l2-3m4n-5o6p-7q8r9s0t1u2v",
+    "sentence": "Wir ___ Fußball.",
+    "targetWord": "spielen",
+    "targetWordTranslation": "играем",
+    "level": "A1",
+    "topic": "Спорт"
+  },
+  {
+    "id": "h8i9j0k1-l2m3-4n5o-6p7q-8r9s0t1u2v3w",
+    "sentence": "Kannst du mir den Weg ___?",
+    "targetWord": "zeigen",
+    "targetWordTranslation": "показать",
+    "level": "A1",
+    "topic": "Навигация"
+  },
+  {
+    "id": "i9j0k1l2-m3n4-5o6p-7q8r-9s0t1u2v3w4x",
+    "sentence": "Ich ___ den Lehrer.",
+    "targetWord": "frage",
+    "targetWordTranslation": "спрашиваю",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "j0k1l2m3-n4o5-6p7q-8r9s-0t1u2v3w4x5y",
+    "sentence": "Was ___ du?",
+    "targetWord": "sagst",
+    "targetWordTranslation": "говоришь",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "k1l2m3n4-o5p6-7q8r-9s0t-1u2v3w4x5y6z",
+    "sentence": "Kannst du die Wörter ___?",
+    "targetWord": "verbinden",
+    "targetWordTranslation": "соединить",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "l2m3n4o5-p6q7-8r9s-0t1u-2v3w4x5y6z7a",
+    "sentence": "Ich ___ Deutsch.",
+    "targetWord": "lerne",
+    "targetWordTranslation": "учу",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "m3n4o5p6-q7r8-9s0t-1u2v-3w4x5y6z7a8b",
+    "sentence": "Ich ___ in Berlin.",
+    "targetWord": "lebe",
+    "targetWordTranslation": "живу",
+    "level": "A1",
+    "topic": "Жизнь"
+  },
+  {
+    "id": "n4o5p6q7-r8s9-0t1u-2v3w-4x5y6z7a8b9c",
+    "sentence": "Wo ___ du?",
+    "targetWord": "wohnst",
+    "targetWordTranslation": "живешь",
+    "level": "A1",
+    "topic": "Место жительства"
+  },
+  {
+    "id": "o5p6q7r8-s9t0-1u2v-3w4x-5y6z7a8b9c0d",
+    "sentence": "Ich ___ einen Hund.",
+    "targetWord": "habe",
+    "targetWordTranslation": "имею",
+    "level": "A1",
+    "topic": "Семья и домашние животные"
+  },
+  {
+    "id": "p6q7r8s9-t0u1-2v3w-4x5y-6z7a8b9c0d1e",
+    "sentence": "Ich ___ müde.",
+    "targetWord": "bin",
+    "targetWordTranslation": "есть",
+    "level": "A1",
+    "topic": "Состояния"
+  },
+  {
+    "id": "q7r8s9t0-u1v2-3w4x-5y6z-7a8b9c0d1e2f",
+    "sentence": "Ich ___ Hilfe.",
+    "targetWord": "brauche",
+    "targetWordTranslation": "нуждаюсь",
+    "level": "A1",
+    "topic": "Потребности"
+  },
+  {
+    "id": "r8s9t0u1-v2w3-4x5y-6z7a-8b9c0d1e2f3g",
+    "sentence": "Ich ___ Brot.",
+    "targetWord": "kaufe",
+    "targetWordTranslation": "покупаю",
+    "level": "A1",
+    "topic": "Покупки"
+  },
+  {
+    "id": "s9t0u1v2-w3x4-5y6z-7a8b-9c0d1e2f3g4h",
+    "sentence": "Wie viel ___ das?",
+    "targetWord": "kostet",
+    "targetWordTranslation": "стоит",
+    "level": "A1",
+    "topic": "Цены"
+  },
+  {
+    "id": "t0u1v2w3-x4y5-6z7a-8b9c-0d1e2f3g4h5i",
+    "sentence": "Ich ___ Kaffee trinken.",
+    "targetWord": "möchte",
+    "targetWordTranslation": "хочу",
+    "level": "A1",
+    "topic": "Желания"
+  },
+  {
+    "id": "u1v2w3x4-y5z6-7a8b-9c0d-1e2f3g4h5i6j",
+    "sentence": "Ich ___ den Schlüssel.",
+    "targetWord": "finde",
+    "targetWordTranslation": "нахожу",
+    "level": "A1",
+    "topic": "Поиск"
+  },
+  {
+    "id": "v2w3x4y5-z6a7-8b9c-0d1e-2f3g4h5i6j7k",
+    "sentence": "Ich ___ diese Person.",
+    "targetWord": "kenne",
+    "targetWordTranslation": "знаю",
+    "level": "A1",
+    "topic": "Знакомства"
+  },
+  {
+    "id": "w3x4y5z6-a7b8-9c0d-1e2f-3g4h5i6j7k8l",
+    "sentence": "Das Bild ___ mir gut.",
+    "targetWord": "gefällt",
+    "targetWordTranslation": "нравится",
+    "level": "A1",
+    "topic": "Вкусы"
+  },
+  {
+    "id": "x4y5z6a7-b8c9-0d1e-2f3g-4h5i6j7k8l9m",
+    "sentence": "Ich ___ meine Brille.",
+    "targetWord": "suche",
+    "targetWordTranslation": "ищу",
+    "level": "A1",
+    "topic": "Поиск"
+  },
+  {
+    "id": "y5z6a7b8-c9d0-1e2f-3g4h-5i6j7k8l9m0n",
+    "sentence": "Er ___ die Wohnung.",
+    "targetWord": "vermietet",
+    "targetWordTranslation": "сдает в аренду",
+    "level": "A1",
+    "topic": "Жилье"
+  },
+  {
+    "id": "z6a7b8c9-d0e1-2f3g-4h5i-6j7k8l9m0n1o",
+    "sentence": "Ich ___ die Rechnung.",
+    "targetWord": "bezahle",
+    "targetWordTranslation": "оплачиваю",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3g4h-5i6j-7k8l9m0n1o2p",
+    "sentence": "Sie ___ ihr Auto.",
+    "targetWord": "verkauft",
+    "targetWordTranslation": "продает",
+    "level": "A1",
+    "topic": "Покупки"
+  },
+  {
+    "id": "b8c9d0e1-f2g3-4h5i-6j7k-8l9m0n1o2p3q",
+    "sentence": "Ich ___ einen Film.",
+    "targetWord": "sehe",
+    "targetWordTranslation": "смотрю",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "c9d0e1f2-g3h4-5i6j-7k8l-9m0n1o2p3q4r",
+    "sentence": "Ich ___ meine Hausaufgaben.",
+    "targetWord": "mache",
+    "targetWordTranslation": "делаю",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "d0e1f2g3-h4i5-6j7k-8l9m-0n1o2p3q4r5s",
+    "sentence": "Ich ___ jeden Morgen.",
+    "targetWord": "frühstücke",
+    "targetWordTranslation": "завтракаю",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "e1f2g3h4-i5j6-7k8l-9m0n-1o2p3q4r5s6t",
+    "sentence": "Wir ___ im Supermarkt ein.",
+    "targetWord": "kaufen",
+    "targetWordTranslation": "покупаем",
+    "level": "A1",
+    "topic": "Покупки"
+  },
+  {
+    "id": "f2g3h4i5-j6k7-8l9m-0n1o-2p3q4r5s6t7u",
+    "sentence": "Ich ___ gern Musik.",
+    "targetWord": "höre",
+    "targetWordTranslation": "слушаю",
+    "level": "A1",
+    "topic": "Музыка"
+  },
+  {
+    "id": "g3h4i5j6-k7l8-9m0n-1o2p-3q4r5s6t7u8v",
+    "sentence": "Ich ___ Abendessen.",
+    "targetWord": "koche",
+    "targetWordTranslation": "готовлю",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "h4i5j6k7-l8m9-0n1o-2p3q-4r5s6t7u8v9w",
+    "sentence": "Wir ___ im Park spazieren.",
+    "targetWord": "gehen",
+    "targetWordTranslation": "гуляем",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "i5j6k7l8-m9n0-1o2p-3q4r-5s6t7u8v9w0x",
+    "sentence": "Ich ___ mein Zimmer ___.",
+    "targetWord": "räume auf",
+    "targetWordTranslation": "убираю",
+    "level": "A1",
+    "topic": "Дом"
+  },
+  {
+    "id": "j6k7l8m9-n0o1-2p3q-4r5s-6t7u8v9w0x1y",
+    "sentence": "Ich ___ jeden Morgen früh ___.",
+    "targetWord": "stehe auf",
+    "targetWordTranslation": "встаю",
+    "level": "A1",
+    "topic": "Утро"
+  },
+  {
+    "id": "k7l8m9n0-o1p2-3q4r-5s6t-7u8v9w0x1y2z",
+    "sentence": "Ich ___ zur Arbeit.",
+    "targetWord": "gehe",
+    "targetWordTranslation": "иду",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "l8m9n0o1-p2q3-4r5s-6t7u-8v9w0x1y2z3a",
+    "sentence": "Ich ___ meine Freundin ___.",
+    "targetWord": "rufe an",
+    "targetWordTranslation": "звоню",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "m9n0o1p2-q3r4-5s6t-7u8v-9w0x1y2z3a4b",
+    "sentence": "Wir ___ jeden Abend ___.",
+    "targetWord": "sehen fern",
+    "targetWordTranslation": "смотрим телевизор",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "n0o1p2q3-r4s5-6t7u-8v9w-0x1y2z3a4b5c",
+    "sentence": "Ich ___ in einem Büro.",
+    "targetWord": "arbeite",
+    "targetWordTranslation": "работаю",
+    "level": "A1",
+    "topic": "Работа"
+  },
+  {
+    "id": "o1p2q3r4-s5t6-7u8v-9w0x-1y2z3a4b5c6d",
+    "sentence": "Die Kinder ___ im Garten.",
+    "targetWord": "spielen",
+    "targetWordTranslation": "играют",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "p2q3r4s5-t6u7-8v9w-0x1y-2z3a4b5c6d7e",
+    "sentence": "Ich ___ gern Pizza.",
+    "targetWord": "esse",
+    "targetWordTranslation": "ем",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "q3r4s5t6-u7v8-9w0x-1y2z-3a4b5c6d7e8f",
+    "sentence": "Der Film ___ um 20 Uhr ___.",
+    "targetWord": "fängt an",
+    "targetWordTranslation": "начинается",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "r4s5t6u7-v8w9-0x1y-2z3a-4b5c6d7e8f9g",
+    "sentence": "Der Kurs ___ um 17 Uhr.",
+    "targetWord": "endet",
+    "targetWordTranslation": "заканчивается",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "s5t6u7v8-w9x0-1y2z-3a4b-5c6d7e8f9g0h",
+    "sentence": "Ich ___ Wasser.",
+    "targetWord": "trinke",
+    "targetWordTranslation": "пью",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "t6u7v8w9-x0y1-2z3a-4b5c-6d7e8f9g0h1i",
+    "sentence": "Ich ___ gern mit Freunden.",
+    "targetWord": "chatte",
+    "targetWordTranslation": "переписываюсь в чате",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "u7v8w9x0-y1z2-3a4b-5c6d-7e8f9g0h1i2j",
+    "sentence": "Kannst du das Fenster ___?",
+    "targetWord": "öffnen",
+    "targetWordTranslation": "открыть",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "v8w9x0y1-z2a3-4b5c-6d7e-8f9g0h1i2j3k",
+    "sentence": "Kannst du mir den Stift ___?",
+    "targetWord": "bringen",
+    "targetWordTranslation": "принести",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "w9x0y1z2-a3b4-5c6d-7e8f-9g0h1i2j3k4l",
+    "sentence": "Ich ___ mich ____.",
+    "targetWord": "frage",
+    "targetWordTranslation": "спрашиваю",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "x0y1z2a3-b4c5-6d7e-8f9g-0h1i2j3k4l5m",
+    "sentence": "Ich ___ dich vom Bahnhof ___.",
+    "targetWord": "hole ab",
+    "targetWordTranslation": "заберу",
+    "level": "A1",
+    "topic": "Путешествия"
+  },
+  {
+    "id": "y1z2a3b4-c5d6-7e8f-9g0h-1i2j3k4l5m6n",
+    "sentence": "Kannst du mir ___?",
+    "targetWord": "antworten",
+    "targetWordTranslation": "ответить",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "z2a3b4c5-d6e7-8f9g-0h1i-2j3k4l5m6n7o",
+    "sentence": "Wir ___ in den Bergen.",
+    "targetWord": "wandern",
+    "targetWordTranslation": "ходим в поход",
+    "level": "A1",
+    "topic": "Отдых"
+  },
+  {
+    "id": "a3b4c5d6-e7f8-9g0h-1i2j-3k4l5m6n7o8p",
+    "sentence": "Ich ___ mit meiner Mutter.",
+    "targetWord": "telefoniere",
+    "targetWordTranslation": "разговариваю по телефону",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "b4c5d6e7-f8g9-0h1i-2j3k-4l5m6n7o8p9q",
+    "sentence": "Die Sonne ___.",
+    "targetWord": "scheint",
+    "targetWordTranslation": "светит",
+    "level": "A1",
+    "topic": "Погода"
+  },
+  {
+    "id": "c5d6e7f8-g9h0-1i2j-3k4l-5m6n7o8p9q0r",
+    "sentence": "Es ___.",
+    "targetWord": "regnet",
+    "targetWordTranslation": "идет дождь",
+    "level": "A1",
+    "topic": "Погода"
+  },
+  {
+    "id": "d6e7f8g9-h0i1-2j3k-4l5m-6n7o8p9q0r1s",
+    "sentence": "Ich ___ den Schlüssel.",
+    "targetWord": "vergesse",
+    "targetWordTranslation": "забываю",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "e7f8g9h0-i1j2-3k4l-5m6n-7o8p9q0r1s2t",
+    "sentence": "Es ___.",
+    "targetWord": "schneit",
+    "targetWordTranslation": "идет снег",
+    "level": "A1",
+    "topic": "Погода"
+  },
+  {
+    "id": "f8g9h0i1-j2k3-4l5m-6n7o-8p9q0r1s2t3u",
+    "sentence": "Die Preise ___.",
+    "targetWord": "steigen",
+    "targetWordTranslation": "растут",
+    "level": "A1",
+    "topic": "Экономика"
+  },
+  {
+    "id": "g9h0i1j2-k3l4-5m6n-7o8p-9q0r1s2t3u4v",
+    "sentence": "Ich ___ zu Hause.",
+    "targetWord": "bleibe",
+    "targetWordTranslation": "остаюсь",
+    "level": "A1",
+    "topic": "Дом"
+  },
+  {
+    "id": "h0i1j2k3-l4m5-6n7o-8p9q-0r1s2t3u4v5w",
+    "sentence": "Ich ___ ein Taxi.",
+    "targetWord": "nehme",
+    "targetWordTranslation": "беру",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "i1j2k3l4-m5n6-7o8p-9q0r-1s2t3u4v5w6x",
+    "sentence": "Wir ___ gern.",
+    "targetWord": "tanzen",
+    "targetWordTranslation": "танцуем",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "j2k3l4m5-n6o7-8p9q-0r1s-2t3u4v5w6x7y",
+    "sentence": "Ich ___ im See.",
+    "targetWord": "schwimme",
+    "targetWordTranslation": "плаваю",
+    "level": "A1",
+    "topic": "Спорт"
+  },
+  {
+    "id": "k3l4m5n6-o7p8-9q0r-1s2t-3u4v5w6x7y8z",
+    "sentence": "Ich ___ meine Freunde.",
+    "targetWord": "treffe",
+    "targetWordTranslation": "встречаю",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "l4m5n6o7-p8q9-0r1s-2t3u-4v5w6x7y8z9a",
+    "sentence": "Ich ___ Auto.",
+    "targetWord": "fahre",
+    "targetWordTranslation": "еду",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "m5n6o7p8-q9r0-1s2t-3u4v-5w6x7y8z9a0b",
+    "sentence": "Wir ___ im Garten.",
+    "targetWord": "grillen",
+    "targetWordTranslation": "жарим на гриле",
+    "level": "A1",
+    "topic": "Досуг"
+  },
+  {
+    "id": "n6o7p8q9-r0s1-2t3u-4v5w-6x7y8z9a0b1c",
+    "sentence": "Ich ___ ein Buch.",
+    "targetWord": "lese",
+    "targetWordTranslation": "читаю",
+    "level": "A1",
+    "topic": "Чтение"
+  },
+  {
+    "id": "o7p8q9r0-s1t2-3u4v-5w6x-7y8z9a0b1c2d",
+    "sentence": "Ich ___ Briefmarken.",
+    "targetWord": "sammle",
+    "targetWordTranslation": "собираю",
+    "level": "A1",
+    "topic": "Хобби"
+  },
+  {
+    "id": "p8q9r0s1-t2u3-4v5w-6x7y-8z9a0b1c2d3e",
+    "sentence": "Ich ___ gern Landschaften.",
+    "targetWord": "fotografiere",
+    "targetWordTranslation": "фотографирую",
+    "level": "A1",
+    "topic": "Хобби"
+  },
+  {
+    "id": "q9r0s1t2-u3v4-5w6x-7y8z-9a0b1c2d3e4f",
+    "sentence": "Ich ___ das ist gut.",
+    "targetWord": "meine",
+    "targetWordTranslation": "полагаю",
+    "level": "A1",
+    "topic": "Мнения"
+  },
+  {
+    "id": "r0s1t2u3-v4w5-6x7y-8z9a-0b1c2d3e4f5g",
+    "sentence": "Ich ___ meine Kinder.",
+    "targetWord": "wecke",
+    "targetWordTranslation": "бужу",
+    "level": "A1",
+    "topic": "Утро"
+  },
+  {
+    "id": "s1t2u3v4-w5x6-7y8z-9a0b-1c2d3e4f5g6h",
+    "sentence": "Ich bin ___.",
+    "targetWord": "fertig",
+    "targetWordTranslation": "готов",
+    "level": "A1",
+    "topic": "Состояния"
+  },
+  {
+    "id": "t2u3v4w5-x6y7-8z9a-0b1c-2d3e4f5g6h7i",
+    "sentence": "Was ist ___?",
+    "targetWord": "los",
+    "targetWordTranslation": "происходит",
+    "level": "A1",
+    "topic": "Вопросы"
+  },
+  {
+    "id": "u3v4w5x6-y7z8-9a0b-1c2d-3e4f5g6h7i8j",
+    "sentence": "Ich ___ einen Brief.",
+    "targetWord": "schreibe",
+    "targetWordTranslation": "пишу",
+    "level": "A1",
+    "topic": "Письмо"
+  },
+  {
+    "id": "v4w5x6y7-z8a9-0b1c-2d3e-4f5g6h7i8j9k",
+    "sentence": "Das Essen ___ gut.",
+    "targetWord": "schmeckt",
+    "targetWordTranslation": "вкусно",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "w5x6y7z8-a9b0-1c2d-3e4f-5g6h7i8j9k0l",
+    "sentence": "Ich ___ Deutsch sprechen.",
+    "targetWord": "kann",
+    "targetWordTranslation": "могу",
+    "level": "A1",
+    "topic": "Способности"
+  },
+  {
+    "id": "x6y7z8a9-b0c1-2d3e-4f5g-6h7i8j9k0l1m",
+    "sentence": "Ich ___ einen Kuchen.",
+    "targetWord": "backe",
+    "targetWordTranslation": "пеку",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "y7z8a9b0-c1d2-3e4f-5g6h-7i8j9k0l1m2n",
+    "sentence": "Ich ___ gern.",
+    "targetWord": "singe",
+    "targetWordTranslation": "пою",
+    "level": "A1",
+    "topic": "Музыка"
+  },
+  {
+    "id": "z8a9b0c1-d2e3-4f5g-6h7i-8j9k0l1m2n3o",
+    "sentence": "Ich ___ Pferd.",
+    "targetWord": "reite",
+    "targetWordTranslation": "езжу верхом",
+    "level": "A1",
+    "topic": "Хобби"
+  },
+  {
+    "id": "a9b0c1d2-e3f4-5g6h-7i8j-9k0l1m2n3o4p",
+    "sentence": "Ich ___ ein Bild.",
+    "targetWord": "male",
+    "targetWordTranslation": "рисую",
+    "level": "A1",
+    "topic": "Хобби"
+  },
+  {
+    "id": "b0c1d2e3-f4g5-6h7i-8j9k-0l1m2n3o4p5q",
+    "sentence": "Ich ___ ins Kino gehen.",
+    "targetWord": "will",
+    "targetWordTranslation": "хочу",
+    "level": "A1",
+    "topic": "Желания"
+  },
+  {
+    "id": "c1d2e3f4-g5h6-7i8j-9k0l-1m2n3o4p5q6r",
+    "sentence": "Ich ___ Deutsch.",
+    "targetWord": "übe",
+    "targetWordTranslation": "тренируюсь",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "d2e3f4g5-h6i7-8j9k-0l1m-2n3o4p5q6r7s",
+    "sentence": "Wir ___ jetzt ___.",
+    "targetWord": "fahren los",
+    "targetWordTranslation": "отправляемся",
+    "level": "A1",
+    "topic": "Путешествия"
+  },
+  {
+    "id": "e3f4g5h6-i7j8-9k0l-1m2n-3o4p5q6r7s8t",
+    "sentence": "Wann ___ du ___?",
+    "targetWord": "kommst zurück",
+    "targetWordTranslation": "вернешься",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "f4g5h6i7-j8k9-0l1m-2n3o-4p5q6r7s8t9u",
+    "sentence": "Ich ___ gern mit dir ___.",
+    "targetWord": "komme mit",
+    "targetWordTranslation": "пойду с тобой",
+    "level": "A1",
+    "topic": "Общение"
+  },
+  {
+    "id": "g5h6i7j8-k9l0-1m2n-3o4p-5q6r7s8t9u0v",
+    "sentence": "Es tut mir ___.",
+    "targetWord": "leid",
+    "targetWordTranslation": "жаль",
+    "level": "A1",
+    "topic": "Чувства"
+  },
+  {
+    "id": "h6i7j8k9-l0m1-2n3o-4p5q-6r7s8t9u0v1w",
+    "sentence": "Ich ___ in Berlin.",
+    "targetWord": "studiere",
+    "targetWordTranslation": "учусь",
+    "level": "A1",
+    "topic": "Учёба"
+  },
+  {
+    "id": "i7j8k9l0-m1n2-3o4p-5q6r-7s8t9u0v1w2x",
+    "sentence": "Wie lange ___ der Kurs?",
+    "targetWord": "dauert",
+    "targetWordTranslation": "длится",
+    "level": "A1",
+    "topic": "Время"
+  },
+  {
+    "id": "j8k9l0m1-n2o3-4p5q-6r7s-8t9u0v1w2x3y",
+    "sentence": "Sie ___ nächstes Jahr.",
+    "targetWord": "heiraten",
+    "targetWordTranslation": "женятся",
+    "level": "A1",
+    "topic": "Семья"
+  },
+  {
+    "id": "k9l0m1n2-o3p4-5q6r-7s8t-9u0v1w2x3y4z",
+    "sentence": "Kannst du mir die Fotos ___?",
+    "targetWord": "zeigen",
+    "targetWordTranslation": "показать",
+    "level": "A1",
+    "topic": "Действия"
+  },
+  {
+    "id": "l0m1n2o3-p4q5-6r7s-8t9u-0v1w2x3y4z5a",
+    "sentence": "Ich ___ ein Geschenk.",
+    "targetWord": "bekomme",
+    "targetWordTranslation": "получаю",
+    "level": "A1",
+    "topic": "Подарки"
+  },
+  {
+    "id": "m1n2o3p4-q5r6-7s8t-9u0v-1w2x3y4z5a6b",
+    "sentence": "Ich ___ die Rechnung.",
+    "targetWord": "zahle",
+    "targetWordTranslation": "плачу",
+    "level": "A1",
+    "topic": "Финансы"
+  },
+  {
+    "id": "n2o3p4q5-r6s7-8t9u-0v1w-2x3y4z5a6b7c",
+    "sentence": "Ich ___ ein Fahrrad.",
+    "targetWord": "miete",
+    "targetWordTranslation": "арендую",
+    "level": "A1",
+    "topic": "Транспорт"
+  },
+  {
+    "id": "o3p4q5r6-s7t8-9u0v-1w2x-3y4z5a6b7c8d",
+    "sentence": "Ich ___ jetzt gehen.",
+    "targetWord": "muss",
+    "targetWordTranslation": "должен",
+    "level": "A1",
+    "topic": "Обязанности"
+  },
+  {
+    "id": "p4q5r6s7-t8u9-0v1w-2x3y-4z5a6b7c8d9e",
+    "sentence": "Bitte ___ Sie das Formular ___.",
+    "targetWord": "füllen aus",
+    "targetWordTranslation": "заполните",
+    "level": "A1",
+    "topic": "Документы"
+  },
+  {
+    "id": "q5r6s7t8-u9v0-1w2x-3y4z-5a6b7c8d9e0f",
+    "sentence": "Kannst du bitte einen Salat ___?",
+    "targetWord": "mitbringen",
+    "targetWordTranslation": "принести с собой",
+    "level": "A1",
+    "topic": "Еда"
+  },
+  {
+    "id": "r6s7t8u9-v0w1-2x3y-4z5a-6b7c8d9e0f1g",
+    "sentence": "Bitte ___ Sie hier.",
+    "targetWord": "unterschreiben",
+    "targetWordTranslation": "подпишите",
+    "level": "A1",
+    "topic": "Документы"
+  },
+  {
+    "id": "s7t8u9v0-w1x2-3y4z-5a6b-7c8d9e0f1g2h",
+    "sentence": "Das Auto ___ nicht mehr.",
+    "targetWord": "funktioniert",
+    "targetWordTranslation": "работает",
+    "level": "A1",
+    "topic": "Техника"
+  },
+  {
+    "id": "t8u9v0w1-x2y3-4z5a-6b7c-8d9e0f1g2h3i",
+    "sentence": "Ich ___ die Nummer.",
+    "targetWord": "wähle",
+    "targetWordTranslation": "выбираю",
+    "level": "A1",
+    "topic": "Телефон"
+  },
+  {
+    "id": "u9v0w1x2-y3z4-5a6b-7c8d-9e0f1g2h3i4j",
+    "sentence": "Ich ___ die richtige Option ___.",
+    "targetWord": "wähle aus",
+    "targetWordTranslation": "выбираю",
+    "level": "A1",
+    "topic": "Выбор"
+  }
+]
