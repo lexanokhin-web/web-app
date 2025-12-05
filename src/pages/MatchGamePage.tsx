@@ -69,26 +69,53 @@ export const MatchGamePage: React.FC = () => {
         const categoryTranslations: Record<string, string> = {
             // A1
             'Numbers': 'Zahlen',
-            'Family': 'Familie und Menschen',
+            'Family & People': 'Familie und Menschen',
             'Colors': 'Farben',
-            'Body parts': 'Körperteile',
-            'Food and Drinks': 'Essen und Trinken',
-            'Fruits and Vegetables': 'Obst und Gemüse',
-            'Housing': 'Wohnen',
-            'Time and Calendar': 'Zeit und Kalender',
-            'Weather and Seasons': 'Wetter und Jahreszeiten',
-            'Common Verbs': 'Verben',
-            'Adjectives': 'Adjektive',
-            'School and Study': 'Schule und Studium',
+            'Body Parts': 'Körperteile',
+            'Food & Drink': 'Essen und Trinken',
+            'Fruits & Vegetables': 'Obst und Gemüse',
+            'Home & Furniture': 'Wohnen und Möbel',
+            'Time & Calendar': 'Zeit und Kalender',
+            'Weather & Seasons': 'Wetter und Jahreszeiten',
+            'Basic Verbs': 'Grundlegende Verben',
+            'Basic Adjectives': 'Grundlegende Adjektive',
+            'School Supplies': 'Schulsachen',
             'Animals': 'Tiere',
-            'Clothing': 'Kleidung',
-            // Generic fallback
-            'Food': 'Essen',
-            'Home': 'Zuhause',
-            'Body': 'Körper',
-            'Time': 'Zeit',
-            'Weather': 'Wetter',
-            'School': 'Schule'
+            'Clothing Basics': 'Kleidung',
+
+            // A2
+            'Shopping & Money': 'Einkaufen und Geld',
+            'Clothing & Accessories': 'Kleidung und Accessoires',
+            'Health & Medicine': 'Gesundheit und Medizin',
+            'Hobbies & Free Time': 'Hobbys und Freizeit',
+            'Sports': 'Sport',
+            'Transportation & Vehicles': 'Verkehr und Fahrzeuge',
+            'City & Places': 'Stadt und Orte',
+            'Nature & Plants': 'Natur und Pflanzen',
+            'Emotions & Feelings': 'Gefühle und Emotionen',
+            'Restaurant & Dining': 'Restaurant und Essen',
+            'Technology Basics': 'Technologie',
+            'Professions': 'Berufe',
+            'More Verbs': 'Weitere Verben',
+
+            // B1
+            'Work & Career': 'Arbeit und Karriere',
+            'Education & Learning': 'Bildung und Lernen',
+            'Travel & Tourism': 'Reisen und Tourismus',
+            'Relationships & Social Life': 'Beziehungen',
+            'Media & Communication': 'Medien und Kommunikation',
+            'Environment & Nature': 'Umwelt und Natur',
+            'Culture & Entertainment': 'Kultur und Unterhaltung',
+            'Housing & Living': 'Wohnen und Leben',
+            'Advanced Verbs': 'Fortgeschrittene Verben',
+            'Advanced Adjectives': 'Fortgeschrittene Adjektive',
+
+            // B2
+            'Politics & Society': 'Politik und Gesellschaft',
+            'Economy & Business': 'Wirtschaft',
+            'Science & Technology': 'Wissenschaft und Technik',
+            'Law & Justice': 'Recht und Gerechtigkeit',
+            'Abstract Concepts': 'Abstrakte Begriffe'
         };
 
         const systemBlocks: WordBlock[] = allVocabularyCategories.map(category => ({
@@ -643,7 +670,7 @@ export const MatchGamePage: React.FC = () => {
                     <MatchGame
                         pairs={pairs}
                         onComplete={handleComplete}
-                        onExit={() => navigate('/')}
+                        onExit={resetGame}
                     />
                 )}
             </div>
