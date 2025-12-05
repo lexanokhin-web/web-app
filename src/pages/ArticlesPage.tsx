@@ -3,14 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
 import { Input } from '../components/Input';
-import { DataProvider } from '../lib/dataProvider';
+import { useArticleSentences } from '../hooks/useLoadData';
 import type { ArticleSentence } from '../types';
 import { ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const ArticlesPage: React.FC = () => {
     const navigate = useNavigate();
-    const [dataProvider] = useState(() => DataProvider.getInstance());
+
+    const { data: rawData, isLoading: isQueryLoading } = useArticleSentences();
 
     const [sentences, setSentences] = useState<ArticleSentence[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,14 +22,17 @@ export const ArticlesPage: React.FC = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const loadData = async () => {
-            const data = await dataProvider.loadArticleSentences();
-            const shuffled = [...data].sort(() => Math.random() - 0.5);
+        if (rawData) {
+            const shuffled = [...rawData].sort(() => Math.random() - 0.5);
             setSentences(shuffled);
             setLoading(false);
-        };
-        loadData();
-    }, []);
+        }
+    }, [rawData]);
+
+    // Sync loading state
+    useEffect(() => {
+        setLoading(isQueryLoading);
+    }, [isQueryLoading]);
 
     const nextSentence = () => {
         setUserInput('');

@@ -2,14 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { DataProvider } from '../lib/dataProvider';
+import { useAntonymExercises } from '../hooks/useLoadData';
 import type { AntonymExercise } from '../types';
 import { ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const AntonymsPage: React.FC = () => {
     const navigate = useNavigate();
-    const [dataProvider] = useState(() => DataProvider.getInstance());
+
+    const { data: rawExercises, isLoading: isQueryLoading } = useAntonymExercises();
 
     const [exercises, setExercises] = useState<AntonymExercise[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -20,17 +21,20 @@ export const AntonymsPage: React.FC = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const loadData = async () => {
-            const data = await dataProvider.loadAntonymExercises();
-            const shuffled = data.map(exercise => ({
+        if (rawExercises) {
+            const shuffled = rawExercises.map(exercise => ({
                 ...exercise,
                 options: [...exercise.options].sort(() => Math.random() - 0.5)
             })).sort(() => Math.random() - 0.5);
             setExercises(shuffled);
             setLoading(false);
-        };
-        loadData();
-    }, []);
+        }
+    }, [rawExercises]);
+
+    // Sync loading state
+    useEffect(() => {
+        setLoading(isQueryLoading);
+    }, [isQueryLoading]);
 
     const handleOptionSelect = (option: string) => {
         if (showResult) return;

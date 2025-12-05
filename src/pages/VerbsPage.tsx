@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { availableBlocks } from '../lib/dataProvider';
+import { availableBlocks } from '../lib/blocks';
 import type { BlockInfo } from '../types';
 import { ArrowLeft, Play, FileCheck } from 'lucide-react';
 import { motion } from 'framer-motion';

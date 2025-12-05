@@ -3,22 +3,20 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
 import { Input } from '../components/Input';
-import { DataProvider } from '../lib/dataProvider';
-import type { Sentence, UserProgress } from '../types';
+import { useBlockSentences } from '../hooks/useLoadData';
+import { useExerciseProgress } from '../hooks/useExerciseProgress';
+import type { Sentence } from '../types';
 import { ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const ExercisePage: React.FC = () => {
     const navigate = useNavigate();
     const { blockId } = useParams<{ blockId: string }>();
-    const [dataProvider] = useState(() => DataProvider.getInstance());
     const inputRef = useRef<HTMLInputElement>(null);
 
-    const [progress, setProgress] = useState<UserProgress>({
-        learnedWordIDs: [],
-        toRepeatWordIDs: [],
-        totalCompleted: 0
-    });
+    const { data: sentences, isLoading: isSentencesLoading } = useBlockSentences(blockId);
+    const { progress, saveProgress } = useExerciseProgress(blockId);
+
     const [currentSentence, setCurrentSentence] = useState<Sentence | null>(null);
     const [userInput, setUserInput] = useState('');
     const [showHint, setShowHint] = useState(false);
@@ -27,33 +25,16 @@ export const ExercisePage: React.FC = () => {
     const [sessionQueue, setSessionQueue] = useState<Sentence[]>([]);
     const [sessionRepeatQueue, setSessionRepeatQueue] = useState<Sentence[]>([]);
     const [loading, setLoading] = useState(true);
+    const [initialized, setInitialized] = useState(false);
 
-    // Auto-focus input when currentSentence changes
+    // Initialize session once data and progress are ready
     useEffect(() => {
-        if (currentSentence && inputRef.current) {
-            // Small delay to let animation complete before focusing
-            const timer = setTimeout(() => {
-                inputRef.current?.focus();
-            }, 350); // 350ms matches animation duration (300ms) + small buffer
-
-            return () => clearTimeout(timer);
-        }
-    }, [currentSentence]);
-
-    useEffect(() => {
-        const initSession = async () => {
-            if (!blockId) return;
-
-            const block = { id: blockId, displayName: '' };
-            const sentences = await dataProvider.loadBlock(block);
-            const loadedProgress = dataProvider.loadProgress();
-            setProgress(loadedProgress);
-
-            // Filter new words only
-            const newOnes = sentences.filter(s => !loadedProgress.learnedWordIDs.includes(s.id));
+        if (!initialized && sentences && blockId) {
+            const newOnes = sentences.filter(s => !progress.learnedWordIDs.includes(s.id));
             const shuffled = [...newOnes].sort(() => Math.random() - 0.5);
             setSessionQueue(shuffled);
             setLoading(false);
+            setInitialized(true);
 
             if (shuffled.length > 0) {
                 setCurrentSentence(shuffled[0]);
@@ -61,10 +42,9 @@ export const ExercisePage: React.FC = () => {
             } else {
                 setShowCompletion(true);
             }
-        };
+        }
+    }, [sentences, progress, blockId, initialized]);
 
-        initSession();
-    }, [blockId]);
 
     const nextSentence = () => {
         setUserInput('');
@@ -104,8 +84,7 @@ export const ExercisePage: React.FC = () => {
                     toRepeatWordIDs: progress.toRepeatWordIDs.filter(id => id !== currentSentence.id),
                     totalCompleted: progress.totalCompleted + 1
                 };
-                setProgress(newProgress);
-                dataProvider.saveProgress(newProgress);
+                saveProgress(newProgress);
                 nextSentence();
             } else {
                 setIsFirstAttempt(false);
@@ -118,8 +97,7 @@ export const ExercisePage: React.FC = () => {
                 toRepeatWordIDs: [...progress.toRepeatWordIDs, currentSentence.id],
                 totalCompleted: progress.totalCompleted + 1
             };
-            setProgress(newProgress);
-            dataProvider.saveProgress(newProgress);
+            saveProgress(newProgress);
             nextSentence();
         }
     };

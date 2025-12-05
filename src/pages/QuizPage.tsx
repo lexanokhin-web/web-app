@@ -7,6 +7,7 @@ import { GlassCard } from '../components/GlassCard';
 import { ArrowLeft, Trophy, Target } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useProgress } from '../hooks/useProgress';
+import { useGenericQuizData } from '../hooks/useLoadData';
 import type { QuizLevel, QuizTopic } from '../data/quizzes/quiz-config';
 
 interface QuizData {
@@ -41,90 +42,91 @@ export const QuizPage: React.FC = () => {
     const [showResults, setShowResults] = useState(false);
     const [loading, setLoading] = useState(false);
 
+    const [currentPath, setCurrentPath] = useState<string | null>(null);
+    const { data: rawSentences, isLoading: isQueryLoading, isError } = useGenericQuizData(currentPath);
+
     useEffect(() => {
-        // Direct link support (legacy or specific blocks)
+        // Direct link support
         if (blockId) {
             setMode('quiz');
-            loadQuizData(blockId);
+            // Check if it's already a full path or needs prefix? 
+            // The API handles valid paths, but blockId usually implies "sentences" or similar.
+            // QuizPage legacy: blockId usually matched a filename in /data/
+            setCurrentPath(blockId);
         }
     }, [blockId]);
+
+    // Initialize quiz when data is loaded or path changes
+    useEffect(() => {
+        if (rawSentences) {
+            startQuizFromData(rawSentences);
+        }
+    }, [rawSentences]);
 
     const handleTopicSelect = (level: QuizLevel, topic: QuizTopic) => {
         setSelectedLevel(level);
         setSelectedTopic(topic);
         setMode('quiz');
-        loadQuizData(`${level.toLowerCase()}/${topic.file.replace('.json', '')}`);
+        setCurrentPath(`${level.toLowerCase()}/${topic.file.replace('.json', '')}`);
     };
 
-    const loadQuizData = async (path: string) => {
-        setLoading(true);
+    const startQuizFromData = (sentences: Sentence[]) => {
         // Reset state
         setCurrentIndex(0);
         setScore(0);
         setAnsweredCount(0);
         setShowResults(false);
 
-        try {
-            // Handle both flat paths (legacy) and nested paths (new structure)
-            // If path contains '/', use it directly, otherwise assume it's a flat file in data root
-            const url = path.includes('/') ? `/data/quizzes/${path}.json` : `/data/${path}.json`;
+        // Shuffle and take 10
+        const shuffledSentences = [...sentences].sort(() => Math.random() - 0.5);
+        const questionCount = Math.min(10, shuffledSentences.length);
 
-            const response = await fetch(url);
-            if (!response.ok) throw new Error('Failed to load quiz data');
+        const quiz: QuizData[] = shuffledSentences.slice(0, questionCount).map(sentence => {
+            const correctAnswer = sentence.targetWord;
+            let wrongAnswers: string[] = [];
 
-            const sentences: Sentence[] = await response.json();
+            if (sentence.wrongAnswers && sentence.wrongAnswers.length > 0) {
+                wrongAnswers = sentence.wrongAnswers
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, 3);
+            } else {
+                // Generate distractors
+                const allOtherWords = sentences
+                    .filter(s => s.targetWord !== correctAnswer)
+                    .map(s => s.targetWord);
+                const uniqueWrongWords = Array.from(new Set(allOtherWords));
+                wrongAnswers = uniqueWrongWords
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, 3);
+            }
 
-            // Перемешать предложения и взять 10 случайных
-            // If we have fewer than 10, take all of them
-            const shuffledSentences = sentences.sort(() => Math.random() - 0.5);
-            const questionCount = Math.min(10, shuffledSentences.length);
+            while (wrongAnswers.length < 3) {
+                wrongAnswers.push('?');
+            }
 
-            // Конвертировать в quiz формат
-            const quiz: QuizData[] = shuffledSentences.slice(0, questionCount).map(sentence => {
-                const correctAnswer = sentence.targetWord;
-                let wrongAnswers: string[] = [];
+            return {
+                question: sentence.sentence.replace('_____', '______'),
+                correctAnswer,
+                wrongAnswers
+            };
+        });
 
-                if (sentence.wrongAnswers && sentence.wrongAnswers.length > 0) {
-                    wrongAnswers = sentence.wrongAnswers
-                        .sort(() => Math.random() - 0.5)
-                        .slice(0, 3);
-                } else {
-                    // Генерировать неправильные ответы из других предложений
-                    const allOtherWords = sentences
-                        .filter(s => s.targetWord !== correctAnswer)
-                        .map(s => s.targetWord);
+        setQuizData(quiz);
+    };
 
-                    // Убрать дубликаты
-                    const uniqueWrongWords = Array.from(new Set(allOtherWords));
+    // Combined loading state
+    useEffect(() => {
+        setLoading(isQueryLoading);
+    }, [isQueryLoading]);
 
-                    // Взять 3 случайных уникальных неправильных ответа
-                    wrongAnswers = uniqueWrongWords
-                        .sort(() => Math.random() - 0.5)
-                        .slice(0, 3);
-                }
-
-                // Fallback if not enough wrong answers found in the file (e.g. very small files)
-                while (wrongAnswers.length < 3) {
-                    wrongAnswers.push('?'); // Placeholder to avoid crashes, though unlikely with our data
-                }
-
-                return {
-                    question: sentence.sentence.replace('_____', '______'),
-                    correctAnswer,
-                    wrongAnswers
-                };
-            });
-
-            setQuizData(quiz);
-        } catch (error) {
-            console.error('Failed to load quiz data:', error);
-            // Fallback needed or show error? For now, go back to selection
+    // Handle Error
+    useEffect(() => {
+        if (isError) {
             alert('Fehler beim Laden der Übung. Bitte versuche es erneut.');
             setMode('selection');
-        } finally {
-            setLoading(false);
+            setCurrentPath(null);
         }
-    };
+    }, [isError]);
 
     const handleAnswer = (isCorrect: boolean) => {
         setAnsweredCount(answeredCount + 1);
@@ -155,10 +157,10 @@ export const QuizPage: React.FC = () => {
     };
 
     const handleRestart = () => {
-        if (selectedLevel && selectedTopic) {
-            handleTopicSelect(selectedLevel, selectedTopic);
+        if (rawSentences) {
+            startQuizFromData(rawSentences);
         } else {
-            // Should not happen in normal flow
+            // Should not happen if we are on result screen
             setMode('selection');
         }
     };

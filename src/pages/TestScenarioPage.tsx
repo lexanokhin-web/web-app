@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { DataProvider } from '../lib/dataProvider';
+import { useTestScenario } from '../hooks/useLoadData';
 import type { StandaloneScenarioModel } from '../types';
 import { ArrowLeft, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -14,7 +14,9 @@ interface TestScenarioPageProps {
 export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: propFilename }) => {
     const navigate = useNavigate();
     const { scenarioId } = useParams<{ scenarioId?: string }>();
-    const [dataProvider] = useState(() => DataProvider.getInstance());
+
+    const filename = propFilename || scenarioId || 'verb_test_scenarios';
+    const { data: rawData, isLoading: isQueryLoading } = useTestScenario(filename);
 
     const [sentences, setSentences] = useState<StandaloneScenarioModel[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,15 +29,17 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const loadData = async () => {
-            const filename = propFilename || scenarioId || 'verb_test_scenarios';
-            const data = await dataProvider.loadTestScenario(filename);
-            const shuffled = [...data].sort(() => Math.random() - 0.5);
+        if (rawData) {
+            const shuffled = [...rawData].sort(() => Math.random() - 0.5);
             setSentences(shuffled);
             setLoading(false);
-        };
-        loadData();
-    }, [scenarioId, propFilename]);
+        }
+    }, [rawData]);
+
+    // Sync loading state with query
+    useEffect(() => {
+        setLoading(isQueryLoading);
+    }, [isQueryLoading]);
 
     const handleOptionSelect = (option: string) => {
         if (showAnswer) return;

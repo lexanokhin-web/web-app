@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { DataProvider, availableBlocks } from '../lib/dataProvider';
+// import { DataProvider } from '../lib/dataProvider'; // Removed
+import { availableBlocks } from '../lib/blocks';
+import { useBlockSentences } from '../hooks/useLoadData';
 import type { Sentence } from '../types';
 import { ArrowLeft, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -10,7 +12,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 export const VerbTestPage: React.FC = () => {
     const navigate = useNavigate();
     const { blockId } = useParams<{ blockId: string }>();
-    const [dataProvider] = useState(() => DataProvider.getInstance());
+
+    const { data: rawData, isLoading: isQueryLoading } = useBlockSentences(blockId);
 
     const [allSentences, setAllSentences] = useState<Sentence[]>([]);
     const [sentences, setSentences] = useState<Sentence[]>([]);
@@ -42,28 +45,34 @@ export const VerbTestPage: React.FC = () => {
     };
 
     useEffect(() => {
-        const loadData = async () => {
-            const block = availableBlocks.find(b => b.id === blockId);
-            if (!block) {
-                console.error('Block not found');
-                setLoading(false);
-                return;
-            }
+        const block = availableBlocks.find(b => b.id === blockId);
+        if (!block) {
+            console.error('Block not found');
+            setLoading(false);
+            return;
+        }
 
-            const data = await dataProvider.loadBlock(block);
-            setAllSentences(data);
-
-            const shuffled = [...data].sort(() => Math.random() - 0.5);
+        if (rawData) {
+            setAllSentences(rawData);
+            const shuffled = [...rawData].sort(() => Math.random() - 0.5);
             setSentences(shuffled);
 
             if (shuffled.length > 0) {
-                setCurrentOptions(prepareOptions(shuffled[0], data));
+                setCurrentOptions(prepareOptions(shuffled[0], rawData));
             }
-
             setLoading(false);
-        };
-        loadData();
-    }, [blockId]);
+        }
+    }, [blockId, rawData]);
+
+    // Sync loading
+    useEffect(() => {
+        // Only set loading to true if we are waiting for query
+        // We might have handled !block case above
+        const block = availableBlocks.find(b => b.id === blockId);
+        if (block) {
+            setLoading(isQueryLoading);
+        }
+    }, [isQueryLoading, blockId]);
 
     const handleOptionSelect = (option: string) => {
         if (showAnswer) return;
