@@ -17,9 +17,10 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit 
     const [firstSelection, setFirstSelection] = useState<MatchCardData | null>(null);
     const [secondSelection, setSecondSelection] = useState<MatchCardData | null>(null);
     const [matchedPairs, setMatchedPairs] = useState<Set<string>>(new Set());
-    const [incorrectPairs] = useState<Set<string>>(new Set());
+    const [incorrectPairs, setIncorrectPairs] = useState<Set<string>>(new Set());
     const [mistakes, setMistakes] = useState(0);
     const [startTime] = useState(() => Date.now());
+
     const createDeck = React.useCallback(() => {
         const cardList: MatchCardData[] = [];
         pairs.forEach((pair, index) => {
@@ -31,15 +32,28 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit 
     }, [pairs]);
 
     // Derived state for completion
-
-    // Derived state for completion
     const isGameComplete = matchedPairs.size === pairs.length && pairs.length > 0;
 
     const checkMatch = React.useCallback(() => {
-        // TODO: Implement match checking logic
-        setFirstSelection(null);
-        setSecondSelection(null);
-    }, []);
+        if (!firstSelection || !secondSelection) return;
+
+        if (firstSelection.pairId === secondSelection.pairId) {
+            // Match
+            setMatchedPairs(prev => new Set(prev).add(firstSelection.pairId));
+            setFirstSelection(null);
+            setSecondSelection(null);
+        } else {
+            // No match
+            setMistakes(prev => prev + 1);
+            setIncorrectPairs(new Set([firstSelection.id, secondSelection.id]));
+
+            setTimeout(() => {
+                setIncorrectPairs(new Set());
+                setFirstSelection(null);
+                setSecondSelection(null);
+            }, 1000);
+        }
+    }, [firstSelection, secondSelection]);
 
     const initializeGame = React.useCallback(() => {
         setCards(createDeck());
