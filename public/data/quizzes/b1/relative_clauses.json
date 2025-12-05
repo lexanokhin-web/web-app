@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Das ist der Mann, _____ ich kenne.",
+        "targetWord": "den",
+        "targetWordTranslation": "whom (masc. acc.)",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Das ist die Frau, _____ mir hilft.",
+        "targetWord": "die",
+        "targetWordTranslation": "who (fem. nom.)",
+        "wrongAnswers": [
+            "der",
+            "den",
+            "das",
+            "dem"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Das ist das Kind, _____ spielt.",
+        "targetWord": "das",
+        "targetWordTranslation": "that (neut. nom.)",
+        "wrongAnswers": [
+            "der",
+            "die",
+            "den",
+            "dem"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Die Kinder, _____ ich sehe, spielen.",
+        "targetWord": "die",
+        "targetWordTranslation": "whom (pl. acc.)",
+        "wrongAnswers": [
+            "der",
+            "denen",
+            "dem",
+            "das"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Der Mann, _____ Auto kaputt ist.",
+        "targetWord": "dessen",
+        "targetWordTranslation": "whose (masc.)",
+        "wrongAnswers": [
+            "deren",
+            "dem",
+            "den",
+            "der"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Die Frau, _____ Tasche hier liegt.",
+        "targetWord": "deren",
+        "targetWordTranslation": "whose (fem.)",
+        "wrongAnswers": [
+            "dessen",
+            "der",
+            "die",
+            "dem"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Das Buch, _____ ich lese, ist gut.",
+        "targetWord": "das",
+        "targetWordTranslation": "that (neut. acc.)",
+        "wrongAnswers": [
+            "der",
+            "die",
+            "den",
+            "dem"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Der Lehrer, _____ ich danke.",
+        "targetWord": "dem",
+        "targetWordTranslation": "whom (masc. dat.)",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Die Stadt, in _____ ich wohne.",
+        "targetWord": "der",
+        "targetWordTranslation": "which (fem. dat.)",
+        "wrongAnswers": [
+            "die",
+            "das",
+            "den",
+            "dem"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Das Haus, in _____ wir leben.",
+        "targetWord": "dem",
+        "targetWordTranslation": "which (neut. dat.)",
+        "wrongAnswers": [
+            "das",
+            "der",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Die Freunde, mit _____ ich reise.",
+        "targetWord": "denen",
+        "targetWordTranslation": "whom (pl. dat.)",
+        "wrongAnswers": [
+            "die",
+            "den",
+            "der",
+            "dem"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Alles, _____ ich weiß.",
+        "targetWord": "was",
+        "targetWordTranslation": "what",
+        "wrongAnswers": [
+            "das",
+            "wo",
+            "wohin",
+            "wie"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Der Hund, _____ ich füttere.",
+        "targetWord": "den",
+        "targetWordTranslation": "whom (masc. acc.)",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Die Schule, _____ ich besuchte.",
+        "targetWord": "die",
+        "targetWordTranslation": "which (fem. acc.)",
+        "wrongAnswers": [
+            "der",
+            "den",
+            "das",
+            "dem"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Das Kind, _____ ich helfe.",
+        "targetWord": "dem",
+        "targetWordTranslation": "whom (neut. dat.)",
+        "wrongAnswers": [
+            "das",
+            "den",
+            "der",
+            "des"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Der Tisch, auf _____ das Buch liegt.",
+        "targetWord": "dem",
+        "targetWordTranslation": "which (masc. dat.)",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Die Frau, mit _____ ich spreche.",
+        "targetWord": "der",
+        "targetWordTranslation": "whom (fem. dat.)",
+        "wrongAnswers": [
+            "die",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Das Auto, mit _____ wir fahren.",
+        "targetWord": "dem",
+        "targetWordTranslation": "which (neut. dat.)",
+        "wrongAnswers": [
+            "das",
+            "den",
+            "der",
+            "die"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Die Leute, bei _____ wir wohnen.",
+        "targetWord": "denen",
+        "targetWordTranslation": "whom (pl. dat.)",
+        "wrongAnswers": [
+            "die",
+            "den",
+            "der",
+            "dem"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Das Beste, _____ ich habe.",
+        "targetWord": "was",
+        "targetWordTranslation": "that",
+        "wrongAnswers": [
+            "das",
+            "wo",
+            "wie",
+            "welches"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Der Ort, _____ wir uns trafen.",
+        "targetWord": "wo",
+        "targetWordTranslation": "where",
+        "wrongAnswers": [
+            "was",
+            "wer",
+            "wie",
+            "als"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Der Film, _____ wir sahen.",
+        "targetWord": "den",
+        "targetWordTranslation": "which (masc. acc.)",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Die Tasche, in _____ das Geld ist.",
+        "targetWord": "der",
+        "targetWordTranslation": "which (fem. dat.)",
+        "wrongAnswers": [
+            "die",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Der Freund, _____ ich vertraue.",
+        "targetWord": "dem",
+        "targetWordTranslation": "whom (masc. dat.)",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Die Eltern, _____ Kinder hier sind.",
+        "targetWord": "deren",
+        "targetWordTranslation": "whose (pl.)",
+        "wrongAnswers": [
+            "dessen",
+            "der",
+            "den",
+            "dem"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Das Kind, _____ Spielzeug kaputt ist.",
+        "targetWord": "dessen",
+        "targetWordTranslation": "whose (neut.)",
+        "wrongAnswers": [
+            "deren",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Der Park, durch _____ wir gehen.",
+        "targetWord": "den",
+        "targetWordTranslation": "which (masc. acc.)",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Die Brücke, über _____ wir fahren.",
+        "targetWord": "die",
+        "targetWordTranslation": "which (fem. acc.)",
+        "wrongAnswers": [
+            "der",
+            "den",
+            "das",
+            "dem"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Das Haus, _____ Dach rot ist.",
+        "targetWord": "dessen",
+        "targetWordTranslation": "whose (neut.)",
+        "wrongAnswers": [
+            "deren",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Nichts, _____ wichtig ist.",
+        "targetWord": "was",
+        "targetWordTranslation": "that",
+        "wrongAnswers": [
+            "das",
+            "wo",
+            "wie",
+            "welches"
+        ]
+    }
+]

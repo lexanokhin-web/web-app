@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Der _____ (gut) Mann hilft mir.",
+        "targetWord": "gute",
+        "targetWordTranslation": "good",
+        "wrongAnswers": [
+            "guten",
+            "gutes",
+            "gutem",
+            "guter"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Ich sehe den _____ (groß) Hund.",
+        "targetWord": "großen",
+        "targetWordTranslation": "big",
+        "wrongAnswers": [
+            "große",
+            "großes",
+            "großem",
+            "großer"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Das ist ein _____ (schön) Haus.",
+        "targetWord": "schönes",
+        "targetWordTranslation": "beautiful",
+        "wrongAnswers": [
+            "schöne",
+            "schönen",
+            "schönem",
+            "schöner"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Ich habe eine _____ (neu) Tasche.",
+        "targetWord": "neue",
+        "targetWordTranslation": "new",
+        "wrongAnswers": [
+            "neuen",
+            "neues",
+            "neuem",
+            "neuer"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Mit dem _____ (schnell) Auto.",
+        "targetWord": "schnellen",
+        "targetWordTranslation": "fast",
+        "wrongAnswers": [
+            "schnelle",
+            "schnelles",
+            "schnellem",
+            "schneller"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Die _____ (rot) Blume.",
+        "targetWord": "rote",
+        "targetWordTranslation": "red",
+        "wrongAnswers": [
+            "roten",
+            "rotes",
+            "rotem",
+            "roter"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Ein _____ (kalt) Tag.",
+        "targetWord": "kalter",
+        "targetWordTranslation": "cold",
+        "wrongAnswers": [
+            "kalte",
+            "kaltes",
+            "kalten",
+            "kaltem"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Ich trinke _____ (heiß) Kaffee.",
+        "targetWord": "heißen",
+        "targetWordTranslation": "hot",
+        "wrongAnswers": [
+            "heißer",
+            "heiße",
+            "heißes",
+            "heißem"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Das _____ (klein) Kind spielt.",
+        "targetWord": "kleine",
+        "targetWordTranslation": "small",
+        "wrongAnswers": [
+            "kleinen",
+            "kleines",
+            "kleinem",
+            "kleiner"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Wir essen _____ (frisch) Brot.",
+        "targetWord": "frisches",
+        "targetWordTranslation": "fresh",
+        "wrongAnswers": [
+            "frische",
+            "frischen",
+            "frischem",
+            "frischer"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Der _____ (alt) Baum.",
+        "targetWord": "alte",
+        "targetWordTranslation": "old",
+        "wrongAnswers": [
+            "alten",
+            "altes",
+            "altem",
+            "alter"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Ich kaufe die _____ (teuer) Schuhe.",
+        "targetWord": "teuren",
+        "targetWordTranslation": "expensive",
+        "wrongAnswers": [
+            "teure",
+            "teures",
+            "teurem",
+            "teurer"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Ein _____ (hoch) Berg.",
+        "targetWord": "hoher",
+        "targetWordTranslation": "high",
+        "wrongAnswers": [
+            "hohe",
+            "hohes",
+            "hohen",
+            "hohem"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Die _____ (lang) Reise.",
+        "targetWord": "lange",
+        "targetWordTranslation": "long",
+        "wrongAnswers": [
+            "langen",
+            "langes",
+            "langem",
+            "langer"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Das _____ (blau) Meer.",
+        "targetWord": "blaue",
+        "targetWordTranslation": "blue",
+        "wrongAnswers": [
+            "blauen",
+            "blaues",
+            "blauem",
+            "blauer"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Mit einer _____ (nett) Frau.",
+        "targetWord": "netten",
+        "targetWordTranslation": "nice",
+        "wrongAnswers": [
+            "nette",
+            "nettes",
+            "nettem",
+            "netter"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Der _____ (stark) Kaffee.",
+        "targetWord": "starke",
+        "targetWordTranslation": "strong",
+        "wrongAnswers": [
+            "starken",
+            "starkes",
+            "starkem",
+            "starker"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Eine _____ (interessant) Geschichte.",
+        "targetWord": "interessante",
+        "targetWordTranslation": "interesting",
+        "wrongAnswers": [
+            "interessanten",
+            "interessantes",
+            "interessantem",
+            "interessanter"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Das _____ (bunt) Bild.",
+        "targetWord": "bunte",
+        "targetWordTranslation": "colorful",
+        "wrongAnswers": [
+            "bunten",
+            "buntes",
+            "buntem",
+            "bunter"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Ich suche einen _____ (billig) Flug.",
+        "targetWord": "billigen",
+        "targetWordTranslation": "cheap",
+        "wrongAnswers": [
+            "billige",
+            "billiges",
+            "billigem",
+            "billiger"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Die _____ (schwarz) Katze.",
+        "targetWord": "schwarze",
+        "targetWordTranslation": "black",
+        "wrongAnswers": [
+            "schwarzen",
+            "schwarzes",
+            "schwarzem",
+            "schwarzer"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Ein _____ (warm) Mantel.",
+        "targetWord": "warmer",
+        "targetWordTranslation": "warm",
+        "wrongAnswers": [
+            "warme",
+            "warmes",
+            "warmen",
+            "warmem"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Das _____ (grün) Gras.",
+        "targetWord": "grüne",
+        "targetWordTranslation": "green",
+        "wrongAnswers": [
+            "grünen",
+            "grünes",
+            "grünem",
+            "grüner"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Mit _____ (viel) Erfolg.",
+        "targetWord": "vielem",
+        "targetWordTranslation": "much",
+        "wrongAnswers": [
+            "viele",
+            "vielen",
+            "vieler",
+            "vieles"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Ohne _____ (groß) Angst.",
+        "targetWord": "große",
+        "targetWordTranslation": "great",
+        "wrongAnswers": [
+            "großen",
+            "großes",
+            "großem",
+            "großer"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Der _____ (klug) Junge.",
+        "targetWord": "kluge",
+        "targetWordTranslation": "smart",
+        "wrongAnswers": [
+            "klugen",
+            "kluges",
+            "klugem",
+            "kluger"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Ein _____ (schwer) Koffer.",
+        "targetWord": "schwerer",
+        "targetWordTranslation": "heavy",
+        "wrongAnswers": [
+            "schwere",
+            "schweres",
+            "schweren",
+            "schwerem"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Die _____ (leer) Flasche.",
+        "targetWord": "leere",
+        "targetWordTranslation": "empty",
+        "wrongAnswers": [
+            "leeren",
+            "leeres",
+            "leerem",
+            "leerer"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Das _____ (laut) Konzert.",
+        "targetWord": "laute",
+        "targetWordTranslation": "loud",
+        "wrongAnswers": [
+            "lauten",
+            "lautes",
+            "lautem",
+            "lauter"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Ich mag _____ (süß) Kuchen.",
+        "targetWord": "süßen",
+        "targetWordTranslation": "sweet",
+        "wrongAnswers": [
+            "süße",
+            "süßes",
+            "süßem",
+            "süßer"
+        ]
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Ich habe zwei _____ (Katze).",
+        "targetWord": "Katzen",
+        "targetWordTranslation": "Cats",
+        "wrongAnswers": [
+            "Katze",
+            "Katz",
+            "Katzer",
+            "Kater"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Wo sind die _____ (Kind)?",
+        "targetWord": "Kinder",
+        "targetWordTranslation": "Children",
+        "wrongAnswers": [
+            "Kind",
+            "Kindern",
+            "Kinde",
+            "Kinderer"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Wir kaufen drei _____ (Apfel).",
+        "targetWord": "Äpfel",
+        "targetWordTranslation": "Apples",
+        "wrongAnswers": [
+            "Apfel",
+            "Apfels",
+            "Äpfeln",
+            "Apfeln"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Die _____ (Frau) sind dort.",
+        "targetWord": "Frauen",
+        "targetWordTranslation": "Women",
+        "wrongAnswers": [
+            "Frau",
+            "Fraus",
+            "Fraues",
+            "Fräuen"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Hast du viele _____ (Freund)?",
+        "targetWord": "Freunde",
+        "targetWordTranslation": "Friends",
+        "wrongAnswers": [
+            "Freund",
+            "Freunden",
+            "Freundes",
+            "Freunds"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Hier liegen fünf _____ (Buch).",
+        "targetWord": "Bücher",
+        "targetWordTranslation": "Books",
+        "wrongAnswers": [
+            "Buch",
+            "Buchen",
+            "Büche",
+            "Buche"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Die _____ (Mann) arbeiten.",
+        "targetWord": "Männer",
+        "targetWordTranslation": "Men",
+        "wrongAnswers": [
+            "Mann",
+            "Manners",
+            "Manne",
+            "Mannen"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Ich sehe zwei _____ (Auto).",
+        "targetWord": "Autos",
+        "targetWordTranslation": "Cars",
+        "wrongAnswers": [
+            "Auto",
+            "Auten",
+            "Auter",
+            "Autes"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Die _____ (Schüler) lernen.",
+        "targetWord": "Schüler",
+        "targetWordTranslation": "Students",
+        "wrongAnswers": [
+            "Schülerin",
+            "Schülers",
+            "Schülern",
+            "Schüle"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Wir brauchen neue _____ (Stuhl).",
+        "targetWord": "Stühle",
+        "targetWordTranslation": "Chairs",
+        "wrongAnswers": [
+            "Stuhl",
+            "Stuhlen",
+            "Stühles",
+            "Stuhls"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Meine _____ (Eltern) kommen.",
+        "targetWord": "Eltern",
+        "targetWordTranslation": "Parents",
+        "wrongAnswers": [
+            "Elter",
+            "Elterns",
+            "Elt",
+            "Elternen"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "In der Stadt gibt es viele _____ (Hotel).",
+        "targetWord": "Hotels",
+        "targetWordTranslation": "Hotels",
+        "wrongAnswers": [
+            "Hotel",
+            "Hoteler",
+            "Hotelen",
+            "Hotelse"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Drei _____ (Hund) spielen.",
+        "targetWord": "Hunde",
+        "targetWordTranslation": "Dogs",
+        "wrongAnswers": [
+            "Hund",
+            "Hunden",
+            "Hünder",
+            "Hunds"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Ich kaufe vier _____ (Ei).",
+        "targetWord": "Eier",
+        "targetWordTranslation": "Eggs",
+        "wrongAnswers": [
+            "Ei",
+            "Eierer",
+            "Eien",
+            "Eiers"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Die _____ (Lehrer) sind nett.",
+        "targetWord": "Lehrer",
+        "targetWordTranslation": "Teachers",
+        "wrongAnswers": [
+            "Lehrern",
+            "Lehrers",
+            "Lehrere",
+            "Lehren"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Zwei _____ (Tisch) sind frei.",
+        "targetWord": "Tische",
+        "targetWordTranslation": "Tables",
+        "wrongAnswers": [
+            "Tisch",
+            "Tischen",
+            "Tischer",
+            "Tischs"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Ich habe viele _____ (Idee).",
+        "targetWord": "Ideen",
+        "targetWordTranslation": "Ideas",
+        "wrongAnswers": [
+            "Idee",
+            "Idees",
+            "Ide",
+            "Ider"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Die _____ (Fenster) sind offen.",
+        "targetWord": "Fenster",
+        "targetWordTranslation": "Windows",
+        "wrongAnswers": [
+            "Fenstern",
+            "Fensters",
+            "Fenstere",
+            "Fenst"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Fünf _____ (Glas) Wasser.",
+        "targetWord": "Gläser",
+        "targetWordTranslation": "Glasses",
+        "wrongAnswers": [
+            "Glas",
+            "Glaser",
+            "Glases",
+            "Glasen"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Die _____ (Hand) sind kalt.",
+        "targetWord": "Hände",
+        "targetWordTranslation": "Hands",
+        "wrongAnswers": [
+            "Hand",
+            "Hande",
+            "Händen",
+            "Händer"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Viele _____ (Mensch) sind hier.",
+        "targetWord": "Menschen",
+        "targetWordTranslation": "People",
+        "wrongAnswers": [
+            "Mensch",
+            "Menscher",
+            "Mensches",
+            "Mensche"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Drei _____ (Tag) Urlaub.",
+        "targetWord": "Tage",
+        "targetWordTranslation": "Days",
+        "wrongAnswers": [
+            "Tag",
+            "Tagen",
+            "Tager",
+            "Tags"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Zwei _____ (Flasche) Wein.",
+        "targetWord": "Flaschen",
+        "targetWordTranslation": "Bottles",
+        "wrongAnswers": [
+            "Flasche",
+            "Flascher",
+            "Flaschens",
+            "Flasch"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Die _____ (Blume) blühen.",
+        "targetWord": "Blumen",
+        "targetWordTranslation": "Flowers",
+        "wrongAnswers": [
+            "Blume",
+            "Blumer",
+            "Blumes",
+            "Blum"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Vier _____ (Bild) hängen.",
+        "targetWord": "Bilder",
+        "targetWordTranslation": "Pictures",
+        "wrongAnswers": [
+            "Bild",
+            "Bilde",
+            "Bildern",
+            "Bildes"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Die _____ (Vogel) singen.",
+        "targetWord": "Vögel",
+        "targetWordTranslation": "Birds",
+        "wrongAnswers": [
+            "Vogel",
+            "Vogels",
+            "Vögeln",
+            "Vogeln"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Zwei _____ (Zug) kommen.",
+        "targetWord": "Züge",
+        "targetWordTranslation": "Trains",
+        "wrongAnswers": [
+            "Zug",
+            "Zuge",
+            "Zügen",
+            "Zugs"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Die _____ (Nacht) sind lang.",
+        "targetWord": "Nächte",
+        "targetWordTranslation": "Nights",
+        "wrongAnswers": [
+            "Nacht",
+            "Nachte",
+            "Nächten",
+            "Nachter"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Viele _____ (Stadt) sind groß.",
+        "targetWord": "Städte",
+        "targetWordTranslation": "Cities",
+        "wrongAnswers": [
+            "Stadt",
+            "Stadte",
+            "Städten",
+            "Stadts"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Drei _____ (Bruder) habe ich.",
+        "targetWord": "Brüder",
+        "targetWordTranslation": "Brothers",
+        "wrongAnswers": [
+            "Bruder",
+            "Bruders",
+            "Brüdern",
+            "Brudern"
+        ]
+    }
+]

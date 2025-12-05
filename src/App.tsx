@@ -38,7 +38,7 @@ function App() {
         <Route path="/antonyms" element={<AntonymsPage />} />
         <Route path="/synonyms" element={<SynonymsPage />} />
         <Route path="/test-scenario-1" element={<TestScenarioPage filename="verb_test_scenarios" />} />
-        <Route path="/test-scenario-2" element={<TestScenarioPage filename="verb_test_scenarios_2" />} />
+        <Route path="/test-scenario-2" element={<TestScenarioPage filename="verb_test_scenarios2" />} />
         <Route path="/test/:blockId" element={<VerbTestPage />} />
       </Routes>
     </Router>

@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Das _____ (spielen) Kind.",
+        "targetWord": "spielende",
+        "targetWordTranslation": "playing",
+        "wrongAnswers": [
+            "gespielt",
+            "spielte",
+            "spielenden",
+            "spielendes"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Das _____ (lesen) Buch.",
+        "targetWord": "gelesene",
+        "targetWordTranslation": "read",
+        "wrongAnswers": [
+            "lesende",
+            "gelesen",
+            "lesendes",
+            "lesenden"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Der _____ (laufen) Mann.",
+        "targetWord": "laufende",
+        "targetWordTranslation": "running",
+        "wrongAnswers": [
+            "gelaufen",
+            "lief",
+            "laufenden",
+            "laufender"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Die _____ (kochen) Suppe.",
+        "targetWord": "kochende",
+        "targetWordTranslation": "boiling",
+        "wrongAnswers": [
+            "gekochte",
+            "kocht",
+            "kochenden",
+            "kochender"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Das _____ (zerstören) Haus.",
+        "targetWord": "zerstörte",
+        "targetWordTranslation": "destroyed",
+        "wrongAnswers": [
+            "zerstörende",
+            "zerstört",
+            "zerstörten",
+            "zerstörendes"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Die _____ (singen) Frau.",
+        "targetWord": "singende",
+        "targetWordTranslation": "singing",
+        "wrongAnswers": [
+            "gesungen",
+            "sang",
+            "singenden",
+            "singender"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Das _____ (stehlen) Auto.",
+        "targetWord": "gestohlene",
+        "targetWordTranslation": "stolen",
+        "wrongAnswers": [
+            "stehlende",
+            "gestohlen",
+            "stehlendes",
+            "stehlenden"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Der _____ (bellen) Hund.",
+        "targetWord": "bellende",
+        "targetWordTranslation": "barking",
+        "wrongAnswers": [
+            "gebellt",
+            "bellte",
+            "bellenden",
+            "bellender"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Die _____ (reparieren) Uhr.",
+        "targetWord": "reparierte",
+        "targetWordTranslation": "repaired",
+        "wrongAnswers": [
+            "reparierende",
+            "repariert",
+            "reparierten",
+            "reparierendes"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Das _____ (schlafen) Baby.",
+        "targetWord": "schlafende",
+        "targetWordTranslation": "sleeping",
+        "wrongAnswers": [
+            "geschlafen",
+            "schlief",
+            "schlafenden",
+            "schlafendes"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Der _____ (ankommen) Zug.",
+        "targetWord": "ankommende",
+        "targetWordTranslation": "arriving",
+        "wrongAnswers": [
+            "angekommen",
+            "ankam",
+            "ankommenden",
+            "ankommender"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Die _____ (öffnen) Tür.",
+        "targetWord": "geöffnete",
+        "targetWordTranslation": "opened",
+        "wrongAnswers": [
+            "öffnende",
+            "geöffnet",
+            "geöffneten",
+            "öffnendes"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Das _____ (weinen) Kind.",
+        "targetWord": "weinende",
+        "targetWordTranslation": "crying",
+        "wrongAnswers": [
+            "geweint",
+            "weinte",
+            "weinenden",
+            "weinendes"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Der _____ (fallen) Baum.",
+        "targetWord": "fallende",
+        "targetWordTranslation": "falling",
+        "wrongAnswers": [
+            "gefallen",
+            "fiel",
+            "fallenden",
+            "fallender"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Das _____ (verkaufen) Haus.",
+        "targetWord": "verkaufte",
+        "targetWordTranslation": "sold",
+        "wrongAnswers": [
+            "verkaufende",
+            "verkauft",
+            "verkauften",
+            "verkaufendes"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Die _____ (lachen) Kinder.",
+        "targetWord": "lachenden",
+        "targetWordTranslation": "laughing",
+        "wrongAnswers": [
+            "gelacht",
+            "lachten",
+            "lachende",
+            "lachendes"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Der _____ (bezahlen) Betrag.",
+        "targetWord": "bezahlte",
+        "targetWordTranslation": "paid",
+        "wrongAnswers": [
+            "bezahlende",
+            "bezahlt",
+            "bezahlten",
+            "bezahlter"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Das _____ (brennen) Haus.",
+        "targetWord": "brennende",
+        "targetWordTranslation": "burning",
+        "wrongAnswers": [
+            "gebrannt",
+            "brannte",
+            "brennenden",
+            "brennendes"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Die _____ (schreiben) E-Mail.",
+        "targetWord": "geschriebene",
+        "targetWordTranslation": "written",
+        "wrongAnswers": [
+            "schreibende",
+            "geschrieben",
+            "geschriebenen",
+            "schreibendes"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Der _____ (fahren) Zug.",
+        "targetWord": "fahrende",
+        "targetWordTranslation": "driving/moving",
+        "wrongAnswers": [
+            "gefahren",
+            "fuhr",
+            "fahrenden",
+            "fahrender"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Das _____ (finden) Geld.",
+        "targetWord": "gefundene",
+        "targetWordTranslation": "found",
+        "wrongAnswers": [
+            "findende",
+            "gefunden",
+            "gefundenen",
+            "findendes"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Die _____ (aufgehen) Sonne.",
+        "targetWord": "aufgehende",
+        "targetWordTranslation": "rising",
+        "wrongAnswers": [
+            "aufgegangen",
+            "aufging",
+            "aufgehenden",
+            "aufgehender"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Der _____ (betrinken) Mann.",
+        "targetWord": "betrunkene",
+        "targetWordTranslation": "drunk",
+        "wrongAnswers": [
+            "betrinkende",
+            "betrunken",
+            "betrunkenen",
+            "betrinkender"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Das _____ (kochen) Wasser.",
+        "targetWord": "kochende",
+        "targetWordTranslation": "boiling",
+        "wrongAnswers": [
+            "gekocht",
+            "kochte",
+            "kochenden",
+            "kochendes"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Die _____ (verlieren) Schlüssel.",
+        "targetWord": "verlorenen",
+        "targetWordTranslation": "lost",
+        "wrongAnswers": [
+            "verlierende",
+            "verloren",
+            "verlorene",
+            "verlierendes"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Der _____ (lehren) Professor.",
+        "targetWord": "lehrende",
+        "targetWordTranslation": "teaching",
+        "wrongAnswers": [
+            "gelehrt",
+            "lehrte",
+            "lehrenden",
+            "lehrender"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Das _____ (bestellen) Paket.",
+        "targetWord": "bestellte",
+        "targetWordTranslation": "ordered",
+        "wrongAnswers": [
+            "bestellende",
+            "bestellt",
+            "bestellten",
+            "bestellendes"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Die _____ (tanzen) Paare.",
+        "targetWord": "tanzenden",
+        "targetWordTranslation": "dancing",
+        "wrongAnswers": [
+            "getanzt",
+            "tanzten",
+            "tanzende",
+            "tanzendes"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Der _____ (verletzen) Hund.",
+        "targetWord": "verletzte",
+        "targetWordTranslation": "injured",
+        "wrongAnswers": [
+            "verletzende",
+            "verletzt",
+            "verletzten",
+            "verletzendes"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Das _____ (leuchten) Licht.",
+        "targetWord": "leuchtende",
+        "targetWordTranslation": "shining",
+        "wrongAnswers": [
+            "geleuchtet",
+            "leuchtete",
+            "leuchtenden",
+            "leuchtendes"
+        ]
+    }
+]

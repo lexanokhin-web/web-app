@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "_____ bin müde.",
+        "targetWord": "Ich",
+        "targetWordTranslation": "I",
+        "wrongAnswers": [
+            "Du",
+            "Er",
+            "Wir",
+            "Sie"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Kommst _____ mit?",
+        "targetWord": "du",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "ich",
+            "er",
+            "ihr",
+            "wir"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Das ist Peter. _____ ist nett.",
+        "targetWord": "Er",
+        "targetWordTranslation": "He",
+        "wrongAnswers": [
+            "Sie",
+            "Es",
+            "Ihm",
+            "Ihn"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Das ist Maria. _____ ist schön.",
+        "targetWord": "Sie",
+        "targetWordTranslation": "She",
+        "wrongAnswers": [
+            "Er",
+            "Es",
+            "Ihr",
+            "Ihnen"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Wir lernen Deutsch. _____ sind fleißig.",
+        "targetWord": "Wir",
+        "targetWordTranslation": "We",
+        "wrongAnswers": [
+            "Ihr",
+            "Sie",
+            "Uns",
+            "Mir"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Seid _____ bereit?",
+        "targetWord": "ihr",
+        "targetWordTranslation": "you (plural)",
+        "wrongAnswers": [
+            "wir",
+            "sie",
+            "du",
+            "er"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Herr Müller, kommen _____ bitte?",
+        "targetWord": "Sie",
+        "targetWordTranslation": "You (formal)",
+        "wrongAnswers": [
+            "du",
+            "er",
+            "ihr",
+            "uns"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Wo ist das Kind? _____ spielt.",
+        "targetWord": "Es",
+        "targetWordTranslation": "It",
+        "wrongAnswers": [
+            "Er",
+            "Sie",
+            "Das",
+            "Der"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Meine Eltern sind hier. _____ wohnen in Berlin.",
+        "targetWord": "Sie",
+        "targetWordTranslation": "They",
+        "wrongAnswers": [
+            "Er",
+            "Es",
+            "Wir",
+            "Ihr"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Ich liebe dich. Liebst du _____ auch?",
+        "targetWord": "mich",
+        "targetWordTranslation": "me",
+        "wrongAnswers": [
+            "mir",
+            "ich",
+            "dir",
+            "sich"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Peter, ich rufe _____ später an.",
+        "targetWord": "dich",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "dir",
+            "du",
+            "ihn",
+            "ihm"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Das Geschenk ist für _____ (uns).",
+        "targetWord": "uns",
+        "targetWordTranslation": "us",
+        "wrongAnswers": [
+            "wir",
+            "euch",
+            "ihnen",
+            "sie"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Wo ist mein Buch? _____ liegt hier.",
+        "targetWord": "Es",
+        "targetWordTranslation": "It",
+        "wrongAnswers": [
+            "Er",
+            "Sie",
+            "Ihm",
+            "Das"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Die Kinder spielen. _____ sind laut.",
+        "targetWord": "Sie",
+        "targetWordTranslation": "They",
+        "wrongAnswers": [
+            "Wir",
+            "Ihr",
+            "Er",
+            "Es"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Gehört das Auto _____ (dir)?",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "ihm",
+            "ihr"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Ich gebe _____ (ihm) das Geld.",
+        "targetWord": "ihm",
+        "targetWordTranslation": "him",
+        "wrongAnswers": [
+            "ihn",
+            "er",
+            "ihr",
+            "es"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Wir helfen _____ (euch).",
+        "targetWord": "euch",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "wir",
+            "uns",
+            "ihr",
+            "sie"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Ich verstehe _____ (Sie) nicht, Herr Schmidt.",
+        "targetWord": "Sie",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "Ihnen",
+            "du",
+            "dich",
+            "euch"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Kannst du _____ (mir) helfen?",
+        "targetWord": "mir",
+        "targetWordTranslation": "me",
+        "wrongAnswers": [
+            "mich",
+            "ich",
+            "dir",
+            "uns"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Lisa kommt. _____ hat Hunger.",
+        "targetWord": "Sie",
+        "targetWordTranslation": "She",
+        "wrongAnswers": [
+            "Er",
+            "Es",
+            "Ihr",
+            "Ihnen"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Der Tisch ist neu. _____ ist teuer.",
+        "targetWord": "Er",
+        "targetWordTranslation": "It (He)",
+        "wrongAnswers": [
+            "Sie",
+            "Es",
+            "Ihm",
+            "Den"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Siehst du _____ (ihn)?",
+        "targetWord": "ihn",
+        "targetWordTranslation": "him",
+        "wrongAnswers": [
+            "ihm",
+            "er",
+            "es",
+            "sie"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Das schmeckt _____ (mir) gut.",
+        "targetWord": "mir",
+        "targetWordTranslation": "me",
+        "wrongAnswers": [
+            "mich",
+            "ich",
+            "dir",
+            "uns"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Kommt _____ morgen? (plural)",
+        "targetWord": "ihr",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "wir",
+            "du",
+            "sie",
+            "er"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Ich besuche _____ (sie, Plural).",
+        "targetWord": "sie",
+        "targetWordTranslation": "them",
+        "wrongAnswers": [
+            "ihnen",
+            "ihr",
+            "uns",
+            "euch"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Gefällt es _____ (dir)?",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "ihm",
+            "mir"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Wir laden _____ (euch) ein.",
+        "targetWord": "euch",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "ihr",
+            "wir",
+            "uns",
+            "sie"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Das ist für _____ (dich).",
+        "targetWord": "dich",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "dir",
+            "du",
+            "mir",
+            "ihn"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Ohne _____ (ihn) gehe ich nicht.",
+        "targetWord": "ihn",
+        "targetWordTranslation": "him",
+        "wrongAnswers": [
+            "ihm",
+            "er",
+            "es",
+            "sie"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "_____ (Wir) gehen ins Kino.",
+        "targetWord": "Wir",
+        "targetWordTranslation": "We",
+        "wrongAnswers": [
+            "Uns",
+            "Ihr",
+            "Sie",
+            "Mir"
+        ]
+    }
+]

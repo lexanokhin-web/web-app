@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Wenn ich reich _____, würde ich reisen.",
+        "targetWord": "wäre",
+        "targetWordTranslation": "were",
+        "wrongAnswers": [
+            "war",
+            "bin",
+            "gewesen",
+            "werde"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Ich _____, wir könnten gehen.",
+        "targetWord": "wünschte",
+        "targetWordTranslation": "wish",
+        "wrongAnswers": [
+            "wünsche",
+            "gewünscht",
+            "wollte",
+            "habe"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Er tat so, als ob er mich nicht _____.",
+        "targetWord": "kannte",
+        "targetWordTranslation": "knew",
+        "wrongAnswers": [
+            "kennt",
+            "gekannt",
+            "kenne",
+            "könnte"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Wenn er Zeit _____, käme er.",
+        "targetWord": "hätte",
+        "targetWordTranslation": "had",
+        "wrongAnswers": [
+            "hat",
+            "habe",
+            "hatte",
+            "hättest"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Ich _____ gern ein Wasser.",
+        "targetWord": "hätte",
+        "targetWordTranslation": "would like (have)",
+        "wrongAnswers": [
+            "habe",
+            "hatte",
+            "würde",
+            "hast"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Was _____ du tun?",
+        "targetWord": "würdest",
+        "targetWordTranslation": "would",
+        "wrongAnswers": [
+            "wirst",
+            "wurdest",
+            "werdest",
+            "wurde"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Es wäre schön, wenn du _____.",
+        "targetWord": "kämest",
+        "targetWordTranslation": "came/would come",
+        "wrongAnswers": [
+            "kommst",
+            "kamst",
+            "gekommen",
+            "komme"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "An deiner Stelle _____ ich das nicht.",
+        "targetWord": "täte",
+        "targetWordTranslation": "would do",
+        "wrongAnswers": [
+            "tue",
+            "tat",
+            "getan",
+            "mache"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Er könnte helfen, wenn er _____.",
+        "targetWord": "wollte",
+        "targetWordTranslation": "wanted (to)",
+        "wrongAnswers": [
+            "will",
+            "wollt",
+            "gewollt",
+            "möchte"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Fast _____ ich gefallen.",
+        "targetWord": "wäre",
+        "targetWordTranslation": "would have",
+        "wrongAnswers": [
+            "war",
+            "bin",
+            "wurde",
+            "habe"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Wenn es doch nur nicht _____!",
+        "targetWord": "regnete",
+        "targetWordTranslation": "rained",
+        "wrongAnswers": [
+            "regnet",
+            "geregnet",
+            "regne",
+            "regnen"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Ich _____ (brauchen) Hilfe.",
+        "targetWord": "bräuchte",
+        "targetWordTranslation": "could use (need)",
+        "wrongAnswers": [
+            "brauche",
+            "brauchte",
+            "gebraucht",
+            "brauchst"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Wenn ich du _____, ginge ich.",
+        "targetWord": "wäre",
+        "targetWordTranslation": "were",
+        "wrongAnswers": [
+            "war",
+            "bin",
+            "bist",
+            "wurde"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Ich _____ (wissen), was zu tun ist.",
+        "targetWord": "wüsste",
+        "targetWordTranslation": "would know",
+        "wrongAnswers": [
+            "weiß",
+            "wusste",
+            "gewusst",
+            "wisst"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Er _____ (lassen) das.",
+        "targetWord": "ließe",
+        "targetWordTranslation": "would let",
+        "wrongAnswers": [
+            "lässt",
+            "ließ",
+            "lassen",
+            "liesse"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Wir _____ (gehen) gern ins Kino.",
+        "targetWord": "gingen",
+        "targetWordTranslation": "would go",
+        "wrongAnswers": [
+            "gehen",
+            "gingt",
+            "gegangen",
+            "gehe"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Ihr _____ (sollen) lernen.",
+        "targetWord": "solltet",
+        "targetWordTranslation": "should",
+        "wrongAnswers": [
+            "sollt",
+            "sollen",
+            "sollst",
+            "soll"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Wenn sie hier _____, wäre es toll.",
+        "targetWord": "wäre",
+        "targetWordTranslation": "were",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "sei",
+            "wurde"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Er sagte, er _____ krank (Konj. II).",
+        "targetWord": "wäre",
+        "targetWordTranslation": "were",
+        "wrongAnswers": [
+            "war",
+            "ist",
+            "sei",
+            "gewesen"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Ich _____ (finden) das gut.",
+        "targetWord": "fände",
+        "targetWordTranslation": "would find",
+        "wrongAnswers": [
+            "finde",
+            "fand",
+            "gefunden",
+            "fandet"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Du _____ (dürfen) das nicht.",
+        "targetWord": "dürftest",
+        "targetWordTranslation": "would be allowed",
+        "wrongAnswers": [
+            "darfst",
+            "durftest",
+            "darf",
+            "dürfen"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Es _____ (geben) Ärger.",
+        "targetWord": "gäbe",
+        "targetWordTranslation": "would be",
+        "wrongAnswers": [
+            "gibt",
+            "gab",
+            "gegeben",
+            "gebte"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Ich _____ (trinken) gern Tee.",
+        "targetWord": "tränke",
+        "targetWordTranslation": "would drink",
+        "wrongAnswers": [
+            "trinke",
+            "trank",
+            "getrunken",
+            "trinkte"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Er _____ (bleiben) hier.",
+        "targetWord": "bliebe",
+        "targetWordTranslation": "would stay",
+        "wrongAnswers": [
+            "bleibt",
+            "blieb",
+            "geblieben",
+            "bleibte"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Wir _____ (können) helfen.",
+        "targetWord": "könnten",
+        "targetWordTranslation": "could",
+        "wrongAnswers": [
+            "können",
+            "konnten",
+            "kann",
+            "gekonnt"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Wenn ich _____ (fliegen) könnte!",
+        "targetWord": "fliegen",
+        "targetWordTranslation": "fly",
+        "wrongAnswers": [
+            "flog",
+            "geflogen",
+            "fliege",
+            "flug"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Ich _____ (schlafen) besser.",
+        "targetWord": "schliefe",
+        "targetWordTranslation": "would sleep",
+        "wrongAnswers": [
+            "schlafe",
+            "schlief",
+            "geschlafen",
+            "schlaft"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Er _____ (tragen) einen Hut.",
+        "targetWord": "trüge",
+        "targetWordTranslation": "would wear",
+        "wrongAnswers": [
+            "trägt",
+            "trug",
+            "getragen",
+            "tragte"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Sie _____ (laufen) schneller.",
+        "targetWord": "liefe",
+        "targetWordTranslation": "would run",
+        "wrongAnswers": [
+            "läuft",
+            "lief",
+            "gelaufen",
+            "laufte"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Wir _____ (nehmen) das Auto.",
+        "targetWord": "nähmen",
+        "targetWordTranslation": "would take",
+        "wrongAnswers": [
+            "nehmen",
+            "nahmen",
+            "genommen",
+            "nehmt"
+        ]
+    }
+]

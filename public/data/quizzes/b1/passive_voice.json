@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Das Auto _____ repariert.",
+        "targetWord": "wird",
+        "targetWordTranslation": "is being",
+        "wrongAnswers": [
+            "werde",
+            "wurde",
+            "worden",
+            "hat"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Das Haus _____ gebaut.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Der Brief ist geschrieben _____.",
+        "targetWord": "worden",
+        "targetWordTranslation": "been",
+        "wrongAnswers": [
+            "wurde",
+            "geworden",
+            "sein",
+            "haben"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Hier _____ nicht geraucht.",
+        "targetWord": "wird",
+        "targetWordTranslation": "is",
+        "wrongAnswers": [
+            "werde",
+            "wurde",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Die Tür muss geschlossen _____.",
+        "targetWord": "werden",
+        "targetWordTranslation": "be",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "worden",
+            "sein"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Der Kuchen _____ gegessen.",
+        "targetWord": "wird",
+        "targetWordTranslation": "is being",
+        "wrongAnswers": [
+            "werde",
+            "wurde",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Das Zimmer _____ gestern aufgeräumt.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Die Fenster sind geputzt _____.",
+        "targetWord": "worden",
+        "targetWordTranslation": "been",
+        "wrongAnswers": [
+            "wurde",
+            "geworden",
+            "sein",
+            "waren"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Morgen _____ es regnen. (Futur)",
+        "targetWord": "wird",
+        "targetWordTranslation": "will",
+        "wrongAnswers": [
+            "wurde",
+            "werde",
+            "worden",
+            "hat"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Er sagt, er _____ kommen. (Konjunktiv I)",
+        "targetWord": "werde",
+        "targetWordTranslation": "will (reported)",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "worden",
+            "würde"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Das Problem konnte gelöst _____.",
+        "targetWord": "werden",
+        "targetWordTranslation": "be",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "worden",
+            "sein"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Viel Geld _____ ausgegeben.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Das Buch _____ gelesen.",
+        "targetWord": "wird",
+        "targetWordTranslation": "is being",
+        "wrongAnswers": [
+            "werde",
+            "wurde",
+            "worden",
+            "hat"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Die Brücke _____ letztes Jahr gebaut.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Der Patient ist untersucht _____.",
+        "targetWord": "worden",
+        "targetWordTranslation": "been",
+        "wrongAnswers": [
+            "wurde",
+            "geworden",
+            "sein",
+            "war"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Die Arbeit muss erledigt _____.",
+        "targetWord": "werden",
+        "targetWordTranslation": "be",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "worden",
+            "sein"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Die Rechnung _____ bezahlt.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Das Paket _____ morgen geliefert.",
+        "targetWord": "wird",
+        "targetWordTranslation": "will be",
+        "wrongAnswers": [
+            "wurde",
+            "werde",
+            "worden",
+            "hat"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Die Frage _____ nicht beantwortet.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Das Kind _____ zur Schule gebracht.",
+        "targetWord": "wird",
+        "targetWordTranslation": "is being",
+        "wrongAnswers": [
+            "werde",
+            "wurde",
+            "worden",
+            "hat"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Die E-Mail ist gesendet _____.",
+        "targetWord": "worden",
+        "targetWordTranslation": "been",
+        "wrongAnswers": [
+            "wurde",
+            "geworden",
+            "sein",
+            "war"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Das Fenster darf nicht geöffnet _____.",
+        "targetWord": "werden",
+        "targetWordTranslation": "be",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "worden",
+            "sein"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Der Schlüssel _____ gefunden.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Die Wahrheit _____ bald ans Licht kommen.",
+        "targetWord": "wird",
+        "targetWordTranslation": "will",
+        "wrongAnswers": [
+            "wurde",
+            "werde",
+            "worden",
+            "hat"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Der Dieb _____ von der Polizei gefasst.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Die Blumen _____ gegossen.",
+        "targetWord": "werden",
+        "targetWordTranslation": "are being",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "worden",
+            "sind"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Das Haus _____ vor 100 Jahren gebaut.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Der Vertrag ist unterschrieben _____.",
+        "targetWord": "worden",
+        "targetWordTranslation": "been",
+        "wrongAnswers": [
+            "wurde",
+            "geworden",
+            "sein",
+            "war"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Die Aufgaben müssen gemacht _____.",
+        "targetWord": "werden",
+        "targetWordTranslation": "be",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "worden",
+            "sein"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Es _____ viel getanzt.",
+        "targetWord": "wurde",
+        "targetWordTranslation": "was",
+        "wrongAnswers": [
+            "wird",
+            "worden",
+            "hat",
+            "ist"
+        ]
+    }
+]

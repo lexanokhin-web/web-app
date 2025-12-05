@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { QuizQuestion } from '../components/features/Quiz/QuizQuestion';
+import { QuizSelection } from '../components/features/Quiz/QuizSelection';
 import { Button } from '../components/Button';
 import { GlassCard } from '../components/GlassCard';
 import { ArrowLeft, Trophy, Target } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useProgress } from '../hooks/useProgress';
+import type { QuizLevel, QuizTopic } from '../data/quizzes/quiz-config';
 
 interface QuizData {
     question: string;
@@ -18,6 +20,7 @@ interface Sentence {
     sentence: string;
     targetWord: string;
     targetWordTranslation: string;
+    wrongAnswers?: string[];
 }
 
 export const QuizPage: React.FC = () => {
@@ -25,45 +28,85 @@ export const QuizPage: React.FC = () => {
     const { blockId } = useParams<{ blockId?: string }>();
     const { addXP } = useProgress();
 
+    // Flow State
+    const [mode, setMode] = useState<'selection' | 'quiz'>('selection');
+    const [selectedLevel, setSelectedLevel] = useState<QuizLevel | null>(null);
+    const [selectedTopic, setSelectedTopic] = useState<QuizTopic | null>(null);
+
+    // Quiz State
     const [quizData, setQuizData] = useState<QuizData[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [score, setScore] = useState(0);
     const [answeredCount, setAnsweredCount] = useState(0);
     const [showResults, setShowResults] = useState(false);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        loadQuizData();
+        // Direct link support (legacy or specific blocks)
+        if (blockId) {
+            setMode('quiz');
+            loadQuizData(blockId);
+        }
     }, [blockId]);
 
-    const loadQuizData = async () => {
+    const handleTopicSelect = (level: QuizLevel, topic: QuizTopic) => {
+        setSelectedLevel(level);
+        setSelectedTopic(topic);
+        setMode('quiz');
+        loadQuizData(`${level.toLowerCase()}/${topic.file.replace('.json', '')}`);
+    };
+
+    const loadQuizData = async (path: string) => {
         setLoading(true);
+        // Reset state
+        setCurrentIndex(0);
+        setScore(0);
+        setAnsweredCount(0);
+        setShowResults(false);
 
         try {
-            // Определить какой файл загружать
-            const filename = blockId || 'relativsaetze';
-            const response = await fetch(`/data/${filename}.json`);
+            // Handle both flat paths (legacy) and nested paths (new structure)
+            // If path contains '/', use it directly, otherwise assume it's a flat file in data root
+            const url = path.includes('/') ? `/data/quizzes/${path}.json` : `/data/${path}.json`;
+
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('Failed to load quiz data');
+
             const sentences: Sentence[] = await response.json();
 
             // Перемешать предложения и взять 10 случайных
+            // If we have fewer than 10, take all of them
             const shuffledSentences = sentences.sort(() => Math.random() - 0.5);
+            const questionCount = Math.min(10, shuffledSentences.length);
 
             // Конвертировать в quiz формат
-            const quiz: QuizData[] = shuffledSentences.slice(0, 10).map(sentence => {
+            const quiz: QuizData[] = shuffledSentences.slice(0, questionCount).map(sentence => {
                 const correctAnswer = sentence.targetWord;
+                let wrongAnswers: string[] = [];
 
-                // Генерировать неправильные ответы из других предложений
-                const allOtherWords = sentences
-                    .filter(s => s.targetWord !== correctAnswer)
-                    .map(s => s.targetWord);
+                if (sentence.wrongAnswers && sentence.wrongAnswers.length > 0) {
+                    wrongAnswers = sentence.wrongAnswers
+                        .sort(() => Math.random() - 0.5)
+                        .slice(0, 3);
+                } else {
+                    // Генерировать неправильные ответы из других предложений
+                    const allOtherWords = sentences
+                        .filter(s => s.targetWord !== correctAnswer)
+                        .map(s => s.targetWord);
 
-                // Убрать дубликаты
-                const uniqueWrongWords = Array.from(new Set(allOtherWords));
+                    // Убрать дубликаты
+                    const uniqueWrongWords = Array.from(new Set(allOtherWords));
 
-                // Взять 3 случайных уникальных неправильных ответа
-                const wrongAnswers = uniqueWrongWords
-                    .sort(() => Math.random() - 0.5)
-                    .slice(0, 3);
+                    // Взять 3 случайных уникальных неправильных ответа
+                    wrongAnswers = uniqueWrongWords
+                        .sort(() => Math.random() - 0.5)
+                        .slice(0, 3);
+                }
+
+                // Fallback if not enough wrong answers found in the file (e.g. very small files)
+                while (wrongAnswers.length < 3) {
+                    wrongAnswers.push('?'); // Placeholder to avoid crashes, though unlikely with our data
+                }
 
                 return {
                     question: sentence.sentence.replace('_____', '______'),
@@ -75,30 +118,13 @@ export const QuizPage: React.FC = () => {
             setQuizData(quiz);
         } catch (error) {
             console.error('Failed to load quiz data:', error);
-            // Fallback to sample data
-            setQuizData(getSampleQuiz());
+            // Fallback needed or show error? For now, go back to selection
+            alert('Fehler beim Laden der Übung. Bitte versuche es erneut.');
+            setMode('selection');
         } finally {
             setLoading(false);
         }
     };
-
-    const getSampleQuiz = (): QuizData[] => [
-        {
-            question: 'Das ist der Mann, ______ gestern hier war.',
-            correctAnswer: 'der',
-            wrongAnswers: ['den', 'dem', 'des']
-        },
-        {
-            question: 'Ich kenne die Frau, ______ Auto rot ist.',
-            correctAnswer: 'deren',
-            wrongAnswers: ['der', 'die', 'dessen']
-        },
-        {
-            question: 'Das sind die Kinder, ______ wir geholfen haben.',
-            correctAnswer: 'denen',
-            wrongAnswers: ['die', 'der', 'dem']
-        }
-    ];
 
     const handleAnswer = (isCorrect: boolean) => {
         setAnsweredCount(answeredCount + 1);
@@ -129,11 +155,20 @@ export const QuizPage: React.FC = () => {
     };
 
     const handleRestart = () => {
-        setCurrentIndex(0);
-        setScore(0);
-        setAnsweredCount(0);
-        setShowResults(false);
-        loadQuizData();
+        if (selectedLevel && selectedTopic) {
+            handleTopicSelect(selectedLevel, selectedTopic);
+        } else {
+            // Should not happen in normal flow
+            setMode('selection');
+        }
+    };
+
+    const handleBack = () => {
+        if (mode === 'quiz' && !blockId) {
+            setMode('selection');
+        } else {
+            navigate('/');
+        }
     };
 
     if (loading) {
@@ -141,14 +176,35 @@ export const QuizPage: React.FC = () => {
             <div className="min-h-screen py-8 px-4 flex items-center justify-center">
                 <GlassCard className="p-8">
                     <div className="text-center">
-                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
-                        <p className="text-gray-700">Загрузка вопросов...</p>
+                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto mb-4"></div>
+                        <p className="text-gray-700">Lade Übung...</p>
                     </div>
                 </GlassCard>
             </div>
         );
     }
 
+    // Selection Mode
+    if (mode === 'selection') {
+        return (
+            <div className="min-h-screen py-8 px-4">
+                <div className="max-w-6xl mx-auto">
+                    <div className="mb-8">
+                        <Button
+                            onClick={() => navigate('/')}
+                            variant="secondary"
+                        >
+                            <ArrowLeft className="w-5 h-5 mr-2" />
+                            Zurück zum Hauptmenü
+                        </Button>
+                    </div>
+                    <QuizSelection onSelectTopic={handleTopicSelect} />
+                </div>
+            </div>
+        );
+    }
+
+    // Results View
     if (showResults) {
         const percentage = Math.round((score / quizData.length) * 100);
         const isPerfect = percentage === 100;
@@ -165,11 +221,11 @@ export const QuizPage: React.FC = () => {
                         <Trophy className={`w-20 h-20 mx-auto mb-4 ${isPerfect ? 'text-yellow-500' : isGood ? 'text-blue-500' : 'text-gray-500'}`} />
 
                         <h2 className="text-3xl font-bold text-gray-800 mb-2">
-                            {isPerfect ? 'Превосходно! 🎉' : isGood ? 'Отлично! 👏' : 'Хороший старт! 💪'}
+                            {isPerfect ? 'Fantastisch! 🎉' : isGood ? 'Super gemacht! 👏' : 'Gut geübt! 💪'}
                         </h2>
 
                         <p className="text-gray-600 mb-6">
-                            Ваш результат
+                            Dein Ergebnis für Bereich {selectedTopic?.title}
                         </p>
 
                         {/* Score Circle */}
@@ -208,15 +264,15 @@ export const QuizPage: React.FC = () => {
                                 variant="primary"
                                 className="w-full"
                             >
-                                Пройти снова
+                                Noch einmal üben
                             </Button>
 
                             <Button
-                                onClick={() => navigate('/')}
+                                onClick={() => setMode('selection')}
                                 variant="secondary"
                                 className="w-full"
                             >
-                                На главную
+                                Andere Übung wählen
                             </Button>
                         </div>
                     </GlassCard>
@@ -234,30 +290,35 @@ export const QuizPage: React.FC = () => {
                 {/* Header */}
                 <div className="flex items-center justify-between mb-8">
                     <Button
-                        onClick={() => navigate('/')}
+                        onClick={handleBack}
                         variant="secondary"
                     >
                         <ArrowLeft className="w-5 h-5 mr-2" />
-                        Назад
+                        {blockId ? 'Startseite' : 'Zurück zur Auswahl'}
                     </Button>
 
-                    <GlassCard className="px-6 py-3" animate={false}>
-                        <div className="flex items-center space-x-4">
-                            <div className="text-center">
-                                <Target className="w-6 h-6 text-green-600 inline mr-2" />
+                    <div className="flex items-center space-x-4">
+                        {selectedTopic && (
+                            <div className="hidden sm:block px-4 py-2 bg-white/50 backdrop-blur rounded-full text-sm font-medium text-gray-600">
+                                {selectedLevel} • {selectedTopic.title}
+                            </div>
+                        )}
+                        <GlassCard className="px-6 py-3" animate={false}>
+                            <div className="flex items-center">
+                                <Target className="w-6 h-6 text-indigo-600 inline mr-2" />
                                 <span className="text-xl font-bold text-gray-800">
-                                    {score}/{answeredCount}
+                                    {score}/{quizData.length}
                                 </span>
                             </div>
-                        </div>
-                    </GlassCard>
+                        </GlassCard>
+                    </div>
                 </div>
 
                 {/* Progress Bar */}
                 <div className="mb-8">
                     <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
                         <motion.div
-                            className="h-full bg-gradient-to-r from-green-400 to-blue-600"
+                            className="h-full bg-gradient-to-r from-indigo-400 to-purple-600"
                             initial={{ width: 0 }}
                             animate={{ width: `${progress}%` }}
                             transition={{ duration: 0.3 }}
@@ -280,3 +341,4 @@ export const QuizPage: React.FC = () => {
         </div>
     );
 };
+

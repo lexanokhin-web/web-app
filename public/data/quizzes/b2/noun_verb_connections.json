@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Eine Entscheidung _____.",
+        "targetWord": "treffen",
+        "targetWordTranslation": "to make",
+        "wrongAnswers": [
+            "machen",
+            "tun",
+            "geben",
+            "nehmen"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "In Frage _____.",
+        "targetWord": "kommen",
+        "targetWordTranslation": "to come (into question)",
+        "wrongAnswers": [
+            "gehen",
+            "stehen",
+            "machen",
+            "sein"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Kritik _____.",
+        "targetWord": "üben",
+        "targetWordTranslation": "to express (criticism)",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "sagen",
+            "tun"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Einen Rat _____.",
+        "targetWord": "geben",
+        "targetWordTranslation": "to give",
+        "wrongAnswers": [
+            "machen",
+            "sagen",
+            "nehmen",
+            "stellen"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Abschied _____.",
+        "targetWord": "nehmen",
+        "targetWordTranslation": "to take (leave)",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "sagen",
+            "gehen"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Zur Verfügung _____.",
+        "targetWord": "stehen",
+        "targetWordTranslation": "to stand (be available)",
+        "wrongAnswers": [
+            "sein",
+            "liegen",
+            "machen",
+            "geben"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Ein Gespräch _____.",
+        "targetWord": "führen",
+        "targetWordTranslation": "to lead (conduct)",
+        "wrongAnswers": [
+            "machen",
+            "haben",
+            "reden",
+            "sprechen"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Einen Fehler _____.",
+        "targetWord": "begehen",
+        "targetWordTranslation": "to commit",
+        "wrongAnswers": [
+            "machen",
+            "tun",
+            "haben",
+            "geben"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Unter Druck _____.",
+        "targetWord": "stehen",
+        "targetWordTranslation": "to stand (be under pressure)",
+        "wrongAnswers": [
+            "sein",
+            "haben",
+            "gehen",
+            "machen"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Angst _____.",
+        "targetWord": "haben",
+        "targetWordTranslation": "to have",
+        "wrongAnswers": [
+            "sein",
+            "machen",
+            "fühlen",
+            "spüren"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Einen Antrag _____.",
+        "targetWord": "stellen",
+        "targetWordTranslation": "to submit/file",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "schreiben",
+            "legen"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Rücksicht _____.",
+        "targetWord": "nehmen",
+        "targetWordTranslation": "to take (consideration)",
+        "wrongAnswers": [
+            "geben",
+            "machen",
+            "haben",
+            "zeigen"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Einen Einfluss _____.",
+        "targetWord": "ausüben",
+        "targetWordTranslation": "to exert (influence)",
+        "wrongAnswers": [
+            "machen",
+            "haben",
+            "geben",
+            "nehmen"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "In Ordnung _____.",
+        "targetWord": "bringen",
+        "targetWordTranslation": "to put in order",
+        "wrongAnswers": [
+            "machen",
+            "tun",
+            "geben",
+            "stellen"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Eine Rolle _____.",
+        "targetWord": "spielen",
+        "targetWordTranslation": "to play (a role)",
+        "wrongAnswers": [
+            "machen",
+            "haben",
+            "sein",
+            "nehmen"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Zur Diskussion _____.",
+        "targetWord": "stehen",
+        "targetWordTranslation": "to be up for discussion",
+        "wrongAnswers": [
+            "stellen",
+            "sein",
+            "haben",
+            "gehen"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Beachtung _____.",
+        "targetWord": "finden",
+        "targetWordTranslation": "to find (attention)",
+        "wrongAnswers": [
+            "suchen",
+            "haben",
+            "machen",
+            "geben"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Einen Vorschlag _____.",
+        "targetWord": "machen",
+        "targetWordTranslation": "to make (a proposal)",
+        "wrongAnswers": [
+            "tun",
+            "geben",
+            "sagen",
+            "stellen"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Sich Mühe _____.",
+        "targetWord": "geben",
+        "targetWordTranslation": "to make an effort",
+        "wrongAnswers": [
+            "machen",
+            "nehmen",
+            "haben",
+            "tun"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Die Verantwortung _____.",
+        "targetWord": "übernehmen",
+        "targetWordTranslation": "to take (responsibility)",
+        "wrongAnswers": [
+            "nehmen",
+            "haben",
+            "machen",
+            "tragen"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Ein Versprechen _____.",
+        "targetWord": "halten",
+        "targetWordTranslation": "to keep (a promise)",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "haben",
+            "sagen"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Zum Ausdruck _____.",
+        "targetWord": "bringen",
+        "targetWordTranslation": "to express",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "sagen",
+            "stellen"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Aufs Spiel _____.",
+        "targetWord": "setzen",
+        "targetWordTranslation": "to put at stake",
+        "wrongAnswers": [
+            "stellen",
+            "machen",
+            "legen",
+            "geben"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Im Stich _____.",
+        "targetWord": "lassen",
+        "targetWordTranslation": "to leave in the lurch",
+        "wrongAnswers": [
+            "gehen",
+            "machen",
+            "geben",
+            "stehen"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Mut _____.",
+        "targetWord": "fassen",
+        "targetWordTranslation": "to take courage",
+        "wrongAnswers": [
+            "machen",
+            "haben",
+            "nehmen",
+            "geben"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "In Kauf _____.",
+        "targetWord": "nehmen",
+        "targetWordTranslation": "to accept (put up with)",
+        "wrongAnswers": [
+            "kaufen",
+            "machen",
+            "haben",
+            "geben"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Bescheid _____.",
+        "targetWord": "sagen",
+        "targetWordTranslation": "to let know",
+        "wrongAnswers": [
+            "geben",
+            "machen",
+            "tun",
+            "sprechen"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Einen Eindruck _____.",
+        "targetWord": "hinterlassen",
+        "targetWordTranslation": "to leave an impression",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "haben",
+            "lassen"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Frieden _____.",
+        "targetWord": "schließen",
+        "targetWordTranslation": "to make peace",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "haben",
+            "tun"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Einen Vortrag _____.",
+        "targetWord": "halten",
+        "targetWordTranslation": "to give a lecture",
+        "wrongAnswers": [
+            "machen",
+            "geben",
+            "sprechen",
+            "sagen"
+        ]
+    }
+]

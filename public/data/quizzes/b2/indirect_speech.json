@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Er sagte, er _____ krank.",
+        "targetWord": "sei",
+        "targetWordTranslation": "is (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "bin"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Sie meinte, sie _____ keine Zeit.",
+        "targetWord": "habe",
+        "targetWordTranslation": "has (reported)",
+        "wrongAnswers": [
+            "hat",
+            "hatte",
+            "hätte",
+            "habst"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Er behauptet, er _____ alles.",
+        "targetWord": "wisse",
+        "targetWordTranslation": "knows (reported)",
+        "wrongAnswers": [
+            "weiß",
+            "wusste",
+            "wüsste",
+            "wisst"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Man sagt, es _____ regnen.",
+        "targetWord": "werde",
+        "targetWordTranslation": "will (reported)",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "würde",
+            "werden"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Sie sagten, sie _____ kommen.",
+        "targetWord": "kämen",
+        "targetWordTranslation": "would come (reported)",
+        "wrongAnswers": [
+            "kommen",
+            "kamen",
+            "gekommen",
+            "komme"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Er fragte, ob ich Zeit _____.",
+        "targetWord": "habe",
+        "targetWordTranslation": "have (reported)",
+        "wrongAnswers": [
+            "hat",
+            "hätte",
+            "hatte",
+            "habst"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Der Arzt sagt, ich _____ gesund.",
+        "targetWord": "sei",
+        "targetWordTranslation": "am (reported)",
+        "wrongAnswers": [
+            "bin",
+            "war",
+            "bist",
+            "wäre"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Er glaubt, dass er recht _____.",
+        "targetWord": "habe",
+        "targetWordTranslation": "has (reported)",
+        "wrongAnswers": [
+            "hat",
+            "hätte",
+            "hatte",
+            "habst"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Sie berichteten, das Auto _____ gestohlen worden.",
+        "targetWord": "sei",
+        "targetWordTranslation": "was (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "wurde"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Er sagte, er _____ es nicht tun.",
+        "targetWord": "könne",
+        "targetWordTranslation": "can (reported)",
+        "wrongAnswers": [
+            "kann",
+            "konnte",
+            "könnte",
+            "kannst"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Man vermutet, er _____ der Täter.",
+        "targetWord": "sei",
+        "targetWordTranslation": "is (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "bin"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Sie sagten, sie _____ warten.",
+        "targetWord": "müssten",
+        "targetWordTranslation": "must (reported)",
+        "wrongAnswers": [
+            "müssen",
+            "mussten",
+            "muss",
+            "müsste"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Der Lehrer sagt, das _____ falsch.",
+        "targetWord": "sei",
+        "targetWordTranslation": "is (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "bin"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Sie behaupten, sie _____ es nicht gewesen.",
+        "targetWord": "seien",
+        "targetWordTranslation": "were (reported)",
+        "wrongAnswers": [
+            "sind",
+            "waren",
+            "wären",
+            "seid"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Er meinte, er _____ kommen.",
+        "targetWord": "wolle",
+        "targetWordTranslation": "wants (reported)",
+        "wrongAnswers": [
+            "will",
+            "wollte",
+            "wollten",
+            "wolltest"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Die Zeitung schreibt, der Preis _____ gestiegen.",
+        "targetWord": "sei",
+        "targetWordTranslation": "has (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "hat"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Man sagt, er _____ reich.",
+        "targetWord": "sei",
+        "targetWordTranslation": "is (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "bin"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Er erklärte, er _____ keine Schuld.",
+        "targetWord": "trage",
+        "targetWordTranslation": "bears (reported)",
+        "wrongAnswers": [
+            "trägt",
+            "trug",
+            "trugst",
+            "tragen"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Sie sagte, sie _____ müde.",
+        "targetWord": "sei",
+        "targetWordTranslation": "is (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "bin"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Er fragte, wie spät es _____.",
+        "targetWord": "sei",
+        "targetWordTranslation": "is (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "bin"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Man erzählt, sie _____ geheiratet.",
+        "targetWord": "hätten",
+        "targetWordTranslation": "have (reported)",
+        "wrongAnswers": [
+            "haben",
+            "hatten",
+            "hätte",
+            "hattest"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Er sagte, er _____ es vergessen.",
+        "targetWord": "habe",
+        "targetWordTranslation": "has (reported)",
+        "wrongAnswers": [
+            "hat",
+            "hatte",
+            "hätte",
+            "habst"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Sie meinten, das _____ nicht wahr.",
+        "targetWord": "sei",
+        "targetWordTranslation": "is (reported)",
+        "wrongAnswers": [
+            "ist",
+            "war",
+            "wäre",
+            "bin"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Der Minister sagte, die Steuern _____ sinken.",
+        "targetWord": "würden",
+        "targetWordTranslation": "would (reported)",
+        "wrongAnswers": [
+            "werden",
+            "wurden",
+            "werde",
+            "wird"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Er gab zu, dass er gelogen _____.",
+        "targetWord": "habe",
+        "targetWordTranslation": "has (reported)",
+        "wrongAnswers": [
+            "hat",
+            "hatte",
+            "hätte",
+            "hast"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Sie sagten, sie _____ Hilfe.",
+        "targetWord": "bräuchten",
+        "targetWordTranslation": "need (reported)",
+        "wrongAnswers": [
+            "brauchen",
+            "brauchten",
+            "brauche",
+            "brauchst"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Er antwortete, er _____ nicht.",
+        "targetWord": "wisse",
+        "targetWordTranslation": "knows (reported)",
+        "wrongAnswers": [
+            "weiß",
+            "wusste",
+            "wüsste",
+            "weisst"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Man sagt, das Wetter _____ besser.",
+        "targetWord": "werde",
+        "targetWordTranslation": "becomes (reported)",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "würde",
+            "geworden"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Sie behauptet, sie _____ ihn nicht.",
+        "targetWord": "kenne",
+        "targetWordTranslation": "knows (reported)",
+        "wrongAnswers": [
+            "kennt",
+            "kannte",
+            "könnte",
+            "kennst"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Er sagte, er _____ es versuchen.",
+        "targetWord": "werde",
+        "targetWordTranslation": "will (reported)",
+        "wrongAnswers": [
+            "wird",
+            "wurde",
+            "würde",
+            "werden"
+        ]
+    }
+]

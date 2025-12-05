@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Ich _____ gut schwimmen.",
+        "targetWord": "kann",
+        "targetWordTranslation": "can",
+        "wrongAnswers": [
+            "kannst",
+            "können",
+            "könnt",
+            "konnte"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Wir _____ jetzt gehen.",
+        "targetWord": "müssen",
+        "targetWordTranslation": "must",
+        "wrongAnswers": [
+            "muss",
+            "musst",
+            "müsst",
+            "mussten"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "_____ du ein Eis?",
+        "targetWord": "Möchtest",
+        "targetWordTranslation": "Would like",
+        "wrongAnswers": [
+            "Möchte",
+            "Möchten",
+            "Möchtet",
+            "Magst"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Er _____ nicht kommen.",
+        "targetWord": "will",
+        "targetWordTranslation": "wants",
+        "wrongAnswers": [
+            "willst",
+            "wollen",
+            "wollt",
+            "wollte"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Hier _____ man nicht rauchen.",
+        "targetWord": "darf",
+        "targetWordTranslation": "allowed to",
+        "wrongAnswers": [
+            "darfst",
+            "dürfen",
+            "dürft",
+            "durfte"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "_____ ihr mir helfen?",
+        "targetWord": "Könnt",
+        "targetWordTranslation": "Can",
+        "wrongAnswers": [
+            "Kannst",
+            "Können",
+            "Kann",
+            "Konntet"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Ihr _____ Hausaufgaben machen.",
+        "targetWord": "sollt",
+        "targetWordTranslation": "should",
+        "wrongAnswers": [
+            "sollst",
+            "sollen",
+            "soll",
+            "solltet"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Ich _____ das nicht.",
+        "targetWord": "mag",
+        "targetWordTranslation": "like",
+        "wrongAnswers": [
+            "magst",
+            "mögen",
+            "mögt",
+            "mochte"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Du _____ viel lernen.",
+        "targetWord": "musst",
+        "targetWordTranslation": "must",
+        "wrongAnswers": [
+            "muss",
+            "müssen",
+            "müsst",
+            "musstest"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Wir _____ ins Kino gehen.",
+        "targetWord": "wollen",
+        "targetWordTranslation": "want",
+        "wrongAnswers": [
+            "will",
+            "wollt",
+            "willst",
+            "wollten"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Das Kind _____ Schokolade.",
+        "targetWord": "mag",
+        "targetWordTranslation": "likes",
+        "wrongAnswers": [
+            "mögen",
+            "magst",
+            "mögt",
+            "mochten"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "_____ Sie Kaffee oder Tee?",
+        "targetWord": "Möchten",
+        "targetWordTranslation": "Would like",
+        "wrongAnswers": [
+            "Möchte",
+            "Möchtest",
+            "Mögt",
+            "Wollen"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Ich _____ heute arbeiten.",
+        "targetWord": "muss",
+        "targetWordTranslation": "must",
+        "wrongAnswers": [
+            "musst",
+            "müssen",
+            "müsst",
+            "müssen"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Du _____ das nicht tun.",
+        "targetWord": "darfst",
+        "targetWordTranslation": "are allowed",
+        "wrongAnswers": [
+            "darf",
+            "dürfen",
+            "dürft",
+            "dürfst"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Er _____ Deutsch sprechen.",
+        "targetWord": "kann",
+        "targetWordTranslation": "can",
+        "wrongAnswers": [
+            "kannst",
+            "können",
+            "könnt",
+            "konnte"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Wir _____ Pizza essen.",
+        "targetWord": "möchten",
+        "targetWordTranslation": "would like",
+        "wrongAnswers": [
+            "möchte",
+            "möchtest",
+            "mögt",
+            "mag"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Ihr _____ zu Hause bleiben.",
+        "targetWord": "müsst",
+        "targetWordTranslation": "must",
+        "wrongAnswers": [
+            "muss",
+            "musst",
+            "müssen",
+            "müsstest"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Sie (Pl) _____ Fußball spielen.",
+        "targetWord": "wollen",
+        "targetWordTranslation": "want",
+        "wrongAnswers": [
+            "will",
+            "willst",
+            "wollt",
+            "wolltest"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Der Arzt sagt, ich _____ schlafen.",
+        "targetWord": "soll",
+        "targetWordTranslation": "should",
+        "wrongAnswers": [
+            "sollst",
+            "sollen",
+            "sollt",
+            "sollte"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "_____ ich herein?",
+        "targetWord": "Darf",
+        "targetWordTranslation": "May",
+        "wrongAnswers": [
+            "Darfst",
+            "Dürfen",
+            "Dürft",
+            "Kann"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Wir _____ es versuchen.",
+        "targetWord": "können",
+        "targetWordTranslation": "can",
+        "wrongAnswers": [
+            "kann",
+            "kannst",
+            "könnt",
+            "konnten"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Du _____ dich beeilen.",
+        "targetWord": "musst",
+        "targetWordTranslation": "must",
+        "wrongAnswers": [
+            "muss",
+            "müssen",
+            "müsst",
+            "musstest"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Er _____ nach Hause gehen.",
+        "targetWord": "will",
+        "targetWordTranslation": "wants",
+        "wrongAnswers": [
+            "wollen",
+            "willst",
+            "wollt",
+            "wollte"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "_____ du mir helfen?",
+        "targetWord": "Kannst",
+        "targetWordTranslation": "Can",
+        "wrongAnswers": [
+            "Kann",
+            "Können",
+            "Könnt",
+            "Konntest"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Ich _____ keinen Fisch.",
+        "targetWord": "mag",
+        "targetWordTranslation": "like",
+        "wrongAnswers": [
+            "mögen",
+            "magst",
+            "mögt",
+            "mochte"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Wir _____ leise sein.",
+        "targetWord": "sollen",
+        "targetWordTranslation": "should",
+        "wrongAnswers": [
+            "soll",
+            "sollst",
+            "sollt",
+            "sollten"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Ihr _____ nicht rauchen.",
+        "targetWord": "dürft",
+        "targetWordTranslation": "allowed",
+        "wrongAnswers": [
+            "darf",
+            "darfst",
+            "dürfen",
+            "durftet"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Sie _____ sehr gut singen.",
+        "targetWord": "kann",
+        "targetWordTranslation": "can",
+        "wrongAnswers": [
+            "kannst",
+            "können",
+            "könnt",
+            "konnte"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Ich _____ dich besuchen.",
+        "targetWord": "will",
+        "targetWordTranslation": "want",
+        "wrongAnswers": [
+            "wollen",
+            "willst",
+            "wollt",
+            "wollte"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Du _____ das Buch lesen.",
+        "targetWord": "sollst",
+        "targetWordTranslation": "should",
+        "wrongAnswers": [
+            "soll",
+            "sollen",
+            "sollt",
+            "solltest"
+        ]
+    }
+]

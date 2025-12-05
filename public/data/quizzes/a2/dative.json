@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Ich helfe _____ Mann (m).",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "des"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Das Auto gehört _____ Frau (f).",
+        "targetWord": "der",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "dem",
+            "das",
+            "des"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Wir danken _____ Kind (n).",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "das",
+            "den",
+            "der",
+            "die"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Er schenkt _____ Eltern (Pl.) Blumen.",
+        "targetWord": "den",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "der",
+            "dem",
+            "das"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Ich antworte _____ Lehrer (m).",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "die",
+            "das"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Schmeckt es _____ (du)?",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "ihm",
+            "ihr"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Ich glaube _____ (er) nicht.",
+        "targetWord": "ihm",
+        "targetWordTranslation": "him",
+        "wrongAnswers": [
+            "ihn",
+            "er",
+            "ihr",
+            "es"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Das passt _____ (sie, Sg.) gut.",
+        "targetWord": "ihr",
+        "targetWordTranslation": "her",
+        "wrongAnswers": [
+            "sie",
+            "ihm",
+            "ihnen",
+            "es"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Gehört das Buch _____ (ihr, Pl.)?",
+        "targetWord": "euch",
+        "targetWordTranslation": "you guys",
+        "wrongAnswers": [
+            "ihr",
+            "uns",
+            "ihnen",
+            "sie"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Ich gratuliere _____ (Sie, Formal).",
+        "targetWord": "Ihnen",
+        "targetWordTranslation": "You",
+        "wrongAnswers": [
+            "Sie",
+            "dir",
+            "euch",
+            "ihnen"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Ich gebe _____ Bruder ein Geschenk.",
+        "targetWord": "meinem",
+        "targetWordTranslation": "my",
+        "wrongAnswers": [
+            "meinen",
+            "mein",
+            "meine",
+            "meines"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Sie hilft _____ Schwester.",
+        "targetWord": "ihrer",
+        "targetWordTranslation": "her",
+        "wrongAnswers": [
+            "ihre",
+            "ihren",
+            "ihrem",
+            "ihres"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Das gefällt _____ (mir).",
+        "targetWord": "mir",
+        "targetWordTranslation": "me",
+        "wrongAnswers": [
+            "mich",
+            "ich",
+            "dir",
+            "uns"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Er folgt _____ Hund (m).",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Ich vertraue _____ Freundin (f).",
+        "targetWord": "der",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "dem",
+            "das",
+            "den"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Wir begegnen _____ Nachbarn (Pl.).",
+        "targetWord": "den",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "der",
+            "dem",
+            "das"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Sie hört _____ Musik (f) zu.",
+        "targetWord": "der",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "dem",
+            "das",
+            "den"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Ich schreibe _____ Oma (f).",
+        "targetWord": "der",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "dem",
+            "das",
+            "den"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Das tut _____ (mir) leid.",
+        "targetWord": "mir",
+        "targetWordTranslation": "me",
+        "wrongAnswers": [
+            "mich",
+            "ich",
+            "dir",
+            "uns"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Wie geht es _____ (Ihnen)?",
+        "targetWord": "Ihnen",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "Sie",
+            "dir",
+            "euch",
+            "ihr"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Ich sage es _____ (ihm).",
+        "targetWord": "ihm",
+        "targetWordTranslation": "him",
+        "wrongAnswers": [
+            "ihn",
+            "er",
+            "ihr",
+            "es"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Er zeigt _____ (uns) den Weg.",
+        "targetWord": "uns",
+        "targetWordTranslation": "us",
+        "wrongAnswers": [
+            "wir",
+            "euch",
+            "ihnen",
+            "sie"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Wir schenken _____ (euch) etwas.",
+        "targetWord": "euch",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "ihr",
+            "uns",
+            "wir",
+            "sie"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Sie erklärt _____ Schüler (m) die Regel.",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Das Haus gehört _____ Vater (m).",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Die Hose passt _____ Kind (n) nicht.",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "das",
+            "den",
+            "der",
+            "die"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Ich danke _____ (dir) für die Hilfe.",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "mir",
+            "ihm"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Er antwortet _____ (ihr, f).",
+        "targetWord": "ihr",
+        "targetWordTranslation": "her",
+        "wrongAnswers": [
+            "sie",
+            "ihm",
+            "ihnen",
+            "es"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Wir helfen _____ Leuten (Pl.).",
+        "targetWord": "den",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "der",
+            "dem",
+            "das"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Das Essen schmeckt _____ Gästen (Pl.).",
+        "targetWord": "den",
+        "targetWordTranslation": "the",
+        "wrongAnswers": [
+            "die",
+            "der",
+            "dem",
+            "das"
+        ]
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "_____ des schlechten Wetters blieben wir zu Hause.",
+        "targetWord": "Aufgrund",
+        "targetWordTranslation": "Due to",
+        "wrongAnswers": [
+            "Trotz",
+            "Wegen",
+            "Während",
+            "Statt"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "_____ der vielen Arbeit bin ich müde.",
+        "targetWord": "Wegen",
+        "targetWordTranslation": "Because of",
+        "wrongAnswers": [
+            "Trotz",
+            "Während",
+            "Statt",
+            "Außerhalb"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "_____ des Regens gingen wir spazieren.",
+        "targetWord": "Trotz",
+        "targetWordTranslation": "Despite",
+        "wrongAnswers": [
+            "Wegen",
+            "Aufgrund",
+            "Während",
+            "Statt"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "_____ der Pause trinken wir Kaffee.",
+        "targetWord": "Während",
+        "targetWordTranslation": "During",
+        "wrongAnswers": [
+            "Wegen",
+            "Trotz",
+            "Statt",
+            "Innerhalb"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "_____ eines Autos kaufte er ein Fahrrad.",
+        "targetWord": "Statt",
+        "targetWordTranslation": "Instead of",
+        "wrongAnswers": [
+            "Trotz",
+            "Wegen",
+            "Während",
+            "Außerhalb"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "_____ der Stadt gibt es einen Park.",
+        "targetWord": "Innerhalb",
+        "targetWordTranslation": "Inside/Within",
+        "wrongAnswers": [
+            "Außerhalb",
+            "Trotz",
+            "Wegen",
+            "Statt"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "_____ der Öffnungszeiten.",
+        "targetWord": "Außerhalb",
+        "targetWordTranslation": "Outside",
+        "wrongAnswers": [
+            "Innerhalb",
+            "Trotz",
+            "Wegen",
+            "Statt"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "_____ dem Gesetz.",
+        "targetWord": "Laut",
+        "targetWordTranslation": "According to",
+        "wrongAnswers": [
+            "Trotz",
+            "Wegen",
+            "Statt",
+            "Während"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "_____ einer Woche muss ich fertig sein.",
+        "targetWord": "Binnen",
+        "targetWordTranslation": "Within",
+        "wrongAnswers": [
+            "Während",
+            "Trotz",
+            "Wegen",
+            "Statt"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "_____ des Unfalls gab es Stau.",
+        "targetWord": "Infolge",
+        "targetWordTranslation": "As a result of",
+        "wrongAnswers": [
+            "Trotz",
+            "Statt",
+            "Während",
+            "Außerhalb"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "_____ mir hat niemand das gesehen.",
+        "targetWord": "Außer",
+        "targetWordTranslation": "Except",
+        "wrongAnswers": [
+            "Mit",
+            "Wegen",
+            "Trotz",
+            "Statt"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "_____ dem Fluss entlang.",
+        "targetWord": "Entlang",
+        "targetWordTranslation": "Along",
+        "wrongAnswers": [
+            "Durch",
+            "Gegen",
+            "Ohne",
+            "Um"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "_____ meiner Meinung...",
+        "targetWord": "Nach",
+        "targetWordTranslation": "According to",
+        "wrongAnswers": [
+            "Vor",
+            "In",
+            "Auf",
+            "Mit"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "_____ dem Haus gegenüber.",
+        "targetWord": "Gegenüber",
+        "targetWordTranslation": "Opposite",
+        "wrongAnswers": [
+            "Neben",
+            "Vor",
+            "Hinter",
+            "Bei"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "_____ der Hilfe seiner Freunde.",
+        "targetWord": "Dank",
+        "targetWordTranslation": "Thanks to",
+        "wrongAnswers": [
+            "Wegen",
+            "Trotz",
+            "Statt",
+            "Außer"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "_____ des Tages.",
+        "targetWord": "Lauf",
+        "targetWordTranslation": "Course (Im Lauf)",
+        "wrongAnswers": [
+            "Weg",
+            "Gang",
+            "Ziel",
+            "Bahn"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "_____ des Jahres.",
+        "targetWord": "Innerhalb",
+        "targetWordTranslation": "Within",
+        "wrongAnswers": [
+            "Außerhalb",
+            "Trotz",
+            "Statt",
+            "Wegen"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "_____ der Brücke.",
+        "targetWord": "Jenseits",
+        "targetWordTranslation": "Beyond",
+        "wrongAnswers": [
+            "Diesseits",
+            "Innerhalb",
+            "Inmitten",
+            "Längs"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "_____ des Berges (dieser Seite).",
+        "targetWord": "Diesseits",
+        "targetWordTranslation": "This side of",
+        "wrongAnswers": [
+            "Jenseits",
+            "Außerhalb",
+            "Infolge",
+            "Kraft"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "_____ seines Amtes.",
+        "targetWord": "Kraft",
+        "targetWordTranslation": "By virtue of",
+        "wrongAnswers": [
+            "Statt",
+            "Trotz",
+            "Wegen",
+            "Laut"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "_____ der Straße.",
+        "targetWord": "Längs",
+        "targetWordTranslation": "Along",
+        "wrongAnswers": [
+            "Quer",
+            "Durch",
+            "Um",
+            "In"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "_____ des Waldes (in der Mitte).",
+        "targetWord": "Inmitten",
+        "targetWordTranslation": "In the middle of",
+        "wrongAnswers": [
+            "Außerhalb",
+            "Neben",
+            "Vor",
+            "Hinter"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "_____ der Umstände.",
+        "targetWord": "Angesichts",
+        "targetWordTranslation": "In view of",
+        "wrongAnswers": [
+            "Trotz",
+            "Wegen",
+            "Statt",
+            "Außer"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "_____ des Vertrages.",
+        "targetWord": "Gemäß",
+        "targetWordTranslation": "In accordance with",
+        "wrongAnswers": [
+            "Trotz",
+            "Wegen",
+            "Statt",
+            "Außer"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "_____ des Wetters gehen wir.",
+        "targetWord": "Ungeachtet",
+        "targetWordTranslation": "Regardless of",
+        "wrongAnswers": [
+            "Wegen",
+            "Dank",
+            "Laut",
+            "Kraft"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "_____ der Kinder.",
+        "targetWord": "Zugunsten",
+        "targetWordTranslation": "In favor of",
+        "wrongAnswers": [
+            "Zuungunsten",
+            "Trotz",
+            "Statt",
+            "Wegen"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "_____ der Maßnahmen.",
+        "targetWord": "Zwecks",
+        "targetWordTranslation": "For the purpose of",
+        "wrongAnswers": [
+            "Trotz",
+            "Wegen",
+            "Statt",
+            "Außer"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "_____ des Hotels.",
+        "targetWord": "Seitens",
+        "targetWordTranslation": "On the part of",
+        "wrongAnswers": [
+            "Trotz",
+            "Wegen",
+            "Statt",
+            "Außer"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "_____ des Flusses (andere Seite).",
+        "targetWord": "Jenseits",
+        "targetWordTranslation": "Beyond",
+        "wrongAnswers": [
+            "Diesseits",
+            "Binnen",
+            "Längs",
+            "Gemäß"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "_____ der Regeln.",
+        "targetWord": "Entgegen",
+        "targetWordTranslation": "Contrary to",
+        "wrongAnswers": [
+            "Gemäß",
+            "Laut",
+            "Nach",
+            "Wegen"
+        ]
+    }
+]

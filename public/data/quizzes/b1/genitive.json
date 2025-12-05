@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Das Auto _____ Vaters.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Die Tasche _____ Frau.",
+        "targetWord": "der",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Das Spielzeug _____ Kindes.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Die Fenster _____ Hauses.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Die Meinung _____ Leute (Pl.).",
+        "targetWord": "der",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Wegen _____ Wetters.",
+        "targetWord": "des",
+        "targetWordTranslation": "because of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Trotz _____ Regens.",
+        "targetWord": "des",
+        "targetWordTranslation": "despite the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Während _____ Woche.",
+        "targetWord": "der",
+        "targetWordTranslation": "during the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Statt _____ Autos.",
+        "targetWord": "des",
+        "targetWordTranslation": "instead of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Innerhalb _____ Jahres.",
+        "targetWord": "eines",
+        "targetWordTranslation": "within a",
+        "wrongAnswers": [
+            "einer",
+            "einem",
+            "einen",
+            "ein"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Außerhalb _____ Stadt.",
+        "targetWord": "der",
+        "targetWordTranslation": "outside the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Das Ende _____ Films.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Der Hut _____ Mannes.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Die Farbe _____ Blumes.",
+        "targetWord": "der",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Das Dach _____ Gebäudes.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Die Größe _____ Zimmers.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Die Eltern _____ Kinder.",
+        "targetWord": "der",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Wegen _____ Krankheit.",
+        "targetWord": "der",
+        "targetWordTranslation": "because of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Trotz _____ Hitze.",
+        "targetWord": "der",
+        "targetWordTranslation": "despite the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Während _____ Tages.",
+        "targetWord": "des",
+        "targetWordTranslation": "during the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Statt _____ Computers.",
+        "targetWord": "des",
+        "targetWordTranslation": "instead of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Innerhalb _____ Woche.",
+        "targetWord": "einer",
+        "targetWordTranslation": "within a",
+        "wrongAnswers": [
+            "eines",
+            "einem",
+            "einen",
+            "ein"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Außerhalb _____ Hauses.",
+        "targetWord": "des",
+        "targetWordTranslation": "outside the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Der Anfang _____ Geschichte.",
+        "targetWord": "der",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Das Licht _____ Lampe.",
+        "targetWord": "der",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Der Preis _____ Autos.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Die Tür _____ Zimmers.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Das Bellen _____ Hundes.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Die Blätter _____ Baumes.",
+        "targetWord": "des",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "den",
+            "das"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Die Freunde _____ Schwester.",
+        "targetWord": "der",
+        "targetWordTranslation": "of the",
+        "wrongAnswers": [
+            "des",
+            "dem",
+            "den",
+            "die"
+        ]
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Ich helfe dem _____ (alt) Mann.",
+        "targetWord": "alten",
+        "targetWordTranslation": "old",
+        "wrongAnswers": [
+            "alte",
+            "altem",
+            "alter",
+            "altes"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Wegen des _____ (schlecht) Wetters.",
+        "targetWord": "schlechten",
+        "targetWordTranslation": "bad",
+        "wrongAnswers": [
+            "schlechte",
+            "schlechtem",
+            "schlechter",
+            "schlechtes"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Ein _____ (neu) Auto.",
+        "targetWord": "neues",
+        "targetWordTranslation": "new",
+        "wrongAnswers": [
+            "neue",
+            "neuen",
+            "neuem",
+            "neuer"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Mit _____ (gut) Freunden (Pl.).",
+        "targetWord": "guten",
+        "targetWordTranslation": "good",
+        "wrongAnswers": [
+            "gute",
+            "gutem",
+            "guter",
+            "gutes"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Ich trinke _____ (kalt) Wasser.",
+        "targetWord": "kaltes",
+        "targetWordTranslation": "cold",
+        "wrongAnswers": [
+            "kalte",
+            "kalten",
+            "kaltem",
+            "kalter"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Er liebt _____ (deutsch) Bier.",
+        "targetWord": "deutsches",
+        "targetWordTranslation": "German",
+        "wrongAnswers": [
+            "deutsche",
+            "deutschen",
+            "deutschem",
+            "deutscher"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Sie kaufen _____ (frisch) Milch.",
+        "targetWord": "frische",
+        "targetWordTranslation": "fresh",
+        "wrongAnswers": [
+            "frischen",
+            "frischem",
+            "frischer",
+            "frisches"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Das Haus _____ (reich) Leute.",
+        "targetWord": "reicher",
+        "targetWordTranslation": "rich",
+        "wrongAnswers": [
+            "reiche",
+            "reichen",
+            "reichem",
+            "reiches"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Wir essen in einem _____ (teuer) Restaurant.",
+        "targetWord": "teuren",
+        "targetWordTranslation": "expensive",
+        "wrongAnswers": [
+            "teure",
+            "teurem",
+            "teurer",
+            "teures"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Er hat eine _____ (blau) Hose.",
+        "targetWord": "blaue",
+        "targetWordTranslation": "blue",
+        "wrongAnswers": [
+            "blauen",
+            "blauem",
+            "blauer",
+            "blaues"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Mit viel _____ (gut) Glück.",
+        "targetWord": "gutem",
+        "targetWordTranslation": "good",
+        "wrongAnswers": [
+            "gute",
+            "guten",
+            "guter",
+            "gutes"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Für _____ (klein) Kinder.",
+        "targetWord": "kleine",
+        "targetWordTranslation": "small",
+        "wrongAnswers": [
+            "kleinen",
+            "kleinem",
+            "kleiner",
+            "kleines"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Trotz des _____ (stark) Regens.",
+        "targetWord": "starken",
+        "targetWordTranslation": "strong",
+        "wrongAnswers": [
+            "starke",
+            "starkem",
+            "starker",
+            "starkes"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Ich sehe den _____ (hoch) Baum.",
+        "targetWord": "hohen",
+        "targetWordTranslation": "high",
+        "wrongAnswers": [
+            "hohe",
+            "hohem",
+            "hoher",
+            "hohes"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Der Hund meiner _____ (nett) Nachbarin.",
+        "targetWord": "netten",
+        "targetWordTranslation": "nice",
+        "wrongAnswers": [
+            "nette",
+            "nettem",
+            "netter",
+            "nettes"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Er trinkt aus einer _____ (groß) Tasse.",
+        "targetWord": "großen",
+        "targetWordTranslation": "big",
+        "wrongAnswers": [
+            "große",
+            "großem",
+            "großer",
+            "großes"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Das ist ein _____ (schwierig) Problem.",
+        "targetWord": "schwieriges",
+        "targetWordTranslation": "difficult",
+        "wrongAnswers": [
+            "schwierige",
+            "schwierigen",
+            "schwierigem",
+            "schwieriger"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Wir brauchen _____ (trocken) Holz.",
+        "targetWord": "trockenes",
+        "targetWordTranslation": "dry",
+        "wrongAnswers": [
+            "trockene",
+            "trockenen",
+            "trockenem",
+            "trockener"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Das Auto _____ (jung) Fahrer.",
+        "targetWord": "junger",
+        "targetWordTranslation": "young",
+        "wrongAnswers": [
+            "junge",
+            "jungen",
+            "jungem",
+            "junges"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Ich spreche mit dem _____ (klug) Kind.",
+        "targetWord": "klugen",
+        "targetWordTranslation": "smart",
+        "wrongAnswers": [
+            "kluge",
+            "klugem",
+            "kluger",
+            "kluges"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Er trägt einen _____ (warm) Mantel.",
+        "targetWord": "warmen",
+        "targetWordTranslation": "warm",
+        "wrongAnswers": [
+            "warme",
+            "warmem",
+            "warmer",
+            "warmes"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Sie hat _____ (lang) Haare.",
+        "targetWord": "lange",
+        "targetWordTranslation": "long",
+        "wrongAnswers": [
+            "langen",
+            "langem",
+            "langer",
+            "langes"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Der Preis des _____ (neu) Autos.",
+        "targetWord": "neuen",
+        "targetWordTranslation": "new",
+        "wrongAnswers": [
+            "neue",
+            "neuem",
+            "neuer",
+            "neues"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Mit _____ (kalt) Wasser waschen.",
+        "targetWord": "kaltem",
+        "targetWordTranslation": "cold",
+        "wrongAnswers": [
+            "kalte",
+            "kalten",
+            "kalter",
+            "kaltes"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Er ist ein _____ (bekannt) Schauspieler.",
+        "targetWord": "bekannter",
+        "targetWordTranslation": "famous",
+        "wrongAnswers": [
+            "bekannte",
+            "bekannten",
+            "bekanntem",
+            "bekanntes"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Das Kleid der _____ (schön) Frau.",
+        "targetWord": "schönen",
+        "targetWordTranslation": "beautiful",
+        "wrongAnswers": [
+            "schöne",
+            "schönem",
+            "schöner",
+            "schönes"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "An einem _____ (sonnig) Tag.",
+        "targetWord": "sonnigen",
+        "targetWordTranslation": "sunny",
+        "wrongAnswers": [
+            "sonnige",
+            "sonnigem",
+            "sonniger",
+            "sonniges"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Viele _____ (alt) Leute.",
+        "targetWord": "alte",
+        "targetWordTranslation": "old",
+        "wrongAnswers": [
+            "alten",
+            "altem",
+            "alter",
+            "altes"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Das Leben _____ (berühmt) Stars.",
+        "targetWord": "berühmter",
+        "targetWordTranslation": "famous",
+        "wrongAnswers": [
+            "berühmte",
+            "berühmten",
+            "berühmtwm",
+            "berühmtes"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Ich kaufe eine _____ (billig) Uhr.",
+        "targetWord": "billige",
+        "targetWordTranslation": "cheap",
+        "wrongAnswers": [
+            "billigen",
+            "billigem",
+            "billiger",
+            "billiges"
+        ]
+    }
+]

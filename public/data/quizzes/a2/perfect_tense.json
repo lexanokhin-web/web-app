@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Ich habe _____ (lernen).",
+        "targetWord": "gelernt",
+        "targetWordTranslation": "learned",
+        "wrongAnswers": [
+            "lernt",
+            "lernte",
+            "gelernen",
+            "gelerne"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Er ist nach Hause _____ (gehen).",
+        "targetWord": "gegangen",
+        "targetWordTranslation": "gone",
+        "wrongAnswers": [
+            "ging",
+            "gegangt",
+            "geht",
+            "gegene"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Wir haben Pizza _____ (essen).",
+        "targetWord": "gegessen",
+        "targetWordTranslation": "eaten",
+        "wrongAnswers": [
+            "geessen",
+            "aßen",
+            "isst",
+            "geesst"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Sie hat ein Buch _____ (lesen).",
+        "targetWord": "gelesen",
+        "targetWordTranslation": "read",
+        "wrongAnswers": [
+            "gelest",
+            "las",
+            "lese",
+            "geles"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "_____ du das gesehen?",
+        "targetWord": "Hast",
+        "targetWordTranslation": "Have",
+        "wrongAnswers": [
+            "Habe",
+            "Bist",
+            "Hat",
+            "Haben"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Wir _____ im Kino gewesen.",
+        "targetWord": "sind",
+        "targetWordTranslation": "are (have been)",
+        "wrongAnswers": [
+            "haben",
+            "seid",
+            "waren",
+            "ist"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Ich habe Kaffee _____ (trinken).",
+        "targetWord": "getrunken",
+        "targetWordTranslation": "drunk",
+        "wrongAnswers": [
+            "getrinkt",
+            "trank",
+            "trinke",
+            "getranken"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Der Zug ist _____ (abfahren).",
+        "targetWord": "abgefahren",
+        "targetWordTranslation": "departed",
+        "wrongAnswers": [
+            "abgefahrt",
+            "abfahrt",
+            "abfuhr",
+            "abfahrte"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Sie hat viel _____ (arbeiten).",
+        "targetWord": "gearbeitet",
+        "targetWordTranslation": "worked",
+        "wrongAnswers": [
+            "arbeitet",
+            "arbeitete",
+            "gearbeit",
+            "gearbeiteten"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Er ist früh _____ (aufstehen).",
+        "targetWord": "aufgestanden",
+        "targetWordTranslation": "gotten up",
+        "wrongAnswers": [
+            "aufgesteht",
+            "aufstand",
+            "aufgestehn",
+            "aufstehst"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Ich habe _____ (schlafen).",
+        "targetWord": "geschlafen",
+        "targetWordTranslation": "slept",
+        "wrongAnswers": [
+            "geschlaft",
+            "schliefe",
+            "schlaf",
+            "geschlafe"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Bist du schon _____ (kommen)?",
+        "targetWord": "gekommen",
+        "targetWordTranslation": "come",
+        "wrongAnswers": [
+            "gekommst",
+            "kamst",
+            "gekommt",
+            "kommt"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Wir haben Fußball _____ (spielen).",
+        "targetWord": "gespielt",
+        "targetWordTranslation": "played",
+        "wrongAnswers": [
+            "gespielen",
+            "spielen",
+            "spielte",
+            "gespiel"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Er hat das Auto _____ (kaufen).",
+        "targetWord": "gekauft",
+        "targetWordTranslation": "bought",
+        "wrongAnswers": [
+            "kauft",
+            "kaufte",
+            "gekaufe",
+            "gekauf"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Sie ist nach Berlin _____ (fahren).",
+        "targetWord": "gefahren",
+        "targetWordTranslation": "driven/gone",
+        "wrongAnswers": [
+            "fahrt",
+            "fuhr",
+            "gefahre",
+            "gefahrt"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Ich habe einen Brief _____ (schreiben).",
+        "targetWord": "geschrieben",
+        "targetWordTranslation": "written",
+        "wrongAnswers": [
+            "schreibt",
+            "geschreiben",
+            "schrieb",
+            "geschriebt"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Hast du das _____ (hören)?",
+        "targetWord": "gehört",
+        "targetWordTranslation": "heard",
+        "wrongAnswers": [
+            "hört",
+            "hörte",
+            "gehören",
+            "gehör"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Wir haben Musik _____ (machen).",
+        "targetWord": "gemacht",
+        "targetWordTranslation": "made",
+        "wrongAnswers": [
+            "macht",
+            "machte",
+            "gemachen",
+            "gemach"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Er ist schnell _____ (laufen).",
+        "targetWord": "gelaufen",
+        "targetWordTranslation": "run",
+        "wrongAnswers": [
+            "lauft",
+            "lief",
+            "gelaufe",
+            "gelauft"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Sie hat _____ (singen).",
+        "targetWord": "gesungen",
+        "targetWordTranslation": "sung",
+        "wrongAnswers": [
+            "singen",
+            "gesingen",
+            "singte",
+            "gesang"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Ich habe _____ (warten).",
+        "targetWord": "gewartet",
+        "targetWordTranslation": "waited",
+        "wrongAnswers": [
+            "warte",
+            "wartete",
+            "gewarte",
+            "gewarten"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Wir haben _____ (lachen).",
+        "targetWord": "gelacht",
+        "targetWordTranslation": "laughed",
+        "wrongAnswers": [
+            "lacht",
+            "lachte",
+            "gelachen",
+            "gelach"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Er hat _____ (sagen).",
+        "targetWord": "gesagt",
+        "targetWordTranslation": "said",
+        "wrongAnswers": [
+            "sagt",
+            "sagte",
+            "gesagen",
+            "gesag"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Sie ist _____ (bleiben).",
+        "targetWord": "geblieben",
+        "targetWordTranslation": "stayed",
+        "wrongAnswers": [
+            "bleiben",
+            "blieb",
+            "gebleiben",
+            "gebleibt"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Ich habe _____ (denken).",
+        "targetWord": "gedacht",
+        "targetWordTranslation": "thought",
+        "wrongAnswers": [
+            "denkt",
+            "denkte",
+            "gedenkt",
+            "gedunken"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Hast du _____ (verstehen)?",
+        "targetWord": "verstanden",
+        "targetWordTranslation": "understood",
+        "wrongAnswers": [
+            "versteht",
+            "verstand",
+            "versteh",
+            "verstehnt"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Wir haben _____ (beginnen).",
+        "targetWord": "begonnen",
+        "targetWordTranslation": "begun",
+        "wrongAnswers": [
+            "beginnt",
+            "begann",
+            "beginnen",
+            "begonnt"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Er hat _____ (verlieren).",
+        "targetWord": "verloren",
+        "targetWordTranslation": "lost",
+        "wrongAnswers": [
+            "verliert",
+            "verlor",
+            "verlieren",
+            "verlorn"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Sie hat _____ (gewinnen).",
+        "targetWord": "gewonnen",
+        "targetWordTranslation": "won",
+        "wrongAnswers": [
+            "gewinnt",
+            "gewann",
+            "gewinnen",
+            "gewonn"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Ich habe _____ (finden).",
+        "targetWord": "gefunden",
+        "targetWordTranslation": "found",
+        "wrongAnswers": [
+            "findet",
+            "fand",
+            "finden",
+            "gefinden"
+        ]
+    }
+]

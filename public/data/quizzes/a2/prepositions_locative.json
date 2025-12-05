@@ -1,0 +1,362 @@
+[
+    {
+        "id": "1",
+        "sentence": "Das Buch liegt _____ dem Tisch.",
+        "targetWord": "auf",
+        "targetWordTranslation": "on",
+        "wrongAnswers": [
+            "unter",
+            "in",
+            "an",
+            "hinter"
+        ]
+    },
+    {
+        "id": "2",
+        "sentence": "Das Bild hängt _____ der Wand.",
+        "targetWord": "an",
+        "targetWordTranslation": "on (vertical)",
+        "wrongAnswers": [
+            "auf",
+            "in",
+            "unter",
+            "über"
+        ]
+    },
+    {
+        "id": "3",
+        "sentence": "Wir sitzen _____ dem Kino.",
+        "targetWord": "in",
+        "targetWordTranslation": "in",
+        "wrongAnswers": [
+            "an",
+            "auf",
+            "unter",
+            "über"
+        ]
+    },
+    {
+        "id": "4",
+        "sentence": "Die Lampe hängt _____ dem Tisch.",
+        "targetWord": "über",
+        "targetWordTranslation": "over",
+        "wrongAnswers": [
+            "auf",
+            "unter",
+            "in",
+            "neben"
+        ]
+    },
+    {
+        "id": "5",
+        "sentence": "Die Katze schläft _____ dem Bett.",
+        "targetWord": "unter",
+        "targetWordTranslation": "under",
+        "wrongAnswers": [
+            "auf",
+            "über",
+            "in",
+            "an"
+        ]
+    },
+    {
+        "id": "6",
+        "sentence": "Das Auto steht _____ dem Haus.",
+        "targetWord": "vor",
+        "targetWordTranslation": "in front of",
+        "wrongAnswers": [
+            "hinter",
+            "in",
+            "auf",
+            "unter"
+        ]
+    },
+    {
+        "id": "7",
+        "sentence": "Der Garten ist _____ dem Haus.",
+        "targetWord": "hinter",
+        "targetWordTranslation": "behind",
+        "wrongAnswers": [
+            "vor",
+            "in",
+            "auf",
+            "unter"
+        ]
+    },
+    {
+        "id": "8",
+        "sentence": "Ich sitze _____ dir und ihm.",
+        "targetWord": "zwischen",
+        "targetWordTranslation": "between",
+        "wrongAnswers": [
+            "neben",
+            "in",
+            "an",
+            "auf"
+        ]
+    },
+    {
+        "id": "9",
+        "sentence": "Die Bank ist _____ der Post.",
+        "targetWord": "neben",
+        "targetWordTranslation": "next to",
+        "wrongAnswers": [
+            "in",
+            "auf",
+            "unter",
+            "zwischen"
+        ]
+    },
+    {
+        "id": "10",
+        "sentence": "Ich lege das Buch _____ den Tisch.",
+        "targetWord": "auf",
+        "targetWordTranslation": "onto",
+        "wrongAnswers": [
+            "unter",
+            "in",
+            "an",
+            "hinter"
+        ]
+    },
+    {
+        "id": "11",
+        "sentence": "Er geht _____ die Schule.",
+        "targetWord": "in",
+        "targetWordTranslation": "into",
+        "wrongAnswers": [
+            "auf",
+            "an",
+            "unter",
+            "über"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Wir fahren _____ die Stadt.",
+        "targetWord": "in",
+        "targetWordTranslation": "into",
+        "wrongAnswers": [
+            "auf",
+            "an",
+            "nach",
+            "zu"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Der Vogel fliegt _____ das Haus.",
+        "targetWord": "über",
+        "targetWordTranslation": "over",
+        "wrongAnswers": [
+            "auf",
+            "unter",
+            "in",
+            "an"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Der Hund läuft _____ den Tisch.",
+        "targetWord": "unter",
+        "targetWordTranslation": "under",
+        "wrongAnswers": [
+            "auf",
+            "über",
+            "in",
+            "an"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Ich stelle die Tasche _____ den Stuhl.",
+        "targetWord": "neben",
+        "targetWordTranslation": "next to",
+        "wrongAnswers": [
+            "in",
+            "auf",
+            "über",
+            "zwischen"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Wir gehen _____ das Kino.",
+        "targetWord": "in",
+        "targetWordTranslation": "into",
+        "wrongAnswers": [
+            "auf",
+            "an",
+            "unter",
+            "über"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Er hängt das Bild _____ die Wand.",
+        "targetWord": "an",
+        "targetWordTranslation": "onto",
+        "wrongAnswers": [
+            "auf",
+            "in",
+            "unter",
+            "über"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Das Kind versteckt sich _____ dem Baum.",
+        "targetWord": "hinter",
+        "targetWordTranslation": "behind",
+        "wrongAnswers": [
+            "vor",
+            "in",
+            "auf",
+            "unter"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Das Auto fährt _____ die Garage.",
+        "targetWord": "vor",
+        "targetWordTranslation": "in front of",
+        "wrongAnswers": [
+            "hinter",
+            "in",
+            "auf",
+            "unter"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Ich stelle mich _____ die beiden.",
+        "targetWord": "zwischen",
+        "targetWordTranslation": "between",
+        "wrongAnswers": [
+            "neben",
+            "in",
+            "an",
+            "auf"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Der Zug fährt _____ den Bahnhof.",
+        "targetWord": "in",
+        "targetWordTranslation": "into",
+        "wrongAnswers": [
+            "auf",
+            "an",
+            "unter",
+            "über"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Wir legen uns _____ den Strand.",
+        "targetWord": "auf",
+        "targetWordTranslation": "onto",
+        "wrongAnswers": [
+            "unter",
+            "in",
+            "an",
+            "hinter"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Er setzt sich _____ den Stuhl.",
+        "targetWord": "auf",
+        "targetWordTranslation": "onto",
+        "wrongAnswers": [
+            "unter",
+            "in",
+            "an",
+            "hinter"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Die Wolke ist _____ dem Berg.",
+        "targetWord": "über",
+        "targetWordTranslation": "over",
+        "wrongAnswers": [
+            "auf",
+            "unter",
+            "in",
+            "neben"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Der Teppich liegt _____ dem Boden.",
+        "targetWord": "auf",
+        "targetWordTranslation": "on",
+        "wrongAnswers": [
+            "unter",
+            "in",
+            "an",
+            "hinter"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Die Schuhe stehen _____ dem Bett.",
+        "targetWord": "unter",
+        "targetWordTranslation": "under",
+        "wrongAnswers": [
+            "auf",
+            "über",
+            "in",
+            "an"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Das Schild hängt _____ der Tür.",
+        "targetWord": "an",
+        "targetWordTranslation": "on",
+        "wrongAnswers": [
+            "auf",
+            "in",
+            "unter",
+            "über"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Wir treffen uns _____ der Schule.",
+        "targetWord": "vor",
+        "targetWordTranslation": "in front of",
+        "wrongAnswers": [
+            "hinter",
+            "in",
+            "auf",
+            "unter"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Der Park ist _____ dem Hotel.",
+        "targetWord": "hinter",
+        "targetWordTranslation": "behind",
+        "wrongAnswers": [
+            "vor",
+            "in",
+            "auf",
+            "unter"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Das Geschäft ist _____ der Apotheke.",
+        "targetWord": "neben",
+        "targetWordTranslation": "next to",
+        "wrongAnswers": [
+            "in",
+            "auf",
+            "unter",
+            "zwischen"
+        ]
+    }
+]
