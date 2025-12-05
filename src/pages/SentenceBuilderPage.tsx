@@ -4,7 +4,7 @@ import { SentenceBuilder } from '../components/features/SentenceBuilder/Sentence
 import { Button } from '../components/Button';
 import { ArrowLeft, ChevronRight } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
-import { getExercisesByLevel } from '../data/sentenceExercises';
+import { getExercisesByLevel, type SentenceExercise } from '../data/sentences';
 import { GlassCard } from '../components/GlassCard';
 
 export const SentenceBuilderPage: React.FC = () => {
@@ -12,8 +12,18 @@ export const SentenceBuilderPage: React.FC = () => {
     const { addXP } = useProgress();
     const [selectedLevel, setSelectedLevel] = useState<'A1' | 'A2' | 'B1' | 'B2' | null>(null);
     const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
-    // const [exercises, setExercises] = useState<SentenceExercise[]>([]); // Derived state
-    const exercises = React.useMemo(() => selectedLevel ? getExercisesByLevel(selectedLevel) : [], [selectedLevel]);
+    // State for exercises to handle shuffling (side effect)
+    const [exercises, setExercises] = useState<SentenceExercise[]>([]);
+
+    React.useEffect(() => {
+        if (!selectedLevel) {
+            setExercises([]);
+            return;
+        }
+        const levelExercises = getExercisesByLevel(selectedLevel);
+        // Shuffle exercises
+        setExercises([...levelExercises].sort(() => Math.random() - 0.5));
+    }, [selectedLevel]);
     const [correctCount, setCorrectCount] = useState(0);
 
 
