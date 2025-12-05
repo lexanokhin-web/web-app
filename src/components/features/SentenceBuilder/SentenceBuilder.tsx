@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { WordBlock } from './WordBlock';
 import { Button } from '../../Button';
 import { RotateCcw, Lightbulb, CheckCircle2 } from 'lucide-react';
-import type { SentenceExercise } from '../../../data/sentenceExercises';
+import type { SentenceExercise } from '../../../data/sentences/types';
 
 interface SentenceBuilderProps {
     exercise: SentenceExercise;
