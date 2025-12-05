@@ -114,7 +114,7 @@ export class SRSService {
 
             const cards = JSON.parse(data);
             // Convert date strings back to Date objects
-            return cards.map((c: any) => ({
+            return cards.map((c: SRSCard & { nextReviewDate: string, lastReviewDate?: string }) => ({
                 ...c,
                 nextReviewDate: new Date(c.nextReviewDate),
                 lastReviewDate: c.lastReviewDate ? new Date(c.lastReviewDate) : undefined
@@ -142,7 +142,16 @@ export class SRSService {
         }
     }
 
-    private static dbToCard(dbCard: any): SRSCard {
+    private static dbToCard(dbCard: {
+        id: string;
+        word_id: string;
+        user_id: string;
+        ease_factor: number;
+        interval: number;
+        repetitions: number;
+        next_review_date: string;
+        updated_at?: string;
+    }): SRSCard {
         return {
             id: dbCard.id,
             wordId: dbCard.word_id,
@@ -155,7 +164,7 @@ export class SRSService {
         };
     }
 
-    private static cardToDb(card: SRSCard, userId: string): any {
+    private static cardToDb(card: SRSCard, userId: string): Record<string, unknown> {
         return {
             user_id: userId,
             word_id: card.wordId,

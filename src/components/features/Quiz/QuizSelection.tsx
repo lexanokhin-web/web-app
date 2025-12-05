@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GlassCard } from '../../GlassCard';
-import { Button } from '../../Button';
 import { QUIZ_CONFIG, type QuizLevel, type QuizTopic } from '../../../data/quizzes/quiz-config';
 import { BookOpen, Star, Trophy, GraduationCap, ChevronRight } from 'lucide-react';
 

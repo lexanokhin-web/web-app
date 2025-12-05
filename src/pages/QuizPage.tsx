@@ -5,7 +5,7 @@ import { QuizSelection } from '../components/features/Quiz/QuizSelection';
 import { Button } from '../components/Button';
 import { GlassCard } from '../components/GlassCard';
 import { ArrowLeft, Trophy, Target } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useProgress } from '../hooks/useProgress';
 import { useGenericQuizData } from '../hooks/useLoadData';
 import type { QuizLevel, QuizTopic } from '../data/quizzes/quiz-config';
@@ -56,13 +56,6 @@ export const QuizPage: React.FC = () => {
         }
     }, [blockId]);
 
-    // Initialize quiz when data is loaded or path changes
-    useEffect(() => {
-        if (rawSentences) {
-            startQuizFromData(rawSentences);
-        }
-    }, [rawSentences]);
-
     const handleTopicSelect = (level: QuizLevel, topic: QuizTopic) => {
         setSelectedLevel(level);
         setSelectedTopic(topic);
@@ -70,7 +63,7 @@ export const QuizPage: React.FC = () => {
         setCurrentPath(`${level.toLowerCase()}/${topic.file.replace('.json', '')}`);
     };
 
-    const startQuizFromData = (sentences: Sentence[]) => {
+    const startQuizFromData = React.useCallback((sentences: Sentence[]) => {
         // Reset state
         setCurrentIndex(0);
         setScore(0);
@@ -112,7 +105,14 @@ export const QuizPage: React.FC = () => {
         });
 
         setQuizData(quiz);
-    };
+    }, []);
+
+    // Initialize quiz when data is loaded or path changes
+    useEffect(() => {
+        if (rawSentences) {
+            startQuizFromData(rawSentences);
+        }
+    }, [rawSentences, startQuizFromData]);
 
     // Combined loading state
     useEffect(() => {
@@ -331,6 +331,7 @@ export const QuizPage: React.FC = () => {
                 {/* Question */}
                 {currentQuiz && (
                     <QuizQuestion
+                        key={currentIndex}
                         question={currentQuiz.question}
                         correctAnswer={currentQuiz.correctAnswer}
                         wrongAnswers={currentQuiz.wrongAnswers}

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, X } from 'lucide-react';
 
@@ -19,20 +19,13 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
     questionNumber,
     totalQuestions
 }) => {
-    const [options, setOptions] = useState<string[]>([]);
+    const [options] = useState<string[]>(() => {
+        const allOptions = [correctAnswer, ...wrongAnswers];
+        return allOptions.sort(() => Math.random() - 0.5);
+    });
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [showFeedback, setShowFeedback] = useState(false);
-
-    // Перемешать ответы при загрузке
-    useEffect(() => {
-        const allOptions = [correctAnswer, ...wrongAnswers];
-        const shuffled = allOptions.sort(() => Math.random() - 0.5);
-        setOptions(shuffled);
-        setSelectedAnswer(null);
-        setIsCorrect(null);
-        setShowFeedback(false);
-    }, [question, correctAnswer, wrongAnswers]);
 
     const handleAnswer = (answer: string) => {
         if (selectedAnswer !== null) return; // Already answered

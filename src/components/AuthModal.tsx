@@ -39,8 +39,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
             setEmail('');
             setPassword('');
             setUsername('');
-        } catch (err: any) {
-            setError(err.message || 'Произошла ошибка');
+        } catch (err) {
+            setError((err as Error).message || 'Произошла ошибка');
         } finally {
             setLoading(false);
         }
@@ -51,8 +51,8 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
         setLoading(true);
         try {
             await signInWithGoogle();
-        } catch (err: any) {
-            setError(err.message);
+        } catch (err) {
+            setError((err as Error).message);
             setLoading(false);
         }
     };

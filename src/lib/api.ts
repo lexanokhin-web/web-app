@@ -1,4 +1,4 @@
-import type { BlockInfo, Sentence, ArticleSentence, AntonymExercise, SynonymExercise, StandaloneScenarioModel } from '../types';
+import type { Sentence, ArticleSentence, AntonymExercise, SynonymExercise, StandaloneScenarioModel } from '../types';
 
 /**
  * Generic fetcher to load JSON data from the public folder.
@@ -29,8 +29,8 @@ export async function fetchArticleSentences(): Promise<ArticleSentence[]> {
 /**
  * Loads personal pronoun exercises.
  */
-export async function fetchPersonalPronounExercises(): Promise<any[]> {
-    return fetchResource<any[]>(`/data/personalpronomen_exercises.json`);
+export async function fetchPersonalPronounExercises(): Promise<unknown[]> {
+    return fetchResource<unknown[]>(`/data/personalpronomen_exercises.json`);
 }
 
 /**

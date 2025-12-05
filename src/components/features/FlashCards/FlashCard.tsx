@@ -22,7 +22,7 @@ export const FlashCard: React.FC<FlashCardProps> = ({
     const [isFlipped, setIsFlipped] = useState(false);
     const [dragDirection, setDragDirection] = useState<'left' | 'right' | null>(null);
 
-    const handleDragEnd = (_event: any, info: PanInfo) => {
+    const handleDragEnd = (_event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
         const threshold = 100;
 
         if (info.offset.x > threshold) {

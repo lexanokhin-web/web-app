@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { SRSService } from '../services/srs/SRSService';
-import type { SRSCard } from '../services/srs/SRSEngine';
+import { type SRSCard, type SRSStats } from '../services/srs/SRSEngine';
 import { useAuth } from '../contexts/AuthContext';
 
 /**
@@ -60,7 +60,7 @@ export const useSRS = (wordId?: string) => {
  */
 export const useSRSStats = () => {
     const { user } = useAuth();
-    const [stats, setStats] = useState<any>(null);
+    const [stats, setStats] = useState<SRSStats | null>(null);
     const [loading, setLoading] = useState(false);
 
     const loadStats = async () => {

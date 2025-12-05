@@ -29,21 +29,26 @@ export const ExercisePage: React.FC = () => {
 
     // Initialize session once data and progress are ready
     useEffect(() => {
-        if (!initialized && sentences && blockId) {
+        if (!initialized && sentences && blockId && !isSentencesLoading) {
             const newOnes = sentences.filter(s => !progress.learnedWordIDs.includes(s.id));
             const shuffled = [...newOnes].sort(() => Math.random() - 0.5);
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setSessionQueue(shuffled);
             setLoading(false);
             setInitialized(true);
 
             if (shuffled.length > 0) {
                 setCurrentSentence(shuffled[0]);
-                setSessionQueue(shuffled.slice(1));
+                setSessionQueue(() => {
+                    const next = [...shuffled];
+                    next.shift();
+                    return next;
+                });
             } else {
                 setShowCompletion(true);
             }
         }
-    }, [sentences, progress, blockId, initialized]);
+    }, [sentences, blockId, initialized, isSentencesLoading, progress.learnedWordIDs]);
 
 
     const nextSentence = () => {

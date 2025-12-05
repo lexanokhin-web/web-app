@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MatchGame } from '../components/features/MatchGame/MatchGame';
 import { Button } from '../components/Button';
-import { ArrowLeft, Plus, X, FolderPlus, Upload, Download } from 'lucide-react';
+import { ArrowLeft, Plus, X, FolderPlus, Download } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
 import { GlassCard } from '../components/GlassCard';
 import { allVocabularyCategories } from '../data/vocabulary';
@@ -41,7 +41,6 @@ export const MatchGamePage: React.FC = () => {
     const navigate = useNavigate();
     const { addXP } = useProgress();
     const [pairs, setPairs] = useState<{ de: string; ru: string }[]>([]);
-    const [showResults, setShowResults] = useState(false);
     const [gameStarted, setGameStarted] = useState(false);
 
     // Block management
@@ -54,7 +53,6 @@ export const MatchGamePage: React.FC = () => {
     const [newGerman, setNewGerman] = useState('');
     const [newRussian, setNewRussian] = useState('');
     const [importError, setImportError] = useState<string | null>(null);
-    const [selectedBlockForGame, setSelectedBlockForGame] = useState<string | null>(null);
 
     // Load blocks from localStorage on mount, and merge with updated vocabulary
     useEffect(() => {
@@ -142,6 +140,7 @@ export const MatchGamePage: React.FC = () => {
 
         // 3. Merge: System blocks first, then custom blocks
         const mergedBlocks = [...systemBlocks, ...customBlocks];
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setBlocks(mergedBlocks);
 
         // 4. Set initial selection if needed
@@ -235,6 +234,7 @@ export const MatchGamePage: React.FC = () => {
 
             if (extension === 'json') {
                 const parsed = JSON.parse(text);
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 importedWords = parsed.map((item: any) => ({
                     german: item.german || item.de || '',
                     russian: item.russian || item.ru || ''
@@ -361,15 +361,12 @@ export const MatchGamePage: React.FC = () => {
             await addXP(totalXP);
         }
 
-        setShowResults(true);
-        setShowResults(true);
-        // setTimeout(() => navigate('/'), 3000); // Removed auto-navigation
+        // Game completion UI is handled by MatchGame component
     };
 
     const resetGame = () => {
         setGameStarted(false);
         setPairs([]);
-        setShowResults(false);
     };
 
     if (!gameStarted) {

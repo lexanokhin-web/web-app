@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { SentenceBuilder } from '../components/features/SentenceBuilder/SentenceBuilder';
 import { Button } from '../components/Button';
 import { ArrowLeft, ChevronRight } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
-import { sentenceExercises, getExercisesByLevel } from '../data/sentenceExercises';
-import type { SentenceExercise } from '../data/sentenceExercises';
+import { getExercisesByLevel } from '../data/sentenceExercises';
 import { GlassCard } from '../components/GlassCard';
 
 export const SentenceBuilderPage: React.FC = () => {
@@ -13,17 +12,11 @@ export const SentenceBuilderPage: React.FC = () => {
     const { addXP } = useProgress();
     const [selectedLevel, setSelectedLevel] = useState<'A1' | 'A2' | 'B1' | 'B2' | null>(null);
     const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
-    const [exercises, setExercises] = useState<SentenceExercise[]>([]);
+    // const [exercises, setExercises] = useState<SentenceExercise[]>([]); // Derived state
+    const exercises = React.useMemo(() => selectedLevel ? getExercisesByLevel(selectedLevel) : [], [selectedLevel]);
     const [correctCount, setCorrectCount] = useState(0);
 
-    useEffect(() => {
-        if (selectedLevel) {
-            const levelExercises = getExercisesByLevel(selectedLevel);
-            setExercises(levelExercises);
-            setCurrentExerciseIndex(0);
-            setCorrectCount(0);
-        }
-    }, [selectedLevel]);
+
 
     const handleComplete = async (isCorrect: boolean) => {
         if (isCorrect) {
@@ -102,7 +95,11 @@ export const SentenceBuilderPage: React.FC = () => {
                                 <GlassCard
                                     key={level}
                                     className="p-6 cursor-pointer hover:scale-105 transition-transform duration-200"
-                                    onClick={() => setSelectedLevel(level)}
+                                    onClick={() => {
+                                        setSelectedLevel(level);
+                                        setCurrentExerciseIndex(0);
+                                        setCorrectCount(0);
+                                    }}
                                 >
                                     <div className={`w-full h-32 bg-gradient-to-r ${getLevelColor(level)} rounded-xl mb-4 flex items-center justify-center`}>
                                         <span className="text-5xl font-bold text-white">{level}</span>

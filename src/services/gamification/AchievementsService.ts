@@ -1,11 +1,21 @@
 import { supabase, isSupabaseConfigured } from '../../lib/supabase';
 
+export interface AchievementStats {
+    lessons_completed: number;
+    quizzes_completed: number;
+    perfect_quizzes: number;
+    words_learned: number;
+    streak: number;
+    level: number;
+    [key: string]: unknown;
+}
+
 export interface Achievement {
     id: string;
     title: string;
     description: string;
     icon: string; // Lucide icon name or emoji
-    condition: (stats: any) => boolean;
+    condition: (stats: AchievementStats) => boolean;
 }
 
 export const ACHIEVEMENTS_LIST: Achievement[] = [
@@ -63,7 +73,7 @@ export class AchievementsService {
         return data.map(a => a.achievement_id);
     }
 
-    static async checkAndUnlock(userId: string, stats: any): Promise<string[]> {
+    static async checkAndUnlock(userId: string, stats: AchievementStats): Promise<string[]> {
         if (!userId || !isSupabaseConfigured()) return [];
 
         const unlockedIds = await this.getUnlockedAchievements(userId);

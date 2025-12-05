@@ -21,6 +21,15 @@ export interface ReviewResult {
     card: SRSCard;
 }
 
+export interface SRSStats {
+    total: number;
+    due: number;
+    new: number;
+    learning: number;
+    mature: number;
+    avgEaseFactor: string;
+}
+
 export class SRSEngine {
     /**
      * Оценить качество ответа:
@@ -123,7 +132,7 @@ export class SRSEngine {
     /**
      * Получить статистику обучения
      */
-    static getStats(cards: SRSCard[]) {
+    static getStats(cards: SRSCard[]): SRSStats {
         const now = new Date();
         const dueCards = cards.filter(c => c.nextReviewDate <= now);
         const newCards = cards.filter(c => c.repetitions === 0);

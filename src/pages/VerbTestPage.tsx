@@ -25,7 +25,6 @@ export const VerbTestPage: React.FC = () => {
     const [incorrectCount, setIncorrectCount] = useState(0);
     const [incorrectIDs, setIncorrectIDs] = useState<string[]>([]);
     const [isFinished, setIsFinished] = useState(false);
-    const [loading, setLoading] = useState(true);
 
     const prepareOptions = (targetSentence: Sentence, sourcePool: Sentence[]) => {
         // Get all unique target words except the correct one
@@ -48,11 +47,11 @@ export const VerbTestPage: React.FC = () => {
         const block = availableBlocks.find(b => b.id === blockId);
         if (!block) {
             console.error('Block not found');
-            setLoading(false);
             return;
         }
 
         if (rawData) {
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setAllSentences(rawData);
             const shuffled = [...rawData].sort(() => Math.random() - 0.5);
             setSentences(shuffled);
@@ -60,19 +59,18 @@ export const VerbTestPage: React.FC = () => {
             if (shuffled.length > 0) {
                 setCurrentOptions(prepareOptions(shuffled[0], rawData));
             }
-            setLoading(false);
         }
     }, [blockId, rawData]);
 
-    // Sync loading
+    // Derived state
+    const block = availableBlocks.find(b => b.id === blockId);
+    const isLoading = isQueryLoading || !block;
+
     useEffect(() => {
-        // Only set loading to true if we are waiting for query
-        // We might have handled !block case above
-        const block = availableBlocks.find(b => b.id === blockId);
-        if (block) {
-            setLoading(isQueryLoading);
+        if (!block && !isQueryLoading) {
+            console.error('Block not found');
         }
-    }, [isQueryLoading, blockId]);
+    }, [block, isQueryLoading]);
 
     const handleOptionSelect = (option: string) => {
         if (showAnswer) return;
@@ -138,7 +136,7 @@ export const VerbTestPage: React.FC = () => {
         setSelectedOption(null);
     };
 
-    if (loading) {
+    if (isLoading) {
         return (
             <div className="min-h-screen flex items-center justify-center">
                 <GlassCard className="p-8">

@@ -27,7 +27,7 @@ export class ProgressService {
      */
     static async getProgress(userId?: string): Promise<UserProgress> {
         if (isSupabaseConfigured() && userId) {
-            const { data, error } = await supabase!
+            const { data } = await supabase!
                 .from('user_progress')
                 .select('*')
                 .eq('user_id', userId)

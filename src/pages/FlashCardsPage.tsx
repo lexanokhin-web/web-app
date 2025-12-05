@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { FlashCard } from '../components/features/FlashCards/FlashCard';
 import { Button } from '../components/Button';
 import { GlassCard } from '../components/GlassCard';
-import { ArrowLeft, Trophy, BookOpen, GraduationCap } from 'lucide-react';
+import { ArrowLeft, Trophy } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SRSService } from '../services/srs/SRSService';
 import { useAuth } from '../contexts/AuthContext';
@@ -179,7 +179,7 @@ export const FlashCardsPage: React.FC = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {levels.map(lvl => {
-                            const categories = getCategoriesByLevel(lvl.id.toUpperCase() as any);
+                            const categories = getCategoriesByLevel(lvl.id.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2');
                             const totalWords = categories.reduce((sum, cat) => sum + cat.wordCount, 0);
 
                             return (
@@ -209,7 +209,7 @@ export const FlashCardsPage: React.FC = () => {
     // VIEW 2: Category Selection (level but no categoryId)
     if (level && !categoryId) {
         const selectedLevel = levels.find(l => l.id === level);
-        const categories = getCategoriesByLevel(level.toUpperCase() as any);
+        const categories = getCategoriesByLevel(level.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2');
 
         if (!selectedLevel || categories.length === 0) {
             return (

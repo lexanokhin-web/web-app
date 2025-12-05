@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Trophy, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
 
 export const UserLevelBadge: React.FC = () => {

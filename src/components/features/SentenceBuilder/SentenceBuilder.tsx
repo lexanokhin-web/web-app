@@ -11,7 +11,7 @@ interface SentenceBuilderProps {
 }
 
 export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onComplete }) => {
-    const [scrambledWords, setScrambledWords] = useState<string[]>(
+    const [scrambledWords, setScrambledWords] = useState<string[]>(() =>
         [...exercise.correctSentence].sort(() => Math.random() - 0.5)
     );
     const [placedWords, setPlacedWords] = useState<(string | null)[]>(

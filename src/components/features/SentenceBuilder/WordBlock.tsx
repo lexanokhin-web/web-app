@@ -47,10 +47,14 @@ export const WordBlock: React.FC<WordBlockProps> = ({
     return (
         <motion.div
             draggable={!isPlaced}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             onDragStart={handleDragStart as any}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             onDragOver={handleDragOver as any}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             onDrop={onDrop as any}
             onClick={onClick}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             onTouchStart={handleTouchStart as any}
             className={`
                 px-4 py-3 rounded-lg border-2 font-medium text-gray-800 cursor-pointer
