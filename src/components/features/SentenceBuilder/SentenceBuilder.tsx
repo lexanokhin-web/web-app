@@ -18,6 +18,7 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
         Array(exercise.correctSentence.length).fill(null)
     );
     const [draggedWord, setDraggedWord] = useState<{ word: string; index: number } | null>(null);
+    const [selectedWord, setSelectedWord] = useState<{ word: string; index: number; fromBank: boolean } | null>(null);
     const [isChecked, setIsChecked] = useState(false);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [showHint, setShowHint] = useState(false);
@@ -45,6 +46,46 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
         setIsCorrect(null);
     };
 
+    // Tap-to-select handlers for mobile
+    const handleWordClick = (word: string, index: number, fromBank: boolean) => {
+        if (isChecked) return;
+
+        // If clicking the same word, deselect it
+        if (selectedWord?.word === word && selectedWord?.index === index && selectedWord?.fromBank === fromBank) {
+            setSelectedWord(null);
+            return;
+        }
+
+        setSelectedWord({ word, index, fromBank });
+    };
+
+    const handleSlotClick = (slotIndex: number) => {
+        if (isChecked) return;
+
+        // If no word selected, do nothing
+        if (!selectedWord) return;
+
+        // If clicking on a filled slot, remove the word
+        if (placedWords[slotIndex]) {
+            handleRemoveFromSlot(slotIndex);
+            return;
+        }
+
+        // Place selected word from bank into slot
+        if (selectedWord.fromBank) {
+            const newScrambled = scrambledWords.filter((_, i) => i !== selectedWord.index);
+            setScrambledWords(newScrambled);
+
+            const newPlaced = [...placedWords];
+            newPlaced[slotIndex] = selectedWord.word;
+            setPlacedWords(newPlaced);
+
+            setSelectedWord(null);
+            setIsChecked(false);
+            setIsCorrect(null);
+        }
+    };
+
     const handleRemoveFromSlot = (slotIndex: number) => {
         const word = placedWords[slotIndex];
         if (!word) return;
@@ -57,6 +98,7 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
         newPlaced[slotIndex] = null;
         setPlacedWords(newPlaced);
 
+        setSelectedWord(null);
         setIsChecked(false);
         setIsCorrect(null);
     };
@@ -79,6 +121,7 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
         setIsChecked(false);
         setIsCorrect(null);
         setShowHint(false);
+        setSelectedWord(null);
     };
 
     const handleHint = () => {
@@ -140,23 +183,25 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
                         key={index}
                         onDragOver={(e) => e.preventDefault()}
                         onDrop={() => handleDropOnSlot(index)}
-                        className="relative"
+                        onClick={() => handleSlotClick(index)}
+                        className="relative cursor-pointer"
                     >
                         {word ? (
                             <div
-                                onClick={() => !isChecked && handleRemoveFromSlot(index)}
                                 className={`
-                                    px-4 py-3 rounded-lg border-2 font-medium cursor-pointer
-                                    transition-all duration-200
+                                    px-4 py-3 rounded-lg border-2 font-medium transition-all duration-200
                                     ${isChecked && isCorrect ? 'bg-green-100 border-green-400 text-green-800' : ''}
                                     ${isChecked && !isCorrect ? 'bg-red-100 border-red-400 text-red-800' : ''}
-                                    ${!isChecked ? 'bg-white border-purple-400 hover:bg-purple-50' : ''}
+                                    ${!isChecked ? 'bg-white border-purple-400 hover:bg-purple-50 hover:border-purple-500 active:scale-95' : ''}
                                 `}
                             >
                                 {word}
                             </div>
                         ) : (
-                            <div className="w-24 h-12 rounded-lg border-2 border-gray-300 border-dashed bg-white/50" />
+                            <div className={`
+                                w-24 h-12 rounded-lg border-2 border-dashed transition-all duration-200
+                                ${selectedWord ? 'border-purple-500 bg-purple-100/50 animate-pulse' : 'border-gray-300 bg-white/50'}
+                            `} />
                         )}
                     </div>
                 ))}
@@ -196,7 +241,9 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
 
             {/* Word Bank */}
             <div className="space-y-2">
-                <h3 className="text-sm font-medium text-gray-600">Доступные слова:</h3>
+                <h3 className="text-sm font-medium text-gray-600">
+                    Доступные слова:{selectedWord && selectedWord.fromBank && ' (Выберите слот ☝️)'}
+                </h3>
                 <div className="flex flex-wrap gap-2 p-4 bg-gray-50 rounded-xl border border-gray-200 min-h-[60px]">
                     {scrambledWords.map((word, index) => (
                         <WordBlock
@@ -205,6 +252,8 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
                             index={index}
                             onDragStart={handleDragStart}
                             onDrop={() => { }}
+                            onClick={() => handleWordClick(word, index, true)}
+                            isSelected={selectedWord?.word === word && selectedWord?.index === index && selectedWord?.fromBank === true}
                         />
                     ))}
                 </div>

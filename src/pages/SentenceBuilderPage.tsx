@@ -90,7 +90,7 @@ export const SentenceBuilderPage: React.FC = () => {
                     {/* Instructions */}
                     <div className="mb-8 p-4 bg-blue-50 rounded-xl border border-blue-200">
                         <p className="text-gray-700">
-                            <strong>Как играть:</strong> Перетаскивайте слова в правильном порядке, чтобы составить корректное немецкое предложение. Выберите уровень сложности!
+                            <strong>Как играть:</strong> На компьютере перетаскивайте слова мышкой. На телефоне нажмите на слово, затем на пустой слот. Составьте корректное немецкое предложение!
                         </p>
                     </div>
 

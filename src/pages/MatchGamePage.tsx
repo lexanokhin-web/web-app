@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MatchGame } from '../components/features/MatchGame/MatchGame';
 import { Button } from '../components/Button';
-import { ArrowLeft, Plus, X, Edit2, FolderPlus, Upload, Download } from 'lucide-react';
+import { ArrowLeft, Plus, X, FolderPlus, Upload, Download } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
 import { GlassCard } from '../components/GlassCard';
+import { allVocabularyCategories } from '../data/vocabulary';
+import type { VocabularyCategory } from '../data/vocabulary/types';
 
 // Sample vocabulary for Match Game
 const sampleVocabulary = [
@@ -29,6 +31,8 @@ interface WordBlock {
     id: string;
     name: string;
     words: CustomWord[];
+    isVocabularyCategory?: boolean;
+    vocabularyCategory?: VocabularyCategory;
 }
 
 const STORAGE_KEY = 'match_game_word_blocks';
@@ -52,7 +56,7 @@ export const MatchGamePage: React.FC = () => {
     const [importError, setImportError] = useState<string | null>(null);
     const [selectedBlockForGame, setSelectedBlockForGame] = useState<string | null>(null);
 
-    // Load blocks from localStorage on mount
+    // Load blocks from localStorage on mount, or create vocabulary blocks
     useEffect(() => {
         const saved = localStorage.getItem(STORAGE_KEY);
         if (saved) {
@@ -62,9 +66,31 @@ export const MatchGamePage: React.FC = () => {
                 if (loadedBlocks.length > 0) {
                     setCurrentBlockId(loadedBlocks[0].id);
                 }
+                return; // Exit if we have saved blocks
             } catch (e) {
                 console.error('Failed to load word blocks:', e);
             }
+        }
+
+        // No saved blocks - create vocabulary category blocks
+        const levelEmojis: Record<string, string> = {
+            'A1': '🟢',
+            'A2': '🔵',
+            'B1': '🟠',
+            'B2': '🟣'
+        };
+
+        const vocabularyBlocks: WordBlock[] = allVocabularyCategories.map(category => ({
+            id: `vocab-${category.id}`,
+            name: `${levelEmojis[category.level] || '⚪'} ${category.level} - ${category.nameRu}`,
+            words: [], // Will be populated dynamically when playing
+            isVocabularyCategory: true,
+            vocabularyCategory: category
+        }));
+
+        setBlocks(vocabularyBlocks);
+        if (vocabularyBlocks.length > 0) {
+            setCurrentBlockId(vocabularyBlocks[0].id);
         }
     }, []);
 
@@ -92,6 +118,12 @@ export const MatchGamePage: React.FC = () => {
     };
 
     const deleteBlock = (blockId: string) => {
+        const block = blocks.find(b => b.id === blockId);
+        if (block?.isVocabularyCategory) {
+            alert('❌ Системные блоки с vocabulary нельзя удалить');
+            return;
+        }
+
         if (confirm('Удалить этот блок и все его слова?')) {
             const updatedBlocks = blocks.filter(b => b.id !== blockId);
             setBlocks(updatedBlocks);
@@ -232,6 +264,22 @@ export const MatchGamePage: React.FC = () => {
     const startGame = (blockId: string | null, useSample: boolean = false) => {
         if (blockId) {
             const block = blocks.find(b => b.id === blockId);
+
+            // Check if it's a vocabulary category block
+            if (block?.isVocabularyCategory && block.vocabularyCategory) {
+                const vocabularyWords = block.vocabularyCategory.words;
+                if (vocabularyWords.length >= 6) {
+                    const shuffled = [...vocabularyWords]
+                        .sort(() => Math.random() - 0.5)
+                        .slice(0, 6)
+                        .map(w => ({ de: w.german, ru: w.russian }));
+                    setPairs(shuffled);
+                    setGameStarted(true);
+                    return;
+                }
+            }
+
+            // Custom block logic
             if (block && block.words.length >= 6) {
                 const shuffled = [...block.words].sort(() => Math.random() - 0.5).slice(0, 6);
                 setPairs(shuffled.map(w => ({ de: w.german, ru: w.russian })));
@@ -329,8 +377,14 @@ export const MatchGamePage: React.FC = () => {
                                         </button>
                                     </div>
                                 </div>
-                                <p className="text-sm text-gray-600">{block.words.length} слов</p>
-                                {block.words.length >= 6 && (
+                                <p className="text-sm text-gray-600">
+                                    {block.isVocabularyCategory && block.vocabularyCategory
+                                        ? `${block.vocabularyCategory.wordCount} слов`
+                                        : `${block.words.length} слов`
+                                    }
+                                </p>
+                                {/* Always show play button for vocabulary blocks, or for custom blocks with enough words */}
+                                {(block.isVocabularyCategory || block.words.length >= 6) && (
                                     <Button
                                         onClick={(e) => {
                                             e.stopPropagation();
@@ -392,8 +446,8 @@ export const MatchGamePage: React.FC = () => {
                         </GlassCard>
                     </div>
 
-                    {/* Current Block Editor */}
-                    {currentBlock && (
+                    {/* Current Block Editor - Only for custom blocks */}
+                    {currentBlock && !currentBlock.isVocabularyCategory && (
                         <GlassCard className="p-6 mb-6">
                             <h2 className="text-xl font-bold text-gray-800 mb-4">
                                 📝 {currentBlock.name}
@@ -504,6 +558,30 @@ export const MatchGamePage: React.FC = () => {
                                     </p>
                                 </div>
                             )}
+                        </GlassCard>
+                    )}
+
+                    {/* Info card for vocabulary blocks */}
+                    {currentBlock && currentBlock.isVocabularyCategory && (
+                        <GlassCard className="p-6 mb-6">
+                            <h2 className="text-xl font-bold text-gray-800 mb-4">
+                                {currentBlock.vocabularyCategory?.icon} {currentBlock.name}
+                            </h2>
+                            <div className="space-y-3">
+                                <p className="text-gray-700">
+                                    <strong>Слов в категории:</strong> {currentBlock.vocabularyCategory?.wordCount}
+                                </p>
+                                <p className="text-gray-600 text-sm">
+                                    ℹ️ Это системный блок из базы vocabulary. Каждая игра будет использовать случайные 6 слов из этой категории.
+                                </p>
+                                <Button
+                                    onClick={() => startGame(currentBlock.id)}
+                                    variant="success"
+                                    className="w-full !py-4 text-lg"
+                                >
+                                    🎮 Начать игру с блоком "{currentBlock.vocabularyCategory?.nameRu}"
+                                </Button>
+                            </div>
                         </GlassCard>
                     )}
 
