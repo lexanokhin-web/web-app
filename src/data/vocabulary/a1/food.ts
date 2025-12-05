@@ -1,0 +1,53 @@
+// A1 Food & Drink
+import type { VocabularyWord, VocabularyCategory } from '../types';
+
+export const a1Food: VocabularyWord[] = [
+    { id: 'a1_food_1', german: 'das Essen', russian: 'еда', level: 'A1', category: 'food' },
+    { id: 'a1_food_2', german: 'das Trinken', russian: 'напиток', level: 'A1', category: 'food' },
+    { id: 'a1_food_3', german: 'das Wasser', russian: 'вода', level: 'A1', category: 'food' },
+    { id: 'a1_food_4', german: 'die Milch', russian: 'молоко', level: 'A1', category: 'food' },
+    { id: 'a1_food_5', german: 'der Kaffee', russian: 'кофе', level: 'A1', category: 'food' },
+    { id: 'a1_food_6', german: 'der Tee', russian: 'чай', level: 'A1', category: 'food' },
+    { id: 'a1_food_7', german: 'der Saft', russian: 'сок', level: 'A1', category: 'food' },
+    { id: 'a1_food_8', german: 'das Bier', russian: 'пиво', level: 'A1', category: 'food' },
+    { id: 'a1_food_9', german: 'der Wein', russian: 'вино', level: 'A1', category: 'food' },
+    { id: 'a1_food_10', german: 'das Brot', russian: 'хлеб', level: 'A1', category: 'food' },
+    { id: 'a1_food_11', german: 'das Brötchen', russian: 'булочка', level: 'A1', category: 'food' },
+    { id: 'a1_food_12', german: 'die Butter', russian: 'масло сливочное', level: 'A1', category: 'food' },
+    { id: 'a1_food_13', german: 'der Käse', russian: 'сыр', level: 'A1', category: 'food' },
+    { id: 'a1_food_14', german: 'die Wurst', russian: 'колбаса', level: 'A1', category: 'food' },
+    { id: 'a1_food_15', german: 'der Schinken', russian: 'ветчина', level: 'A1', category: 'food' },
+    { id: 'a1_food_16', german: 'das Fleisch', russian: 'мясо', level: 'A1', category: 'food' },
+    { id: 'a1_food_17', german: 'das Huhn', russian: 'курица', level: 'A1', category: 'food' },
+    { id: 'a1_food_18', german: 'der Fisch', russian: 'рыба', level: 'A1', category: 'food' },
+    { id: 'a1_food_19', german: 'das Ei', russian: 'яйцо', level: 'A1', category: 'food' },
+    { id: 'a1_food_20', german: 'der Reis', russian: 'рис', level: 'A1', category: 'food' },
+    { id: 'a1_food_21', german: 'die Nudel', russian: 'лапша', level: 'A1', category: 'food' },
+    { id: 'a1_food_22', german: 'die Pizza', russian: 'пицца', level: 'A1', category: 'food' },
+    { id: 'a1_food_23', german: 'die Suppe', russian: 'суп', level: 'A1', category: 'food' },
+    { id: 'a1_food_24', german: 'der Salat', russian: 'салат', level: 'A1', category: 'food' },
+    { id: 'a1_food_25', german: 'das Gemüse', russian: 'овощи', level: 'A1', category: 'food' },
+    { id: 'a1_food_26', german: 'das Obst', russian: 'фрукты', level: 'A1', category: 'food' },
+    { id: 'a1_food_27', german: 'der Zucker', russian: 'сахар', level: 'A1', category: 'food' },
+    { id: 'a1_food_28', german: 'das Salz', russian: 'соль', level: 'A1', category: 'food' },
+    { id: 'a1_food_29', german: 'der Pfeffer', russian: 'перец', level: 'A1', category: 'food' },
+    { id: 'a1_food_30', german: 'das Öl', russian: 'масло (растительное)', level: 'A1', category: 'food' },
+    { id: 'a1_food_31', german: 'die Marmelade', russian: 'джем', level: 'A1', category: 'food' },
+    { id: 'a1_food_32', german: 'der Honig', russian: 'мёд', level: 'A1', category: 'food' },
+    { id: 'a1_food_33', german: 'die Schokolade', russian: 'шоколад', level: 'A1', category: 'food' },
+    { id: 'a1_food_34', german: 'der Kuchen', russian: 'торт/пирог', level: 'A1', category: 'food' },
+    { id: 'a1_food_35', german: 'der Keks', russian: 'печенье', level: 'A1', category: 'food' },
+    { id: 'a1_food_36', german: 'das Eis', russian: 'мороженое', level: 'A1', category: 'food' },
+    { id: 'a1_food_37', german: 'die Pommes', russian: 'картошка фри', level: 'A1', category: 'food' },
+    { id: 'a1_food_38', german: 'der Hamburger', russian: 'гамбургер', level: 'A1', category: 'food' },
+];
+
+export const a1FoodCategory: VocabularyCategory = {
+    id: 'a1_food',
+    level: 'A1',
+    name: 'Food & Drink',
+    nameRu: 'Еда и напитки',
+    icon: '🍽️',
+    wordCount: a1Food.length,
+    words: a1Food
+};

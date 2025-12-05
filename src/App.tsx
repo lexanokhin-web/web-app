@@ -1,4 +1,5 @@
 
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { VerbsPage } from './pages/VerbsPage';
@@ -9,6 +10,12 @@ import { AntonymsPage } from './pages/AntonymsPage';
 import { SynonymsPage } from './pages/SynonymsPage';
 import { TestScenarioPage } from './pages/TestScenarioPage';
 import { VerbTestPage } from './pages/VerbTestPage';
+import { FlashCardsPage } from './pages/FlashCardsPage';
+import { QuizPage } from './pages/QuizPage';
+import { ProfilePage } from './pages/ProfilePage';
+import { LeaderboardPage } from './pages/LeaderboardPage';
+import { MatchGamePage } from './pages/MatchGamePage';
+import { SentenceBuilderPage } from './pages/SentenceBuilderPage';
 import './index.css';
 
 function App() {
@@ -16,6 +23,14 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/leaderboard" element={<LeaderboardPage />} />
+        <Route path="/match-game" element={<MatchGamePage />} />
+        <Route path="/sentence-builder" element={<SentenceBuilderPage />} />
+        <Route path="/flashcards" element={<FlashCardsPage />} />
+        <Route path="/flashcards/:level" element={<FlashCardsPage />} />
+        <Route path="/flashcards/:level/:categoryId" element={<FlashCardsPage />} />
+        <Route path="/quiz/:blockId?" element={<QuizPage />} />
         <Route path="/verbs" element={<VerbsPage />} />
         <Route path="/exercise/:blockId" element={<ExercisePage />} />
         <Route path="/articles" element={<ArticlesPage />} />

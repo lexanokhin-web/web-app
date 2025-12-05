@@ -7,6 +7,8 @@ interface InputProps {
     onSubmit?: () => void;
     disabled?: boolean;
     className?: string;
+    type?: string;
+    required?: boolean;
 }
 
 export const Input = React.forwardRef<HTMLInputElement, InputProps>((
@@ -16,7 +18,9 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>((
         placeholder = '',
         onSubmit,
         disabled = false,
-        className = ''
+        className = '',
+        type = 'text',
+        required = false
     },
     ref
 ) => {
@@ -29,12 +33,13 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>((
     return (
         <input
             ref={ref}
-            type="text"
+            type={type}
             value={value}
             onChange={(e) => onChange(e.target.value)}
             onKeyPress={handleKeyPress}
             placeholder={placeholder}
             disabled={disabled}
+            required={required}
             autoComplete="off"
             autoCorrect="off"
             className={`

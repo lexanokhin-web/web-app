@@ -1,0 +1,50 @@
+// A1 Home & Furniture
+import type { VocabularyWord, VocabularyCategory } from '../types';
+
+export const a1Home: VocabularyWord[] = [
+    { id: 'a1_home_1', german: 'das Haus', russian: 'дом', level: 'A1', category: 'home' },
+    { id: 'a1_home_2', german: 'die Wohnung', russian: 'квартира', level: 'A1', category: 'home' },
+    { id: 'a1_home_3', german: 'das Zimmer', russian: 'комната', level: 'A1', category: 'home' },
+    { id: 'a1_home_4', german: 'das Wohnzimmer', russian: 'гостиная', level: 'A1', category: 'home' },
+    { id: 'a1_home_5', german: 'das Schlafzimmer', russian: 'спальня', level: 'A1', category: 'home' },
+    { id: 'a1_home_6', german: 'die Küche', russian: 'кухня', level: 'A1', category: 'home' },
+    { id: 'a1_home_7', german: 'das Badezimmer', russian: 'ванная', level: 'A1', category: 'home' },
+    { id: 'a1_home_8', german: 'die Toilette', russian: 'туалет', level: 'A1', category: 'home' },
+    { id: 'a1_home_9', german: 'der Flur', russian: 'коридор', level: 'A1', category: 'home' },
+    { id: 'a1_home_10', german: 'der Balkon', russian: 'балкон', level: 'A1', category: 'home' },
+    { id: 'a1_home_11', german: 'der Garten', russian: 'сад', level: 'A1', category: 'home' },
+    { id: 'a1_home_12', german: 'die Tür', russian: 'дверь', level: 'A1', category: 'home' },
+    { id: 'a1_home_13', german: 'das Fenster', russian: 'окно', level: 'A1', category: 'home' },
+    { id: 'a1_home_14', german: 'die Wand', russian: 'стена', level: 'A1', category: 'home' },
+    { id: 'a1_home_15', german: 'der Boden', russian: 'пол', level: 'A1', category: 'home' },
+    { id: 'a1_home_16', german: 'die Decke', russian: 'потолок', level: 'A1', category: 'home' },
+    { id: 'a1_home_17', german: 'die Treppe', russian: 'лестница', level: 'A1', category: 'home' },
+    { id: 'a1_home_18', german: 'der Tisch', russian: 'стол', level: 'A1', category: 'home' },
+    { id: 'a1_home_19', german: 'der Stuhl', russian: 'стул', level: 'A1', category: 'home' },
+    { id: 'a1_home_20', german: 'das Sofa', russian: 'диван', level: 'A1', category: 'home' },
+    { id: 'a1_home_21', german: 'das Bett', russian: 'кровать', level: 'A1', category: 'home' },
+    { id: 'a1_home_22', german: 'der Schrank', russian: 'шкаф', level: 'A1', category: 'home' },
+    { id: 'a1_home_23', german: 'das Regal', russian: 'полка', level: 'A1', category: 'home' },
+    { id: 'a1_home_24', german: 'der Spiegel', russian: 'зеркало', level: 'A1', category: 'home' },
+    { id: 'a1_home_25', german: 'die Lampe', russian: 'лампа', level: 'A1', category: 'home' },
+    { id: 'a1_home_26', german: 'der Fernseher', russian: 'телевизор', level: 'A1', category: 'home' },
+    { id: 'a1_home_27', german: 'der Computer', russian: 'компьютер', level: 'A1', category: 'home' },
+    { id: 'a1_home_28', german: 'der Kühlschrank', russian: 'холодильник', level: 'A1', category: 'home' },
+    { id: 'a1_home_29', german: 'der Herd', russian: 'плита', level: 'A1', category: 'home' },
+    { id: 'a1_home_30', german: 'die Waschmaschine', russian: 'стиральная машина', level: 'A1', category: 'home' },
+    { id: 'a1_home_31', german: 'das Telefon', russian: 'телефон', level: 'A1', category: 'home' },
+    { id: 'a1_home_32', german: 'die Uhr', russian: 'часы', level: 'A1', category: 'home' },
+    { id: 'a1_home_33', german: 'das Bild', russian: 'картина', level: 'A1', category: 'home' },
+    { id: 'a1_home_34', german: 'der Teppich', russian: 'ковёр', level: 'A1', category: 'home' },
+    { id: 'a1_home_35', german: 'der Vorhang', russian: 'штора', level: 'A1', category: 'home' },
+];
+
+export const a1HomeCategory: VocabularyCategory = {
+    id: 'a1_home',
+    level: 'A1',
+    name: 'Home & Furniture',
+    nameRu: 'Дом и мебель',
+    icon: '🏠',
+    wordCount: a1Home.length,
+    words: a1Home
+};

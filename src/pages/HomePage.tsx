@@ -1,10 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
-import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, FileCheck2, Clock, Palette, Link, GitMerge } from 'lucide-react';
+import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, FileCheck2, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, LogOut, User, Trophy } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { useAuth } from '../contexts/AuthContext';
+import { AuthModal } from '../components/AuthModal';
+import { Button } from '../components/Button';
+import { UserLevelBadge } from '../components/UserLevelBadge';
 
 const categories = [
+    {
+        id: 'flashcards',
+        name: '🎴 FlashCards',
+        icon: BookOpen,
+        color: 'from-violet-400 to-fuchsia-600',
+        path: '/flashcards'
+    },
+    {
+        id: 'quiz',
+        name: '📝 Quiz',
+        icon: FileCheck,
+        color: 'from-emerald-400 to-cyan-600',
+        path: '/quiz'
+    },
     {
         id: 'verbs',
         name: 'Verben',
@@ -82,10 +100,26 @@ const categories = [
         color: 'from-rose-400 to-rose-600',
         path: '/exercise/verbindungen'
     },
+    {
+        id: 'match-game',
+        name: 'Найди пары',
+        icon: Puzzle,
+        color: 'from-green-400 to-emerald-600',
+        path: '/match-game'
+    },
+    {
+        id: 'sentence-builder',
+        name: 'Составь предложение',
+        icon: Hammer,
+        color: 'from-orange-400 to-red-600',
+        path: '/sentence-builder'
+    },
 ];
 
 export const HomePage: React.FC = () => {
     const navigate = useNavigate();
+    const { user, signOut } = useAuth();
+    const [showAuthModal, setShowAuthModal] = useState(false);
 
     return (
         <div className="min-h-screen py-8 px-4">
@@ -97,6 +131,43 @@ export const HomePage: React.FC = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                 >
+                    {/* Auth & Level Button */}
+                    <div className="flex justify-end mb-6">
+                        {user ? (
+                            <div className="flex items-center space-x-4">
+                                <UserLevelBadge />
+
+                                <Button
+                                    onClick={() => navigate('/leaderboard')}
+                                    variant="secondary"
+                                    className="!p-2"
+                                    title="Таблица лидеров"
+                                >
+                                    <Trophy className="w-5 h-5 text-yellow-500" />
+                                </Button>
+
+                                <div
+                                    onClick={() => navigate('/profile')}
+                                    className="flex items-center space-x-2 px-4 py-2 bg-white/30 backdrop-blur-md rounded-full cursor-pointer hover:bg-white/50 transition-colors"
+                                >
+                                    <User className="w-5 h-5 text-gray-700" />
+                                    <span className="text-gray-700 font-medium">
+                                        {user.user_metadata?.username || user.email?.split('@')[0]}
+                                    </span>
+                                </div>
+                                <Button onClick={signOut} variant="secondary">
+                                    <LogOut className="w-5 h-5 inline mr-2" />
+                                    Выйти
+                                </Button>
+                            </div>
+                        ) : (
+                            <Button onClick={() => setShowAuthModal(true)} variant="primary">
+                                <LogIn className="w-5 h-5 inline mr-2" />
+                                Войти
+                            </Button>
+                        )}
+                    </div>
+
                     <div className="flex justify-center mb-6">
                         <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center shadow-2xl">
                             <BookOpen className="w-10 h-10 text-white" />
@@ -145,6 +216,9 @@ export const HomePage: React.FC = () => {
                         );
                     })}
                 </div>
+
+                {/* Auth Modal */}
+                <AuthModal isOpen={showAuthModal} onClose={() => setShowAuthModal(false)} />
             </div>
         </div>
     );

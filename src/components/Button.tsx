@@ -1,22 +1,18 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import type { HTMLMotionProps } from 'framer-motion';
 
-interface ButtonProps {
-    children: React.ReactNode;
-    onClick?: () => void;
-    disabled?: boolean;
+interface ButtonProps extends HTMLMotionProps<"button"> {
     variant?: 'primary' | 'secondary' | 'success' | 'danger';
-    className?: string;
-    type?: 'button' | 'submit';
+    children: React.ReactNode;
 }
 
 export const Button: React.FC<ButtonProps> = ({
     children,
-    onClick,
-    disabled = false,
     variant = 'primary',
     className = '',
-    type = 'button'
+    disabled,
+    ...props
 }) => {
     const variantStyles = {
         primary: 'bg-blue-500/80 hover:bg-blue-600/80 text-white',
@@ -27,8 +23,6 @@ export const Button: React.FC<ButtonProps> = ({
 
     return (
         <motion.button
-            type={type}
-            onClick={onClick}
             disabled={disabled}
             whileHover={!disabled ? { scale: 1.05 } : {}}
             whileTap={!disabled ? { scale: 0.95 } : {}}
@@ -40,6 +34,7 @@ export const Button: React.FC<ButtonProps> = ({
         ${variantStyles[variant]}
         ${className}
       `}
+            {...props}
         >
             {children}
         </motion.button>
