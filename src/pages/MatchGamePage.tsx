@@ -56,23 +56,9 @@ export const MatchGamePage: React.FC = () => {
     const [importError, setImportError] = useState<string | null>(null);
     const [selectedBlockForGame, setSelectedBlockForGame] = useState<string | null>(null);
 
-    // Load blocks from localStorage on mount, or create vocabulary blocks
+    // Load blocks from localStorage on mount, and merge with updated vocabulary
     useEffect(() => {
-        const saved = localStorage.getItem(STORAGE_KEY);
-        if (saved) {
-            try {
-                const loadedBlocks = JSON.parse(saved);
-                setBlocks(loadedBlocks);
-                if (loadedBlocks.length > 0) {
-                    setCurrentBlockId(loadedBlocks[0].id);
-                }
-                return; // Exit if we have saved blocks
-            } catch (e) {
-                console.error('Failed to load word blocks:', e);
-            }
-        }
-
-        // No saved blocks - create vocabulary category blocks
+        // 1. Generate fresh system blocks (to get latest names/data)
         const levelEmojis: Record<string, string> = {
             'A1': '🟢',
             'A2': '🔵',
@@ -80,17 +66,60 @@ export const MatchGamePage: React.FC = () => {
             'B2': '🟣'
         };
 
-        const vocabularyBlocks: WordBlock[] = allVocabularyCategories.map(category => ({
+        const categoryTranslations: Record<string, string> = {
+            // A1
+            'Numbers': 'Zahlen',
+            'Family': 'Familie und Menschen',
+            'Colors': 'Farben',
+            'Body parts': 'Körperteile',
+            'Food and Drinks': 'Essen und Trinken',
+            'Fruits and Vegetables': 'Obst und Gemüse',
+            'Housing': 'Wohnen',
+            'Time and Calendar': 'Zeit und Kalender',
+            'Weather and Seasons': 'Wetter und Jahreszeiten',
+            'Common Verbs': 'Verben',
+            'Adjectives': 'Adjektive',
+            'School and Study': 'Schule und Studium',
+            'Animals': 'Tiere',
+            'Clothing': 'Kleidung',
+            // Generic fallback
+            'Food': 'Essen',
+            'Home': 'Zuhause',
+            'Body': 'Körper',
+            'Time': 'Zeit',
+            'Weather': 'Wetter',
+            'School': 'Schule'
+        };
+
+        const systemBlocks: WordBlock[] = allVocabularyCategories.map(category => ({
             id: `vocab-${category.id}`,
-            name: `${levelEmojis[category.level] || '⚪'} ${category.level} - ${category.nameRu}`,
-            words: [], // Will be populated dynamically when playing
+            name: `${levelEmojis[category.level] || '⚪'} ${category.level} - ${categoryTranslations[category.name] || category.name}`,
+            words: [], // populated dynamically
             isVocabularyCategory: true,
             vocabularyCategory: category
         }));
 
-        setBlocks(vocabularyBlocks);
-        if (vocabularyBlocks.length > 0) {
-            setCurrentBlockId(vocabularyBlocks[0].id);
+        // 2. Load and filter custom blocks from storage
+        const saved = localStorage.getItem(STORAGE_KEY);
+        let customBlocks: WordBlock[] = [];
+
+        if (saved) {
+            try {
+                const loadedBlocks = JSON.parse(saved) as WordBlock[];
+                // Keep only blocks that are NOT system categories
+                customBlocks = loadedBlocks.filter(b => !b.isVocabularyCategory);
+            } catch (e) {
+                console.error('Failed to load word blocks:', e);
+            }
+        }
+
+        // 3. Merge: System blocks first, then custom blocks
+        const mergedBlocks = [...systemBlocks, ...customBlocks];
+        setBlocks(mergedBlocks);
+
+        // 4. Set initial selection if needed
+        if (mergedBlocks.length > 0 && !currentBlockId) {
+            setCurrentBlockId(mergedBlocks[0].id);
         }
     }, []);
 
@@ -306,7 +335,8 @@ export const MatchGamePage: React.FC = () => {
         }
 
         setShowResults(true);
-        setTimeout(() => navigate('/'), 3000);
+        setShowResults(true);
+        // setTimeout(() => navigate('/'), 3000); // Removed auto-navigation
     };
 
     const resetGame = () => {
@@ -610,7 +640,11 @@ export const MatchGamePage: React.FC = () => {
                 </div>
 
                 {pairs.length > 0 && (
-                    <MatchGame pairs={pairs} onComplete={handleComplete} />
+                    <MatchGame
+                        pairs={pairs}
+                        onComplete={handleComplete}
+                        onExit={() => navigate('/')}
+                    />
                 )}
             </div>
         </div>

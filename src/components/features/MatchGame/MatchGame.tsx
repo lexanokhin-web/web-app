@@ -9,9 +9,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 interface MatchGameProps {
     pairs: { de: string; ru: string }[];
     onComplete: (stats: { matches: number; mistakes: number; timeSeconds: number }) => void;
+    onExit: () => void;
 }
 
-export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete }) => {
+export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit }) => {
     const [cards, setCards] = useState<MatchCardData[]>([]);
     const [firstSelection, setFirstSelection] = useState<MatchCardData | null>(null);
     const [secondSelection, setSecondSelection] = useState<MatchCardData | null>(null);
@@ -164,6 +165,15 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete }) => {
                                 </div>
                             </div>
                         </GlassCard>
+                        <div className="flex justify-center gap-4">
+                            <Button onClick={resetGame} variant="primary">
+                                <RotateCcw className="w-4 h-4 mr-2" />
+                                Играть еще
+                            </Button>
+                            <Button onClick={onExit} variant="secondary">
+                                Назад
+                            </Button>
+                        </div>
                     </motion.div>
                 )}
             </AnimatePresence>
