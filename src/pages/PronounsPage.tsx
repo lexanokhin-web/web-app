@@ -30,7 +30,7 @@ export const PronounsPage: React.FC = () => {
 
     useEffect(() => {
         if (rawData) {
-            const shuffled = [...rawData].sort(() => Math.random() - 0.5);
+            const shuffled = [...(rawData as PersonalPronounSentence[])].sort(() => Math.random() - 0.5);
             setSentences(shuffled);
             setLoading(false);
         }
