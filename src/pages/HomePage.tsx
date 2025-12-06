@@ -7,7 +7,6 @@ import { useAuth } from '../contexts/AuthContext';
 import { AuthModal } from '../components/AuthModal';
 import { Button } from '../components/Button';
 import { UserLevelBadge } from '../components/UserLevelBadge';
-import { AudioToggle } from '../components/AudioToggle';
 
 const exerciseBlocks = [
     {
@@ -160,7 +159,6 @@ export const HomePage: React.FC = () => {
                     <div className="flex justify-end mb-6">
                         {user ? (
                             <div className="flex items-center space-x-4">
-                                <AudioToggle />
                                 <UserLevelBadge />
 
                                 <Button

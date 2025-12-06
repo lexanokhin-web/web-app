@@ -8,8 +8,6 @@ import { ArrowLeft, Trophy, Target } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useProgress } from '../hooks/useProgress';
 import { useGenericQuizData } from '../hooks/useLoadData';
-import { useAudio } from '../contexts/AudioContext';
-import useSound from 'use-sound';
 import type { QuizLevel, QuizTopic } from '../data/quizzes/quiz-config';
 
 interface QuizData {
@@ -30,11 +28,6 @@ export const QuizPage: React.FC = () => {
     const navigate = useNavigate();
     const { blockId } = useParams<{ blockId?: string }>();
     const { addXP } = useProgress();
-    const { isMuted, volume } = useAudio();
-
-    const [playCorrect] = useSound('/sounds/correct.mp3', { volume: isMuted ? 0 : volume });
-    const [playIncorrect] = useSound('/sounds/incorrect.mp3', { volume: isMuted ? 0 : volume });
-    const [playLevelUp] = useSound('/sounds/levelup.mp3', { volume: isMuted ? 0 : volume });
 
     // Flow State
     const [mode, setMode] = useState<'selection' | 'quiz'>('selection');
@@ -140,9 +133,6 @@ export const QuizPage: React.FC = () => {
 
         if (isCorrect) {
             setScore(score + 1);
-            playCorrect();
-        } else {
-            playIncorrect();
         }
 
         // Move to next question or show results
@@ -159,7 +149,6 @@ export const QuizPage: React.FC = () => {
 
     const finishQuiz = async (finalScore: number) => {
         setShowResults(true);
-        playLevelUp();
         // Award XP: 10 XP per correct answer + 50 XP bonus for completion
         const xpEarned = (finalScore * 10) + 50;
         if (addXP) {
