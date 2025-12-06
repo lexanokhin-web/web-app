@@ -39,7 +39,7 @@ export class ProgressService {
                     xp: data.xp,
                     level: data.level,
                     streak: data.streak,
-                    lastActivityDate: new Date(data.last_activity_date),
+                    lastActivityDate: new Date(data.last_active_date),
                     lessonsCompleted: data.lessons_completed,
                     wordsLearned: data.words_learned,
                     learned_words: data.learned_words || []
@@ -80,16 +80,14 @@ export class ProgressService {
             xp: newXP,
             level: newLevel,
             streak: newStreak,
-            last_activity_date: new Date().toISOString()
+            last_active_date: new Date().toISOString()
         };
 
         if (isSupabaseConfigured() && userId) {
             const { error } = await supabase!
                 .from('user_progress')
-                .upsert({
-                    user_id: userId,
-                    ...updates
-                });
+                .update(updates)
+                .eq('user_id', userId);
 
             if (error) console.error('Error updating progress:', error);
         }
