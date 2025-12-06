@@ -174,12 +174,10 @@ export const HomePage: React.FC = () => {
 
                                 <div
                                     onClick={() => navigate('/profile')}
-                                    className="flex items-center space-x-2 px-4 py-2 bg-white/30 backdrop-blur-md rounded-full cursor-pointer hover:bg-white/50 transition-colors"
+                                    className="flex items-center justify-center p-2 bg-white/30 backdrop-blur-md rounded-full cursor-pointer hover:bg-white/50 transition-colors"
+                                    title={user.user_metadata?.username || user.email?.split('@')[0]}
                                 >
                                     <User className="w-5 h-5 text-gray-700" />
-                                    <span className="text-gray-700 font-medium">
-                                        {user.user_metadata?.username || user.email?.split('@')[0]}
-                                    </span>
                                 </div>
 
                             </div>
