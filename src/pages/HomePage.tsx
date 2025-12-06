@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
-import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, FileCheck2, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, LogOut, User, Trophy } from 'lucide-react';
+import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, FileCheck2, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, User, Trophy } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import { AuthModal } from '../components/AuthModal';
@@ -142,7 +142,7 @@ const exerciseBlocks = [
 
 export const HomePage: React.FC = () => {
     const navigate = useNavigate();
-    const { user, signOut } = useAuth();
+    const { user } = useAuth();
     const [showAuthModal, setShowAuthModal] = useState(false);
 
     return (
@@ -179,10 +179,7 @@ export const HomePage: React.FC = () => {
                                         {user.user_metadata?.username || user.email?.split('@')[0]}
                                     </span>
                                 </div>
-                                <Button onClick={signOut} variant="secondary">
-                                    <LogOut className="w-5 h-5 inline mr-2" />
-                                    Выйти
-                                </Button>
+
                             </div>
                         ) : (
                             <Button onClick={() => setShowAuthModal(true)} variant="primary">
