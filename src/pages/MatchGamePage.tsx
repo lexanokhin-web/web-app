@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MatchGame } from '../components/features/MatchGame/MatchGame';
 import { Button } from '../components/Button';
 import { ArrowLeft, Plus, X, FolderPlus, Download } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
+import { useAudio } from '../contexts/AudioContext';
+import useSound from 'use-sound';
 import { GlassCard } from '../components/GlassCard';
 import { allVocabularyCategories } from '../data/vocabulary';
 import type { VocabularyCategory } from '../data/vocabulary/types';
@@ -40,6 +42,14 @@ const STORAGE_KEY = 'match_game_word_blocks';
 export const MatchGamePage: React.FC = () => {
     const navigate = useNavigate();
     const { addXP } = useProgress();
+    const { isMuted, volume } = useAudio();
+
+    const [playCorrect] = useSound('/sounds/correct.mp3', { volume: isMuted ? 0 : volume });
+    const [playIncorrect] = useSound('/sounds/incorrect.mp3', { volume: isMuted ? 0 : volume });
+    const [playLevelUp] = useSound('/sounds/levelup.mp3', { volume: isMuted ? 0 : volume });
+
+    const completionSoundPlayed = useRef(false);
+
     const [pairs, setPairs] = useState<{ de: string; ru: string }[]>([]);
     const [gameStarted, setGameStarted] = useState(false);
 
@@ -357,6 +367,11 @@ export const MatchGamePage: React.FC = () => {
         const mistakePenalty = stats.mistakes * 2;
         const totalXP = Math.max(10, Math.floor(baseXP + timeBonusXP - mistakePenalty));
 
+        if (!completionSoundPlayed.current) {
+            playLevelUp();
+            completionSoundPlayed.current = true;
+        }
+
         if (addXP) {
             await addXP(totalXP);
         }
@@ -365,6 +380,7 @@ export const MatchGamePage: React.FC = () => {
     };
 
     const resetGame = () => {
+        completionSoundPlayed.current = false;
         setGameStarted(false);
         setPairs([]);
     };
@@ -668,6 +684,8 @@ export const MatchGamePage: React.FC = () => {
                         pairs={pairs}
                         onComplete={handleComplete}
                         onExit={resetGame}
+                        onCorrect={playCorrect}
+                        onIncorrect={playIncorrect}
                     />
                 )}
             </div>

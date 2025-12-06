@@ -1,60 +1,76 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { AnimatePresence } from 'framer-motion';
+import { AuthProvider } from './contexts/AuthContext';
+import { HomePage } from './pages/HomePage';
+import { VerbsPage } from './pages/VerbsPage';
+import { ArticlesPage } from './pages/ArticlesPage';
+import { PronounsPage } from './pages/PronounsPage';
+import { FlashCardsPage } from './pages/FlashCardsPage';
+import { AntonymsPage } from './pages/AntonymsPage';
+import { SynonymsPage } from './pages/SynonymsPage';
+import { ExercisePage } from './pages/ExercisePage';
+import { TestScenarioPage } from './pages/TestScenarioPage';
+import { VerbTestPage } from './pages/VerbTestPage';
+import { QuizPage } from './pages/QuizPage';
+import { MatchGamePage } from './pages/MatchGamePage';
+import { SentenceBuilderPage } from './pages/SentenceBuilderPage';
+import { ProfilePage } from './pages/ProfilePage';
+import { LeaderboardPage } from './pages/LeaderboardPage';
+import { PageTransition } from './components/PageTransition';
 
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './index.css';
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 1000 * 60 * 5, // 5 minutes
+      refetchOnWindowFocus: false,
+    },
+  },
+});
 
-// Lazy load pages
-const HomePage = lazy(() => import('./pages/HomePage').then(module => ({ default: module.HomePage })));
-const VerbsPage = lazy(() => import('./pages/VerbsPage').then(module => ({ default: module.VerbsPage })));
-const ExercisePage = lazy(() => import('./pages/ExercisePage').then(module => ({ default: module.ExercisePage })));
-const ArticlesPage = lazy(() => import('./pages/ArticlesPage').then(module => ({ default: module.ArticlesPage })));
-const PronounsPage = lazy(() => import('./pages/PronounsPage').then(module => ({ default: module.PronounsPage })));
-const AntonymsPage = lazy(() => import('./pages/AntonymsPage').then(module => ({ default: module.AntonymsPage })));
-const SynonymsPage = lazy(() => import('./pages/SynonymsPage').then(module => ({ default: module.SynonymsPage })));
-const TestScenarioPage = lazy(() => import('./pages/TestScenarioPage').then(module => ({ default: module.TestScenarioPage })));
-const VerbTestPage = lazy(() => import('./pages/VerbTestPage').then(module => ({ default: module.VerbTestPage })));
-const FlashCardsPage = lazy(() => import('./pages/FlashCardsPage').then(module => ({ default: module.FlashCardsPage })));
-const QuizPage = lazy(() => import('./pages/QuizPage').then(module => ({ default: module.QuizPage })));
-const ProfilePage = lazy(() => import('./pages/ProfilePage').then(module => ({ default: module.ProfilePage })));
-const LeaderboardPage = lazy(() => import('./pages/LeaderboardPage').then(module => ({ default: module.LeaderboardPage })));
-const MatchGamePage = lazy(() => import('./pages/MatchGamePage').then(module => ({ default: module.MatchGamePage })));
-const SentenceBuilderPage = lazy(() => import('./pages/SentenceBuilderPage').then(module => ({ default: module.SentenceBuilderPage })));
+function AnimatedRoutes() {
+  const location = useLocation();
 
-// Loading component
-const Loading = () => (
-  <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 to-purple-50">
-    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
-  </div>
-);
+  return (
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
+        <Route path="/verbs" element={<PageTransition><VerbsPage /></PageTransition>} />
+        <Route path="/articles" element={<PageTransition><ArticlesPage /></PageTransition>} />
+        <Route path="/pronouns" element={<PageTransition><PronounsPage /></PageTransition>} />
+        <Route path="/flashcards" element={<PageTransition><FlashCardsPage /></PageTransition>} />
+        <Route path="/flashcards/:level" element={<PageTransition><FlashCardsPage /></PageTransition>} />
+        <Route path="/flashcards/:level/:categoryId" element={<PageTransition><FlashCardsPage /></PageTransition>} />
+        <Route path="/antonyms" element={<PageTransition><AntonymsPage /></PageTransition>} />
+        <Route path="/synonyms" element={<PageTransition><SynonymsPage /></PageTransition>} />
+        <Route path="/exercise/:blockId" element={<PageTransition><ExercisePage /></PageTransition>} />
+        <Route path="/test-scenario-1" element={<PageTransition><TestScenarioPage filename="test_scenario_1" /></PageTransition>} />
+        <Route path="/test-scenario-2" element={<PageTransition><TestScenarioPage filename="test_scenario_2" /></PageTransition>} />
+        <Route path="/verb-test" element={<PageTransition><VerbTestPage /></PageTransition>} />
+        <Route path="/test/:blockId" element={<PageTransition><VerbTestPage /></PageTransition>} />
+        <Route path="/quiz/:blockId?" element={<PageTransition><QuizPage /></PageTransition>} />
+        <Route path="/match-game" element={<PageTransition><MatchGamePage /></PageTransition>} />
+        <Route path="/sentence-builder" element={<PageTransition><SentenceBuilderPage /></PageTransition>} />
+        <Route path="/profile" element={<PageTransition><ProfilePage /></PageTransition>} />
+        <Route path="/leaderboard" element={<PageTransition><LeaderboardPage /></PageTransition>} />
+      </Routes>
+    </AnimatePresence>
+  );
+}
 
 function App() {
   return (
-    <Router>
-      <Suspense fallback={<Loading />}>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/profile" element={<ProfilePage />} />
-          <Route path="/leaderboard" element={<LeaderboardPage />} />
-          <Route path="/match-game" element={<MatchGamePage />} />
-          <Route path="/sentence-builder" element={<SentenceBuilderPage />} />
-          <Route path="/flashcards" element={<FlashCardsPage />} />
-          <Route path="/flashcards/:level" element={<FlashCardsPage />} />
-          <Route path="/flashcards/:level/:categoryId" element={<FlashCardsPage />} />
-          <Route path="/quiz/:blockId?" element={<QuizPage />} />
-          <Route path="/verbs" element={<VerbsPage />} />
-          <Route path="/exercise/:blockId" element={<ExercisePage />} />
-          <Route path="/articles" element={<ArticlesPage />} />
-          <Route path="/pronouns" element={<PronounsPage />} />
-          <Route path="/antonyms" element={<AntonymsPage />} />
-          <Route path="/synonyms" element={<SynonymsPage />} />
-          <Route path="/test-scenario-1" element={<TestScenarioPage filename="verb_test_scenarios" />} />
-          <Route path="/test-scenario-2" element={<TestScenarioPage filename="verb_test_scenarios2" />} />
-          <Route path="/test/:blockId" element={<VerbTestPage />} />
-        </Routes>
-      </Suspense>
-    </Router>
+    <QueryClientProvider client={queryClient}>
+      <AuthProvider>
+        <Router>
+          <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+            <AnimatedRoutes />
+          </div>
+        </Router>
+      </AuthProvider>
+    </QueryClientProvider>
   );
 }
 
 export default App;
-

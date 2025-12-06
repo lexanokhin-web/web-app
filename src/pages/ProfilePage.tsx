@@ -1,17 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { useAudio } from '../contexts/AudioContext';
 import { useProgress } from '../hooks/useProgress';
 import { AchievementsList } from '../components/features/Gamification/AchievementsList';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { ArrowLeft, User, Calendar, Zap, BookOpen, Trophy } from 'lucide-react';
+import { ArrowLeft, User, Calendar, Zap, BookOpen, Trophy, Volume2, VolumeX } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export const ProfilePage: React.FC = () => {
     const navigate = useNavigate();
     const { user, signOut } = useAuth();
     const { progress } = useProgress();
+    const { isMuted, volume, toggleMute, setVolume } = useAudio();
 
     if (!user) {
         return (
@@ -91,6 +93,63 @@ export const ProfilePage: React.FC = () => {
                         <div className="text-xs text-gray-500">Место в топе</div>
                     </GlassCard>
                 </div>
+
+                {/* Audio Settings */}
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.1 }}
+                    className="mb-8"
+                >
+                    <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                        {isMuted ? <VolumeX className="w-6 h-6 mr-2 text-gray-500" /> : <Volume2 className="w-6 h-6 mr-2 text-blue-500" />}
+                        Настройки звука
+                    </h2>
+                    <GlassCard className="p-6">
+                        <div className="space-y-6">
+                            {/* Mute Toggle */}
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <div className="font-semibold text-gray-800">Звуковые эффекты</div>
+                                    <div className="text-sm text-gray-500">Включить звуки при выполнении заданий</div>
+                                </div>
+                                <button
+                                    onClick={toggleMute}
+                                    className={`relative inline-flex h-8 w-14 items-center rounded-full transition-colors ${isMuted ? 'bg-gray-300' : 'bg-blue-500'
+                                        }`}
+                                >
+                                    <span
+                                        className={`inline-block h-6 w-6 transform rounded-full bg-white transition-transform ${isMuted ? 'translate-x-1' : 'translate-x-7'
+                                            }`}
+                                    />
+                                </button>
+                            </div>
+
+                            {/* Volume Slider */}
+                            <div className="space-y-2">
+                                <div className="flex items-center justify-between">
+                                    <label className="font-semibold text-gray-800">Громкость</label>
+                                    <span className="text-sm text-gray-600">{Math.round(volume * 100)}%</span>
+                                </div>
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="1"
+                                    step="0.01"
+                                    value={volume}
+                                    onChange={(e) => setVolume(parseFloat(e.target.value))}
+                                    disabled={isMuted}
+                                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                                    style={{
+                                        background: isMuted
+                                            ? '#e5e7eb'
+                                            : `linear-gradient(to right, #3b82f6 0%, #3b82f6 ${volume * 100}%, #e5e7eb ${volume * 100}%, #e5e7eb 100%)`
+                                    }}
+                                />
+                            </div>
+                        </div>
+                    </GlassCard>
+                </motion.div>
 
                 {/* Achievements Section */}
                 <motion.div
