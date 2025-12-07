@@ -1,44 +1,99 @@
 {
     "id": "chapter_15",
-    "title": "Werden",
-    "description": "Bedeutung und Funktion von 'werden'.",
+    "title": "Das Verb 'werden'",
+    "description": "Bedeutung und Funktion von 'werden' als Vollverb, Hilfsverb (Futur, Passiv).",
     "sections": [
         {
             "id": "15.1",
-            "title": "1. Funktionen von Werden",
-            "content": "1. Als Vollverb: Prozess/Veränderung.\n'Ich werde müde.' 'Er wird Arzt.'\n\n2. Futur I: werden + Infinitiv.\n'Morgen wird die Sonne scheinen.'\n\n3. Vorgangspassiv: werden + Partizip II.\n'Das Auto wird repariert.'",
+            "title": "1. Bedeutung als Vollverb (Prozess/Zustandsveränderung)",
+            "content": "Ich werde müde. (Prozess)\nIm Gegensatz zu 'sein' (Zustand).\nPräsens: wird\nPräteritum: wurde\nPerfekt: ist geworden",
             "exercises": [
                 {
                     "id": "ex_1",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie das Adjektiv. (dunkel, rot, müde...)",
+                    "instruction": "Ergänzen Sie die Adjektive: dunkel - rot - schwindlig - müde - reich - reif - übel - ärgerlich.",
                     "items": [
                         {
                             "id": "1a",
-                            "prompt": "Wenn man sie neben Äpfel legt, dann werden grüne Bananen __________. (reif)",
-                            "answer": "gelb",
+                            "prompt": "Wenn man sie neben Äpfel legt, dann werden grüne Bananen _______.",
+                            "answer": "reif",
                             "parts": [
-                                "gelb"
+                                "reif"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Max ist immer lange wach, aber um Mitternacht wird er dann doch langsam _______.",
+                            "answer": "müde",
+                            "parts": [
+                                "müde"
+                            ]
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Manchen Leuten wird _______, wenn sie mit dem Schiff reisen.",
+                            "answer": "übel",
+                            "parts": [
+                                "übel"
+                            ]
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Wenn ihr nicht mit dem Quatsch aufhört, Kinder, dann werde ich _______.",
+                            "answer": "ärgerlich",
+                            "parts": [
+                                "ärgerlich"
+                            ]
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Wird dir auch _______, wenn du dich zu schnell drehst?",
+                            "answer": "schwindlig",
+                            "parts": [
+                                "schwindlig"
+                            ]
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Wenn ich zu lange in der Sonne bin, dann wird mein Gesicht ganz _______.",
+                            "answer": "rot",
+                            "parts": [
+                                "rot"
                             ]
                         },
                         {
                             "id": "1g",
-                            "prompt": "Es zog ein Gewitter auf und der Himmel wurde __________.",
+                            "prompt": "Es zog ein Gewitter auf und der Himmel wurde _______.",
                             "answer": "dunkel",
                             "parts": [
                                 "dunkel"
                             ]
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Ich arbeite so viel, aber ich werde nie _______.",
+                            "answer": "reich",
+                            "parts": [
+                                "reich"
+                            ]
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "id": "15.2",
+            "title": "2. Formen von 'werden' (Hilfsverb & Vollverb)",
+            "content": "Futur I: werden + Infinitiv\nVorgangspassiv: werden + Partizip II (Perfekt mit 'worden')\nKonjunktiv II: würde + Infinitiv",
+            "exercises": [
                 {
                     "id": "ex_2",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie die richtige Form von 'werden'.",
+                    "instruction": "Ergänzen Sie die Sätze mit der richtigen Form von werden.",
                     "items": [
                         {
                             "id": "2a",
-                            "prompt": "Er möchte Architekt ____________.",
+                            "prompt": "Was hat denn dein Neffe später vor? - Ich glaube, er möchte Architekt _______.",
                             "answer": "werden",
                             "parts": [
                                 "werden"
@@ -46,15 +101,175 @@
                         },
                         {
                             "id": "2b",
-                            "prompt": "Das Wetter _________ wohl zum Wochenende besser.",
+                            "prompt": "Das Wetter _______ wohl zum Wochenende besser.",
                             "answer": "wird",
                             "parts": [
                                 "wird"
                             ]
                         },
                         {
+                            "id": "2c",
+                            "prompt": "Haben wir noch Wein? - Ich _______ mal in den Keller gehen und nachsehen.",
+                            "answer": "werde",
+                            "parts": [
+                                "werde"
+                            ]
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Wo _______ du nächstes Jahr Urlaub machen?",
+                            "answer": "wirst",
+                            "parts": [
+                                "wirst"
+                            ]
+                        },
+                        {
                             "id": "2e",
-                            "prompt": "Gestern ist mein Fahrrad gestohlen ____________. (Perfekt Passiv)",
+                            "prompt": "Stell dir vor, gestern ist mein Fahrrad gestohlen _______.",
+                            "answer": "worden",
+                            "parts": [
+                                "worden"
+                            ]
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "Ich _______ gern ein Zimmer reservieren.",
+                            "answer": "würde",
+                            "parts": [
+                                "würde"
+                            ]
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Beim Spaziergang gestern _______ wir von einem Gewitter überrascht.",
+                            "answer": "wurden",
+                            "parts": [
+                                "wurden"
+                            ]
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Du _______ dich noch erkälten, wenn du immer ohne Jacke rausgehst.",
+                            "answer": "wirst",
+                            "parts": [
+                                "wirst"
+                            ]
+                        },
+                        {
+                            "id": "2i",
+                            "prompt": "Ich habe keine Ahnung, warum Paul so sauer _______ ist.",
+                            "answer": "geworden",
+                            "parts": [
+                                "geworden"
+                            ]
+                        },
+                        {
+                            "id": "2j",
+                            "prompt": "_______ du mir bitte die Tür aufhalten!",
+                            "answer": "Würdest",
+                            "parts": [
+                                "Würdest"
+                            ]
+                        },
+                        {
+                            "id": "2k",
+                            "prompt": "Leider musste der Motor meines Wagens ausgetauscht _______.",
+                            "answer": "werden",
+                            "parts": [
+                                "werden"
+                            ]
+                        },
+                        {
+                            "id": "2l",
+                            "prompt": "Aufgrund des schlechten Wetters _______ fast allen Passagieren auf dem Schiff schlecht.",
+                            "answer": "wurde",
+                            "parts": [
+                                "wurde"
+                            ]
+                        },
+                        {
+                            "id": "2m",
+                            "prompt": "Herr Ober, ich _______ gerne bezahlen!",
+                            "answer": "würde",
+                            "parts": [
+                                "würde"
+                            ]
+                        },
+                        {
+                            "id": "2n",
+                            "prompt": "Jemand hat behauptet, dass ihr nächsten Monat umziehen _______.",
+                            "answer": "werdet",
+                            "parts": [
+                                "werdet"
+                            ]
+                        },
+                        {
+                            "id": "2o",
+                            "prompt": "Die Situation ist so schlecht, es kann nur besser _______.",
+                            "answer": "werden",
+                            "parts": [
+                                "werden"
+                            ]
+                        },
+                        {
+                            "id": "2p",
+                            "prompt": "Ich habe gehört, dass Julia und Hatem bald Eltern _______.",
+                            "answer": "werden",
+                            "parts": [
+                                "werden"
+                            ]
+                        },
+                        {
+                            "id": "2q",
+                            "prompt": "Nachdem alle Probleme gelöst _______ waren, konnte man mit dem Bau beginnen.",
+                            "answer": "worden",
+                            "parts": [
+                                "worden"
+                            ]
+                        },
+                        {
+                            "id": "2r",
+                            "prompt": "_______ Sie hier bitte unterschreiben!",
+                            "answer": "Würden",
+                            "parts": [
+                                "Würden"
+                            ]
+                        },
+                        {
+                            "id": "2s",
+                            "prompt": "Stimmt es, dass du im Urlaub krank _______ bist?",
+                            "answer": "geworden",
+                            "parts": [
+                                "geworden"
+                            ]
+                        },
+                        {
+                            "id": "2t",
+                            "prompt": "Schau mal, all diese Arbeiten müssen noch bis morgen erledigt _______.",
+                            "answer": "werden",
+                            "parts": [
+                                "werden"
+                            ]
+                        },
+                        {
+                            "id": "2u",
+                            "prompt": "Wann _______ ihr eure Großeltern nächstes Mal besuchen?",
+                            "answer": "werdet",
+                            "parts": [
+                                "werdet"
+                            ]
+                        },
+                        {
+                            "id": "2v",
+                            "prompt": "Wie ich gehört habe, ist die Tochter unseres Nachbarn Ärztin _______.",
+                            "answer": "geworden",
+                            "parts": [
+                                "geworden"
+                            ]
+                        },
+                        {
+                            "id": "2w",
+                            "prompt": "In der Zeitung stand, dass die alte Fabrik schon abgerissen _______ ist.",
                             "answer": "worden",
                             "parts": [
                                 "worden"

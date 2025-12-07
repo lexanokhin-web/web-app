@@ -5,40 +5,162 @@
     "sections": [
         {
             "id": "5.1",
-            "title": "1. Der Genitiv",
-            "content": "Der Genitiv zeigt Zugehörigkeit an (Wessen?).\n\nMaskulin/Neutral: des Mannes, des Kindes (-s oder -es)\nFeminin/Plural: der Frau, der Leute\n\nEigennamen: Evas Buch, Toms Auto",
+            "title": "1. Genitiv - Funktionen",
+            "content": "Maskulin/Neutral: des Mannes / des Kindes (Endung -s oder -es)\nFeminin/Plural: der Frau / der Leute\n\nWessen? -> Genitivattribut.\nDas Auto des Mannes. Die Tasche der Frau.",
             "exercises": [
                 {
                     "id": "ex_1",
-                    "type": "gap_fill",
-                    "instruction": "Bilden Sie den Genitiv. (Beispiel: Autor - Roman -> Autor des Romans)",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Sätze mit Genitiv. (Beispiel: Autor - Roman -> Ich kenne den Autor des Romans leider nicht.)",
                     "items": [
                         {
                             "id": "1a",
                             "prompt": "Ende - Geschichte",
-                            "answer": "Ende der Geschichte"
+                            "answer": "Ich kenne das Ende der Geschichte leider nicht."
                         },
                         {
                             "id": "1b",
                             "prompt": "Titel - Buch",
-                            "answer": "Titel des Buches"
+                            "answer": "Ich kenne den Titel des Buches leider nicht."
                         },
                         {
                             "id": "1c",
                             "prompt": "Adresse - Hotel",
-                            "answer": "Adresse des Hotels"
+                            "answer": "Ich kenne die Adresse des Hotels leider nicht."
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Methoden - Leute",
+                            "answer": "Ich kenne die Methoden der Leute leider nicht."
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Manager - Club",
+                            "answer": "Ich kenne den Manager des Clubs leider nicht."
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Chef - Firma",
+                            "answer": "Ich kenne den Chef der Firma leider nicht."
                         },
                         {
                             "id": "1g",
                             "prompt": "Größe - Zimmer",
-                            "answer": "Größe des Zimmers"
+                            "answer": "Ich kenne die Größe des Zimmers leider nicht."
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Telefonnummer - Werkstatt",
+                            "answer": "Ich kenne die Telefonnummer der Werkstatt leider nicht."
+                        },
+                        {
+                            "id": "1i",
+                            "prompt": "Postleitzahl - Ort",
+                            "answer": "Ich kenne die Postleitzahl des Ortes leider nicht."
+                        },
+                        {
+                            "id": "1j",
+                            "prompt": "Grund - Streit",
+                            "answer": "Ich kenne den Grund des Streits leider nicht."
+                        },
+                        {
+                            "id": "1k",
+                            "prompt": "Anzahl - Sitzplätze",
+                            "answer": "Ich kenne die Anzahl der Sitzplätze leider nicht."
+                        },
+                        {
+                            "id": "1l",
+                            "prompt": "Frau - Chef",
+                            "answer": "Ich kenne die Frau des Chefs leider nicht."
+                        },
+                        {
+                            "id": "1m",
+                            "prompt": "Namen - Teilnehmer*innen",
+                            "answer": "Ich kenne die Namen der Teilnehmerinnen leider nicht."
+                        },
+                        {
+                            "id": "1n",
+                            "prompt": "Eltern - Clara",
+                            "answer": "Ich kenne die Eltern von Clara leider nicht."
+                        },
+                        {
+                            "id": "1o",
+                            "prompt": "Anschrift - Paul",
+                            "answer": "Ich kenne die Anschrift von Paul leider nicht."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Fragen Sie mit 'Ist das...'. (Beispiel: Bruder - deine Kollegin -> Ist das der Bruder deiner Kollegin?)",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Fahrrad - unser Freund",
+                            "answer": "Ist das das Fahrrad unseres Freundes?"
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Chef - deine Cousine",
+                            "answer": "Ist das der Chef deiner Cousine?"
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "Haus - eure Eltern",
+                            "answer": "Ist das das Haus eurer Eltern?"
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Hut - sein Großvater",
+                            "answer": "Ist das der Hut seines Großvaters?"
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "Wohnung - ihr Onkel",
+                            "answer": "Ist das die Wohnung ihres Onkels?"
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "Katze - deine Tante",
+                            "answer": "Ist das die Katze deiner Tante?"
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Computer - sein Chef",
+                            "answer": "Ist das der Computer seines Chefs?"
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Freund - deine Schwester",
+                            "answer": "Ist das der Freund deiner Schwester?"
+                        },
+                        {
+                            "id": "2i",
+                            "prompt": "Wagen - euer Lehrer",
+                            "answer": "Ist das der Wagen eures Lehrers?"
+                        },
+                        {
+                            "id": "2j",
+                            "prompt": "Schuhe - dein Bruder",
+                            "answer": "Sind das die Schuhe deines Bruders?"
+                        },
+                        {
+                            "id": "2k",
+                            "prompt": "Foto - seine Freundin",
+                            "answer": "Ist das das Foto seiner Freundin?"
+                        },
+                        {
+                            "id": "2l",
+                            "prompt": "Spielsachen - eure Kinder",
+                            "answer": "Sind das die Spielsachen eurer Kinder?"
                         }
                     ]
                 },
                 {
                     "id": "ex_3",
                     "type": "transformation",
-                    "instruction": "Antworten Sie mit einem Genitiv-Satz. (Beispiel: Hut - meine Schwester -> Das ist der Hut meiner Schwester.)",
+                    "instruction": "Fragen Sie 'Wessen...?' und antworten Sie. (Beispiel: Hut - meine Schwester -> Wessen Hut ist das? - Das ist der Hut meiner Schwester.)",
                     "items": [
                         {
                             "id": "3a",
@@ -54,6 +176,21 @@
                             "id": "3c",
                             "prompt": "Gepäck - eure Gäste",
                             "answer": "Das ist das Gepäck eurer Gäste."
+                        },
+                        {
+                            "id": "3d",
+                            "prompt": "Spielzeug - seine Tochter",
+                            "answer": "Das ist das Spielzeug seiner Tochter."
+                        },
+                        {
+                            "id": "3e",
+                            "prompt": "Hund - ihr Großvater",
+                            "answer": "Das ist der Hund ihres Großvaters."
+                        },
+                        {
+                            "id": "3f",
+                            "prompt": "Computer - dein Onkel",
+                            "answer": "Das ist der Computer deines Onkels."
                         }
                     ]
                 }
@@ -62,31 +199,157 @@
         {
             "id": "5.2",
             "title": "2. Präpositionen mit Genitiv",
-            "content": "Wichtige Präpositionen mit Genitiv:\n\n- wegen (Grund)\n- trotz (Gegengrund)\n- während (Zeitdauer)\n- innerhalb / außerhalb (Ort/Zeit)\n- (an)statt (Alternative)",
+            "content": "Wegen, trotz, während, (an)statt, außerhalb, innerhalb + Genitiv.\n\nBeispiel: Wegen des Wetters.\nTrotz des Regens.",
             "exercises": [
                 {
                     "id": "ex_4",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie die passende Präposition (wegen, trotz, statt...).",
+                    "instruction": "Ergänzen Sie die Präposition. (trotz, wegen, etc.)",
                     "items": [
                         {
                             "id": "4a",
-                            "prompt": "der Streik - ________ des Streiks fahren keine Busse.",
-                            "answer": "Aufgrund",
+                            "prompt": "Wegen ________ (der Streik) fahren keine Busse.",
+                            "answer": "des Streiks",
                             "parts": [
-                                "Wegen",
-                                "Aufgrund"
+                                "des",
+                                "Streiks"
+                            ]
+                        },
+                        {
+                            "id": "4b",
+                            "prompt": "Während ________ (mein Urlaub) war ich drei Wochen in den USA.",
+                            "answer": "meines Urlaubs",
+                            "parts": [
+                                "meines",
+                                "Urlaubs"
+                            ]
+                        },
+                        {
+                            "id": "4c",
+                            "prompt": "Anstatt ________ (ein Brief) schickt sie mir nur eine kurze E-Mail.",
+                            "answer": "eines Briefes",
+                            "parts": [
+                                "eines",
+                                "Briefes"
                             ]
                         },
                         {
                             "id": "4d",
-                            "prompt": "seine Schmerzen - ________ seiner Schmerzen geht er nicht zum Zahnarzt.",
-                            "answer": "Trotz"
+                            "prompt": "Wegen ________ (seine Schmerzen) geht er nicht zum Zahnarzt.",
+                            "answer": "seiner Schmerzen",
+                            "parts": [
+                                "seiner",
+                                "Schmerzen"
+                            ]
+                        },
+                        {
+                            "id": "4e",
+                            "prompt": "Wegen ________ (seine Diät) isst er jeden Tag nur einen Apfel.",
+                            "answer": "seiner Diät",
+                            "parts": [
+                                "seiner",
+                                "Diät"
+                            ]
                         },
                         {
                             "id": "4f",
-                            "prompt": "alle Probleme - ________ aller Probleme können wir die Arbeit beenden.",
-                            "answer": "Trotz"
+                            "prompt": "Trotz ________ (alle Probleme) können wir die Arbeit rechtzeitig beenden.",
+                            "answer": "aller Probleme",
+                            "parts": [
+                                "aller",
+                                "Probleme"
+                            ]
+                        },
+                        {
+                            "id": "4g",
+                            "prompt": "Wegen ________ (die Kälte) muss ich eine dicke Jacke anziehen.",
+                            "answer": "der Kälte",
+                            "parts": [
+                                "der",
+                                "Kälte"
+                            ]
+                        },
+                        {
+                            "id": "4h",
+                            "prompt": "Anstatt ________ (ein Mittagessen) isst sie nur ein Stückchen Schokolade.",
+                            "answer": "eines Mittagessens",
+                            "parts": [
+                                "eines",
+                                "Mittagessens"
+                            ]
+                        },
+                        {
+                            "id": "4i",
+                            "prompt": "Während ________ (die Ferien) ist die Bibliothek geschlossen.",
+                            "answer": "der Ferien",
+                            "parts": [
+                                "der",
+                                "Ferien"
+                            ]
+                        },
+                        {
+                            "id": "4j",
+                            "prompt": "Wegen ________ (ein Rechenfehler) bestellte man zu viel Material.",
+                            "answer": "eines Rechenfehlers",
+                            "parts": [
+                                "eines",
+                                "Rechenfehlers"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_5",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die passende Präposition (während, aufgrund, trotz, außerhalb, anstatt, innerhalb).",
+                    "items": [
+                        {
+                            "id": "5a",
+                            "prompt": "Viele Leute kaufen dieses Produkt ___________ des hohen Preises.",
+                            "answer": "trotz",
+                            "parts": [
+                                "trotz"
+                            ]
+                        },
+                        {
+                            "id": "5b",
+                            "prompt": "Sie müssen diese Rechnung ___________ einer Woche bezahlen.",
+                            "answer": "innerhalb",
+                            "parts": [
+                                "innerhalb"
+                            ]
+                        },
+                        {
+                            "id": "5c",
+                            "prompt": "Sie dürfen ___________ des Tests nicht mit den anderen sprechen.",
+                            "answer": "während",
+                            "parts": [
+                                "während"
+                            ]
+                        },
+                        {
+                            "id": "5e",
+                            "prompt": "Man bot den Kunden ___________ einer Rückzahlung nur einen Gutschein an.",
+                            "answer": "anstatt",
+                            "parts": [
+                                "anstatt"
+                            ]
+                        },
+                        {
+                            "id": "5f",
+                            "prompt": "Das Fußballstadion liegt ein paar Kilometer ___________ der Stadt.",
+                            "answer": "außerhalb",
+                            "parts": [
+                                "außerhalb"
+                            ]
+                        },
+                        {
+                            "id": "5g",
+                            "prompt": "Viele Menschen verloren ___________ der Krise ihren Arbeitsplatz.",
+                            "answer": "während",
+                            "parts": [
+                                "während"
+                            ]
                         }
                     ]
                 }

@@ -1,21 +1,21 @@
 {
     "id": "chapter_8",
     "title": "Präpositionen - temporal",
-    "description": "Zeitpunkte und Zeiträume.",
+    "description": "Zeitpunkt und Zeitdauer (am, um, seit, vor, während...).",
     "sections": [
         {
             "id": "8.1",
-            "title": "Zeitpunkt und Dauer",
-            "content": "an (Dativ): am Morgen, am Montag\nin (Dativ): im August, in einer Woche\num (Akkusativ): um 19.00 Uhr\nvor/nach (Dativ): vor einer Woche\nseit (Dativ): seit einem Jahr\nfür (Akkusativ): für eine Woche",
+            "title": "1. Zeitpunkt",
+            "content": "an (Tage/Tageszeiten) -> am Montag\num (Uhrzeit) -> um 8 Uhr\nvor (Vergangenheit) -> vor einem Jahr\nin (Zukunft/Monate) -> im Mai, in einer Woche\nzu (Feiertage) -> zu Ostern",
             "exercises": [
                 {
                     "id": "ex_1",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie die passende Präposition.",
+                    "instruction": "Ergänzen Sie die passende Präposition (vor, seit, in, um, am, zu, bei...).",
                     "items": [
                         {
                             "id": "1a",
-                            "prompt": "Den Führerschein hat Lisa schon _____ einem Jahr gemacht.",
+                            "prompt": "Den Führerschein hat Lisa schon _____ einem Jahr gemacht. (Vergangenheit)",
                             "answer": "vor",
                             "parts": [
                                 "vor"
@@ -23,7 +23,7 @@
                         },
                         {
                             "id": "1b",
-                            "prompt": "Wir können _____ Wochenende mal _____ einem Glas Wein sprechen.",
+                            "prompt": "Wir können _____ Wochenende mal _____ einem Glas Wein über alles sprechen.",
                             "answer": "am bei",
                             "parts": [
                                 "am",
@@ -32,18 +32,179 @@
                         },
                         {
                             "id": "1c",
-                            "prompt": "Wir wollten ______ dem Abendessen ins Kino gehen.",
-                            "answer": "nach",
+                            "prompt": "Wir wollten ______ dem Abendessen ins Kino gehen, der Film beginnt ____ 20:30 Uhr.",
+                            "answer": "nach um",
                             "parts": [
-                                "nach"
+                                "nach",
+                                "um"
                             ]
                         },
                         {
                             "id": "1d",
-                            "prompt": "Der Film beginnt ____ 20:30 Uhr.",
-                            "answer": "um",
+                            "prompt": "Ich werde dich morgen so ________ Mittag anrufen.",
+                            "answer": "gegen",
                             "parts": [
-                                "um"
+                                "gegen"
+                            ]
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Die Notfallnummer können Sie _____ jeder Tages- und Nachtzeit anrufen.",
+                            "answer": "zu",
+                            "parts": [
+                                "zu"
+                            ]
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Wir haben ____ August geschlossen! ______ dem Urlaub sind wir wieder für Sie da.",
+                            "answer": "im nach",
+                            "parts": [
+                                "im",
+                                "nach"
+                            ]
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Max hat schon _____ einer Woche reklamiert, aber der Schaden ist noch nicht repariert. (Vergangenheit punktuell)",
+                            "answer": "vor",
+                            "parts": [
+                                "vor"
+                            ]
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "_____ diesem schlechten Wetter will ich nicht spazieren gehen.",
+                            "answer": "Bei",
+                            "parts": [
+                                "Bei"
+                            ]
+                        },
+                        {
+                            "id": "1i",
+                            "prompt": "Lena möchte _____ Nachmittag mit den Kindern ins Hallenbad gehen.",
+                            "answer": "am",
+                            "parts": [
+                                "am"
+                            ]
+                        },
+                        {
+                            "id": "1j",
+                            "prompt": "Ich komme morgen mal so ________ 18:00 Uhr bei dir vorbei. (ungefähr)",
+                            "answer": "gegen",
+                            "parts": [
+                                "gegen"
+                            ]
+                        },
+                        {
+                            "id": "1k",
+                            "prompt": "Theo hat mir _____ meinem Geburtstag eine Karte geschickt.",
+                            "answer": "zu",
+                            "parts": [
+                                "zu"
+                            ]
+                        },
+                        {
+                            "id": "1l",
+                            "prompt": "Wir müssen die Arbeit unbedingt noch _____ dem Ende des Monats erledigen. (Zeitpunkt davor)",
+                            "answer": "vor",
+                            "parts": [
+                                "vor"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8.2",
+            "title": "2. Dauer, Beginn und Ende",
+            "content": "von ... bis (Zeitraum)\nseit (Start in Vergangenheit, dauert an)\nfür (Dauer)\nwährend (Genitiv, gleichzeitig)",
+            "exercises": [
+                {
+                    "id": "ex_2",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie: von...bis, seit, während, für, außerhalb...",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Man kann auf diesem Platz _____ nächstem Montag _____ nächsten Donnerstag nicht parken.",
+                            "answer": "von bis",
+                            "parts": [
+                                "von",
+                                "bis"
+                            ]
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Kannst du mir _____ ein paar Stunden dein Auto leihen?",
+                            "answer": "für",
+                            "parts": [
+                                "für"
+                            ]
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "_____ dem Wochenende soll das Wetter besser werden. (ab)",
+                            "answer": "Ab",
+                            "parts": [
+                                "Ab"
+                            ]
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Jasmin muss ihre Doktorarbeit _________ eines Jahres fertigstellen.",
+                            "answer": "innerhalb",
+                            "parts": [
+                                "innerhalb"
+                            ]
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "Alex studiert jetzt schon _____ zwei Jahren im Ausland.",
+                            "answer": "seit",
+                            "parts": [
+                                "seit"
+                            ]
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "_________ Weihnachten und Silvester haben wir geschlossen.",
+                            "answer": "Zwischen",
+                            "parts": [
+                                "Zwischen"
+                            ]
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Silvia will __________ des Sommers ein Praktikum machen.",
+                            "answer": "während",
+                            "parts": [
+                                "während"
+                            ]
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Rufen Sie bitte nicht __________ der Sprechzeiten an.",
+                            "answer": "außerhalb",
+                            "parts": [
+                                "außerhalb"
+                            ]
+                        },
+                        {
+                            "id": "2i",
+                            "prompt": "Ich arbeite _____ 18:00 Uhr und danach können wir uns treffen. (Ende)",
+                            "answer": "bis",
+                            "parts": [
+                                "bis"
+                            ]
+                        },
+                        {
+                            "id": "2j",
+                            "prompt": "Max liegt ______ einer Woche im Krankenhaus. (Dauer bis jetzt)",
+                            "answer": "seit",
+                            "parts": [
+                                "seit"
                             ]
                         }
                     ]

@@ -32,6 +32,83 @@
                             "id": "1d",
                             "prompt": "Sandra - ihr Bruder - helfen",
                             "answer": "Hilf bitte deinem Bruder, Sandra!"
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Amira - den Text - vorlesen",
+                            "answer": "Lies bitte den Text vor, Amira!"
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Max - seine Tante - besuchen",
+                            "answer": "Besuch bitte deine Tante, Max!"
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Clara - uns - zuhören",
+                            "answer": "Hör uns bitte zu, Clara!"
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Herr Tomaso - sein Chef - anrufen",
+                            "answer": "Rufen Sie bitte Ihren Chef an, Herr Tomaso!"
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Fragesätze. (Beispiel: Max bestellt ein Steak. -> Was bestellt Max?)",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Die Gäste kommen in einer Stunde.",
+                            "answer": "Wann kommen die Gäste?"
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Jana fährt nach Köln.",
+                            "answer": "Wohin fährt Jana?"
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "Gestern ist ein Unfall passiert.",
+                            "answer": "Wann ist ein Unfall passiert?"
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Thomas redet sehr langsam.",
+                            "answer": "Wie redet Thomas?"
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "Dieser Computer kostet 500.- Euro.",
+                            "answer": "Wie viel kostet dieser Computer?"
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "Der Film dauert 90 Minuten.",
+                            "answer": "Wie lange dauert der Film?"
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Amira hat ihren Schlüssel verloren.",
+                            "answer": "Was hat Amira verloren?"
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Dein Kollege sucht einen neuen Job.",
+                            "answer": "Was sucht dein Kollege?"
+                        },
+                        {
+                            "id": "2i",
+                            "prompt": "Diese Reisegruppe kommt aus Hongkong.",
+                            "answer": "Woher kommt diese Reisegruppe?"
+                        },
+                        {
+                            "id": "2j",
+                            "prompt": "Die Kinder bleiben wegen des Regens zu Hause.",
+                            "answer": "Warum bleiben die Kinder zu Hause?"
                         }
                     ]
                 }
@@ -53,14 +130,39 @@
                             "answer": "Thomas besuchte seine Tante, als sie im Krankenhaus lag."
                         },
                         {
+                            "id": "3b",
+                            "prompt": "Jana erklärt mir alles ganz genau. Ich mache keinen Fehler. (final, damit)",
+                            "answer": "Jana erklärt mir alles ganz genau, damit ich keinen Fehler mache."
+                        },
+                        {
                             "id": "3c",
                             "prompt": "Clara ist sehr ärgerlich. Ich habe sie nicht angerufen. (kausal, weil)",
                             "answer": "Clara ist sehr ärgerlich, weil ich sie nicht angerufen habe."
                         },
                         {
+                            "id": "3d",
+                            "prompt": "Pedro spricht immer über Politik. Er hat eigentlich keine Ahnung. (konzessiv, obwohl)",
+                            "answer": "Pedro spricht immer über Politik, obwohl er eigentlich keine Ahnung hat."
+                        },
+                        {
+                            "id": "3e",
+                            "prompt": "Amira hörte genau zu. Ich erzählte ihr die ganze Geschichte. (temporal, als)",
+                            "answer": "Amira hörte genau zu, als ich ihr die ganze Geschichte erzählte."
+                        },
+                        {
                             "id": "3f",
                             "prompt": "Es ist sehr schade. Unsere Freunde können nicht mitkommen. (dass)",
                             "answer": "Es ist sehr schade, dass unsere Freunde nicht mitkommen können."
+                        },
+                        {
+                            "id": "3g",
+                            "prompt": "Ich kann nicht so laut sprechen. Ich habe Halsschmerzen. (kausal, weil)",
+                            "answer": "Ich kann nicht so laut sprechen, weil ich Halsschmerzen habe."
+                        },
+                        {
+                            "id": "3h",
+                            "prompt": "Paul sollte sich besser konzentrieren. Er möchte keinen Fehler machen. (konditional, wenn)",
+                            "answer": "Wenn Paul keinen Fehler machen möchte, sollte er sich besser konzentrieren."
                         }
                     ]
                 }
@@ -87,9 +189,54 @@
                             "answer": "Ich weiß nicht, wann dein Kollege abreist."
                         },
                         {
+                            "id": "4c",
+                            "prompt": "Wem hilft deine Tante?",
+                            "answer": "Ich weiß nicht, wem deine Tante hilft."
+                        },
+                        {
+                            "id": "4d",
+                            "prompt": "Wie viel bezahlt Max für das Auto?",
+                            "answer": "Ich weiß nicht, wie viel Max für das Auto bezahlt."
+                        },
+                        {
                             "id": "4e",
                             "prompt": "Wohin fahren deine Freunde?",
                             "answer": "Ich weiß nicht, wohin deine Freunde fahren."
+                        },
+                        {
+                            "id": "4f",
+                            "prompt": "Wie lange dauert dieser Film?",
+                            "answer": "Ich weiß nicht, wie lange dieser Film dauert."
+                        },
+                        {
+                            "id": "4g",
+                            "prompt": "Wie viel verliert Clara im Kasino?",
+                            "answer": "Ich weiß nicht, wie viel Clara im Kasino verliert."
+                        },
+                        {
+                            "id": "4h",
+                            "prompt": "Wen hat Theo gestern getroffen?",
+                            "answer": "Ich weiß nicht, wen Theo gestern getroffen hat."
+                        },
+                        {
+                            "id": "4i",
+                            "prompt": "Wann beginnt der Kurs?",
+                            "answer": "Ich weiß nicht, wann der Kurs beginnt."
+                        },
+                        {
+                            "id": "4j",
+                            "prompt": "Weshalb streiten die Leute?",
+                            "answer": "Ich weiß nicht, weshalb die Leute streiten."
+                        },
+                        {
+                            "id": "4k",
+                            "prompt": "Woher kommen die Touristen?",
+                            "answer": "Ich weiß nicht, woher die Touristen kommen."
+                        },
+                        {
+                            "id": "4l",
+                            "prompt": "Warum reklamiert Lena?",
+                            "answer": "Ich weiß nicht, warum Lena reklamiert."
                         }
                     ]
                 },
@@ -104,9 +251,74 @@
                             "answer": "Ich weiß nicht, ob jemand bei Paul angerufen hat."
                         },
                         {
+                            "id": "5b",
+                            "prompt": "Trinkt Max ab und zu Weißwein?",
+                            "answer": "Ich weiß nicht, ob Max ab und zu Weißwein trinkt."
+                        },
+                        {
                             "id": "5c",
                             "prompt": "Holt Paul dich vom Bahnhof ab?",
                             "answer": "Ich weiß nicht, ob Paul dich vom Bahnhof abholt."
+                        },
+                        {
+                            "id": "5d",
+                            "prompt": "Hat man das Gerät repariert?",
+                            "answer": "Ich weiß nicht, ob man das Gerät repariert hat."
+                        },
+                        {
+                            "id": "5e",
+                            "prompt": "Kauft sich Lisa ein Fahrrad?",
+                            "answer": "Ich weiß nicht, ob Lisa sich ein Fahrrad kauft."
+                        },
+                        {
+                            "id": "5f",
+                            "prompt": "Sucht Maria eine Wohnung?",
+                            "answer": "Ich weiß nicht, ob Maria eine Wohnung sucht."
+                        },
+                        {
+                            "id": "5g",
+                            "prompt": "Muss Eva morgen arbeiten?",
+                            "answer": "Ich weiß nicht, ob Eva morgen arbeiten muss."
+                        },
+                        {
+                            "id": "5h",
+                            "prompt": "Spielen die Kinder jetzt Fußball?",
+                            "answer": "Ich weiß nicht, ob die Kinder jetzt Fußball spielen."
+                        },
+                        {
+                            "id": "5i",
+                            "prompt": "Fährt Frau Berg nach Rom?",
+                            "answer": "Ich weiß nicht, ob Frau Berg nach Rom fährt."
+                        },
+                        {
+                            "id": "5j",
+                            "prompt": "Hat Robert sich verspätet?",
+                            "answer": "Ich weiß nicht, ob Robert sich verspätet hat."
+                        },
+                        {
+                            "id": "5k",
+                            "prompt": "Will Julia dich besuchen?",
+                            "answer": "Ich weiß nicht, ob Julia dich besuchen will."
+                        },
+                        {
+                            "id": "5l",
+                            "prompt": "Ziehen eure Nachbarn bald um?",
+                            "answer": "Ich weiß nicht, ob eure Nachbarn bald umziehen."
+                        },
+                        {
+                            "id": "5m",
+                            "prompt": "Hat Max die Arbeit erledigt?",
+                            "answer": "Ich weiß nicht, ob Max die Arbeit erledigt hat."
+                        },
+                        {
+                            "id": "5n",
+                            "prompt": "Liegt das Haus am See?",
+                            "answer": "Ich weiß nicht, ob das Haus am See liegt."
+                        },
+                        {
+                            "id": "5o",
+                            "prompt": "Ist Lisa schon abgereist?",
+                            "answer": "Ich weiß nicht, ob Lisa schon abgereist ist."
                         }
                     ]
                 }

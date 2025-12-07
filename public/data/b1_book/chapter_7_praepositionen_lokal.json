@@ -1,101 +1,349 @@
 {
     "id": "chapter_7",
     "title": "Präpositionen - lokal",
-    "description": "Wo und Wohin (Wechselpräpositionen).",
+    "description": "Wechselpräpositionen, Ländernamen, lokale Angaben.",
     "sections": [
         {
             "id": "7.1",
-            "title": "Wechselpräpositionen",
-            "content": "an, auf, hinter, in, neben, über, unter, vor, zwischen.\n\nWohin? + Akkusativ (Richtung/Bewegung)\nSie ging ins Wohnzimmer.\n\nWo? + Dativ (Ort/Position)\nAuf dem Sofa saß Paul.",
+            "title": "1. Wechselpräpositionen (Wo? vs. Wohin?)",
+            "content": "Wohin? -> Akkusativ (Bewegung / Richtung)\nWo? -> Dativ (Position / Ort)\n\nPräpositionen: an, auf, hinter, in, neben, über, unter, vor, zwischen.",
             "exercises": [
                 {
                     "id": "ex_1",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie die Endungen der Artikel. (Beispiel: Wir gingen in d___ großen Saal -> in den)",
+                    "instruction": "Ergänzen Sie die Endungen des Artikels. (d_ = den/dem/der/das)",
                     "items": [
                         {
                             "id": "1a",
-                            "prompt": "Wir gingen in d___ großen Saal.",
-                            "answer": "in den",
+                            "prompt": "Wir gingen in d___ großen Saal. (Wohin?)",
+                            "answer": "den",
                             "parts": [
-                                "in",
                                 "den"
                             ]
                         },
                         {
                             "id": "1b",
-                            "prompt": "Zwischen d___ beiden Ländern fließt ein Fluss.",
-                            "answer": "Zwischen den",
+                            "prompt": "Zwischen d___ beiden Ländern fließt ein Fluss. (Wo?)",
+                            "answer": "den",
                             "parts": [
-                                "Zwischen",
                                 "den"
                             ]
                         },
                         {
                             "id": "1c",
-                            "prompt": "Was hast du da in d___ Hand?",
-                            "answer": "in der",
+                            "prompt": "Was hast du da in d___ Hand? (Wo?)",
+                            "answer": "der",
                             "parts": [
-                                "in",
                                 "der"
                             ]
                         },
                         {
                             "id": "1d",
-                            "prompt": "Stell bitte den Stuhl in d___ Flur.",
-                            "answer": "in den",
+                            "prompt": "Stell bitte den Stuhl in d___ Flur. (Wohin?)",
+                            "answer": "den",
                             "parts": [
-                                "in",
                                 "den"
                             ]
                         },
                         {
+                            "id": "1e",
+                            "prompt": "Kannst du mir die Adresse auf ein___ kleinen Zettel schreiben? (Wohin?)",
+                            "answer": "einen",
+                            "parts": [
+                                "einen"
+                            ]
+                        },
+                        {
                             "id": "1f",
-                            "prompt": "Hinter m____ standen eine Menge Leute an d___ Kinokasse.",
-                            "answer": "Hinter mir standen eine Menge Leute an der Kinokasse.",
+                            "prompt": "Hinter m___ standen eine Menge Leute an d___ Kinokasse. (Wo?)",
+                            "answer": "mir der",
                             "parts": [
                                 "mir",
                                 "der"
                             ]
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "In dies___ Gegend regnet es häufig. (Wo?)",
+                            "answer": "dieser",
+                            "parts": [
+                                "dieser"
+                            ]
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Häng bitte die Jacke in d___ Schrank. (Wohin?)",
+                            "answer": "den",
+                            "parts": [
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "1i",
+                            "prompt": "Hinter d___ Haus gibt es einen wunderschönen Obstgarten. (Wo?)",
+                            "answer": "dem",
+                            "parts": [
+                                "dem"
+                            ]
+                        },
+                        {
+                            "id": "1j",
+                            "prompt": "Wir setzten uns in d___ Schatten eines Baumes. (Wohin?)",
+                            "answer": "den",
+                            "parts": [
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "1k",
+                            "prompt": "Auf dies___ Insel gibt es sehr viele seltene Tiere. (Wo?)",
+                            "answer": "dieser",
+                            "parts": [
+                                "dieser"
+                            ]
+                        },
+                        {
+                            "id": "1l",
+                            "prompt": "Paul stellte sich zwischen Rita und m___. (Wohin?)",
+                            "answer": "mich",
+                            "parts": [
+                                "mich"
+                            ]
+                        },
+                        {
+                            "id": "1m",
+                            "prompt": "An viel___ Orten des Landes gibt es zu wenig Wasser. (Wo?)",
+                            "answer": "vielen",
+                            "parts": [
+                                "vielen"
+                            ]
+                        },
+                        {
+                            "id": "1n",
+                            "prompt": "Jonas stellte seine Hausschuhe unter d___ Sofa. (Wohin?)",
+                            "answer": "das",
+                            "parts": [
+                                "das"
+                            ]
+                        },
+                        {
+                            "id": "1o",
+                            "prompt": "Du kannst dich ruhig neben m___ setzen. (Wohin?)",
+                            "answer": "mich",
+                            "parts": [
+                                "mich"
+                            ]
+                        },
+                        {
+                            "id": "1p",
+                            "prompt": "Das Haus liegt zwischen d___ Schillerstraße und d___ Marktplatz. (Wo?)",
+                            "answer": "der dem",
+                            "parts": [
+                                "der",
+                                "dem"
+                            ]
+                        },
+                        {
+                            "id": "1q",
+                            "prompt": "Pass auf, wenn du über d___ Straße gehst! (Wohin?)",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "1r",
+                            "prompt": "Der Junge versteckte sich unter d___ Decke. (Wo?)",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "1s",
+                            "prompt": "Setz die Mütze auf d___ Kopf! (Wohin?)",
+                            "answer": "den",
+                            "parts": [
+                                "den"
+                            ]
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "id": "7.2",
+            "title": "2. Wohin gehen Sie?",
+            "content": "Wohin gehen Sie? (Akkusativ / Direktiv)\n\nins Kino, nach Italien, in die USA, zum Arzt...",
+            "exercises": [
                 {
-                    "id": "ex_2",
-                    "type": "gap_fill",
-                    "instruction": "Ergänzen Sie die Präposition. (Ich gehe/fahre/fliege...)",
+                    "id": "ex_2a",
+                    "type": "transformation",
+                    "instruction": "Antworten Sie: Wohin gehen Sie? (Beispiel: Kino -> Ich gehe ins Kino.)",
                     "items": [
                         {
-                            "id": "2a",
-                            "prompt": "_______ Kino.",
-                            "answer": "ins",
-                            "parts": [
-                                "ins"
-                            ]
+                            "id": "2a_1",
+                            "prompt": "Kino",
+                            "answer": "Ich gehe ins Kino."
                         },
                         {
-                            "id": "2b",
-                            "prompt": "_______ England.",
-                            "answer": "nach",
-                            "parts": [
-                                "nach"
-                            ]
+                            "id": "2a_2",
+                            "prompt": "England",
+                            "answer": "Ich gehe nach England."
                         },
                         {
-                            "id": "2c",
-                            "prompt": "_______ Ausland.",
-                            "answer": "ins",
-                            "parts": [
-                                "ins"
-                            ]
+                            "id": "2a_3",
+                            "prompt": "Ausland",
+                            "answer": "Ich gehe ins Ausland."
                         },
                         {
-                            "id": "2d",
-                            "prompt": "_______ Arzt.",
-                            "answer": "zum",
-                            "parts": [
-                                "zum"
-                            ]
+                            "id": "2a_4",
+                            "prompt": "Arzt",
+                            "answer": "Ich gehe zum Arzt."
+                        },
+                        {
+                            "id": "2a_5",
+                            "prompt": "Supermarkt",
+                            "answer": "Ich gehe in den Supermarkt."
+                        },
+                        {
+                            "id": "2a_6",
+                            "prompt": "Universität",
+                            "answer": "Ich gehe zur Universität."
+                        },
+                        {
+                            "id": "2a_7",
+                            "prompt": "Türkei",
+                            "answer": "Ich gehe in die Türkei."
+                        },
+                        {
+                            "id": "2a_8",
+                            "prompt": "Rathaus",
+                            "answer": "Ich gehe zum Rathaus."
+                        },
+                        {
+                            "id": "2a_9",
+                            "prompt": "USA",
+                            "answer": "Ich gehe in die USA."
+                        },
+                        {
+                            "id": "2a_10",
+                            "prompt": "Küste",
+                            "answer": "Ich gehe an die Küste."
+                        },
+                        {
+                            "id": "2a_11",
+                            "prompt": "Hause",
+                            "answer": "Ich gehe nach Hause."
+                        },
+                        {
+                            "id": "2a_12",
+                            "prompt": "Berge",
+                            "answer": "Ich gehe in die Berge."
+                        },
+                        {
+                            "id": "2a_13",
+                            "prompt": "Dom",
+                            "answer": "Ich gehe in den Dom."
+                        },
+                        {
+                            "id": "2a_14",
+                            "prompt": "Berlin",
+                            "answer": "Ich gehe nach Berlin."
+                        },
+                        {
+                            "id": "2a_15",
+                            "prompt": "Klaus",
+                            "answer": "Ich gehe zu Klaus."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7.3",
+            "title": "3. Wo waren Sie?",
+            "content": "Wo waren Sie? (Dativ / Lokativ)\n\nim Kino, in Italien, in den USA, beim Arzt...",
+            "exercises": [
+                {
+                    "id": "ex_2b",
+                    "type": "transformation",
+                    "instruction": "Antworten Sie: Wo waren Sie? (Beispiel: Kino -> Ich war im Kino.)",
+                    "items": [
+                        {
+                            "id": "2b_1",
+                            "prompt": "Kino",
+                            "answer": "Ich war im Kino."
+                        },
+                        {
+                            "id": "2b_2",
+                            "prompt": "England",
+                            "answer": "Ich war in England."
+                        },
+                        {
+                            "id": "2b_3",
+                            "prompt": "Ausland",
+                            "answer": "Ich war im Ausland."
+                        },
+                        {
+                            "id": "2b_4",
+                            "prompt": "Arzt",
+                            "answer": "Ich war beim Arzt."
+                        },
+                        {
+                            "id": "2b_5",
+                            "prompt": "Supermarkt",
+                            "answer": "Ich war im Supermarkt."
+                        },
+                        {
+                            "id": "2b_6",
+                            "prompt": "Universität",
+                            "answer": "Ich war an der Universität."
+                        },
+                        {
+                            "id": "2b_7",
+                            "prompt": "Türkei",
+                            "answer": "Ich war in der Türkei."
+                        },
+                        {
+                            "id": "2b_8",
+                            "prompt": "Rathaus",
+                            "answer": "Ich war im Rathaus."
+                        },
+                        {
+                            "id": "2b_9",
+                            "prompt": "USA",
+                            "answer": "Ich war in den USA."
+                        },
+                        {
+                            "id": "2b_10",
+                            "prompt": "Küste",
+                            "answer": "Ich war an der Küste."
+                        },
+                        {
+                            "id": "2b_11",
+                            "prompt": "Hause",
+                            "answer": "Ich war zu Hause."
+                        },
+                        {
+                            "id": "2b_12",
+                            "prompt": "Berge",
+                            "answer": "Ich war in den Bergen."
+                        },
+                        {
+                            "id": "2b_13",
+                            "prompt": "Dom",
+                            "answer": "Ich war im Dom."
+                        },
+                        {
+                            "id": "2b_14",
+                            "prompt": "Berlin",
+                            "answer": "Ich war in Berlin."
+                        },
+                        {
+                            "id": "2b_15",
+                            "prompt": "Klaus",
+                            "answer": "Ich war bei Klaus."
                         }
                     ]
                 }

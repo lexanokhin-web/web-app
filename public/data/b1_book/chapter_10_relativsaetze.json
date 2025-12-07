@@ -1,12 +1,12 @@
 {
     "id": "chapter_10",
     "title": "Relativsätze",
-    "description": "Relativsätze als Attribut, Relativpronomen.",
+    "description": "Relativsätze als Attribut, Relativpronomen im Nom/Akk/Dat/Gen.",
     "sections": [
         {
             "id": "10.1",
-            "title": "1. Relativsätze als Attribut",
-            "content": "Relativsätze erklären ein Nomen genauer. Das Verb steht am Ende.\nDer Artikel wird zum Relativpronomen (der, die, das, die).\nAchtung im Dativ Plural: denen.\nAchtung im Genitiv: dessen (m/n), deren (f/pl).",
+            "title": "1. Relativsätze (Nominativ/Akkusativ/Dativ)",
+            "content": "Relativsätze erklären ein Nomen genauer. Das Verb steht am Ende.\nDer Artikel wird zum Relativpronomen (der, die, das, die).\nAchtung im Dativ Plural: denen.",
             "exercises": [
                 {
                     "id": "ex_1",
@@ -22,16 +22,41 @@
                             "id": "1b",
                             "prompt": "Theo und Eva sind alte Freunde. Sie helfen mir immer.",
                             "answer": "Theo und Eva sind alte Freunde, die mir immer helfen."
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Karl ist ein bekannter Experte. Er findet immer eine Lösung.",
+                            "answer": "Karl ist ein bekannter Experte, der immer eine Lösung findet."
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Pia ist ein eigensinniges Kind. Es hört nie zu.",
+                            "answer": "Pia ist ein eigensinniges Kind, das nie zuhört."
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Lena ist eine hervorragende Schauspielerin. Sie hat Karriere gemacht.",
+                            "answer": "Lena ist eine hervorragende Schauspielerin, die Karriere gemacht hat."
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Hatem ist ein begabter Programmierer. Er arbeitet für eine Softwarefirma.",
+                            "answer": "Hatem ist ein begabter Programmierer, der für eine Softwarefirma arbeitet."
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Clara und Jana sind gute Freundinnen. Sie erzählen sich alles.",
+                            "answer": "Clara und Jana sind gute Freundinnen, die sich alles erzählen."
                         }
                     ]
                 },
                 {
                     "id": "ex_2",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie das Relativpronomen (Nominativ, Akkusativ oder Dativ).",
+                    "instruction": "Ergänzen Sie das Relativpronomen.",
                     "items": [
                         {
-                            "id": "2a",
+                            "id": "2a_1",
                             "prompt": "Dort kommt mein Onkel, _____ Geburtstag hat.",
                             "answer": "der",
                             "parts": [
@@ -39,7 +64,15 @@
                             ]
                         },
                         {
-                            "id": "2b",
+                            "id": "2a_2",
+                            "prompt": "Dort kommt mein Onkel, _____ ich gratulieren möchte.",
+                            "answer": "dem",
+                            "parts": [
+                                "dem"
+                            ]
+                        },
+                        {
+                            "id": "2b_1",
                             "prompt": "Ist das der Computer, _____ nicht richtig funktioniert?",
                             "answer": "der",
                             "parts": [
@@ -47,7 +80,23 @@
                             ]
                         },
                         {
-                            "id": "2c_akk",
+                            "id": "2b_2",
+                            "prompt": "Ist das der Computer, _____ ich reparieren soll?",
+                            "answer": "den",
+                            "parts": [
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "2c_1",
+                            "prompt": "Ich kaufe ein Auto, _____ sehr sparsam ist.",
+                            "answer": "das",
+                            "parts": [
+                                "das"
+                            ]
+                        },
+                        {
+                            "id": "2c_2",
                             "prompt": "Ich kaufe ein Auto, _____ ich täglich benutzen möchte.",
                             "answer": "das",
                             "parts": [
@@ -55,11 +104,122 @@
                             ]
                         },
                         {
-                            "id": "2f_dat",
+                            "id": "2d_1",
+                            "prompt": "Es gibt Tage, _____ schon schlecht beginnen.",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "2d_2",
+                            "prompt": "Es gibt Tage, _____ ich am liebsten vergessen würde.",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "2e_1",
+                            "prompt": "Hanna ist ein Mensch, _____ immer unterwegs ist.",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "2e_2",
+                            "prompt": "Hanna ist ein Mensch, _____ ich lange kenne.",
+                            "answer": "den",
+                            "parts": [
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "2f_1",
+                            "prompt": "Das sind die Kollegen, _____ mir oft helfen.",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "2f_2",
                             "prompt": "Das sind die Kollegen, ______ ich schon oft geholfen habe.",
                             "answer": "denen",
                             "parts": [
                                 "denen"
+                            ]
+                        },
+                        {
+                            "id": "2g_1",
+                            "prompt": "Kennst du meine Tante, _____ hier wohnt?",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "2g_2",
+                            "prompt": "Kennst du meine Tante, _____ dieses Haus gehört?",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_3",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die Relativpronomen (Dativ oder Akkusativ).",
+                    "items": [
+                        {
+                            "id": "3a",
+                            "prompt": "Das ist ein Gerät, _____ ich dir empfehlen kann.",
+                            "answer": "das",
+                            "parts": [
+                                "das"
+                            ]
+                        },
+                        {
+                            "id": "3b",
+                            "prompt": "Gefällt dir der Tisch, _____ ich gemacht habe?",
+                            "answer": "den",
+                            "parts": [
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "3c",
+                            "prompt": "Tom redet nicht mit Leuten, _____ er nicht mag.",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "3d",
+                            "prompt": "Das sind Leute, ______ du zuhören solltest.",
+                            "answer": "denen",
+                            "parts": [
+                                "denen"
+                            ]
+                        },
+                        {
+                            "id": "3e",
+                            "prompt": "Kaufen Sie keine Dinge, _____ Sie nicht brauchen.",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "3f",
+                            "prompt": "Max ist ein Mensch, _____ meine Art nicht gefällt.",
+                            "answer": "dem",
+                            "parts": [
+                                "dem"
                             ]
                         }
                     ]
@@ -69,7 +229,7 @@
         {
             "id": "10.2",
             "title": "2. Relativsätze mit Genitiv",
-            "content": "Wessen? -> Genitiv im Relativsatz.\nMaskulin/Neutral: dessen\nFeminin/Plural: deren\n\nBeispiel: Das ist der Mann, dessen Auto hier steht.",
+            "content": "Maskulin Sg.: dessen\nNeutrum Sg.: dessen\nFeminin Sg.: deren\nPlural: deren\n\nBeispiel: Das ist der Mann, dessen Auto hier steht.",
             "exercises": [
                 {
                     "id": "ex_4",
@@ -82,9 +242,169 @@
                             "answer": "Ich verschenke diesen Laptop, dessen Kamera defekt ist."
                         },
                         {
+                            "id": "4b",
+                            "prompt": "Ich mag dieses Gewürz. Sein Geruch ist sehr intensiv.",
+                            "answer": "Ich mag dieses Gewürz, dessen Geruch sehr intensiv ist."
+                        },
+                        {
                             "id": "4c",
                             "prompt": "Ich kaufe diese Jacke. Ihre Farbe gefällt mir sehr.",
                             "answer": "Ich kaufe diese Jacke, deren Farbe mir sehr gefällt."
+                        },
+                        {
+                            "id": "4d",
+                            "prompt": "Ich helfe meinem Kollegen. Sein Computer ist kaputt.",
+                            "answer": "Ich helfe meinem Kollegen, dessen Computer kaputt ist."
+                        },
+                        {
+                            "id": "4e",
+                            "prompt": "Ich schreibe meinen Eltern. Ich brauche ihre Hilfe.",
+                            "answer": "Ich schreibe meinen Eltern, deren Hilfe ich brauche."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_5",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die Relativpronomen im Genitiv, Nominativ, Akkusativ oder Dativ.",
+                    "items": [
+                        {
+                            "id": "5a_1",
+                            "prompt": "Max telefoniert mit dem Kollegen, ______ ihn besucht hat.",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "5a_2",
+                            "prompt": "Max telefoniert mit dem Kollegen, ______ er besucht hat.",
+                            "answer": "den",
+                            "parts": [
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "5a_3",
+                            "prompt": "Max telefoniert mit dem Kollegen, ______ bald in Pension geht.",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "5b_1",
+                            "prompt": "Kennst du die Frau, ______ im III. Stock wohnt?",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "5b_2",
+                            "prompt": "Kennst du die Frau, ______ dieses Buch gehört?",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "5b_3",
+                            "prompt": "Kennst du die Frau, ______ Wagen vor der Tür steht? (Genitiv)",
+                            "answer": "deren",
+                            "parts": [
+                                "deren"
+                            ]
+                        },
+                        {
+                            "id": "5c_1",
+                            "prompt": "Tamara hat einen Cousin, ______ sie sehr vertraut.",
+                            "answer": "dem",
+                            "parts": [
+                                "dem"
+                            ]
+                        },
+                        {
+                            "id": "5c_2",
+                            "prompt": "Tamara hat einen Cousin, ______ ihr im Notfall immer hilft.",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "5c_3",
+                            "prompt": "Tamara hat einen Cousin, ______ Meinung ihr sehr wichtig ist. (Genitiv)",
+                            "answer": "dessen",
+                            "parts": [
+                                "dessen"
+                            ]
+                        },
+                        {
+                            "id": "5d_1",
+                            "prompt": "Sprichst du mit den Leuten, ______ zur Polizei gehen wollen?",
+                            "answer": "die",
+                            "parts": [
+                                "die"
+                            ]
+                        },
+                        {
+                            "id": "5d_2",
+                            "prompt": "Sprichst du mit den Leuten, ______ man das Gepäck gestohlen hat? (Dativ)",
+                            "answer": "denen",
+                            "parts": [
+                                "denen"
+                            ]
+                        },
+                        {
+                            "id": "5d_3",
+                            "prompt": "Sprichst du mit den Leuten, ______ Gepäck man gestohlen hat? (Genitiv)",
+                            "answer": "deren",
+                            "parts": [
+                                "deren"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_6",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie die Sätze. Der Relativsatz steht in der Mitte (eingeschoben). (Beispiel: Die Studentin ist schon gegangen. Ihre Jacke hängt noch hier. -> Die Studentin, deren Jacke noch hier hängt, ist schon gegangen.)",
+                    "items": [
+                        {
+                            "id": "6a",
+                            "prompt": "Das Obst musst du waschen. Du hast es im Supermarkt gekauft.",
+                            "answer": "Das Obst, das du im Supermarkt gekauft hast, musst du waschen."
+                        },
+                        {
+                            "id": "6b",
+                            "prompt": "Die Autorin ist sehr berühmt. Sie hat diese Geschichte geschrieben.",
+                            "answer": "Die Autorin, die diese Geschichte geschrieben hat, ist sehr berühmt."
+                        },
+                        {
+                            "id": "6c",
+                            "prompt": "Die Touristen kommen aus Rom. Ich habe sie auf dem Rathausplatz getroffen.",
+                            "answer": "Die Touristen, die ich auf dem Rathausplatz getroffen habe, kommen aus Rom."
+                        },
+                        {
+                            "id": "6d",
+                            "prompt": "Der Film war langweilig. Ich habe ihn gestern im Fernsehen gesehen.",
+                            "answer": "Der Film, den ich gestern im Fernsehen gesehen habe, war langweilig."
+                        },
+                        {
+                            "id": "6e",
+                            "prompt": "Die Gäste haben sich beschwert. Das Essen hat ihnen nicht geschmeckt.",
+                            "answer": "Die Gäste, denen das Essen nicht geschmeckt hat, haben sich beschwert."
+                        },
+                        {
+                            "id": "6f",
+                            "prompt": "Eine Dame winkte aus dem Zugfenster. Ihre Kinder standen auf dem Bahnsteig.",
+                            "answer": "Eine Dame, deren Kinder auf dem Bahnsteig standen, winkte aus dem Zugfenster."
+                        },
+                        {
+                            "id": "6g",
+                            "prompt": "Mein Freund hat eine Zeitungsanzeige aufgegeben. Sein Hund ist weggelaufen.",
+                            "answer": "Mein Freund, dessen Hund weggelaufen ist, hat eine Zeitungsanzeige aufgegeben."
                         }
                     ]
                 }

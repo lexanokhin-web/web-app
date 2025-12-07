@@ -1,21 +1,21 @@
 {
     "id": "chapter_6",
     "title": "Konjunktiv II",
-    "description": "Wünsche, Höflichkeit, Irreales.",
+    "description": "Wünsche, Bitten, Vorschläge und Hypothesen. (hätte, wäre, würde)",
     "sections": [
         {
             "id": "6.1",
             "title": "1. Konjunktiv II - Formen",
-            "content": "Der Konjunktiv II drückt Wünsche, Träume oder Irreales aus.\nEr wird oft mit 'würde' + Infinitiv gebildet.\n\nOriginalformen:\nhaben -> hätte\nsein -> wäre\nkommen -> käme (oder würde kommen)\n\nBeispiel: Wenn ich Zeit hätte, würde ich kommen.",
+            "content": "hätte (von haben), wäre (von sein), würde (für andere Verben).\n\nIch hätte gern...\nIch wäre gern...\nIch würde gern...",
             "exercises": [
                 {
                     "id": "ex_1",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie 'würden' und den Infinitiv. (Beispiel: Pedro und Lena müssen früh aufstehen -> Sie würden gerne länger schlafen.)",
+                    "instruction": "Bilden Sie 'würde ... Infinitiv' Sätze (Wunsch).",
                     "items": [
                         {
                             "id": "1a",
-                            "prompt": "Pedro und Lena müssen immer früh aufstehen. Sie _______ gerne länger _______ (schlafen).",
+                            "prompt": "Pedro und Lena müssen immer früh aufstehen. Sie _______ länger ________. (schlafen)",
                             "answer": "würden schlafen",
                             "parts": [
                                 "würden",
@@ -24,11 +24,56 @@
                         },
                         {
                             "id": "1b",
-                            "prompt": "Theo ist nicht besonders fit. Er _______ gerne mehr Sport _______ (treiben).",
+                            "prompt": "Theo ist nicht besonders fit. Er _______ gern mehr Sport _______. (treiben)",
                             "answer": "würde treiben",
                             "parts": [
                                 "würde",
                                 "treiben"
+                            ]
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Sandra arbeitet immer allein. Sie _______ gern in einem Team _______. (arbeiten)",
+                            "answer": "würde arbeiten",
+                            "parts": [
+                                "würde",
+                                "arbeiten"
+                            ]
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Hassan raucht zu viel. Er _______ gern nicht so viel _______. (rauchen)",
+                            "answer": "würde rauchen",
+                            "parts": [
+                                "würde",
+                                "rauchen"
+                            ]
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Sofia kann kein Englisch. Sie _______ gern an einem Sprachkurs _______. (teilnehmen)",
+                            "answer": "würde teilnehmen",
+                            "parts": [
+                                "würde",
+                                "teilnehmen"
+                            ]
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Carlo hat nur eine halbe Stelle. Er _______ gern Vollzeit _______. (arbeiten)",
+                            "answer": "würde arbeiten",
+                            "parts": [
+                                "würde",
+                                "arbeiten"
+                            ]
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Wir haben eine sehr teure Wohnung. Wir _______ gern weniger Miete _______. (zahlen)",
+                            "answer": "würden zahlen",
+                            "parts": [
+                                "würden",
+                                "zahlen"
                             ]
                         }
                     ]
@@ -36,7 +81,7 @@
                 {
                     "id": "ex_2",
                     "type": "transformation",
-                    "instruction": "Bilden Sie höfliche Bitten mit 'Würdest du bitte...'.",
+                    "instruction": "Bilden Sie höfliche Bitten mit 'Würdest du bitte...'. (Beispiel: Mach die Tür zu! -> Würdest du bitte die Tür zumachen?)",
                     "items": [
                         {
                             "id": "2a",
@@ -52,6 +97,51 @@
                             "id": "2c",
                             "prompt": "Räum das Zimmer auf!",
                             "answer": "Würdest du bitte das Zimmer aufräumen?"
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Füll das Formular aus!",
+                            "answer": "Würdest du bitte das Formular ausfüllen?"
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "Lies den Text vor!",
+                            "answer": "Würdest du bitte den Text vorlesen?"
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "Ruf die Firma an!",
+                            "answer": "Würdest du bitte die Firma anrufen?"
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Mach das Licht an!",
+                            "answer": "Würdest du bitte das Licht anmachen?"
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Schreib die Nummer auf!",
+                            "answer": "Würdest du bitte die Nummer aufschreiben?"
+                        },
+                        {
+                            "id": "2i",
+                            "prompt": "Bereite das Essen zu!",
+                            "answer": "Würdest du bitte das Essen zubereiten?"
+                        },
+                        {
+                            "id": "2j",
+                            "prompt": "Trag deinen Namen ein!",
+                            "answer": "Würdest du bitte deinen Namen eintragen?"
+                        },
+                        {
+                            "id": "2k",
+                            "prompt": "Gib mir das Buch zurück!",
+                            "answer": "Würdest du bitte mir das Buch zurückgeben?"
+                        },
+                        {
+                            "id": "2l",
+                            "prompt": "Hol die Pakete von der Post ab!",
+                            "answer": "Würdest du bitte die Pakete von der Post abholen?"
                         }
                     ]
                 }
@@ -59,23 +149,275 @@
         },
         {
             "id": "6.2",
-            "title": "2. Irreale Bedingungen",
-            "content": "Wenn ich Zeit hätte, ginge ich ins Kino.\n(Aber ich habe keine Zeit -> Realität)\n\nVergangenheit:\nWenn ich Zeit gehabt hätte, wäre ich ins Kino gegangen.",
+            "title": "2. Realität vs. Spekulation",
+            "content": "Wenn... , (dann) würde/hätte/wäre...\n\nBeispiel: Wenn ich Zeit hätte, würde ich ins Kino gehen.",
             "exercises": [
                 {
                     "id": "ex_4",
                     "type": "transformation",
-                    "instruction": "Bilden Sie Irreale Bedingungssätze. (Beispiel: Max ist vorsichtig. Deshalb fährt er langsam. -> Wenn Max nicht vorsichtig wäre, würde er nicht langsam fahren.)",
+                    "instruction": "Bilden Sie Irreale Bedingungssätze. (Beispiel: Max ist vorsichtig. Deshalb fährt er sehr langsam. -> Wenn Max nicht so vorsichtig wäre, würde er nicht so langsam fahren.)",
                     "items": [
+                        {
+                            "id": "4a",
+                            "prompt": "Max ist vorsichtig. Deshalb fährt er sehr langsam.",
+                            "answer": "Wenn Max nicht so vorsichtig wäre, würde er nicht so langsam fahren."
+                        },
                         {
                             "id": "4b",
                             "prompt": "Tanja schläft sehr wenig. Deshalb ist sie müde.",
-                            "answer": "Wenn Tanja mehr schlafen würde, wäre sie nicht müde."
+                            "answer": "Wenn Tanja mehr schlafen würde, wäre sie nicht so müde."
                         },
                         {
                             "id": "4c",
                             "prompt": "Jonas raucht sehr viel. Deshalb hat er Husten.",
                             "answer": "Wenn Jonas nicht so viel rauchen würde, hätte er keinen Husten."
+                        },
+                        {
+                            "id": "4d",
+                            "prompt": "Eva sieht schlecht. Deshalb trägt sie eine Brille.",
+                            "answer": "Wenn Eva gut sehen würde, würde sie keine Brille tragen."
+                        },
+                        {
+                            "id": "4e",
+                            "prompt": "Jana ist frustriert. Deshalb isst sie viel Schokolade.",
+                            "answer": "Wenn Jana nicht frustriert wäre, würde sie nicht viel Schokolade essen."
+                        },
+                        {
+                            "id": "4f",
+                            "prompt": "Paul fühlt sich unwohl. Deshalb geht er zum Arzt.",
+                            "answer": "Wenn Paul sich wohl fühlen würde, würde er nicht zum Arzt gehen."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_6",
+                    "type": "transformation",
+                    "instruction": "Konjunktiv II Vergangenheit: 'hätte/wäre ... Partizip II'. (Beispiel: Max hatte keine Lust. -> Wenn Max Lust gehabt hätte, wäre er ins Kino gegangen.)",
+                    "items": [
+                        {
+                            "id": "6a",
+                            "prompt": "Christa hat sich nicht vorbereitet. Deshalb hat sie den Test nicht bestanden.",
+                            "answer": "Wenn Christa sich vorbereitet hätte, hätte sie den Test bestanden."
+                        },
+                        {
+                            "id": "6b",
+                            "prompt": "Laura sprach nicht deutlich. Deshalb habe ich sie nicht verstanden.",
+                            "answer": "Wenn Laura deutlich gesprochen hätte, hätte ich sie verstanden."
+                        },
+                        {
+                            "id": "6c",
+                            "prompt": "Thomas hat nicht angerufen. Deshalb hat er Ärger bekommen.",
+                            "answer": "Wenn Thomas angerufen hätte, hätte er keinen Ärger bekommen."
+                        },
+                        {
+                            "id": "6d",
+                            "prompt": "Es hat die ganze Zeit geregnet. Deshalb sind wir nicht spazieren gegangen.",
+                            "answer": "Wenn es nicht die ganze Zeit geregnet hätte, wären wir spazieren gegangen."
+                        },
+                        {
+                            "id": "6e",
+                            "prompt": "Monika hat den Bus verpasst. Deshalb ist sie zu spät gekommen.",
+                            "answer": "Wenn Monika den Bus nicht verpasst hätte, wäre sie nicht zu spät gekommen."
+                        },
+                        {
+                            "id": "6f",
+                            "prompt": "Paul hat nicht alles aufgeschrieben. Deshalb hat er etwas vergessen.",
+                            "answer": "Wenn Paul alles aufgeschrieben hätte, hätte er nichts vergessen."
+                        },
+                        {
+                            "id": "6g",
+                            "prompt": "Lena hat nicht rechtzeitig reserviert. Deshalb hat sie keinen Platz bekommen.",
+                            "answer": "Wenn Lena rechtzeitig reserviert hätte, hätte sie einen Platz bekommen."
+                        },
+                        {
+                            "id": "6h",
+                            "prompt": "Tina hat sich nicht konzentriert. Deshalb hat sie nicht alles gehört.",
+                            "answer": "Wenn Tina sich konzentriert hätte, hätte sie alles gehört."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6.3",
+            "title": "3. Konjunktiv II - Modalverben",
+            "content": "könnte (können), dürfte (dürfen), müsste (müssen), wollte (wollen), sollte (sollen).\n\nDu solltest mehr lernen. (Empfehlung)\nKönntest du mir helfen? (Höfliche Frage)",
+            "exercises": [
+                {
+                    "id": "ex_7",
+                    "type": "transformation",
+                    "instruction": "Höfliche Fragen mit 'Könntest du bitte...'.",
+                    "items": [
+                        {
+                            "id": "7a",
+                            "prompt": "Sprich bitte lauter.",
+                            "answer": "Könntest du bitte lauter sprechen?"
+                        },
+                        {
+                            "id": "7b",
+                            "prompt": "Hol bitte den Rucksack.",
+                            "answer": "Könntest du bitte den Rucksack holen?"
+                        },
+                        {
+                            "id": "7c",
+                            "prompt": "Sag das bitte noch einmal.",
+                            "answer": "Könntest du bitte das noch einmal sagen?"
+                        },
+                        {
+                            "id": "7d",
+                            "prompt": "Nimm mich bitte mit.",
+                            "answer": "Könntest du bitte mich mitnehmen?"
+                        },
+                        {
+                            "id": "7e",
+                            "prompt": "Bring bitte die Bücher.",
+                            "answer": "Könntest du bitte die Bücher bringen?"
+                        },
+                        {
+                            "id": "7f",
+                            "prompt": "Füll bitte die Liste aus.",
+                            "answer": "Könntest du bitte die Liste ausfüllen?"
+                        },
+                        {
+                            "id": "7g",
+                            "prompt": "Schick bitte eine Nachricht.",
+                            "answer": "Könntest du bitte eine Nachricht schicken?"
+                        },
+                        {
+                            "id": "7h",
+                            "prompt": "Deck bitte den Tisch.",
+                            "answer": "Könntest du bitte den Tisch decken?"
+                        },
+                        {
+                            "id": "7i",
+                            "prompt": "Räum bitte den Keller auf.",
+                            "answer": "Könntest du bitte den Keller aufräumen?"
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_8",
+                    "type": "transformation",
+                    "instruction": "Empfehlung/Rat mit '... sollte ...'. (Beispiel: Ina fährt zu schnell. -> Sie sollte nicht so schnell fahren.)",
+                    "items": [
+                        {
+                            "id": "8a",
+                            "prompt": "Boris spricht zu leise.",
+                            "answer": "Er sollte lauter sprechen."
+                        },
+                        {
+                            "id": "8b",
+                            "prompt": "Sandra schläft zu wenig.",
+                            "answer": "Sie sollte mehr schlafen."
+                        },
+                        {
+                            "id": "8c",
+                            "prompt": "Franz gibt zu viel Geld aus.",
+                            "answer": "Er sollte weniger Geld ausgeben."
+                        },
+                        {
+                            "id": "8d",
+                            "prompt": "Gabi liest zu wenig.",
+                            "answer": "Sie sollte mehr lesen."
+                        },
+                        {
+                            "id": "8e",
+                            "prompt": "Thomas vergisst zu viele Termine.",
+                            "answer": "Er sollte keine Termine vergessen."
+                        },
+                        {
+                            "id": "8f",
+                            "prompt": "Peter weiß zu diesem Thema zu wenig.",
+                            "answer": "Er sollte mehr zu diesem Thema wissen."
+                        },
+                        {
+                            "id": "8g",
+                            "prompt": "Anja ruft zu selten bei ihren Eltern an.",
+                            "answer": "Sie sollte öfter bei ihren Eltern anrufen."
+                        },
+                        {
+                            "id": "8h",
+                            "prompt": "Eva fängt zu viele Dinge gleichzeitig an.",
+                            "answer": "Sie sollte weniger Dinge gleichzeitig anfangen."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_9",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Sätze mit 'Wenn ... nicht ...'. (Beispiel: Du musst im Bett bleiben, weil du Grippe hast. -> Wenn du keine Grippe hättest, müsstest du nicht im Bett bleiben.)",
+                    "items": [
+                        {
+                            "id": "9a",
+                            "prompt": "Karl darf nicht mit dem Auto fahren, weil er betrunken ist.",
+                            "answer": "Wenn Karl nicht betrunken wäre, dürfte er mit dem Auto fahren."
+                        },
+                        {
+                            "id": "9b",
+                            "prompt": "Gerd kann nicht zur Party kommen, weil er fürs Examen lernen muss.",
+                            "answer": "Wenn Gerd nicht fürs Examen lernen müsste, könnte er zur Party kommen."
+                        },
+                        {
+                            "id": "9c",
+                            "prompt": "Maria darf keine Erdbeeren essen, weil sie eine Allergie hat.",
+                            "answer": "Wenn Maria keine Allergie hätte, dürfte sie Erdbeeren essen."
+                        },
+                        {
+                            "id": "9d",
+                            "prompt": "Elfi muss die Arbeit heute alleine erledigen, weil ihr Kollege sich erkältet hat.",
+                            "answer": "Wenn ihr Kollege sich nicht erkältet hätte, müsste Elfi die Arbeit heute nicht alleine erledigen."
+                        },
+                        {
+                            "id": "9e",
+                            "prompt": "Julia kann nichts zu diesem Thema sagen, weil sie nicht Bescheid weiß.",
+                            "answer": "Wenn Julia Bescheid wüsste, könnte sie etwas zu diesem Thema sagen."
+                        },
+                        {
+                            "id": "9f",
+                            "prompt": "Du kannst die Frage nicht beantworten, weil du dich nicht vorbereitet hast.",
+                            "answer": "Wenn du dich vorbereitet hättest, könntest du die Frage beantworten."
+                        },
+                        {
+                            "id": "9g",
+                            "prompt": "Konrad fährt nicht nach München, weil er am Samstag arbeiten muss.",
+                            "answer": "Wenn Konrad am Samstag nicht arbeiten müsste, würde er nach München fahren."
+                        },
+                        {
+                            "id": "9h",
+                            "prompt": "Hatem kann das Fahrrad nicht reparieren, weil er kein Werkzeug hat.",
+                            "answer": "Wenn Hatem Werkzeug hätte, könnte er das Fahrrad reparieren."
+                        },
+                        {
+                            "id": "9i",
+                            "prompt": "Theo darf nicht am Computer spielen, weil seine Mutter es verboten hat.",
+                            "answer": "Wenn seine Mutter es nicht verboten hätte, dürfte Theo am Computer spielen."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_10",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Sätze mit 'Wenn es ... geben würde, ...'.",
+                    "items": [
+                        {
+                            "id": "10a",
+                            "prompt": "Es gibt Handys. Deshalb kann man immer und überall miteinander sprechen.",
+                            "answer": "Wenn es keine Handys geben würde, könnte man nicht immer und überall miteinander sprechen."
+                        },
+                        {
+                            "id": "10b",
+                            "prompt": "Es gibt öffentliche Verkehrsmittel. Deshalb muss man nicht immer mit dem eigenen PKW fahren.",
+                            "answer": "Wenn es keine öffentlichen Verkehrsmittel geben würde, müsste man immer mit dem eigenen PKW fahren."
+                        },
+                        {
+                            "id": "10c",
+                            "prompt": "Es gibt das Internet. Deshalb kann man weltweit einfach und günstig kommunizieren.",
+                            "answer": "Wenn es das Internet nicht geben würde, könnte man nicht weltweit einfach und günstig kommunizieren."
+                        },
+                        {
+                            "id": "10d",
+                            "prompt": "Es gibt Antibiotika. Deshalb kann man Infektionskrankheiten besser behandeln.",
+                            "answer": "Wenn es keine Antibiotika geben würde, könnte man Infektionskrankheiten nicht besser behandeln."
                         }
                     ]
                 }

@@ -1,54 +1,124 @@
 {
     "id": "chapter_4",
     "title": "Konzessive Sätze",
-    "description": "Obwohl, trotzdem, trotz.",
+    "description": "Gegensätze ausdrücken mit 'obwohl', 'trotzdem' und 'trotz'.",
     "sections": [
         {
             "id": "4.1",
-            "title": "Konzessive Verbindungen",
-            "content": "Konzessive Sätze drücken einen Gegengrund aus.\n\n1. Nebensatz (obwohl): Verb am Ende.\n'Er ging zur Arbeit, obwohl er krank war.'\n\n2. Hauptsatzverbinder (trotzdem): Position 1, Verb an Position 2.\n'Er war krank. Trotzdem ging er zur Arbeit.'\n\n3. Präposition (trotz + Genitiv).\n'Trotz seiner Krankheit ging er zur Arbeit.'",
+            "title": "1. Konzessive Verbindungen",
+            "content": "Nebensatz mit 'obwohl' (Verb am Ende).\nHauptsatz mit 'trotzdem' (Verb an Position 2).\nPräposition 'trotz' mit Genitiv.\n\nBeispiele:\nObwohl es regnet, gehe ich spazieren.\nEs regnet. Trotzdem gehe ich spazieren.\nTrotz des Regens gehe ich spazieren.",
             "exercises": [
                 {
                     "id": "ex_1",
                     "type": "transformation",
-                    "instruction": "Verbinden Sie die Sätze mit 'trotzdem'.",
+                    "instruction": "Bilden Sie Sätze mit 'obwohl'. (Beispiel: Max hatte sich sehr beeilt. Trotzdem verpasste er den Zug. -> Obwohl Max sich sehr beeilt hatte, verpasste er den Zug.)",
                     "items": [
                         {
                             "id": "1a",
-                            "prompt": "Vera hatte Paul eingeladen. Er kam nicht zur Party.",
-                            "answer": "Vera hatte Paul eingeladen. Trotzdem kam er nicht zur Party."
+                            "prompt": "Vera hatte Paul eingeladen. Trotzdem kam er nicht zur Party.",
+                            "answer": "Obwohl Vera Paul eingeladen hatte, kam er nicht zur Party."
                         },
                         {
                             "id": "1b",
-                            "prompt": "Tanja hat den ganzen Tag gearbeitet. Sie ist nicht müde.",
-                            "answer": "Tanja hat den ganzen Tag gearbeitet. Trotzdem ist sie nicht müde."
+                            "prompt": "Tanja hat den ganzen Tag gearbeitet. Trotzdem ist sie nicht müde.",
+                            "answer": "Obwohl Tanja den ganzen Tag gearbeitet hat, ist sie nicht müde."
                         },
                         {
                             "id": "1c",
-                            "prompt": "Georg wohnt gar nicht weit von mir. Ich treffe ihn nur selten.",
-                            "answer": "Georg wohnt gar nicht weit von mir. Trotzdem treffe ich ihn nur selten."
+                            "prompt": "Georg wohnt gar nicht weit von mir. Trotzdem treffe ich ihn nur selten.",
+                            "answer": "Obwohl Georg gar nicht weit von mir wohnt, treffe ich ihn nur selten."
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Monika verdient ziemlich wenig. Trotzdem ist sie mit ihrer Arbeit zufrieden.",
+                            "answer": "Obwohl Monika ziemlich wenig verdient, ist sie mit ihrer Arbeit zufrieden."
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Peter fuhr sehr vorsichtig. Trotzdem passierte ein Unfall.",
+                            "answer": "Obwohl Peter sehr vorsichtig fuhr, passierte ein Unfall."
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Max vertraut Clara. Trotzdem erzählt er ihr nicht alles.",
+                            "answer": "Obwohl Max Clara vertraut, erzählt er ihr nicht alles."
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Leyla hat eine Grippe. Trotzdem spielt sie Volleyball.",
+                            "answer": "Obwohl Leyla eine Grippe hat, spielt sie Volleyball."
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Peter hat viele Probleme. Trotzdem beklagt er sich nie.",
+                            "answer": "Obwohl Peter viele Probleme hat, beklagt er sich nie."
+                        },
+                        {
+                            "id": "1i",
+                            "prompt": "Es geht der Wirtschaft gut. Trotzdem verdienen viele Leute sehr schlecht.",
+                            "answer": "Obwohl es der Wirtschaft gut geht, verdienen viele Leute sehr schlecht."
+                        },
+                        {
+                            "id": "1j",
+                            "prompt": "Es sah nach Regen aus. Trotzdem gingen wir zum Baden.",
+                            "answer": "Obwohl es nach Regen aussah, gingen wir zum Baden."
                         }
                     ]
                 },
                 {
                     "id": "ex_2",
                     "type": "transformation",
-                    "instruction": "Verbinden Sie die Sätze mit 'obwohl'.",
+                    "instruction": "Verbinden Sie die Sätze mit 'obwohl'. (Beispiel: Bogdan hatte Zeit. Er kam trotzdem nicht zum Fest. -> Bogdan kam nicht zum Fest, obwohl er Zeit hatte.)",
                     "items": [
                         {
                             "id": "2a",
                             "prompt": "Eva hatte Medikamente genommen. Sie konnte trotzdem nicht einschlafen.",
-                            "answer": "Obwohl Eva Medikamente genommen hatte, konnte sie nicht einschlafen."
+                            "answer": "Eva konnte nicht einschlafen, obwohl sie Medikamente genommen hatte."
                         },
                         {
                             "id": "2b",
                             "prompt": "Karl war sehr müde. Er ging trotzdem noch in die Disko.",
-                            "answer": "Obwohl Karl sehr müde war, ging er noch in die Disko."
+                            "answer": "Karl ging noch in die Disko, obwohl er sehr müde war."
                         },
                         {
                             "id": "2c",
                             "prompt": "Julian hat viel gelernt. Er hat den Test trotzdem nicht geschafft.",
-                            "answer": "Obwohl Julian viel gelernt hat, hat er den Test nicht geschafft."
+                            "answer": "Julian hat den Test nicht geschafft, obwohl er viel gelernt hat."
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Paul hatte schon viele Bewerbungen geschrieben. Er fand trotzdem keine Stelle.",
+                            "answer": "Paul fand keine Stelle, obwohl er schon viele Bewerbungen geschrieben hatte."
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "Silvie hatte sich sehr beeilt. Sie kam trotzdem zu spät.",
+                            "answer": "Silvie kam zu spät, obwohl sie sich sehr beeilt hatte."
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "Martin hatte schreckliche Schmerzen. Er wollte trotzdem keine Tablette nehmen.",
+                            "answer": "Martin wollte keine Tablette nehmen, obwohl er schreckliche Schmerzen hatte."
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Sophie hat nur eine kleine Wohnung. Sie will sich trotzdem einen großen Hund kaufen.",
+                            "answer": "Sophie will sich einen großen Hund kaufen, obwohl sie nur eine kleine Wohnung hat."
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Christine hat wenig Geld. Sie isst trotzdem oft in teuren Restaurants.",
+                            "answer": "Christine isst oft in teuren Restaurants, obwohl sie wenig Geld hat."
+                        },
+                        {
+                            "id": "2i",
+                            "prompt": "Jana hat Flugangst. Sie fliegt trotzdem oft in die Türkei.",
+                            "answer": "Jana fliegt oft in die Türkei, obwohl sie Flugangst hat."
+                        },
+                        {
+                            "id": "2j",
+                            "prompt": "Amira hat morgen ihre Führerscheinprüfung. Sie ist trotzdem gar nicht nervös.",
+                            "answer": "Amira ist gar nicht nervös, obwohl sie morgen ihre Führerscheinprüfung hat."
                         }
                     ]
                 }

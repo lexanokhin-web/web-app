@@ -1,17 +1,17 @@
 {
     "id": "chapter_9",
     "title": "Nebensätze - temporal",
-    "description": "Wenn, als, bis, seit, während, nachdem, bevor.",
+    "description": "Als, wenn, bis, seit, während, nachdem, bevor.",
     "sections": [
         {
             "id": "9.1",
-            "title": "1. Wenn und Als",
-            "content": "wenn: Gegenwart/Zukunft (einmalig oder wiederholt), Vergangenheit (wiederholt)\nals: Vergangenheit (einmalig)",
+            "title": "1. Als / Wenn",
+            "content": "Als (Vergangenheit, einmalig).\nWenn (Gegenwart/Zukunft oder Vergangenheit wiederholt).\n\nAls ich klein war... (einmal)\nImmer wenn er kam... (wiederholt)",
             "exercises": [
                 {
                     "id": "ex_1",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie 'wenn' oder 'als'.",
+                    "instruction": "Ergänzen Sie 'als' oder 'wenn'.",
                     "items": [
                         {
                             "id": "1a",
@@ -23,7 +23,7 @@
                         },
                         {
                             "id": "1b",
-                            "prompt": "______ Miriam in Rom war (Vergangenheit), schrieb sie mir eine Karte.",
+                            "prompt": "______ Miriam in Rom war, schrieb sie mir eine Karte. (einmal)",
                             "answer": "Als",
                             "parts": [
                                 "Als"
@@ -31,10 +31,74 @@
                         },
                         {
                             "id": "1c",
-                            "prompt": "______ uns Opa besuchte (immer wieder), brachte er immer Geschenke mit.",
+                            "prompt": "______ uns Opa besuchte, brachte er immer Geschenke mit. (wiederholt)",
                             "answer": "Wenn",
                             "parts": [
                                 "Wenn"
+                            ]
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Jonas fährt immer sehr vorsichtig, ______ es regnet.",
+                            "answer": "wenn",
+                            "parts": [
+                                "wenn"
+                            ]
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "______ mich die Polizei gestern anhielt, musste ich meinen Führerschein zeigen.",
+                            "answer": "Als",
+                            "parts": [
+                                "Als"
+                            ]
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Alexander von Humboldt war erst 9 Jahre alt, ______ sein Vater starb.",
+                            "answer": "als",
+                            "parts": [
+                                "als"
+                            ]
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "_______ ich Kopfschmerzen habe, nehme ich eine Tablette.",
+                            "answer": "Wenn",
+                            "parts": [
+                                "Wenn"
+                            ]
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Der Zug kam gerade an, ______ ich zum Bahnsteig ging.",
+                            "answer": "als",
+                            "parts": [
+                                "als"
+                            ]
+                        },
+                        {
+                            "id": "1i",
+                            "prompt": "Clara musste immer viel mehr arbeiten, ______ ihre Kollegin krank war. (immer)",
+                            "answer": "wenn",
+                            "parts": [
+                                "wenn"
+                            ]
+                        },
+                        {
+                            "id": "1j",
+                            "prompt": "Die Nachbarn riefen immer die Polizei, ______ wir eine Party machten.",
+                            "answer": "wenn",
+                            "parts": [
+                                "wenn"
+                            ]
+                        },
+                        {
+                            "id": "1k",
+                            "prompt": "______ ich gestern durch diese dunkle Straße gehen musste, fühlte ich mich unwohl.",
+                            "answer": "Als",
+                            "parts": [
+                                "Als"
                             ]
                         }
                     ]
@@ -43,13 +107,133 @@
         },
         {
             "id": "9.2",
-            "title": "2. Gleichzeitigkeit (während) und Vorzeitigkeit (nachdem)",
-            "content": "während: Zwei Handlungen passieren gleichzeitig.\nnachdem: Eine Handlung passierte vor der anderen.\nbevor: Eine Handlung passiert nach der anderen.",
+            "title": "2. Bis / Seit",
+            "content": "Bis: Ende einer Handlung.\nSeit: Anfang in Vergangenheit, dauert an.",
             "exercises": [
+                {
+                    "id": "ex_2",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie 'bis' oder 'seit'.",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "______ Max dieses Medikament nimmt, geht es ihm viel besser.",
+                            "answer": "Seit",
+                            "parts": [
+                                "Seit"
+                            ]
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Der Hund bellte so lange vor meiner Tür, ______ ich ihn ins Zimmer ließ.",
+                            "answer": "bis",
+                            "parts": [
+                                "bis"
+                            ]
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "Wir warteten fast eine halbe Stunde, ______ der Kellner endlich kam.",
+                            "answer": "bis",
+                            "parts": [
+                                "bis"
+                            ]
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Sie hat ständig Schmerzen im Knie, ______ sie beim Skifahren so schwer gestürzt ist.",
+                            "answer": "seit",
+                            "parts": [
+                                "seit"
+                            ]
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "______ Pavel mit dem Rauchen aufgehört hat, ist er schrecklich nervös.",
+                            "answer": "Seit",
+                            "parts": [
+                                "Seit"
+                            ]
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "______ Eva Jonas zum ersten Mal gesehen hat, ist sie in ihn verliebt.",
+                            "answer": "Seit",
+                            "parts": [
+                                "Seit"
+                            ]
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Lisa lernt jeden Tag bis um 10.00 Uhr abends, ______ sie die Prüfung schreibt.",
+                            "answer": "bis",
+                            "parts": [
+                                "bis"
+                            ]
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Es dauert noch über eine Stunde, ______ der Zug kommt.",
+                            "answer": "bis",
+                            "parts": [
+                                "bis"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9.3",
+            "title": "3. Während / Nachdem / Bevor",
+            "content": "Während (Gleichzeitigkeit).\nNachdem (Vorzeitigkeit -> Plusquamperfekt/Perfekt).\nWichtig: Hauptsatz Präteritum -> Nebensatz Plusquamperfekt!\nBevor (Nachzeitigkeit).",
+            "exercises": [
+                {
+                    "id": "ex_3",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Sätze mit 'während'. (Beispiel: Max macht die Hausaufgabe. Unterdessen höre ich Musik. -> Während Max die Hausaufgabe macht, höre ich Musik.)",
+                    "items": [
+                        {
+                            "id": "3a",
+                            "prompt": "Clara spricht mit Paul. Dabei sieht sie ihm tief in die Augen.",
+                            "answer": "Während Clara mit Paul spricht, sieht sie ihm tief in die Augen."
+                        },
+                        {
+                            "id": "3b",
+                            "prompt": "Thomas duscht sich. Dabei pfeift er immer ein Lied.",
+                            "answer": "Während Thomas sich duscht, pfeift er immer ein Lied."
+                        },
+                        {
+                            "id": "3c",
+                            "prompt": "Der Kellner bringt die Rechnung. Inzwischen zähle ich mein Geld.",
+                            "answer": "Während der Kellner die Rechnung bringt, zähle ich mein Geld."
+                        },
+                        {
+                            "id": "3d",
+                            "prompt": "Hatem frühstückte. Gleichzeitig las er die Wohnungsanzeigen.",
+                            "answer": "Während Hatem frühstückte, las er die Wohnungsanzeigen."
+                        },
+                        {
+                            "id": "3e",
+                            "prompt": "Ich wasche das Obst. In dieser Zeit schneidet Paul die Tomaten.",
+                            "answer": "Während ich das Obst wasche, schneidet Paul die Tomaten."
+                        },
+                        {
+                            "id": "3f",
+                            "prompt": "Wir tranken Kaffee. Dabei erzählte sie mir eine lange Geschichte.",
+                            "answer": "Während wir Kaffee tranken, erzählte sie mir eine lange Geschichte."
+                        },
+                        {
+                            "id": "3g",
+                            "prompt": "Hanna wartete an der Bushaltestelle. In dieser Zeit regnete es ständig.",
+                            "answer": "Während Hanna an der Bushaltestelle wartete, regnete es ständig."
+                        }
+                    ]
+                },
                 {
                     "id": "ex_4",
                     "type": "transformation",
-                    "instruction": "Verbinden Sie mit 'nachdem' (Vorzeitigkeit).",
+                    "instruction": "Bilden Sie Sätze mit 'nachdem'. Achten Sie auf die Zeitenfolge! (Plusquamperfekt -> Präteritum)",
                     "items": [
                         {
                             "id": "4a",
@@ -60,18 +244,73 @@
                             "id": "4b",
                             "prompt": "Ich hatte gegessen. Danach bestellte ich noch einen Kaffee.",
                             "answer": "Nachdem ich gegessen hatte, bestellte ich noch einen Kaffee."
+                        },
+                        {
+                            "id": "4c",
+                            "prompt": "Der Arzt hatte den Patienten untersucht. Anschließend sprach er mit ihm.",
+                            "answer": "Nachdem der Arzt den Patienten untersucht hatte, sprach er mit ihm."
+                        },
+                        {
+                            "id": "4d",
+                            "prompt": "Lena hatte das Büro aufgeräumt. Dann aß sie zu Abend.",
+                            "answer": "Nachdem Lena das Büro aufgeräumt hatte, aß sie zu Abend."
+                        },
+                        {
+                            "id": "4e",
+                            "prompt": "Klaus hat seine Arbeit beendet. Jetzt legt er die Akten in den Schrank.",
+                            "answer": "Nachdem Klaus seine Arbeit beendet hat, legt er die Akten in den Schrank."
+                        },
+                        {
+                            "id": "4f",
+                            "prompt": "Amira hatte die Preise verglichen. Dann kaufte sie den neuen Wagen.",
+                            "answer": "Nachdem Amira die Preise verglichen hatte, kaufte sie den neuen Wagen."
+                        },
+                        {
+                            "id": "4g",
+                            "prompt": "Maria hat Pauls Telefonnummer gefunden. Jetzt ruft sie ihn an.",
+                            "answer": "Nachdem Maria Pauls Telefonnummer gefunden hat, ruft sie ihn an."
                         }
                     ]
                 },
                 {
                     "id": "ex_5",
                     "type": "transformation",
-                    "instruction": "Verbinden Sie mit 'bevor'.",
+                    "instruction": "Bilden Sie Sätze mit 'bevor'. (Beispiel: Alex bezahlte die Rechnung. Vorher kontrollierte er sie. -> Bevor Alex die Rechnung bezahlte, kontrollierte er sie.)",
                     "items": [
                         {
                             "id": "5a",
                             "prompt": "Karl kam ins Restaurant. Vorher hatte er eine halbe Stunde einen Parkplatz gesucht.",
                             "answer": "Bevor Karl ins Restaurant kam, hatte er eine halbe Stunde einen Parkplatz gesucht."
+                        },
+                        {
+                            "id": "5b",
+                            "prompt": "Meine Cousine macht ihr Examen. Vorher will sie noch ein Jahr im Ausland studieren.",
+                            "answer": "Bevor meine Cousine ihr Examen macht, will sie noch ein Jahr im Ausland studieren."
+                        },
+                        {
+                            "id": "5c",
+                            "prompt": "Lisa löschte das Licht. Vorher las sie noch ein paar Seiten.",
+                            "answer": "Bevor Lisa das Licht löschte, las sie noch ein paar Seiten."
+                        },
+                        {
+                            "id": "5d",
+                            "prompt": "Jonas zog nach München. Vorher hatte er zwölf Jahre in Berlin gewohnt.",
+                            "answer": "Bevor Jonas nach München zog, hatte er zwölf Jahre in Berlin gewohnt."
+                        },
+                        {
+                            "id": "5e",
+                            "prompt": "Sandra frühstückte. Vorher hatte sie schon zwei Stunden am Computer gearbeitet.",
+                            "answer": "Bevor Sandra frühstückte, hatte sie schon zwei Stunden am Computer gearbeitet."
+                        },
+                        {
+                            "id": "5f",
+                            "prompt": "Paul hielt eine Rede. Vorher kontrollierte er das Mikrophon.",
+                            "answer": "Bevor Paul eine Rede hielt, kontrollierte er das Mikrophon."
+                        },
+                        {
+                            "id": "5g",
+                            "prompt": "Amira fuhr in Urlaub. Vorher brachte sie ihren Wagen zur Inspektion.",
+                            "answer": "Bevor Amira in Urlaub fuhr, brachte sie ihren Wagen zur Inspektion."
                         }
                     ]
                 }

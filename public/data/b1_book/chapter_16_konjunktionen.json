@@ -1,21 +1,21 @@
 {
     "id": "chapter_16",
     "title": "Konjunktionen",
-    "description": "Nebenordnende und mehrteilige Konjunktionen.",
+    "description": "Nebenordnende (und, aber, denn) und mehrteilige Konjunktionen (sowohl...als auch).",
     "sections": [
         {
             "id": "16.1",
             "title": "1. Nebenordnende Konjunktionen",
-            "content": "Position 0 (verbinden zwei Hauptsätze):\nund, oder, aber, denn, sondern\n\n- aber (Gegensatz)\n- denn (Grund)\n- oder (Alternative)\n- sondern (Korrektur nach Verneinung)\n- und (Aufzählung)",
+            "content": "Position 0: und, aber, oder, sondern, denn.\nKomma bei 'aber', 'sondern', 'denn'.",
             "exercises": [
                 {
                     "id": "ex_1",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie: und, aber, sondern, oder, denn.",
+                    "instruction": "Ergänzen Sie und - aber - sondern - oder - denn.",
                     "items": [
                         {
                             "id": "1a",
-                            "prompt": "Der Junge schloss die Augen, _________ die Sonne blendete ihn.",
+                            "prompt": "Der kleine Junge schloss die Augen, _______ die Sonne blendete ihn.",
                             "answer": "denn",
                             "parts": [
                                 "denn"
@@ -23,7 +23,7 @@
                         },
                         {
                             "id": "1b",
-                            "prompt": "Lena wollte kein Sandwich, _________ lieber eine warme Suppe.",
+                            "prompt": "Lena wollte kein Sandwich, _______ lieber eine warme Suppe.",
                             "answer": "sondern",
                             "parts": [
                                 "sondern"
@@ -31,11 +31,124 @@
                         },
                         {
                             "id": "1c",
-                            "prompt": "Monika besuchte ihre Tante _________ brachte ihr Blumen mit.",
+                            "prompt": "Monika besuchte ihre Tante _______ brachte ihr Blumen und Schokolade mit.",
                             "answer": "und",
                             "parts": [
                                 "und"
                             ]
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Du fährst immer mit dem Fahrrad, _______ ich nehme immer den Bus.",
+                            "answer": "aber",
+                            "parts": [
+                                "aber"
+                            ]
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "Jonas wollte mir sein Fahrrad nicht leihen, _______ er vertraute mir nicht.",
+                            "answer": "denn",
+                            "parts": [
+                                "denn"
+                            ]
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Meine Tante fliegt nach Athen _______ nach Rom, sie weiß es noch nicht genau.",
+                            "answer": "oder",
+                            "parts": [
+                                "oder"
+                            ]
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Martin war total betrunken, _______ er wollte trotzdem mit dem Auto nach Hause fahren.",
+                            "answer": "aber",
+                            "parts": [
+                                "aber"
+                            ]
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Du kannst mitkommen, _______ ich gehe alleine ins Kino.",
+                            "answer": "oder",
+                            "parts": [
+                                "oder"
+                            ]
+                        },
+                        {
+                            "id": "1i",
+                            "prompt": "Tennis spielt Max sehr gern, _______ Fußball gefällt ihm nicht so gut.",
+                            "answer": "aber",
+                            "parts": [
+                                "aber"
+                            ]
+                        },
+                        {
+                            "id": "1j",
+                            "prompt": "Wir treffen uns nächsten Samstag, _______ dann besprechen wir alles.",
+                            "answer": "und",
+                            "parts": [
+                                "und"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie die Sätze. (Beispiel: Julia wollte ihren Cousin einladen. Er hatte leider keine Zeit. -> Julia wollte ihren Cousin einladen, aber er hatte leider keine Zeit.)",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Julia wollte ihren Cousin einladen. Er hatte leider keine Zeit.",
+                            "answer": "Julia wollte ihren Cousin einladen, aber er hatte leider keine Zeit."
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Paul möchte nicht nach Wien fahren. Er möchte nach Graz fahren.",
+                            "answer": "Paul möchte nicht nach Wien fahren, sondern er möchte nach Graz fahren."
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "Jan fliegt nächste Woche nicht nach Malta. Er hatte einen Unfall mit dem Fahrrad.",
+                            "answer": "Jan fliegt nächste Woche nicht nach Malta, denn er hatte einen Unfall mit dem Fahrrad."
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "Lena besucht mich vielleicht am Montag. Vielleicht besucht sie mich am Dienstag.",
+                            "answer": "Lena besucht mich vielleicht am Montag oder [vielleicht besucht sie mich] am Dienstag."
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "Max studiert Medizin in Heidelberg. Er ist jetzt im 6. Semester.",
+                            "answer": "Max studiert Medizin in Heidelberg und ist jetzt im 6. Semester."
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "Wir konnten die Arbeit nicht schaffen. Die Zeit war viel zu kurz.",
+                            "answer": "Wir konnten die Arbeit nicht schaffen, denn die Zeit war viel zu kurz."
+                        },
+                        {
+                            "id": "2g",
+                            "prompt": "Man kann auf die Insel fliegen. Man fährt mit dem Schiff.",
+                            "answer": "Man kann auf die Insel fliegen oder mit dem Schiff fahren."
+                        },
+                        {
+                            "id": "2h",
+                            "prompt": "Im August macht Peter erst noch Urlaub in der Schweiz. Anschließend muss er umziehen.",
+                            "answer": "Im August macht Peter erst noch Urlaub in der Schweiz und anschließend muss er umziehen."
+                        },
+                        {
+                            "id": "2i",
+                            "prompt": "Maria bestellte keinen Wein. Sie bestellte einen Cocktail.",
+                            "answer": "Maria bestellte keinen Wein, sondern einen Cocktail."
+                        },
+                        {
+                            "id": "2j",
+                            "prompt": "Thomas will das Auto nicht kaufen. Es ist viel zu alt.",
+                            "answer": "Thomas will das Auto nicht kaufen, denn es ist viel zu alt."
                         }
                     ]
                 }
@@ -44,22 +157,107 @@
         {
             "id": "16.2",
             "title": "2. Mehrteilige Konjunktionen",
-            "content": "sowohl ... als auch (Additiv)\nnicht nur ..., sondern auch (Additiv + Betonung)\nweder ... noch (Negativ)\nentweder ... oder (Alternative)\nzwar ..., aber (Einschränkung)",
+            "content": "sowohl... als auch (Addition)\nnicht nur... sondern auch (Addition + Betonung)\nweder... noch (doppelte Verneinung)\nentweder... oder (Alternative)\nzwar... aber (Einschränkung)\neinerseits... andererseits (Gegensatz)",
             "exercises": [
                 {
                     "id": "ex_3",
                     "type": "gap_fill",
-                    "instruction": "Ergänzen Sie die mehrteiligen Konjunktionen. (zwar...aber, weder...noch, etc.)",
+                    "instruction": "Ergänzen Sie: nicht nur... sondern auch / sowohl... als auch / weder... noch / entweder... oder / zwar... aber / einerseits... andererseits",
                     "items": [
                         {
+                            "id": "3a",
+                            "prompt": "Man hat mich leider _______ informiert, _______ hat man mich um Rat gefragt.",
+                            "answer": "weder noch",
+                            "parts": [
+                                "weder",
+                                "noch"
+                            ]
+                        },
+                        {
+                            "id": "3b",
+                            "prompt": "Max hat _______ die Feier allein vorbereitet _______ _______ alle Einladungen verschickt.",
+                            "answer": "nicht nur sondern auch",
+                            "parts": [
+                                "nicht",
+                                "nur",
+                                "sondern",
+                                "auch"
+                            ]
+                        },
+                        {
                             "id": "3c",
-                            "prompt": "Das Wetter war ______ schlecht, _______ wir wollten trotzdem eine Radtour machen. (zwar ... aber)",
-                            "answer": "zwar aber"
+                            "prompt": "Das Wetter war _______ schlecht, _______ wir wollten trotzdem eine Radtour unternehmen.",
+                            "answer": "zwar aber",
+                            "parts": [
+                                "zwar",
+                                "aber"
+                            ]
                         },
                         {
                             "id": "3d",
-                            "prompt": "Sie können ___________ anrufen ______ Sie mailen uns. (entweder ... oder)",
-                            "answer": "entweder oder"
+                            "prompt": "Sie können _______ anrufen _______ Sie teilen uns Ihre Entscheidung schriftlich mit.",
+                            "answer": "entweder oder",
+                            "parts": [
+                                "entweder",
+                                "oder"
+                            ]
+                        },
+                        {
+                            "id": "3e",
+                            "prompt": "Der Arzt meint, ich soll _______ _______ viel Obst essen, _______ _______ mehr Sport treiben.",
+                            "answer": "sowohl als auch",
+                            "parts": [
+                                "sowohl",
+                                "als",
+                                "auch"
+                            ]
+                        },
+                        {
+                            "id": "3f",
+                            "prompt": "Mir gefällt diese Stadt _______ ziemlich gut, _______ auf dem Land gefällt es mir besser.",
+                            "answer": "einerseits andererseits",
+                            "parts": [
+                                "einerseits",
+                                "andererseits"
+                            ]
+                        },
+                        {
+                            "id": "3g",
+                            "prompt": "Er war _______ zu Hause, _______ konnten wir ihn bei seinen Eltern erreichen.",
+                            "answer": "weder noch",
+                            "parts": [
+                                "weder",
+                                "noch"
+                            ]
+                        },
+                        {
+                            "id": "3h",
+                            "prompt": "Tatsächlich ist meine Cousine _______ _______ ziemlich intelligent, _______ _______ sehr fleißig.",
+                            "answer": "nicht nur sondern auch",
+                            "parts": [
+                                "nicht",
+                                "nur",
+                                "sondern",
+                                "auch"
+                            ]
+                        },
+                        {
+                            "id": "3i",
+                            "prompt": "Diese Wohnung gefällt mir _______ recht gut, _______ ist sie mir aber viel zu teuer.",
+                            "answer": "zwar dennoch",
+                            "parts": [
+                                "zwar",
+                                "dennoch"
+                            ]
+                        },
+                        {
+                            "id": "3j",
+                            "prompt": "Du musst dich jetzt entscheiden! Du machst _______ beim Projekt mit, _______ du lässt es bleiben.",
+                            "answer": "entweder oder",
+                            "parts": [
+                                "entweder",
+                                "oder"
+                            ]
                         }
                     ]
                 }
