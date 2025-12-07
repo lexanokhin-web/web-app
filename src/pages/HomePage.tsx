@@ -140,9 +140,16 @@ const exerciseBlocks = [
         ]
     },
     {
-        blockName: '📖 B1 Intensiv-Trainer',
+        blockName: '📖 Intensiv-Trainer',
         blockId: 'b1-book',
         exercises: [
+            {
+                id: 'a2-grammar-book',
+                name: 'Grammatik A2',
+                icon: BookOpen,
+                color: 'from-blue-500 to-cyan-500',
+                path: '/a2-book'
+            },
             {
                 id: 'b1-grammar-book',
                 name: 'Grammatik B1',

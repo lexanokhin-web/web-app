@@ -2,20 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Book, ChevronRight, GraduationCap, ArrowLeft, Star } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useBookIndex } from '../../hooks/useBookData';
+import { useA2BookData } from '../../hooks/useA2BookData';
 
-export const BookSelectionPage: React.FC = () => {
+const A2BookSelectionPage: React.FC = () => {
     const navigate = useNavigate();
-    const { data: chapters, isLoading } = useBookIndex();
-
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+    const { chapters, isLoading } = useA2BookData();
 
     if (isLoading) {
         return (
             <div className="min-h-screen bg-slate-50 flex items-center justify-center">
-                <div className="animate-spin text-indigo-600">
+                <div className="animate-spin text-blue-600">
                     <Book className="w-8 h-8" />
                 </div>
             </div>
@@ -35,8 +31,8 @@ export const BookSelectionPage: React.FC = () => {
                     </button>
                     <div>
                         <h1 className="text-3xl font-bold text-slate-800 flex items-center gap-3">
-                            <Book className="w-8 h-8 text-indigo-600" />
-                            Grammatik B1
+                            <Book className="w-8 h-8 text-blue-600" />
+                            Grammatik A2
                         </h1>
                         <p className="text-slate-500 text-lg mt-1">Intensiv-Trainer für Fortgeschrittene</p>
                     </div>
@@ -52,17 +48,17 @@ export const BookSelectionPage: React.FC = () => {
                             transition={{ delay: index * 0.05 }}
                         >
                             <Link
-                                to={`/b1-book/${chapter.file}`}
+                                to={`/a2-book/${chapter.file}`}
                                 className="group bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all flex items-start gap-4 h-full relative overflow-hidden"
                             >
-                                <div className="absolute right-0 top-0 w-24 h-24 bg-indigo-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform" />
+                                <div className="absolute right-0 top-0 w-24 h-24 bg-blue-50 rounded-bl-full -mr-4 -mt-4 opacity-50 group-hover:scale-110 transition-transform" />
 
-                                <div className="w-10 h-10 rounded-xl bg-indigo-100 flex items-center justify-center text-indigo-600 font-bold shrink-0 shadow-sm group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                                <div className="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center text-blue-600 font-bold shrink-0 shadow-sm group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     {index + 1}
                                 </div>
 
                                 <div className="flex-1 z-10">
-                                    <h3 className="font-semibold text-lg text-slate-800 group-hover:text-indigo-600 transition-colors">
+                                    <h3 className="font-semibold text-lg text-slate-800 group-hover:text-blue-600 transition-colors">
                                         {chapter.title}
                                     </h3>
                                     <p className="text-slate-500 text-sm mt-1 leading-relaxed">
@@ -70,7 +66,7 @@ export const BookSelectionPage: React.FC = () => {
                                     </p>
                                 </div>
 
-                                <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-indigo-500 group-hover:translate-x-1 transition-all self-center" />
+                                <ChevronRight className="w-5 h-5 text-slate-300 group-hover:text-blue-500 group-hover:translate-x-1 transition-all self-center" />
                             </Link>
                         </motion.div>
                     ))}
@@ -82,7 +78,7 @@ export const BookSelectionPage: React.FC = () => {
                         transition={{ delay: (chapters?.length || 0) * 0.05 }}
                     >
                         <Link
-                            to="/b1-book/quiz"
+                            to="/a2-book/quiz"
                             className="group bg-gradient-to-br from-indigo-600 to-purple-700 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all flex items-start gap-4 h-full relative overflow-hidden"
                         >
                             {/* Decorative background circles */}
@@ -103,7 +99,7 @@ export const BookSelectionPage: React.FC = () => {
                                     </span>
                                 </div>
                                 <p className="text-indigo-100 text-sm leading-relaxed">
-                                    Testen Sie Ihr Wissen aus allen Lektionen. 10 zufällige Fragen.
+                                    Testen Sie Ihr Wissen aus allen 8 Lektionen. 10 zufällige Fragen.
                                 </p>
                             </div>
 
@@ -117,3 +113,5 @@ export const BookSelectionPage: React.FC = () => {
         </div>
     );
 };
+
+export default A2BookSelectionPage;

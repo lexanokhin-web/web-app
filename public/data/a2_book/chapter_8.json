@@ -1,0 +1,111 @@
+{
+    "id": "8",
+    "title": "Futur & Negation",
+    "description": "Demonstrativartikel, Futur I und pauschale Negation",
+    "sections": [
+        {
+            "id": "8.1",
+            "title": "Demonstrativartikel",
+            "content": "dieser, diese, dieses, diese (Plural).\nBetonung auf eine bestimmte Person oder Sache.\n\nWelcher Mantel? - Dieser Mantel hier.\nKennst du diesen Mann?\nIch helfe diesem Kind.",
+            "exercises": [
+                {
+                    "id": "ex1",
+                    "instruction": "Ergänzen Sie 'dieser' in der richtigen Form.",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "Wann bezahlst du ______ Rechnung? (die)",
+                            "answer": "diese"
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "Kennst du ______ Mann? (der)",
+                            "answer": "diesen"
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "Ich kaufe ______ Haus nicht. (das)",
+                            "answer": "dieses"
+                        },
+                        {
+                            "id": "d",
+                            "prompt": "Wir helfen ______ Leuten. (Pl, Dat)",
+                            "answer": "diesen"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8.2",
+            "title": "Futur I",
+            "content": "Werden + Infinitiv.\nZukunft, Vermutung, Versprechen, Aufforderung.\n\nich werde gehen\ndu wirst gehen\ner wird gehen\nwir werden gehen\nihr werdet gehen\nsie werden gehen\n\nEr wird wohl krank sein. (Vermutung)\nIch werde dir helfen. (Versprechen)",
+            "exercises": [
+                {
+                    "id": "ex2",
+                    "instruction": "Bilden Sie Sätze im Futur I.",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "Er (kommen) morgen.",
+                            "answer": "Er wird morgen kommen."
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "Wir (fliegen) nach Rom.",
+                            "answer": "Wir werden nach Rom fliegen."
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "Du (schaffen) das.",
+                            "answer": "Du wirst das schaffen."
+                        },
+                        {
+                            "id": "d",
+                            "prompt": "Ihr (warten) hier.",
+                            "answer": "Ihr werdet hier warten."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8.3",
+            "title": "Pauschale Negation",
+            "content": "Satznegation mit 'nicht'.\nSteht meistens am Ende oder vor dem zweiten Verbteil / Adjektiv / Präpositionalobjekt.\n\nIch kaufe das Auto nicht.\nIch habe das Auto nicht gekauft.\nEr ist nicht krank.\nEr wartet nicht auf mich.\n\nNicht mehr / Noch nicht:\nEr schläft nicht mehr.\nSie ist noch nicht fertig.",
+            "exercises": [
+                {
+                    "id": "ex3",
+                    "instruction": "Verneinen Sie den Satz.",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "Ich kaufe die Wohnung.",
+                            "answer": "Ich kaufe die Wohnung nicht."
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "Er kommt heute.",
+                            "answer": "Er kommt heute nicht."
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "Wir haben gegessen.",
+                            "answer": "Wir haben nicht gegessen."
+                        },
+                        {
+                            "id": "d",
+                            "prompt": "Sie ist müde.",
+                            "answer": "Sie ist nicht müde."
+                        },
+                        {
+                            "id": "e",
+                            "prompt": "Er wartet auf dich.",
+                            "answer": "Er wartet nicht auf dich."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "id": "4",
+    "title": "Präpositionalobjekte & Adverbien",
+    "description": "Verben mit Präpositionen, Pronominaladverbien und konditionale Nebensätze",
+    "sections": [
+        {
+            "id": "4.1",
+            "title": "Verben mit Präpositionalobjekt",
+            "content": "Viele Verben haben eine feste Präposition.\n\nMit Akkusativ:\nachten auf, denken an, lachen über, warten auf, protestieren gegen, sorgen für, sich interessieren für, sich freuen über/auf, sich ärgern über.\n\nMit Dativ:\nanfangen mit, teilnehmen an, gehören zu, passen zu, schmecken nach, fragen nach, gratulieren zu, sich beschäftigen mit, sich treffen mit.",
+            "exercises": [
+                {
+                    "id": "ex1",
+                    "instruction": "Ergänzen Sie die Präposition.",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "Viele Leute protestieren ______ die Regierung.",
+                            "answer": "gegen"
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "Wir haben schon ______ der Arbeit begonnen.",
+                            "answer": "mit"
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "Carlo denkt immer nur ______ seine Freundin.",
+                            "answer": "an"
+                        },
+                        {
+                            "id": "d",
+                            "prompt": "Die Eltern sorgen ______ die Kinder.",
+                            "answer": "für"
+                        },
+                        {
+                            "id": "e",
+                            "prompt": "Rechnest du ______ einem Unwetter?",
+                            "answer": "mit"
+                        },
+                        {
+                            "id": "f",
+                            "prompt": "Nimmst du ______ der Reise teil?",
+                            "answer": "an"
+                        }
+                    ]
+                },
+                {
+                    "id": "ex2",
+                    "instruction": "Ergänzen Sie das Reflexivpronomen und Präposition.",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "Paul engagiert ______ _____ seine politischen Ziele.",
+                            "answer": "sich für"
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "Kümmerst du ______ bitte _____ meine Katze?",
+                            "answer": "dich um"
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "Interessiert ihr _______ nicht _____ Politik?",
+                            "answer": "euch für"
+                        },
+                        {
+                            "id": "d",
+                            "prompt": "Warum ärgert er ______ _____ den Professor?",
+                            "answer": "sich über"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4.2",
+            "title": "Pronominaladverbien",
+            "content": "Person (Präposition + Pronomen):\nIch denke an Max. > Ich denke an ihn.\n\nSache (da + Präposition):\nIch denke an den Urlaub. > Ich denke daran.\nIch warte auf den Bus. > Ich warte darauf.\n\nFragewörter:\nPerson: An wen denkst du?\nSache: Woran denkst du?",
+            "exercises": [
+                {
+                    "id": "ex3",
+                    "instruction": "Ergänzen Sie das Pronominaladverb (da...).",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "Hast du dich über die Organisation beschwert? - Ja, ich habe mich ______ beschwert.",
+                            "answer": "darüber"
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "Interessierst du dich für Kunst? - Ja, ich interessiere mich ______.",
+                            "answer": "dafür"
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "Wartest du auf den Zug? - Ja, ich warte ______.",
+                            "answer": "darauf"
+                        },
+                        {
+                            "id": "d",
+                            "prompt": "Hast du nach dem Weg gefragt? - Ja, ich habe ______ gefragt.",
+                            "answer": "danach"
+                        }
+                    ]
+                },
+                {
+                    "id": "ex4",
+                    "instruction": "Bilden Sie die Frage (Woran, Wofür...).",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "_______ hast du nicht gerechnet? (das Wetter)",
+                            "answer": "Womit"
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "_______ hast du dich entschuldigt? (der Fehler)",
+                            "answer": "Wofür"
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "_______ hast du dich gefreut? (das Geschenk)",
+                            "answer": "Worüber"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "4.3",
+            "title": "Nebensätze - konditional",
+            "content": "Wenn / Falls (Bedingung).\n\nWenn das Wetter schön ist, gehen wir spazieren.\nIch helfe dir, wenn du Zeit hast.\n\nPosition:\n1. Wenn-Satz, Hauptsatz (Verb auf Pos 1)\nWenn es regnet, bleibe ich zu Hause.\n2. Hauptsatz, Wenn-Satz (Verb am Ende)\nIch bleibe zu Hause, wenn es regnet.",
+            "exercises": [
+                {
+                    "id": "ex5",
+                    "instruction": "Verbinden Sie mit 'Wenn'.",
+                    "items": [
+                        {
+                            "id": "a",
+                            "prompt": "Du hast Hunger. Iss etwas!",
+                            "answer": "Wenn du Hunger hast, iss etwas!"
+                        },
+                        {
+                            "id": "b",
+                            "prompt": "Du bist müde. Geh ins Bett!",
+                            "answer": "Wenn du müde bist, geh ins Bett!"
+                        },
+                        {
+                            "id": "c",
+                            "prompt": "Er kommt zu spät. Wir warten nicht.",
+                            "answer": "Wenn er zu spät kommt, warten wir nicht."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
