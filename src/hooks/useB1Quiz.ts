@@ -7,6 +7,7 @@ export interface QuizItem {
     instruction: string;
     prompt: string;
     correctAnswer: string;
+    grammarNote?: string;
     userAnswer?: string;
     isCorrect?: boolean;
 }
@@ -66,7 +67,7 @@ export const useB1Quiz = () => {
                     const chapterData = await chapterRes.json();
 
                     // Flatten all items from all exercises
-                    const allItems: { id: string; prompt: string; answer: string; instruction: string }[] = [];
+                    const allItems: { id: string; prompt: string; answer: string; instruction: string; grammarNote?: string }[] = [];
                     if (chapterData.sections) {
                         chapterData.sections.forEach((sec: BookSection) => {
                             if (sec.exercises) {
@@ -75,7 +76,8 @@ export const useB1Quiz = () => {
                                         ex.items.forEach((item: BookExerciseItem) => {
                                             allItems.push({
                                                 ...item,
-                                                instruction: ex.instruction // Carry over instruction
+                                                instruction: ex.instruction, // Carry over instruction
+                                                grammarNote: sec.content // Use section content as grammar hint
                                             });
                                         });
                                     }
@@ -93,6 +95,7 @@ export const useB1Quiz = () => {
                             instruction: randomItem.instruction || 'Übung',
                             prompt: randomItem.prompt,
                             correctAnswer: randomItem.answer,
+                            grammarNote: randomItem.grammarNote
                         });
                     }
                 } catch (e) {

@@ -70,8 +70,16 @@ export const QuizQuestionCard: React.FC<QuizQuestionCardProps> = ({ question, on
                                     {isCorrect ? 'Richtig!' : 'Leider falsch'}
                                 </h4>
                                 {!isCorrect && (
-                                    <div className="text-red-700">
-                                        Richtige Lösung: <span className="font-bold">{question.correctAnswer}</span>
+                                    <div className="text-red-700 space-y-2">
+                                        <div>
+                                            Richtige Lösung: <span className="font-bold">{question.correctAnswer}</span>
+                                        </div>
+                                        {question.grammarNote && (
+                                            <div className="text-sm bg-red-100 p-3 rounded-lg border border-red-200 mt-2">
+                                                <span className="font-bold text-red-800 block mb-1">Grammatik-Notiz:</span>
+                                                <span className="whitespace-pre-line text-red-700 block">{question.grammarNote}</span>
+                                            </div>
+                                        )}
                                     </div>
                                 )}
                                 {isCorrect && (
