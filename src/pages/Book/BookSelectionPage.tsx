@@ -100,6 +100,43 @@ export const BookSelectionPage: React.FC = () => {
                             </GlassCard>
                         </motion.div>
                     ))}
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: (chapters?.length || 0) * 0.1 }}
+                    >
+                        <GlassCard
+                            className="h-full p-6 cursor-pointer group bg-gradient-to-br from-indigo-50 to-purple-50 border-2 border-indigo-100/50 hover:border-indigo-400 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden"
+                            onClick={() => navigate('/b1-book/quiz')}
+                        >
+                            <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                                <GraduationCap className="w-24 h-24 text-indigo-600" />
+                            </div>
+
+                            <div className="flex justify-between items-start mb-4 relative z-10">
+                                <div className="bg-indigo-600 p-3 rounded-lg text-white group-hover:bg-indigo-700 transition-colors duration-300 shadow-md shadow-indigo-200">
+                                    <GraduationCap className="w-6 h-6" />
+                                </div>
+                                <span className="text-xs font-bold bg-indigo-100 text-indigo-600 px-2 py-1 rounded-md border border-indigo-200">
+                                    Abschlusstest
+                                </span>
+                            </div>
+
+                            <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-indigo-700 transition-colors relative z-10">
+                                Prüfungssimulation
+                            </h3>
+
+                            <p className="text-gray-600 text-sm mb-6 relative z-10">
+                                Testen Sie Ihr Wissen mit 10 zufälligen Fragen aus dem gesamten Buch.
+                            </p>
+
+                            <div className="flex items-center text-indigo-700 font-bold group-hover:translate-x-2 transition-transform duration-300 relative z-10">
+                                <span>Test starten</span>
+                                <ChevronRight className="w-4 h-4 ml-1" />
+                            </div>
+                        </GlassCard>
+                    </motion.div>
                 </div>
             </div>
         </div>

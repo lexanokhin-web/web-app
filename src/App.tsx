@@ -21,6 +21,7 @@ const MatchGamePage = lazy(() => import('./pages/MatchGamePage').then(module => 
 const SentenceBuilderPage = lazy(() => import('./pages/SentenceBuilderPage').then(module => ({ default: module.SentenceBuilderPage })));
 const BookSelectionPage = lazy(() => import('./pages/Book/BookSelectionPage').then(module => ({ default: module.BookSelectionPage })));
 const BookChapterPage = lazy(() => import('./pages/Book/BookChapterPage').then(module => ({ default: module.BookChapterPage })));
+const BookQuizPage = lazy(() => import('./pages/Book/BookQuizPage').then(module => ({ default: module.BookQuizPage })));
 
 // Loading component
 const Loading = () => (
@@ -43,6 +44,7 @@ function App() {
           <Route path="/flashcards/:level" element={<FlashCardsPage />} />
           <Route path="/flashcards/:level/:categoryId" element={<FlashCardsPage />} />
           <Route path="/b1-book" element={<BookSelectionPage />} />
+          <Route path="/b1-book/quiz" element={<BookQuizPage />} />
           <Route path="/b1-book/:filename" element={<BookChapterPage />} />
           <Route path="/quiz/:blockId?" element={<QuizPage />} />
           <Route path="/verbs" element={<VerbsPage />} />
