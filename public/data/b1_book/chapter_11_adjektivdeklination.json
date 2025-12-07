@@ -1,0 +1,54 @@
+{
+    "id": "chapter_11",
+    "title": "Adjektivdeklination",
+    "description": "Endungen der Adjektive nach bestimmten und unbestimmten Artikeln.",
+    "sections": [
+        {
+            "id": "11.1",
+            "title": "1. Tabelle 1 (Starke Endungen) und Tabelle 2 (Schwache Endungen)",
+            "content": "Wenn der Artikel das Signal gibt (der, die, das...), bekommt das Adjektiv die schwache Endung (-e oder -en).\nWenn kein Artikel da ist oder der Artikel kein Signal gibt (ein, mein...), bekommt das Adjektiv die starke Endung.\n\nBeispiel Schwach (nach 'der'): der gute Mann\nBeispiel Stark (nach 'ein'): ein guter Mann",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die Endungen.",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "gesund___ Obst (ohne Artikel)",
+                            "answer": "gesundes",
+                            "parts": [
+                                "gesundes"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "leer___ Flaschen (Plural ohne Artikel)",
+                            "answer": "leere",
+                            "parts": [
+                                "leere"
+                            ]
+                        },
+                        {
+                            "id": "2a",
+                            "prompt": "das frisch___ Brot (nach 'das')",
+                            "answer": "frische",
+                            "parts": [
+                                "frische"
+                            ]
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "mit d___ neu___ E-Bike (Dativ)",
+                            "answer": "dem neuen",
+                            "parts": [
+                                "dem",
+                                "neuen"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

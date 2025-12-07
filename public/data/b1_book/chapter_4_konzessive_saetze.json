@@ -1,0 +1,58 @@
+{
+    "id": "chapter_4",
+    "title": "Konzessive Sätze",
+    "description": "Obwohl, trotzdem, trotz.",
+    "sections": [
+        {
+            "id": "4.1",
+            "title": "Konzessive Verbindungen",
+            "content": "Konzessive Sätze drücken einen Gegengrund aus.\n\n1. Nebensatz (obwohl): Verb am Ende.\n'Er ging zur Arbeit, obwohl er krank war.'\n\n2. Hauptsatzverbinder (trotzdem): Position 1, Verb an Position 2.\n'Er war krank. Trotzdem ging er zur Arbeit.'\n\n3. Präposition (trotz + Genitiv).\n'Trotz seiner Krankheit ging er zur Arbeit.'",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie die Sätze mit 'trotzdem'.",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Vera hatte Paul eingeladen. Er kam nicht zur Party.",
+                            "answer": "Vera hatte Paul eingeladen. Trotzdem kam er nicht zur Party."
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Tanja hat den ganzen Tag gearbeitet. Sie ist nicht müde.",
+                            "answer": "Tanja hat den ganzen Tag gearbeitet. Trotzdem ist sie nicht müde."
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Georg wohnt gar nicht weit von mir. Ich treffe ihn nur selten.",
+                            "answer": "Georg wohnt gar nicht weit von mir. Trotzdem treffe ich ihn nur selten."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie die Sätze mit 'obwohl'.",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Eva hatte Medikamente genommen. Sie konnte trotzdem nicht einschlafen.",
+                            "answer": "Obwohl Eva Medikamente genommen hatte, konnte sie nicht einschlafen."
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Karl war sehr müde. Er ging trotzdem noch in die Disko.",
+                            "answer": "Obwohl Karl sehr müde war, ging er noch in die Disko."
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "Julian hat viel gelernt. Er hat den Test trotzdem nicht geschafft.",
+                            "answer": "Obwohl Julian viel gelernt hat, hat er den Test nicht geschafft."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

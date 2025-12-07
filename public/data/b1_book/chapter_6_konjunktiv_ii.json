@@ -1,0 +1,85 @@
+{
+    "id": "chapter_6",
+    "title": "Konjunktiv II",
+    "description": "Wünsche, Höflichkeit, Irreales.",
+    "sections": [
+        {
+            "id": "6.1",
+            "title": "1. Konjunktiv II - Formen",
+            "content": "Der Konjunktiv II drückt Wünsche, Träume oder Irreales aus.\nEr wird oft mit 'würde' + Infinitiv gebildet.\n\nOriginalformen:\nhaben -> hätte\nsein -> wäre\nkommen -> käme (oder würde kommen)\n\nBeispiel: Wenn ich Zeit hätte, würde ich kommen.",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie 'würden' und den Infinitiv. (Beispiel: Pedro und Lena müssen früh aufstehen -> Sie würden gerne länger schlafen.)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Pedro und Lena müssen immer früh aufstehen. Sie _______ gerne länger _______ (schlafen).",
+                            "answer": "würden schlafen",
+                            "parts": [
+                                "würden",
+                                "schlafen"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Theo ist nicht besonders fit. Er _______ gerne mehr Sport _______ (treiben).",
+                            "answer": "würde treiben",
+                            "parts": [
+                                "würde",
+                                "treiben"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie höfliche Bitten mit 'Würdest du bitte...'.",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Mach die Tür zu!",
+                            "answer": "Würdest du bitte die Tür zumachen?"
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Bring den Müll raus!",
+                            "answer": "Würdest du bitte den Müll rausbringen?"
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "Räum das Zimmer auf!",
+                            "answer": "Würdest du bitte das Zimmer aufräumen?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6.2",
+            "title": "2. Irreale Bedingungen",
+            "content": "Wenn ich Zeit hätte, ginge ich ins Kino.\n(Aber ich habe keine Zeit -> Realität)\n\nVergangenheit:\nWenn ich Zeit gehabt hätte, wäre ich ins Kino gegangen.",
+            "exercises": [
+                {
+                    "id": "ex_4",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Irreale Bedingungssätze. (Beispiel: Max ist vorsichtig. Deshalb fährt er langsam. -> Wenn Max nicht vorsichtig wäre, würde er nicht langsam fahren.)",
+                    "items": [
+                        {
+                            "id": "4b",
+                            "prompt": "Tanja schläft sehr wenig. Deshalb ist sie müde.",
+                            "answer": "Wenn Tanja mehr schlafen würde, wäre sie nicht müde."
+                        },
+                        {
+                            "id": "4c",
+                            "prompt": "Jonas raucht sehr viel. Deshalb hat er Husten.",
+                            "answer": "Wenn Jonas nicht so viel rauchen würde, hätte er keinen Husten."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

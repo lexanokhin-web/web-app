@@ -1,0 +1,63 @@
+{
+    "id": "chapter_3",
+    "title": "Kausale Sätze",
+    "description": "Weil, da, denn, deshalb, wegen.",
+    "sections": [
+        {
+            "id": "3.1",
+            "title": "Kausale Verbindungen",
+            "content": "Es gibt verschiedene Möglichkeiten, einen Grund anzugeben:\n\n1. Hauptsatz + Nebensatz (weil/da): Verb am Ende.\n'Ich war krank, weil ich eine Grippe hatte.'\n\n2. Hauptsatz + Hauptsatz (denn): Position 0.\n'Ich war krank, denn ich hatte eine Grippe.'\n\n3. Adverb (deshalb/deswegen): Position 1, Verb an Position 2.\n'Ich hatte eine Grippe. Deshalb war ich krank.'\n\n4. Präposition (wegen/aufgrund + Genitiv).\n'Wegen einer Grippe war ich krank.'",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Sätze mit 'weil'.",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Warum sucht Thomas eine neue Arbeit? (zu wenig verdienen)",
+                            "answer": "Thomas sucht eine neue Arbeit, weil er zu wenig verdient."
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Warum isst du keine Erdbeeren? (eine Allergie haben)",
+                            "answer": "Ich esse keine Erdbeeren, weil ich eine Allergie habe."
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Warum ziehst du aus dieser Wohnung aus? (zu dunkel sein)",
+                            "answer": "Ich ziehe aus dieser Wohnung aus, weil sie zu dunkel ist."
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Warum hast du die Blumen gekauft? (meine Freundin heute Geburtstag haben)",
+                            "answer": "Ich habe die Blumen gekauft, weil meine Freundin heute Geburtstag hat."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie die Sätze. Benutzen Sie 'weil' UND 'deshalb'. (Schreiben Sie zwei Sätze, getrennt durch einen Punkt. Beispiel: A. B. -> A, weil B. B. Deshalb A.) - Für diese Übung geben Sie bitte nur die 'Deshalb' Variante ein.",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Manfred bleibt im Bett. Er hat sich nämlich erkältet.",
+                            "answer": "Er hat sich erkältet. Deshalb bleibt Manfred im Bett."
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Der Laden ist geschlossen. Die Besitzer sind nämlich in Urlaub.",
+                            "answer": "Die Besitzer sind in Urlaub. Deshalb ist der Laden geschlossen."
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "Julia lernt jetzt immer bis spät abends. Sie schreibt nämlich bald ihre Abschlussprüfung.",
+                            "answer": "Sie schreibt bald ihre Abschlussprüfung. Deshalb lernt Julia jetzt immer bis spät abends."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "id": "chapter_14",
+    "title": "Präpositionalobjekte",
+    "description": "Verben mit festen Präpositionen.",
+    "sections": [
+        {
+            "id": "14.1",
+            "title": "1. Verben mit Präpositionen",
+            "content": "Viele Verben haben eine feste Präposition.\n\nwarten auf (+Akk)\ndenken an (+Akk)\nsprechen mit (+Dat) über (+Akk)\nsich interessieren für (+Akk)",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die Präposition.",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Kann ich kurz ______ Ihnen sprechen?",
+                            "answer": "mit",
+                            "parts": [
+                                "mit"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Du musst mehr ______ deine Gesundheit achten.",
+                            "answer": "auf",
+                            "parts": [
+                                "auf"
+                            ]
+                        },
+                        {
+                            "id": "1h",
+                            "prompt": "Kannst du bitte kurz ______ meine Tasche aufpassen?",
+                            "answer": "auf",
+                            "parts": [
+                                "auf"
+                            ]
+                        },
+                        {
+                            "id": "1t",
+                            "prompt": "Eltern sorgen ______ ihre Kinder.",
+                            "answer": "für",
+                            "parts": [
+                                "für"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_3",
+                    "type": "gap_fill",
+                    "instruction": "Pronominaladverbien (dafür, damit...). Ergänzen Sie.",
+                    "items": [
+                        {
+                            "id": "3a",
+                            "prompt": "Hast du dich _____ diese Leute erinnert? (Person -> an + Akk)",
+                            "answer": "an",
+                            "parts": [
+                                "an"
+                            ]
+                        },
+                        {
+                            "id": "3example",
+                            "prompt": "Hast du auf den Bus gewartet? - Ja, ich habe _____ gewartet.",
+                            "answer": "darauf",
+                            "parts": [
+                                "darauf"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

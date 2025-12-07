@@ -1,0 +1,54 @@
+{
+    "id": "chapter_8",
+    "title": "Präpositionen - temporal",
+    "description": "Zeitpunkte und Zeiträume.",
+    "sections": [
+        {
+            "id": "8.1",
+            "title": "Zeitpunkt und Dauer",
+            "content": "an (Dativ): am Morgen, am Montag\nin (Dativ): im August, in einer Woche\num (Akkusativ): um 19.00 Uhr\nvor/nach (Dativ): vor einer Woche\nseit (Dativ): seit einem Jahr\nfür (Akkusativ): für eine Woche",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die passende Präposition.",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Den Führerschein hat Lisa schon _____ einem Jahr gemacht.",
+                            "answer": "vor",
+                            "parts": [
+                                "vor"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Wir können _____ Wochenende mal _____ einem Glas Wein sprechen.",
+                            "answer": "am bei",
+                            "parts": [
+                                "am",
+                                "bei"
+                            ]
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Wir wollten ______ dem Abendessen ins Kino gehen.",
+                            "answer": "nach",
+                            "parts": [
+                                "nach"
+                            ]
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Der Film beginnt ____ 20:30 Uhr.",
+                            "answer": "um",
+                            "parts": [
+                                "um"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

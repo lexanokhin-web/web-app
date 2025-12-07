@@ -1,0 +1,105 @@
+{
+    "id": "chapter_7",
+    "title": "Präpositionen - lokal",
+    "description": "Wo und Wohin (Wechselpräpositionen).",
+    "sections": [
+        {
+            "id": "7.1",
+            "title": "Wechselpräpositionen",
+            "content": "an, auf, hinter, in, neben, über, unter, vor, zwischen.\n\nWohin? + Akkusativ (Richtung/Bewegung)\nSie ging ins Wohnzimmer.\n\nWo? + Dativ (Ort/Position)\nAuf dem Sofa saß Paul.",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die Endungen der Artikel. (Beispiel: Wir gingen in d___ großen Saal -> in den)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Wir gingen in d___ großen Saal.",
+                            "answer": "in den",
+                            "parts": [
+                                "in",
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Zwischen d___ beiden Ländern fließt ein Fluss.",
+                            "answer": "Zwischen den",
+                            "parts": [
+                                "Zwischen",
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Was hast du da in d___ Hand?",
+                            "answer": "in der",
+                            "parts": [
+                                "in",
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Stell bitte den Stuhl in d___ Flur.",
+                            "answer": "in den",
+                            "parts": [
+                                "in",
+                                "den"
+                            ]
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Hinter m____ standen eine Menge Leute an d___ Kinokasse.",
+                            "answer": "Hinter mir standen eine Menge Leute an der Kinokasse.",
+                            "parts": [
+                                "mir",
+                                "der"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die Präposition. (Ich gehe/fahre/fliege...)",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "_______ Kino.",
+                            "answer": "ins",
+                            "parts": [
+                                "ins"
+                            ]
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "_______ England.",
+                            "answer": "nach",
+                            "parts": [
+                                "nach"
+                            ]
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "_______ Ausland.",
+                            "answer": "ins",
+                            "parts": [
+                                "ins"
+                            ]
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "_______ Arzt.",
+                            "answer": "zum",
+                            "parts": [
+                                "zum"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

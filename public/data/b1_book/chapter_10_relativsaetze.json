@@ -1,0 +1,94 @@
+{
+    "id": "chapter_10",
+    "title": "Relativsätze",
+    "description": "Relativsätze als Attribut, Relativpronomen.",
+    "sections": [
+        {
+            "id": "10.1",
+            "title": "1. Relativsätze als Attribut",
+            "content": "Relativsätze erklären ein Nomen genauer. Das Verb steht am Ende.\nDer Artikel wird zum Relativpronomen (der, die, das, die).\nAchtung im Dativ Plural: denen.\nAchtung im Genitiv: dessen (m/n), deren (f/pl).",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Relativsätze. (Beispiel: Julia ist eine Studentin. Sie ist fleißig. -> Julia ist eine Studentin, die fleißig ist.)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Julia ist eine fleißige Studentin. Sie erledigt immer ihre Aufgaben.",
+                            "answer": "Julia ist eine fleißige Studentin, die immer ihre Aufgaben erledigt."
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Theo und Eva sind alte Freunde. Sie helfen mir immer.",
+                            "answer": "Theo und Eva sind alte Freunde, die mir immer helfen."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie das Relativpronomen (Nominativ, Akkusativ oder Dativ).",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Dort kommt mein Onkel, _____ Geburtstag hat.",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Ist das der Computer, _____ nicht richtig funktioniert?",
+                            "answer": "der",
+                            "parts": [
+                                "der"
+                            ]
+                        },
+                        {
+                            "id": "2c_akk",
+                            "prompt": "Ich kaufe ein Auto, _____ ich täglich benutzen möchte.",
+                            "answer": "das",
+                            "parts": [
+                                "das"
+                            ]
+                        },
+                        {
+                            "id": "2f_dat",
+                            "prompt": "Das sind die Kollegen, ______ ich schon oft geholfen habe.",
+                            "answer": "denen",
+                            "parts": [
+                                "denen"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "10.2",
+            "title": "2. Relativsätze mit Genitiv",
+            "content": "Wessen? -> Genitiv im Relativsatz.\nMaskulin/Neutral: dessen\nFeminin/Plural: deren\n\nBeispiel: Das ist der Mann, dessen Auto hier steht.",
+            "exercises": [
+                {
+                    "id": "ex_4",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Relativsätze mit Genitiv.",
+                    "items": [
+                        {
+                            "id": "4a",
+                            "prompt": "Ich verschenke diesen Laptop. Seine Kamera ist defekt.",
+                            "answer": "Ich verschenke diesen Laptop, dessen Kamera defekt ist."
+                        },
+                        {
+                            "id": "4c",
+                            "prompt": "Ich kaufe diese Jacke. Ihre Farbe gefällt mir sehr.",
+                            "answer": "Ich kaufe diese Jacke, deren Farbe mir sehr gefällt."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

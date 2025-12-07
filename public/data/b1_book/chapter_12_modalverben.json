@@ -1,0 +1,54 @@
+{
+    "id": "chapter_12",
+    "title": "Modalverben",
+    "description": "Können, müssen, wollen, dürfen, sollen, mögen.",
+    "sections": [
+        {
+            "id": "12.1",
+            "title": "1. Bedeutung und Formen",
+            "content": "können (Fähigkeit/Möglichkeit)\nmüssen (Notwendigkeit/Pflicht)\ndürfen (Erlaubnis)\nwollen (Wunsch/Absicht)\nsollen (Auftrag/Rat)\nmögen (Vorliebe)\n\nPräteritum: ohne Umlaut (konnte, musste, durfte...)",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Welches Modalverb passt? (müssen, können, wollen...)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Isst du eine Torte? - Nein, ich _______ leider keine Torte essen. (darf nicht / Diät)",
+                            "answer": "darf",
+                            "parts": [
+                                "darf"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Triffst du dich gern mit Eva? - Ja, ich _______ mich mit ihr treffen. (mögen)",
+                            "answer": "mag",
+                            "parts": [
+                                "mag"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie das Präteritum. (Beispiel: viel lernen - müssen -> Musstest du viel lernen?)",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Wein bestellen - wollen",
+                            "answer": "Wolltest du Wein bestellen?"
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "mitkommen - können",
+                            "answer": "Konntest du mitkommen?"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

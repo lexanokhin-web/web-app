@@ -1,0 +1,177 @@
+{
+    "id": "chapter_1",
+    "title": "Verben - Vergangenheit",
+    "description": "Das Perfekt, Präteritum und Plusquamperfekt.",
+    "sections": [
+        {
+            "id": "1.1",
+            "title": "1. Das Perfekt - Schwache Verben",
+            "content": "Das Perfekt bildet man mit 'haben' oder 'sein' und dem Partizip II.\n\nSchwache Verben:\nge- + Verbstamm + -(e)t\nBeispiele: lernen -> gelernt, warten -> gewartet\n\nVerben auf -ieren bilden das Perfekt ohne 'ge-':\nstudieren -> studiert",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Fragen im Perfekt. (Beispiel: lange arbeiten -> Hast du lange gearbeitet?)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Paul fragen",
+                            "answer": "Hast du Paul gefragt?"
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "ihm glauben",
+                            "answer": "Hast du ihm geglaubt?"
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Geld wechseln",
+                            "answer": "Hast du Geld gewechselt?"
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "den Termin ändern",
+                            "answer": "Hast du den Termin geändert?"
+                        },
+                        {
+                            "id": "1e",
+                            "prompt": "ihm den Weg zeigen",
+                            "answer": "Hast du ihm den Weg gezeigt?"
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "die Stühle zählen",
+                            "answer": "Hast du die Stühle gezählt?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1.2",
+            "title": "1.2. Starke Verben",
+            "content": "Das Partizip II der starken Verben endet meist auf -en. Oft ändert sich der Vokal.\n\nBeispiele:\nsprechen -> gesprochen\ngehen -> gegangen\ntrinken -> getrunken",
+            "exercises": [
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Aussagesätze im Perfekt. (Beispiel: ein Nachtisch - nehmen -> Du hast einen Nachtisch genommen.)",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "das Steak - braten",
+                            "answer": "Du hast das Steak gebraten."
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "der Rucksack - tragen",
+                            "answer": "Du hast den Rucksack getragen."
+                        },
+                        {
+                            "id": "2c",
+                            "prompt": "die Sahne - schlagen",
+                            "answer": "Du hast die Sahne geschlagen."
+                        },
+                        {
+                            "id": "2d",
+                            "prompt": "ein Fisch - fangen",
+                            "answer": "Du hast einen Fisch gefangen."
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "die Datei - schließen",
+                            "answer": "Du hast die Datei geschlossen."
+                        },
+                        {
+                            "id": "2f",
+                            "prompt": "die Blumen - gießen",
+                            "answer": "Du hast die Blumen gegossen."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1.4",
+            "title": "1.4. Nicht trennbare Verben",
+            "content": "Verben mit be-, ent-, er-, ge-, miss-, ver-, zer- haben kein 'ge-' im Partizip II.\n\nBeispiele:\nbesuchen -> besucht\nerzählen -> erzählt",
+            "exercises": [
+                {
+                    "id": "ex_5",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie das Partizip II und das Hilfsverb.",
+                    "items": [
+                        {
+                            "id": "5a",
+                            "prompt": "Wer _____ dir das Hotel _____? (empfehlen)",
+                            "answer": "hat empfohlen",
+                            "parts": [
+                                "hat",
+                                "empfohlen"
+                            ]
+                        },
+                        {
+                            "id": "5b",
+                            "prompt": "_____ du die Vase _____? (zerbrechen)",
+                            "answer": "Hast zerbrochen",
+                            "parts": [
+                                "Hast",
+                                "zerbrochen"
+                            ]
+                        },
+                        {
+                            "id": "5c",
+                            "prompt": "_____ der Film schon _____? (beginnen)",
+                            "answer": "Hat begonnen",
+                            "parts": [
+                                "Hat",
+                                "begonnen"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1.5",
+            "title": "1.5. Trennbare Verben",
+            "content": "Bei trennbaren Verben steht 'ge-' zwischen Präfix und Verbstamm.\n\nBeispiele:\nzuhören -> zugehört\naufstehen -> aufgestanden",
+            "exercises": [
+                {
+                    "id": "ex_7",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die Sätze. (Beispiel: zumachen -> Hast du das Fenster zugemacht?)",
+                    "items": [
+                        {
+                            "id": "7a",
+                            "prompt": "abfahren: Der Zug ___ schon ___.",
+                            "answer": "ist abgefahren",
+                            "parts": [
+                                "ist",
+                                "abgefahren"
+                            ]
+                        },
+                        {
+                            "id": "7b",
+                            "prompt": "mitbringen: ___ Clara ein Geschenk ___?",
+                            "answer": "Hat mitgebracht",
+                            "parts": [
+                                "Hat",
+                                "mitgebracht"
+                            ]
+                        },
+                        {
+                            "id": "7c",
+                            "prompt": "aufräumen: Ich ___ den Keller ___.",
+                            "answer": "habe aufgeräumt",
+                            "parts": [
+                                "habe",
+                                "aufgeräumt"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

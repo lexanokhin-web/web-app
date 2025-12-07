@@ -1,0 +1,68 @@
+{
+    "id": "chapter_15",
+    "title": "Werden",
+    "description": "Bedeutung und Funktion von 'werden'.",
+    "sections": [
+        {
+            "id": "15.1",
+            "title": "1. Funktionen von Werden",
+            "content": "1. Als Vollverb: Prozess/Veränderung.\n'Ich werde müde.' 'Er wird Arzt.'\n\n2. Futur I: werden + Infinitiv.\n'Morgen wird die Sonne scheinen.'\n\n3. Vorgangspassiv: werden + Partizip II.\n'Das Auto wird repariert.'",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie das Adjektiv. (dunkel, rot, müde...)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Wenn man sie neben Äpfel legt, dann werden grüne Bananen __________. (reif)",
+                            "answer": "gelb",
+                            "parts": [
+                                "gelb"
+                            ]
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Es zog ein Gewitter auf und der Himmel wurde __________.",
+                            "answer": "dunkel",
+                            "parts": [
+                                "dunkel"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die richtige Form von 'werden'.",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Er möchte Architekt ____________.",
+                            "answer": "werden",
+                            "parts": [
+                                "werden"
+                            ]
+                        },
+                        {
+                            "id": "2b",
+                            "prompt": "Das Wetter _________ wohl zum Wochenende besser.",
+                            "answer": "wird",
+                            "parts": [
+                                "wird"
+                            ]
+                        },
+                        {
+                            "id": "2e",
+                            "prompt": "Gestern ist mein Fahrrad gestohlen ____________. (Perfekt Passiv)",
+                            "answer": "worden",
+                            "parts": [
+                                "worden"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

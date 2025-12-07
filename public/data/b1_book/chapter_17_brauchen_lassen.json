@@ -1,0 +1,62 @@
+{
+    "id": "chapter_17",
+    "title": "Brauchen / Sich lassen",
+    "description": "Spezielle Verben und ihre Verwendung.",
+    "sections": [
+        {
+            "id": "17.1",
+            "title": "1. Brauchen",
+            "content": "brauchen + Akkusativ: Ich brauche Hilfe.\nbrauchen + zu + Infinitiv (nur mit Negation): Du brauchst das nicht zu machen. (= Du musst das nicht machen.)",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "transformation",
+                    "instruction": "Antworten Sie. (Beispiel: Was brauchst du? - Koffer -> Ich brauche einen Koffer.)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Was brauchst du für die Geburtstagsparty? - Tisch (groß)",
+                            "answer": "Ich brauche einen großen Tisch."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_2",
+                    "type": "transformation",
+                    "instruction": "Formen Sie um mit 'brauchen ... nicht zu'. (Beispiel: Musst du warten? - Nein -> Nein, ich brauche nicht zu warten.)",
+                    "items": [
+                        {
+                            "id": "2a",
+                            "prompt": "Musst du noch einkaufen?",
+                            "answer": "Nein, ich brauche nicht mehr einzukaufen."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "17.2",
+            "title": "2. Sich lassen",
+            "content": "sich lassen + Infinitiv = Passiv-Ersatz oder Möglichkeit.\n'Das lässt sich reparieren.' (= Man kann das reparieren.)",
+            "exercises": [
+                {
+                    "id": "ex_4",
+                    "type": "transformation",
+                    "instruction": "Antworten Sie mit '... lässt sich ...'. (Beispiel: Kann man das reparieren? -> Ja, das lässt sich reparieren.)",
+                    "items": [
+                        {
+                            "id": "4a",
+                            "prompt": "Kann man die Uhr noch reparieren?",
+                            "answer": "Ja, die Uhr lässt sich noch reparieren."
+                        },
+                        {
+                            "id": "4d",
+                            "prompt": "Kann man das Problem lösen?",
+                            "answer": "Ja, das Problem lässt sich lösen."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "chapter_1",
+    "title": "Verben - Vergangenheit",
+    "description": "Perfekt, Präteritum, Plusquamperfekt",
+    "file": "chapter_1_verben_vergangenheit.json"
+  },
+  {
+    "id": "chapter_2",
+    "title": "Sätze",
+    "description": "Satzarten, Nebensätze, Fragesätze",
+    "file": "chapter_2_saetze.json"
+  },
+  {
+    "id": "chapter_3",
+    "title": "Kausale Sätze",
+    "description": "Weil, da, denn, deshalb, wegen",
+    "file": "chapter_3_kausale_saetze.json"
+  },
+  {
+    "id": "chapter_4",
+    "title": "Konzessive Sätze",
+    "description": "Obwohl, trotzdem, trotz",
+    "file": "chapter_4_konzessive_saetze.json"
+  },
+  {
+    "id": "chapter_5",
+    "title": "Genitiv",
+    "description": "Funktionen und Präpositionen",
+    "file": "chapter_5_genitiv.json"
+  },
+  {
+    "id": "chapter_6",
+    "title": "Konjunktiv II",
+    "description": "Wünsche, Höflichkeit, Irreales",
+    "file": "chapter_6_konjunktiv_ii.json"
+  },
+  {
+    "id": "chapter_7",
+    "title": "Präpositionen - lokal",
+    "description": "Wo und Wohin",
+    "file": "chapter_7_praepositionen_lokal.json"
+  },
+  {
+    "id": "chapter_8",
+    "title": "Präpositionen - temporal",
+    "description": "Zeitpunkte und Zeiträume",
+    "file": "chapter_8_praepositionen_temporal.json"
+  },
+  {
+    "id": "chapter_9",
+    "title": "Nebensätze - temporal",
+    "description": "Wenn, als, bis, seit, während...",
+    "file": "chapter_9_nebensaetze_temporal.json"
+  },
+  {
+    "id": "chapter_10",
+    "title": "Relativsätze",
+    "description": "Als Attribut",
+    "file": "chapter_10_relativsaetze.json"
+  },
+  {
+    "id": "chapter_11",
+    "title": "Adjektivdeklination",
+    "description": "Endungen der Adjektive",
+    "file": "chapter_11_adjektivdeklination.json"
+  },
+  {
+    "id": "chapter_12",
+    "title": "Modalverben",
+    "description": "Können, müssen, wollen...",
+    "file": "chapter_12_modalverben.json"
+  },
+  {
+    "id": "chapter_13",
+    "title": "Passiv",
+    "description": "Vorgangspassiv",
+    "file": "chapter_13_passiv.json"
+  },
+  {
+    "id": "chapter_14",
+    "title": "Präpositionalobjekte",
+    "description": "Verben mit festen Präpositionen",
+    "file": "chapter_14_praepositionalobjekte.json"
+  },
+  {
+    "id": "chapter_15",
+    "title": "Werden",
+    "description": "Bedeutung und Funktion",
+    "file": "chapter_15_werden.json"
+  },
+  {
+    "id": "chapter_16",
+    "title": "Konjunktionen",
+    "description": "Nebenordnende Verbindungen",
+    "file": "chapter_16_konjunktionen.json"
+  },
+  {
+    "id": "chapter_17",
+    "title": "Brauchen / Sich lassen",
+    "description": "Spezielle Verben",
+    "file": "chapter_17_brauchen_lassen.json"
+  }
+]

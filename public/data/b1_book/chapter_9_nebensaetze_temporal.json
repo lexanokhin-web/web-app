@@ -1,0 +1,81 @@
+{
+    "id": "chapter_9",
+    "title": "Nebensätze - temporal",
+    "description": "Wenn, als, bis, seit, während, nachdem, bevor.",
+    "sections": [
+        {
+            "id": "9.1",
+            "title": "1. Wenn und Als",
+            "content": "wenn: Gegenwart/Zukunft (einmalig oder wiederholt), Vergangenheit (wiederholt)\nals: Vergangenheit (einmalig)",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie 'wenn' oder 'als'.",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "______ ich im Sommer nach Griechenland fahre, treffe ich dort meine Freunde.",
+                            "answer": "Wenn",
+                            "parts": [
+                                "Wenn"
+                            ]
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "______ Miriam in Rom war (Vergangenheit), schrieb sie mir eine Karte.",
+                            "answer": "Als",
+                            "parts": [
+                                "Als"
+                            ]
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "______ uns Opa besuchte (immer wieder), brachte er immer Geschenke mit.",
+                            "answer": "Wenn",
+                            "parts": [
+                                "Wenn"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9.2",
+            "title": "2. Gleichzeitigkeit (während) und Vorzeitigkeit (nachdem)",
+            "content": "während: Zwei Handlungen passieren gleichzeitig.\nnachdem: Eine Handlung passierte vor der anderen.\nbevor: Eine Handlung passiert nach der anderen.",
+            "exercises": [
+                {
+                    "id": "ex_4",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie mit 'nachdem' (Vorzeitigkeit).",
+                    "items": [
+                        {
+                            "id": "4a",
+                            "prompt": "Wir hatten dem Beamten unsere Pässe gezeigt. Anschließend durften wir weiterfahren.",
+                            "answer": "Nachdem wir dem Beamten unsere Pässe gezeigt hatten, durften wir weiterfahren."
+                        },
+                        {
+                            "id": "4b",
+                            "prompt": "Ich hatte gegessen. Danach bestellte ich noch einen Kaffee.",
+                            "answer": "Nachdem ich gegessen hatte, bestellte ich noch einen Kaffee."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_5",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie mit 'bevor'.",
+                    "items": [
+                        {
+                            "id": "5a",
+                            "prompt": "Karl kam ins Restaurant. Vorher hatte er eine halbe Stunde einen Parkplatz gesucht.",
+                            "answer": "Bevor Karl ins Restaurant kam, hatte er eine halbe Stunde einen Parkplatz gesucht."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

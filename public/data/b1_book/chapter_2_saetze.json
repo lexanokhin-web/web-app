@@ -1,0 +1,116 @@
+{
+    "id": "chapter_2",
+    "title": "Sätze",
+    "description": "Satzarten, Nebensätze, Fragesätze als Nebensätze.",
+    "sections": [
+        {
+            "id": "2.1",
+            "title": "1. Satzarten",
+            "content": "Aussagesatz: Max räumt heute seine Wohnung auf.\nFragesatz (mit Fragewort): Wann räumt Max seine Wohnung auf? (Verb an Position 2)\nFragesatz (ohne Fragewort): Räumt Max heute seine Wohnung auf? (Verb an Position 1)\nAufforderungssatz: Räum heute deine Wohnung auf, Max! (Verb an Position 1)",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Aufforderungssätze. (Beispiel: Lisa - ihre Katze - füttern -> Füttere bitte deine Katze, Lisa!)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Jana - vorsichtig - fahren",
+                            "answer": "Fahr bitte vorsichtig, Jana!"
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Jonas - seine Arbeit - erledigen",
+                            "answer": "Erledige bitte deine Arbeit, Jonas!"
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Pavel - deutlich - sprechen",
+                            "answer": "Sprich bitte deutlich, Pavel!"
+                        },
+                        {
+                            "id": "1d",
+                            "prompt": "Sandra - ihr Bruder - helfen",
+                            "answer": "Hilf bitte deinem Bruder, Sandra!"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2.2",
+            "title": "2. Nebensätze",
+            "content": "Nebensätze (NS) hängen meist von Hauptsätzen (HS) ab.\nIm Nebensatz steht das konjugierte Verb am ENDE.\n\nBeispiele:\nIch weiß nicht, ob er kommt.\nWeil er krank ist, bleibt er zu Hause.",
+            "exercises": [
+                {
+                    "id": "ex_3",
+                    "type": "transformation",
+                    "instruction": "Verbinden Sie die Sätze. (Beispiel: Ich brachte den Wagen in die Werkstatt. Die Bremsen waren defekt. (kausal) -> Ich brachte den Wagen in die Werkstatt, weil die Bremsen defekt waren.)",
+                    "items": [
+                        {
+                            "id": "3a",
+                            "prompt": "Thomas besuchte seine Tante. Sie lag im Krankenhaus. (temporal, als/während)",
+                            "answer": "Thomas besuchte seine Tante, als sie im Krankenhaus lag."
+                        },
+                        {
+                            "id": "3c",
+                            "prompt": "Clara ist sehr ärgerlich. Ich habe sie nicht angerufen. (kausal, weil)",
+                            "answer": "Clara ist sehr ärgerlich, weil ich sie nicht angerufen habe."
+                        },
+                        {
+                            "id": "3f",
+                            "prompt": "Es ist sehr schade. Unsere Freunde können nicht mitkommen. (dass)",
+                            "answer": "Es ist sehr schade, dass unsere Freunde nicht mitkommen können."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2.3",
+            "title": "3. Fragesätze als Nebensätze",
+            "content": "Frage mit Fragewort (Wann, Wo, Warum...) -> Nebensatz beginnt mit diesem Fragewort.\nFrage ohne Fragewort (Ja/Nein Frage) -> Nebensatz beginnt mit 'ob'.\n\nBeispiel:\nWann kommt er? -> Ich weiß nicht, wann er kommt.\nKommt er heute? -> Ich weiß nicht, ob er heute kommt.",
+            "exercises": [
+                {
+                    "id": "ex_4",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie indirekte Fragesätze mit 'Ich weiß nicht, ...'",
+                    "items": [
+                        {
+                            "id": "4a",
+                            "prompt": "Wer gewinnt das Spiel?",
+                            "answer": "Ich weiß nicht, wer das Spiel gewinnt."
+                        },
+                        {
+                            "id": "4b",
+                            "prompt": "Wann reist dein Kollege ab?",
+                            "answer": "Ich weiß nicht, wann dein Kollege abreist."
+                        },
+                        {
+                            "id": "4e",
+                            "prompt": "Wohin fahren deine Freunde?",
+                            "answer": "Ich weiß nicht, wohin deine Freunde fahren."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_5",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie indirekte Fragesätze mit 'ob'. (Beispiel: Kommt Peter? -> Ich weiß nicht, ob Peter kommt.)",
+                    "items": [
+                        {
+                            "id": "5a",
+                            "prompt": "Hat jemand bei Paul angerufen?",
+                            "answer": "Ich weiß nicht, ob jemand bei Paul angerufen hat."
+                        },
+                        {
+                            "id": "5c",
+                            "prompt": "Holt Paul dich vom Bahnhof ab?",
+                            "answer": "Ich weiß nicht, ob Paul dich vom Bahnhof abholt."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

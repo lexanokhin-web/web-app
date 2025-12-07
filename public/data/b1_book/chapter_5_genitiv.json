@@ -1,0 +1,96 @@
+{
+    "id": "chapter_5",
+    "title": "Genitiv",
+    "description": "Funktionen des Genitivs und Präpositionen mit Genitiv.",
+    "sections": [
+        {
+            "id": "5.1",
+            "title": "1. Der Genitiv",
+            "content": "Der Genitiv zeigt Zugehörigkeit an (Wessen?).\n\nMaskulin/Neutral: des Mannes, des Kindes (-s oder -es)\nFeminin/Plural: der Frau, der Leute\n\nEigennamen: Evas Buch, Toms Auto",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "gap_fill",
+                    "instruction": "Bilden Sie den Genitiv. (Beispiel: Autor - Roman -> Autor des Romans)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Ende - Geschichte",
+                            "answer": "Ende der Geschichte"
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Titel - Buch",
+                            "answer": "Titel des Buches"
+                        },
+                        {
+                            "id": "1c",
+                            "prompt": "Adresse - Hotel",
+                            "answer": "Adresse des Hotels"
+                        },
+                        {
+                            "id": "1g",
+                            "prompt": "Größe - Zimmer",
+                            "answer": "Größe des Zimmers"
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_3",
+                    "type": "transformation",
+                    "instruction": "Antworten Sie mit einem Genitiv-Satz. (Beispiel: Hut - meine Schwester -> Das ist der Hut meiner Schwester.)",
+                    "items": [
+                        {
+                            "id": "3a",
+                            "prompt": "Schlüssel - mein Bruder",
+                            "answer": "Das ist der Schlüssel meines Bruders."
+                        },
+                        {
+                            "id": "3b",
+                            "prompt": "Wohnung - unsere Tante",
+                            "answer": "Das ist die Wohnung unserer Tante."
+                        },
+                        {
+                            "id": "3c",
+                            "prompt": "Gepäck - eure Gäste",
+                            "answer": "Das ist das Gepäck eurer Gäste."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "5.2",
+            "title": "2. Präpositionen mit Genitiv",
+            "content": "Wichtige Präpositionen mit Genitiv:\n\n- wegen (Grund)\n- trotz (Gegengrund)\n- während (Zeitdauer)\n- innerhalb / außerhalb (Ort/Zeit)\n- (an)statt (Alternative)",
+            "exercises": [
+                {
+                    "id": "ex_4",
+                    "type": "gap_fill",
+                    "instruction": "Ergänzen Sie die passende Präposition (wegen, trotz, statt...).",
+                    "items": [
+                        {
+                            "id": "4a",
+                            "prompt": "der Streik - ________ des Streiks fahren keine Busse.",
+                            "answer": "Aufgrund",
+                            "parts": [
+                                "Wegen",
+                                "Aufgrund"
+                            ]
+                        },
+                        {
+                            "id": "4d",
+                            "prompt": "seine Schmerzen - ________ seiner Schmerzen geht er nicht zum Zahnarzt.",
+                            "answer": "Trotz"
+                        },
+                        {
+                            "id": "4f",
+                            "prompt": "alle Probleme - ________ aller Probleme können wir die Arbeit beenden.",
+                            "answer": "Trotz"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

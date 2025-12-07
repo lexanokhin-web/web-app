@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
-import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, FileCheck2, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, User, Trophy } from 'lucide-react';
+import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, FileCheck2, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, User, Trophy, GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import { AuthModal } from '../components/AuthModal';
@@ -139,6 +139,19 @@ const exerciseBlocks = [
             },
         ]
     },
+    {
+        blockName: '📖 B1 Intensiv-Trainer',
+        blockId: 'b1-book',
+        exercises: [
+            {
+                id: 'b1-grammar-book',
+                name: 'Grammatik B1',
+                icon: GraduationCap,
+                color: 'from-pink-500 to-rose-500',
+                path: '/b1-book'
+            }
+        ]
+    }
 ];
 
 export const HomePage: React.FC = () => {

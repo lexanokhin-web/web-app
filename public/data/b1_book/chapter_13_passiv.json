@@ -1,0 +1,53 @@
+{
+    "id": "chapter_13",
+    "title": "Passiv",
+    "description": "Vorgangspassiv: werden + Partizip II.",
+    "sections": [
+        {
+            "id": "13.1",
+            "title": "1. Bildung des Vorgangspassivs",
+            "content": "Subjekt (Täter) wird unwichtig oder zum Objekt (von...). Das Objekt der Handlung wird zum Subjekt.\n\nAktiv: Der Arzt untersucht den Patienten.\nPassiv: Der Patient wird vom Arzt untersucht.\n\nForm: werden (konjugiert) + Partizip II.",
+            "exercises": [
+                {
+                    "id": "ex_1",
+                    "type": "transformation",
+                    "instruction": "Bilden Sie Sätze im Vorgangspassiv. (Beispiel: Max gießt die Blumen. -> Die Blumen werden von Max gegossen.)",
+                    "items": [
+                        {
+                            "id": "1a",
+                            "prompt": "Der Direktor begrüßt den Gast.",
+                            "answer": "Der Gast wird vom Direktor begrüßt."
+                        },
+                        {
+                            "id": "1b",
+                            "prompt": "Carmen lädt Paul ein.",
+                            "answer": "Paul wird von Carmen eingeladen."
+                        },
+                        {
+                            "id": "1f",
+                            "prompt": "Die Katze fängt die Maus.",
+                            "answer": "Die Maus wird von der Katze gefangen."
+                        }
+                    ]
+                },
+                {
+                    "id": "ex_3",
+                    "type": "transformation",
+                    "instruction": "Passiv in verschiedenen Zeiten. (Beispiel: Ein Zeuge hat den Dieb beobachtet. -> Der Dieb ist von einem Zeugen beobachtet worden.)",
+                    "items": [
+                        {
+                            "id": "3a",
+                            "prompt": "Die Sekretärin notierte den Termin. (Präteritum)",
+                            "answer": "Der Termin wurde von der Sekretärin notiert."
+                        },
+                        {
+                            "id": "3b",
+                            "prompt": "Vier Männer haben das Klavier gebracht. (Perfekt)",
+                            "answer": "Das Klavier ist von vier Männern gebracht worden."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
