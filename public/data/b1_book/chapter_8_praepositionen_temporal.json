@@ -6,7 +6,7 @@
         {
             "id": "8.1",
             "title": "1. Zeitpunkt",
-            "content": "an (Tage/Tageszeiten) -> am Montag\num (Uhrzeit) -> um 8 Uhr\nvor (Vergangenheit) -> vor einem Jahr\nin (Zukunft/Monate) -> im Mai, in einer Woche\nzu (Feiertage) -> zu Ostern",
+            "content": "an (Tage/Tageszeiten) -> am Montag\num (Uhrzeit) -> um 8 Uhr\nvor (Vergangenheit) -> vor einem Jahr\nnach (Zeitpunkt danach) -> nach dem Essen\nin (Zukunft/Monate) -> im Mai, in einer Woche\nzu (Feiertage/Zeitpunkte) -> zu Ostern, zu jeder Zeit\ngegen (ungefähr) -> gegen 8 Uhr\nbei (Gleichzeitigkeit) -> beim Essen",
             "exercises": [
                 {
                     "id": "ex_1",
@@ -119,7 +119,7 @@
         {
             "id": "8.2",
             "title": "2. Dauer, Beginn und Ende",
-            "content": "von ... bis (Zeitraum)\nseit (Start in Vergangenheit, dauert an)\nfür (Dauer)\nwährend (Genitiv, gleichzeitig)",
+            "content": "von ... bis (Zeitraum)\nseit (Start in Vergangenheit, dauert an)\nfür (Dauer)\nwährend (Genitiv, gleichzeitig)\nab (Startpunkt Zukunft)\nbis (Endpunkt)\ninnerhalb/außerhalb (Zeitraum+Genitiv)\nzwischen (zwei Zeitpunkten)",
             "exercises": [
                 {
                     "id": "ex_2",
