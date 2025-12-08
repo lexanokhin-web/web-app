@@ -68,7 +68,8 @@ const germanNames: Record<string, string> = {
     'Economy & Business': 'Wirtschaft & Geschäft',
     'Science & Technology': 'Wissenschaft & Technologie',
     'Law & Justice': 'Recht & Justiz',
-    'Abstract Concepts': 'Abstrakte Konzepte'
+    'Abstract Concepts': 'Abstrakte Konzepte',
+    '1 Modul': '1 Modul'
 };
 
 export const FlashCardsPage: React.FC = () => {

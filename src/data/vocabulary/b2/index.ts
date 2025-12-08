@@ -8,6 +8,7 @@ import { b2LawCategory } from './law';
 import { b2AbstractCategory } from './abstract';
 import { b2VerbsCategory } from './verbs';
 import { b2AdjectivesCategory } from './adjectives';
+import { b2BerufModul1Category } from './beruf_modul1';
 
 export const b2VocabularyCategories: VocabularyCategory[] = [
     b2PoliticsCategory,
@@ -17,6 +18,7 @@ export const b2VocabularyCategories: VocabularyCategory[] = [
     b2AbstractCategory,
     b2VerbsCategory,
     b2AdjectivesCategory,
+    b2BerufModul1Category,
 ];
 
 // Re-export individual categories
@@ -27,3 +29,5 @@ export * from './law';
 export * from './abstract';
 export * from './verbs';
 export * from './adjectives';
+export * from './beruf_modul1';
+

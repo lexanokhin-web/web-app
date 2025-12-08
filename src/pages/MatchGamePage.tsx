@@ -123,7 +123,10 @@ export const MatchGamePage: React.FC = () => {
             'Economy & Business': 'Wirtschaft',
             'Science & Technology': 'Wissenschaft und Technik',
             'Law & Justice': 'Recht und Gerechtigkeit',
-            'Abstract Concepts': 'Abstrakte Begriffe'
+            'Abstract Concepts': 'Abstrakte Begriffe',
+
+            // B2-Beruf
+            '1 Modul': 'B2 - Beruf Modul 1'
         };
 
         const systemBlocks: WordBlock[] = allVocabularyCategories.map(category => ({
