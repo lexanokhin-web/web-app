@@ -20,7 +20,7 @@
             "hat",
             "hatte",
             "hätte",
-            "habst"
+            "hast"
         ]
     },
     {
@@ -52,6 +52,7 @@
         "sentence": "Sie sagten, sie _____ kommen.",
         "targetWord": "kämen",
         "targetWordTranslation": "would come (reported)",
+        "explanation": "Konjunktiv II (kämen), da Konjunktiv I (kommen) mit Indikativ identisch wäre",
         "wrongAnswers": [
             "kommen",
             "kamen",
@@ -68,7 +69,7 @@
             "hat",
             "hätte",
             "hatte",
-            "habst"
+            "hast"
         ]
     },
     {
@@ -92,7 +93,7 @@
             "hat",
             "hätte",
             "hatte",
-            "habst"
+            "hast"
         ]
     },
     {
@@ -136,6 +137,7 @@
         "sentence": "Sie sagten, sie _____ warten.",
         "targetWord": "müssten",
         "targetWordTranslation": "must (reported)",
+        "explanation": "Konjunktiv II (müssten), da Konjunktiv I (müssen) mit Indikativ identisch wäre",
         "wrongAnswers": [
             "müssen",
             "mussten",
@@ -244,6 +246,7 @@
         "sentence": "Man erzählt, sie _____ geheiratet.",
         "targetWord": "hätten",
         "targetWordTranslation": "have (reported)",
+        "explanation": "Konjunktiv II (hätten), da Konjunktiv I (haben) mit Indikativ identisch wäre",
         "wrongAnswers": [
             "haben",
             "hatten",
@@ -260,7 +263,7 @@
             "hat",
             "hatte",
             "hätte",
-            "habst"
+            "hast"
         ]
     },
     {
@@ -280,6 +283,7 @@
         "sentence": "Der Minister sagte, die Steuern _____ sinken.",
         "targetWord": "würden",
         "targetWordTranslation": "would (reported)",
+        "explanation": "Konjunktiv II (würden), da Konjunktiv I (werden) mit Indikativ identisch wäre",
         "wrongAnswers": [
             "werden",
             "wurden",
@@ -304,6 +308,7 @@
         "sentence": "Sie sagten, sie _____ Hilfe.",
         "targetWord": "bräuchten",
         "targetWordTranslation": "need (reported)",
+        "explanation": "Konjunktiv II (bräuchten), da Konjunktiv I (brauchen) mit Indikativ identisch wäre",
         "wrongAnswers": [
             "brauchen",
             "brauchten",

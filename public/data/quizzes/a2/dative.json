@@ -4,6 +4,8 @@
         "sentence": "Ich helfe _____ Mann (m).",
         "targetWord": "dem",
         "targetWordTranslation": "the",
+        "explanation": "Dativ maskulin: dem ('helfen' + Dativ)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "den",
             "der",
@@ -16,10 +18,12 @@
         "sentence": "Das Auto gehört _____ Frau (f).",
         "targetWord": "der",
         "targetWordTranslation": "the",
+        "explanation": "Dativ feminin: der ('gehören' + Dativ)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "die",
             "dem",
-            "das",
+            "den",
             "des"
         ]
     },
@@ -28,6 +32,8 @@
         "sentence": "Wir danken _____ Kind (n).",
         "targetWord": "dem",
         "targetWordTranslation": "the",
+        "explanation": "Dativ neutral: dem ('danken' + Dativ)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "das",
             "den",
@@ -40,6 +46,8 @@
         "sentence": "Er schenkt _____ Eltern (Pl.) Blumen.",
         "targetWord": "den",
         "targetWordTranslation": "the",
+        "explanation": "Dativ Plural: den... + -n ('schenken' + Dat.)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "die",
             "der",
@@ -52,6 +60,8 @@
         "sentence": "Ich antworte _____ Lehrer (m).",
         "targetWord": "dem",
         "targetWordTranslation": "the",
+        "explanation": "Dativ maskulin: dem ('antworten' + Dativ)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "den",
             "der",
@@ -64,6 +74,8 @@
         "sentence": "Schmeckt es _____ (du)?",
         "targetWord": "dir",
         "targetWordTranslation": "you",
+        "explanation": "Personalpronomen Dativ: du → dir",
+        "difficulty": "easy",
         "wrongAnswers": [
             "dich",
             "du",
@@ -76,6 +88,8 @@
         "sentence": "Ich glaube _____ (er) nicht.",
         "targetWord": "ihm",
         "targetWordTranslation": "him",
+        "explanation": "Personalpronomen Dativ: er → ihm",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ihn",
             "er",
@@ -88,6 +102,8 @@
         "sentence": "Das passt _____ (sie, Sg.) gut.",
         "targetWord": "ihr",
         "targetWordTranslation": "her",
+        "explanation": "Personalpronomen Dativ: sie (f.) → ihr",
+        "difficulty": "easy",
         "wrongAnswers": [
             "sie",
             "ihm",
@@ -100,6 +116,8 @@
         "sentence": "Gehört das Buch _____ (ihr, Pl.)?",
         "targetWord": "euch",
         "targetWordTranslation": "you guys",
+        "explanation": "Personalpronomen Dativ: ihr → euch",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ihr",
             "uns",
@@ -112,6 +130,8 @@
         "sentence": "Ich gratuliere _____ (Sie, Formal).",
         "targetWord": "Ihnen",
         "targetWordTranslation": "You",
+        "explanation": "Höflichkeitsform Dativ: Sie → Ihnen (groß!)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Sie",
             "dir",
@@ -121,242 +141,282 @@
     },
     {
         "id": "11",
-        "sentence": "Ich gebe _____ Bruder ein Geschenk.",
-        "targetWord": "meinem",
-        "targetWordTranslation": "my",
+        "sentence": "Ich gebe _____ (ich) das Buch.",
+        "targetWord": "mir",
+        "targetWordTranslation": "me",
+        "explanation": "Personalpronomen Dativ: ich → mir",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "meinen",
+            "mich",
+            "ich",
             "mein",
-            "meine",
-            "meines"
+            "dir"
         ]
     },
     {
         "id": "12",
-        "sentence": "Sie hilft _____ Schwester.",
-        "targetWord": "ihrer",
-        "targetWordTranslation": "her",
+        "sentence": "Das gefällt _____ (wir).",
+        "targetWord": "uns",
+        "targetWordTranslation": "us",
+        "explanation": "Personalpronomen Dativ: wir → uns",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "ihre",
-            "ihren",
-            "ihrem",
-            "ihres"
+            "wir",
+            "euch",
+            "ihnen",
+            "mir"
         ]
     },
     {
         "id": "13",
-        "sentence": "Das gefällt _____ (mir).",
-        "targetWord": "mir",
-        "targetWordTranslation": "me",
+        "sentence": "Der Rock steht _____ (sie, Pl.) gut.",
+        "targetWord": "ihnen",
+        "targetWordTranslation": "them",
+        "explanation": "Personalpronomen Dativ Plural: sie → ihnen",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "mich",
-            "ich",
-            "dir",
-            "uns"
-        ]
-    },
-    {
-        "id": "14",
-        "sentence": "Er folgt _____ Hund (m).",
-        "targetWord": "dem",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "den",
-            "der",
-            "das",
-            "die"
-        ]
-    },
-    {
-        "id": "15",
-        "sentence": "Ich vertraue _____ Freundin (f).",
-        "targetWord": "der",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "die",
-            "dem",
-            "das",
-            "den"
-        ]
-    },
-    {
-        "id": "16",
-        "sentence": "Wir begegnen _____ Nachbarn (Pl.).",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "die",
-            "der",
-            "dem",
-            "das"
-        ]
-    },
-    {
-        "id": "17",
-        "sentence": "Sie hört _____ Musik (f) zu.",
-        "targetWord": "der",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "die",
-            "dem",
-            "das",
-            "den"
-        ]
-    },
-    {
-        "id": "18",
-        "sentence": "Ich schreibe _____ Oma (f).",
-        "targetWord": "der",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "die",
-            "dem",
-            "das",
-            "den"
-        ]
-    },
-    {
-        "id": "19",
-        "sentence": "Das tut _____ (mir) leid.",
-        "targetWord": "mir",
-        "targetWordTranslation": "me",
-        "wrongAnswers": [
-            "mich",
-            "ich",
-            "dir",
-            "uns"
-        ]
-    },
-    {
-        "id": "20",
-        "sentence": "Wie geht es _____ (Ihnen)?",
-        "targetWord": "Ihnen",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "Sie",
-            "dir",
-            "euch",
-            "ihr"
-        ]
-    },
-    {
-        "id": "21",
-        "sentence": "Ich sage es _____ (ihm).",
-        "targetWord": "ihm",
-        "targetWordTranslation": "him",
-        "wrongAnswers": [
-            "ihn",
-            "er",
+            "sie",
             "ihr",
-            "es"
-        ]
-    },
-    {
-        "id": "22",
-        "sentence": "Er zeigt _____ (uns) den Weg.",
-        "targetWord": "uns",
-        "targetWordTranslation": "us",
-        "wrongAnswers": [
-            "wir",
             "euch",
-            "ihnen",
-            "sie"
-        ]
-    },
-    {
-        "id": "23",
-        "sentence": "Wir schenken _____ (euch) etwas.",
-        "targetWord": "euch",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "ihr",
-            "uns",
-            "wir",
-            "sie"
-        ]
-    },
-    {
-        "id": "24",
-        "sentence": "Sie erklärt _____ Schüler (m) die Regel.",
-        "targetWord": "dem",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "den",
-            "der",
-            "das",
-            "die"
-        ]
-    },
-    {
-        "id": "25",
-        "sentence": "Das Haus gehört _____ Vater (m).",
-        "targetWord": "dem",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "den",
-            "der",
-            "das",
-            "die"
-        ]
-    },
-    {
-        "id": "26",
-        "sentence": "Die Hose passt _____ Kind (n) nicht.",
-        "targetWord": "dem",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "das",
-            "den",
-            "der",
-            "die"
-        ]
-    },
-    {
-        "id": "27",
-        "sentence": "Ich danke _____ (dir) für die Hilfe.",
-        "targetWord": "dir",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "dich",
-            "du",
-            "mir",
             "ihm"
         ]
     },
     {
-        "id": "28",
-        "sentence": "Er antwortet _____ (ihr, f).",
-        "targetWord": "ihr",
-        "targetWordTranslation": "her",
+        "id": "14",
+        "sentence": "Ich kaufe _____ Bruder (m) ein Geschenk.",
+        "targetWord": "meinem",
+        "targetWordTranslation": "my",
+        "explanation": "Possessivartikel Dativ m.: mein → meinem",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "sie",
+            "mein",
+            "meinen",
+            "meiner",
+            "meine"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Sie hilft _____ Schwester (f).",
+        "targetWord": "ihrer",
+        "targetWordTranslation": "her",
+        "explanation": "Possessivartikel Dativ f.: ihr → ihrer",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihre",
+            "ihrem",
+            "ihren",
+            "ihr"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Er zeigt _____ Kind (n) das Bild.",
+        "targetWord": "seinem",
+        "targetWordTranslation": "his",
+        "explanation": "Possessivartikel Dativ n.: sein → seinem",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "sein",
+            "seine",
+            "seinen",
+            "seiner"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Der Hund läuft _____ Mann (m) nach.",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "explanation": "'nachlaufen' + Dativ: dem Mann",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Er erzählt _____ Kindern (Pl.) eine Geschichte.",
+        "targetWord": "den",
+        "targetWordTranslation": "the",
+        "explanation": "Dativ Plural: den + Nomen mit -n (Kindern)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "die",
+            "der",
+            "dem",
+            "das"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Das Hemd passt _____ (es) nicht.",
+        "targetWord": "ihm",
+        "targetWordTranslation": "it",
+        "explanation": "Personalpronomen Dativ neutral: es → ihm",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "es",
+            "ihr",
+            "ihn",
+            "sie"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Wir folgen _____ Bus (m).",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "explanation": "'folgen' + Dativ: dem Bus",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Die Jacke gehört _____ Freundin (f).",
+        "targetWord": "meiner",
+        "targetWordTranslation": "my",
+        "explanation": "Possessivartikel Dativ f.: mein → meiner",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "meine",
+            "meinem",
+            "meinen",
+            "mein"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Ich begegne _____ Leuten (Pl.) oft.",
+        "targetWord": "diesen",
+        "targetWordTranslation": "these",
+        "explanation": "Demonstrativartikel Dativ Pl.: diese → diesen",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "diese",
+            "diesem",
+            "dieser",
+            "dies"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Das Buch gehört _____ Student (m).",
+        "targetWord": "dem",
+        "targetWordTranslation": "the",
+        "explanation": "'gehören' + Dativ: dem Studenten (n-Deklination!)",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "den",
+            "der",
+            "das",
+            "des"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Ich vertraue nur _____ (du).",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "explanation": "'vertrauen' + Dativ: du → dir",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "dich",
+            "du",
             "ihm",
-            "ihnen",
-            "es"
+            "sie"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Das Essen schmeckt _____ Gästen (Pl.).",
+        "targetWord": "den",
+        "targetWordTranslation": "the",
+        "explanation": "'schmecken' + Dativ Pl.: den Gästen",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "die",
+            "der",
+            "dem",
+            "das"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Sie ähnelt _____ Mutter (f).",
+        "targetWord": "ihrer",
+        "targetWordTranslation": "her",
+        "explanation": "'ähneln' + Dativ: ihrer Mutter",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihre",
+            "ihrem",
+            "ihren",
+            "ihr"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Ich rate _____ (du), das zu tun.",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "explanation": "'raten' + Dativ: du → dir",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "ihm",
+            "ihr"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Er widerspricht _____ Chef (m).",
+        "targetWord": "seinem",
+        "targetWordTranslation": "his",
+        "explanation": "'widersprechen' + Dativ: seinem Chef",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "seinen",
+            "sein",
+            "seine",
+            "seiner"
         ]
     },
     {
         "id": "29",
-        "sentence": "Wir helfen _____ Leuten (Pl.).",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
+        "sentence": "Die Blumen gefallen _____ (ich).",
+        "targetWord": "mir",
+        "targetWordTranslation": "me",
+        "explanation": "'gefallen' + Dativ: ich → mir",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "die",
-            "der",
-            "dem",
-            "das"
+            "mich",
+            "ich",
+            "mein",
+            "dir"
         ]
     },
     {
         "id": "30",
-        "sentence": "Das Essen schmeckt _____ Gästen (Pl.).",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
+        "sentence": "Das Kleid passt _____ Tochter (f) nicht.",
+        "targetWord": "ihrer",
+        "targetWordTranslation": "her",
+        "explanation": "'passen' + Dativ: ihrer Tochter",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "die",
-            "der",
-            "dem",
-            "das"
+            "ihre",
+            "ihrem",
+            "ihren",
+            "ihr"
         ]
     }
 ]

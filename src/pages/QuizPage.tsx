@@ -16,6 +16,7 @@ interface QuizData {
     question: string;
     correctAnswer: string;
     wrongAnswers: string[];
+    explanation?: string;
 }
 
 interface Sentence {
@@ -24,6 +25,7 @@ interface Sentence {
     targetWord: string;
     targetWordTranslation: string;
     wrongAnswers?: string[];
+    explanation?: string;
 }
 
 export const QuizPage: React.FC = () => {
@@ -107,7 +109,8 @@ export const QuizPage: React.FC = () => {
             return {
                 question: sentence.sentence.replace('_____', '______'),
                 correctAnswer,
-                wrongAnswers
+                wrongAnswers,
+                explanation: sentence.explanation
             };
         });
 
@@ -349,6 +352,7 @@ export const QuizPage: React.FC = () => {
                         onAnswer={handleAnswer}
                         questionNumber={currentIndex + 1}
                         totalQuestions={quizData.length}
+                        explanation={currentQuiz.explanation}
                     />
                 )}
             </div>

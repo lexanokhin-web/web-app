@@ -4,6 +4,8 @@
         "sentence": "Das Buch liegt _____ dem Tisch.",
         "targetWord": "auf",
         "targetWordTranslation": "on",
+        "explanation": "Wo? + Dativ: auf dem Tisch (horizontal)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "unter",
             "in",
@@ -16,6 +18,8 @@
         "sentence": "Das Bild hängt _____ der Wand.",
         "targetWord": "an",
         "targetWordTranslation": "on (vertical)",
+        "explanation": "Wo? + Dativ: an = vertikale Fläche (Wand)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "auf",
             "in",
@@ -28,11 +32,13 @@
         "sentence": "Wir sitzen _____ dem Kino.",
         "targetWord": "in",
         "targetWordTranslation": "in",
+        "explanation": "Wo? + Dativ: in dem (=im) Kino",
+        "difficulty": "easy",
         "wrongAnswers": [
             "an",
             "auf",
             "unter",
-            "über"
+            "bei"
         ]
     },
     {
@@ -40,6 +46,8 @@
         "sentence": "Die Lampe hängt _____ dem Tisch.",
         "targetWord": "über",
         "targetWordTranslation": "over",
+        "explanation": "Wo? + Dativ: über = höher (nicht berührend)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "auf",
             "unter",
@@ -52,6 +60,8 @@
         "sentence": "Die Katze schläft _____ dem Bett.",
         "targetWord": "unter",
         "targetWordTranslation": "under",
+        "explanation": "Wo? + Dativ: unter dem Bett",
+        "difficulty": "easy",
         "wrongAnswers": [
             "auf",
             "über",
@@ -64,6 +74,8 @@
         "sentence": "Das Auto steht _____ dem Haus.",
         "targetWord": "vor",
         "targetWordTranslation": "in front of",
+        "explanation": "Wo? + Dativ: vor = davor (Vorderseite)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "hinter",
             "in",
@@ -76,6 +88,8 @@
         "sentence": "Der Garten ist _____ dem Haus.",
         "targetWord": "hinter",
         "targetWordTranslation": "behind",
+        "explanation": "Wo? + Dativ: hinter = dahinter (Rückseite)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "vor",
             "in",
@@ -88,11 +102,13 @@
         "sentence": "Ich sitze _____ dir und ihm.",
         "targetWord": "zwischen",
         "targetWordTranslation": "between",
+        "explanation": "Wo? + Dativ: zwischen zwei Objekten",
+        "difficulty": "easy",
         "wrongAnswers": [
             "neben",
             "in",
             "an",
-            "auf"
+            "bei"
         ]
     },
     {
@@ -100,6 +116,8 @@
         "sentence": "Die Bank ist _____ der Post.",
         "targetWord": "neben",
         "targetWordTranslation": "next to",
+        "explanation": "Wo? + Dativ: neben = seitlich",
+        "difficulty": "easy",
         "wrongAnswers": [
             "in",
             "auf",
@@ -112,6 +130,8 @@
         "sentence": "Ich lege das Buch _____ den Tisch.",
         "targetWord": "auf",
         "targetWordTranslation": "onto",
+        "explanation": "Wohin? + Akkusativ: auf (Bewegung)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "unter",
             "in",
@@ -124,11 +144,13 @@
         "sentence": "Er geht _____ die Schule.",
         "targetWord": "in",
         "targetWordTranslation": "into",
+        "explanation": "Wohin? + Akkusativ: in die Schule",
+        "difficulty": "medium",
         "wrongAnswers": [
             "auf",
             "an",
-            "unter",
-            "über"
+            "zu",
+            "nach"
         ]
     },
     {
@@ -136,6 +158,8 @@
         "sentence": "Wir fahren _____ die Stadt.",
         "targetWord": "in",
         "targetWordTranslation": "into",
+        "explanation": "Wohin? + Akkusativ: in die Stadt",
+        "difficulty": "medium",
         "wrongAnswers": [
             "auf",
             "an",
@@ -148,6 +172,8 @@
         "sentence": "Der Vogel fliegt _____ das Haus.",
         "targetWord": "über",
         "targetWordTranslation": "over",
+        "explanation": "Wohin? + Akkusativ: über (Bewegung darüber)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "auf",
             "unter",
@@ -160,6 +186,8 @@
         "sentence": "Der Hund läuft _____ den Tisch.",
         "targetWord": "unter",
         "targetWordTranslation": "under",
+        "explanation": "Wohin? + Akkusativ: unter (Bewegung darunter)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "auf",
             "über",
@@ -172,6 +200,8 @@
         "sentence": "Ich stelle die Tasche _____ den Stuhl.",
         "targetWord": "neben",
         "targetWordTranslation": "next to",
+        "explanation": "Wohin? + Akkusativ: neben (Bewegung daneben)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "in",
             "auf",
@@ -184,11 +214,13 @@
         "sentence": "Wir gehen _____ das Kino.",
         "targetWord": "in",
         "targetWordTranslation": "into",
+        "explanation": "Wohin? + Akkusativ: in das (=ins) Kino",
+        "difficulty": "medium",
         "wrongAnswers": [
             "auf",
             "an",
-            "unter",
-            "über"
+            "zu",
+            "bei"
         ]
     },
     {
@@ -196,6 +228,8 @@
         "sentence": "Er hängt das Bild _____ die Wand.",
         "targetWord": "an",
         "targetWordTranslation": "onto",
+        "explanation": "Wohin? + Akkusativ: an die Wand (vertikal)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "auf",
             "in",
@@ -208,6 +242,8 @@
         "sentence": "Das Kind versteckt sich _____ dem Baum.",
         "targetWord": "hinter",
         "targetWordTranslation": "behind",
+        "explanation": "Wo? + Dativ: hinter dem Baum (Position)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "vor",
             "in",
@@ -220,6 +256,8 @@
         "sentence": "Das Auto fährt _____ die Garage.",
         "targetWord": "vor",
         "targetWordTranslation": "in front of",
+        "explanation": "Wohin? + Akkusativ: vor die Garage",
+        "difficulty": "medium",
         "wrongAnswers": [
             "hinter",
             "in",
@@ -232,11 +270,13 @@
         "sentence": "Ich stelle mich _____ die beiden.",
         "targetWord": "zwischen",
         "targetWordTranslation": "between",
+        "explanation": "Wohin? + Akkusativ: zwischen (Bewegung)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "neben",
             "in",
             "an",
-            "auf"
+            "vor"
         ]
     },
     {
@@ -244,11 +284,13 @@
         "sentence": "Der Zug fährt _____ den Bahnhof.",
         "targetWord": "in",
         "targetWordTranslation": "into",
+        "explanation": "Wohin? + Akkusativ: in den Bahnhof",
+        "difficulty": "hard",
         "wrongAnswers": [
             "auf",
             "an",
-            "unter",
-            "über"
+            "zu",
+            "nach"
         ]
     },
     {
@@ -256,11 +298,13 @@
         "sentence": "Wir legen uns _____ den Strand.",
         "targetWord": "auf",
         "targetWordTranslation": "onto",
+        "explanation": "Wohin? + Akkusativ: auf den Strand",
+        "difficulty": "hard",
         "wrongAnswers": [
             "unter",
             "in",
             "an",
-            "hinter"
+            "bei"
         ]
     },
     {
@@ -268,11 +312,13 @@
         "sentence": "Er setzt sich _____ den Stuhl.",
         "targetWord": "auf",
         "targetWordTranslation": "onto",
+        "explanation": "Wohin? + Akkusativ: sich setzen auf",
+        "difficulty": "hard",
         "wrongAnswers": [
             "unter",
             "in",
             "an",
-            "hinter"
+            "neben"
         ]
     },
     {
@@ -280,6 +326,8 @@
         "sentence": "Die Wolke ist _____ dem Berg.",
         "targetWord": "über",
         "targetWordTranslation": "over",
+        "explanation": "Wo? + Dativ: über dem Berg (Position)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "auf",
             "unter",
@@ -292,11 +340,13 @@
         "sentence": "Der Teppich liegt _____ dem Boden.",
         "targetWord": "auf",
         "targetWordTranslation": "on",
+        "explanation": "Wo? + Dativ: auf dem Boden (horizontal)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "unter",
             "in",
             "an",
-            "hinter"
+            "neben"
         ]
     },
     {
@@ -304,11 +354,13 @@
         "sentence": "Die Schuhe stehen _____ dem Bett.",
         "targetWord": "unter",
         "targetWordTranslation": "under",
+        "explanation": "Wo? + Dativ: unter dem Bett (Position)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "auf",
             "über",
             "in",
-            "an"
+            "neben"
         ]
     },
     {
@@ -316,11 +368,13 @@
         "sentence": "Das Schild hängt _____ der Tür.",
         "targetWord": "an",
         "targetWordTranslation": "on",
+        "explanation": "Wo? + Dativ: an der Tür (vertikal)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "auf",
             "in",
             "unter",
-            "über"
+            "bei"
         ]
     },
     {
@@ -328,11 +382,13 @@
         "sentence": "Wir treffen uns _____ der Schule.",
         "targetWord": "vor",
         "targetWordTranslation": "in front of",
+        "explanation": "Wo? + Dativ: vor der Schule (Treffpunkt)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "hinter",
             "in",
-            "auf",
-            "unter"
+            "an",
+            "neben"
         ]
     },
     {
@@ -340,11 +396,13 @@
         "sentence": "Der Park ist _____ dem Hotel.",
         "targetWord": "hinter",
         "targetWordTranslation": "behind",
+        "explanation": "Wo? + Dativ: hinter dem Hotel",
+        "difficulty": "hard",
         "wrongAnswers": [
             "vor",
             "in",
             "auf",
-            "unter"
+            "neben"
         ]
     },
     {
@@ -352,10 +410,12 @@
         "sentence": "Das Geschäft ist _____ der Apotheke.",
         "targetWord": "neben",
         "targetWordTranslation": "next to",
+        "explanation": "Wo? + Dativ: neben der Apotheke",
+        "difficulty": "hard",
         "wrongAnswers": [
             "in",
             "auf",
-            "unter",
+            "hinter",
             "zwischen"
         ]
     }

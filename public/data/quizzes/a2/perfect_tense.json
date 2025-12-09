@@ -4,6 +4,8 @@
         "sentence": "Ich habe _____ (lernen).",
         "targetWord": "gelernt",
         "targetWordTranslation": "learned",
+        "explanation": "Schwaches Verb: ge- + Stamm + -t",
+        "difficulty": "easy",
         "wrongAnswers": [
             "lernt",
             "lernte",
@@ -16,11 +18,13 @@
         "sentence": "Er ist nach Hause _____ (gehen).",
         "targetWord": "gegangen",
         "targetWordTranslation": "gone",
+        "explanation": "Bewegung → sein + Partizip II (starkes Verb)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ging",
             "gegangt",
-            "geht",
-            "gegene"
+            "gegeht",
+            "geht"
         ]
     },
     {
@@ -28,11 +32,13 @@
         "sentence": "Wir haben Pizza _____ (essen).",
         "targetWord": "gegessen",
         "targetWordTranslation": "eaten",
+        "explanation": "Starkes Verb: essen → gegessen (e→e→e)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "geessen",
             "aßen",
-            "isst",
-            "geesst"
+            "geesst",
+            "gesst"
         ]
     },
     {
@@ -40,11 +46,13 @@
         "sentence": "Sie hat ein Buch _____ (lesen).",
         "targetWord": "gelesen",
         "targetWordTranslation": "read",
+        "explanation": "Starkes Verb: lesen → gelesen (e→a→e)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "gelest",
-            "las",
-            "lese",
-            "geles"
+            "gelest",
+            "geles",
+            "geliest"
         ]
     },
     {
@@ -52,11 +60,13 @@
         "sentence": "_____ du das gesehen?",
         "targetWord": "Hast",
         "targetWordTranslation": "Have",
+        "explanation": "'sehen' → haben als Hilfsverb; du → hast",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "Habe",
             "Bist",
             "Hat",
-            "Haben"
+            "Haben",
+            "Habst"
         ]
     },
     {
@@ -64,6 +74,8 @@
         "sentence": "Wir _____ im Kino gewesen.",
         "targetWord": "sind",
         "targetWordTranslation": "are (have been)",
+        "explanation": "'sein' → sein als Hilfsverb; wir → sind",
+        "difficulty": "easy",
         "wrongAnswers": [
             "haben",
             "seid",
@@ -76,11 +88,13 @@
         "sentence": "Ich habe Kaffee _____ (trinken).",
         "targetWord": "getrunken",
         "targetWordTranslation": "drunk",
+        "explanation": "Starkes Verb: trinken → getrunken (i→a→u)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "getrinkt",
             "trank",
-            "trinke",
-            "getranken"
+            "getranken",
+            "getrunkt"
         ]
     },
     {
@@ -88,10 +102,12 @@
         "sentence": "Der Zug ist _____ (abfahren).",
         "targetWord": "abgefahren",
         "targetWordTranslation": "departed",
+        "explanation": "Trennbares Verb: ab-ge-fahren (Bewegung → sein)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "abgefahrt",
             "abfahrt",
-            "abfuhr",
+            "geabfahren",
             "abfahrte"
         ]
     },
@@ -100,11 +116,13 @@
         "sentence": "Sie hat viel _____ (arbeiten).",
         "targetWord": "gearbeitet",
         "targetWordTranslation": "worked",
+        "explanation": "Stamm auf -t: ge- + Stamm + -et (gearbeitet)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "arbeitet",
             "arbeitete",
             "gearbeit",
-            "gearbeiteten"
+            "gearbeite"
         ]
     },
     {
@@ -112,10 +130,12 @@
         "sentence": "Er ist früh _____ (aufstehen).",
         "targetWord": "aufgestanden",
         "targetWordTranslation": "gotten up",
+        "explanation": "Trennbar + Zustandsänderung: auf-ge-standen",
+        "difficulty": "easy",
         "wrongAnswers": [
             "aufgesteht",
             "aufstand",
-            "aufgestehn",
+            "geaufstehen",
             "aufstehst"
         ]
     },
@@ -124,11 +144,13 @@
         "sentence": "Ich habe _____ (schlafen).",
         "targetWord": "geschlafen",
         "targetWordTranslation": "slept",
+        "explanation": "Starkes Verb: schlafen → geschlafen (a→ie→a)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "geschlaft",
             "schliefe",
-            "schlaf",
-            "geschlafe"
+            "geschlafe",
+            "schlafe"
         ]
     },
     {
@@ -136,11 +158,13 @@
         "sentence": "Bist du schon _____ (kommen)?",
         "targetWord": "gekommen",
         "targetWordTranslation": "come",
+        "explanation": "Bewegung → sein; kommen → gekommen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "gekommst",
-            "kamst",
             "gekommt",
-            "kommt"
+            "kommt",
+            "gekam"
         ]
     },
     {
@@ -148,11 +172,13 @@
         "sentence": "Wir haben Fußball _____ (spielen).",
         "targetWord": "gespielt",
         "targetWordTranslation": "played",
+        "explanation": "Schwaches Verb: ge- + Stamm + -t",
+        "difficulty": "medium",
         "wrongAnswers": [
             "gespielen",
-            "spielen",
             "spielte",
-            "gespiel"
+            "gespiel",
+            "spielen"
         ]
     },
     {
@@ -160,6 +186,8 @@
         "sentence": "Er hat das Auto _____ (kaufen).",
         "targetWord": "gekauft",
         "targetWordTranslation": "bought",
+        "explanation": "Schwaches Verb: ge- + Stamm + -t",
+        "difficulty": "medium",
         "wrongAnswers": [
             "kauft",
             "kaufte",
@@ -172,6 +200,8 @@
         "sentence": "Sie ist nach Berlin _____ (fahren).",
         "targetWord": "gefahren",
         "targetWordTranslation": "driven/gone",
+        "explanation": "Ortsveränderung → sein; fahren → gefahren",
+        "difficulty": "medium",
         "wrongAnswers": [
             "fahrt",
             "fuhr",
@@ -184,8 +214,10 @@
         "sentence": "Ich habe einen Brief _____ (schreiben).",
         "targetWord": "geschrieben",
         "targetWordTranslation": "written",
+        "explanation": "Starkes Verb: schreiben → geschrieben (ei→ie→ie)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "schreibt",
+            "geschreibt",
             "geschreiben",
             "schrieb",
             "geschriebt"
@@ -196,6 +228,8 @@
         "sentence": "Hast du das _____ (hören)?",
         "targetWord": "gehört",
         "targetWordTranslation": "heard",
+        "explanation": "Schwaches Verb: ge- + Stamm + -t",
+        "difficulty": "medium",
         "wrongAnswers": [
             "hört",
             "hörte",
@@ -208,6 +242,8 @@
         "sentence": "Wir haben Musik _____ (machen).",
         "targetWord": "gemacht",
         "targetWordTranslation": "made",
+        "explanation": "Schwaches Verb: ge- + Stamm + -t",
+        "difficulty": "medium",
         "wrongAnswers": [
             "macht",
             "machte",
@@ -220,6 +256,8 @@
         "sentence": "Er ist schnell _____ (laufen).",
         "targetWord": "gelaufen",
         "targetWordTranslation": "run",
+        "explanation": "Bewegung → sein; laufen → gelaufen (au→ie→au)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "lauft",
             "lief",
@@ -232,11 +270,13 @@
         "sentence": "Sie hat _____ (singen).",
         "targetWord": "gesungen",
         "targetWordTranslation": "sung",
+        "explanation": "Starkes Verb: singen → gesungen (i→a→u)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "singen",
-            "gesingen",
             "singte",
-            "gesang"
+            "gesingen",
+            "gesang",
+            "singst"
         ]
     },
     {
@@ -244,6 +284,8 @@
         "sentence": "Ich habe _____ (warten).",
         "targetWord": "gewartet",
         "targetWordTranslation": "waited",
+        "explanation": "Stamm auf -t: ge- + Stamm + -et",
+        "difficulty": "hard",
         "wrongAnswers": [
             "warte",
             "wartete",
@@ -256,6 +298,8 @@
         "sentence": "Wir haben _____ (lachen).",
         "targetWord": "gelacht",
         "targetWordTranslation": "laughed",
+        "explanation": "Schwaches Verb: ge- + Stamm + -t",
+        "difficulty": "hard",
         "wrongAnswers": [
             "lacht",
             "lachte",
@@ -268,6 +312,8 @@
         "sentence": "Er hat _____ (sagen).",
         "targetWord": "gesagt",
         "targetWordTranslation": "said",
+        "explanation": "Schwaches Verb: ge- + Stamm + -t",
+        "difficulty": "hard",
         "wrongAnswers": [
             "sagt",
             "sagte",
@@ -280,6 +326,8 @@
         "sentence": "Sie ist _____ (bleiben).",
         "targetWord": "geblieben",
         "targetWordTranslation": "stayed",
+        "explanation": "Zustandsänderung → sein; bleiben → geblieben",
+        "difficulty": "hard",
         "wrongAnswers": [
             "bleiben",
             "blieb",
@@ -292,6 +340,8 @@
         "sentence": "Ich habe _____ (denken).",
         "targetWord": "gedacht",
         "targetWordTranslation": "thought",
+        "explanation": "Gemischtes Verb: denken → gedacht",
+        "difficulty": "hard",
         "wrongAnswers": [
             "denkt",
             "denkte",
@@ -304,10 +354,12 @@
         "sentence": "Hast du _____ (verstehen)?",
         "targetWord": "verstanden",
         "targetWordTranslation": "understood",
+        "explanation": "Untrennbar (ver-): kein ge-; verstanden",
+        "difficulty": "hard",
         "wrongAnswers": [
             "versteht",
             "verstand",
-            "versteh",
+            "geverstanden",
             "verstehnt"
         ]
     },
@@ -316,10 +368,12 @@
         "sentence": "Wir haben _____ (beginnen).",
         "targetWord": "begonnen",
         "targetWordTranslation": "begun",
+        "explanation": "Untrennbar (be-): kein ge-; begonnen",
+        "difficulty": "hard",
         "wrongAnswers": [
             "beginnt",
             "begann",
-            "beginnen",
+            "gebegonnen",
             "begonnt"
         ]
     },
@@ -328,10 +382,12 @@
         "sentence": "Er hat _____ (verlieren).",
         "targetWord": "verloren",
         "targetWordTranslation": "lost",
+        "explanation": "Untrennbar (ver-): kein ge-; verloren",
+        "difficulty": "hard",
         "wrongAnswers": [
             "verliert",
             "verlor",
-            "verlieren",
+            "geverloren",
             "verlorn"
         ]
     },
@@ -340,10 +396,12 @@
         "sentence": "Sie hat _____ (gewinnen).",
         "targetWord": "gewonnen",
         "targetWordTranslation": "won",
+        "explanation": "Starkes Verb: gewinnen → gewonnen (i→a→o)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "gewinnt",
             "gewann",
-            "gewinnen",
+            "gegewinnt",
             "gewonn"
         ]
     },
@@ -352,11 +410,13 @@
         "sentence": "Ich habe _____ (finden).",
         "targetWord": "gefunden",
         "targetWordTranslation": "found",
+        "explanation": "Starkes Verb: finden → gefunden (i→a→u)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "findet",
             "fand",
-            "finden",
-            "gefinden"
+            "gefinden",
+            "findte"
         ]
     }
 ]

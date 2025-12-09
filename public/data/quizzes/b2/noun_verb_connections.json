@@ -4,6 +4,8 @@
         "sentence": "Eine Entscheidung _____.",
         "targetWord": "treffen",
         "targetWordTranslation": "to make",
+        "explanation": "Kollokation: 'eine Entscheidung treffen' (nicht 'machen'!)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "machen",
             "tun",
@@ -16,10 +18,12 @@
         "sentence": "In Frage _____.",
         "targetWord": "kommen",
         "targetWordTranslation": "to come (into question)",
+        "explanation": "Funktionsverbgefüge: 'in Frage kommen' = möglich sein",
+        "difficulty": "easy",
         "wrongAnswers": [
             "gehen",
             "stehen",
-            "machen",
+            "stellen",
             "sein"
         ]
     },
@@ -28,11 +32,13 @@
         "sentence": "Kritik _____.",
         "targetWord": "üben",
         "targetWordTranslation": "to express (criticism)",
+        "explanation": "Kollokation: 'Kritik üben' = kritisieren",
+        "difficulty": "easy",
         "wrongAnswers": [
             "machen",
             "geben",
             "sagen",
-            "tun"
+            "äußern"
         ]
     },
     {
@@ -40,11 +46,13 @@
         "sentence": "Einen Rat _____.",
         "targetWord": "geben",
         "targetWordTranslation": "to give",
+        "explanation": "Kollokation: 'einen Rat geben' = raten",
+        "difficulty": "easy",
         "wrongAnswers": [
             "machen",
             "sagen",
             "nehmen",
-            "stellen"
+            "erteilen"
         ]
     },
     {
@@ -52,6 +60,8 @@
         "sentence": "Abschied _____.",
         "targetWord": "nehmen",
         "targetWordTranslation": "to take (leave)",
+        "explanation": "Kollokation: 'Abschied nehmen' = sich verabschieden",
+        "difficulty": "easy",
         "wrongAnswers": [
             "machen",
             "geben",
@@ -64,8 +74,10 @@
         "sentence": "Zur Verfügung _____.",
         "targetWord": "stehen",
         "targetWordTranslation": "to stand (be available)",
+        "explanation": "FVG: 'zur Verfügung stehen' = verfügbar sein",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "sein",
+            "stellen",
             "liegen",
             "machen",
             "geben"
@@ -76,11 +88,13 @@
         "sentence": "Ein Gespräch _____.",
         "targetWord": "führen",
         "targetWordTranslation": "to lead (conduct)",
+        "explanation": "Kollokation: 'ein Gespräch führen' = sprechen/diskutieren",
+        "difficulty": "easy",
         "wrongAnswers": [
             "machen",
             "haben",
             "reden",
-            "sprechen"
+            "halten"
         ]
     },
     {
@@ -88,11 +102,13 @@
         "sentence": "Einen Fehler _____.",
         "targetWord": "begehen",
         "targetWordTranslation": "to commit",
+        "explanation": "Formelle Kollokation: 'einen Fehler begehen' (auch: machen)",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "machen",
             "tun",
             "haben",
-            "geben"
+            "geben",
+            "verursachen"
         ]
     },
     {
@@ -100,10 +116,12 @@
         "sentence": "Unter Druck _____.",
         "targetWord": "stehen",
         "targetWordTranslation": "to stand (be under pressure)",
+        "explanation": "FVG: 'unter Druck stehen' = gestresst sein",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "sein",
+            "setzen",
             "haben",
-            "gehen",
+            "geraten",
             "machen"
         ]
     },
@@ -112,9 +130,11 @@
         "sentence": "Angst _____.",
         "targetWord": "haben",
         "targetWordTranslation": "to have",
+        "explanation": "Kollokation: 'Angst haben' = sich fürchten",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "sein",
             "machen",
+            "bekommen",
             "fühlen",
             "spüren"
         ]
@@ -124,11 +144,13 @@
         "sentence": "Einen Antrag _____.",
         "targetWord": "stellen",
         "targetWordTranslation": "to submit/file",
+        "explanation": "Kollokation: 'einen Antrag stellen' = beantragen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "machen",
             "geben",
             "schreiben",
-            "legen"
+            "einreichen"
         ]
     },
     {
@@ -136,6 +158,8 @@
         "sentence": "Rücksicht _____.",
         "targetWord": "nehmen",
         "targetWordTranslation": "to take (consideration)",
+        "explanation": "Kollokation: 'Rücksicht nehmen' auf = berücksichtigen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "geben",
             "machen",
@@ -148,6 +172,8 @@
         "sentence": "Einen Einfluss _____.",
         "targetWord": "ausüben",
         "targetWordTranslation": "to exert (influence)",
+        "explanation": "Kollokation: 'Einfluss ausüben' auf = beeinflussen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "machen",
             "haben",
@@ -160,9 +186,11 @@
         "sentence": "In Ordnung _____.",
         "targetWord": "bringen",
         "targetWordTranslation": "to put in order",
+        "explanation": "FVG: 'in Ordnung bringen' = reparieren/ordnen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "machen",
-            "tun",
+            "sein",
             "geben",
             "stellen"
         ]
@@ -172,11 +200,13 @@
         "sentence": "Eine Rolle _____.",
         "targetWord": "spielen",
         "targetWordTranslation": "to play (a role)",
+        "explanation": "Kollokation: 'eine Rolle spielen' = wichtig sein",
+        "difficulty": "medium",
         "wrongAnswers": [
             "machen",
             "haben",
             "sein",
-            "nehmen"
+            "übernehmen"
         ]
     },
     {
@@ -184,6 +214,8 @@
         "sentence": "Zur Diskussion _____.",
         "targetWord": "stehen",
         "targetWordTranslation": "to be up for discussion",
+        "explanation": "FVG: 'zur Diskussion stehen' = diskutiert werden",
+        "difficulty": "medium",
         "wrongAnswers": [
             "stellen",
             "sein",
@@ -196,8 +228,10 @@
         "sentence": "Beachtung _____.",
         "targetWord": "finden",
         "targetWordTranslation": "to find (attention)",
+        "explanation": "Kollokation: 'Beachtung finden' = beachtet werden",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "suchen",
+            "schenken",
             "haben",
             "machen",
             "geben"
@@ -208,11 +242,13 @@
         "sentence": "Einen Vorschlag _____.",
         "targetWord": "machen",
         "targetWordTranslation": "to make (a proposal)",
+        "explanation": "Kollokation: 'einen Vorschlag machen' = vorschlagen",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "tun",
+            "stellen",
             "geben",
             "sagen",
-            "stellen"
+            "unterbreiten"
         ]
     },
     {
@@ -220,6 +256,8 @@
         "sentence": "Sich Mühe _____.",
         "targetWord": "geben",
         "targetWordTranslation": "to make an effort",
+        "explanation": "Kollokation: 'sich Mühe geben' = sich anstrengen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "machen",
             "nehmen",
@@ -232,6 +270,8 @@
         "sentence": "Die Verantwortung _____.",
         "targetWord": "übernehmen",
         "targetWordTranslation": "to take (responsibility)",
+        "explanation": "Kollokation: 'Verantwortung übernehmen' = verantwortlich sein",
+        "difficulty": "medium",
         "wrongAnswers": [
             "nehmen",
             "haben",
@@ -244,11 +284,13 @@
         "sentence": "Ein Versprechen _____.",
         "targetWord": "halten",
         "targetWordTranslation": "to keep (a promise)",
+        "explanation": "Kollokation: 'ein Versprechen halten' = nicht brechen",
+        "difficulty": "hard",
         "wrongAnswers": [
             "machen",
             "geben",
-            "haben",
-            "sagen"
+            "erfüllen",
+            "einhalten"
         ]
     },
     {
@@ -256,8 +298,10 @@
         "sentence": "Zum Ausdruck _____.",
         "targetWord": "bringen",
         "targetWordTranslation": "to express",
+        "explanation": "FVG: 'zum Ausdruck bringen' = ausdrücken",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "machen",
+            "kommen",
             "geben",
             "sagen",
             "stellen"
@@ -268,6 +312,8 @@
         "sentence": "Aufs Spiel _____.",
         "targetWord": "setzen",
         "targetWordTranslation": "to put at stake",
+        "explanation": "FVG: 'aufs Spiel setzen' = riskieren",
+        "difficulty": "hard",
         "wrongAnswers": [
             "stellen",
             "machen",
@@ -280,6 +326,8 @@
         "sentence": "Im Stich _____.",
         "targetWord": "lassen",
         "targetWordTranslation": "to leave in the lurch",
+        "explanation": "FVG: 'im Stich lassen' = nicht helfen/aufgeben",
+        "difficulty": "hard",
         "wrongAnswers": [
             "gehen",
             "machen",
@@ -292,11 +340,13 @@
         "sentence": "Mut _____.",
         "targetWord": "fassen",
         "targetWordTranslation": "to take courage",
+        "explanation": "Kollokation: 'Mut fassen' = mutig werden",
+        "difficulty": "hard",
         "wrongAnswers": [
             "machen",
             "haben",
             "nehmen",
-            "geben"
+            "sammeln"
         ]
     },
     {
@@ -304,8 +354,10 @@
         "sentence": "In Kauf _____.",
         "targetWord": "nehmen",
         "targetWordTranslation": "to accept (put up with)",
+        "explanation": "FVG: 'in Kauf nehmen' = akzeptieren (Nachteil)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "kaufen",
+            "bringen",
             "machen",
             "haben",
             "geben"
@@ -316,9 +368,11 @@
         "sentence": "Bescheid _____.",
         "targetWord": "sagen",
         "targetWordTranslation": "to let know",
+        "explanation": "Kollokation: 'Bescheid sagen' = informieren",
+        "difficulty": "hard",
         "wrongAnswers": [
             "geben",
-            "machen",
+            "wissen",
             "tun",
             "sprechen"
         ]
@@ -328,11 +382,13 @@
         "sentence": "Einen Eindruck _____.",
         "targetWord": "hinterlassen",
         "targetWordTranslation": "to leave an impression",
+        "explanation": "Kollokation: 'einen Eindruck hinterlassen' = wirken",
+        "difficulty": "hard",
         "wrongAnswers": [
             "machen",
             "geben",
             "haben",
-            "lassen"
+            "erwecken"
         ]
     },
     {
@@ -340,11 +396,13 @@
         "sentence": "Frieden _____.",
         "targetWord": "schließen",
         "targetWordTranslation": "to make peace",
+        "explanation": "Kollokation: 'Frieden schließen' = versöhnen",
+        "difficulty": "hard",
         "wrongAnswers": [
             "machen",
             "geben",
             "haben",
-            "tun"
+            "stiften"
         ]
     },
     {
@@ -352,11 +410,13 @@
         "sentence": "Einen Vortrag _____.",
         "targetWord": "halten",
         "targetWordTranslation": "to give a lecture",
+        "explanation": "Kollokation: 'einen Vortrag halten' = präsentieren",
+        "difficulty": "hard",
         "wrongAnswers": [
             "machen",
             "geben",
             "sprechen",
-            "sagen"
+            "führen"
         ]
     }
 ]

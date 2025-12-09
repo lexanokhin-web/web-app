@@ -4,6 +4,8 @@
         "sentence": "Ich habe _____ Hund (m).",
         "targetWord": "einen",
         "targetWordTranslation": "a",
+        "explanation": "Akk. maskulin: ein → einen (nur m. ändert sich!)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "eine",
@@ -13,9 +15,11 @@
     },
     {
         "id": "2",
-        "sentence": "Sieht du _____ Mann (m)?",
+        "sentence": "Siehst du _____ Mann (m)?",
         "targetWord": "den",
         "targetWordTranslation": "the",
+        "explanation": "Akk. maskulin: der → den",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -28,6 +32,8 @@
         "sentence": "Ich esse _____ Apfel (m).",
         "targetWord": "einen",
         "targetWordTranslation": "an",
+        "explanation": "Akk. maskulin: ein → einen",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "eine",
@@ -40,6 +46,8 @@
         "sentence": "Wir kaufen _____ Auto (n).",
         "targetWord": "ein",
         "targetWordTranslation": "a",
+        "explanation": "Akk. neutral: ein bleibt ein (keine Änderung)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "einen",
             "eine",
@@ -52,6 +60,8 @@
         "sentence": "Er liest _____ Buch (n).",
         "targetWord": "das",
         "targetWordTranslation": "the",
+        "explanation": "Akk. neutral: das bleibt das",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "die",
@@ -64,6 +74,8 @@
         "sentence": "Ich suche _____ Tasche (f).",
         "targetWord": "meine",
         "targetWordTranslation": "my",
+        "explanation": "Akk. feminin: meine bleibt meine",
+        "difficulty": "easy",
         "wrongAnswers": [
             "mein",
             "meinen",
@@ -76,6 +88,8 @@
         "sentence": "Kennst du _____ Film (m)?",
         "targetWord": "den",
         "targetWordTranslation": "the",
+        "explanation": "Akk. maskulin: der → den",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -88,6 +102,8 @@
         "sentence": "Ich trinke _____ Kaffee (m).",
         "targetWord": "einen",
         "targetWordTranslation": "a",
+        "explanation": "Akk. maskulin: ein → einen",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "eine",
@@ -100,78 +116,92 @@
         "sentence": "Möchtest du _____ Cola (f)?",
         "targetWord": "eine",
         "targetWordTranslation": "a",
+        "explanation": "Akk. feminin: eine bleibt eine",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "einen",
             "der",
-            "den"
+            "die"
         ]
     },
     {
         "id": "10",
-        "sentence": "Er besucht _____ Freund (m).",
-        "targetWord": "seinen",
-        "targetWordTranslation": "his",
-        "wrongAnswers": [
-            "sein",
-            "seine",
-            "seinem",
-            "ihren"
-        ]
-    },
-    {
-        "id": "11",
-        "sentence": "Für _____ (ich) ist das nichts.",
-        "targetWord": "mich",
-        "targetWordTranslation": "me",
-        "wrongAnswers": [
-            "mir",
-            "ich",
-            "dir",
-            "sich"
-        ]
-    },
-    {
-        "id": "12",
-        "sentence": "Ohne _____ (du) gehe ich nicht.",
-        "targetWord": "dich",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "dir",
-            "du",
-            "ihm",
-            "euch"
-        ]
-    },
-    {
-        "id": "13",
-        "sentence": "Wir brauchen _____ Tisch (m).",
+        "sentence": "Ich brauche _____ Computer (m).",
         "targetWord": "einen",
         "targetWordTranslation": "a",
+        "explanation": "Akk. maskulin: ein → einen",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "eine",
             "der",
-            "den"
-        ]
-    },
-    {
-        "id": "14",
-        "sentence": "Ich nehme _____ Salat (m).",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "der",
-            "die",
-            "das",
             "dem"
         ]
     },
     {
+        "id": "11",
+        "sentence": "Er findet _____ Schlüssel (m).",
+        "targetWord": "den",
+        "targetWordTranslation": "the",
+        "explanation": "Akk. maskulin: der → den",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "der",
+            "dem",
+            "das",
+            "die"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "Ich liebe _____ (ich).",
+        "targetWord": "dich",
+        "targetWordTranslation": "you",
+        "explanation": "Personalpronomen Akk.: du → dich",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "dir",
+            "du",
+            "mich",
+            "ihm"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Siehst du _____ (er)?",
+        "targetWord": "ihn",
+        "targetWordTranslation": "him",
+        "explanation": "Personalpronomen Akk.: er → ihn",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihm",
+            "er",
+            "es",
+            "ihr"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Ich rufe _____ (sie, Sg.) an.",
+        "targetWord": "sie",
+        "targetWordTranslation": "her",
+        "explanation": "Personalpronomen Akk. f.: sie bleibt sie",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihr",
+            "ihn",
+            "es",
+            "ihnen"
+        ]
+    },
+    {
         "id": "15",
-        "sentence": "Hast du _____ Stift (m)?",
+        "sentence": "Hast du _____ Bruder (m)?",
         "targetWord": "einen",
         "targetWordTranslation": "a",
+        "explanation": "Akk. maskulin: ein → einen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "ein",
             "eine",
@@ -181,182 +211,212 @@
     },
     {
         "id": "16",
-        "sentence": "Er liebt _____ Frau (f).",
-        "targetWord": "seine",
-        "targetWordTranslation": "his",
+        "sentence": "Ich besuche _____ (wir).",
+        "targetWord": "euch",
+        "targetWordTranslation": "you guys",
+        "explanation": "Personalpronomen Akk. Pl.: ihr → euch",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "sein",
-            "seinen",
-            "seinem",
-            "ihre"
+            "uns",
+            "ihr",
+            "sie",
+            "ihnen"
         ]
     },
     {
         "id": "17",
-        "sentence": "Sie ruft _____ Vater (m).",
-        "targetWord": "ihren",
-        "targetWordTranslation": "her",
-        "wrongAnswers": [
-            "ihr",
-            "ihre",
-            "ihrem",
-            "sein"
-        ]
-    },
-    {
-        "id": "18",
-        "sentence": "Ich mag _____ Lehrer (m) nicht.",
-        "targetWord": "den",
+        "sentence": "Er sieht _____ Haus (n).",
+        "targetWord": "das",
         "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "der",
-            "dem",
-            "das",
-            "die"
-        ]
-    },
-    {
-        "id": "19",
-        "sentence": "Kaufst du _____ Rock (m)?",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
+        "explanation": "Akk. neutral: das bleibt das",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
             "die",
-            "das",
+            "den",
             "dem"
         ]
     },
     {
-        "id": "20",
-        "sentence": "Wir essen _____ Kuchen (m).",
-        "targetWord": "einen",
-        "targetWordTranslation": "a",
+        "id": "18",
+        "sentence": "Ich kenne _____ (Sie, formal).",
+        "targetWord": "Sie",
+        "targetWordTranslation": "You",
+        "explanation": "Höflichkeitsform Akk.: Sie bleibt Sie",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "ein",
-            "eine",
-            "der",
+            "Ihnen",
+            "sie",
+            "ihnen",
+            "euch"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Wir besuchen _____ (sie, Pl.).",
+        "targetWord": "sie",
+        "targetWordTranslation": "them",
+        "explanation": "Personalpronomen Akk. Pl.: sie bleibt sie",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihnen",
+            "ihr",
+            "ihn",
+            "es"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Ich verstehe _____ (es).",
+        "targetWord": "es",
+        "targetWordTranslation": "it",
+        "explanation": "Personalpronomen Akk. n.: es bleibt es",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihm",
+            "ihn",
+            "sie",
             "das"
         ]
     },
     {
         "id": "21",
-        "sentence": "Ich sehe _____ Vogel (m).",
-        "targetWord": "einen",
-        "targetWordTranslation": "a",
+        "sentence": "Er kauft _____ Jacke (f).",
+        "targetWord": "die",
+        "targetWordTranslation": "the",
+        "explanation": "Akk. feminin: die bleibt die",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "ein",
-            "eine",
             "der",
+            "das",
+            "den",
             "dem"
         ]
     },
     {
         "id": "22",
-        "sentence": "Gegen _____ (er) habe ich nichts.",
-        "targetWord": "ihn",
-        "targetWordTranslation": "him",
+        "sentence": "Ich treffe _____ (ich).",
+        "targetWord": "mich",
+        "targetWordTranslation": "myself",
+        "explanation": "Reflexiv/Akk.: ich → mich",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "ihm",
-            "er",
-            "es",
-            "sie"
+            "mir",
+            "ich",
+            "mein",
+            "dich"
         ]
     },
     {
         "id": "23",
-        "sentence": "Durch _____ Wald (m).",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
+        "sentence": "Hast du _____ Freund (m)?",
+        "targetWord": "einen",
+        "targetWordTranslation": "a",
+        "explanation": "Akk. maskulin: ein → einen",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "der",
-            "dem",
-            "das",
-            "die"
+            "ein",
+            "eine",
+            "den",
+            "dem"
         ]
     },
     {
         "id": "24",
-        "sentence": "Um _____ Haus (n).",
+        "sentence": "Ich sehe _____ Mädchen (n).",
         "targetWord": "das",
         "targetWordTranslation": "the",
+        "explanation": "Akk. neutral: das bleibt das (Mädchen = n!)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "der",
             "die",
+            "der",
             "den",
             "dem"
         ]
     },
     {
         "id": "25",
-        "sentence": "Ich verstehe _____ Satz (m) nicht.",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
+        "sentence": "Er liebt _____ (ich).",
+        "targetWord": "mich",
+        "targetWordTranslation": "me",
+        "explanation": "Personalpronomen Akk.: ich → mich",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "der",
-            "dem",
-            "das",
-            "die"
+            "mir",
+            "ich",
+            "mein",
+            "dir"
         ]
     },
     {
         "id": "26",
-        "sentence": "Sie schreibt _____ Brief (m).",
-        "targetWord": "einen",
-        "targetWordTranslation": "a",
+        "sentence": "Wir brauchen _____ Hilfe (f).",
+        "targetWord": "keine",
+        "targetWordTranslation": "no",
+        "explanation": "Akk. feminin negativ: keine",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "ein",
-            "eine",
-            "der",
-            "dem"
+            "kein",
+            "keinen",
+            "keinem",
+            "keiner"
         ]
     },
     {
         "id": "27",
-        "sentence": "Er öffnet _____ Tür (f).",
-        "targetWord": "die",
-        "targetWordTranslation": "the",
+        "sentence": "Ich habe _____ Zeit (f).",
+        "targetWord": "keine",
+        "targetWordTranslation": "no",
+        "explanation": "Akk. feminin negativ: keine",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "der",
-            "den",
-            "das",
-            "ein"
+            "kein",
+            "keinen",
+            "keinem",
+            "keiner"
         ]
     },
     {
         "id": "28",
-        "sentence": "Ich höre _____ Musik (f).",
-        "targetWord": "die",
-        "targetWordTranslation": "the",
+        "sentence": "Er hat _____ Geld (n).",
+        "targetWord": "kein",
+        "targetWordTranslation": "no",
+        "explanation": "Akk. neutral negativ: kein",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "der",
-            "den",
-            "das",
-            "ein"
+            "keine",
+            "keinen",
+            "keinem",
+            "keiner"
         ]
     },
     {
         "id": "29",
-        "sentence": "Wir trinken _____ Wasser (n).",
-        "targetWord": "das",
-        "targetWordTranslation": "the",
+        "sentence": "Ich sehe _____ Hund (m).",
+        "targetWord": "keinen",
+        "targetWordTranslation": "no",
+        "explanation": "Akk. maskulin negativ: kein → keinen",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "der",
-            "die",
-            "den",
-            "ein"
+            "kein",
+            "keine",
+            "keinem",
+            "keiner"
         ]
     },
     {
         "id": "30",
-        "sentence": "Er repariert _____ Fahrrad (n).",
-        "targetWord": "sein",
-        "targetWordTranslation": "his",
+        "sentence": "Hörst du _____ (ich)?",
+        "targetWord": "mich",
+        "targetWordTranslation": "me",
+        "explanation": "Personalpronomen Akk.: ich → mich",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "seinen",
-            "seine",
-            "seinem",
-            "ihr"
+            "mir",
+            "ich",
+            "mein",
+            "dir"
         ]
     }
 ]

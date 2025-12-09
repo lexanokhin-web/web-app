@@ -4,10 +4,12 @@
         "sentence": "Das ist der Mann, _____ ich kenne.",
         "targetWord": "den",
         "targetWordTranslation": "whom (masc. acc.)",
+        "explanation": "Akkusativ maskulin: 'kennen' + Akk. → den",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
-            "das",
+            "dessen",
             "die"
         ]
     },
@@ -16,10 +18,12 @@
         "sentence": "Das ist die Frau, _____ mir hilft.",
         "targetWord": "die",
         "targetWordTranslation": "who (fem. nom.)",
+        "explanation": "Nominativ feminin: Frau = Subjekt im Nebensatz → die",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "den",
-            "das",
+            "deren",
             "dem"
         ]
     },
@@ -28,10 +32,12 @@
         "sentence": "Das ist das Kind, _____ spielt.",
         "targetWord": "das",
         "targetWordTranslation": "that (neut. nom.)",
+        "explanation": "Nominativ neutral: Kind = Subjekt im Nebensatz → das",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "die",
-            "den",
+            "dessen",
             "dem"
         ]
     },
@@ -40,10 +46,12 @@
         "sentence": "Die Kinder, _____ ich sehe, spielen.",
         "targetWord": "die",
         "targetWordTranslation": "whom (pl. acc.)",
+        "explanation": "Akkusativ Plural: 'sehen' + Akk. → die (Plural)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "denen",
-            "dem",
+            "deren",
             "das"
         ]
     },
@@ -52,6 +60,8 @@
         "sentence": "Der Mann, _____ Auto kaputt ist.",
         "targetWord": "dessen",
         "targetWordTranslation": "whose (masc.)",
+        "explanation": "Genitiv maskulin/neutral: dessen (Besitz) → dessen Auto",
+        "difficulty": "easy",
         "wrongAnswers": [
             "deren",
             "dem",
@@ -64,6 +74,8 @@
         "sentence": "Die Frau, _____ Tasche hier liegt.",
         "targetWord": "deren",
         "targetWordTranslation": "whose (fem.)",
+        "explanation": "Genitiv feminin/Plural: deren (Besitz) → deren Tasche",
+        "difficulty": "easy",
         "wrongAnswers": [
             "dessen",
             "der",
@@ -76,10 +88,12 @@
         "sentence": "Das Buch, _____ ich lese, ist gut.",
         "targetWord": "das",
         "targetWordTranslation": "that (neut. acc.)",
+        "explanation": "Akkusativ neutral: 'lesen' + Akk. → das",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "die",
-            "den",
+            "dessen",
             "dem"
         ]
     },
@@ -88,10 +102,12 @@
         "sentence": "Der Lehrer, _____ ich danke.",
         "targetWord": "dem",
         "targetWordTranslation": "whom (masc. dat.)",
+        "explanation": "Dativ maskulin: 'danken' + Dativ → dem",
+        "difficulty": "easy",
         "wrongAnswers": [
             "den",
             "der",
-            "das",
+            "dessen",
             "die"
         ]
     },
@@ -100,10 +116,12 @@
         "sentence": "Die Stadt, in _____ ich wohne.",
         "targetWord": "der",
         "targetWordTranslation": "which (fem. dat.)",
+        "explanation": "Dativ feminin: 'in' + Dativ (Ort) → in der Stadt",
+        "difficulty": "easy",
         "wrongAnswers": [
             "die",
             "das",
-            "den",
+            "deren",
             "dem"
         ]
     },
@@ -112,10 +130,12 @@
         "sentence": "Das Haus, in _____ wir leben.",
         "targetWord": "dem",
         "targetWordTranslation": "which (neut. dat.)",
+        "explanation": "Dativ neutral: 'in' + Dativ (Ort) → in dem Haus",
+        "difficulty": "easy",
         "wrongAnswers": [
             "das",
             "der",
-            "den",
+            "dessen",
             "die"
         ]
     },
@@ -124,10 +144,12 @@
         "sentence": "Die Freunde, mit _____ ich reise.",
         "targetWord": "denen",
         "targetWordTranslation": "whom (pl. dat.)",
+        "explanation": "Dativ Plural: 'mit' + Dativ → mit denen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "die",
             "den",
-            "der",
+            "deren",
             "dem"
         ]
     },
@@ -136,10 +158,12 @@
         "sentence": "Alles, _____ ich weiß.",
         "targetWord": "was",
         "targetWordTranslation": "what",
+        "explanation": "Nach 'alles/nichts/etwas' steht 'was' (nicht 'das')",
+        "difficulty": "medium",
         "wrongAnswers": [
             "das",
             "wo",
-            "wohin",
+            "welches",
             "wie"
         ]
     },
@@ -148,10 +172,12 @@
         "sentence": "Der Hund, _____ ich füttere.",
         "targetWord": "den",
         "targetWordTranslation": "whom (masc. acc.)",
+        "explanation": "Akkusativ maskulin: 'füttern' + Akk. → den",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
             "dem",
-            "das",
+            "dessen",
             "die"
         ]
     },
@@ -160,9 +186,11 @@
         "sentence": "Die Schule, _____ ich besuchte.",
         "targetWord": "die",
         "targetWordTranslation": "which (fem. acc.)",
+        "explanation": "Akkusativ feminin: 'besuchen' + Akk. → die",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
-            "den",
+            "deren",
             "das",
             "dem"
         ]
@@ -172,10 +200,12 @@
         "sentence": "Das Kind, _____ ich helfe.",
         "targetWord": "dem",
         "targetWordTranslation": "whom (neut. dat.)",
+        "explanation": "Dativ neutral: 'helfen' + Dativ → dem",
+        "difficulty": "medium",
         "wrongAnswers": [
             "das",
             "den",
-            "der",
+            "dessen",
             "des"
         ]
     },
@@ -184,10 +214,12 @@
         "sentence": "Der Tisch, auf _____ das Buch liegt.",
         "targetWord": "dem",
         "targetWordTranslation": "which (masc. dat.)",
+        "explanation": "Dativ maskulin: 'auf' + Dativ (Ort) → auf dem",
+        "difficulty": "medium",
         "wrongAnswers": [
             "den",
             "der",
-            "das",
+            "dessen",
             "die"
         ]
     },
@@ -196,9 +228,11 @@
         "sentence": "Die Frau, mit _____ ich spreche.",
         "targetWord": "der",
         "targetWordTranslation": "whom (fem. dat.)",
+        "explanation": "Dativ feminin: 'mit' + Dativ → mit der",
+        "difficulty": "medium",
         "wrongAnswers": [
             "die",
-            "dem",
+            "deren",
             "den",
             "das"
         ]
@@ -208,9 +242,11 @@
         "sentence": "Das Auto, mit _____ wir fahren.",
         "targetWord": "dem",
         "targetWordTranslation": "which (neut. dat.)",
+        "explanation": "Dativ neutral: 'mit' + Dativ → mit dem",
+        "difficulty": "medium",
         "wrongAnswers": [
             "das",
-            "den",
+            "dessen",
             "der",
             "die"
         ]
@@ -220,9 +256,11 @@
         "sentence": "Die Leute, bei _____ wir wohnen.",
         "targetWord": "denen",
         "targetWordTranslation": "whom (pl. dat.)",
+        "explanation": "Dativ Plural: 'bei' + Dativ → bei denen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "die",
-            "den",
+            "deren",
             "der",
             "dem"
         ]
@@ -232,11 +270,13 @@
         "sentence": "Das Beste, _____ ich habe.",
         "targetWord": "was",
         "targetWordTranslation": "that",
+        "explanation": "Nach Superlativ (das Beste) steht 'was'",
+        "difficulty": "medium",
         "wrongAnswers": [
             "das",
             "wo",
-            "wie",
-            "welches"
+            "welches",
+            "wie"
         ]
     },
     {
@@ -244,11 +284,13 @@
         "sentence": "Der Ort, _____ wir uns trafen.",
         "targetWord": "wo",
         "targetWordTranslation": "where",
+        "explanation": "Lokalangabe: 'wo' bei Ortsangaben (statt 'an dem')",
+        "difficulty": "hard",
         "wrongAnswers": [
             "was",
-            "wer",
+            "der",
             "wie",
-            "als"
+            "wohin"
         ]
     },
     {
@@ -256,9 +298,11 @@
         "sentence": "Der Film, _____ wir sahen.",
         "targetWord": "den",
         "targetWordTranslation": "which (masc. acc.)",
+        "explanation": "Akkusativ maskulin: 'sehen' + Akk. → den",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
-            "dem",
+            "dessen",
             "das",
             "die"
         ]
@@ -268,9 +312,11 @@
         "sentence": "Die Tasche, in _____ das Geld ist.",
         "targetWord": "der",
         "targetWordTranslation": "which (fem. dat.)",
+        "explanation": "Dativ feminin: 'in' + Dativ (Ort) → in der",
+        "difficulty": "hard",
         "wrongAnswers": [
             "die",
-            "dem",
+            "deren",
             "den",
             "das"
         ]
@@ -280,9 +326,11 @@
         "sentence": "Der Freund, _____ ich vertraue.",
         "targetWord": "dem",
         "targetWordTranslation": "whom (masc. dat.)",
+        "explanation": "Dativ maskulin: 'vertrauen' + Dativ → dem",
+        "difficulty": "hard",
         "wrongAnswers": [
             "den",
-            "der",
+            "dessen",
             "das",
             "die"
         ]
@@ -292,9 +340,11 @@
         "sentence": "Die Eltern, _____ Kinder hier sind.",
         "targetWord": "deren",
         "targetWordTranslation": "whose (pl.)",
+        "explanation": "Genitiv Plural: deren (Besitz) → deren Kinder",
+        "difficulty": "hard",
         "wrongAnswers": [
             "dessen",
-            "der",
+            "denen",
             "den",
             "dem"
         ]
@@ -304,11 +354,13 @@
         "sentence": "Das Kind, _____ Spielzeug kaputt ist.",
         "targetWord": "dessen",
         "targetWordTranslation": "whose (neut.)",
+        "explanation": "Genitiv neutral: dessen (Besitz) → dessen Spielzeug",
+        "difficulty": "hard",
         "wrongAnswers": [
             "deren",
             "dem",
-            "den",
-            "das"
+            "das",
+            "den"
         ]
     },
     {
@@ -316,9 +368,11 @@
         "sentence": "Der Park, durch _____ wir gehen.",
         "targetWord": "den",
         "targetWordTranslation": "which (masc. acc.)",
+        "explanation": "Akkusativ maskulin: 'durch' + Akk. → durch den",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
-            "dem",
+            "dessen",
             "das",
             "die"
         ]
@@ -328,9 +382,11 @@
         "sentence": "Die Brücke, über _____ wir fahren.",
         "targetWord": "die",
         "targetWordTranslation": "which (fem. acc.)",
+        "explanation": "Akkusativ feminin: 'über' + Akk. (Bewegung) → über die",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
-            "den",
+            "deren",
             "das",
             "dem"
         ]
@@ -340,11 +396,13 @@
         "sentence": "Das Haus, _____ Dach rot ist.",
         "targetWord": "dessen",
         "targetWordTranslation": "whose (neut.)",
+        "explanation": "Genitiv neutral: dessen (Besitz) → dessen Dach",
+        "difficulty": "hard",
         "wrongAnswers": [
             "deren",
             "dem",
-            "den",
-            "das"
+            "das",
+            "den"
         ]
     },
     {
@@ -352,11 +410,13 @@
         "sentence": "Nichts, _____ wichtig ist.",
         "targetWord": "was",
         "targetWordTranslation": "that",
+        "explanation": "Nach 'nichts/alles/etwas' steht 'was' (nicht 'das')",
+        "difficulty": "hard",
         "wrongAnswers": [
             "das",
             "wo",
-            "wie",
-            "welches"
+            "welches",
+            "wie"
         ]
     }
 ]

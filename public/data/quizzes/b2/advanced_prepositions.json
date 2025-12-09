@@ -4,10 +4,12 @@
         "sentence": "_____ des schlechten Wetters blieben wir zu Hause.",
         "targetWord": "Aufgrund",
         "targetWordTranslation": "Due to",
+        "explanation": "'aufgrund' + Genitiv: Grund/Ursache (formell)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Trotz",
-            "Wegen",
             "Während",
+            "Infolge",
             "Statt"
         ]
     },
@@ -16,11 +18,13 @@
         "sentence": "_____ der vielen Arbeit bin ich müde.",
         "targetWord": "Wegen",
         "targetWordTranslation": "Because of",
+        "explanation": "'wegen' + Genitiv: Ursache/Grund (häufig)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Trotz",
             "Während",
             "Statt",
-            "Außerhalb"
+            "Dank"
         ]
     },
     {
@@ -28,11 +32,13 @@
         "sentence": "_____ des Regens gingen wir spazieren.",
         "targetWord": "Trotz",
         "targetWordTranslation": "Despite",
+        "explanation": "'trotz' + Genitiv: Widerspruch (obwohl)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Wegen",
             "Aufgrund",
-            "Während",
-            "Statt"
+            "Infolge",
+            "Dank"
         ]
     },
     {
@@ -40,11 +46,13 @@
         "sentence": "_____ der Pause trinken wir Kaffee.",
         "targetWord": "Während",
         "targetWordTranslation": "During",
+        "explanation": "'während' + Genitiv: Zeitspanne (gleichzeitig)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Wegen",
             "Trotz",
             "Statt",
-            "Innerhalb"
+            "Binnen"
         ]
     },
     {
@@ -52,6 +60,8 @@
         "sentence": "_____ eines Autos kaufte er ein Fahrrad.",
         "targetWord": "Statt",
         "targetWordTranslation": "Instead of",
+        "explanation": "'statt/anstatt' + Genitiv: Alternative/Ersatz",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Trotz",
             "Wegen",
@@ -61,38 +71,44 @@
     },
     {
         "id": "6",
-        "sentence": "_____ der Stadt gibt es einen Park.",
+        "sentence": "_____ der Stadt gibt es viele Parks.",
         "targetWord": "Innerhalb",
         "targetWordTranslation": "Inside/Within",
+        "explanation": "'innerhalb' + Genitiv: räumlich/zeitlich (drinnen)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Außerhalb",
-            "Trotz",
-            "Wegen",
-            "Statt"
+            "Jenseits",
+            "Diesseits",
+            "Inmitten"
         ]
     },
     {
         "id": "7",
-        "sentence": "_____ der Öffnungszeiten.",
+        "sentence": "_____ der Öffnungszeiten ist das Büro geschlossen.",
         "targetWord": "Außerhalb",
         "targetWordTranslation": "Outside",
+        "explanation": "'außerhalb' + Genitiv: räumlich/zeitlich (draußen)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Innerhalb",
-            "Trotz",
-            "Wegen",
+            "Während",
+            "Binnen",
             "Statt"
         ]
     },
     {
         "id": "8",
-        "sentence": "_____ dem Gesetz.",
+        "sentence": "_____ Gesetz ist das verboten.",
         "targetWord": "Laut",
         "targetWordTranslation": "According to",
+        "explanation": "'laut' + Genitiv/Dativ: Quelle/Aussage",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "Trotz",
-            "Wegen",
-            "Statt",
-            "Während"
+            "Gemäß",
+            "Kraft",
+            "Zwecks",
+            "Seitens"
         ]
     },
     {
@@ -100,114 +116,134 @@
         "sentence": "_____ einer Woche muss ich fertig sein.",
         "targetWord": "Binnen",
         "targetWordTranslation": "Within",
+        "explanation": "'binnen' + Genitiv/Dativ: Zeitfrist (formell)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Während",
-            "Trotz",
-            "Wegen",
-            "Statt"
+            "Innerhalb",
+            "Nach",
+            "Vor"
         ]
     },
     {
         "id": "10",
-        "sentence": "_____ des Unfalls gab es Stau.",
+        "sentence": "_____ des Unfalls kam es zu Stau.",
         "targetWord": "Infolge",
         "targetWordTranslation": "As a result of",
+        "explanation": "'infolge' + Genitiv: Folge/Konsequenz",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Trotz",
             "Statt",
             "Während",
-            "Außerhalb"
+            "Dank"
         ]
     },
     {
         "id": "11",
-        "sentence": "_____ mir hat niemand das gesehen.",
+        "sentence": "_____ mir hat das niemand gesehen.",
         "targetWord": "Außer",
         "targetWordTranslation": "Except",
+        "explanation": "'außer' + Dativ: Ausnahme (exklusiv)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Mit",
-            "Wegen",
-            "Trotz",
-            "Statt"
+            "Ohne",
+            "Neben",
+            "Statt",
+            "Trotz"
         ]
     },
     {
         "id": "12",
-        "sentence": "_____ dem Fluss entlang.",
-        "targetWord": "Entlang",
+        "sentence": "Wir gingen den Fluss _____.",
+        "targetWord": "entlang",
         "targetWordTranslation": "Along",
+        "explanation": "'entlang' + Akkusativ (nachgestellt) oder Dativ (vorangestellt)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Durch",
-            "Gegen",
-            "Ohne",
-            "Um"
+            "längs",
+            "durch",
+            "gegen",
+            "um"
         ]
     },
     {
         "id": "13",
-        "sentence": "_____ meiner Meinung...",
+        "sentence": "_____ meiner Meinung ist das falsch.",
         "targetWord": "Nach",
         "targetWordTranslation": "According to",
+        "explanation": "'nach + Dativ': Meinung/Ansicht",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Vor",
             "In",
-            "Auf",
-            "Mit"
+            "Laut",
+            "Gemäß"
         ]
     },
     {
         "id": "14",
-        "sentence": "_____ dem Haus gegenüber.",
-        "targetWord": "Gegenüber",
+        "sentence": "Das Café liegt dem Bahnhof _____.",
+        "targetWord": "gegenüber",
         "targetWordTranslation": "Opposite",
+        "explanation": "'gegenüber' + Dativ: räumlich (vis-à-vis)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Neben",
-            "Vor",
-            "Hinter",
-            "Bei"
+            "neben",
+            "hinter",
+            "vor",
+            "bei"
         ]
     },
     {
         "id": "15",
-        "sentence": "_____ der Hilfe seiner Freunde.",
+        "sentence": "_____ der Hilfe seiner Freunde schaffte er es.",
         "targetWord": "Dank",
         "targetWordTranslation": "Thanks to",
+        "explanation": "'dank' + Genitiv/Dativ: positiver Grund",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Wegen",
             "Trotz",
             "Statt",
-            "Außer"
+            "Infolge"
         ]
     },
     {
         "id": "16",
-        "sentence": "_____ des Tages.",
-        "targetWord": "Lauf",
-        "targetWordTranslation": "Course (Im Lauf)",
+        "sentence": "Im _____ des Jahres verbesserte sich die Lage.",
+        "targetWord": "Laufe",
+        "targetWordTranslation": "Course",
+        "explanation": "'im Laufe' + Genitiv: Zeitverlauf",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Weg",
+            "Verlauf",
             "Gang",
-            "Ziel",
-            "Bahn"
+            "Zug",
+            "Rahmen"
         ]
     },
     {
         "id": "17",
-        "sentence": "_____ des Jahres.",
-        "targetWord": "Innerhalb",
+        "sentence": "Das muss _____ eines Monats erledigt werden.",
+        "targetWord": "innerhalb",
         "targetWordTranslation": "Within",
+        "explanation": "'innerhalb' + Genitiv: Zeitfrist",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Außerhalb",
-            "Trotz",
-            "Statt",
-            "Wegen"
+            "außerhalb",
+            "binnen",
+            "während",
+            "nach"
         ]
     },
     {
         "id": "18",
-        "sentence": "_____ der Brücke.",
+        "sentence": "_____ der Grenze liegt ein Dorf.",
         "targetWord": "Jenseits",
         "targetWordTranslation": "Beyond",
+        "explanation": "'jenseits' + Genitiv: auf der anderen Seite",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Diesseits",
             "Innerhalb",
@@ -217,9 +253,11 @@
     },
     {
         "id": "19",
-        "sentence": "_____ des Berges (dieser Seite).",
+        "sentence": "_____ der Alpen liegt Österreich.",
         "targetWord": "Diesseits",
         "targetWordTranslation": "This side of",
+        "explanation": "'diesseits' + Genitiv: auf dieser Seite",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Jenseits",
             "Außerhalb",
@@ -229,45 +267,53 @@
     },
     {
         "id": "20",
-        "sentence": "_____ seines Amtes.",
+        "sentence": "_____ seines Amtes traf er die Entscheidung.",
         "targetWord": "Kraft",
         "targetWordTranslation": "By virtue of",
+        "explanation": "'kraft' + Genitiv: Befugnis/Macht (formell)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Statt",
-            "Trotz",
-            "Wegen",
-            "Laut"
+            "Gemäß",
+            "Laut",
+            "Seitens"
         ]
     },
     {
         "id": "21",
-        "sentence": "_____ der Straße.",
+        "sentence": "_____ der Küste gibt es viele Hotels.",
         "targetWord": "Längs",
         "targetWordTranslation": "Along",
+        "explanation": "'längs' + Genitiv: parallel zu (formell)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Quer",
+            "Entlang",
             "Durch",
-            "Um",
-            "In"
+            "Um"
         ]
     },
     {
         "id": "22",
-        "sentence": "_____ des Waldes (in der Mitte).",
+        "sentence": "_____ des Waldes steht eine Hütte.",
         "targetWord": "Inmitten",
         "targetWordTranslation": "In the middle of",
+        "explanation": "'inmitten' + Genitiv: zentral/mittendrin",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Außerhalb",
             "Neben",
-            "Vor",
-            "Hinter"
+            "Jenseits",
+            "Diesseits"
         ]
     },
     {
         "id": "23",
-        "sentence": "_____ der Umstände.",
+        "sentence": "_____ der schwierigen Lage müssen wir handeln.",
         "targetWord": "Angesichts",
         "targetWordTranslation": "In view of",
+        "explanation": "'angesichts' + Genitiv: Situation/Umstände",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Trotz",
             "Wegen",
@@ -277,21 +323,25 @@
     },
     {
         "id": "24",
-        "sentence": "_____ des Vertrages.",
+        "sentence": "_____ dem Vertrag ist das verboten.",
         "targetWord": "Gemäß",
         "targetWordTranslation": "In accordance with",
+        "explanation": "'gemäß' + Dativ: entsprechend/laut",
+        "difficulty": "hard",
         "wrongAnswers": [
+            "Entgegen",
             "Trotz",
             "Wegen",
-            "Statt",
-            "Außer"
+            "Statt"
         ]
     },
     {
         "id": "25",
-        "sentence": "_____ des Wetters gehen wir.",
+        "sentence": "_____ des schlechten Wetters gehen wir los.",
         "targetWord": "Ungeachtet",
         "targetWordTranslation": "Regardless of",
+        "explanation": "'ungeachtet' + Genitiv: ohne Rücksicht auf",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Wegen",
             "Dank",
@@ -301,9 +351,11 @@
     },
     {
         "id": "26",
-        "sentence": "_____ der Kinder.",
+        "sentence": "_____ der Kinder verzichtete er auf das Geld.",
         "targetWord": "Zugunsten",
         "targetWordTranslation": "In favor of",
+        "explanation": "'zugunsten' + Genitiv: zum Vorteil von",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Zuungunsten",
             "Trotz",
@@ -313,50 +365,58 @@
     },
     {
         "id": "27",
-        "sentence": "_____ der Maßnahmen.",
+        "sentence": "_____ besserer Kommunikation führen wir Meetings ein.",
         "targetWord": "Zwecks",
         "targetWordTranslation": "For the purpose of",
+        "explanation": "'zwecks' + Genitiv: Zweck/Ziel (Amtsdeutsch)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Trotz",
             "Wegen",
+            "Trotz",
             "Statt",
-            "Außer"
+            "Dank"
         ]
     },
     {
         "id": "28",
-        "sentence": "_____ des Hotels.",
+        "sentence": "_____ des Hotels gab es eine Beschwerde.",
         "targetWord": "Seitens",
         "targetWordTranslation": "On the part of",
+        "explanation": "'seitens' + Genitiv: von Seiten/von... her",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Trotz",
             "Wegen",
-            "Statt",
-            "Außer"
+            "Gemäß",
+            "Laut"
         ]
     },
     {
         "id": "29",
-        "sentence": "_____ des Flusses (andere Seite).",
+        "sentence": "_____ des Flusses liegt das Nachbarland.",
         "targetWord": "Jenseits",
         "targetWordTranslation": "Beyond",
+        "explanation": "'jenseits' + Genitiv: auf der anderen Seite",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Diesseits",
             "Binnen",
             "Längs",
-            "Gemäß"
+            "Inmitten"
         ]
     },
     {
         "id": "30",
-        "sentence": "_____ der Regeln.",
+        "sentence": "_____ den Regeln handelte er anders.",
         "targetWord": "Entgegen",
         "targetWordTranslation": "Contrary to",
+        "explanation": "'entgegen' + Dativ: im Widerspruch zu",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Gemäß",
             "Laut",
             "Nach",
-            "Wegen"
+            "Zugunsten"
         ]
     }
 ]

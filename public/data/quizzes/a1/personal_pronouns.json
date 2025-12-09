@@ -4,6 +4,8 @@
         "sentence": "_____ bin müde.",
         "targetWord": "Ich",
         "targetWordTranslation": "I",
+        "explanation": "1. Person Singular Nominativ: ich",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Du",
             "Er",
@@ -16,6 +18,8 @@
         "sentence": "Kommst _____ mit?",
         "targetWord": "du",
         "targetWordTranslation": "you",
+        "explanation": "2. Person Singular Nominativ: du",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ich",
             "er",
@@ -28,6 +32,8 @@
         "sentence": "Das ist Peter. _____ ist nett.",
         "targetWord": "Er",
         "targetWordTranslation": "He",
+        "explanation": "3. Person Singular maskulin: er (Peter = Mann)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Sie",
             "Es",
@@ -40,6 +46,8 @@
         "sentence": "Das ist Maria. _____ ist schön.",
         "targetWord": "Sie",
         "targetWordTranslation": "She",
+        "explanation": "3. Person Singular feminin: sie (Maria = Frau)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Er",
             "Es",
@@ -52,6 +60,8 @@
         "sentence": "Wir lernen Deutsch. _____ sind fleißig.",
         "targetWord": "Wir",
         "targetWordTranslation": "We",
+        "explanation": "1. Person Plural Nominativ: wir",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Ihr",
             "Sie",
@@ -64,6 +74,8 @@
         "sentence": "Seid _____ bereit?",
         "targetWord": "ihr",
         "targetWordTranslation": "you (plural)",
+        "explanation": "2. Person Plural Nominativ: ihr",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wir",
             "sie",
@@ -76,11 +88,13 @@
         "sentence": "Herr Müller, kommen _____ bitte?",
         "targetWord": "Sie",
         "targetWordTranslation": "You (formal)",
+        "explanation": "Höflichkeitsform Nominativ: Sie (groß!)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "du",
             "er",
             "ihr",
-            "uns"
+            "sie"
         ]
     },
     {
@@ -88,6 +102,8 @@
         "sentence": "Wo ist das Kind? _____ spielt.",
         "targetWord": "Es",
         "targetWordTranslation": "It",
+        "explanation": "3. Person Singular neutral: es (Kind = Neutrum)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Er",
             "Sie",
@@ -100,263 +116,307 @@
         "sentence": "Meine Eltern sind hier. _____ wohnen in Berlin.",
         "targetWord": "Sie",
         "targetWordTranslation": "They",
+        "explanation": "3. Person Plural Nominativ: sie (klein)",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "Er",
-            "Es",
             "Wir",
-            "Ihr"
+            "Ihr",
+            "Es",
+            "Er"
         ]
     },
     {
         "id": "10",
-        "sentence": "Ich liebe dich. Liebst du _____ auch?",
-        "targetWord": "mich",
-        "targetWordTranslation": "me",
+        "sentence": "Ich sehe _____.",
+        "targetWord": "dich",
+        "targetWordTranslation": "you",
+        "explanation": "2. Person Singular Akkusativ: du → dich",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "mir",
-            "ich",
             "dir",
-            "sich"
+            "du",
+            "mich",
+            "ihm"
         ]
     },
     {
         "id": "11",
-        "sentence": "Peter, ich rufe _____ später an.",
-        "targetWord": "dich",
-        "targetWordTranslation": "you",
+        "sentence": "Er liebt _____.",
+        "targetWord": "mich",
+        "targetWordTranslation": "me",
+        "explanation": "1. Person Singular Akkusativ: ich → mich",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "dir",
-            "du",
-            "ihn",
+            "mir",
+            "ich",
+            "dich",
             "ihm"
         ]
     },
     {
         "id": "12",
-        "sentence": "Das Geschenk ist für _____ (uns).",
-        "targetWord": "uns",
-        "targetWordTranslation": "us",
-        "wrongAnswers": [
-            "wir",
-            "euch",
-            "ihnen",
-            "sie"
-        ]
-    },
-    {
-        "id": "13",
-        "sentence": "Wo ist mein Buch? _____ liegt hier.",
-        "targetWord": "Es",
-        "targetWordTranslation": "It",
-        "wrongAnswers": [
-            "Er",
-            "Sie",
-            "Ihm",
-            "Das"
-        ]
-    },
-    {
-        "id": "14",
-        "sentence": "Die Kinder spielen. _____ sind laut.",
-        "targetWord": "Sie",
-        "targetWordTranslation": "They",
-        "wrongAnswers": [
-            "Wir",
-            "Ihr",
-            "Er",
-            "Es"
-        ]
-    },
-    {
-        "id": "15",
-        "sentence": "Gehört das Auto _____ (dir)?",
-        "targetWord": "dir",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "dich",
-            "du",
-            "ihm",
-            "ihr"
-        ]
-    },
-    {
-        "id": "16",
-        "sentence": "Ich gebe _____ (ihm) das Geld.",
-        "targetWord": "ihm",
+        "sentence": "Kennst du _____?",
+        "targetWord": "ihn",
         "targetWordTranslation": "him",
+        "explanation": "3. Person Singular maskulin Akkusativ: er → ihn",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "ihn",
+            "ihm",
             "er",
-            "ihr",
+            "sie",
             "es"
         ]
     },
     {
-        "id": "17",
-        "sentence": "Wir helfen _____ (euch).",
-        "targetWord": "euch",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "wir",
-            "uns",
-            "ihr",
-            "sie"
-        ]
-    },
-    {
-        "id": "18",
-        "sentence": "Ich verstehe _____ (Sie) nicht, Herr Schmidt.",
-        "targetWord": "Sie",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "Ihnen",
-            "du",
-            "dich",
-            "euch"
-        ]
-    },
-    {
-        "id": "19",
-        "sentence": "Kannst du _____ (mir) helfen?",
-        "targetWord": "mir",
-        "targetWordTranslation": "me",
-        "wrongAnswers": [
-            "mich",
-            "ich",
-            "dir",
-            "uns"
-        ]
-    },
-    {
-        "id": "20",
-        "sentence": "Lisa kommt. _____ hat Hunger.",
-        "targetWord": "Sie",
-        "targetWordTranslation": "She",
-        "wrongAnswers": [
-            "Er",
-            "Es",
-            "Ihr",
-            "Ihnen"
-        ]
-    },
-    {
-        "id": "21",
-        "sentence": "Der Tisch ist neu. _____ ist teuer.",
-        "targetWord": "Er",
-        "targetWordTranslation": "It (He)",
-        "wrongAnswers": [
-            "Sie",
-            "Es",
-            "Ihm",
-            "Den"
-        ]
-    },
-    {
-        "id": "22",
-        "sentence": "Siehst du _____ (ihn)?",
-        "targetWord": "ihn",
-        "targetWordTranslation": "him",
-        "wrongAnswers": [
-            "ihm",
-            "er",
-            "es",
-            "sie"
-        ]
-    },
-    {
-        "id": "23",
-        "sentence": "Das schmeckt _____ (mir) gut.",
-        "targetWord": "mir",
-        "targetWordTranslation": "me",
-        "wrongAnswers": [
-            "mich",
-            "ich",
-            "dir",
-            "uns"
-        ]
-    },
-    {
-        "id": "24",
-        "sentence": "Kommt _____ morgen? (plural)",
-        "targetWord": "ihr",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "wir",
-            "du",
-            "sie",
-            "er"
-        ]
-    },
-    {
-        "id": "25",
-        "sentence": "Ich besuche _____ (sie, Plural).",
+        "id": "13",
+        "sentence": "Ich besuche _____.",
         "targetWord": "sie",
-        "targetWordTranslation": "them",
+        "targetWordTranslation": "her/them",
+        "explanation": "3. Person Akkusativ f./Pl.: sie → sie",
+        "difficulty": "medium",
         "wrongAnswers": [
+            "ihr",
             "ihnen",
-            "ihr",
-            "uns",
-            "euch"
-        ]
-    },
-    {
-        "id": "26",
-        "sentence": "Gefällt es _____ (dir)?",
-        "targetWord": "dir",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "dich",
-            "du",
-            "ihm",
-            "mir"
-        ]
-    },
-    {
-        "id": "27",
-        "sentence": "Wir laden _____ (euch) ein.",
-        "targetWord": "euch",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "ihr",
-            "wir",
-            "uns",
-            "sie"
-        ]
-    },
-    {
-        "id": "28",
-        "sentence": "Das ist für _____ (dich).",
-        "targetWord": "dich",
-        "targetWordTranslation": "you",
-        "wrongAnswers": [
-            "dir",
-            "du",
-            "mir",
+            "er",
             "ihn"
         ]
     },
     {
-        "id": "29",
-        "sentence": "Ohne _____ (ihn) gehe ich nicht.",
-        "targetWord": "ihn",
-        "targetWordTranslation": "him",
+        "id": "14",
+        "sentence": "Ich helfe _____.",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "explanation": "2. Person Singular Dativ: du → dir ('helfen' + Dat.)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "ihm",
+            "dich",
+            "du",
+            "mich",
+            "ihm"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Er gibt _____ das Buch.",
+        "targetWord": "mir",
+        "targetWordTranslation": "me",
+        "explanation": "1. Person Singular Dativ: ich → mir",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "mich",
+            "ich",
+            "dir",
+            "dich"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Ich antworte _____.",
+        "targetWord": "ihm",
+        "targetWordTranslation": "him",
+        "explanation": "3. Person Singular maskulin Dativ: er → ihm",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihn",
             "er",
-            "es",
+            "ihr",
             "sie"
         ]
     },
     {
-        "id": "30",
-        "sentence": "_____ (Wir) gehen ins Kino.",
-        "targetWord": "Wir",
-        "targetWordTranslation": "We",
+        "id": "17",
+        "sentence": "Das gehört _____ (wir).",
+        "targetWord": "uns",
+        "targetWordTranslation": "us",
+        "explanation": "1. Person Plural Dativ: wir → uns",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Uns",
-            "Ihr",
+            "wir",
+            "euch",
+            "ihnen",
+            "mir"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Ich zeige _____ (ihr) den Weg.",
+        "targetWord": "euch",
+        "targetWordTranslation": "you guys",
+        "explanation": "2. Person Plural Dativ: ihr → euch",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihr",
+            "uns",
+            "ihnen",
+            "sie"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Das gefällt _____ (sie, Sg.).",
+        "targetWord": "ihr",
+        "targetWordTranslation": "her",
+        "explanation": "3. Person Singular feminin Dativ: sie → ihr",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "sie",
+            "ihm",
+            "ihnen",
+            "es"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Ich gebe _____ (Sie) die Rechnung.",
+        "targetWord": "Ihnen",
+        "targetWordTranslation": "You (formal)",
+        "explanation": "Höflichkeitsform Dativ: Sie → Ihnen (groß!)",
+        "difficulty": "medium",
+        "wrongAnswers": [
             "Sie",
-            "Mir"
+            "dir",
+            "euch",
+            "ihnen"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Ich rufe _____ (sie, Pl.) an.",
+        "targetWord": "sie",
+        "targetWordTranslation": "them",
+        "explanation": "3. Person Plural Akkusativ: sie → sie",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen",
+            "ihr",
+            "ihn",
+            "es"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Das schmeckt _____ (sie, Pl.).",
+        "targetWord": "ihnen",
+        "targetWordTranslation": "them",
+        "explanation": "3. Person Plural Dativ: sie → ihnen",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "sie",
+            "ihr",
+            "euch",
+            "ihm"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Kannst du _____ sehen?",
+        "targetWord": "mich",
+        "targetWordTranslation": "me",
+        "explanation": "1. Person Singular Akkusativ: ich → mich",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "mir",
+            "ich",
+            "dich",
+            "dir"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Ich folge _____ (er).",
+        "targetWord": "ihm",
+        "targetWordTranslation": "him",
+        "explanation": "'folgen' + Dativ: er → ihm",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihn",
+            "er",
+            "ihr",
+            "sie"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Er versteht _____ (es).",
+        "targetWord": "es",
+        "targetWordTranslation": "it",
+        "explanation": "3. Person Singular neutral Akkusativ: es → es",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm",
+            "ihn",
+            "sie",
+            "das"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "Wir besuchen _____ (Sie, formal).",
+        "targetWord": "Sie",
+        "targetWordTranslation": "You (formal)",
+        "explanation": "Höflichkeitsform Akkusativ: Sie → Sie",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Ihnen",
+            "sie",
+            "ihnen",
+            "euch"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Ich gratuliere _____ (du).",
+        "targetWord": "dir",
+        "targetWordTranslation": "you",
+        "explanation": "'gratulieren' + Dativ: du → dir",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "ihm",
+            "mich"
+        ]
+    },
+    {
+        "id": "28",
+        "sentence": "Das gefällt _____ (es).",
+        "targetWord": "ihm",
+        "targetWordTranslation": "it",
+        "explanation": "3. Person Singular neutral Dativ: es → ihm",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "es",
+            "ihr",
+            "ihn",
+            "sie"
+        ]
+    },
+    {
+        "id": "29",
+        "sentence": "Ich treffe _____ (wir) morgen.",
+        "targetWord": "uns",
+        "targetWordTranslation": "us",
+        "explanation": "1. Person Plural Akkusativ: wir → uns",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "wir",
+            "euch",
+            "sie",
+            "mir"
+        ]
+    },
+    {
+        "id": "30",
+        "sentence": "Er dankt _____ (sie, Pl.).",
+        "targetWord": "ihnen",
+        "targetWordTranslation": "them",
+        "explanation": "'danken' + Dativ: sie (Pl.) → ihnen",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "sie",
+            "ihr",
+            "euch",
+            "ihm"
         ]
     }
 ]

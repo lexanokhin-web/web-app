@@ -4,10 +4,12 @@
         "sentence": "Wenn ich reich _____, würde ich reisen.",
         "targetWord": "wäre",
         "targetWordTranslation": "were",
+        "explanation": "Konjunktiv II von 'sein': ich wäre, du wärest, er wäre",
+        "difficulty": "easy",
         "wrongAnswers": [
             "war",
             "bin",
-            "gewesen",
+            "sei",
             "werde"
         ]
     },
@@ -16,18 +18,22 @@
         "sentence": "Ich _____, wir könnten gehen.",
         "targetWord": "wünschte",
         "targetWordTranslation": "wish",
+        "explanation": "Nach 'wünschen' folgt oft Konjunktiv II im Nebensatz",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wünsche",
             "gewünscht",
             "wollte",
-            "habe"
+            "hoffe"
         ]
     },
     {
         "id": "3",
         "sentence": "Er tat so, als ob er mich nicht _____.",
-        "targetWord": "kannte",
+        "targetWord": "kennte",
         "targetWordTranslation": "knew",
+        "explanation": "Nach 'als ob' steht Konjunktiv II: kennen → kennte",
+        "difficulty": "easy",
         "wrongAnswers": [
             "kennt",
             "gekannt",
@@ -40,6 +46,8 @@
         "sentence": "Wenn er Zeit _____, käme er.",
         "targetWord": "hätte",
         "targetWordTranslation": "had",
+        "explanation": "Konjunktiv II von 'haben': ich hätte, du hättest, er hätte",
+        "difficulty": "easy",
         "wrongAnswers": [
             "hat",
             "habe",
@@ -52,11 +60,13 @@
         "sentence": "Ich _____ gern ein Wasser.",
         "targetWord": "hätte",
         "targetWordTranslation": "would like (have)",
+        "explanation": "Höfliche Bitte: 'hätte gern' = würde gerne haben",
+        "difficulty": "easy",
         "wrongAnswers": [
             "habe",
             "hatte",
             "würde",
-            "hast"
+            "möchte"
         ]
     },
     {
@@ -64,11 +74,13 @@
         "sentence": "Was _____ du tun?",
         "targetWord": "würdest",
         "targetWordTranslation": "would",
+        "explanation": "würde-Form: ich würde, du würdest, er würde + Infinitiv",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wirst",
             "wurdest",
             "werdest",
-            "wurde"
+            "willst"
         ]
     },
     {
@@ -76,10 +88,12 @@
         "sentence": "Es wäre schön, wenn du _____.",
         "targetWord": "kämest",
         "targetWordTranslation": "came/would come",
+        "explanation": "Konjunktiv II von 'kommen': ich käme, du kämest (literarisch)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "kommst",
             "kamst",
-            "gekommen",
+            "kommen würdest",
             "komme"
         ]
     },
@@ -88,11 +102,13 @@
         "sentence": "An deiner Stelle _____ ich das nicht.",
         "targetWord": "täte",
         "targetWordTranslation": "would do",
+        "explanation": "'An deiner Stelle' = wenn ich du wäre → Konjunktiv II",
+        "difficulty": "easy",
         "wrongAnswers": [
             "tue",
             "tat",
-            "getan",
-            "mache"
+            "mache",
+            "würde"
         ]
     },
     {
@@ -100,11 +116,13 @@
         "sentence": "Er könnte helfen, wenn er _____.",
         "targetWord": "wollte",
         "targetWordTranslation": "wanted (to)",
+        "explanation": "Konjunktiv II von 'wollen': ich wollte (identisch mit Präteritum)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "will",
             "wollt",
-            "gewollt",
-            "möchte"
+            "möchte",
+            "würde"
         ]
     },
     {
@@ -112,11 +130,13 @@
         "sentence": "Fast _____ ich gefallen.",
         "targetWord": "wäre",
         "targetWordTranslation": "would have",
+        "explanation": "Konjunktiv II Vergangenheit: wäre + Partizip II (bei Bewegungsverben)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "war",
             "bin",
-            "wurde",
-            "habe"
+            "hätte",
+            "wurde"
         ]
     },
     {
@@ -124,11 +144,13 @@
         "sentence": "Wenn es doch nur nicht _____!",
         "targetWord": "regnete",
         "targetWordTranslation": "rained",
+        "explanation": "Wunschsatz mit 'doch nur' → Konjunktiv II (regnen → regnete)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "regnet",
-            "geregnet",
+            "regnen würde",
             "regne",
-            "regnen"
+            "geregnet"
         ]
     },
     {
@@ -136,11 +158,13 @@
         "sentence": "Ich _____ (brauchen) Hilfe.",
         "targetWord": "bräuchte",
         "targetWordTranslation": "could use (need)",
+        "explanation": "Konjunktiv II von 'brauchen': bräuchte (mit Umlaut)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "brauche",
             "brauchte",
             "gebraucht",
-            "brauchst"
+            "benötigte"
         ]
     },
     {
@@ -148,11 +172,13 @@
         "sentence": "Wenn ich du _____, ginge ich.",
         "targetWord": "wäre",
         "targetWordTranslation": "were",
+        "explanation": "Irrealer Konditionalsatz: 'wenn ich du wäre' → Konjunktiv II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "war",
             "bin",
             "bist",
-            "wurde"
+            "sei"
         ]
     },
     {
@@ -160,11 +186,13 @@
         "sentence": "Ich _____ (wissen), was zu tun ist.",
         "targetWord": "wüsste",
         "targetWordTranslation": "would know",
+        "explanation": "Konjunktiv II von 'wissen': wüsste (mit Umlaut ü)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "weiß",
             "wusste",
             "gewusst",
-            "wisst"
+            "wisste"
         ]
     },
     {
@@ -172,11 +200,13 @@
         "sentence": "Er _____ (lassen) das.",
         "targetWord": "ließe",
         "targetWordTranslation": "would let",
+        "explanation": "Konjunktiv II von 'lassen': ließe (starkes Verb)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "lässt",
             "ließ",
-            "lassen",
-            "liesse"
+            "lassen würde",
+            "lasste"
         ]
     },
     {
@@ -184,11 +214,13 @@
         "sentence": "Wir _____ (gehen) gern ins Kino.",
         "targetWord": "gingen",
         "targetWordTranslation": "would go",
+        "explanation": "Konjunktiv II von 'gehen': ginge, gingen (ohne würde)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "gehen",
-            "gingt",
+            "gehen würden",
             "gegangen",
-            "gehe"
+            "geht"
         ]
     },
     {
@@ -196,11 +228,13 @@
         "sentence": "Ihr _____ (sollen) lernen.",
         "targetWord": "solltet",
         "targetWordTranslation": "should",
+        "explanation": "Konjunktiv II von 'sollen': ihr solltet (Ratschlag)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "sollt",
             "sollen",
             "sollst",
-            "soll"
+            "müsstet"
         ]
     },
     {
@@ -208,11 +242,13 @@
         "sentence": "Wenn sie hier _____, wäre es toll.",
         "targetWord": "wäre",
         "targetWordTranslation": "were",
+        "explanation": "Irrealer Wunsch: Konjunktiv II drückt Irrealität aus",
+        "difficulty": "medium",
         "wrongAnswers": [
             "ist",
             "war",
             "sei",
-            "wurde"
+            "gewesen"
         ]
     },
     {
@@ -220,6 +256,8 @@
         "sentence": "Er sagte, er _____ krank (Konj. II).",
         "targetWord": "wäre",
         "targetWordTranslation": "were",
+        "explanation": "Indirekte Rede: Konjunktiv II statt I, wenn I = Indikativ",
+        "difficulty": "medium",
         "wrongAnswers": [
             "war",
             "ist",
@@ -232,11 +270,13 @@
         "sentence": "Ich _____ (finden) das gut.",
         "targetWord": "fände",
         "targetWordTranslation": "would find",
+        "explanation": "Konjunktiv II von 'finden': fände (starkes Verb mit ä)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "finde",
             "fand",
-            "gefunden",
-            "fandet"
+            "finden würde",
+            "gefunden"
         ]
     },
     {
@@ -244,6 +284,8 @@
         "sentence": "Du _____ (dürfen) das nicht.",
         "targetWord": "dürftest",
         "targetWordTranslation": "would be allowed",
+        "explanation": "Konjunktiv II von 'dürfen': dürfte, dürftest (Modalverb)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "darfst",
             "durftest",
@@ -256,11 +298,13 @@
         "sentence": "Es _____ (geben) Ärger.",
         "targetWord": "gäbe",
         "targetWordTranslation": "would be",
+        "explanation": "Konjunktiv II von 'geben': gäbe ('es gäbe' = es würde geben)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "gibt",
             "gab",
-            "gegeben",
-            "gebte"
+            "geben würde",
+            "gegeben"
         ]
     },
     {
@@ -268,11 +312,13 @@
         "sentence": "Ich _____ (trinken) gern Tee.",
         "targetWord": "tränke",
         "targetWordTranslation": "would drink",
+        "explanation": "Konjunktiv II von 'trinken': tränke (literarisch, sonst würde trinken)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "trinke",
             "trank",
-            "getrunken",
-            "trinkte"
+            "trinken würde",
+            "getrunken"
         ]
     },
     {
@@ -280,11 +326,13 @@
         "sentence": "Er _____ (bleiben) hier.",
         "targetWord": "bliebe",
         "targetWordTranslation": "would stay",
+        "explanation": "Konjunktiv II von 'bleiben': bliebe (starkes Verb)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "bleibt",
             "blieb",
-            "geblieben",
-            "bleibte"
+            "bleiben würde",
+            "geblieben"
         ]
     },
     {
@@ -292,11 +340,13 @@
         "sentence": "Wir _____ (können) helfen.",
         "targetWord": "könnten",
         "targetWordTranslation": "could",
+        "explanation": "Konjunktiv II von 'können': könnte, könnten (Modalverb)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "können",
             "konnten",
             "kann",
-            "gekonnt"
+            "dürften"
         ]
     },
     {
@@ -304,11 +354,13 @@
         "sentence": "Wenn ich _____ (fliegen) könnte!",
         "targetWord": "fliegen",
         "targetWordTranslation": "fly",
+        "explanation": "Nach Modalverb steht der Infinitiv ohne 'zu'",
+        "difficulty": "hard",
         "wrongAnswers": [
             "flog",
+            "flöge",
             "geflogen",
-            "fliege",
-            "flug"
+            "fliege"
         ]
     },
     {
@@ -316,11 +368,13 @@
         "sentence": "Ich _____ (schlafen) besser.",
         "targetWord": "schliefe",
         "targetWordTranslation": "would sleep",
+        "explanation": "Konjunktiv II von 'schlafen': schliefe (literarisch)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "schlafe",
             "schlief",
-            "geschlafen",
-            "schlaft"
+            "schlafen würde",
+            "geschlafen"
         ]
     },
     {
@@ -328,11 +382,13 @@
         "sentence": "Er _____ (tragen) einen Hut.",
         "targetWord": "trüge",
         "targetWordTranslation": "would wear",
+        "explanation": "Konjunktiv II von 'tragen': trüge (a → ü + e)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "trägt",
             "trug",
-            "getragen",
-            "tragte"
+            "tragen würde",
+            "getragen"
         ]
     },
     {
@@ -340,11 +396,13 @@
         "sentence": "Sie _____ (laufen) schneller.",
         "targetWord": "liefe",
         "targetWordTranslation": "would run",
+        "explanation": "Konjunktiv II von 'laufen': liefe (au → ie + e)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "läuft",
             "lief",
-            "gelaufen",
-            "laufte"
+            "laufen würde",
+            "gelaufen"
         ]
     },
     {
@@ -352,11 +410,13 @@
         "sentence": "Wir _____ (nehmen) das Auto.",
         "targetWord": "nähmen",
         "targetWordTranslation": "would take",
+        "explanation": "Konjunktiv II von 'nehmen': nähme, nähmen (e → ä + e)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "nehmen",
             "nahmen",
-            "genommen",
-            "nehmt"
+            "nehmen würden",
+            "genommen"
         ]
     }
 ]

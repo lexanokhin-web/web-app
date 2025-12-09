@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, X } from 'lucide-react';
+import { Check, X, ArrowRight } from 'lucide-react';
 
 interface QuizQuestionProps {
     question: string;
@@ -9,6 +9,7 @@ interface QuizQuestionProps {
     onAnswer: (isCorrect: boolean) => void;
     questionNumber: number;
     totalQuestions: number;
+    explanation?: string;
 }
 
 export const QuizQuestion: React.FC<QuizQuestionProps> = ({
@@ -17,7 +18,8 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
     wrongAnswers,
     onAnswer,
     questionNumber,
-    totalQuestions
+    totalQuestions,
+    explanation
 }) => {
     const [options] = useState<string[]>(() => {
         const allOptions = [correctAnswer, ...wrongAnswers];
@@ -34,11 +36,13 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
         const correct = answer === correctAnswer;
         setIsCorrect(correct);
         setShowFeedback(true);
+        // No auto-advance - user clicks "Weiter" button
+    };
 
-        // Auto-advance after 1.5 seconds
-        setTimeout(() => {
-            onAnswer(correct);
-        }, 1500);
+    const handleNext = () => {
+        if (isCorrect !== null) {
+            onAnswer(isCorrect);
+        }
     };
 
     const getButtonStyle = (option: string) => {
@@ -116,15 +120,33 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0 }}
-                        className={`
-              mt-6 p-4 rounded-xl text-center text-lg font-semibold
-              ${isCorrect
+                        className="mt-6"
+                    >
+                        <div className={`
+                            p-4 rounded-xl text-center text-lg font-semibold
+                            ${isCorrect
                                 ? 'bg-green-100 text-green-800 border-2 border-green-300'
                                 : 'bg-red-100 text-red-800 border-2 border-red-300'
                             }
-            `}
-                    >
-                        {isCorrect ? '✅ Правильно!' : `❌ Правильный ответ: ${correctAnswer}`}
+                        `}>
+                            <div>{isCorrect ? '✅ Правильно!' : `❌ Правильный ответ: ${correctAnswer}`}</div>
+                            {explanation && (
+                                <div className="mt-2 text-sm opacity-80 italic">
+                                    💡 {explanation}
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Next button */}
+                        <motion.button
+                            onClick={handleNext}
+                            className="mt-4 w-full py-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-xl font-bold text-lg flex items-center justify-center gap-2 hover:from-indigo-600 hover:to-purple-700 transition-all shadow-lg"
+                            whileHover={{ scale: 1.02 }}
+                            whileTap={{ scale: 0.98 }}
+                        >
+                            Weiter
+                            <ArrowRight className="w-5 h-5" />
+                        </motion.button>
                     </motion.div>
                 )}
             </AnimatePresence>

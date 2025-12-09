@@ -4,6 +4,8 @@
         "sentence": "Ich _____ gestern krank.",
         "targetWord": "war",
         "targetWordTranslation": "was",
+        "explanation": "Präteritum von 'sein': ich war, du warst, er war",
+        "difficulty": "easy",
         "wrongAnswers": [
             "bin",
             "wäre",
@@ -16,6 +18,8 @@
         "sentence": "Wir _____ viel Spaß.",
         "targetWord": "hatten",
         "targetWordTranslation": "had",
+        "explanation": "Präteritum von 'haben': ich hatte, wir hatten",
+        "difficulty": "easy",
         "wrongAnswers": [
             "haben",
             "hätten",
@@ -28,10 +32,12 @@
         "sentence": "Er _____ nach Hause.",
         "targetWord": "ging",
         "targetWordTranslation": "went",
+        "explanation": "Präteritum von 'gehen': ich ging, er ging (starkes Verb)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "geht",
             "gegangen",
-            "gingt",
+            "gehen",
             "gingen"
         ]
     },
@@ -40,10 +46,12 @@
         "sentence": "Sie (Pl.) _____ in Berlin.",
         "targetWord": "wohnten",
         "targetWordTranslation": "lived",
+        "explanation": "Präteritum von 'wohnen': sie wohnten (schwaches Verb + -ten)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wohnen",
-            "wohnten",
             "gewohnt",
+            "wohntest",
             "wohnte"
         ]
     },
@@ -52,10 +60,12 @@
         "sentence": "Es _____ den ganzen Tag.",
         "targetWord": "regnete",
         "targetWordTranslation": "rained",
+        "explanation": "Präteritum von 'regnen': es regnete (schwaches Verb + -ete)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "regnet",
             "geregnet",
-            "regnest",
+            "regnen",
             "regneten"
         ]
     },
@@ -64,11 +74,13 @@
         "sentence": "Ich _____ das nicht.",
         "targetWord": "wusste",
         "targetWordTranslation": "knew",
+        "explanation": "Präteritum von 'wissen': ich wusste (gemischtes Verb)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "weiß",
             "gewusst",
             "wussten",
-            "wusstest"
+            "wissste"
         ]
     },
     {
@@ -76,11 +88,13 @@
         "sentence": "Er _____ sehr schnell.",
         "targetWord": "lief",
         "targetWordTranslation": "ran",
+        "explanation": "Präteritum von 'laufen': ich lief, er lief (Ablaut au → ie)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "läuft",
             "gelaufen",
-            "liefst",
-            "laufen"
+            "laufen",
+            "liefen"
         ]
     },
     {
@@ -88,6 +102,8 @@
         "sentence": "Wir _____ eine Pizza.",
         "targetWord": "aßen",
         "targetWordTranslation": "ate",
+        "explanation": "Präteritum von 'essen': ich aß, wir aßen (Ablaut e → a)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "essen",
             "gegessen",
@@ -100,6 +116,8 @@
         "sentence": "Sie _____ ein Buch.",
         "targetWord": "las",
         "targetWordTranslation": "read",
+        "explanation": "Präteritum von 'lesen': ich las, sie las (Ablaut e → a)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "liest",
             "gelesen",
@@ -112,11 +130,13 @@
         "sentence": "Der Zug _____ pünktlich.",
         "targetWord": "kam",
         "targetWordTranslation": "came",
+        "explanation": "Präteritum von 'kommen': er kam (Ablaut o → a)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "kommt",
             "gekommen",
             "kamen",
-            "kamst"
+            "kommen"
         ]
     },
     {
@@ -124,54 +144,64 @@
         "sentence": "Ich _____ lange.",
         "targetWord": "schlief",
         "targetWordTranslation": "slept",
+        "explanation": "Präteritum von 'schlafen': ich schlief (Ablaut a → ie)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "schlafe",
             "geschlafen",
-            "schliefst",
-            "schlafen"
+            "schlafen",
+            "schliefen"
         ]
     },
     {
         "id": "12",
-        "sentence": "Sie _____ (arbeiten) viel.",
+        "sentence": "Sie _____ viel.",
         "targetWord": "arbeitete",
         "targetWordTranslation": "worked",
+        "explanation": "Präteritum von 'arbeiten': arbeitete (schwach, +ete nach -t)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "arbeitet",
             "gearbeitet",
             "arbeiteten",
-            "arbeitest"
+            "arbeiten"
         ]
     },
     {
         "id": "13",
-        "sentence": "Ich _____ (denken) an dich.",
+        "sentence": "Ich _____ an dich.",
         "targetWord": "dachte",
         "targetWordTranslation": "thought",
+        "explanation": "Präteritum von 'denken': ich dachte (gemischtes Verb)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "denkte",
+            "denke",
             "gedacht",
             "dachten",
-            "denkst"
+            "denken"
         ]
     },
     {
         "id": "14",
-        "sentence": "Er _____ (bringen) das Buch.",
+        "sentence": "Er _____ das Buch.",
         "targetWord": "brachte",
         "targetWordTranslation": "brought",
+        "explanation": "Präteritum von 'bringen': er brachte (gemischtes Verb)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "bringte",
+            "bringt",
             "gebracht",
             "brachten",
-            "bringt"
+            "bringen"
         ]
     },
     {
         "id": "15",
-        "sentence": "Wir _____ (reisen) nach Spanien.",
+        "sentence": "Wir _____ nach Spanien.",
         "targetWord": "reisten",
         "targetWordTranslation": "traveled",
+        "explanation": "Präteritum von 'reisen': wir reisten (schwaches Verb)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "reisen",
             "gereist",
@@ -181,33 +211,39 @@
     },
     {
         "id": "16",
-        "sentence": "Sie (Sg.) _____ (kommen) spät.",
+        "sentence": "Sie _____ spät.",
         "targetWord": "kam",
         "targetWordTranslation": "came",
+        "explanation": "Präteritum von 'kommen': sie kam (starkes Verb)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "kommt",
             "kamen",
             "gekommen",
-            "kommst"
+            "kommen"
         ]
     },
     {
         "id": "17",
-        "sentence": "Ich _____ (sehen) den Film.",
+        "sentence": "Ich _____ den Film.",
         "targetWord": "sah",
         "targetWordTranslation": "saw",
+        "explanation": "Präteritum von 'sehen': ich sah (Ablaut e → a)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "sehe",
             "gesehen",
             "sahen",
-            "sahst"
+            "sehen"
         ]
     },
     {
         "id": "18",
-        "sentence": "Du _____ (sagen) nichts.",
+        "sentence": "Du _____ nichts.",
         "targetWord": "sagtest",
         "targetWordTranslation": "said",
+        "explanation": "Präteritum von 'sagen': du sagtest (schwaches Verb)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "sagst",
             "gesagt",
@@ -217,21 +253,25 @@
     },
     {
         "id": "19",
-        "sentence": "Es _____ (geben) Probleme.",
+        "sentence": "Es _____ Probleme.",
         "targetWord": "gab",
-        "targetWordTranslation": "gave (there were)",
+        "targetWordTranslation": "gave/there were",
+        "explanation": "Präteritum von 'geben': es gab (Ablaut e → a)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "gibt",
             "gegeben",
             "gaben",
-            "gabt"
+            "geben"
         ]
     },
     {
         "id": "20",
-        "sentence": "Wir _____ (fahren) ans Meer.",
+        "sentence": "Wir _____ ans Meer.",
         "targetWord": "fuhren",
         "targetWordTranslation": "drove",
+        "explanation": "Präteritum von 'fahren': wir fuhren (Ablaut a → u)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "fahren",
             "gefahren",
@@ -241,9 +281,11 @@
     },
     {
         "id": "21",
-        "sentence": "Ihr _____ (spielen) Fußball.",
+        "sentence": "Ihr _____ Fußball.",
         "targetWord": "spieltet",
         "targetWordTranslation": "played",
+        "explanation": "Präteritum von 'spielen': ihr spieltet (schwaches Verb)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "spielt",
             "gespielt",
@@ -253,109 +295,127 @@
     },
     {
         "id": "22",
-        "sentence": "Ich _____ (wollen) das nicht.",
+        "sentence": "Ich _____ das nicht.",
         "targetWord": "wollte",
         "targetWordTranslation": "wanted",
+        "explanation": "Präteritum Modalverb 'wollen': ich wollte",
+        "difficulty": "hard",
         "wrongAnswers": [
             "will",
             "gewollt",
             "wollten",
-            "wolltest"
+            "wollen"
         ]
     },
     {
         "id": "23",
-        "sentence": "Er _____ (können) schwimmen.",
+        "sentence": "Er _____ schwimmen.",
         "targetWord": "konnte",
         "targetWordTranslation": "could",
+        "explanation": "Präteritum Modalverb 'können': er konnte",
+        "difficulty": "hard",
         "wrongAnswers": [
             "kann",
             "gekonnt",
             "konnten",
-            "konntest"
+            "können"
         ]
     },
     {
         "id": "24",
-        "sentence": "Sie _____ (müssen) arbeiten.",
+        "sentence": "Sie _____ arbeiten.",
         "targetWord": "musste",
         "targetWordTranslation": "had to",
+        "explanation": "Präteritum Modalverb 'müssen': sie musste",
+        "difficulty": "hard",
         "wrongAnswers": [
             "muss",
             "gemusst",
             "mussten",
-            "müsste"
+            "müssen"
         ]
     },
     {
         "id": "25",
-        "sentence": "Wir _____ (dürfen) gehen.",
+        "sentence": "Wir _____ gehen.",
         "targetWord": "durften",
         "targetWordTranslation": "were allowed",
+        "explanation": "Präteritum Modalverb 'dürfen': wir durften",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "darf",
+            "dürfen",
             "gedurft",
             "durfte",
-            "dürfen"
+            "darf"
         ]
     },
     {
         "id": "26",
-        "sentence": "Ich _____ (kennen) ihn.",
+        "sentence": "Ich _____ ihn.",
         "targetWord": "kannte",
         "targetWordTranslation": "knew",
+        "explanation": "Präteritum von 'kennen': ich kannte (gemischtes Verb)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "kenne",
             "gekannt",
             "kannten",
-            "könnte"
+            "kennen"
         ]
     },
     {
         "id": "27",
-        "sentence": "Das _____ (nennen) man Glück.",
+        "sentence": "Das _____ man Glück.",
         "targetWord": "nannte",
         "targetWordTranslation": "called",
+        "explanation": "Präteritum von 'nennen': nannte (gemischtes Verb)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "nennt",
             "genannt",
             "nannten",
-            "nennte"
+            "nennen"
         ]
     },
     {
         "id": "28",
-        "sentence": "Er _____ (rennen) schnell.",
+        "sentence": "Er _____ schnell.",
         "targetWord": "rannte",
         "targetWordTranslation": "ran",
+        "explanation": "Präteritum von 'rennen': er rannte (gemischtes Verb)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "rennt",
             "gerannt",
             "rannten",
-            "rennte"
+            "rennen"
         ]
     },
     {
         "id": "29",
-        "sentence": "Ich _____ (sitzen) da.",
+        "sentence": "Ich _____ da.",
         "targetWord": "saß",
         "targetWordTranslation": "sat",
+        "explanation": "Präteritum von 'sitzen': ich saß (Ablaut i → a)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "sitze",
             "gesessen",
             "saßen",
-            "sitzte"
+            "sitzen"
         ]
     },
     {
         "id": "30",
-        "sentence": "Das Baby _____ (schreien).",
+        "sentence": "Das Baby _____.",
         "targetWord": "schrie",
         "targetWordTranslation": "screamed",
+        "explanation": "Präteritum von 'schreien': es schrie (Ablaut ei → ie)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "schreit",
             "geschrien",
-            "schreite",
+            "schreien",
             "schrien"
         ]
     }

@@ -4,6 +4,8 @@
         "sentence": "Ich helfe dem _____ (alt) Mann.",
         "targetWord": "alten",
         "targetWordTranslation": "old",
+        "explanation": "Nach 'dem' (Dat. m.): schwache Dekl. → -en",
+        "difficulty": "easy",
         "wrongAnswers": [
             "alte",
             "altem",
@@ -16,6 +18,8 @@
         "sentence": "Wegen des _____ (schlecht) Wetters.",
         "targetWord": "schlechten",
         "targetWordTranslation": "bad",
+        "explanation": "Nach 'des' (Gen. n.): schwache Dekl. → -en",
+        "difficulty": "easy",
         "wrongAnswers": [
             "schlechte",
             "schlechtem",
@@ -28,6 +32,8 @@
         "sentence": "Ein _____ (neu) Auto.",
         "targetWord": "neues",
         "targetWordTranslation": "new",
+        "explanation": "Nach 'ein' (Nom. n.): gemischte Dekl. → -es zeigt Genus",
+        "difficulty": "easy",
         "wrongAnswers": [
             "neue",
             "neuen",
@@ -40,6 +46,8 @@
         "sentence": "Mit _____ (gut) Freunden (Pl.).",
         "targetWord": "guten",
         "targetWordTranslation": "good",
+        "explanation": "Ohne Artikel (Dat. Pl.): starke Dekl. → -en",
+        "difficulty": "easy",
         "wrongAnswers": [
             "gute",
             "gutem",
@@ -52,6 +60,8 @@
         "sentence": "Ich trinke _____ (kalt) Wasser.",
         "targetWord": "kaltes",
         "targetWordTranslation": "cold",
+        "explanation": "Ohne Artikel (Akk. n.): starke Dekl. → -es",
+        "difficulty": "easy",
         "wrongAnswers": [
             "kalte",
             "kalten",
@@ -64,6 +74,8 @@
         "sentence": "Er liebt _____ (deutsch) Bier.",
         "targetWord": "deutsches",
         "targetWordTranslation": "German",
+        "explanation": "Ohne Artikel (Akk. n.): starke Dekl. → -es",
+        "difficulty": "easy",
         "wrongAnswers": [
             "deutsche",
             "deutschen",
@@ -76,6 +88,8 @@
         "sentence": "Sie kaufen _____ (frisch) Milch.",
         "targetWord": "frische",
         "targetWordTranslation": "fresh",
+        "explanation": "Ohne Artikel (Akk. f.): starke Dekl. → -e",
+        "difficulty": "easy",
         "wrongAnswers": [
             "frischen",
             "frischem",
@@ -88,6 +102,8 @@
         "sentence": "Das Haus _____ (reich) Leute.",
         "targetWord": "reicher",
         "targetWordTranslation": "rich",
+        "explanation": "Ohne Artikel (Gen. Pl.): starke Dekl. → -er",
+        "difficulty": "easy",
         "wrongAnswers": [
             "reiche",
             "reichen",
@@ -100,6 +116,8 @@
         "sentence": "Wir essen in einem _____ (teuer) Restaurant.",
         "targetWord": "teuren",
         "targetWordTranslation": "expensive",
+        "explanation": "Nach 'einem' (Dat. n.): gemischte Dekl. → -en; teuer verliert -e-",
+        "difficulty": "easy",
         "wrongAnswers": [
             "teure",
             "teurem",
@@ -112,6 +130,8 @@
         "sentence": "Er hat eine _____ (blau) Hose.",
         "targetWord": "blaue",
         "targetWordTranslation": "blue",
+        "explanation": "Nach 'eine' (Akk. f.): gemischte Dekl. → -e",
+        "difficulty": "easy",
         "wrongAnswers": [
             "blauen",
             "blauem",
@@ -124,6 +144,8 @@
         "sentence": "Mit viel _____ (gut) Glück.",
         "targetWord": "gutem",
         "targetWordTranslation": "good",
+        "explanation": "Ohne Artikel (Dat. n.): starke Dekl. → -em",
+        "difficulty": "medium",
         "wrongAnswers": [
             "gute",
             "guten",
@@ -136,6 +158,8 @@
         "sentence": "Für _____ (klein) Kinder.",
         "targetWord": "kleine",
         "targetWordTranslation": "small",
+        "explanation": "Ohne Artikel (Akk. Pl.): starke Dekl. → -e",
+        "difficulty": "medium",
         "wrongAnswers": [
             "kleinen",
             "kleinem",
@@ -148,6 +172,8 @@
         "sentence": "Trotz des _____ (stark) Regens.",
         "targetWord": "starken",
         "targetWordTranslation": "strong",
+        "explanation": "Nach 'des' (Gen. m.): schwache Dekl. → -en",
+        "difficulty": "medium",
         "wrongAnswers": [
             "starke",
             "starkem",
@@ -160,6 +186,8 @@
         "sentence": "Ich sehe den _____ (hoch) Baum.",
         "targetWord": "hohen",
         "targetWordTranslation": "high",
+        "explanation": "Nach 'den' (Akk. m.): schwache Dekl. → -en; hoch → hohen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "hohe",
             "hohem",
@@ -172,6 +200,8 @@
         "sentence": "Der Hund meiner _____ (nett) Nachbarin.",
         "targetWord": "netten",
         "targetWordTranslation": "nice",
+        "explanation": "Nach 'meiner' (Gen. f.): schwache Dekl. → -en",
+        "difficulty": "medium",
         "wrongAnswers": [
             "nette",
             "nettem",
@@ -184,6 +214,8 @@
         "sentence": "Er trinkt aus einer _____ (groß) Tasse.",
         "targetWord": "großen",
         "targetWordTranslation": "big",
+        "explanation": "Nach 'einer' (Dat. f.): gemischte Dekl. → -en",
+        "difficulty": "medium",
         "wrongAnswers": [
             "große",
             "großem",
@@ -196,6 +228,8 @@
         "sentence": "Das ist ein _____ (schwierig) Problem.",
         "targetWord": "schwieriges",
         "targetWordTranslation": "difficult",
+        "explanation": "Nach 'ein' (Nom. n.): gemischte Dekl. → -es",
+        "difficulty": "medium",
         "wrongAnswers": [
             "schwierige",
             "schwierigen",
@@ -208,6 +242,8 @@
         "sentence": "Wir brauchen _____ (trocken) Holz.",
         "targetWord": "trockenes",
         "targetWordTranslation": "dry",
+        "explanation": "Ohne Artikel (Akk. n.): starke Dekl. → -es",
+        "difficulty": "medium",
         "wrongAnswers": [
             "trockene",
             "trockenen",
@@ -220,6 +256,8 @@
         "sentence": "Das Auto _____ (jung) Fahrer.",
         "targetWord": "junger",
         "targetWordTranslation": "young",
+        "explanation": "Ohne Artikel (Gen. m.): starke Dekl. → -er",
+        "difficulty": "medium",
         "wrongAnswers": [
             "junge",
             "jungen",
@@ -232,6 +270,8 @@
         "sentence": "Ich spreche mit dem _____ (klug) Kind.",
         "targetWord": "klugen",
         "targetWordTranslation": "smart",
+        "explanation": "Nach 'dem' (Dat. n.): schwache Dekl. → -en",
+        "difficulty": "medium",
         "wrongAnswers": [
             "kluge",
             "klugem",
@@ -244,6 +284,8 @@
         "sentence": "Er trägt einen _____ (warm) Mantel.",
         "targetWord": "warmen",
         "targetWordTranslation": "warm",
+        "explanation": "Nach 'einen' (Akk. m.): gemischte Dekl. → -en",
+        "difficulty": "hard",
         "wrongAnswers": [
             "warme",
             "warmem",
@@ -256,6 +298,8 @@
         "sentence": "Sie hat _____ (lang) Haare.",
         "targetWord": "lange",
         "targetWordTranslation": "long",
+        "explanation": "Ohne Artikel (Akk. Pl.): starke Dekl. → -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "langen",
             "langem",
@@ -268,6 +312,8 @@
         "sentence": "Der Preis des _____ (neu) Autos.",
         "targetWord": "neuen",
         "targetWordTranslation": "new",
+        "explanation": "Nach 'des' (Gen. n.): schwache Dekl. → -en",
+        "difficulty": "hard",
         "wrongAnswers": [
             "neue",
             "neuem",
@@ -280,6 +326,8 @@
         "sentence": "Mit _____ (kalt) Wasser waschen.",
         "targetWord": "kaltem",
         "targetWordTranslation": "cold",
+        "explanation": "Ohne Artikel (Dat. n.): starke Dekl. → -em",
+        "difficulty": "hard",
         "wrongAnswers": [
             "kalte",
             "kalten",
@@ -292,6 +340,8 @@
         "sentence": "Er ist ein _____ (bekannt) Schauspieler.",
         "targetWord": "bekannter",
         "targetWordTranslation": "famous",
+        "explanation": "Nach 'ein' (Nom. m.): gemischte Dekl. → -er zeigt maskulin",
+        "difficulty": "hard",
         "wrongAnswers": [
             "bekannte",
             "bekannten",
@@ -304,6 +354,8 @@
         "sentence": "Das Kleid der _____ (schön) Frau.",
         "targetWord": "schönen",
         "targetWordTranslation": "beautiful",
+        "explanation": "Nach 'der' (Gen. f.): schwache Dekl. → -en",
+        "difficulty": "hard",
         "wrongAnswers": [
             "schöne",
             "schönem",
@@ -316,6 +368,8 @@
         "sentence": "An einem _____ (sonnig) Tag.",
         "targetWord": "sonnigen",
         "targetWordTranslation": "sunny",
+        "explanation": "Nach 'einem' (Dat. m.): gemischte Dekl. → -en",
+        "difficulty": "hard",
         "wrongAnswers": [
             "sonnige",
             "sonnigem",
@@ -328,6 +382,8 @@
         "sentence": "Viele _____ (alt) Leute.",
         "targetWord": "alte",
         "targetWordTranslation": "old",
+        "explanation": "Nach 'viele' (Nom. Pl.): wie ohne Artikel → -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "alten",
             "altem",
@@ -340,10 +396,12 @@
         "sentence": "Das Leben _____ (berühmt) Stars.",
         "targetWord": "berühmter",
         "targetWordTranslation": "famous",
+        "explanation": "Ohne Artikel (Gen. Pl.): starke Dekl. → -er",
+        "difficulty": "hard",
         "wrongAnswers": [
             "berühmte",
             "berühmten",
-            "berühmtwm",
+            "berühmtem",
             "berühmtes"
         ]
     },
@@ -352,6 +410,8 @@
         "sentence": "Ich kaufe eine _____ (billig) Uhr.",
         "targetWord": "billige",
         "targetWordTranslation": "cheap",
+        "explanation": "Nach 'eine' (Akk. f.): gemischte Dekl. → -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "billigen",
             "billigem",

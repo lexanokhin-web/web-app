@@ -4,6 +4,8 @@
         "sentence": "Ich _____ nach Hause.",
         "targetWord": "gehe",
         "targetWordTranslation": "go",
+        "explanation": "gehen: ich gehe (regelmäßig -e)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "gehst",
             "geht",
@@ -16,6 +18,8 @@
         "sentence": "Du _____ gut Deutsch.",
         "targetWord": "sprichst",
         "targetWordTranslation": "speak",
+        "explanation": "sprechen: du sprichst (e→i Vokalwechsel)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "spreche",
             "spricht",
@@ -28,11 +32,13 @@
         "sentence": "Er _____ in Berlin.",
         "targetWord": "wohnt",
         "targetWordTranslation": "lives",
+        "explanation": "wohnen: er wohnt (regelmäßig -t)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wohnst",
             "wohne",
             "wohnen",
-            "wohnten"
+            "wohntet"
         ]
     },
     {
@@ -40,6 +46,8 @@
         "sentence": "Wir _____ Pizza.",
         "targetWord": "essen",
         "targetWordTranslation": "eat",
+        "explanation": "essen: wir essen (Infinitiv = Plural)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "isst",
             "esse",
@@ -52,6 +60,8 @@
         "sentence": "Ihr _____ viel Zeit.",
         "targetWord": "habt",
         "targetWordTranslation": "have",
+        "explanation": "haben: ihr habt (unregelmäßig)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "hast",
             "hat",
@@ -64,6 +74,8 @@
         "sentence": "Sie (Pl.) _____ Musik.",
         "targetWord": "hören",
         "targetWordTranslation": "hear/listen",
+        "explanation": "hören: sie hören (regelmäßig -en)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "hörst",
             "hört",
@@ -76,6 +88,8 @@
         "sentence": "Peter _____ ein Buch.",
         "targetWord": "liest",
         "targetWordTranslation": "reads",
+        "explanation": "lesen: er liest (e→ie Vokalwechsel)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "lese",
             "lest",
@@ -88,11 +102,13 @@
         "sentence": "Ich _____ Lehrerin.",
         "targetWord": "bin",
         "targetWordTranslation": "am",
+        "explanation": "sein: ich bin (unregelmäßig)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "bist",
             "ist",
             "sind",
-            "kann"
+            "seid"
         ]
     },
     {
@@ -100,42 +116,232 @@
         "sentence": "Das Baby _____.",
         "targetWord": "schläft",
         "targetWordTranslation": "sleeps",
+        "explanation": "schlafen: es schläft (a→ä Vokalwechsel)",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "schlafe",
             "schläfst",
+            "schlafe",
             "schlafen",
             "schlief"
         ]
     },
     {
         "id": "10",
-        "sentence": "_____ du mir?",
-        "targetWord": "Hilfst",
-        "targetWordTranslation": "Help",
+        "sentence": "Du _____ gut.",
+        "targetWord": "siehst",
+        "targetWordTranslation": "see",
+        "explanation": "sehen: du siehst (e→ie Vokalwechsel)",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "Helfe",
-            "Hilft",
-            "Helfen",
-            "Half"
+            "sehe",
+            "sieht",
+            "sehen",
+            "sahst"
         ]
     },
     {
         "id": "11",
-        "sentence": "Der Zug _____ gleich ab.",
-        "targetWord": "fährt",
-        "targetWordTranslation": "departs",
+        "sentence": "Er _____ schnell.",
+        "targetWord": "läuft",
+        "targetWordTranslation": "runs",
+        "explanation": "laufen: er läuft (au→äu Vokalwechsel)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "fahre",
-            "fährst",
-            "fahren",
-            "fuhr"
+            "laufst",
+            "laufe",
+            "laufen",
+            "lief"
         ]
     },
     {
         "id": "12",
-        "sentence": "Ich _____ den Bus.",
+        "sentence": "Wir _____ hier.",
+        "targetWord": "arbeiten",
+        "targetWordTranslation": "work",
+        "explanation": "arbeiten: wir arbeiten (regelmäßig -en)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "arbeitest",
+            "arbeitet",
+            "arbeite",
+            "arbeiteten"
+        ]
+    },
+    {
+        "id": "13",
+        "sentence": "Du _____ viel.",
+        "targetWord": "arbeitest",
+        "targetWordTranslation": "work",
+        "explanation": "arbeiten: du arbeitest (-est nach -t)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "arbeite",
+            "arbeitet",
+            "arbeiten",
+            "arbeit"
+        ]
+    },
+    {
+        "id": "14",
+        "sentence": "Er _____ gern.",
+        "targetWord": "tanzt",
+        "targetWordTranslation": "dances",
+        "explanation": "tanzen: er tanzt (nur -t nach -z)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "tanzst",
+            "tanze",
+            "tanzen",
+            "tanzte"
+        ]
+    },
+    {
+        "id": "15",
+        "sentence": "Ihr _____ zu viel.",
+        "targetWord": "esst",
+        "targetWordTranslation": "eat",
+        "explanation": "essen: ihr esst (-t)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "esse",
+            "essen",
+            "isst",
+            "aßt"
+        ]
+    },
+    {
+        "id": "16",
+        "sentence": "Sie (Sg.) _____ Kaffee.",
+        "targetWord": "trinkt",
+        "targetWordTranslation": "drinks",
+        "explanation": "trinken: sie trinkt (regelmäßig -t)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "trinkst",
+            "trinke",
+            "trinken",
+            "trank"
+        ]
+    },
+    {
+        "id": "17",
+        "sentence": "Ich _____ gut.",
+        "targetWord": "koche",
+        "targetWordTranslation": "cook",
+        "explanation": "kochen: ich koche (regelmäßig -e)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "kochst",
+            "kocht",
+            "kochen",
+            "kochte"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Du _____ gern.",
+        "targetWord": "fährst",
+        "targetWordTranslation": "drive",
+        "explanation": "fahren: du fährst (a→ä Vokalwechsel)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "fahre",
+            "fährt",
+            "fahren",
+            "fuhrst"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Wir _____ Deutsch.",
+        "targetWord": "lernen",
+        "targetWordTranslation": "learn",
+        "explanation": "lernen: wir lernen (regelmäßig -en)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "lernst",
+            "lernt",
+            "lerne",
+            "lernten"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Er _____ nicht.",
+        "targetWord": "weiß",
+        "targetWordTranslation": "knows",
+        "explanation": "wissen: er weiß (unregelmäßig)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "weißt",
+            "wissen",
+            "wisst",
+            "wusste"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Ihr _____ hier.",
+        "targetWord": "seid",
+        "targetWordTranslation": "are",
+        "explanation": "sein: ihr seid (unregelmäßig)",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "sind",
+            "bist",
+            "bin",
+            "ist"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Sie (Pl.) _____ reich.",
+        "targetWord": "werden",
+        "targetWordTranslation": "become",
+        "explanation": "werden: sie werden (regelmäßig Pl.)",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "wirst",
+            "wird",
+            "werde",
+            "wurden"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Du _____ sehr nett.",
+        "targetWord": "bist",
+        "targetWordTranslation": "are",
+        "explanation": "sein: du bist (unregelmäßig)",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "bin",
+            "ist",
+            "sind",
+            "seid"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Er _____ gut.",
+        "targetWord": "singt",
+        "targetWordTranslation": "sings",
+        "explanation": "singen: er singt (regelmäßig -t)",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "singst",
+            "singe",
+            "singen",
+            "sang"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "Ich _____ das Buch.",
         "targetWord": "nehme",
         "targetWordTranslation": "take",
+        "explanation": "nehmen: ich nehme (e→i bei du/er)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "nimmst",
             "nimmt",
@@ -144,219 +350,73 @@
         ]
     },
     {
-        "id": "13",
-        "sentence": "Er _____ gern Fußball.",
-        "targetWord": "spielt",
-        "targetWordTranslation": "plays",
-        "wrongAnswers": [
-            "spiele",
-            "spielst",
-            "spielen",
-            "spielte"
-        ]
-    },
-    {
-        "id": "14",
-        "sentence": "Wir _____ ein Lied.",
-        "targetWord": "singen",
-        "targetWordTranslation": "sing",
-        "wrongAnswers": [
-            "singt",
-            "singst",
-            "singe",
-            "sang"
-        ]
-    },
-    {
-        "id": "15",
-        "sentence": "_____ ihr Deutsch?",
-        "targetWord": "Lernt",
-        "targetWordTranslation": "Learn",
-        "wrongAnswers": [
-            "Lernen",
-            "Lernst",
-            "Lerne",
-            "Gelernt"
-        ]
-    },
-    {
-        "id": "16",
-        "sentence": "Maria _____ sehr gut.",
-        "targetWord": "tanzt",
-        "targetWordTranslation": "dances",
-        "wrongAnswers": [
-            "tanze",
-            "tanzen",
-            "tanzst",
-            "tanzte"
-        ]
-    },
-    {
-        "id": "17",
-        "sentence": "Ich _____ meine Freunde.",
-        "targetWord": "treffe",
-        "targetWordTranslation": "meet",
-        "wrongAnswers": [
-            "triffst",
-            "trifft",
-            "treffen",
-            "traf"
-        ]
-    },
-    {
-        "id": "18",
-        "sentence": "Du _____ das Fenster.",
-        "targetWord": "öffnest",
-        "targetWordTranslation": "open",
-        "wrongAnswers": [
-            "öffne",
-            "öffnet",
-            "öffnen",
-            "offen"
-        ]
-    },
-    {
-        "id": "19",
-        "sentence": "Der Lehrer _____ die Frage.",
-        "targetWord": "beantwortet",
-        "targetWordTranslation": "answers",
-        "wrongAnswers": [
-            "beantworten",
-            "beantworte",
-            "antwortet",
-            "fragte"
-        ]
-    },
-    {
-        "id": "20",
-        "sentence": "Wir _____ am Samstag.",
-        "targetWord": "kommen",
-        "targetWordTranslation": "come",
-        "wrongAnswers": [
-            "kommst",
-            "kommt",
-            "komme",
-            "kamen"
-        ]
-    },
-    {
-        "id": "21",
-        "sentence": "Er _____ viel Wasser.",
-        "targetWord": "trinkt",
-        "targetWordTranslation": "drinks",
-        "wrongAnswers": [
-            "trinke",
-            "trinkst",
-            "trinken",
-            "trank"
-        ]
-    },
-    {
-        "id": "22",
-        "sentence": "Ich _____ einen Brief.",
-        "targetWord": "schreibe",
-        "targetWordTranslation": "write",
-        "wrongAnswers": [
-            "schreibst",
-            "schreibt",
-            "schreiben",
-            "schrieb"
-        ]
-    },
-    {
-        "id": "23",
-        "sentence": "Du _____ dich.",
-        "targetWord": "setzt",
-        "targetWordTranslation": "sit",
-        "wrongAnswers": [
-            "setze",
-            "setzen",
-            "set",
-            "saß"
-        ]
-    },
-    {
-        "id": "24",
-        "sentence": "Sie _____ das Abendessen.",
-        "targetWord": "kocht",
-        "targetWordTranslation": "cooks",
-        "wrongAnswers": [
-            "koche",
-            "kochen",
-            "kochst",
-            "gekocht"
-        ]
-    },
-    {
-        "id": "25",
-        "sentence": "Ihr _____ nach Hause.",
-        "targetWord": "lauft",
-        "targetWordTranslation": "run/walk",
-        "wrongAnswers": [
-            "laufe",
-            "läufst",
-            "läuft",
-            "laufen"
-        ]
-    },
-    {
         "id": "26",
-        "sentence": "Das Auto _____ schnell.",
-        "targetWord": "fährt",
-        "targetWordTranslation": "drives",
+        "sentence": "Er _____ das Fenster.",
+        "targetWord": "öffnet",
+        "targetWordTranslation": "opens",
+        "explanation": "öffnen: er öffnet (-et nach -n)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "fahren",
-            "fährst",
-            "fahre",
-            "fuhr"
+            "öffnest",
+            "öffne",
+            "öffnen",
+            "öffnte"
         ]
     },
     {
         "id": "27",
-        "sentence": "Ich _____ dich.",
-        "targetWord": "rufe",
-        "targetWordTranslation": "call",
+        "sentence": "Du _____ das Geschenk.",
+        "targetWord": "gibst",
+        "targetWordTranslation": "give",
+        "explanation": "geben: du gibst (e→i Vokalwechsel)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "rufst",
-            "ruft",
-            "rufen",
-            "rief"
+            "gebe",
+            "gibt",
+            "geben",
+            "gabst"
         ]
     },
     {
         "id": "28",
-        "sentence": "Du _____ das gut.",
-        "targetWord": "machst",
-        "targetWordTranslation": "do/make",
+        "sentence": "Wir _____ gern.",
+        "targetWord": "reisen",
+        "targetWordTranslation": "travel",
+        "explanation": "reisen: wir reisen (regelmäßig -en)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "mache",
-            "macht",
-            "machen",
-            "machtest"
+            "reist",
+            "reise",
+            "reisest",
+            "reisten"
         ]
     },
     {
         "id": "29",
-        "sentence": "Wir _____ in den Urlaub.",
-        "targetWord": "fliegen",
-        "targetWordTranslation": "fly",
+        "sentence": "Sie (Sg.) _____ schnell.",
+        "targetWord": "fährt",
+        "targetWordTranslation": "drives",
+        "explanation": "fahren: sie fährt (a→ä Vokalwechsel)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "fliegt",
-            "fliegst",
-            "fliege",
-            "flogen"
+            "fährst",
+            "fahre",
+            "fahren",
+            "fuhr"
         ]
     },
     {
         "id": "30",
-        "sentence": "Er _____ das Buch.",
-        "targetWord": "sucht",
-        "targetWordTranslation": "searches",
+        "sentence": "Ihr _____ es nicht.",
+        "targetWord": "wisst",
+        "targetWordTranslation": "know",
+        "explanation": "wissen: ihr wisst (unregelmäßig)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "suche",
-            "suchst",
-            "suchen",
-            "suchte"
+            "weiß",
+            "weißt",
+            "wissen",
+            "wusstet"
         ]
     }
 ]

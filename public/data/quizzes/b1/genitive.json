@@ -4,6 +4,8 @@
         "sentence": "Das Auto _____ Vaters.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv maskulin/neutral: des + Nomen mit -s/-es (Vaters)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -16,6 +18,8 @@
         "sentence": "Die Tasche _____ Frau.",
         "targetWord": "der",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv feminin: der (Frau bleibt ohne Endung)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "des",
             "dem",
@@ -28,6 +32,8 @@
         "sentence": "Das Spielzeug _____ Kindes.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv neutral: des + Nomen mit -(e)s (Kindes)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -40,6 +46,8 @@
         "sentence": "Die Fenster _____ Hauses.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv neutral: des Hauses (Haus + es im Genitiv)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -52,6 +60,8 @@
         "sentence": "Die Meinung _____ Leute (Pl.).",
         "targetWord": "der",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv Plural: der (für alle Genera gleich)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "des",
             "dem",
@@ -64,6 +74,8 @@
         "sentence": "Wegen _____ Wetters.",
         "targetWord": "des",
         "targetWordTranslation": "because of the",
+        "explanation": "Präposition 'wegen' verlangt Genitiv: wegen des Wetters",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -76,6 +88,8 @@
         "sentence": "Trotz _____ Regens.",
         "targetWord": "des",
         "targetWordTranslation": "despite the",
+        "explanation": "Präposition 'trotz' verlangt Genitiv: trotz des Regens",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -88,6 +102,8 @@
         "sentence": "Während _____ Woche.",
         "targetWord": "der",
         "targetWordTranslation": "during the",
+        "explanation": "Präposition 'während' + Genitiv feminin: während der Woche",
+        "difficulty": "easy",
         "wrongAnswers": [
             "des",
             "dem",
@@ -100,6 +116,8 @@
         "sentence": "Statt _____ Autos.",
         "targetWord": "des",
         "targetWordTranslation": "instead of the",
+        "explanation": "Präposition 'statt' verlangt Genitiv: statt des Autos",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "dem",
@@ -112,6 +130,8 @@
         "sentence": "Innerhalb _____ Jahres.",
         "targetWord": "eines",
         "targetWordTranslation": "within a",
+        "explanation": "Unbestimmter Artikel Genitiv m/n: eines (Jahr = neutral)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "einer",
             "einem",
@@ -124,6 +144,8 @@
         "sentence": "Außerhalb _____ Stadt.",
         "targetWord": "der",
         "targetWordTranslation": "outside the",
+        "explanation": "Präposition 'außerhalb' + Genitiv feminin: der Stadt",
+        "difficulty": "medium",
         "wrongAnswers": [
             "des",
             "dem",
@@ -136,6 +158,8 @@
         "sentence": "Das Ende _____ Films.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv maskulin: des Films (Film + s)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
             "dem",
@@ -148,6 +172,8 @@
         "sentence": "Der Hut _____ Mannes.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv maskulin: des Mannes (Mann + es)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
             "dem",
@@ -157,9 +183,11 @@
     },
     {
         "id": "14",
-        "sentence": "Die Farbe _____ Blumes.",
+        "sentence": "Die Farbe _____ Blume.",
         "targetWord": "der",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv feminin: der Blume (ohne Endung am Nomen)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "des",
             "dem",
@@ -172,6 +200,8 @@
         "sentence": "Das Dach _____ Gebäudes.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv neutral: des Gebäudes (Gebäude + s)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
             "dem",
@@ -184,6 +214,8 @@
         "sentence": "Die Größe _____ Zimmers.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv neutral: des Zimmers (Zimmer + s)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
             "dem",
@@ -196,6 +228,8 @@
         "sentence": "Die Eltern _____ Kinder.",
         "targetWord": "der",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv Plural: der Kinder (Plural ohne Endung)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "des",
             "dem",
@@ -208,6 +242,8 @@
         "sentence": "Wegen _____ Krankheit.",
         "targetWord": "der",
         "targetWordTranslation": "because of the",
+        "explanation": "wegen + Genitiv feminin: wegen der Krankheit",
+        "difficulty": "medium",
         "wrongAnswers": [
             "des",
             "dem",
@@ -220,6 +256,8 @@
         "sentence": "Trotz _____ Hitze.",
         "targetWord": "der",
         "targetWordTranslation": "despite the",
+        "explanation": "trotz + Genitiv feminin: trotz der Hitze",
+        "difficulty": "medium",
         "wrongAnswers": [
             "des",
             "dem",
@@ -232,6 +270,8 @@
         "sentence": "Während _____ Tages.",
         "targetWord": "des",
         "targetWordTranslation": "during the",
+        "explanation": "während + Genitiv maskulin: während des Tages",
+        "difficulty": "medium",
         "wrongAnswers": [
             "der",
             "dem",
@@ -244,6 +284,8 @@
         "sentence": "Statt _____ Computers.",
         "targetWord": "des",
         "targetWordTranslation": "instead of the",
+        "explanation": "statt + Genitiv maskulin: statt des Computers",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
             "dem",
@@ -256,6 +298,8 @@
         "sentence": "Innerhalb _____ Woche.",
         "targetWord": "einer",
         "targetWordTranslation": "within a",
+        "explanation": "Unbestimmter Artikel Genitiv feminin: einer Woche",
+        "difficulty": "hard",
         "wrongAnswers": [
             "eines",
             "einem",
@@ -268,6 +312,8 @@
         "sentence": "Außerhalb _____ Hauses.",
         "targetWord": "des",
         "targetWordTranslation": "outside the",
+        "explanation": "außerhalb + Genitiv neutral: außerhalb des Hauses",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
             "dem",
@@ -280,6 +326,8 @@
         "sentence": "Der Anfang _____ Geschichte.",
         "targetWord": "der",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv feminin: der Geschichte",
+        "difficulty": "hard",
         "wrongAnswers": [
             "des",
             "dem",
@@ -292,6 +340,8 @@
         "sentence": "Das Licht _____ Lampe.",
         "targetWord": "der",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv feminin: der Lampe",
+        "difficulty": "hard",
         "wrongAnswers": [
             "des",
             "dem",
@@ -304,6 +354,8 @@
         "sentence": "Der Preis _____ Autos.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv neutral: des Autos (Auto + s)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
             "dem",
@@ -316,6 +368,8 @@
         "sentence": "Die Tür _____ Zimmers.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv neutral: des Zimmers",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
             "dem",
@@ -328,6 +382,8 @@
         "sentence": "Das Bellen _____ Hundes.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv maskulin: des Hundes (Hund + es)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
             "dem",
@@ -340,6 +396,8 @@
         "sentence": "Die Blätter _____ Baumes.",
         "targetWord": "des",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv maskulin: des Baumes (Baum + es)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "der",
             "dem",
@@ -352,6 +410,8 @@
         "sentence": "Die Freunde _____ Schwester.",
         "targetWord": "der",
         "targetWordTranslation": "of the",
+        "explanation": "Genitiv feminin: der Schwester",
+        "difficulty": "hard",
         "wrongAnswers": [
             "des",
             "dem",

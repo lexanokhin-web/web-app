@@ -3,7 +3,7 @@ import { MatchCard } from './MatchCard';
 import type { MatchCardData } from './MatchCard';
 import { Button } from '../../Button';
 import { GlassCard } from '../../GlassCard';
-import { Trophy, RotateCcw } from 'lucide-react';
+import { Trophy, RotateCcw, Shuffle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface MatchGameProps {
@@ -12,9 +12,10 @@ interface MatchGameProps {
     onExit: () => void;
     onCorrect?: () => void;
     onIncorrect?: () => void;
+    onRestartWithNewWords?: () => void;
 }
 
-export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit, onCorrect, onIncorrect }) => {
+export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit, onCorrect, onIncorrect, onRestartWithNewWords }) => {
     const [cards, setCards] = useState<MatchCardData[]>([]);
     const [firstSelection, setFirstSelection] = useState<MatchCardData | null>(null);
     const [secondSelection, setSecondSelection] = useState<MatchCardData | null>(null);
@@ -121,9 +122,16 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit,
                         <span className="ml-2 font-bold text-red-600">{mistakes}</span>
                     </div>
                 </div>
-                <Button onClick={resetGame} variant="secondary" className="!p-2">
-                    <RotateCcw className="w-5 h-5" />
-                </Button>
+                <div className="flex gap-2">
+                    <Button onClick={resetGame} variant="secondary" className="!p-2" title="Сбросить">
+                        <RotateCcw className="w-5 h-5" />
+                    </Button>
+                    {onRestartWithNewWords && (
+                        <Button onClick={onRestartWithNewWords} variant="secondary" className="!p-2" title="Новые слова">
+                            <Shuffle className="w-5 h-5" />
+                        </Button>
+                    )}
+                </div>
             </GlassCard>
 
             {/* Cards Grid */}
@@ -164,11 +172,17 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit,
                                 </div>
                             </div>
                         </GlassCard>
-                        <div className="flex justify-center gap-4">
+                        <div className="flex justify-center gap-4 mt-4">
                             <Button onClick={resetGame} variant="primary">
                                 <RotateCcw className="w-4 h-4 mr-2" />
                                 Играть еще
                             </Button>
+                            {onRestartWithNewWords && (
+                                <Button onClick={onRestartWithNewWords} variant="success">
+                                    <Shuffle className="w-4 h-4 mr-2" />
+                                    Новые слова
+                                </Button>
+                            )}
                             <Button onClick={onExit} variant="secondary">
                                 Назад
                             </Button>

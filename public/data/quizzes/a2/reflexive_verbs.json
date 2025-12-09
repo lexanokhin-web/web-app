@@ -4,6 +4,8 @@
         "sentence": "Ich wasche _____.",
         "targetWord": "mich",
         "targetWordTranslation": "myself",
+        "explanation": "Reflexivpronomen Akkusativ: ich → mich",
+        "difficulty": "easy",
         "wrongAnswers": [
             "mir",
             "sich",
@@ -16,6 +18,8 @@
         "sentence": "Du freust _____ auf den Urlaub.",
         "targetWord": "dich",
         "targetWordTranslation": "yourself",
+        "explanation": "Reflexivpronomen Akkusativ: du → dich",
+        "difficulty": "easy",
         "wrongAnswers": [
             "dir",
             "sich",
@@ -28,6 +32,8 @@
         "sentence": "Er interessiert _____ für Musik.",
         "targetWord": "sich",
         "targetWordTranslation": "himself",
+        "explanation": "Reflexivpronomen 3. Person: sich (Akk.)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ihn",
             "ihm",
@@ -40,11 +46,13 @@
         "sentence": "Wir treffen _____ am Kino.",
         "targetWord": "uns",
         "targetWordTranslation": "ourselves",
+        "explanation": "Reflexivpronomen Akkusativ: wir → uns",
+        "difficulty": "easy",
         "wrongAnswers": [
             "euch",
             "sich",
             "wir",
-            "unsere"
+            "mich"
         ]
     },
     {
@@ -52,6 +60,8 @@
         "sentence": "Ihr ärgert _____ über den Bus.",
         "targetWord": "euch",
         "targetWordTranslation": "yourselves",
+        "explanation": "Reflexivpronomen Akkusativ: ihr → euch",
+        "difficulty": "easy",
         "wrongAnswers": [
             "uns",
             "sich",
@@ -64,6 +74,8 @@
         "sentence": "Sie (Pl.) erholen _____ gut.",
         "targetWord": "sich",
         "targetWordTranslation": "themselves",
+        "explanation": "Reflexivpronomen 3. Person Pl.: sich",
+        "difficulty": "easy",
         "wrongAnswers": [
             "uns",
             "euch",
@@ -76,6 +88,8 @@
         "sentence": "Ich kaufe _____ (Dat.) ein Buch.",
         "targetWord": "mir",
         "targetWordTranslation": "myself",
+        "explanation": "Reflexiv Dativ (+ Akk.-Objekt): ich → mir",
+        "difficulty": "easy",
         "wrongAnswers": [
             "mich",
             "dir",
@@ -88,6 +102,8 @@
         "sentence": "Du putzt _____ (Dat.) die Zähne.",
         "targetWord": "dir",
         "targetWordTranslation": "yourself",
+        "explanation": "Reflexiv Dativ (+ Körperteil): du → dir",
+        "difficulty": "easy",
         "wrongAnswers": [
             "dich",
             "mir",
@@ -100,6 +116,8 @@
         "sentence": "Beeil _____!",
         "targetWord": "dich",
         "targetWordTranslation": "Hurry",
+        "explanation": "Imperativ du: sich beeilen → Beeil dich!",
+        "difficulty": "easy",
         "wrongAnswers": [
             "dir",
             "sich",
@@ -112,6 +130,8 @@
         "sentence": "Setzen Sie _____ bitte.",
         "targetWord": "sich",
         "targetWordTranslation": "yourself (formal)",
+        "explanation": "Höflichkeitsform: Sie → sich",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Sie",
             "Ihnen",
@@ -124,6 +144,8 @@
         "sentence": "Ich fühle _____ nicht gut.",
         "targetWord": "mich",
         "targetWordTranslation": "myself",
+        "explanation": "'sich fühlen' + Akkusativ: ich → mich",
+        "difficulty": "medium",
         "wrongAnswers": [
             "mir",
             "sich",
@@ -136,6 +158,8 @@
         "sentence": "Er zieht _____ an.",
         "targetWord": "sich",
         "targetWordTranslation": "himself",
+        "explanation": "'sich anziehen' (ohne Objekt): Akkusativ",
+        "difficulty": "medium",
         "wrongAnswers": [
             "ihn",
             "ihm",
@@ -148,11 +172,13 @@
         "sentence": "Wir unterhalten _____ gut.",
         "targetWord": "uns",
         "targetWordTranslation": "ourselves",
+        "explanation": "'sich unterhalten' + Akk.: wir → uns",
+        "difficulty": "medium",
         "wrongAnswers": [
             "euch",
             "sich",
             "wir",
-            "unsere"
+            "mich"
         ]
     },
     {
@@ -160,6 +186,8 @@
         "sentence": "Langweilst du _____?",
         "targetWord": "dich",
         "targetWordTranslation": "yourself",
+        "explanation": "'sich langweilen' + Akk.: du → dich",
+        "difficulty": "medium",
         "wrongAnswers": [
             "dir",
             "sich",
@@ -172,6 +200,8 @@
         "sentence": "Sie schminkt _____.",
         "targetWord": "sich",
         "targetWordTranslation": "herself",
+        "explanation": "'sich schminken' + Akk.: sie → sich",
+        "difficulty": "medium",
         "wrongAnswers": [
             "sie",
             "ihr",
@@ -184,6 +214,8 @@
         "sentence": "Ich kämme _____ die Haare.",
         "targetWord": "mir",
         "targetWordTranslation": "myself",
+        "explanation": "Reflexiv Dativ (+ Körperteil 'Haare'): mir",
+        "difficulty": "medium",
         "wrongAnswers": [
             "mich",
             "dir",
@@ -196,6 +228,8 @@
         "sentence": "Er rasiert _____.",
         "targetWord": "sich",
         "targetWordTranslation": "himself",
+        "explanation": "'sich rasieren' (ohne Objekt): Akkusativ",
+        "difficulty": "medium",
         "wrongAnswers": [
             "ihn",
             "ihm",
@@ -208,11 +242,13 @@
         "sentence": "Wir freuen _____ über das Geschenk.",
         "targetWord": "uns",
         "targetWordTranslation": "ourselves",
+        "explanation": "'sich freuen über' + Akk.: wir → uns",
+        "difficulty": "medium",
         "wrongAnswers": [
             "euch",
             "sich",
             "wir",
-            "unsere"
+            "mich"
         ]
     },
     {
@@ -220,6 +256,8 @@
         "sentence": "Ihr kümmert _____ um den Hund.",
         "targetWord": "euch",
         "targetWordTranslation": "yourselves",
+        "explanation": "'sich kümmern um' + Akk.: ihr → euch",
+        "difficulty": "medium",
         "wrongAnswers": [
             "uns",
             "sich",
@@ -232,6 +270,8 @@
         "sentence": "Ich entschuldige _____.",
         "targetWord": "mich",
         "targetWordTranslation": "myself",
+        "explanation": "'sich entschuldigen' + Akk.: ich → mich",
+        "difficulty": "medium",
         "wrongAnswers": [
             "mir",
             "sich",
@@ -244,6 +284,8 @@
         "sentence": "Du erinnerst _____ an den Film.",
         "targetWord": "dich",
         "targetWordTranslation": "yourself",
+        "explanation": "'sich erinnern an' + Akk.: du → dich",
+        "difficulty": "hard",
         "wrongAnswers": [
             "dir",
             "sich",
@@ -256,6 +298,8 @@
         "sentence": "Sie verlieben _____ ineinander.",
         "targetWord": "sich",
         "targetWordTranslation": "themselves",
+        "explanation": "'sich verlieben' (reziprok): sich",
+        "difficulty": "hard",
         "wrongAnswers": [
             "uns",
             "euch",
@@ -268,6 +312,8 @@
         "sentence": "Ich ziehe _____ (Dat.) die Jacke an.",
         "targetWord": "mir",
         "targetWordTranslation": "myself",
+        "explanation": "Reflexiv Dativ (+ Kleidung): ich → mir",
+        "difficulty": "hard",
         "wrongAnswers": [
             "mich",
             "dir",
@@ -280,6 +326,8 @@
         "sentence": "Du wäschst _____ (Dat.) die Hände.",
         "targetWord": "dir",
         "targetWordTranslation": "yourself",
+        "explanation": "Reflexiv Dativ (+ Körperteil): du → dir",
+        "difficulty": "hard",
         "wrongAnswers": [
             "dich",
             "mir",
@@ -292,6 +340,8 @@
         "sentence": "Er setzt _____ auf den Stuhl.",
         "targetWord": "sich",
         "targetWordTranslation": "himself",
+        "explanation": "'sich setzen' + Akk.: er → sich",
+        "difficulty": "hard",
         "wrongAnswers": [
             "ihn",
             "ihm",
@@ -304,11 +354,13 @@
         "sentence": "Wir streiten _____ oft.",
         "targetWord": "uns",
         "targetWordTranslation": "ourselves",
+        "explanation": "'sich streiten' (reziprok): wir → uns",
+        "difficulty": "hard",
         "wrongAnswers": [
             "euch",
             "sich",
             "wir",
-            "unsere"
+            "mich"
         ]
     },
     {
@@ -316,6 +368,8 @@
         "sentence": "Ihr konzentriert _____ auf die Arbeit.",
         "targetWord": "euch",
         "targetWordTranslation": "yourselves",
+        "explanation": "'sich konzentrieren auf' + Akk.: ihr → euch",
+        "difficulty": "hard",
         "wrongAnswers": [
             "uns",
             "sich",
@@ -328,6 +382,8 @@
         "sentence": "Ich bedanke _____ für die Hilfe.",
         "targetWord": "mich",
         "targetWordTranslation": "myself",
+        "explanation": "'sich bedanken für' + Akk.: ich → mich",
+        "difficulty": "hard",
         "wrongAnswers": [
             "mir",
             "sich",
@@ -340,6 +396,8 @@
         "sentence": "Du bewirbst _____ um den Job.",
         "targetWord": "dich",
         "targetWordTranslation": "yourself",
+        "explanation": "'sich bewerben um' + Akk.: du → dich",
+        "difficulty": "hard",
         "wrongAnswers": [
             "dir",
             "sich",
@@ -352,6 +410,8 @@
         "sentence": "Sie verabschieden _____.",
         "targetWord": "sich",
         "targetWordTranslation": "themselves",
+        "explanation": "'sich verabschieden' (reziprok): sich",
+        "difficulty": "hard",
         "wrongAnswers": [
             "uns",
             "euch",

@@ -4,6 +4,8 @@
         "sentence": "Das ist _____ Buch.",
         "targetWord": "ein",
         "targetWordTranslation": "a",
+        "explanation": "Buch = Neutrum (das) → ein",
+        "difficulty": "easy",
         "wrongAnswers": [
             "eine",
             "einen",
@@ -16,6 +18,8 @@
         "sentence": "Ich habe _____ Katze.",
         "targetWord": "eine",
         "targetWordTranslation": "a",
+        "explanation": "Katze = Femininum (die) → eine",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "einen",
@@ -28,11 +32,13 @@
         "sentence": "Wo ist _____ Mann?",
         "targetWord": "der",
         "targetWordTranslation": "the",
+        "explanation": "Mann = Maskulinum → der",
+        "difficulty": "easy",
         "wrongAnswers": [
             "die",
             "das",
             "den",
-            "dem"
+            "ein"
         ]
     },
     {
@@ -40,11 +46,13 @@
         "sentence": "Das ist _____ Kind.",
         "targetWord": "das",
         "targetWordTranslation": "the",
+        "explanation": "Kind = Neutrum → das",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "die",
             "den",
-            "dem"
+            "ein"
         ]
     },
     {
@@ -52,11 +60,13 @@
         "sentence": "Ich sehe _____ Frau.",
         "targetWord": "eine",
         "targetWordTranslation": "a",
+        "explanation": "Frau = Femininum → eine (Akk. f. = unverändert)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "einen",
             "dem",
-            "den"
+            "der"
         ]
     },
     {
@@ -64,6 +74,8 @@
         "sentence": "Hast du _____ Apfel (m)?",
         "targetWord": "einen",
         "targetWordTranslation": "an",
+        "explanation": "Apfel = Maskulinum + Akk. → einen",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ein",
             "eine",
@@ -76,6 +88,8 @@
         "sentence": "Das ist _____ Auto.",
         "targetWord": "das",
         "targetWordTranslation": "the",
+        "explanation": "Auto = Neutrum → das",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "die",
@@ -88,6 +102,8 @@
         "sentence": "Ich kenne _____ Lehrer (m, Akk).",
         "targetWord": "den",
         "targetWordTranslation": "the",
+        "explanation": "Lehrer = Maskulinum + Akk. → den",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "die",
@@ -100,54 +116,64 @@
         "sentence": "Das ist _____ Tasche.",
         "targetWord": "die",
         "targetWordTranslation": "the",
+        "explanation": "Tasche = Femininum → die",
+        "difficulty": "easy",
         "wrongAnswers": [
             "der",
             "das",
             "den",
-            "ein"
+            "eine"
         ]
     },
     {
         "id": "10",
-        "sentence": "Ich möchte _____ Wasser (n).",
-        "targetWord": "ein",
-        "targetWordTranslation": "a",
+        "sentence": "_____ Sonne scheint.",
+        "targetWord": "Die",
+        "targetWordTranslation": "The",
+        "explanation": "Sonne = Femininum → die",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "eine",
-            "einen",
-            "der",
-            "die"
+            "Der",
+            "Das",
+            "Eine",
+            "Ein"
         ]
     },
     {
         "id": "11",
-        "sentence": "_____ Sonne scheint.",
-        "targetWord": "Die",
-        "targetWordTranslation": "The",
+        "sentence": "Wo ist _____ Schule?",
+        "targetWord": "die",
+        "targetWordTranslation": "the",
+        "explanation": "Schule = Femininum → die",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Der",
+            "der",
+            "das",
+            "den",
+            "eine"
+        ]
+    },
+    {
+        "id": "12",
+        "sentence": "_____ Kaffee ist heiß.",
+        "targetWord": "Der",
+        "targetWordTranslation": "The",
+        "explanation": "Kaffee = Maskulinum → der",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Die",
             "Das",
             "Ein",
             "Den"
         ]
     },
     {
-        "id": "12",
-        "sentence": "_____ Himmel ist blau.",
-        "targetWord": "Der",
-        "targetWordTranslation": "The",
-        "wrongAnswers": [
-            "Die",
-            "Das",
-            "Eine",
-            "Den"
-        ]
-    },
-    {
         "id": "13",
-        "sentence": "Ich brauche _____ Löffel (m).",
+        "sentence": "Ich habe _____ Bruder.",
         "targetWord": "einen",
         "targetWordTranslation": "a",
+        "explanation": "Bruder = Maskulinum + Akk. → einen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "ein",
             "eine",
@@ -157,105 +183,53 @@
     },
     {
         "id": "14",
-        "sentence": "Hast du _____ Gabel (f)?",
-        "targetWord": "eine",
+        "sentence": "Das ist _____ Tisch.",
+        "targetWord": "ein",
         "targetWordTranslation": "a",
+        "explanation": "Tisch = Maskulinum + Nom. → ein",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "ein",
+            "eine",
             "einen",
-            "der",
-            "den"
+            "die",
+            "der"
         ]
     },
     {
         "id": "15",
-        "sentence": "Das ist _____ Tisch (m).",
-        "targetWord": "der",
-        "targetWordTranslation": "the",
+        "sentence": "Ich kaufe _____ Blume.",
+        "targetWord": "eine",
+        "targetWordTranslation": "a",
+        "explanation": "Blume = Femininum + Akk. → eine",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "die",
-            "das",
-            "den",
-            "dem"
+            "ein",
+            "einen",
+            "der",
+            "die"
         ]
     },
     {
         "id": "16",
-        "sentence": "Wo ist _____ Stuhl (m)?",
-        "targetWord": "der",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "die",
-            "das",
-            "den",
-            "ein"
-        ]
-    },
-    {
-        "id": "17",
-        "sentence": "Ich kaufe _____ Banane.",
-        "targetWord": "eine",
-        "targetWordTranslation": "a",
-        "wrongAnswers": [
-            "ein",
-            "einen",
-            "der",
-            "dem"
-        ]
-    },
-    {
-        "id": "18",
-        "sentence": "_____ Fenster ist offen.",
+        "sentence": "_____ Wasser ist kalt.",
         "targetWord": "Das",
         "targetWordTranslation": "The",
+        "explanation": "Wasser = Neutrum → das",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Der",
             "Die",
             "Ein",
-            "Den"
+            "Eine"
         ]
     },
     {
-        "id": "19",
-        "sentence": "Ich esse _____ Ei.",
-        "targetWord": "ein",
-        "targetWordTranslation": "an",
-        "wrongAnswers": [
-            "eine",
-            "einen",
-            "der",
-            "die"
-        ]
-    },
-    {
-        "id": "20",
-        "sentence": "_____ Mond scheint.",
-        "targetWord": "Der",
-        "targetWordTranslation": "The",
-        "wrongAnswers": [
-            "Die",
-            "Das",
-            "Eine",
-            "Den"
-        ]
-    },
-    {
-        "id": "21",
-        "sentence": "Hast du _____ Bruder?",
-        "targetWord": "einen",
-        "targetWordTranslation": "a",
-        "wrongAnswers": [
-            "ein",
-            "eine",
-            "der",
-            "den"
-        ]
-    },
-    {
-        "id": "22",
-        "sentence": "Das ist _____ Schwester.",
+        "id": "17",
+        "sentence": "Hast du _____ Schwester?",
         "targetWord": "eine",
         "targetWordTranslation": "a",
+        "explanation": "Schwester = Femininum + Akk. → eine",
+        "difficulty": "medium",
         "wrongAnswers": [
             "ein",
             "einen",
@@ -264,99 +238,185 @@
         ]
     },
     {
-        "id": "23",
-        "sentence": "Ich sehe _____ Hund (m).",
+        "id": "18",
+        "sentence": "Ich sehe _____ Hund.",
         "targetWord": "einen",
         "targetWordTranslation": "a",
+        "explanation": "Hund = Maskulinum + Akk. → einen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "ein",
             "eine",
             "der",
-            "das"
-        ]
-    },
-    {
-        "id": "24",
-        "sentence": "Da ist _____ Schule (f).",
-        "targetWord": "die",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "der",
-            "das",
-            "den",
-            "ein"
-        ]
-    },
-    {
-        "id": "25",
-        "sentence": "Wir besuchen _____ Opa (Akk).",
-        "targetWord": "den",
-        "targetWordTranslation": "the",
-        "wrongAnswers": [
-            "der",
-            "die",
-            "das",
             "dem"
         ]
     },
     {
-        "id": "26",
+        "id": "19",
+        "sentence": "Das ist _____ Fenster.",
+        "targetWord": "ein",
+        "targetWordTranslation": "a",
+        "explanation": "Fenster = Neutrum + Nom. → ein",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "eine",
+            "einen",
+            "die",
+            "das"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "_____ Himmel ist blau.",
+        "targetWord": "Der",
+        "targetWordTranslation": "The",
+        "explanation": "Himmel = Maskulinum → der",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Die",
+            "Das",
+            "Ein",
+            "Eine"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "Ich brauche _____ Stift (m).",
+        "targetWord": "einen",
+        "targetWordTranslation": "a",
+        "explanation": "Stift = Maskulinum + Akk. → einen",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ein",
+            "eine",
+            "der",
+            "dem"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "Das ist _____ Mädchen.",
+        "targetWord": "ein",
+        "targetWordTranslation": "a",
+        "explanation": "Mädchen = Neutrum (!) → ein",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "eine",
+            "einen",
+            "die",
+            "der"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "_____ Mond scheint.",
+        "targetWord": "Der",
+        "targetWordTranslation": "The",
+        "explanation": "Mond = Maskulinum → der",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Die",
+            "Das",
+            "Ein",
+            "Eine"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Ich möchte _____ Tee (m).",
+        "targetWord": "einen",
+        "targetWordTranslation": "a",
+        "explanation": "Tee = Maskulinum + Akk. → einen",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ein",
+            "eine",
+            "der",
+            "dem"
+        ]
+    },
+    {
+        "id": "25",
         "sentence": "Das ist _____ Problem (n).",
         "targetWord": "ein",
         "targetWordTranslation": "a",
+        "explanation": "Problem = Neutrum → ein",
+        "difficulty": "hard",
         "wrongAnswers": [
             "eine",
+            "einen",
+            "die",
+            "der"
+        ]
+    },
+    {
+        "id": "26",
+        "sentence": "_____ Musik ist laut.",
+        "targetWord": "Die",
+        "targetWordTranslation": "The",
+        "explanation": "Musik = Femininum → die",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Der",
+            "Das",
+            "Ein",
+            "Eine"
+        ]
+    },
+    {
+        "id": "27",
+        "sentence": "Ich habe _____ Idee (f).",
+        "targetWord": "eine",
+        "targetWordTranslation": "an",
+        "explanation": "Idee = Femininum + Akk. → eine",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ein",
             "einen",
             "der",
             "die"
         ]
     },
     {
-        "id": "27",
-        "sentence": "Ich trinke _____ Saft (m).",
-        "targetWord": "einen",
-        "targetWordTranslation": "a",
-        "wrongAnswers": [
-            "ein",
-            "eine",
-            "der",
-            "das"
-        ]
-    },
-    {
         "id": "28",
-        "sentence": "Hier ist _____ Rechnung (f).",
-        "targetWord": "die",
-        "targetWordTranslation": "the",
+        "sentence": "Das ist _____ Restaurant (n).",
+        "targetWord": "ein",
+        "targetWordTranslation": "a",
+        "explanation": "Restaurant = Neutrum → ein",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "der",
-            "das",
-            "den",
-            "ein"
+            "eine",
+            "einen",
+            "die",
+            "der"
         ]
     },
     {
         "id": "29",
-        "sentence": "Er fährt _____ Bus (m).",
-        "targetWord": "einen",
-        "targetWordTranslation": "a",
+        "sentence": "_____ Nacht ist dunkel.",
+        "targetWord": "Die",
+        "targetWordTranslation": "The",
+        "explanation": "Nacht = Femininum → die",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "ein",
-            "eine",
-            "der",
-            "den"
+            "Der",
+            "Das",
+            "Ein",
+            "Eine"
         ]
     },
     {
         "id": "30",
-        "sentence": "Das ist _____ Idee (f).",
-        "targetWord": "eine",
-        "targetWordTranslation": "an",
+        "sentence": "Kennst du _____ Stadt (f)?",
+        "targetWord": "die",
+        "targetWordTranslation": "the",
+        "explanation": "Stadt = Femininum + Akk. → die",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "ein",
-            "einen",
             "der",
-            "das"
+            "das",
+            "den",
+            "eine"
         ]
     }
 ]

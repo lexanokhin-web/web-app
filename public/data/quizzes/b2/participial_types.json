@@ -4,9 +4,11 @@
         "sentence": "Das _____ (spielen) Kind.",
         "targetWord": "spielende",
         "targetWordTranslation": "playing",
+        "explanation": "Partizip I (aktiv, gleichzeitig): Stamm + -end + Adjektivendung",
+        "difficulty": "easy",
         "wrongAnswers": [
             "gespielt",
-            "spielte",
+            "gespielte",
             "spielenden",
             "spielendes"
         ]
@@ -16,11 +18,13 @@
         "sentence": "Das _____ (lesen) Buch.",
         "targetWord": "gelesene",
         "targetWordTranslation": "read",
+        "explanation": "Partizip II (passiv, abgeschlossen): Buch wurde gelesen",
+        "difficulty": "easy",
         "wrongAnswers": [
             "lesende",
             "gelesen",
-            "lesendes",
-            "lesenden"
+            "gelesenen",
+            "lesendes"
         ]
     },
     {
@@ -28,9 +32,11 @@
         "sentence": "Der _____ (laufen) Mann.",
         "targetWord": "laufende",
         "targetWordTranslation": "running",
+        "explanation": "Partizip I: Mann läuft gerade (aktiv, gleichzeitig)",
+        "difficulty": "easy",
         "wrongAnswers": [
+            "gelaufene",
             "gelaufen",
-            "lief",
             "laufenden",
             "laufender"
         ]
@@ -40,9 +46,11 @@
         "sentence": "Die _____ (kochen) Suppe.",
         "targetWord": "kochende",
         "targetWordTranslation": "boiling",
+        "explanation": "Partizip I: Suppe kocht gerade (aktiv, gleichzeitig)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "gekochte",
-            "kocht",
+            "gekocht",
             "kochenden",
             "kochender"
         ]
@@ -52,6 +60,8 @@
         "sentence": "Das _____ (zerstören) Haus.",
         "targetWord": "zerstörte",
         "targetWordTranslation": "destroyed",
+        "explanation": "Partizip II: Haus wurde zerstört (passiv, abgeschlossen)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "zerstörende",
             "zerstört",
@@ -64,9 +74,11 @@
         "sentence": "Die _____ (singen) Frau.",
         "targetWord": "singende",
         "targetWordTranslation": "singing",
+        "explanation": "Partizip I: Frau singt gerade (aktiv, gleichzeitig)",
+        "difficulty": "easy",
         "wrongAnswers": [
+            "gesungene",
             "gesungen",
-            "sang",
             "singenden",
             "singender"
         ]
@@ -76,11 +88,13 @@
         "sentence": "Das _____ (stehlen) Auto.",
         "targetWord": "gestohlene",
         "targetWordTranslation": "stolen",
+        "explanation": "Partizip II: Auto wurde gestohlen (passiv, abgeschlossen)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "stehlende",
             "gestohlen",
-            "stehlendes",
-            "stehlenden"
+            "gestohlenen",
+            "stehlendes"
         ]
     },
     {
@@ -88,9 +102,11 @@
         "sentence": "Der _____ (bellen) Hund.",
         "targetWord": "bellende",
         "targetWordTranslation": "barking",
+        "explanation": "Partizip I: Hund bellt gerade (aktiv, gleichzeitig)",
+        "difficulty": "easy",
         "wrongAnswers": [
+            "gebellte",
             "gebellt",
-            "bellte",
             "bellenden",
             "bellender"
         ]
@@ -100,6 +116,8 @@
         "sentence": "Die _____ (reparieren) Uhr.",
         "targetWord": "reparierte",
         "targetWordTranslation": "repaired",
+        "explanation": "Partizip II: Uhr wurde repariert (passiv, abgeschlossen)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "reparierende",
             "repariert",
@@ -112,9 +130,11 @@
         "sentence": "Das _____ (schlafen) Baby.",
         "targetWord": "schlafende",
         "targetWordTranslation": "sleeping",
+        "explanation": "Partizip I: Baby schläft gerade (aktiv, gleichzeitig)",
+        "difficulty": "easy",
         "wrongAnswers": [
+            "geschlafene",
             "geschlafen",
-            "schlief",
             "schlafenden",
             "schlafendes"
         ]
@@ -124,9 +144,11 @@
         "sentence": "Der _____ (ankommen) Zug.",
         "targetWord": "ankommende",
         "targetWordTranslation": "arriving",
+        "explanation": "Partizip I: Zug kommt gerade an (aktiv, gleichzeitig)",
+        "difficulty": "medium",
         "wrongAnswers": [
+            "angekommene",
             "angekommen",
-            "ankam",
             "ankommenden",
             "ankommender"
         ]
@@ -136,6 +158,8 @@
         "sentence": "Die _____ (öffnen) Tür.",
         "targetWord": "geöffnete",
         "targetWordTranslation": "opened",
+        "explanation": "Partizip II: Tür wurde geöffnet (Resultat)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "öffnende",
             "geöffnet",
@@ -148,9 +172,11 @@
         "sentence": "Das _____ (weinen) Kind.",
         "targetWord": "weinende",
         "targetWordTranslation": "crying",
+        "explanation": "Partizip I: Kind weint gerade (aktiv, gleichzeitig)",
+        "difficulty": "medium",
         "wrongAnswers": [
+            "geweinte",
             "geweint",
-            "weinte",
             "weinenden",
             "weinendes"
         ]
@@ -160,9 +186,11 @@
         "sentence": "Der _____ (fallen) Baum.",
         "targetWord": "fallende",
         "targetWordTranslation": "falling",
+        "explanation": "Partizip I: Baum fällt gerade (aktiv, gleichzeitig)",
+        "difficulty": "medium",
         "wrongAnswers": [
+            "gefallene",
             "gefallen",
-            "fiel",
             "fallenden",
             "fallender"
         ]
@@ -172,6 +200,8 @@
         "sentence": "Das _____ (verkaufen) Haus.",
         "targetWord": "verkaufte",
         "targetWordTranslation": "sold",
+        "explanation": "Partizip II: Haus wurde verkauft (passiv, abgeschlossen)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "verkaufende",
             "verkauft",
@@ -184,9 +214,11 @@
         "sentence": "Die _____ (lachen) Kinder.",
         "targetWord": "lachenden",
         "targetWordTranslation": "laughing",
+        "explanation": "Partizip I Plural: Kinder lachen (+ Adjektivendung -en)",
+        "difficulty": "medium",
         "wrongAnswers": [
+            "gelachten",
             "gelacht",
-            "lachten",
             "lachende",
             "lachendes"
         ]
@@ -196,6 +228,8 @@
         "sentence": "Der _____ (bezahlen) Betrag.",
         "targetWord": "bezahlte",
         "targetWordTranslation": "paid",
+        "explanation": "Partizip II: Betrag wurde bezahlt (passiv, abgeschlossen)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "bezahlende",
             "bezahlt",
@@ -208,9 +242,11 @@
         "sentence": "Das _____ (brennen) Haus.",
         "targetWord": "brennende",
         "targetWordTranslation": "burning",
+        "explanation": "Partizip I: Haus brennt gerade (aktiv, gleichzeitig)",
+        "difficulty": "medium",
         "wrongAnswers": [
+            "gebrannte",
             "gebrannt",
-            "brannte",
             "brennenden",
             "brennendes"
         ]
@@ -220,6 +256,8 @@
         "sentence": "Die _____ (schreiben) E-Mail.",
         "targetWord": "geschriebene",
         "targetWordTranslation": "written",
+        "explanation": "Partizip II: E-Mail wurde geschrieben (passiv, fertig)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "schreibende",
             "geschrieben",
@@ -232,9 +270,11 @@
         "sentence": "Der _____ (fahren) Zug.",
         "targetWord": "fahrende",
         "targetWordTranslation": "driving/moving",
+        "explanation": "Partizip I: Zug fährt gerade (aktiv, in Bewegung)",
+        "difficulty": "medium",
         "wrongAnswers": [
+            "gefahrene",
             "gefahren",
-            "fuhr",
             "fahrenden",
             "fahrender"
         ]
@@ -244,6 +284,8 @@
         "sentence": "Das _____ (finden) Geld.",
         "targetWord": "gefundene",
         "targetWordTranslation": "found",
+        "explanation": "Partizip II: Geld wurde gefunden (passiv, Resultat)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "findende",
             "gefunden",
@@ -256,9 +298,11 @@
         "sentence": "Die _____ (aufgehen) Sonne.",
         "targetWord": "aufgehende",
         "targetWordTranslation": "rising",
+        "explanation": "Partizip I: Sonne geht gerade auf (aktiv, gleichzeitig)",
+        "difficulty": "hard",
         "wrongAnswers": [
+            "aufgegangene",
             "aufgegangen",
-            "aufging",
             "aufgehenden",
             "aufgehender"
         ]
@@ -268,6 +312,8 @@
         "sentence": "Der _____ (betrinken) Mann.",
         "targetWord": "betrunkene",
         "targetWordTranslation": "drunk",
+        "explanation": "Partizip II als Adjektiv: Mann hat sich betrunken",
+        "difficulty": "hard",
         "wrongAnswers": [
             "betrinkende",
             "betrunken",
@@ -280,9 +326,11 @@
         "sentence": "Das _____ (kochen) Wasser.",
         "targetWord": "kochende",
         "targetWordTranslation": "boiling",
+        "explanation": "Partizip I: Wasser kocht gerade (100°C)",
+        "difficulty": "hard",
         "wrongAnswers": [
+            "gekochte",
             "gekocht",
-            "kochte",
             "kochenden",
             "kochendes"
         ]
@@ -292,8 +340,10 @@
         "sentence": "Die _____ (verlieren) Schlüssel.",
         "targetWord": "verlorenen",
         "targetWordTranslation": "lost",
+        "explanation": "Partizip II Plural: Schlüssel wurden verloren",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "verlierende",
+            "verlierenden",
             "verloren",
             "verlorene",
             "verlierendes"
@@ -304,9 +354,11 @@
         "sentence": "Der _____ (lehren) Professor.",
         "targetWord": "lehrende",
         "targetWordTranslation": "teaching",
+        "explanation": "Partizip I: Professor lehrt gerade (aktiv)",
+        "difficulty": "hard",
         "wrongAnswers": [
+            "gelehrte",
             "gelehrt",
-            "lehrte",
             "lehrenden",
             "lehrender"
         ]
@@ -316,6 +368,8 @@
         "sentence": "Das _____ (bestellen) Paket.",
         "targetWord": "bestellte",
         "targetWordTranslation": "ordered",
+        "explanation": "Partizip II: Paket wurde bestellt (passiv)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "bestellende",
             "bestellt",
@@ -328,9 +382,11 @@
         "sentence": "Die _____ (tanzen) Paare.",
         "targetWord": "tanzenden",
         "targetWordTranslation": "dancing",
+        "explanation": "Partizip I Plural: Paare tanzen gerade",
+        "difficulty": "hard",
         "wrongAnswers": [
+            "getanzten",
             "getanzt",
-            "tanzten",
             "tanzende",
             "tanzendes"
         ]
@@ -340,6 +396,8 @@
         "sentence": "Der _____ (verletzen) Hund.",
         "targetWord": "verletzte",
         "targetWordTranslation": "injured",
+        "explanation": "Partizip II: Hund wurde verletzt (passiv, Resultat)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "verletzende",
             "verletzt",
@@ -352,9 +410,11 @@
         "sentence": "Das _____ (leuchten) Licht.",
         "targetWord": "leuchtende",
         "targetWordTranslation": "shining",
+        "explanation": "Partizip I: Licht leuchtet gerade (aktiv)",
+        "difficulty": "hard",
         "wrongAnswers": [
+            "geleuchtete",
             "geleuchtet",
-            "leuchtete",
             "leuchtenden",
             "leuchtendes"
         ]

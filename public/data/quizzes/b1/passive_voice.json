@@ -4,11 +4,13 @@
         "sentence": "Das Auto _____ repariert.",
         "targetWord": "wird",
         "targetWordTranslation": "is being",
+        "explanation": "Vorgangspassiv Präsens: werden + Partizip II",
+        "difficulty": "easy",
         "wrongAnswers": [
             "werde",
             "wurde",
             "worden",
-            "hat"
+            "ist"
         ]
     },
     {
@@ -16,10 +18,12 @@
         "sentence": "Das Haus _____ gebaut.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "Vorgangspassiv Präteritum: wurde + Partizip II",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
+            "war",
             "ist"
         ]
     },
@@ -28,11 +32,13 @@
         "sentence": "Der Brief ist geschrieben _____.",
         "targetWord": "worden",
         "targetWordTranslation": "been",
+        "explanation": "Passiv Perfekt: sein + Partizip II + worden (nicht 'geworden'!)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wurde",
             "geworden",
             "sein",
-            "haben"
+            "werden"
         ]
     },
     {
@@ -40,10 +46,12 @@
         "sentence": "Hier _____ nicht geraucht.",
         "targetWord": "wird",
         "targetWordTranslation": "is",
+        "explanation": "Unpersönliches Passiv: wird + Partizip II (Verbot)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "werde",
             "wurde",
-            "hat",
+            "darf",
             "ist"
         ]
     },
@@ -52,6 +60,8 @@
         "sentence": "Die Tür muss geschlossen _____.",
         "targetWord": "werden",
         "targetWordTranslation": "be",
+        "explanation": "Passiv mit Modalverb: Modalverb + Partizip II + werden",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wird",
             "wurde",
@@ -64,11 +74,13 @@
         "sentence": "Der Kuchen _____ gegessen.",
         "targetWord": "wird",
         "targetWordTranslation": "is being",
+        "explanation": "Vorgangspassiv Präsens: wird + Partizip II",
+        "difficulty": "easy",
         "wrongAnswers": [
             "werde",
             "wurde",
-            "hat",
-            "ist"
+            "ist",
+            "hat"
         ]
     },
     {
@@ -76,10 +88,12 @@
         "sentence": "Das Zimmer _____ gestern aufgeräumt.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "'gestern' → Präteritum: wurde + Partizip II",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
+            "war",
             "ist"
         ]
     },
@@ -88,30 +102,36 @@
         "sentence": "Die Fenster sind geputzt _____.",
         "targetWord": "worden",
         "targetWordTranslation": "been",
+        "explanation": "Passiv Perfekt Plural: sind + Partizip II + worden",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wurde",
             "geworden",
-            "sein",
-            "waren"
+            "waren",
+            "werden"
         ]
     },
     {
         "id": "9",
-        "sentence": "Morgen _____ es regnen. (Futur)",
+        "sentence": "Morgen _____ das Paket geliefert.",
         "targetWord": "wird",
-        "targetWordTranslation": "will",
+        "targetWordTranslation": "will be",
+        "explanation": "Vorgangspassiv Futur I: wird + Partizip II (+ werden)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wurde",
             "werde",
             "worden",
-            "hat"
+            "ist"
         ]
     },
     {
         "id": "10",
-        "sentence": "Er sagt, er _____ kommen. (Konjunktiv I)",
+        "sentence": "Er sagt, der Brief _____ geschickt. (Konj. I)",
         "targetWord": "werde",
-        "targetWordTranslation": "will (reported)",
+        "targetWordTranslation": "will be (reported)",
+        "explanation": "Konjunktiv I Passiv: werde + Partizip II",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wird",
             "wurde",
@@ -124,6 +144,8 @@
         "sentence": "Das Problem konnte gelöst _____.",
         "targetWord": "werden",
         "targetWordTranslation": "be",
+        "explanation": "Passiv Präteritum + Modalverb: konnte + Part. II + werden",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wird",
             "wurde",
@@ -136,11 +158,13 @@
         "sentence": "Viel Geld _____ ausgegeben.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "Vorgangspassiv Präteritum: wurde + Partizip II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
-            "ist"
+            "ist",
+            "hat"
         ]
     },
     {
@@ -148,11 +172,13 @@
         "sentence": "Das Buch _____ gelesen.",
         "targetWord": "wird",
         "targetWordTranslation": "is being",
+        "explanation": "Vorgangspassiv Präsens: wird + Partizip II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "werde",
             "wurde",
             "worden",
-            "hat"
+            "ist"
         ]
     },
     {
@@ -160,10 +186,12 @@
         "sentence": "Die Brücke _____ letztes Jahr gebaut.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "'letztes Jahr' → Vergangenheit: wurde + Partizip II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
+            "war",
             "ist"
         ]
     },
@@ -172,11 +200,13 @@
         "sentence": "Der Patient ist untersucht _____.",
         "targetWord": "worden",
         "targetWordTranslation": "been",
+        "explanation": "Passiv Perfekt: ist + Partizip II + worden",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wurde",
             "geworden",
-            "sein",
-            "war"
+            "war",
+            "werden"
         ]
     },
     {
@@ -184,6 +214,8 @@
         "sentence": "Die Arbeit muss erledigt _____.",
         "targetWord": "werden",
         "targetWordTranslation": "be",
+        "explanation": "Passiv + Modalverb: muss + Partizip II + werden",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wird",
             "wurde",
@@ -196,11 +228,13 @@
         "sentence": "Die Rechnung _____ bezahlt.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "Vorgangspassiv Präteritum: wurde + Partizip II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
-            "ist"
+            "ist",
+            "hat"
         ]
     },
     {
@@ -208,11 +242,13 @@
         "sentence": "Das Paket _____ morgen geliefert.",
         "targetWord": "wird",
         "targetWordTranslation": "will be",
+        "explanation": "'morgen' → Zukunft: wird + Partizip II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wurde",
             "werde",
             "worden",
-            "hat"
+            "ist"
         ]
     },
     {
@@ -220,11 +256,13 @@
         "sentence": "Die Frage _____ nicht beantwortet.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "Vorgangspassiv Präteritum (negativ): wurde nicht + Part. II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
-            "ist"
+            "ist",
+            "hat"
         ]
     },
     {
@@ -232,11 +270,13 @@
         "sentence": "Das Kind _____ zur Schule gebracht.",
         "targetWord": "wird",
         "targetWordTranslation": "is being",
+        "explanation": "Vorgangspassiv Präsens: wird + Partizip II",
+        "difficulty": "medium",
         "wrongAnswers": [
             "werde",
             "wurde",
             "worden",
-            "hat"
+            "ist"
         ]
     },
     {
@@ -244,11 +284,13 @@
         "sentence": "Die E-Mail ist gesendet _____.",
         "targetWord": "worden",
         "targetWordTranslation": "been",
+        "explanation": "Passiv Perfekt: ist + Partizip II + worden",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wurde",
             "geworden",
-            "sein",
-            "war"
+            "war",
+            "werden"
         ]
     },
     {
@@ -256,6 +298,8 @@
         "sentence": "Das Fenster darf nicht geöffnet _____.",
         "targetWord": "werden",
         "targetWordTranslation": "be",
+        "explanation": "Passiv + Modalverb (Verbot): darf nicht + Part. II + werden",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wird",
             "wurde",
@@ -268,23 +312,27 @@
         "sentence": "Der Schlüssel _____ gefunden.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "Vorgangspassiv Präteritum: wurde + Partizip II",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
-            "ist"
+            "ist",
+            "hat"
         ]
     },
     {
         "id": "24",
-        "sentence": "Die Wahrheit _____ bald ans Licht kommen.",
+        "sentence": "Die Wahrheit _____ bald bekannt.",
         "targetWord": "wird",
-        "targetWordTranslation": "will",
+        "targetWordTranslation": "will become",
+        "explanation": "Zustandsveränderung: wird + Adjektiv (werden = to become)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wurde",
             "werde",
             "worden",
-            "hat"
+            "ist"
         ]
     },
     {
@@ -292,11 +340,13 @@
         "sentence": "Der Dieb _____ von der Polizei gefasst.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "Passiv mit Agens: wurde + von + Dativ + Partizip II",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
-            "ist"
+            "ist",
+            "hat"
         ]
     },
     {
@@ -304,6 +354,8 @@
         "sentence": "Die Blumen _____ gegossen.",
         "targetWord": "werden",
         "targetWordTranslation": "are being",
+        "explanation": "Vorgangspassiv Präsens Plural: werden + Partizip II",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wird",
             "wurde",
@@ -316,10 +368,12 @@
         "sentence": "Das Haus _____ vor 100 Jahren gebaut.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "'vor 100 Jahren' → Vergangenheit: wurde + Partizip II",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
+            "war",
             "ist"
         ]
     },
@@ -328,11 +382,13 @@
         "sentence": "Der Vertrag ist unterschrieben _____.",
         "targetWord": "worden",
         "targetWordTranslation": "been",
+        "explanation": "Passiv Perfekt: ist + Partizip II + worden",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wurde",
             "geworden",
-            "sein",
-            "war"
+            "war",
+            "werden"
         ]
     },
     {
@@ -340,6 +396,8 @@
         "sentence": "Die Aufgaben müssen gemacht _____.",
         "targetWord": "werden",
         "targetWordTranslation": "be",
+        "explanation": "Passiv + Modalverb Plural: müssen + Part. II + werden",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wird",
             "wurde",
@@ -352,11 +410,13 @@
         "sentence": "Es _____ viel getanzt.",
         "targetWord": "wurde",
         "targetWordTranslation": "was",
+        "explanation": "Unpersönliches Passiv Präteritum: es wurde + Partizip II",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wird",
             "worden",
-            "hat",
-            "ist"
+            "ist",
+            "hat"
         ]
     }
 ]

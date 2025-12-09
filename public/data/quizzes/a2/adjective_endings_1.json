@@ -4,6 +4,8 @@
         "sentence": "Der _____ (gut) Mann hilft mir.",
         "targetWord": "gute",
         "targetWordTranslation": "good",
+        "explanation": "Nach 'der' (Nom. m.): schwache Deklination → Endung -e",
+        "difficulty": "easy",
         "wrongAnswers": [
             "guten",
             "gutes",
@@ -16,6 +18,8 @@
         "sentence": "Ich sehe den _____ (groß) Hund.",
         "targetWord": "großen",
         "targetWordTranslation": "big",
+        "explanation": "Nach 'den' (Akk. m.): schwache Deklination → Endung -en",
+        "difficulty": "easy",
         "wrongAnswers": [
             "große",
             "großes",
@@ -28,6 +32,8 @@
         "sentence": "Das ist ein _____ (schön) Haus.",
         "targetWord": "schönes",
         "targetWordTranslation": "beautiful",
+        "explanation": "Nach 'ein' (Nom. n.): gemischte Deklination → Endung -es",
+        "difficulty": "easy",
         "wrongAnswers": [
             "schöne",
             "schönen",
@@ -40,6 +46,8 @@
         "sentence": "Ich habe eine _____ (neu) Tasche.",
         "targetWord": "neue",
         "targetWordTranslation": "new",
+        "explanation": "Nach 'eine' (Akk. f.): gemischte Deklination → Endung -e",
+        "difficulty": "easy",
         "wrongAnswers": [
             "neuen",
             "neues",
@@ -52,6 +60,8 @@
         "sentence": "Mit dem _____ (schnell) Auto.",
         "targetWord": "schnellen",
         "targetWordTranslation": "fast",
+        "explanation": "Nach 'dem' (Dat. n.): schwache Deklination → Endung -en",
+        "difficulty": "easy",
         "wrongAnswers": [
             "schnelle",
             "schnelles",
@@ -64,6 +74,8 @@
         "sentence": "Die _____ (rot) Blume.",
         "targetWord": "rote",
         "targetWordTranslation": "red",
+        "explanation": "Nach 'die' (Nom. f.): schwache Deklination → Endung -e",
+        "difficulty": "easy",
         "wrongAnswers": [
             "roten",
             "rotes",
@@ -76,6 +88,8 @@
         "sentence": "Ein _____ (kalt) Tag.",
         "targetWord": "kalter",
         "targetWordTranslation": "cold",
+        "explanation": "Nach 'ein' (Nom. m.): gemischte Dekl. → Endung -er (zeigt Genus)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "kalte",
             "kaltes",
@@ -88,6 +102,8 @@
         "sentence": "Ich trinke _____ (heiß) Kaffee.",
         "targetWord": "heißen",
         "targetWordTranslation": "hot",
+        "explanation": "Ohne Artikel (Akk. m.): starke Deklination → Endung -en",
+        "difficulty": "easy",
         "wrongAnswers": [
             "heißer",
             "heiße",
@@ -100,6 +116,8 @@
         "sentence": "Das _____ (klein) Kind spielt.",
         "targetWord": "kleine",
         "targetWordTranslation": "small",
+        "explanation": "Nach 'das' (Nom. n.): schwache Deklination → Endung -e",
+        "difficulty": "easy",
         "wrongAnswers": [
             "kleinen",
             "kleines",
@@ -112,6 +130,8 @@
         "sentence": "Wir essen _____ (frisch) Brot.",
         "targetWord": "frisches",
         "targetWordTranslation": "fresh",
+        "explanation": "Ohne Artikel (Akk. n.): starke Deklination → Endung -es",
+        "difficulty": "easy",
         "wrongAnswers": [
             "frische",
             "frischen",
@@ -124,6 +144,8 @@
         "sentence": "Der _____ (alt) Baum.",
         "targetWord": "alte",
         "targetWordTranslation": "old",
+        "explanation": "Nach 'der' (Nom. m.): schwache Deklination → Endung -e",
+        "difficulty": "medium",
         "wrongAnswers": [
             "alten",
             "altes",
@@ -136,6 +158,8 @@
         "sentence": "Ich kaufe die _____ (teuer) Schuhe.",
         "targetWord": "teuren",
         "targetWordTranslation": "expensive",
+        "explanation": "Nach 'die' (Akk. Pl.): schwache Dekl. → -en; teuer verliert -e-",
+        "difficulty": "medium",
         "wrongAnswers": [
             "teure",
             "teures",
@@ -148,6 +172,8 @@
         "sentence": "Ein _____ (hoch) Berg.",
         "targetWord": "hoher",
         "targetWordTranslation": "high",
+        "explanation": "Nach 'ein' (Nom. m.): gemischte Dekl. → -er; hoch → hoher",
+        "difficulty": "medium",
         "wrongAnswers": [
             "hohe",
             "hohes",
@@ -160,6 +186,8 @@
         "sentence": "Die _____ (lang) Reise.",
         "targetWord": "lange",
         "targetWordTranslation": "long",
+        "explanation": "Nach 'die' (Nom. f.): schwache Deklination → Endung -e",
+        "difficulty": "medium",
         "wrongAnswers": [
             "langen",
             "langes",
@@ -172,6 +200,8 @@
         "sentence": "Das _____ (blau) Meer.",
         "targetWord": "blaue",
         "targetWordTranslation": "blue",
+        "explanation": "Nach 'das' (Nom. n.): schwache Deklination → Endung -e",
+        "difficulty": "medium",
         "wrongAnswers": [
             "blauen",
             "blaues",
@@ -184,6 +214,8 @@
         "sentence": "Mit einer _____ (nett) Frau.",
         "targetWord": "netten",
         "targetWordTranslation": "nice",
+        "explanation": "Nach 'einer' (Dat. f.): gemischte Deklination → Endung -en",
+        "difficulty": "medium",
         "wrongAnswers": [
             "nette",
             "nettes",
@@ -196,6 +228,8 @@
         "sentence": "Der _____ (stark) Kaffee.",
         "targetWord": "starke",
         "targetWordTranslation": "strong",
+        "explanation": "Nach 'der' (Nom. m.): schwache Deklination → Endung -e",
+        "difficulty": "medium",
         "wrongAnswers": [
             "starken",
             "starkes",
@@ -208,6 +242,8 @@
         "sentence": "Eine _____ (interessant) Geschichte.",
         "targetWord": "interessante",
         "targetWordTranslation": "interesting",
+        "explanation": "Nach 'eine' (Nom. f.): gemischte Deklination → Endung -e",
+        "difficulty": "medium",
         "wrongAnswers": [
             "interessanten",
             "interessantes",
@@ -220,6 +256,8 @@
         "sentence": "Das _____ (bunt) Bild.",
         "targetWord": "bunte",
         "targetWordTranslation": "colorful",
+        "explanation": "Nach 'das' (Nom. n.): schwache Deklination → Endung -e",
+        "difficulty": "medium",
         "wrongAnswers": [
             "bunten",
             "buntes",
@@ -232,6 +270,8 @@
         "sentence": "Ich suche einen _____ (billig) Flug.",
         "targetWord": "billigen",
         "targetWordTranslation": "cheap",
+        "explanation": "Nach 'einen' (Akk. m.): gemischte Deklination → Endung -en",
+        "difficulty": "medium",
         "wrongAnswers": [
             "billige",
             "billiges",
@@ -244,6 +284,8 @@
         "sentence": "Die _____ (schwarz) Katze.",
         "targetWord": "schwarze",
         "targetWordTranslation": "black",
+        "explanation": "Nach 'die' (Nom. f.): schwache Deklination → Endung -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "schwarzen",
             "schwarzes",
@@ -256,6 +298,8 @@
         "sentence": "Ein _____ (warm) Mantel.",
         "targetWord": "warmer",
         "targetWordTranslation": "warm",
+        "explanation": "Nach 'ein' (Nom. m.): gemischte Dekl. → -er zeigt maskulin",
+        "difficulty": "hard",
         "wrongAnswers": [
             "warme",
             "warmes",
@@ -268,6 +312,8 @@
         "sentence": "Das _____ (grün) Gras.",
         "targetWord": "grüne",
         "targetWordTranslation": "green",
+        "explanation": "Nach 'das' (Nom. n.): schwache Deklination → Endung -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "grünen",
             "grünes",
@@ -278,10 +324,12 @@
     {
         "id": "24",
         "sentence": "Mit _____ (viel) Erfolg.",
-        "targetWord": "vielem",
+        "targetWord": "viel",
         "targetWordTranslation": "much",
+        "explanation": "'viel' bleibt im Singular oft unflektiert (Ausnahme!)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "viele",
+            "vielem",
             "vielen",
             "vieler",
             "vieles"
@@ -292,6 +340,8 @@
         "sentence": "Ohne _____ (groß) Angst.",
         "targetWord": "große",
         "targetWordTranslation": "great",
+        "explanation": "Nach 'ohne' (Akk. f.): starke Deklination → Endung -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "großen",
             "großes",
@@ -304,6 +354,8 @@
         "sentence": "Der _____ (klug) Junge.",
         "targetWord": "kluge",
         "targetWordTranslation": "smart",
+        "explanation": "Nach 'der' (Nom. m.): schwache Deklination → Endung -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "klugen",
             "kluges",
@@ -316,6 +368,8 @@
         "sentence": "Ein _____ (schwer) Koffer.",
         "targetWord": "schwerer",
         "targetWordTranslation": "heavy",
+        "explanation": "Nach 'ein' (Nom. m.): gemischte Dekl. → -er zeigt maskulin",
+        "difficulty": "hard",
         "wrongAnswers": [
             "schwere",
             "schweres",
@@ -328,6 +382,8 @@
         "sentence": "Die _____ (leer) Flasche.",
         "targetWord": "leere",
         "targetWordTranslation": "empty",
+        "explanation": "Nach 'die' (Nom. f.): schwache Deklination → Endung -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "leeren",
             "leeres",
@@ -340,6 +396,8 @@
         "sentence": "Das _____ (laut) Konzert.",
         "targetWord": "laute",
         "targetWordTranslation": "loud",
+        "explanation": "Nach 'das' (Nom. n.): schwache Deklination → Endung -e",
+        "difficulty": "hard",
         "wrongAnswers": [
             "lauten",
             "lautes",
@@ -352,6 +410,8 @@
         "sentence": "Ich mag _____ (süß) Kuchen.",
         "targetWord": "süßen",
         "targetWordTranslation": "sweet",
+        "explanation": "Ohne Artikel (Akk. m.): starke Deklination → Endung -en",
+        "difficulty": "hard",
         "wrongAnswers": [
             "süße",
             "süßes",

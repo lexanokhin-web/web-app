@@ -4,6 +4,8 @@
         "sentence": "Ich warte, _____ du kommst.",
         "targetWord": "bis",
         "targetWordTranslation": "until",
+        "explanation": "'bis' = zeitlicher Endpunkt (warten bis etwas passiert)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wenn",
             "als",
@@ -16,6 +18,8 @@
         "sentence": "_____ ich klein war, lebte ich in Berlin.",
         "targetWord": "Als",
         "targetWordTranslation": "When (past, once)",
+        "explanation": "'als' = einmalig in der Vergangenheit",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Wenn",
             "Wann",
@@ -28,6 +32,8 @@
         "sentence": "_____ es regnet, bleiben wir hier.",
         "targetWord": "Wenn",
         "targetWordTranslation": "If/When (condition)",
+        "explanation": "'wenn' = Bedingung oder wiederholtes Ereignis",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Als",
             "Wann",
@@ -40,10 +46,12 @@
         "sentence": "Ich lerne viel, _____ ich den Test bestehe.",
         "targetWord": "damit",
         "targetWordTranslation": "so that",
+        "explanation": "'damit' = Zweck/Ziel (verschiedene Subjekte)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "dass",
             "weil",
-            "wenn",
+            "um",
             "ob"
         ]
     },
@@ -52,6 +60,8 @@
         "sentence": "Wir essen, _____ wir spielen.",
         "targetWord": "bevor",
         "targetWordTranslation": "before",
+        "explanation": "'bevor' = zeitlich vorher (Hauptsatz vor Nebensatz)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "nachdem",
             "während",
@@ -64,6 +74,8 @@
         "sentence": "_____ er gegessen hatte, ging er.",
         "targetWord": "Nachdem",
         "targetWordTranslation": "After",
+        "explanation": "'nachdem' = zeitlich nachher (oft mit Plusquamperfekt)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Bevor",
             "Während",
@@ -76,6 +88,8 @@
         "sentence": "Er liest, _____ er isst.",
         "targetWord": "während",
         "targetWordTranslation": "while",
+        "explanation": "'während' = gleichzeitig (temporal)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "nachdem",
             "bevor",
@@ -88,6 +102,8 @@
         "sentence": "Ich wohne hier, _____ ich geboren wurde.",
         "targetWord": "seit",
         "targetWordTranslation": "since",
+        "explanation": "'seit' = Zeitpunkt in der Vergangenheit bis jetzt",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wenn",
             "als",
@@ -100,6 +116,8 @@
         "sentence": "Er fragt, _____ du Zeit hast.",
         "targetWord": "ob",
         "targetWordTranslation": "if/whether",
+        "explanation": "'ob' = indirekte Ja/Nein-Frage",
+        "difficulty": "easy",
         "wrongAnswers": [
             "wenn",
             "dass",
@@ -109,14 +127,16 @@
     },
     {
         "id": "10",
-        "sentence": "Ich arbeite viel, _____ Geld zu haben. (Infinitiv)",
+        "sentence": "Ich arbeite viel, _____ Geld zu haben.",
         "targetWord": "um",
         "targetWordTranslation": "in order to",
+        "explanation": "'um...zu' = Zweck/Ziel (gleiches Subjekt + Infinitiv)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "damit",
             "für",
             "dass",
-            "zu"
+            "weil"
         ]
     },
     {
@@ -124,6 +144,8 @@
         "sentence": "Je schneller, _____ besser.",
         "targetWord": "desto",
         "targetWordTranslation": "the (better)",
+        "explanation": "'je...desto' = Proportionalsatz (Vergleich)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "umso",
             "als",
@@ -136,6 +158,8 @@
         "sentence": "Entweder du gehst _____ du bleibst.",
         "targetWord": "oder",
         "targetWordTranslation": "or",
+        "explanation": "'entweder...oder' = Alternative (zweiteilige Konjunktion)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "und",
             "aber",
@@ -148,6 +172,8 @@
         "sentence": "Ich bleibe hier, _____ du wiederkommst.",
         "targetWord": "bis",
         "targetWordTranslation": "until",
+        "explanation": "'bis' = Endpunkt einer Zeitspanne",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wenn",
             "als",
@@ -160,6 +186,8 @@
         "sentence": "_____ er reich ist, ist er unglücklich.",
         "targetWord": "Obwohl",
         "targetWordTranslation": "Although",
+        "explanation": "'obwohl' = Widerspruch/Konzession",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Weil",
             "Da",
@@ -172,6 +200,8 @@
         "sentence": "Ich weiß, _____ er kommt.",
         "targetWord": "dass",
         "targetWordTranslation": "that",
+        "explanation": "'dass' = Einleitung einer Aussage (nicht 'das'!)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "das",
             "als",
@@ -184,6 +214,8 @@
         "sentence": "Er schläft, _____ er fernsieht.",
         "targetWord": "während",
         "targetWordTranslation": "while",
+        "explanation": "'während' = zwei gleichzeitige Handlungen",
+        "difficulty": "medium",
         "wrongAnswers": [
             "nachdem",
             "bevor",
@@ -196,6 +228,8 @@
         "sentence": "_____ du anrufst, gehe ich nicht.",
         "targetWord": "Bevor",
         "targetWordTranslation": "Before",
+        "explanation": "'bevor' = zeitlich vorher (Nebensatz vor Hauptsatz)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Nachdem",
             "Während",
@@ -208,6 +242,8 @@
         "sentence": "Sie freut sich, _____ er da ist.",
         "targetWord": "dass",
         "targetWordTranslation": "that",
+        "explanation": "'dass' nach Verben des Fühlens (sich freuen)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "das",
             "ob",
@@ -220,6 +256,8 @@
         "sentence": "_____ wir angekommen waren, aßen wir.",
         "targetWord": "Nachdem",
         "targetWordTranslation": "After",
+        "explanation": "'nachdem' + Plusquamperfekt → danach Präteritum",
+        "difficulty": "medium",
         "wrongAnswers": [
             "Bevor",
             "Während",
@@ -232,11 +270,13 @@
         "sentence": "Ich lerne Deutsch, _____ ich es mag.",
         "targetWord": "weil",
         "targetWordTranslation": "because",
+        "explanation": "'weil' = kausaler Nebensatz (Verb am Ende)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "obwohl",
             "dass",
             "wenn",
-            "aber"
+            "denn"
         ]
     },
     {
@@ -244,6 +284,8 @@
         "sentence": "Er fragt, _____ wir gehen.",
         "targetWord": "wann",
         "targetWordTranslation": "when (time)",
+        "explanation": "'wann' = indirekte W-Frage nach Zeitpunkt",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wenn",
             "als",
@@ -256,6 +298,8 @@
         "sentence": "_____ ich 10 war, zog ich um.",
         "targetWord": "Als",
         "targetWordTranslation": "When (past, once)",
+        "explanation": "'als' = einmaliges Ereignis in der Vergangenheit",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Wenn",
             "Wann",
@@ -268,10 +312,12 @@
         "sentence": "Er rennt, _____ er den Bus kriegt.",
         "targetWord": "damit",
         "targetWordTranslation": "so that",
+        "explanation": "'damit' = Zweck mit verschiedenen Subjekten",
+        "difficulty": "hard",
         "wrongAnswers": [
             "dass",
             "weil",
-            "wenn",
+            "um",
             "ob"
         ]
     },
@@ -280,11 +326,13 @@
         "sentence": "_____ es regnet, gehe ich nicht.",
         "targetWord": "Da",
         "targetWordTranslation": "Since/Because",
+        "explanation": "'da' = kausale Konjunktion (bekannter Grund)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "Obwohl",
             "Dass",
             "Wenn",
-            "Aber"
+            "Weil"
         ]
     },
     {
@@ -292,11 +340,13 @@
         "sentence": "Ich weiß nicht, _____ ich das machen soll.",
         "targetWord": "wie",
         "targetWordTranslation": "how",
+        "explanation": "'wie' = indirekte W-Frage nach Art und Weise",
+        "difficulty": "hard",
         "wrongAnswers": [
             "was",
             "wo",
             "wann",
-            "wer"
+            "ob"
         ]
     },
     {
@@ -304,6 +354,8 @@
         "sentence": "Es dauert lange, _____ er fertig ist.",
         "targetWord": "bis",
         "targetWordTranslation": "until",
+        "explanation": "'bis' = Endpunkt eines Zeitraums",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wenn",
             "als",
@@ -316,10 +368,12 @@
         "sentence": "_____ du lernst, wirst du besser.",
         "targetWord": "Indem",
         "targetWordTranslation": "By/While",
+        "explanation": "'indem' = modale Konjunktion (durch welche Handlung)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Ohne",
-            "Statt",
-            "Um",
+            "Während",
+            "Wenn",
+            "Weil",
             "Dass"
         ]
     },
@@ -328,11 +382,13 @@
         "sentence": "Er geht, _____ Tschüss zu sagen.",
         "targetWord": "ohne",
         "targetWordTranslation": "without",
+        "explanation": "'ohne...zu' = negative Begleitumstände + Infinitiv",
+        "difficulty": "hard",
         "wrongAnswers": [
             "statt",
             "um",
             "damit",
-            "dass"
+            "anstatt"
         ]
     },
     {
@@ -340,11 +396,13 @@
         "sentence": "Sie hilft, _____ sie kann.",
         "targetWord": "wo",
         "targetWordTranslation": "where",
+        "explanation": "'wo' = lokale Konjunktion (an welchem Ort)",
+        "difficulty": "hard",
         "wrongAnswers": [
             "wie",
             "was",
             "wann",
-            "wer"
+            "wenn"
         ]
     },
     {
@@ -352,6 +410,8 @@
         "sentence": "Je mehr, _____ besser.",
         "targetWord": "desto",
         "targetWordTranslation": "the",
+        "explanation": "'je...desto' = proportionaler Vergleich",
+        "difficulty": "hard",
         "wrongAnswers": [
             "umso",
             "als",

@@ -4,10 +4,12 @@
         "sentence": "Ich komme nicht, _____ ich krank bin.",
         "targetWord": "weil",
         "targetWordTranslation": "because",
+        "explanation": "'weil' = Nebensatz-Konjunktion → Verb am Ende",
+        "difficulty": "easy",
         "wrongAnswers": [
             "denn",
             "aber",
-            "und",
+            "deshalb",
             "oder"
         ]
     },
@@ -16,11 +18,13 @@
         "sentence": "Er schläft, _____ er müde ist.",
         "targetWord": "da",
         "targetWordTranslation": "since/because",
+        "explanation": "'da' = wie 'weil' (oft am Satzanfang, bekannter Grund)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "denn",
-            "aber",
+            "weil",
             "sondern",
-            "und"
+            "deshalb"
         ]
     },
     {
@@ -28,11 +32,13 @@
         "sentence": "Ich gehe spazieren, _____ es regnet.",
         "targetWord": "obwohl",
         "targetWordTranslation": "although",
+        "explanation": "'obwohl' = konzessiv (trotz des Grundes)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "weil",
             "dass",
             "wenn",
-            "damit"
+            "trotzdem"
         ]
     },
     {
@@ -40,6 +46,8 @@
         "sentence": "Ich weiß, _____ du kommst.",
         "targetWord": "dass",
         "targetWordTranslation": "that",
+        "explanation": "'dass' = Einleitung einer Aussage (nicht 'das'!)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "das",
             "weil",
@@ -52,9 +60,11 @@
         "sentence": "Wenn es regnet, _____ ich zu Hause.",
         "targetWord": "bleibe",
         "targetWordTranslation": "stay",
+        "explanation": "Nach Nebensatz: Hauptsatz beginnt mit Verb (Inversion)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ich bleibe",
-            "bleibe ich",
+            "bleiben",
             "bleibst",
             "gehe"
         ]
@@ -64,10 +74,12 @@
         "sentence": "Ich lerne Deutsch, _____ ich in Deutschland arbeiten will.",
         "targetWord": "weil",
         "targetWordTranslation": "because",
+        "explanation": "'weil' + Nebensatz: Verb 'will' am Ende",
+        "difficulty": "easy",
         "wrongAnswers": [
             "denn",
             "aber",
-            "und",
+            "damit",
             "deshalb"
         ]
     },
@@ -76,11 +88,13 @@
         "sentence": "Er isst Pizza, _____ er Hunger hat.",
         "targetWord": "weil",
         "targetWordTranslation": "because",
+        "explanation": "'weil' = kausale Nebensatz-Konjunktion",
+        "difficulty": "easy",
         "wrongAnswers": [
             "obwohl",
             "dass",
             "wenn",
-            "aber"
+            "denn"
         ]
     },
     {
@@ -88,11 +102,13 @@
         "sentence": "Wir gehen ins Kino, _____ wir Zeit haben.",
         "targetWord": "wenn",
         "targetWordTranslation": "if/when",
+        "explanation": "'wenn' = konditional (Bedingung) oder temporal",
+        "difficulty": "easy",
         "wrongAnswers": [
             "ob",
             "wann",
             "als",
-            "während"
+            "falls"
         ]
     },
     {
@@ -100,6 +116,8 @@
         "sentence": "Ich trinke Tee, _____ Kaffee mag ich nicht.",
         "targetWord": "denn",
         "targetWordTranslation": "because (coordinating)",
+        "explanation": "'denn' = Hauptsatz-Konjunktion → normale Wortstellung",
+        "difficulty": "easy",
         "wrongAnswers": [
             "weil",
             "da",
@@ -112,18 +130,22 @@
         "sentence": "Er ist arm, _____ glücklich.",
         "targetWord": "aber",
         "targetWordTranslation": "but",
+        "explanation": "'aber' = Gegensatz (ohne Verneinung)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "und",
             "oder",
-            "denn",
-            "sondern"
+            "sondern",
+            "denn"
         ]
     },
     {
         "id": "11",
-        "sentence": "Ich kaufe kein Brot, _____ Milch.",
+        "sentence": "Ich gehe nicht, _____ ich bleibe hier.",
         "targetWord": "sondern",
         "targetWordTranslation": "but rather",
+        "explanation": "'sondern' = Gegensatz nach Verneinung (nicht...sondern)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "aber",
             "und",
@@ -133,9 +155,11 @@
     },
     {
         "id": "12",
-        "sentence": "Möchtest du Tee _____ Kaffee?",
+        "sentence": "Er kommt heute _____ morgen.",
         "targetWord": "oder",
         "targetWordTranslation": "or",
+        "explanation": "'oder' = Alternative (Auswahl)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "und",
             "aber",
@@ -145,105 +169,11 @@
     },
     {
         "id": "13",
-        "sentence": "Ich bin müde, _____ ich gehe schlafen.",
-        "targetWord": "und",
-        "targetWordTranslation": "and",
-        "wrongAnswers": [
-            "aber",
-            "oder",
-            "weil",
-            "dass"
-        ]
-    },
-    {
-        "id": "14",
-        "sentence": "Er ist reich, _____ er ist geizig.",
-        "targetWord": "aber",
-        "targetWordTranslation": "but",
-        "wrongAnswers": [
-            "und",
-            "oder",
-            "weil",
-            "wenn"
-        ]
-    },
-    {
-        "id": "15",
-        "sentence": "Gehen wir ins Kino _____ ins Theater?",
-        "targetWord": "oder",
-        "targetWordTranslation": "or",
-        "wrongAnswers": [
-            "und",
-            "aber",
-            "denn",
-            "sondern"
-        ]
-    },
-    {
-        "id": "16",
-        "sentence": "Ich esse nicht, _____ ich trinke.",
-        "targetWord": "sondern",
-        "targetWordTranslation": "but rather",
-        "wrongAnswers": [
-            "aber",
-            "und",
-            "oder",
-            "denn"
-        ]
-    },
-    {
-        "id": "17",
-        "sentence": "Ich glaube, _____ es morgen regnet.",
-        "targetWord": "dass",
-        "targetWordTranslation": "that",
-        "wrongAnswers": [
-            "das",
-            "weil",
-            "wenn",
-            "ob"
-        ]
-    },
-    {
-        "id": "18",
-        "sentence": "_____ ich Zeit habe, komme ich.",
-        "targetWord": "Wenn",
-        "targetWordTranslation": "If",
-        "wrongAnswers": [
-            "Ob",
-            "Dass",
-            "Weil",
-            "Aber"
-        ]
-    },
-    {
-        "id": "19",
-        "sentence": "Sie lacht, _____ sie glücklich ist.",
-        "targetWord": "weil",
-        "targetWordTranslation": "because",
-        "wrongAnswers": [
-            "obwohl",
-            "dass",
-            "wenn",
-            "aber"
-        ]
-    },
-    {
-        "id": "20",
-        "sentence": "Er ist müde, _____ er arbeitet viel.",
-        "targetWord": "denn",
-        "targetWordTranslation": "because",
-        "wrongAnswers": [
-            "weil",
-            "da",
-            "dass",
-            "obwohl"
-        ]
-    },
-    {
-        "id": "21",
-        "sentence": "Ich weiß nicht, _____ er kommt.",
+        "sentence": "Ich frage, _____ du Zeit hast.",
         "targetWord": "ob",
         "targetWordTranslation": "if/whether",
+        "explanation": "'ob' = indirekte Ja/Nein-Frage",
+        "difficulty": "medium",
         "wrongAnswers": [
             "wenn",
             "dass",
@@ -252,111 +182,241 @@
         ]
     },
     {
-        "id": "22",
-        "sentence": "_____ es kalt ist, gehe ich raus.",
-        "targetWord": "Obwohl",
-        "targetWordTranslation": "Although",
+        "id": "14",
+        "sentence": "_____ er kam, haben wir gegessen.",
+        "targetWord": "Bevor",
+        "targetWordTranslation": "Before",
+        "explanation": "'bevor' = temporal (vorher, davor)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Weil",
+            "Nachdem",
             "Wenn",
-            "Dass",
-            "Damit"
+            "Weil",
+            "Während"
         ]
     },
     {
-        "id": "23",
-        "sentence": "Wir bleiben zu Hause, _____ es schneit.",
-        "targetWord": "da",
-        "targetWordTranslation": "since",
+        "id": "15",
+        "sentence": "_____ wir aßen, kam er.",
+        "targetWord": "Während",
+        "targetWordTranslation": "While",
+        "explanation": "'während' = gleichzeitig (temporal)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "obwohl",
-            "dass",
-            "wenn",
-            "aber"
+            "Bevor",
+            "Nachdem",
+            "Als",
+            "Wenn"
         ]
     },
     {
-        "id": "24",
-        "sentence": "Ich lerne viel, _____ ich den Test bestehe.",
+        "id": "16",
+        "sentence": "Er lernt viel, _____ er gute Noten bekommt.",
         "targetWord": "damit",
         "targetWordTranslation": "so that",
+        "explanation": "'damit' = Zweck (verschiedene Subjekte)",
+        "difficulty": "medium",
         "wrongAnswers": [
             "dass",
             "weil",
-            "wenn",
+            "um",
             "ob"
         ]
     },
     {
-        "id": "25",
-        "sentence": "Ich trinke Kaffee, _____ ich esse keinen Kuchen.",
-        "targetWord": "aber",
-        "targetWordTranslation": "but",
+        "id": "17",
+        "sentence": "Ich bin müde, _____ ich habe viel gearbeitet.",
+        "targetWord": "denn",
+        "targetWordTranslation": "because",
+        "explanation": "'denn' = Hauptsatz bleibt (Position 0)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "und",
-            "oder",
             "weil",
-            "dass"
+            "da",
+            "obwohl",
+            "aber"
+        ]
+    },
+    {
+        "id": "18",
+        "sentence": "Sie singt _____ sie tanzt.",
+        "targetWord": "und",
+        "targetWordTranslation": "and",
+        "explanation": "'und' = Verbindung (Addition)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "aber",
+            "oder",
+            "sondern",
+            "denn"
+        ]
+    },
+    {
+        "id": "19",
+        "sentence": "Ich weiß nicht, _____ er kommt.",
+        "targetWord": "ob",
+        "targetWordTranslation": "whether",
+        "explanation": "'ob' bei unsicherer Aussage (Frage)",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "dass",
+            "wenn",
+            "weil",
+            "wann"
+        ]
+    },
+    {
+        "id": "20",
+        "sentence": "Er arbeitet nicht, _____ lernt er.",
+        "targetWord": "sondern",
+        "targetWordTranslation": "but rather",
+        "explanation": "'sondern' nach Verneinung = Korrektur",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "aber",
+            "denn",
+            "und",
+            "oder"
+        ]
+    },
+    {
+        "id": "21",
+        "sentence": "_____ ich jung war, spielte ich Fußball.",
+        "targetWord": "Als",
+        "targetWordTranslation": "When (past)",
+        "explanation": "'als' = einmalig in der Vergangenheit",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Wenn",
+            "Wann",
+            "Da",
+            "Weil"
+        ]
+    },
+    {
+        "id": "22",
+        "sentence": "_____ du kommst, freue ich mich.",
+        "targetWord": "Wenn",
+        "targetWordTranslation": "If/When",
+        "explanation": "'wenn' = Gegenwart/Zukunft oder wiederholte Vergangenheit",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Als",
+            "Falls",
+            "Wann",
+            "Ob"
+        ]
+    },
+    {
+        "id": "23",
+        "sentence": "Er ist nicht dumm, _____ faul.",
+        "targetWord": "sondern",
+        "targetWordTranslation": "but rather",
+        "explanation": "'nicht X, sondern Y' = Korrektur",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "aber",
+            "und",
+            "denn",
+            "oder"
+        ]
+    },
+    {
+        "id": "24",
+        "sentence": "Ich lerne, _____ ich es verstehe.",
+        "targetWord": "bis",
+        "targetWordTranslation": "until",
+        "explanation": "'bis' = zeitlicher Endpunkt",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "wenn",
+            "während",
+            "seit",
+            "bevor"
+        ]
+    },
+    {
+        "id": "25",
+        "sentence": "_____ er gegessen hatte, ging er.",
+        "targetWord": "Nachdem",
+        "targetWordTranslation": "After",
+        "explanation": "'nachdem' = temporal (danach) + Plusquamperfekt",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Bevor",
+            "Während",
+            "Als",
+            "Wenn"
         ]
     },
     {
         "id": "26",
-        "sentence": "Er fährt nicht Auto, _____ Fahrrad.",
-        "targetWord": "sondern",
-        "targetWordTranslation": "but rather",
+        "sentence": "Er ist klug _____ fleißig.",
+        "targetWord": "und",
+        "targetWordTranslation": "and",
+        "explanation": "'und' verbindet gleichwertige Elemente",
+        "difficulty": "hard",
         "wrongAnswers": [
             "aber",
-            "und",
             "oder",
+            "sondern",
             "denn"
         ]
     },
     {
         "id": "27",
-        "sentence": "_____ du willst, können wir gehen.",
-        "targetWord": "Wenn",
-        "targetWordTranslation": "If",
+        "sentence": "Ich helfe dir, _____ du mir hilfst.",
+        "targetWord": "falls",
+        "targetWordTranslation": "in case/if",
+        "explanation": "'falls' = konditional (unsichere Bedingung)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Ob",
-            "Dass",
-            "Weil",
-            "Aber"
+            "wenn",
+            "ob",
+            "weil",
+            "damit"
         ]
     },
     {
         "id": "28",
-        "sentence": "Ich hoffe, _____ du gesund bist.",
-        "targetWord": "dass",
-        "targetWordTranslation": "that",
+        "sentence": "_____ er reich ist, ist er unglücklich.",
+        "targetWord": "Obwohl",
+        "targetWordTranslation": "Although",
+        "explanation": "'obwohl' = Widerspruch (konzessiv)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "das",
-            "weil",
-            "wenn",
-            "ob"
+            "Weil",
+            "Da",
+            "Wenn",
+            "Trotzdem"
         ]
     },
     {
         "id": "29",
-        "sentence": "Er ist traurig, _____ sein Hund weg ist.",
+        "sentence": "Er geht langsam, _____ er alt ist.",
         "targetWord": "weil",
         "targetWordTranslation": "because",
+        "explanation": "'weil' = kausaler Nebensatz",
+        "difficulty": "hard",
         "wrongAnswers": [
+            "denn",
             "obwohl",
-            "dass",
-            "wenn",
+            "deshalb",
             "aber"
         ]
     },
     {
         "id": "30",
-        "sentence": "Ich mag dich, _____ du nett bist.",
-        "targetWord": "weil",
-        "targetWordTranslation": "because",
+        "sentence": "Ich rufe an, _____ ich ankomme.",
+        "targetWord": "sobald",
+        "targetWordTranslation": "as soon as",
+        "explanation": "'sobald' = unmittelbar danach (temporal)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "obwohl",
-            "dass",
             "wenn",
-            "aber"
+            "nachdem",
+            "bevor",
+            "bis"
         ]
     }
 ]

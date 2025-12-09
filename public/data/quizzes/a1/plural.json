@@ -4,11 +4,13 @@
         "sentence": "Ich habe zwei _____ (Katze).",
         "targetWord": "Katzen",
         "targetWordTranslation": "Cats",
+        "explanation": "Plural f.: Katze → Katzen (-n)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Katze",
             "Katz",
             "Katzer",
-            "Kater"
+            "Kätzchen"
         ]
     },
     {
@@ -16,11 +18,13 @@
         "sentence": "Wo sind die _____ (Kind)?",
         "targetWord": "Kinder",
         "targetWordTranslation": "Children",
+        "explanation": "Plural n.: Kind → Kinder (-er)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Kind",
             "Kindern",
             "Kinde",
-            "Kinderer"
+            "Kinds"
         ]
     },
     {
@@ -28,6 +32,8 @@
         "sentence": "Wir kaufen drei _____ (Apfel).",
         "targetWord": "Äpfel",
         "targetWordTranslation": "Apples",
+        "explanation": "Plural m.: Apfel → Äpfel (Umlaut + ¨)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Apfel",
             "Apfels",
@@ -40,6 +46,8 @@
         "sentence": "Die _____ (Frau) sind dort.",
         "targetWord": "Frauen",
         "targetWordTranslation": "Women",
+        "explanation": "Plural f.: Frau → Frauen (-en)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Frau",
             "Fraus",
@@ -52,6 +60,8 @@
         "sentence": "Hast du viele _____ (Freund)?",
         "targetWord": "Freunde",
         "targetWordTranslation": "Friends",
+        "explanation": "Plural m.: Freund → Freunde (-e)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Freund",
             "Freunden",
@@ -64,11 +74,13 @@
         "sentence": "Hier liegen fünf _____ (Buch).",
         "targetWord": "Bücher",
         "targetWordTranslation": "Books",
+        "explanation": "Plural n.: Buch → Bücher (Umlaut + -er)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Buch",
             "Buchen",
             "Büche",
-            "Buche"
+            "Buchs"
         ]
     },
     {
@@ -76,9 +88,11 @@
         "sentence": "Die _____ (Mann) arbeiten.",
         "targetWord": "Männer",
         "targetWordTranslation": "Men",
+        "explanation": "Plural m.: Mann → Männer (Umlaut + -er)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Mann",
-            "Manners",
+            "Manns",
             "Manne",
             "Mannen"
         ]
@@ -88,6 +102,8 @@
         "sentence": "Ich sehe zwei _____ (Auto).",
         "targetWord": "Autos",
         "targetWordTranslation": "Cars",
+        "explanation": "Plural n.: Auto → Autos (-s, Fremdwort)",
+        "difficulty": "easy",
         "wrongAnswers": [
             "Auto",
             "Auten",
@@ -100,263 +116,307 @@
         "sentence": "Die _____ (Schüler) lernen.",
         "targetWord": "Schüler",
         "targetWordTranslation": "Students",
+        "explanation": "Plural m.: Schüler → Schüler (gleich, -er Endung)",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "Schülerin",
-            "Schülers",
             "Schülern",
-            "Schüle"
+            "Schülers",
+            "Schüleren",
+            "Schülere"
         ]
     },
     {
         "id": "10",
-        "sentence": "Wir brauchen neue _____ (Stuhl).",
-        "targetWord": "Stühle",
-        "targetWordTranslation": "Chairs",
+        "sentence": "Das sind meine _____ (Schwester).",
+        "targetWord": "Schwestern",
+        "targetWordTranslation": "Sisters",
+        "explanation": "Plural f.: Schwester → Schwestern (-n)",
+        "difficulty": "easy",
         "wrongAnswers": [
-            "Stuhl",
-            "Stuhlen",
-            "Stühles",
-            "Stuhls"
+            "Schwester",
+            "Schwestern",
+            "Schwester",
+            "Schwesterinnen"
         ]
     },
     {
         "id": "11",
-        "sentence": "Meine _____ (Eltern) kommen.",
-        "targetWord": "Eltern",
-        "targetWordTranslation": "Parents",
+        "sentence": "Die _____ (Tisch) sind neu.",
+        "targetWord": "Tische",
+        "targetWordTranslation": "Tables",
+        "explanation": "Plural m.: Tisch → Tische (-e)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Elter",
-            "Elterns",
-            "Elt",
-            "Elternen"
+            "Tisch",
+            "Tischen",
+            "Tischs",
+            "Tischer"
         ]
     },
     {
         "id": "12",
-        "sentence": "In der Stadt gibt es viele _____ (Hotel).",
-        "targetWord": "Hotels",
-        "targetWordTranslation": "Hotels",
+        "sentence": "Ich kaufe drei _____ (Blume).",
+        "targetWord": "Blumen",
+        "targetWordTranslation": "Flowers",
+        "explanation": "Plural f.: Blume → Blumen (-n)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Hotel",
-            "Hoteler",
-            "Hotelen",
-            "Hotelse"
+            "Blume",
+            "Blümen",
+            "Blumer",
+            "Blumes"
         ]
     },
     {
         "id": "13",
-        "sentence": "Drei _____ (Hund) spielen.",
-        "targetWord": "Hunde",
-        "targetWordTranslation": "Dogs",
+        "sentence": "Die _____ (Fenster) sind offen.",
+        "targetWord": "Fenster",
+        "targetWordTranslation": "Windows",
+        "explanation": "Plural n.: Fenster → Fenster (gleich)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Hund",
-            "Hunden",
-            "Hünder",
-            "Hunds"
+            "Fenstern",
+            "Fensters",
+            "Fensteren",
+            "Fenstere"
         ]
     },
     {
         "id": "14",
-        "sentence": "Ich kaufe vier _____ (Ei).",
-        "targetWord": "Eier",
-        "targetWordTranslation": "Eggs",
+        "sentence": "Wir haben viele _____ (Hund).",
+        "targetWord": "Hunde",
+        "targetWordTranslation": "Dogs",
+        "explanation": "Plural m.: Hund → Hunde (-e)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Ei",
-            "Eierer",
-            "Eien",
-            "Eiers"
+            "Hund",
+            "Hunden",
+            "Hünde",
+            "Hunds"
         ]
     },
     {
         "id": "15",
-        "sentence": "Die _____ (Lehrer) sind nett.",
-        "targetWord": "Lehrer",
-        "targetWordTranslation": "Teachers",
+        "sentence": "Die _____ (Glas) sind leer.",
+        "targetWord": "Gläser",
+        "targetWordTranslation": "Glasses",
+        "explanation": "Plural n.: Glas → Gläser (Umlaut + -er)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Lehrern",
-            "Lehrers",
-            "Lehrere",
-            "Lehren"
+            "Glas",
+            "Glase",
+            "Glasen",
+            "Gläsen"
         ]
     },
     {
         "id": "16",
-        "sentence": "Zwei _____ (Tisch) sind frei.",
-        "targetWord": "Tische",
-        "targetWordTranslation": "Tables",
+        "sentence": "Ich brauche zwei _____ (Stift).",
+        "targetWord": "Stifte",
+        "targetWordTranslation": "Pens",
+        "explanation": "Plural m.: Stift → Stifte (-e)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Tisch",
-            "Tischen",
-            "Tischer",
-            "Tischs"
+            "Stift",
+            "Stiften",
+            "Stifts",
+            "Stifter"
         ]
     },
     {
         "id": "17",
-        "sentence": "Ich habe viele _____ (Idee).",
-        "targetWord": "Ideen",
-        "targetWordTranslation": "Ideas",
+        "sentence": "Die _____ (Mutter) kochen.",
+        "targetWord": "Mütter",
+        "targetWordTranslation": "Mothers",
+        "explanation": "Plural f.: Mutter → Mütter (nur Umlaut)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Idee",
-            "Idees",
-            "Ide",
-            "Ider"
+            "Mutter",
+            "Muttern",
+            "Mutters",
+            "Müttere"
         ]
     },
     {
         "id": "18",
-        "sentence": "Die _____ (Fenster) sind offen.",
-        "targetWord": "Fenster",
-        "targetWordTranslation": "Windows",
+        "sentence": "Ich habe fünf _____ (Bild).",
+        "targetWord": "Bilder",
+        "targetWordTranslation": "Pictures",
+        "explanation": "Plural n.: Bild → Bilder (-er)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Fenstern",
-            "Fensters",
-            "Fenstere",
-            "Fenst"
+            "Bild",
+            "Bilden",
+            "Bilds",
+            "Bildere"
         ]
     },
     {
         "id": "19",
-        "sentence": "Fünf _____ (Glas) Wasser.",
-        "targetWord": "Gläser",
-        "targetWordTranslation": "Glasses",
+        "sentence": "Die _____ (Stuhl) sind alt.",
+        "targetWord": "Stühle",
+        "targetWordTranslation": "Chairs",
+        "explanation": "Plural m.: Stuhl → Stühle (Umlaut + -e)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Glas",
-            "Glaser",
-            "Glases",
-            "Glasen"
+            "Stuhl",
+            "Stuhle",
+            "Stuhlen",
+            "Stühlen"
         ]
     },
     {
         "id": "20",
-        "sentence": "Die _____ (Hand) sind kalt.",
-        "targetWord": "Hände",
-        "targetWordTranslation": "Hands",
+        "sentence": "Sie haben viele _____ (Idee).",
+        "targetWord": "Ideen",
+        "targetWordTranslation": "Ideas",
+        "explanation": "Plural f.: Idee → Ideen (-n)",
+        "difficulty": "medium",
         "wrongAnswers": [
-            "Hand",
-            "Hande",
-            "Händen",
-            "Händer"
+            "Idee",
+            "Idees",
+            "Ideer",
+            "Ideeen"
         ]
     },
     {
         "id": "21",
-        "sentence": "Viele _____ (Mensch) sind hier.",
-        "targetWord": "Menschen",
-        "targetWordTranslation": "People",
+        "sentence": "Die _____ (Land) sind groß.",
+        "targetWord": "Länder",
+        "targetWordTranslation": "Countries",
+        "explanation": "Plural n.: Land → Länder (Umlaut + -er)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Mensch",
-            "Menscher",
-            "Mensches",
-            "Mensche"
+            "Land",
+            "Landen",
+            "Lands",
+            "Lände"
         ]
     },
     {
         "id": "22",
-        "sentence": "Drei _____ (Tag) Urlaub.",
-        "targetWord": "Tage",
-        "targetWordTranslation": "Days",
+        "sentence": "Ich lese zwei _____ (Zeitung).",
+        "targetWord": "Zeitungen",
+        "targetWordTranslation": "Newspapers",
+        "explanation": "Plural f.: Zeitung → Zeitungen (-en)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Tag",
-            "Tagen",
-            "Tager",
-            "Tags"
+            "Zeitung",
+            "Zeitungs",
+            "Zeitunger",
+            "Zeitunge"
         ]
     },
     {
         "id": "23",
-        "sentence": "Zwei _____ (Flasche) Wein.",
-        "targetWord": "Flaschen",
-        "targetWordTranslation": "Bottles",
+        "sentence": "Die _____ (Arzt) helfen uns.",
+        "targetWord": "Ärzte",
+        "targetWordTranslation": "Doctors",
+        "explanation": "Plural m.: Arzt → Ärzte (Umlaut + -e)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Flasche",
-            "Flascher",
-            "Flaschens",
-            "Flasch"
+            "Arzt",
+            "Arzten",
+            "Arzte",
+            "Ärzten"
         ]
     },
     {
         "id": "24",
-        "sentence": "Die _____ (Blume) blühen.",
-        "targetWord": "Blumen",
-        "targetWordTranslation": "Flowers",
+        "sentence": "Ich habe drei _____ (Hand).",
+        "targetWord": "Hände",
+        "targetWordTranslation": "Hands",
+        "explanation": "Plural f.: Hand → Hände (Umlaut + -e)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Blume",
-            "Blumer",
-            "Blumes",
-            "Blum"
+            "Hand",
+            "Handen",
+            "Hands",
+            "Händen"
         ]
     },
     {
         "id": "25",
-        "sentence": "Vier _____ (Bild) hängen.",
-        "targetWord": "Bilder",
-        "targetWordTranslation": "Pictures",
+        "sentence": "Die _____ (Vogel) fliegen.",
+        "targetWord": "Vögel",
+        "targetWordTranslation": "Birds",
+        "explanation": "Plural m.: Vogel → Vögel (nur Umlaut)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Bild",
-            "Bilde",
-            "Bildern",
-            "Bildes"
+            "Vogel",
+            "Vogeln",
+            "Vögeln",
+            "Vogels"
         ]
     },
     {
         "id": "26",
-        "sentence": "Die _____ (Vogel) singen.",
-        "targetWord": "Vögel",
-        "targetWordTranslation": "Birds",
+        "sentence": "Wir haben viele _____ (Problem).",
+        "targetWord": "Probleme",
+        "targetWordTranslation": "Problems",
+        "explanation": "Plural n.: Problem → Probleme (-e)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Vogel",
-            "Vogels",
-            "Vögeln",
-            "Vogeln"
+            "Problem",
+            "Problemen",
+            "Problems",
+            "Problemere"
         ]
     },
     {
         "id": "27",
-        "sentence": "Zwei _____ (Zug) kommen.",
-        "targetWord": "Züge",
-        "targetWordTranslation": "Trains",
+        "sentence": "Die _____ (Nacht) sind kalt.",
+        "targetWord": "Nächte",
+        "targetWordTranslation": "Nights",
+        "explanation": "Plural f.: Nacht → Nächte (Umlaut + -e)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Zug",
-            "Zuge",
-            "Zügen",
-            "Zugs"
+            "Nacht",
+            "Nachten",
+            "Nachte",
+            "Nächtere"
         ]
     },
     {
         "id": "28",
-        "sentence": "Die _____ (Nacht) sind lang.",
-        "targetWord": "Nächte",
-        "targetWordTranslation": "Nights",
+        "sentence": "Ich sehe viele _____ (Haus).",
+        "targetWord": "Häuser",
+        "targetWordTranslation": "Houses",
+        "explanation": "Plural n.: Haus → Häuser (Umlaut + -er)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Nacht",
-            "Nachte",
-            "Nächten",
-            "Nachter"
+            "Haus",
+            "Hausen",
+            "Häusen",
+            "Hausse"
         ]
     },
     {
         "id": "29",
-        "sentence": "Viele _____ (Stadt) sind groß.",
-        "targetWord": "Städte",
-        "targetWordTranslation": "Cities",
+        "sentence": "Die _____ (Baum) sind grün.",
+        "targetWord": "Bäume",
+        "targetWordTranslation": "Trees",
+        "explanation": "Plural m.: Baum → Bäume (Umlaut + -e)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Stadt",
-            "Stadte",
-            "Städten",
-            "Stadts"
+            "Baum",
+            "Baumen",
+            "Baume",
+            "Bäumen"
         ]
     },
     {
         "id": "30",
-        "sentence": "Drei _____ (Bruder) habe ich.",
-        "targetWord": "Brüder",
-        "targetWordTranslation": "Brothers",
+        "sentence": "Ich brauche vier _____ (Ei).",
+        "targetWord": "Eier",
+        "targetWordTranslation": "Eggs",
+        "explanation": "Plural n.: Ei → Eier (-er)",
+        "difficulty": "hard",
         "wrongAnswers": [
-            "Bruder",
-            "Bruders",
-            "Brüdern",
-            "Brudern"
+            "Ei",
+            "Eien",
+            "Eis",
+            "Eiern"
         ]
     }
 ]
