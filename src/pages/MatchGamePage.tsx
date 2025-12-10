@@ -363,6 +363,7 @@ export const MatchGamePage: React.FC = () => {
 
     const startGame = (blockId: string | null, useSample: boolean = false) => {
         if (blockId) {
+            setCurrentBlockId(blockId);
             const block = blocks.find(b => b.id === blockId);
 
             // Check if it's a vocabulary category block
@@ -389,6 +390,7 @@ export const MatchGamePage: React.FC = () => {
         }
 
         if (useSample) {
+            setCurrentBlockId(null);
             const shuffled = [...sampleVocabulary].sort(() => Math.random() - 0.5).slice(0, 6);
             setPairs(shuffled.map(w => ({ de: w.german, ru: w.russian })));
             setGameStarted(true);

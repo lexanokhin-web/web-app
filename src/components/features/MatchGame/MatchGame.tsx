@@ -157,7 +157,7 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit,
                         exit={{ opacity: 0 }}
                         className="fixed inset-0 flex items-center justify-center bg-black/50 z-50"
                     >
-                        <GlassCard className="p-8 text-center max-w-md">
+                        <GlassCard className="p-8 text-center max-w-sm mx-4">
                             <Trophy className="w-16 h-16 mx-auto text-yellow-500 mb-4" />
                             <h2 className="text-3xl font-bold text-gray-800 mb-2">Поздравляем!</h2>
                             <p className="text-gray-600 mb-4">Вы нашли все пары!</p>
@@ -171,22 +171,22 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit,
                                     <div className="text-sm text-gray-500">Ошибок</div>
                                 </div>
                             </div>
-                        </GlassCard>
-                        <div className="flex justify-center gap-4 mt-4">
-                            <Button onClick={resetGame} variant="primary">
-                                <RotateCcw className="w-4 h-4 mr-2" />
-                                Играть еще
-                            </Button>
-                            {onRestartWithNewWords && (
-                                <Button onClick={onRestartWithNewWords} variant="success">
-                                    <Shuffle className="w-4 h-4 mr-2" />
-                                    Новые слова
+                            <div className="flex flex-col gap-3">
+                                <Button onClick={resetGame} variant="primary" className="w-full justify-center">
+                                    <RotateCcw className="w-4 h-4 mr-2" />
+                                    Играть еще
                                 </Button>
-                            )}
-                            <Button onClick={onExit} variant="secondary">
-                                Назад
-                            </Button>
-                        </div>
+                                {onRestartWithNewWords && (
+                                    <Button onClick={onRestartWithNewWords} variant="success" className="w-full justify-center">
+                                        <Shuffle className="w-4 h-4 mr-2" />
+                                        Новые слова
+                                    </Button>
+                                )}
+                                <Button onClick={onExit} variant="secondary" className="w-full justify-center">
+                                    Назад
+                                </Button>
+                            </div>
+                        </GlassCard>
                     </motion.div>
                 )}
             </AnimatePresence>
