@@ -50,28 +50,29 @@ const getCaseColor = (c: string) => {
 export const GrammarReference: React.FC = () => {
     const [showTables, setShowTables] = useState(false);
     const [showPrepositions, setShowPrepositions] = useState(false);
+    const [showSpecial, setShowSpecial] = useState(false);
 
     return (
-        <div className="mb-6">
+        <div className="mb-4">
             {/* Grammar Reference Toggles */}
-            <div className="flex gap-2 mb-6">
+            <div className="flex gap-1.5 mb-3">
                 <Button
                     onClick={() => setShowTables(!showTables)}
                     variant="secondary"
-                    className="flex-1 justify-center"
+                    className="flex-1 justify-center py-0.5 px-1.5 text-[10px] font-medium h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
                 >
-                    <BookOpen className="w-4 h-4 mr-2" />
+                    <BookOpen className="w-3 h-3 mr-1" />
                     Endungstabellen
-                    {showTables ? <ChevronUp className="w-4 h-4 ml-2" /> : <ChevronDown className="w-4 h-4 ml-2" />}
+                    {showTables ? <ChevronUp className="w-3 h-3 ml-1" /> : <ChevronDown className="w-3 h-3 ml-1" />}
                 </Button>
                 <Button
                     onClick={() => setShowPrepositions(!showPrepositions)}
                     variant="secondary"
-                    className="flex-1 justify-center"
+                    className="flex-1 justify-center py-0.5 px-1.5 text-[10px] font-medium h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
                 >
-                    <Lightbulb className="w-4 h-4 mr-2" />
+                    <Lightbulb className="w-3 h-3 mr-1" />
                     Präpositionen
-                    {showPrepositions ? <ChevronUp className="w-4 h-4 ml-2" /> : <ChevronDown className="w-4 h-4 ml-2" />}
+                    {showPrepositions ? <ChevronUp className="w-3 h-3 ml-1" /> : <ChevronDown className="w-3 h-3 ml-1" />}
                 </Button>
             </div>
 
@@ -82,19 +83,19 @@ export const GrammarReference: React.FC = () => {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="mb-6 overflow-hidden"
+                        className="mb-3 overflow-hidden"
                     >
-                        <GlassCard className="p-4">
-                            <div className="grid md:grid-cols-2 gap-4">
+                        <GlassCard className="p-2">
+                            <div className="grid md:grid-cols-2 gap-2">
                                 {/* Table 1 */}
                                 <div>
-                                    <h4 className="font-bold text-sm mb-2 text-orange-700">{table1Strong.header}</h4>
-                                    <table className="w-full text-xs">
+                                    <h4 className="font-bold text-[10px] mb-0.5 text-orange-700">{table1Strong.header}</h4>
+                                    <table className="w-full text-[10px]">
                                         <tbody>
                                             {table1Strong.endings.map((row, i) => (
                                                 <tr key={i} className={i === 0 ? 'font-bold bg-orange-100' : ''}>
                                                     {row.map((cell, j) => (
-                                                        <td key={j} className={`px-2 py-1 border ${j === 0 ? 'font-semibold bg-orange-50' : ''}`}>
+                                                        <td key={j} className={`px-1 py-0 border ${j === 0 ? 'font-semibold bg-orange-50' : ''}`}>
                                                             {cell}
                                                         </td>
                                                     ))}
@@ -102,17 +103,17 @@ export const GrammarReference: React.FC = () => {
                                             ))}
                                         </tbody>
                                     </table>
-                                    <p className="text-xs text-gray-500 mt-1">{table1Strong.note}</p>
+                                    <p className="text-[9px] text-gray-500 mt-0.5 leading-tight">{table1Strong.note}</p>
                                 </div>
                                 {/* Table 2 */}
                                 <div>
-                                    <h4 className="font-bold text-sm mb-2 text-blue-700">{table2Weak.header}</h4>
-                                    <table className="w-full text-xs">
+                                    <h4 className="font-bold text-[10px] mb-0.5 text-blue-700">{table2Weak.header}</h4>
+                                    <table className="w-full text-[10px]">
                                         <tbody>
                                             {table2Weak.endings.map((row, i) => (
                                                 <tr key={i} className={i === 0 ? 'font-bold bg-blue-100' : ''}>
                                                     {row.map((cell, j) => (
-                                                        <td key={j} className={`px-2 py-1 border ${j === 0 ? 'font-semibold bg-blue-50' : ''}`}>
+                                                        <td key={j} className={`px-1 py-0 border ${j === 0 ? 'font-semibold bg-blue-50' : ''}`}>
                                                             {cell}
                                                         </td>
                                                     ))}
@@ -120,7 +121,7 @@ export const GrammarReference: React.FC = () => {
                                             ))}
                                         </tbody>
                                     </table>
-                                    <p className="text-xs text-gray-500 mt-1">{table2Weak.note}</p>
+                                    <p className="text-[9px] text-gray-500 mt-0.5 leading-tight">{table2Weak.note}</p>
                                 </div>
                             </div>
                         </GlassCard>
@@ -135,19 +136,72 @@ export const GrammarReference: React.FC = () => {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="mb-6 overflow-hidden"
+                        className="mb-3 overflow-hidden"
                     >
-                        <GlassCard className="p-4">
-                            <h4 className="font-bold text-sm mb-3">Kasus-Bestimmung durch Präpositionen</h4>
-                            <div className="space-y-2 text-sm">
+                        <GlassCard className="p-2">
+                            <h4 className="font-bold text-[10px] mb-1">Kasus-Bestimmung durch Präpositionen</h4>
+                            <div className="space-y-1 text-[10px]">
                                 {Object.entries(casePrepositions).map(([caseName, preps]) => (
-                                    <div key={caseName} className="flex flex-wrap items-center gap-2">
-                                        <span className={`px-2 py-1 rounded font-semibold ${getCaseColor(caseName.slice(0, 3))}`}>
+                                    <div key={caseName} className="flex flex-wrap items-center gap-1">
+                                        <span className={`px-1 py-0 rounded font-semibold ${getCaseColor(caseName.slice(0, 3))}`}>
                                             {caseName}:
                                         </span>
-                                        <span className="text-gray-600">{preps.join(', ')}</span>
+                                        <span className="text-gray-600 leading-tight">{preps.join(', ')}</span>
                                     </div>
                                 ))}
+                            </div>
+                        </GlassCard>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* Special Rules */}
+            <div className="mb-2">
+                <Button
+                    onClick={() => setShowSpecial(!showSpecial)}
+                    variant="secondary"
+                    className="w-full justify-center py-0.5 px-1.5 text-[10px] font-medium h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
+                >
+                    <Lightbulb className="w-3 h-3 mr-1" />
+                    Besonderheiten (Mehrere / Mengewörter)
+                    {showSpecial ? <ChevronUp className="w-3 h-3 ml-1" /> : <ChevronDown className="w-3 h-3 ml-1" />}
+                </Button>
+            </div>
+            <AnimatePresence>
+                {showSpecial && (
+                    <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        className="overflow-hidden"
+                    >
+                        <GlassCard className="p-3 mt-1">
+                            <div className="space-y-3 text-xs text-gray-700">
+                                <div>
+                                    <h4 className="font-bold text-teal-700 mb-0.5">Mehrere Adjektive (Parallel)</h4>
+                                    <p className="mb-0.5">Adjektive in einer Aufzählung haben immer <b>die gleiche Endung</b>.</p>
+                                    <ul className="list-disc list-inside pl-2 space-y-0.5 text-gray-600">
+                                        <li>Nach Artikel: <i>die gut<b>en</b>, alt<b>en</b> Zeiten</i> (beide schwach)</li>
+                                        <li>Ohne Artikel: <i>kalt<b>es</b>, klar<b>es</b> Wasser</i> (beide stark)</li>
+                                    </ul>
+                                </div>
+                                <div className="border-t pt-2">
+                                    <h4 className="font-bold text-teal-700 mb-1">Artikelwort oder Adjektiv?</h4>
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                        <div className="bg-blue-50 p-2 rounded">
+                                            <span className="font-semibold block mb-0.5">Wie bestimmte Artikel (Tabelle 2)</span>
+                                            <p className="text-[10px] mb-1 leading-tight">Das folgende Adjektiv bekommt die schwache Endung (-e/-en).</p>
+                                            <p className="font-mono text-[10px] text-blue-700">alle, beide, sämtliche, diese, jene, welche</p>
+                                            <p className="text-[10px] italic mt-0.5">"Alle gut<b>en</b> Leute"</p>
+                                        </div>
+                                        <div className="bg-orange-50 p-2 rounded">
+                                            <span className="font-semibold block mb-0.5">Wie Adjektive (Tabelle 1)</span>
+                                            <p className="text-[10px] mb-1 leading-tight">Das folgende Adjektiv bekommt die starke Endung (parallel).</p>
+                                            <p className="font-mono text-[10px] text-orange-700">viele, wenige, andere, mehrere, einige, folgende</p>
+                                            <p className="text-[10px] italic mt-0.5">"Viele gut<b>e</b> Leute"</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </GlassCard>
                     </motion.div>

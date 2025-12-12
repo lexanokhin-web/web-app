@@ -12,7 +12,7 @@ interface Exercise {
     id: string;
     sentence: string;
     adjective: string;
-    correctEnding: string;
+    correctEnding: string; // Can be single "en" or multiple "em|en" separated by pipe
     gender: string;
     case: string;
     articleType: string;
@@ -20,111 +20,116 @@ interface Exercise {
     hint: string;
 }
 
-export const AdjektivdeklinationPage: React.FC = () => {
-    const navigate = useNavigate();
-    const inputRef = useRef<HTMLInputElement>(null);
+// Inner component to handle individual exercise state
+const ExerciseCard: React.FC<{
+    exercise: Exercise;
+    onCorrect: () => void;
+    onIncorrect: () => void;
+    onNext: () => void;
+}> = ({ exercise, onCorrect, onIncorrect, onNext }) => {
+    // Determine initial gap count
+    const initialGapCount = exercise.sentence.split(/___+/).length - 1;
 
-    const [exercises, setExercises] = useState<Exercise[]>([]);
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const [userInput, setUserInput] = useState('');
+    // State specific to this exercise instance
+    const [userInputs, setUserInputs] = useState<string[]>(new Array(initialGapCount).fill(''));
     const [showHint, setShowHint] = useState(false);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-    const [correctCount, setCorrectCount] = useState(0);
-    const [incorrectCount, setIncorrectCount] = useState(0);
-    const [loading, setLoading] = useState(true);
-    const [showCompletion, setShowCompletion] = useState(false);
-    const [difficulty, setDifficulty] = useState('all');
+    const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
 
-    // Load exercises
+    // Focus first input on mount
     useEffect(() => {
-        fetch('/data/adjektivdeklination_endings.json')
-            .then(res => res.json())
-            .then((data: Exercise[]) => {
-                const shuffled = [...data].sort(() => Math.random() - 0.5);
-                setExercises(shuffled);
-                setLoading(false);
-            })
-            .catch(err => {
-                console.error('Failed to load exercises:', err);
-                setLoading(false);
-            });
+        setTimeout(() => {
+            inputRefs.current[0]?.focus();
+        }, 100);
     }, []);
 
-    // Filter exercises by difficulty
-    const filteredExercises = difficulty === 'all'
-        ? exercises
-        : exercises.filter(e => e.difficulty === difficulty);
-
-    const currentExercise = filteredExercises[currentIndex];
-
-    // Prepare structure for DifficultySelector
-    const difficultyLevels = defaultLevels.map(level => {
-        const count = level.id === 'all'
-            ? exercises.length
-            : exercises.filter(e => e.difficulty === level.id).length;
-
-        return {
-            ...level,
-            count
-        };
-    });
+    const handleInputChange = (index: number, value: string) => {
+        const newInputs = [...userInputs];
+        newInputs[index] = value;
+        setUserInputs(newInputs);
+    };
 
     const handleCheck = () => {
-        if (!currentExercise) return;
+        // Parse correct endings (support "em|en" format)
+        const corrects = exercise.correctEnding.split('|');
 
-        const trimmedInput = userInput.trim().toLowerCase().replace(/^-/, '');
-        const correctAnswer = currentExercise.correctEnding.toLowerCase();
+        // Check if all inputs are correct
+        const allCorrect = userInputs.every((input, idx) => {
+            const trimmedInput = input.trim().toLowerCase().replace(/^-/, '');
+            const expected = corrects[idx] ? corrects[idx].toLowerCase() : '';
+            return trimmedInput === expected;
+        });
 
-        if (trimmedInput === correctAnswer) {
+        if (allCorrect) {
             setIsCorrect(true);
-            setCorrectCount(prev => prev + 1);
+            onCorrect();
             setTimeout(() => {
-                nextExercise();
+                onNext();
             }, 1000);
         } else {
             setIsCorrect(false);
-            setIncorrectCount(prev => prev + 1);
+            onIncorrect();
             setShowHint(true);
         }
     };
 
-    const nextExercise = () => {
-        if (currentIndex < filteredExercises.length - 1) {
-            setCurrentIndex(prev => prev + 1);
-            setUserInput('');
-            setShowHint(false);
-            setIsCorrect(null);
-            inputRef.current?.focus();
-        } else {
-            setShowCompletion(true);
-        }
+    const handleSkip = () => {
+        onIncorrect();
+        onNext();
     };
 
-    const skipQuestion = () => {
-        setIncorrectCount(prev => prev + 1);
-        nextExercise();
-    };
-
-    const restartExercise = () => {
-        const shuffled = [...exercises].sort(() => Math.random() - 0.5);
-        setExercises(shuffled);
-        setCurrentIndex(0);
-        setCorrectCount(0);
-        setIncorrectCount(0);
-        setShowCompletion(false);
-        setUserInput('');
-        setShowHint(false);
-        setIsCorrect(null);
-    };
-
-    const handleKeyPress = (e: React.KeyboardEvent) => {
+    const handleKeyPress = (e: React.KeyboardEvent, index: number) => {
         if (e.key === 'Enter') {
-            if (showHint) {
-                nextExercise();
+            // If it's the last input or generic check
+            if (index === userInputs.length - 1 || showHint) {
+                if (showHint) {
+                    onNext();
+                } else {
+                    handleCheck();
+                }
             } else {
-                handleCheck();
+                // Focus next input
+                inputRefs.current[index + 1]?.focus();
             }
         }
+    };
+
+    const renderSentence = (sentence: string) => {
+        const parts = sentence.split(/___+/);
+        return (
+            <div className="flex flex-wrap items-baseline justify-center gap-2 leading-relaxed">
+                {parts.map((part, index) => (
+                    <React.Fragment key={index}>
+                        <span>{part}</span>
+                        {index < parts.length - 1 && (
+                            <span className="relative inline-block">
+                                <input
+                                    ref={el => { inputRefs.current[index] = el; }}
+                                    type="text"
+                                    value={userInputs[index] || ''}
+                                    onChange={(e) => handleInputChange(index, e.target.value)}
+                                    onKeyPress={(e) => handleKeyPress(e, index)}
+                                    placeholder="___"
+                                    className={`
+                                        w-24 text-center text-xl font-bold bg-transparent border-b-4 outline-none transition-colors
+                                        ${isCorrect === true ? 'border-green-500 text-green-600' :
+                                            isCorrect === false ? 'border-red-500 text-red-600' :
+                                                'border-cyan-500 text-cyan-600 focus:border-cyan-700'}
+                                    `}
+                                    disabled={showHint || isCorrect === true}
+                                    autoComplete="off"
+                                />
+                                {showHint && (
+                                    <span className="absolute -top-6 left-1/2 transform -translate-x-1/2 text-xs text-red-500 bg-red-50 px-1 rounded whitespace-nowrap border border-red-200 shadow-sm z-10">
+                                        -{exercise.correctEnding.split('|')[index]}
+                                    </span>
+                                )}
+                            </span>
+                        )}
+                    </React.Fragment>
+                ))}
+            </div>
+        );
     };
 
     const getDifficultyLabel = (diff: string) => {
@@ -175,20 +180,191 @@ export const AdjektivdeklinationPage: React.FC = () => {
         }
     };
 
-    // Render sentence with highlighted gap
-    const renderSentence = (sentence: string) => {
-        const parts = sentence.split(/___+/);
-        if (parts.length < 2) return <span>{sentence}</span>;
-
-        return (
-            <>
-                {parts[0]}
-                <span className="inline-block min-w-[60px] border-b-4 border-cyan-500 mx-1 text-cyan-600 font-bold">
-                    {userInput || '___'}
+    return (
+        <GlassCard className="p-8">
+            {/* Difficulty & Case badges */}
+            <div className="flex gap-2 mb-4 flex-wrap">
+                <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getDifficultyColor(exercise.difficulty)}`}>
+                    {getDifficultyLabel(exercise.difficulty)}
                 </span>
-                {parts[1]}
-            </>
-        );
+                <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getCaseColor(exercise.case)}`}>
+                    {exercise.case}
+                </span>
+                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-700">
+                    {getGenderLabel(exercise.gender)}
+                </span>
+                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-teal-100 text-teal-700">
+                    {getArticleTypeLabel(exercise.articleType)}
+                </span>
+            </div>
+
+            {/* Sentence */}
+            <div className="text-center mb-6">
+                <div className="text-2xl font-bold text-gray-800 mb-2">
+                    {renderSentence(exercise.sentence)}
+                </div>
+                <p className="text-sm text-gray-500 mt-4">
+                    Adjektiv: <span className="font-semibold text-cyan-600">{exercise.adjective}</span>
+                </p>
+            </div>
+
+            {/* Result Feedback */}
+            <AnimatePresence>
+                {isCorrect === true && (
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="flex items-center justify-center gap-2 text-green-600 mb-4"
+                    >
+                        <CheckCircle className="w-6 h-6" />
+                        <span className="text-lg font-semibold">
+                            Richtig! &nbsp;
+                            <span className="opacity-75">
+                                ({exercise.correctEnding.split('|').map(e => '-' + e).join(', ')})
+                            </span>
+                        </span>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* Hint on Wrong Answer */}
+            <AnimatePresence>
+                {showHint && (
+                    <motion.div
+                        initial={{ opacity: 0, y: -10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0 }}
+                        className="mb-4"
+                    >
+                        <div className="flex items-start gap-2 p-4 bg-red-50 border border-red-200 rounded-xl">
+                            <XCircle className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />
+                            <div>
+                                <p className="font-semibold text-red-700 mb-1">
+                                    Leider falsch
+                                </p>
+                                <p className="text-sm text-gray-700">{exercise.hint}</p>
+                            </div>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* Buttons */}
+            <div className="flex gap-2">
+                {!showHint ? (
+                    <>
+                        <Button
+                            onClick={handleCheck}
+                            // Disable if any input is empty
+                            disabled={userInputs.some(input => !input || input.trim() === '')}
+                            variant="primary"
+                            className="flex-1 justify-center py-3"
+                        >
+                            Prüfen
+                        </Button>
+                        <Button
+                            onClick={handleSkip}
+                            variant="secondary"
+                            className="justify-center"
+                            title="Überspringen"
+                        >
+                            <HelpCircle className="w-5 h-5" />
+                        </Button>
+                    </>
+                ) : (
+                    <Button
+                        onClick={onNext}
+                        variant="primary"
+                        className="flex-1 justify-center py-3"
+                    >
+                        Nächste Aufgabe →
+                    </Button>
+                )}
+            </div>
+        </GlassCard>
+    );
+};
+
+export const AdjektivdeklinationPage: React.FC = () => {
+    const navigate = useNavigate();
+
+    // rawExercises holds the full loaded data
+    const [rawExercises, setRawExercises] = useState<Exercise[]>([]);
+    // exercises holds the current shuffled playlist
+    const [exercises, setExercises] = useState<Exercise[]>([]);
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [correctCount, setCorrectCount] = useState(0);
+    const [incorrectCount, setIncorrectCount] = useState(0);
+    const [loading, setLoading] = useState(true);
+    const [showCompletion, setShowCompletion] = useState(false);
+    const [difficulty, setDifficulty] = useState('all');
+
+    // Helper to shuffle exercises
+    const getShuffledExercises = (all: Exercise[], level: string) => {
+        const filtered = level === 'all'
+            ? all
+            : all.filter(e => e.difficulty === level);
+
+        const shuffled = [...filtered];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    };
+
+    // Load exercises
+    useEffect(() => {
+        fetch('/data/adjektivdeklination_endings.json')
+            .then(res => res.json())
+            .then((data: Exercise[]) => {
+                setRawExercises(data);
+                // Initial shuffle
+                setExercises(getShuffledExercises(data, 'all'));
+                setLoading(false);
+            })
+            .catch(err => {
+                console.error('Failed to load exercises:', err);
+                setLoading(false);
+            });
+    }, []);
+
+    const currentExercise = exercises[currentIndex];
+
+    // Prepare structure for DifficultySelector
+    const difficultyLevels = defaultLevels.map(level => {
+        const count = level.id === 'all'
+            ? rawExercises.length
+            : rawExercises.filter(e => e.difficulty === level.id).length;
+
+        return {
+            ...level,
+            count
+        };
+    });
+
+    const nextExercise = () => {
+        if (currentIndex < exercises.length - 1) {
+            setCurrentIndex(prev => prev + 1);
+        } else {
+            setShowCompletion(true);
+        }
+    };
+
+    const restartExercise = () => {
+        // Re-shuffle current set
+        const shuffled = [...exercises];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        setExercises(shuffled);
+        setCurrentIndex(0);
+        setCorrectCount(0);
+        setIncorrectCount(0);
+        setShowCompletion(false);
     };
 
     if (loading) {
@@ -206,7 +382,7 @@ export const AdjektivdeklinationPage: React.FC = () => {
             <CompletionModal
                 correctCount={correctCount}
                 incorrectCount={incorrectCount}
-                totalCount={filteredExercises.length}
+                totalCount={exercises.length}
                 onRestart={restartExercise}
                 onBack={() => navigate('/')}
             />
@@ -233,7 +409,7 @@ export const AdjektivdeklinationPage: React.FC = () => {
                         <div className="flex items-center justify-between">
                             <span className="text-sm font-semibold text-gray-600">Schwierigkeitsgrad:</span>
                             <span className="text-sm text-gray-500">
-                                {Math.min(currentIndex + 1, filteredExercises.length)} / {filteredExercises.length} Aufgaben
+                                {Math.min(currentIndex + 1, exercises.length)} / {exercises.length} Aufgaben
                             </span>
                         </div>
 
@@ -242,10 +418,12 @@ export const AdjektivdeklinationPage: React.FC = () => {
                             selected={difficulty}
                             onChange={(level) => {
                                 setDifficulty(level);
+                                const shuffled = getShuffledExercises(rawExercises, level);
+                                setExercises(shuffled);
                                 setCurrentIndex(0);
-                                setUserInput('');
-                                setShowHint(false);
-                                setIsCorrect(null);
+                                setCorrectCount(0);
+                                setIncorrectCount(0);
+                                setShowCompletion(false);
                             }}
                         />
 
@@ -256,7 +434,7 @@ export const AdjektivdeklinationPage: React.FC = () => {
                             <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
                                 <div
                                     className="h-full bg-gradient-to-r from-cyan-500 to-teal-500 transition-all duration-300"
-                                    style={{ width: `${(currentIndex / filteredExercises.length) * 100}%` }}
+                                    style={{ width: `${(currentIndex / exercises.length) * 100}%` }}
                                 />
                             </div>
                         </div>
@@ -276,121 +454,12 @@ export const AdjektivdeklinationPage: React.FC = () => {
                             exit={{ opacity: 0, y: -20 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <GlassCard className="p-8">
-                                {/* Difficulty & Case badges */}
-                                <div className="flex gap-2 mb-4 flex-wrap">
-                                    <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getDifficultyColor(currentExercise.difficulty)}`}>
-                                        {getDifficultyLabel(currentExercise.difficulty)}
-                                    </span>
-                                    <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getCaseColor(currentExercise.case)}`}>
-                                        {currentExercise.case}
-                                    </span>
-                                    <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-700">
-                                        {getGenderLabel(currentExercise.gender)}
-                                    </span>
-                                    <span className="px-3 py-1 rounded-full text-xs font-semibold bg-teal-100 text-teal-700">
-                                        {getArticleTypeLabel(currentExercise.articleType)}
-                                    </span>
-                                </div>
-
-                                {/* Sentence */}
-                                <div className="text-center mb-6">
-                                    <p className="text-2xl font-bold text-gray-800 mb-2">
-                                        {renderSentence(currentExercise.sentence)}
-                                    </p>
-                                    <p className="text-sm text-gray-500">
-                                        Adjektiv: <span className="font-semibold text-cyan-600">{currentExercise.adjective}</span>
-                                    </p>
-                                </div>
-
-                                {/* Input */}
-                                <div className="flex gap-2 mb-4">
-                                    <span className="text-2xl font-bold text-gray-400">-</span>
-                                    <input
-                                        ref={inputRef}
-                                        type="text"
-                                        value={userInput}
-                                        onChange={(e) => setUserInput(e.target.value)}
-                                        onKeyPress={handleKeyPress}
-                                        placeholder="e, en, er, es, em..."
-                                        className={`flex-1 px-4 py-3 text-xl rounded-xl border-2 transition-colors ${isCorrect === true ? 'border-green-500 bg-green-50' :
-                                            isCorrect === false ? 'border-red-500 bg-red-50' :
-                                                'border-gray-300 focus:border-cyan-500'
-                                            } outline-none`}
-                                        disabled={showHint}
-                                        autoFocus
-                                    />
-                                </div>
-
-                                {/* Result Feedback */}
-                                <AnimatePresence>
-                                    {isCorrect === true && (
-                                        <motion.div
-                                            initial={{ opacity: 0, scale: 0.9 }}
-                                            animate={{ opacity: 1, scale: 1 }}
-                                            exit={{ opacity: 0 }}
-                                            className="flex items-center justify-center gap-2 text-green-600 mb-4"
-                                        >
-                                            <CheckCircle className="w-6 h-6" />
-                                            <span className="text-lg font-semibold">Richtig! -{currentExercise.correctEnding}</span>
-                                        </motion.div>
-                                    )}
-                                </AnimatePresence>
-
-                                {/* Hint on Wrong Answer */}
-                                <AnimatePresence>
-                                    {showHint && (
-                                        <motion.div
-                                            initial={{ opacity: 0, y: -10 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            exit={{ opacity: 0 }}
-                                            className="mb-4"
-                                        >
-                                            <div className="flex items-start gap-2 p-4 bg-red-50 border border-red-200 rounded-xl">
-                                                <XCircle className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />
-                                                <div>
-                                                    <p className="font-semibold text-red-700 mb-1">
-                                                        Richtige Antwort: <span className="text-lg">-{currentExercise.correctEnding}</span>
-                                                    </p>
-                                                    <p className="text-sm text-gray-700">{currentExercise.hint}</p>
-                                                </div>
-                                            </div>
-                                        </motion.div>
-                                    )}
-                                </AnimatePresence>
-
-                                {/* Buttons */}
-                                <div className="flex gap-2">
-                                    {!showHint ? (
-                                        <>
-                                            <Button
-                                                onClick={handleCheck}
-                                                disabled={userInput.trim() === ''}
-                                                variant="primary"
-                                                className="flex-1 justify-center py-3"
-                                            >
-                                                Prüfen
-                                            </Button>
-                                            <Button
-                                                onClick={skipQuestion}
-                                                variant="secondary"
-                                                className="justify-center"
-                                                title="Überspringen"
-                                            >
-                                                <HelpCircle className="w-5 h-5" />
-                                            </Button>
-                                        </>
-                                    ) : (
-                                        <Button
-                                            onClick={nextExercise}
-                                            variant="primary"
-                                            className="flex-1 justify-center py-3"
-                                        >
-                                            Nächste Aufgabe →
-                                        </Button>
-                                    )}
-                                </div>
-                            </GlassCard>
+                            <ExerciseCard
+                                exercise={currentExercise}
+                                onCorrect={() => setCorrectCount(c => c + 1)}
+                                onIncorrect={() => setIncorrectCount(c => c + 1)}
+                                onNext={nextExercise}
+                            />
                         </motion.div>
                     </AnimatePresence>
                 )}
@@ -398,4 +467,3 @@ export const AdjektivdeklinationPage: React.FC = () => {
         </div>
     );
 };
-
