@@ -2,8 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { ArrowLeft, CheckCircle, XCircle, HelpCircle, ChevronDown, ChevronUp, BookOpen, Lightbulb } from 'lucide-react';
+import { ArrowLeft, CheckCircle, XCircle, HelpCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { CompletionModal } from '../components/CompletionModal';
+import { DifficultySelector, defaultLevels } from '../components/DifficultySelector';
+import { GrammarReference } from '../components/features/Adjektiv/GrammarReference';
 
 interface Exercise {
     id: string;
@@ -17,47 +20,6 @@ interface Exercise {
     hint: string;
 }
 
-// Case preposition reference for hints
-const casePrepositions = {
-    Dativ: ['ab', 'aus', 'bei', 'mit', 'nach', 'seit', 'von', 'zu', 'außer', 'entgegen', 'gegenüber'],
-    Akkusativ: ['durch', 'für', 'gegen', 'ohne', 'um', 'bis', 'entlang'],
-    Genitiv: ['während', 'wegen', 'trotz', 'statt', 'aufgrund', 'innerhalb', 'außerhalb', 'anstatt'],
-    'Wechselpräpositionen (Wo?→Dat / Wohin?→Akk)': ['in', 'an', 'auf', 'unter', 'über', 'vor', 'hinter', 'neben', 'zwischen']
-};
-
-// Adjective ending tables - German
-const table1Strong = {
-    header: 'Tabelle 1 – Starke Endungen (ohne Artikel / Artikel ohne Endung)',
-    endings: [
-        ['', 'Mask.', 'Fem.', 'Neut.', 'Plural'],
-        ['Nom.', '-er', '-e', '-es', '-e'],
-        ['Akk.', '-en', '-e', '-es', '-e'],
-        ['Dat.', '-em', '-er', '-em', '-en'],
-        ['Gen.', '-en*', '-er', '-en*', '-er']
-    ],
-    note: '* Im Genitiv Mask./Neut. ohne Artikel: Adjektive bekommen -en (Ausnahme)'
-};
-
-const table2Weak = {
-    header: 'Tabelle 2 – Schwache Endungen (Artikel mit Endung)',
-    endings: [
-        ['', 'Mask.', 'Fem.', 'Neut.', 'Plural'],
-        ['Nom.', '-e', '-e', '-e', '-en'],
-        ['Akk.', '-en', '-e', '-e', '-en'],
-        ['Dat.', '-en', '-en', '-en', '-en'],
-        ['Gen.', '-en', '-en', '-en', '-en']
-    ],
-    note: 'Wenn der Artikel den Kasus/Genus schon zeigt'
-};
-
-// Difficulty config
-const difficultyConfig = {
-    all: { label: 'Alle', color: 'from-gray-400 to-gray-600', bgActive: 'bg-gradient-to-r from-gray-500 to-gray-700', bgInactive: 'bg-gray-100 hover:bg-gray-200 text-gray-700' },
-    easy: { label: 'Leicht', color: 'from-green-400 to-green-600', bgActive: 'bg-gradient-to-r from-green-500 to-green-700', bgInactive: 'bg-green-50 hover:bg-green-100 text-green-700 border border-green-300' },
-    medium: { label: 'Mittel', color: 'from-yellow-400 to-yellow-600', bgActive: 'bg-gradient-to-r from-yellow-500 to-orange-600', bgInactive: 'bg-yellow-50 hover:bg-yellow-100 text-yellow-700 border border-yellow-300' },
-    hard: { label: 'Schwer', color: 'from-red-400 to-red-600', bgActive: 'bg-gradient-to-r from-red-500 to-red-700', bgInactive: 'bg-red-50 hover:bg-red-100 text-red-700 border border-red-300' }
-};
-
 export const AdjektivdeklinationPage: React.FC = () => {
     const navigate = useNavigate();
     const inputRef = useRef<HTMLInputElement>(null);
@@ -67,13 +29,11 @@ export const AdjektivdeklinationPage: React.FC = () => {
     const [userInput, setUserInput] = useState('');
     const [showHint, setShowHint] = useState(false);
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
-    const [showTables, setShowTables] = useState(false);
-    const [showPrepositions, setShowPrepositions] = useState(false);
     const [correctCount, setCorrectCount] = useState(0);
     const [incorrectCount, setIncorrectCount] = useState(0);
     const [loading, setLoading] = useState(true);
     const [showCompletion, setShowCompletion] = useState(false);
-    const [difficulty, setDifficulty] = useState<'all' | 'easy' | 'medium' | 'hard'>('all');
+    const [difficulty, setDifficulty] = useState('all');
 
     // Load exercises
     useEffect(() => {
@@ -96,6 +56,18 @@ export const AdjektivdeklinationPage: React.FC = () => {
         : exercises.filter(e => e.difficulty === difficulty);
 
     const currentExercise = filteredExercises[currentIndex];
+
+    // Prepare structure for DifficultySelector
+    const difficultyLevels = defaultLevels.map(level => {
+        const count = level.id === 'all'
+            ? exercises.length
+            : exercises.filter(e => e.difficulty === level.id).length;
+
+        return {
+            ...level,
+            count
+        };
+    });
 
     const handleCheck = () => {
         if (!currentExercise) return;
@@ -230,48 +202,14 @@ export const AdjektivdeklinationPage: React.FC = () => {
     }
 
     if (showCompletion) {
-        const score = correctCount + incorrectCount > 0
-            ? Math.round((correctCount / (correctCount + incorrectCount)) * 100)
-            : 0;
         return (
-            <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-cyan-50 to-teal-50">
-                <div className="max-w-2xl mx-auto">
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5 }}
-                    >
-                        <GlassCard className="p-12 text-center">
-                            <CheckCircle className="w-20 h-20 text-green-500 mx-auto mb-6" />
-                            <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                                Übung abgeschlossen!
-                            </h2>
-                            <div className="flex justify-center gap-8 mb-8">
-                                <div>
-                                    <div className="text-3xl font-bold text-green-600">{correctCount}</div>
-                                    <div className="text-sm text-gray-500">Richtig</div>
-                                </div>
-                                <div>
-                                    <div className="text-3xl font-bold text-red-600">{incorrectCount}</div>
-                                    <div className="text-sm text-gray-500">Falsch</div>
-                                </div>
-                                <div>
-                                    <div className="text-3xl font-bold text-blue-600">{score}%</div>
-                                    <div className="text-sm text-gray-500">Ergebnis</div>
-                                </div>
-                            </div>
-                            <div className="flex flex-col gap-3">
-                                <Button onClick={restartExercise} variant="primary" className="w-full justify-center">
-                                    Nochmal üben
-                                </Button>
-                                <Button onClick={() => navigate('/')} variant="secondary" className="w-full justify-center">
-                                    Zurück zur Startseite
-                                </Button>
-                            </div>
-                        </GlassCard>
-                    </motion.div>
-                </div>
-            </div>
+            <CompletionModal
+                correctCount={correctCount}
+                incorrectCount={incorrectCount}
+                totalCount={filteredExercises.length}
+                onRestart={restartExercise}
+                onBack={() => navigate('/')}
+            />
         );
     }
 
@@ -289,48 +227,30 @@ export const AdjektivdeklinationPage: React.FC = () => {
                     </h1>
                 </div>
 
-                {/* Difficulty Selector - Improved UI */}
+                {/* Difficulty Selector */}
                 <GlassCard className="p-4 mb-6">
                     <div className="flex flex-col gap-3">
                         <div className="flex items-center justify-between">
                             <span className="text-sm font-semibold text-gray-600">Schwierigkeitsgrad:</span>
                             <span className="text-sm text-gray-500">
-                                {currentIndex + 1} / {filteredExercises.length} Aufgaben
+                                {Math.min(currentIndex + 1, filteredExercises.length)} / {filteredExercises.length} Aufgaben
                             </span>
                         </div>
-                        <div className="grid grid-cols-4 gap-2">
-                            {(Object.keys(difficultyConfig) as Array<keyof typeof difficultyConfig>).map((level) => {
-                                const config = difficultyConfig[level];
-                                const isActive = difficulty === level;
-                                const count = level === 'all'
-                                    ? exercises.length
-                                    : exercises.filter(e => e.difficulty === level).length;
 
-                                return (
-                                    <button
-                                        key={level}
-                                        onClick={() => {
-                                            setDifficulty(level);
-                                            setCurrentIndex(0);
-                                            setUserInput('');
-                                            setShowHint(false);
-                                            setIsCorrect(null);
-                                        }}
-                                        className={`relative px-3 py-3 rounded-xl font-semibold text-sm transition-all transform ${isActive
-                                                ? `${config.bgActive} text-white shadow-lg scale-105`
-                                                : config.bgInactive
-                                            }`}
-                                    >
-                                        <div>{config.label}</div>
-                                        <div className={`text-xs mt-1 ${isActive ? 'text-white/80' : 'opacity-60'}`}>
-                                            {count} Aufgaben
-                                        </div>
-                                    </button>
-                                );
-                            })}
-                        </div>
+                        <DifficultySelector
+                            levels={difficultyLevels}
+                            selected={difficulty}
+                            onChange={(level) => {
+                                setDifficulty(level);
+                                setCurrentIndex(0);
+                                setUserInput('');
+                                setShowHint(false);
+                                setIsCorrect(null);
+                            }}
+                        />
+
                         {/* Progress bar */}
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-3 mt-2">
                             <span className="text-green-600 font-semibold text-sm">✓ {correctCount}</span>
                             <span className="text-red-600 font-semibold text-sm">✗ {incorrectCount}</span>
                             <div className="flex-1 h-2 bg-gray-200 rounded-full overflow-hidden">
@@ -343,106 +263,8 @@ export const AdjektivdeklinationPage: React.FC = () => {
                     </div>
                 </GlassCard>
 
-                {/* Grammar Reference Toggles */}
-                <div className="flex gap-2 mb-6">
-                    <Button
-                        onClick={() => setShowTables(!showTables)}
-                        variant="secondary"
-                        className="flex-1 justify-center"
-                    >
-                        <BookOpen className="w-4 h-4 mr-2" />
-                        Endungstabellen
-                        {showTables ? <ChevronUp className="w-4 h-4 ml-2" /> : <ChevronDown className="w-4 h-4 ml-2" />}
-                    </Button>
-                    <Button
-                        onClick={() => setShowPrepositions(!showPrepositions)}
-                        variant="secondary"
-                        className="flex-1 justify-center"
-                    >
-                        <Lightbulb className="w-4 h-4 mr-2" />
-                        Präpositionen
-                        {showPrepositions ? <ChevronUp className="w-4 h-4 ml-2" /> : <ChevronDown className="w-4 h-4 ml-2" />}
-                    </Button>
-                </div>
-
-                {/* Grammar Tables */}
-                <AnimatePresence>
-                    {showTables && (
-                        <motion.div
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: 'auto' }}
-                            exit={{ opacity: 0, height: 0 }}
-                            className="mb-6 overflow-hidden"
-                        >
-                            <GlassCard className="p-4">
-                                <div className="grid md:grid-cols-2 gap-4">
-                                    {/* Table 1 */}
-                                    <div>
-                                        <h4 className="font-bold text-sm mb-2 text-orange-700">{table1Strong.header}</h4>
-                                        <table className="w-full text-xs">
-                                            <tbody>
-                                                {table1Strong.endings.map((row, i) => (
-                                                    <tr key={i} className={i === 0 ? 'font-bold bg-orange-100' : ''}>
-                                                        {row.map((cell, j) => (
-                                                            <td key={j} className={`px-2 py-1 border ${j === 0 ? 'font-semibold bg-orange-50' : ''}`}>
-                                                                {cell}
-                                                            </td>
-                                                        ))}
-                                                    </tr>
-                                                ))}
-                                            </tbody>
-                                        </table>
-                                        <p className="text-xs text-gray-500 mt-1">{table1Strong.note}</p>
-                                    </div>
-                                    {/* Table 2 */}
-                                    <div>
-                                        <h4 className="font-bold text-sm mb-2 text-blue-700">{table2Weak.header}</h4>
-                                        <table className="w-full text-xs">
-                                            <tbody>
-                                                {table2Weak.endings.map((row, i) => (
-                                                    <tr key={i} className={i === 0 ? 'font-bold bg-blue-100' : ''}>
-                                                        {row.map((cell, j) => (
-                                                            <td key={j} className={`px-2 py-1 border ${j === 0 ? 'font-semibold bg-blue-50' : ''}`}>
-                                                                {cell}
-                                                            </td>
-                                                        ))}
-                                                    </tr>
-                                                ))}
-                                            </tbody>
-                                        </table>
-                                        <p className="text-xs text-gray-500 mt-1">{table2Weak.note}</p>
-                                    </div>
-                                </div>
-                            </GlassCard>
-                        </motion.div>
-                    )}
-                </AnimatePresence>
-
-                {/* Preposition Reference */}
-                <AnimatePresence>
-                    {showPrepositions && (
-                        <motion.div
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: 'auto' }}
-                            exit={{ opacity: 0, height: 0 }}
-                            className="mb-6 overflow-hidden"
-                        >
-                            <GlassCard className="p-4">
-                                <h4 className="font-bold text-sm mb-3">Kasus-Bestimmung durch Präpositionen</h4>
-                                <div className="space-y-2 text-sm">
-                                    {Object.entries(casePrepositions).map(([caseName, preps]) => (
-                                        <div key={caseName} className="flex flex-wrap items-center gap-2">
-                                            <span className={`px-2 py-1 rounded font-semibold ${getCaseColor(caseName.slice(0, 3))}`}>
-                                                {caseName}:
-                                            </span>
-                                            <span className="text-gray-600">{preps.join(', ')}</span>
-                                        </div>
-                                    ))}
-                                </div>
-                            </GlassCard>
-                        </motion.div>
-                    )}
-                </AnimatePresence>
+                {/* Grammar Reference Components */}
+                <GrammarReference />
 
                 {/* Main Exercise Card */}
                 {currentExercise && (
@@ -576,3 +398,4 @@ export const AdjektivdeklinationPage: React.FC = () => {
         </div>
     );
 };
+

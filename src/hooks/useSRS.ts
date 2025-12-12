@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { SRSService } from '../services/srs/SRSService';
 import { type SRSCard, type SRSStats } from '../services/srs/SRSEngine';
 import { useAuth } from '../contexts/AuthContext';
@@ -11,13 +11,7 @@ export const useSRS = (wordId?: string) => {
     const [card, setCard] = useState<SRSCard | null>(null);
     const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        if (wordId) {
-            loadCard();
-        }
-    }, [wordId, user?.id]);
-
-    const loadCard = async () => {
+    const loadCard = useCallback(async () => {
         if (!wordId) return;
 
         setLoading(true);
@@ -29,7 +23,13 @@ export const useSRS = (wordId?: string) => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [wordId, user?.id]);
+
+    useEffect(() => {
+        if (wordId) {
+            loadCard();
+        }
+    }, [wordId, loadCard]);
 
     const review = async (isKnown: boolean) => {
         if (!wordId) return;
@@ -63,7 +63,7 @@ export const useSRSStats = () => {
     const [stats, setStats] = useState<SRSStats | null>(null);
     const [loading, setLoading] = useState(false);
 
-    const loadStats = async () => {
+    const loadStats = useCallback(async () => {
         setLoading(true);
         try {
             const srsStats = await SRSService.getStats(user?.id);
@@ -73,11 +73,11 @@ export const useSRSStats = () => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [user?.id]);
 
     useEffect(() => {
         loadStats();
-    }, [user?.id]);
+    }, [loadStats]);
 
     return {
         stats,
@@ -94,7 +94,7 @@ export const useDueCards = () => {
     const [dueCards, setDueCards] = useState<SRSCard[]>([]);
     const [loading, setLoading] = useState(false);
 
-    const loadDueCards = async () => {
+    const loadDueCards = useCallback(async () => {
         setLoading(true);
         try {
             const cards = await SRSService.getDueCards(user?.id);
@@ -104,11 +104,11 @@ export const useDueCards = () => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [user?.id]);
 
     useEffect(() => {
         loadDueCards();
-    }, [user?.id]);
+    }, [loadDueCards]);
 
     return {
         dueCards,

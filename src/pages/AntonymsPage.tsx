@@ -4,18 +4,14 @@ import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
 import { ProgressBar } from '../components/ProgressBar';
 import { ScoreCounter } from '../components/ScoreCounter';
+import { CompletionModal } from '../components/CompletionModal';
+import { DifficultySelector, defaultLevels } from '../components/DifficultySelector';
 import { useAntonymExercises } from '../hooks/useLoadData';
 import type { AntonymExercise } from '../types';
 import { ArrowLeft, CheckCircle, XCircle, BookOpen } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Difficulty configuration
-const difficultyConfig = {
-    all: { label: 'Alle', bgActive: 'bg-gradient-to-r from-gray-500 to-gray-700 text-white', bgInactive: 'bg-gray-100 hover:bg-gray-200 text-gray-700' },
-    easy: { label: 'Leicht', bgActive: 'bg-gradient-to-r from-green-500 to-green-700 text-white', bgInactive: 'bg-green-50 hover:bg-green-100 text-green-700 border border-green-300' },
-    medium: { label: 'Mittel', bgActive: 'bg-gradient-to-r from-yellow-500 to-orange-600 text-white', bgInactive: 'bg-yellow-50 hover:bg-yellow-100 text-yellow-700 border border-yellow-300' },
-    hard: { label: 'Schwer', bgActive: 'bg-gradient-to-r from-red-500 to-red-700 text-white', bgInactive: 'bg-red-50 hover:bg-red-100 text-red-700 border border-red-300' }
-};
+
 
 // Common antonym pairs for hints
 const antonymHints: Record<string, string> = {
@@ -100,6 +96,18 @@ export const AntonymsPage: React.FC = () => {
 
     const currentExercise = filteredExercises[currentIndex];
 
+    // Prepare structure for DifficultySelector
+    const difficultyLevels = defaultLevels.map(level => {
+        const count = level.id === 'all'
+            ? exercises.length
+            : exercises.filter(e => (e as AntonymExercise & { difficulty: string }).difficulty === level.id).length;
+
+        return {
+            ...level,
+            count
+        };
+    });
+
     const handleOptionSelect = (option: string) => {
         if (showResult) return;
         setSelectedOption(option);
@@ -142,10 +150,7 @@ export const AntonymsPage: React.FC = () => {
         setSelectedOption(null);
     };
 
-    const getDifficultyCount = (diff: string) => {
-        if (diff === 'all') return exercises.length;
-        return exercises.filter(e => (e as AntonymExercise & { difficulty: string }).difficulty === diff).length;
-    };
+
 
     if (loading) {
         return (
@@ -158,48 +163,17 @@ export const AntonymsPage: React.FC = () => {
     }
 
     if (showCompletion) {
-        const score = correctCount + incorrectCount > 0
-            ? Math.round((correctCount / (correctCount + incorrectCount)) * 100)
-            : 0;
         return (
-            <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
-                <div className="max-w-2xl mx-auto">
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5 }}
-                    >
-                        <GlassCard className="p-12 text-center">
-                            <CheckCircle className="w-20 h-20 text-green-500 mx-auto mb-6" />
-                            <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                                Übung abgeschlossen!
-                            </h2>
-                            <div className="flex justify-center gap-8 mb-8">
-                                <div>
-                                    <div className="text-3xl font-bold text-green-600">{correctCount}</div>
-                                    <div className="text-sm text-gray-500">Richtig</div>
-                                </div>
-                                <div>
-                                    <div className="text-3xl font-bold text-red-600">{incorrectCount}</div>
-                                    <div className="text-sm text-gray-500">Falsch</div>
-                                </div>
-                                <div>
-                                    <div className="text-3xl font-bold text-blue-600">{score}%</div>
-                                    <div className="text-sm text-gray-500">Ergebnis</div>
-                                </div>
-                            </div>
-                            <div className="flex flex-col gap-3">
-                                <Button onClick={handleRestart} variant="primary" className="w-full justify-center">
-                                    Nochmal üben
-                                </Button>
-                                <Button onClick={() => navigate('/')} variant="secondary" className="w-full justify-center">
-                                    Zurück zur Startseite
-                                </Button>
-                            </div>
-                        </GlassCard>
-                    </motion.div>
-                </div>
-            </div>
+            <CompletionModal
+                title="Übung abgeschlossen!"
+                correctCount={correctCount}
+                incorrectCount={incorrectCount}
+                totalCount={correctCount + incorrectCount}
+                onRestart={handleRestart}
+                onBack={() => navigate('/')}
+                restartLabel="Nochmal üben"
+                backLabel="Zurück zur Startseite"
+            />
         );
     }
 
@@ -223,39 +197,23 @@ export const AntonymsPage: React.FC = () => {
                         <div className="flex items-center justify-between">
                             <span className="text-sm font-semibold text-gray-600">Schwierigkeitsgrad:</span>
                             <span className="text-sm text-gray-500">
-                                {currentIndex + 1} / {filteredExercises.length} Aufgaben
+                                {Math.min(currentIndex + 1, filteredExercises.length)} / {filteredExercises.length} Aufgaben
                             </span>
                         </div>
-                        <div className="grid grid-cols-4 gap-2">
-                            {(Object.keys(difficultyConfig) as Array<keyof typeof difficultyConfig>).map((level) => {
-                                const config = difficultyConfig[level];
-                                const isActive = difficulty === level;
-                                const count = getDifficultyCount(level);
 
-                                return (
-                                    <button
-                                        key={level}
-                                        onClick={() => {
-                                            setDifficulty(level);
-                                            setCurrentIndex(0);
-                                            setShowResult(false);
-                                            setSelectedOption(null);
-                                        }}
-                                        className={`relative px-3 py-3 rounded-xl font-semibold text-sm transition-all transform ${isActive
-                                                ? `${config.bgActive} shadow-lg scale-105`
-                                                : config.bgInactive
-                                            }`}
-                                    >
-                                        <div>{config.label}</div>
-                                        <div className={`text-xs mt-1 ${isActive ? 'text-white/80' : 'opacity-60'}`}>
-                                            {count} Aufgaben
-                                        </div>
-                                    </button>
-                                );
-                            })}
-                        </div>
+                        <DifficultySelector
+                            levels={difficultyLevels}
+                            selected={difficulty}
+                            onChange={(level) => {
+                                setDifficulty(level as 'all' | 'easy' | 'medium' | 'hard');
+                                setCurrentIndex(0);
+                                setShowResult(false);
+                                setSelectedOption(null);
+                            }}
+                        />
+
                         {/* Progress bar and score */}
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-3 mt-2">
                             <ScoreCounter correct={correctCount} incorrect={incorrectCount} />
                             <ProgressBar
                                 current={currentIndex}

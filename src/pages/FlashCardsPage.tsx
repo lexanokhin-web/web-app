@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { FlashCard } from '../components/features/FlashCards/FlashCard';
 import { Button } from '../components/Button';
@@ -86,13 +86,7 @@ export const FlashCardsPage: React.FC = () => {
     const [unknownCards, setUnknownCards] = useState<string[]>([]);
     const [showCompletion, setShowCompletion] = useState(false);
 
-    useEffect(() => {
-        if (categoryId) {
-            loadCards();
-        }
-    }, [categoryId, user?.id]);
-
-    const loadCards = async () => {
+    const loadCards = useCallback(async () => {
         setLoading(true);
         try {
             const category = getCategoryById(categoryId || '');
@@ -115,7 +109,13 @@ export const FlashCardsPage: React.FC = () => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [categoryId]);
+
+    useEffect(() => {
+        if (categoryId) {
+            loadCards();
+        }
+    }, [categoryId, loadCards]);
 
     const currentCard = cards[currentIndex];
     const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { LeaderboardService } from '../services/leaderboard/LeaderboardService';
@@ -15,11 +15,7 @@ export const LeaderboardPage: React.FC = () => {
     const [userRank, setUserRank] = useState<number | null>(null);
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        loadLeaderboard();
-    }, [user]);
-
-    const loadLeaderboard = async () => {
+    const loadLeaderboard = useCallback(async () => {
         setLoading(true);
         try {
             const topPlayers = await LeaderboardService.getTopPlayers(10);
@@ -34,7 +30,11 @@ export const LeaderboardPage: React.FC = () => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [user]);
+
+    useEffect(() => {
+        loadLeaderboard();
+    }, [loadLeaderboard]);
 
     const getRankIcon = (index: number) => {
         switch (index) {

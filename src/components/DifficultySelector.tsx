@@ -74,8 +74,8 @@ export const DifficultySelector: React.FC<DifficultySelectorProps> = ({
                         whileTap={{ scale: 0.98 }}
                         onClick={() => onChange(level.id)}
                         className={`relative px-3 py-3 rounded-xl font-semibold text-sm transition-all ${isActive
-                                ? `${level.color.active} shadow-lg`
-                                : level.color.inactive
+                            ? `${level.color.active} shadow-lg`
+                            : level.color.inactive
                             }`}
                     >
                         <div>{level.label}</div>
@@ -91,5 +91,6 @@ export const DifficultySelector: React.FC<DifficultySelectorProps> = ({
     );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export { defaultLevels };
 export type { DifficultyLevel };

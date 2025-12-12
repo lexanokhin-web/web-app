@@ -2,13 +2,15 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MatchGame } from '../components/features/MatchGame/MatchGame';
 import { Button } from '../components/Button';
-import { ArrowLeft, Plus, X, FolderPlus, Download, ChevronDown, ChevronRight } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { useProgress } from '../hooks/useProgress';
 import { useAudio } from '../contexts/AudioContext';
 import useSound from 'use-sound';
-import { GlassCard } from '../components/GlassCard';
 import { allVocabularyCategories } from '../data/vocabulary';
-import type { VocabularyCategory } from '../data/vocabulary/types';
+
+import { BlockSelector } from '../components/features/MatchGame/BlockSelector';
+import type { WordBlock } from '../components/features/MatchGame/BlockSelector';
+import { BlockEditor } from '../components/features/MatchGame/BlockEditor';
 
 // Sample vocabulary for Match Game
 const sampleVocabulary = [
@@ -27,14 +29,6 @@ const sampleVocabulary = [
 interface CustomWord {
     german: string;
     russian: string;
-}
-
-interface WordBlock {
-    id: string;
-    name: string;
-    words: CustomWord[];
-    isVocabularyCategory?: boolean;
-    vocabularyCategory?: VocabularyCategory;
 }
 
 const STORAGE_KEY = 'match_game_word_blocks';
@@ -162,13 +156,13 @@ export const MatchGamePage: React.FC = () => {
 
         // 3. Merge: System blocks first, then custom blocks
         const mergedBlocks = [...systemBlocks, ...customBlocks];
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setBlocks(mergedBlocks);
 
         // 4. Set initial selection if needed
         if (mergedBlocks.length > 0 && !currentBlockId) {
             setCurrentBlockId(mergedBlocks[0].id);
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     // Save blocks to localStorage whenever they change
@@ -194,13 +188,7 @@ export const MatchGamePage: React.FC = () => {
         return blocks.filter(b => b.isVocabularyCategory && b.vocabularyCategory?.level === level);
     };
 
-    const levelInfo: Record<string, { emoji: string; color: string; bgColor: string; borderColor: string; name: string }> = {
-        'A1': { emoji: '🟢', color: 'text-green-700', bgColor: 'bg-green-50', borderColor: 'border-green-300', name: 'Начальный' },
-        'A2': { emoji: '🔵', color: 'text-blue-700', bgColor: 'bg-blue-50', borderColor: 'border-blue-300', name: 'Базовый' },
-        'B1': { emoji: '🟠', color: 'text-orange-700', bgColor: 'bg-orange-50', borderColor: 'border-orange-300', name: 'Средний' },
-        'B2': { emoji: '🟣', color: 'text-purple-700', bgColor: 'bg-purple-50', borderColor: 'border-purple-300', name: 'Выше среднего' },
-        'custom': { emoji: '📝', color: 'text-gray-700', bgColor: 'bg-gray-50', borderColor: 'border-gray-300', name: 'Мои блоки' }
-    };
+
 
     const createNewBlock = () => {
         if (newBlockName.trim()) {
@@ -452,8 +440,6 @@ export const MatchGamePage: React.FC = () => {
     };
 
     if (!gameStarted) {
-        const currentBlock = getCurrentBlock();
-
         return (
             <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-purple-50 to-pink-50">
                 <div className="max-w-4xl mx-auto">
@@ -477,308 +463,53 @@ export const MatchGamePage: React.FC = () => {
                         </p>
                     </div>
 
-                    {/* Level Sections */}
-                    <div className="space-y-4 mb-6">
-                        {(['A1', 'A2', 'B1', 'B2', 'custom'] as const).map(level => {
-                            const levelBlocks = getBlocksByLevel(level);
-                            if (level !== 'custom' && levelBlocks.length === 0) return null;
+                    {/* Main Content */}
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                        {/* Left Column: Block Selection */}
+                        <div className="lg:col-span-12 xl:col-span-7">
+                            {/* Level Sections */}
+                            <BlockSelector
+                                blocks={blocks}
+                                currentBlockId={currentBlockId}
+                                expandedLevels={expandedLevels}
+                                onToggleLevel={toggleLevel}
+                                onSelectBlock={setCurrentBlockId}
+                                onDeleteBlock={deleteBlock}
+                                onStartGame={(id) => startGame(id)}
+                                getBlocksByLevel={getBlocksByLevel}
+                            />
+                        </div>
 
-                            const info = levelInfo[level];
-                            const isExpanded = expandedLevels[level];
+                        {/* Right Column: Editor */}
+                        <div className="lg:col-span-12 xl:col-span-5">
+                            <BlockEditor
+                                currentBlock={getCurrentBlock()}
+                                showNewBlockInput={showNewBlockInput}
+                                newBlockName={newBlockName}
+                                newGerman={newGerman}
+                                newRussian={newRussian}
+                                importError={importError}
+                                onNewBlockNameChange={setNewBlockName}
+                                onNewGermanChange={setNewGerman}
+                                onNewRussianChange={setNewRussian}
+                                onCreateBlock={createNewBlock}
+                                onCancelNewBlock={() => {
+                                    setShowNewBlockInput(false);
+                                    setNewBlockName('');
+                                }}
+                                onShowNewBlockInput={() => setShowNewBlockInput(true)}
+                                onAddWord={addWordToCurrentBlock}
+                                onRemoveWord={removeWordFromBlock}
+                                onFileImport={handleFileImport}
+                                onExportBlock={exportBlock}
+                            />
 
-                            return (
-                                <div key={level} className={`rounded-xl border-2 ${info.borderColor} overflow-hidden`}>
-                                    {/* Level Header */}
-                                    <button
-                                        onClick={() => toggleLevel(level)}
-                                        className={`w-full px-4 py-3 ${info.bgColor} flex items-center justify-between transition-all hover:opacity-90`}
-                                    >
-                                        <div className="flex items-center gap-3">
-                                            <span className="text-2xl">{info.emoji}</span>
-                                            <div className="text-left">
-                                                <h2 className={`text-xl font-bold ${info.color}`}>
-                                                    {level === 'custom' ? 'Мои блоки' : `Уровень ${level}`}
-                                                </h2>
-                                                <p className="text-sm text-gray-600">
-                                                    {level === 'custom'
-                                                        ? `${levelBlocks.length} блоков`
-                                                        : `${info.name} • ${levelBlocks.length} категорий`
-                                                    }
-                                                </p>
-                                            </div>
-                                        </div>
-                                        {isExpanded ? (
-                                            <ChevronDown className="w-6 h-6 text-gray-600" />
-                                        ) : (
-                                            <ChevronRight className="w-6 h-6 text-gray-600" />
-                                        )}
-                                    </button>
-
-                                    {/* Level Content */}
-                                    {isExpanded && (
-                                        <div className="p-4 bg-white/50">
-                                            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                                                {levelBlocks.map(block => (
-                                                    <GlassCard
-                                                        key={block.id}
-                                                        className={`p-4 cursor-pointer transition-all ${currentBlockId === block.id
-                                                            ? 'bg-purple-100 border-purple-400 border-2'
-                                                            : 'hover:bg-white/80'
-                                                            }`}
-                                                        onClick={() => setCurrentBlockId(block.id)}
-                                                    >
-                                                        <div className="flex justify-between items-start mb-2">
-                                                            <h3 className="font-bold text-gray-800 text-sm">
-                                                                {block.isVocabularyCategory && block.vocabularyCategory
-                                                                    ? block.vocabularyCategory.nameRu || block.vocabularyCategory.name
-                                                                    : block.name
-                                                                }
-                                                            </h3>
-                                                            <div className="flex gap-1">
-                                                                <button
-                                                                    onClick={(e) => {
-                                                                        e.stopPropagation();
-                                                                        exportBlock(block.id);
-                                                                    }}
-                                                                    className="text-gray-500 hover:text-blue-600"
-                                                                    title="Экспорт"
-                                                                >
-                                                                    <Download className="w-4 h-4" />
-                                                                </button>
-                                                                {!block.isVocabularyCategory && (
-                                                                    <button
-                                                                        onClick={(e) => {
-                                                                            e.stopPropagation();
-                                                                            deleteBlock(block.id);
-                                                                        }}
-                                                                        className="text-gray-500 hover:text-red-600"
-                                                                        title="Удалить"
-                                                                    >
-                                                                        <X className="w-4 h-4" />
-                                                                    </button>
-                                                                )}
-                                                            </div>
-                                                        </div>
-                                                        <p className="text-sm text-gray-600">
-                                                            {block.isVocabularyCategory && block.vocabularyCategory
-                                                                ? `${block.vocabularyCategory.wordCount} слов`
-                                                                : `${block.words.length} слов`
-                                                            }
-                                                        </p>
-                                                        {/* Always show play button for vocabulary blocks, or for custom blocks with enough words */}
-                                                        {(block.isVocabularyCategory || block.words.length >= 6) && (
-                                                            <Button
-                                                                onClick={(e) => {
-                                                                    e.stopPropagation();
-                                                                    startGame(block.id);
-                                                                }}
-                                                                variant="success"
-                                                                className="w-full mt-3 !py-2 text-sm"
-                                                            >
-                                                                🎮 Играть
-                                                            </Button>
-                                                        )}
-                                                    </GlassCard>
-                                                ))}
-
-                                                {/* New Block Card - only in custom section */}
-                                                {level === 'custom' && (
-                                                    <GlassCard className="p-4 flex items-center justify-center border-2 border-dashed border-gray-300">
-                                                        {!showNewBlockInput ? (
-                                                            <button
-                                                                onClick={() => setShowNewBlockInput(true)}
-                                                                className="text-gray-500 hover:text-purple-600 flex flex-col items-center gap-2"
-                                                            >
-                                                                <FolderPlus className="w-8 h-8" />
-                                                                <span className="text-sm font-medium">Новый блок</span>
-                                                            </button>
-                                                        ) : (
-                                                            <div className="w-full">
-                                                                <input
-                                                                    type="text"
-                                                                    value={newBlockName}
-                                                                    onChange={(e) => setNewBlockName(e.target.value)}
-                                                                    onKeyDown={(e) => {
-                                                                        if (e.key === 'Enter') createNewBlock();
-                                                                        if (e.key === 'Escape') {
-                                                                            setShowNewBlockInput(false);
-                                                                            setNewBlockName('');
-                                                                        }
-                                                                    }}
-                                                                    placeholder="Название блока"
-                                                                    className="w-full px-3 py-2 rounded-lg border border-gray-300 mb-2"
-                                                                    autoFocus
-                                                                />
-                                                                <div className="flex gap-2">
-                                                                    <Button onClick={createNewBlock} variant="primary" className="flex-1 !py-1 text-sm">
-                                                                        Создать
-                                                                    </Button>
-                                                                    <Button
-                                                                        onClick={() => {
-                                                                            setShowNewBlockInput(false);
-                                                                            setNewBlockName('');
-                                                                        }}
-                                                                        variant="secondary"
-                                                                        className="flex-1 !py-1 text-sm"
-                                                                    >
-                                                                        Отмена
-                                                                    </Button>
-                                                                </div>
-                                                            </div>
-                                                        )}
-                                                    </GlassCard>
-                                                )}
-                                            </div>
-                                        </div>
-                                    )}
-                                </div>
-                            );
-                        })}
+                            {/* Sample Game Button */}
+                            <Button onClick={() => startGame(null, true)} variant="secondary" className="w-full mt-6 py-4">
+                                🎲 Попробовать с готовыми словами
+                            </Button>
+                        </div>
                     </div>
-
-                    {/* Current Block Editor - Only for custom blocks */}
-                    {currentBlock && !currentBlock.isVocabularyCategory && (
-                        <GlassCard className="p-6 mb-6">
-                            <h2 className="text-xl font-bold text-gray-800 mb-4">
-                                📝 {currentBlock.name}
-                            </h2>
-
-                            {/* Word Input */}
-                            <div className="grid grid-cols-2 gap-4 mb-4">
-                                <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                                        Немецкое слово 🇩🇪
-                                    </label>
-                                    <input
-                                        type="text"
-                                        value={newGerman}
-                                        onChange={(e) => setNewGerman(e.target.value)}
-                                        onKeyDown={(e) => {
-                                            if (e.key === 'Enter') {
-                                                e.preventDefault();
-                                                addWordToCurrentBlock();
-                                            }
-                                        }}
-                                        placeholder="z.B. der Baum"
-                                        className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
-                                    />
-                                </div>
-                                <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-1">
-                                        Перевод 🇷🇺
-                                    </label>
-                                    <input
-                                        type="text"
-                                        value={newRussian}
-                                        onChange={(e) => setNewRussian(e.target.value)}
-                                        onKeyDown={(e) => {
-                                            if (e.key === 'Enter') {
-                                                e.preventDefault();
-                                                addWordToCurrentBlock();
-                                            }
-                                        }}
-                                        placeholder="например, дерево"
-                                        className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:border-purple-500 focus:ring-2 focus:ring-purple-200 outline-none transition"
-                                    />
-                                </div>
-                            </div>
-
-                            <div className="flex gap-2 mb-4">
-                                <Button onClick={addWordToCurrentBlock} variant="secondary" className="flex-1 !py-2">
-                                    <Plus className="w-4 h-4 mr-2" />
-                                    Добавить пару
-                                </Button>
-                                <label className="flex-1">
-                                    <input
-                                        type="file"
-                                        accept=".txt,.csv,.json"
-                                        onChange={handleFileImport}
-                                        className="hidden"
-                                    />
-                                    <div className="w-full px-6 py-2 rounded-xl font-semibold backdrop-blur-sm border border-white/30 shadow-lg transition-all duration-200 bg-gray-500/80 hover:bg-gray-600/80 text-white text-center cursor-pointer">
-                                        📂 Импорт
-                                    </div>
-                                </label>
-                            </div>
-
-                            {importError && (
-                                <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-sm text-red-700">
-                                    ❌ {importError}
-                                </div>
-                            )}
-
-                            {/* Words List */}
-                            {currentBlock.words.length > 0 && (
-                                <div className="space-y-2 max-h-64 overflow-y-auto mb-4">
-                                    {currentBlock.words.map((word, index) => (
-                                        <div key={index} className="flex items-center justify-between p-3 bg-purple-50 rounded-lg border border-purple-200">
-                                            <div className="flex gap-4">
-                                                <span className="font-medium text-gray-800">🇩🇪 {word.german}</span>
-                                                <span className="text-gray-500">→</span>
-                                                <span className="font-medium text-gray-800">🇷🇺 {word.russian}</span>
-                                            </div>
-                                            <button
-                                                onClick={() => removeWordFromBlock(currentBlock.id, index)}
-                                                className="text-red-500 hover:text-red-700"
-                                                title="Удалить"
-                                            >
-                                                <X className="w-4 h-4" />
-                                            </button>
-                                        </div>
-                                    ))}
-                                </div>
-                            )}
-
-                            {/* Play Button */}
-                            {currentBlock.words.length >= 6 ? (
-                                <Button
-                                    onClick={() => startGame(currentBlock.id)}
-                                    variant="success"
-                                    className="w-full !py-4 text-lg"
-                                >
-                                    🎮 Начать игру с блоком "{currentBlock.name}" ({currentBlock.words.length} слов)
-                                </Button>
-                            ) : (
-                                <div className="p-4 bg-yellow-50 border border-yellow-200 rounded-lg text-center">
-                                    <p className="text-yellow-800 font-medium">
-                                        Добавьте еще {6 - currentBlock.words.length} {6 - currentBlock.words.length === 1 ? 'слово' : 'слова'} для начала игры
-                                    </p>
-                                    <p className="text-sm text-yellow-600 mt-1">
-                                        Минимум 6 пар для игры
-                                    </p>
-                                </div>
-                            )}
-                        </GlassCard>
-                    )}
-
-                    {/* Info card for vocabulary blocks */}
-                    {currentBlock && currentBlock.isVocabularyCategory && (
-                        <GlassCard className="p-6 mb-6">
-                            <h2 className="text-xl font-bold text-gray-800 mb-4">
-                                {currentBlock.vocabularyCategory?.icon} {currentBlock.name}
-                            </h2>
-                            <div className="space-y-3">
-                                <p className="text-gray-700">
-                                    <strong>Слов в категории:</strong> {currentBlock.vocabularyCategory?.wordCount}
-                                </p>
-                                <p className="text-gray-600 text-sm">
-                                    ℹ️ Это системный блок из базы vocabulary. Каждая игра будет использовать случайные 6 слов из этой категории.
-                                </p>
-                                <Button
-                                    onClick={() => startGame(currentBlock.id)}
-                                    variant="success"
-                                    className="w-full !py-4 text-lg"
-                                >
-                                    🎮 Начать игру с блоком "{currentBlock.vocabularyCategory?.nameRu}"
-                                </Button>
-                            </div>
-                        </GlassCard>
-                    )}
-
-                    {/* Sample Game Button */}
-                    <Button onClick={() => startGame(null, true)} variant="secondary" className="w-full !py-3">
-                        🎲 Попробовать с готовыми словами
-                    </Button>
                 </div>
             </div>
         );

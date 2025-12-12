@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { ProgressService } from '../services/progress/ProgressService';
 import type { UserProgress } from '../services/progress/ProgressService';
 import { useAuth } from '../contexts/AuthContext';
@@ -8,11 +8,7 @@ export const useProgress = () => {
     const [progress, setProgress] = useState<UserProgress | null>(null);
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        loadProgress();
-    }, [user?.id]);
-
-    const loadProgress = async () => {
+    const loadProgress = useCallback(async () => {
         setLoading(true);
         try {
             const data = await ProgressService.getProgress(user?.id);
@@ -22,7 +18,11 @@ export const useProgress = () => {
         } finally {
             setLoading(false);
         }
-    };
+    }, [user?.id]);
+
+    useEffect(() => {
+        loadProgress();
+    }, [loadProgress]);
 
     const addXP = async (amount: number) => {
         try {
