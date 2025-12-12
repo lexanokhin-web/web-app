@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
+import { ProgressBar } from '../components/ProgressBar';
+import { ScoreCounter } from '../components/ScoreCounter';
 import { useTestScenario } from '../hooks/useLoadData';
 import type { StandaloneScenarioModel } from '../types';
 import { ArrowLeft, CheckCircle, XCircle, RotateCcw } from 'lucide-react';
@@ -11,6 +13,14 @@ interface TestScenarioPageProps {
     filename?: string;
 }
 
+// Quiz length configuration
+const quizLengthConfig = {
+    10: { label: '10', bgActive: 'bg-gradient-to-r from-green-500 to-green-700 text-white', bgInactive: 'bg-green-50 hover:bg-green-100 text-green-700 border border-green-300' },
+    20: { label: '20', bgActive: 'bg-gradient-to-r from-blue-500 to-blue-700 text-white', bgInactive: 'bg-blue-50 hover:bg-blue-100 text-blue-700 border border-blue-300' },
+    30: { label: '30', bgActive: 'bg-gradient-to-r from-orange-500 to-orange-700 text-white', bgInactive: 'bg-orange-50 hover:bg-orange-100 text-orange-700 border border-orange-300' },
+    all: { label: 'Alle', bgActive: 'bg-gradient-to-r from-purple-500 to-purple-700 text-white', bgInactive: 'bg-purple-50 hover:bg-purple-100 text-purple-700 border border-purple-300' }
+};
+
 export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: propFilename }) => {
     const navigate = useNavigate();
     const { scenarioId } = useParams<{ scenarioId?: string }>();
@@ -18,6 +28,7 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
     const filename = propFilename || scenarioId || 'verb_test_scenarios';
     const { data: rawData, isLoading: isQueryLoading } = useTestScenario(filename);
 
+    const [allSentences, setAllSentences] = useState<StandaloneScenarioModel[]>([]);
     const [sentences, setSentences] = useState<StandaloneScenarioModel[]>([]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -27,19 +38,38 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
     const [incorrectIDs, setIncorrectIDs] = useState<string[]>([]);
     const [isFinished, setIsFinished] = useState(false);
     const [loading, setLoading] = useState(true);
+    const [quizLength, setQuizLength] = useState<10 | 20 | 30 | 'all'>('all');
+    const [showLengthSelector, setShowLengthSelector] = useState(true);
 
     useEffect(() => {
         if (rawData) {
             const shuffled = [...rawData].sort(() => Math.random() - 0.5);
+            setAllSentences(shuffled);
             setSentences(shuffled);
             setLoading(false);
         }
     }, [rawData]);
 
-    // Sync loading state with query
     useEffect(() => {
         setLoading(isQueryLoading);
     }, [isQueryLoading]);
+
+    const handleStartQuiz = (length: 10 | 20 | 30 | 'all') => {
+        setQuizLength(length);
+        const shuffled = [...allSentences].sort(() => Math.random() - 0.5);
+        const selected = length === 'all'
+            ? shuffled
+            : shuffled.slice(0, Math.min(length, shuffled.length));
+        setSentences(selected);
+        setCurrentIndex(0);
+        setCorrectCount(0);
+        setIncorrectCount(0);
+        setIncorrectIDs([]);
+        setIsFinished(false);
+        setShowAnswer(false);
+        setSelectedOption(null);
+        setShowLengthSelector(false);
+    };
 
     const handleOptionSelect = (option: string) => {
         if (showAnswer) return;
@@ -74,7 +104,7 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
     };
 
     const handleRetryIncorrect = () => {
-        const incorrectSentences = sentences.filter(s => incorrectIDs.includes(s.id));
+        const incorrectSentences = allSentences.filter(s => incorrectIDs.includes(s.id));
         if (incorrectSentences.length > 0) {
             setSentences(incorrectSentences);
             setCurrentIndex(0);
@@ -87,53 +117,170 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
         }
     };
 
-    const handleStartShortQuiz = (count: number) => {
-        const shuffled = [...sentences].sort(() => Math.random() - 0.5);
-        const selected = shuffled.slice(0, Math.min(count, shuffled.length));
-        setSentences(selected);
-        setCurrentIndex(0);
-        setCorrectCount(0);
-        setIncorrectCount(0);
-        setIncorrectIDs([]);
+    const handleBackToSelector = () => {
+        setShowLengthSelector(true);
         setIsFinished(false);
-        setShowAnswer(false);
-        setSelectedOption(null);
     };
 
     if (loading) {
         return (
-            <div className="min-h-screen flex items-center justify-center">
+            <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 to-purple-50">
                 <GlassCard className="p-8">
-                    <p className="text-xl text-gray-700">Загрузка...</p>
+                    <p className="text-xl text-gray-700">Test wird geladen...</p>
                 </GlassCard>
             </div>
         );
     }
 
-    return (
-        <div className="min-h-screen py-8 px-4">
-            <div className="max-w-4xl mx-auto">
-                <div className="flex items-center justify-between mb-6">
-                    <Button
-                        onClick={() => navigate(-1)}
-                        variant="secondary"
-                    >
-                        <ArrowLeft className="w-5 h-5 inline mr-2" />
-                        Назад
+    // Quiz Length Selector
+    if (showLengthSelector) {
+        return (
+            <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-indigo-50 to-purple-50">
+                <div className="max-w-2xl mx-auto">
+                    <Button onClick={() => navigate(-1)} variant="secondary" className="mb-6">
+                        <ArrowLeft className="w-5 h-5 mr-2" />
+                        Zurück
                     </Button>
 
-                    {!isFinished && (
-                        <Button
-                            onClick={() => handleStartShortQuiz(10)}
-                            variant="primary"
-                        >
-                            Короткий тест — 10
-                        </Button>
-                    )}
+                    <GlassCard className="p-8">
+                        <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">
+                            Testlänge wählen
+                        </h2>
+                        <p className="text-gray-600 text-center mb-8">
+                            Insgesamt verfügbar: {allSentences.length} Fragen
+                        </p>
+
+                        <div className="grid grid-cols-2 gap-4 mb-8">
+                            {(Object.entries(quizLengthConfig) as [string, typeof quizLengthConfig[10]][]).map(([key, config]) => {
+                                const numKey = key === 'all' ? 'all' : parseInt(key) as 10 | 20 | 30;
+                                const count = numKey === 'all' ? allSentences.length : Math.min(numKey, allSentences.length);
+
+                                return (
+                                    <motion.button
+                                        key={key}
+                                        whileHover={{ scale: 1.02 }}
+                                        whileTap={{ scale: 0.98 }}
+                                        onClick={() => handleStartQuiz(numKey)}
+                                        className={`px-6 py-6 rounded-xl font-semibold text-lg transition-all ${config.bgInactive} hover:shadow-lg`}
+                                    >
+                                        <div className="text-2xl font-bold mb-1">{config.label}</div>
+                                        <div className="text-sm opacity-70">{count} Fragen</div>
+                                    </motion.button>
+                                );
+                            })}
+                        </div>
+                    </GlassCard>
+                </div>
+            </div>
+        );
+    }
+
+    // Completion Screen
+    if (isFinished) {
+        const score = correctCount + incorrectCount > 0
+            ? Math.round((correctCount / (correctCount + incorrectCount)) * 100)
+            : 0;
+        return (
+            <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-indigo-50 to-purple-50">
+                <div className="max-w-2xl mx-auto">
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <GlassCard className="p-12 text-center">
+                            <CheckCircle className="w-20 h-20 text-green-500 mx-auto mb-6" />
+                            <h2 className="text-3xl font-bold text-gray-800 mb-6">
+                                Test abgeschlossen!
+                            </h2>
+
+                            <div className="flex justify-center gap-8 mb-8">
+                                <div>
+                                    <div className="text-3xl font-bold text-gray-700">{correctCount + incorrectCount}</div>
+                                    <div className="text-sm text-gray-500">Gesamt</div>
+                                </div>
+                                <div>
+                                    <div className="text-3xl font-bold text-green-600">{correctCount}</div>
+                                    <div className="text-sm text-gray-500">Richtig</div>
+                                </div>
+                                <div>
+                                    <div className="text-3xl font-bold text-red-600">{incorrectCount}</div>
+                                    <div className="text-sm text-gray-500">Falsch</div>
+                                </div>
+                                <div>
+                                    <div className="text-3xl font-bold text-blue-600">{score}%</div>
+                                    <div className="text-sm text-gray-500">Ergebnis</div>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col gap-3">
+                                {incorrectIDs.length > 0 && (
+                                    <Button
+                                        onClick={handleRetryIncorrect}
+                                        variant="primary"
+                                        className="w-full justify-center"
+                                    >
+                                        <RotateCcw className="w-5 h-5 mr-2" />
+                                        Fehler wiederholen ({incorrectIDs.length})
+                                    </Button>
+                                )}
+                                <Button
+                                    onClick={handleBackToSelector}
+                                    variant="secondary"
+                                    className="w-full justify-center"
+                                >
+                                    Neuer Test
+                                </Button>
+                                <Button
+                                    onClick={() => navigate(-1)}
+                                    variant="secondary"
+                                    className="w-full justify-center"
+                                >
+                                    Zurück
+                                </Button>
+                            </div>
+                        </GlassCard>
+                    </motion.div>
+                </div>
+            </div>
+        );
+    }
+
+    // Main Quiz
+    return (
+        <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-indigo-50 to-purple-50">
+            <div className="max-w-4xl mx-auto">
+                {/* Header */}
+                <div className="flex items-center justify-between mb-6">
+                    <Button onClick={handleBackToSelector} variant="secondary">
+                        <ArrowLeft className="w-5 h-5 mr-2" />
+                        Zurück
+                    </Button>
+                    <h1 className="text-xl font-bold text-gray-800">
+                        Test ({sentences.length} Fragen)
+                    </h1>
                 </div>
 
+                {/* Progress Card */}
+                <GlassCard className="p-4 mb-6">
+                    <div className="flex flex-col gap-3">
+                        <div className="flex items-center justify-between">
+                            <span className="text-sm text-gray-600">
+                                Frage {currentIndex + 1} / {sentences.length}
+                            </span>
+                            <ScoreCounter correct={correctCount} incorrect={incorrectCount} showPercentage />
+                        </div>
+                        <ProgressBar
+                            current={currentIndex}
+                            total={sentences.length}
+                            color="purple"
+                        />
+                    </div>
+                </GlassCard>
+
+                {/* Question Card */}
                 <AnimatePresence mode="wait">
-                    {!isFinished && sentences.length > 0 ? (
+                    {sentences.length > 0 && (
                         <motion.div
                             key={currentIndex}
                             initial={{ opacity: 0, scale: 0.9 }}
@@ -143,11 +290,6 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
                         >
                             <GlassCard className="p-8" animate={false}>
                                 <div className="space-y-6">
-                                    {/* Progress */}
-                                    <div className="text-center text-sm text-gray-600 mb-4">
-                                        <p>Вопрос {currentIndex + 1} из {sentences.length}</p>
-                                    </div>
-
                                     {/* Sentence */}
                                     <div className="text-center mb-8">
                                         <p className="text-3xl font-bold text-gray-800 mb-4">
@@ -169,7 +311,7 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
                                             const isSelected = selectedOption === option;
                                             const isCorrectOption = showAnswer && sentences[currentIndex].targetWord === option;
                                             const isWrongSelection = showAnswer && isSelected && !isCorrectOption;
-                                            const letter = String.fromCharCode(65 + idx); // A, B, C, D
+                                            const letter = String.fromCharCode(65 + idx);
 
                                             return (
                                                 <motion.div
@@ -181,14 +323,14 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
                                                         onClick={() => handleOptionSelect(option)}
                                                         disabled={showAnswer}
                                                         className={`
-                              w-full p-6 rounded-xl font-semibold text-lg text-left
-                              backdrop-blur-md border-2 transition-all duration-200
-                              ${isSelected && !showAnswer ? 'bg-blue-400/40 border-blue-500' : 'bg-white/30 border-white/50'}
-                              ${isCorrectOption ? 'bg-green-400/40 border-green-500' : ''}
-                              ${isWrongSelection ? 'bg-red-400/40 border-red-500' : ''}
-                              ${!showAnswer ? 'hover:bg-white/50 cursor-pointer' : 'cursor-default'}
-                              disabled:opacity-70
-                            `}
+                                                            w-full p-6 rounded-xl font-semibold text-lg text-left
+                                                            backdrop-blur-md border-2 transition-all duration-200
+                                                            ${isSelected && !showAnswer ? 'bg-blue-400/40 border-blue-500' : 'bg-white/30 border-white/50'}
+                                                            ${isCorrectOption ? 'bg-green-400/40 border-green-500' : ''}
+                                                            ${isWrongSelection ? 'bg-red-400/40 border-red-500' : ''}
+                                                            ${!showAnswer ? 'hover:bg-white/50 cursor-pointer' : 'cursor-default'}
+                                                            disabled:opacity-70
+                                                        `}
                                                     >
                                                         <div className="flex items-center justify-between">
                                                             <span>{letter}. {option}</span>
@@ -216,27 +358,27 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
                                                 initial={{ opacity: 0, y: -10 }}
                                                 animate={{ opacity: 1, y: 0 }}
                                                 exit={{ opacity: 0, y: -10 }}
-                                                className="space-y-2 p-4 bg-white/20 rounded-xl"
+                                                className="p-4 bg-white/20 rounded-xl space-y-2"
                                             >
                                                 <p className="font-semibold text-gray-800">
-                                                    Перевод: {sentences[currentIndex].targetWordTranslation}
+                                                    Übersetzung: {sentences[currentIndex].targetWordTranslation}
                                                 </p>
                                                 <p className="font-bold text-gray-900">
-                                                    Правильный ответ: {sentences[currentIndex].targetWord}
+                                                    Richtige Antwort: {sentences[currentIndex].targetWord}
                                                 </p>
                                             </motion.div>
                                         )}
                                     </AnimatePresence>
 
-                                    {/* Action Button */}
+                                    {/* Next Button */}
                                     <div className="flex justify-end">
                                         {showAnswer ? (
                                             <Button
                                                 onClick={handleNext}
-                                                variant="success"
-                                                className="text-lg"
+                                                variant="primary"
+                                                className="text-lg px-8"
                                             >
-                                                Далее
+                                                Weiter →
                                             </Button>
                                         ) : (
                                             <Button
@@ -247,60 +389,14 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
                                                 variant="secondary"
                                                 className="text-lg"
                                             >
-                                                Показать ответ
+                                                Antwort zeigen
                                             </Button>
                                         )}
                                     </div>
                                 </div>
                             </GlassCard>
                         </motion.div>
-                    ) : isFinished ? (
-                        <motion.div
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: 0.5 }}
-                        >
-                            <GlassCard className="p-12 text-center" animate={false}>
-                                <CheckCircle className="w-20 h-20 text-green-500 mx-auto mb-6" />
-                                <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                                    Тест завершён!
-                                </h2>
-
-                                <div className="space-y-3 mb-8">
-                                    <p className="text-xl text-gray-700">
-                                        Всего вопросов: {correctCount + incorrectCount}
-                                    </p>
-                                    <p className="text-xl text-green-600 font-semibold">
-                                        Правильно: {correctCount}
-                                    </p>
-                                    <p className="text-xl text-red-600 font-semibold">
-                                        Неправильно: {incorrectCount}
-                                    </p>
-                                </div>
-
-                                <div className="flex justify-center space-x-4">
-                                    <Button
-                                        onClick={() => navigate(-1)}
-                                        variant="secondary"
-                                        className="text-lg"
-                                    >
-                                        Закрыть
-                                    </Button>
-
-                                    {incorrectIDs.length > 0 && (
-                                        <Button
-                                            onClick={handleRetryIncorrect}
-                                            variant="primary"
-                                            className="text-lg"
-                                        >
-                                            <RotateCcw className="w-5 h-5 inline mr-2" />
-                                            Повторить ошибочные
-                                        </Button>
-                                    )}
-                                </div>
-                            </GlassCard>
-                        </motion.div>
-                    ) : null}
+                    )}
                 </AnimatePresence>
             </div>
         </div>
