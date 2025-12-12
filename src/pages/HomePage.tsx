@@ -104,6 +104,13 @@ const exerciseBlocks = [
                 path: '/exercise/adjektive'
             },
             {
+                id: 'adjektive-endings',
+                name: 'Adjective Endings',
+                icon: Palette,
+                color: 'from-teal-400 to-emerald-600',
+                path: '/adjektivdeklination'
+            },
+            {
                 id: 'relativsaetze',
                 name: 'Relativsätze',
                 icon: Link,

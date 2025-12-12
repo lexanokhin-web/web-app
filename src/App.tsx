@@ -25,6 +25,7 @@ const BookQuizPage = lazy(() => import('./pages/Book/BookQuizPage').then(module 
 const A2BookSelectionPage = lazy(() => import('./pages/Book/A2BookSelectionPage'));
 const A2BookChapterPage = lazy(() => import('./pages/Book/A2BookChapterPage'));
 const A2BookQuizPage = lazy(() => import('./pages/Book/A2BookQuizPage').then(module => ({ default: module.A2BookQuizPage })));
+const AdjektivdeklinationPage = lazy(() => import('./pages/AdjektivdeklinationPage').then(module => ({ default: module.AdjektivdeklinationPage })));
 
 // Loading component
 const Loading = () => (
@@ -57,6 +58,7 @@ function App() {
           <Route path="/quiz/:blockId?" element={<QuizPage />} />
           <Route path="/verbs" element={<VerbsPage />} />
           <Route path="/exercise/:blockId" element={<ExercisePage />} />
+          <Route path="/adjektivdeklination" element={<AdjektivdeklinationPage />} />
           <Route path="/articles" element={<ArticlesPage />} />
           <Route path="/pronouns" element={<PronounsPage />} />
           <Route path="/antonyms" element={<AntonymsPage />} />
