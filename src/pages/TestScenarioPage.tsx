@@ -38,7 +38,7 @@ export const TestScenarioPage: React.FC<TestScenarioPageProps> = ({ filename: pr
     const [incorrectIDs, setIncorrectIDs] = useState<string[]>([]);
     const [isFinished, setIsFinished] = useState(false);
     const [loading, setLoading] = useState(true);
-    const [quizLength, setQuizLength] = useState<10 | 20 | 30 | 'all'>('all');
+    const [, setQuizLength] = useState<10 | 20 | 30 | 'all'>('all');
     const [showLengthSelector, setShowLengthSelector] = useState(true);
 
     useEffect(() => {
