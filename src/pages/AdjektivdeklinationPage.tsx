@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { ArrowLeft, CheckCircle, XCircle, HelpCircle } from 'lucide-react';
+import { ArrowLeft, CheckCircle, XCircle, HelpCircle, Eye, EyeOff } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CompletionModal } from '../components/CompletionModal';
 import { DifficultySelector, defaultLevels } from '../components/DifficultySelector';
@@ -26,7 +26,9 @@ const ExerciseCard: React.FC<{
     onCorrect: () => void;
     onIncorrect: () => void;
     onNext: () => void;
-}> = ({ exercise, onCorrect, onIncorrect, onNext }) => {
+    showInfo: boolean;
+    onToggleInfo: () => void;
+}> = ({ exercise, onCorrect, onIncorrect, onNext, showInfo, onToggleInfo }) => {
     // Determine initial gap count
     const initialGapCount = exercise.sentence.split(/___+/).length - 1;
 
@@ -182,20 +184,41 @@ const ExerciseCard: React.FC<{
 
     return (
         <GlassCard className="p-8">
-            {/* Difficulty & Case badges */}
-            <div className="flex gap-2 mb-4 flex-wrap">
-                <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getDifficultyColor(exercise.difficulty)}`}>
-                    {getDifficultyLabel(exercise.difficulty)}
-                </span>
-                <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getCaseColor(exercise.case)}`}>
-                    {exercise.case}
-                </span>
-                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-700">
-                    {getGenderLabel(exercise.gender)}
-                </span>
-                <span className="px-3 py-1 rounded-full text-xs font-semibold bg-teal-100 text-teal-700">
-                    {getArticleTypeLabel(exercise.articleType)}
-                </span>
+            {/* Difficulty & Case badges with Toggle */}
+            <div className="flex justify-between items-start mb-4">
+                <AnimatePresence>
+                    {showInfo ? (
+                        <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            exit={{ opacity: 0, height: 0 }}
+                            className="flex gap-2 flex-wrap flex-1 mr-4 overflow-hidden"
+                        >
+                            <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getDifficultyColor(exercise.difficulty)}`}>
+                                {getDifficultyLabel(exercise.difficulty)}
+                            </span>
+                            <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getCaseColor(exercise.case)}`}>
+                                {exercise.case}
+                            </span>
+                            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-700">
+                                {getGenderLabel(exercise.gender)}
+                            </span>
+                            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-teal-100 text-teal-700">
+                                {getArticleTypeLabel(exercise.articleType)}
+                            </span>
+                        </motion.div>
+                    ) : (
+                        <div className="flex-1" /> // Spacer
+                    )}
+                </AnimatePresence>
+
+                <button
+                    onClick={onToggleInfo}
+                    className="p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-colors"
+                    title={showInfo ? "Infos ausblenden" : "Infos anzeigen"}
+                >
+                    {showInfo ? <Eye className="w-4 h-4" /> : <EyeOff className="w-4 h-4" />}
+                </button>
             </div>
 
             {/* Sentence */}
@@ -300,6 +323,7 @@ export const AdjektivdeklinationPage: React.FC = () => {
     const [loading, setLoading] = useState(true);
     const [showCompletion, setShowCompletion] = useState(false);
     const [difficulty, setDifficulty] = useState('all');
+    const [showExerciseInfo, setShowExerciseInfo] = useState(true);
 
     // Helper to shuffle exercises
     const getShuffledExercises = (all: Exercise[], level: string) => {
@@ -459,6 +483,8 @@ export const AdjektivdeklinationPage: React.FC = () => {
                                 onCorrect={() => setCorrectCount(c => c + 1)}
                                 onIncorrect={() => setIncorrectCount(c => c + 1)}
                                 onNext={nextExercise}
+                                showInfo={showExerciseInfo}
+                                onToggleInfo={() => setShowExerciseInfo(prev => !prev)}
                             />
                         </motion.div>
                     </AnimatePresence>
