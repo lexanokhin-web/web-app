@@ -135,7 +135,7 @@ export const MatchGamePage: React.FC = () => {
         const systemBlocks: WordBlock[] = allVocabularyCategories.map(category => ({
             id: `vocab-${category.id}`,
             name: `${levelEmojis[category.level] || '⚪'} ${category.level} - ${categoryTranslations[category.name] || category.name}`,
-            words: [], // populated dynamically
+            words: category.words.map(w => ({ german: w.german, russian: w.russian })),
             isVocabularyCategory: true,
             vocabularyCategory: category
         }));
