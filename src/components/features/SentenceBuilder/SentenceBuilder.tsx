@@ -165,7 +165,10 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
                     `}>
                         {exercise.level}
                     </span>
-                    <span className="text-sm text-gray-600">{exercise.grammarFocus}</span>
+                    <div className="flex flex-col">
+                        <span className="text-sm font-medium text-gray-800">{exercise.subTopic}</span>
+                        <span className="text-xs text-gray-500">{exercise.grammarFocus}</span>
+                    </div>
                 </div>
             </div>
 

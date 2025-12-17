@@ -6,7 +6,7 @@ import { b2Exercises } from './b2';
 
 export * from './types';
 
-export const sentenceExercises: SentenceExercise[] = [
+export const allExercises: SentenceExercise[] = [
     ...a1Exercises,
     ...a2Exercises,
     ...b1Exercises,
@@ -14,14 +14,8 @@ export const sentenceExercises: SentenceExercise[] = [
 ];
 
 // Helper function to get exercises by level
-export const getExercisesByLevel = (level: 'A1' | 'A2' | 'B1' | 'B2'): SentenceExercise[] => {
-    switch (level) {
-        case 'A1': return a1Exercises;
-        case 'A2': return a2Exercises;
-        case 'B1': return b1Exercises;
-        case 'B2': return b2Exercises;
-        default: return [];
-    }
+export const getExercisesByLevel = (level: string): SentenceExercise[] => {
+    return allExercises.filter(ex => ex.level === level);
 };
 
 // Helper function to scramble words
