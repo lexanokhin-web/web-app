@@ -10,6 +10,9 @@ interface QuizQuestionProps {
     questionNumber: number;
     totalQuestions: number;
     explanation?: string;
+    verbTranslation?: string;
+    sentenceTranslation?: string;
+    exampleSentence?: string;
 }
 
 export const QuizQuestion: React.FC<QuizQuestionProps> = ({
@@ -19,7 +22,10 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
     onAnswer,
     questionNumber,
     totalQuestions,
-    explanation
+    explanation,
+    verbTranslation,
+    sentenceTranslation,
+    exampleSentence
 }) => {
     const [options] = useState<string[]>(() => {
         const allOptions = [correctAnswer, ...wrongAnswers];
@@ -74,10 +80,45 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl p-8 mb-8 text-center shadow-2xl"
+                className="bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl p-8 mb-8 text-center shadow-2xl relative overflow-hidden"
             >
-                <p className="text-3xl font-bold text-white">"{question}"</p>
+                <p className="text-3xl font-bold text-white mb-2">"{question}"</p>
+                {verbTranslation && (
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        className="text-white/80 text-sm font-medium"
+                    >
+                        Подсказка: {verbTranslation}
+                    </motion.p>
+                )}
             </motion.div>
+
+            {/* Example Sentence (if provided) */}
+            {(exampleSentence || sentenceTranslation) && (
+                <div className="mb-8 px-4 text-center space-y-2">
+                    {exampleSentence && (
+                        <p className="text-gray-700 text-lg font-medium">
+                            {selectedAnswer !== null
+                                ? (() => {
+                                    const isAtStart = exampleSentence.startsWith('_____');
+                                    let displayAnswer = correctAnswer;
+                                    if (isAtStart && displayAnswer.length > 0) {
+                                        displayAnswer = displayAnswer.charAt(0).toUpperCase() + displayAnswer.slice(1);
+                                    }
+                                    return exampleSentence.replace('_____', `[${displayAnswer}]`);
+                                })()
+                                : exampleSentence.replace('_____', '______')
+                            }
+                        </p>
+                    )}
+                    {sentenceTranslation && (
+                        <p className="text-gray-500 text-sm italic">
+                            {sentenceTranslation}
+                        </p>
+                    )}
+                </div>
+            )}
 
             {/* Options */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

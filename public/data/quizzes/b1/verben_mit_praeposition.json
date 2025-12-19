@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "vmp1",
+    "verb": "achten",
+    "targetWord": "auf",
+    "sentence": "Achten Sie bei der Maschine _____ die Sicherheitshinweise.",
+    "sentenceTranslation": "Обращайте внимание на указания по технике безопасности на машине.",
+    "verbTranslation": "обращать внимание на",
+    "explanation": "achten auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp2",
+    "verb": "ankommen",
+    "targetWord": "auf",
+    "sentence": "Bei einer Bewerbung kommt es _____ die persönliche Wirkung an.",
+    "sentenceTranslation": "При подаче резюме всё зависит от личного впечатления.",
+    "verbTranslation": "зависеть от",
+    "explanation": "ankommen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "um",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp3",
+    "verb": "anpassen",
+    "targetWord": "an",
+    "sentence": "Man muss sich nicht _____ jeden Trend anpassen.",
+    "sentenceTranslation": "Не нужно подстраиваться под каждый тренд.",
+    "verbTranslation": "приспосабливаться к",
+    "explanation": "anpassen an + Akkusativ",
+    "wrongAnswers": [
+      "auf",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp4",
+    "verb": "antworten",
+    "targetWord": "auf",
+    "sentence": "Hat die Firma Held schon _____ deine Bewerbung geantwortet?",
+    "sentenceTranslation": "Компания Хельд уже ответила на твой отклик?",
+    "verbTranslation": "отвечать на",
+    "explanation": "antworten auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp5",
+    "verb": "sich ärgern",
+    "targetWord": "über",
+    "sentence": "Ich habe mich heute _____ meine Kollegin geärgert.",
+    "sentenceTranslation": "Я сегодня разозлился на свою коллегу.",
+    "verbTranslation": "злиться на",
+    "explanation": "sich ärgern über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp6",
+    "verb": "aufpassen",
+    "targetWord": "auf",
+    "sentence": "Könntest du heute Abend _____ meine Kinder aufpassen?",
+    "sentenceTranslation": "Ты не мог бы присмотреть за моими детьми сегодня вечером?",
+    "verbTranslation": "присматривать за",
+    "explanation": "aufpassen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp7",
+    "verb": "ausgeben",
+    "targetWord": "für",
+    "sentence": "Wie viel haben Sie _____ das Geschäftsessen ausgegeben?",
+    "sentenceTranslation": "Сколько вы потратили на деловой обед?",
+    "verbTranslation": "тратить на",
+    "explanation": "ausgeben für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp8",
+    "verb": "sich bedanken",
+    "targetWord": "für",
+    "sentence": "Wir wollen uns _____ die gelungene Fortbildung bedanken.",
+    "sentenceTranslation": "Мы хотим поблагодарить за успешное повышение квалификации.",
+    "verbTranslation": "благодарить за",
+    "explanation": "sich bedanken für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp9",
+    "verb": "sich begeistern",
+    "targetWord": "für",
+    "sentence": "Gabriela begeistert sich _____ Fotografie.",
+    "sentenceTranslation": "Габриэла увлекается фотографией.",
+    "verbTranslation": "увлекаться чем-то",
+    "explanation": "sich begeistern für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp10",
+    "verb": "sich beklagen",
+    "targetWord": "über",
+    "sentence": "Ein Kunde hat sich _____ unseren Service beklagt.",
+    "sentenceTranslation": "Клиент пожаловался на наш сервис.",
+    "verbTranslation": "жаловаться на",
+    "explanation": "sich beklagen über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp11",
+    "verb": "berichten",
+    "targetWord": "über",
+    "sentence": "Im Fernsehen wurde _____ das Ereignis berichtet.",
+    "sentenceTranslation": "По телевизору сообщили о происшествии.",
+    "verbTranslation": "сообщать о",
+    "explanation": "berichten über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp12",
+    "verb": "sich beschweren",
+    "targetWord": "über",
+    "sentence": "Herr Pott hat sich _____ die neue Kollegin beschwert.",
+    "sentenceTranslation": "Господин Потт пожаловался на новую коллегу.",
+    "verbTranslation": "жаловаться на",
+    "explanation": "sich beschweren über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp13",
+    "verb": "sich bewerben",
+    "targetWord": "um",
+    "sentence": "Sie hat sich _____ eine Stelle beim ÖPNV beworben.",
+    "sentenceTranslation": "Она подала заявление на место в общественном транспорте.",
+    "verbTranslation": "подавать заявление на (место/вакансию)",
+    "explanation": "sich bewerben um + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp14",
+    "verb": "sich beziehen",
+    "targetWord": "auf",
+    "sentence": "Die Mahnung bezieht sich _____ die Rechnung vom Januar.",
+    "sentenceTranslation": "Предупреждение относится к счету за январь.",
+    "verbTranslation": "относиться к / ссылаться на",
+    "explanation": "sich beziehen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp15",
+    "verb": "bitten",
+    "targetWord": "um",
+    "sentence": "Könnte ich dich _____ einen Gefallen bitten?",
+    "sentenceTranslation": "Могу я попросить тебя об одолжении?",
+    "verbTranslation": "просить о",
+    "explanation": "bitten um + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp16",
+    "verb": "danken",
+    "targetWord": "für",
+    "sentence": "Ich möchte Ihnen _____ Ihre Unterstützung danken.",
+    "sentenceTranslation": "Я хотел бы поблагодарить вас за вашу поддержку.",
+    "verbTranslation": "благодарить за",
+    "explanation": "danken für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp17",
+    "verb": "denken",
+    "targetWord": "an",
+    "sentence": "Denk doch nicht immer nur _____ dich!",
+    "sentenceTranslation": "Не думай только о себе постоянно!",
+    "verbTranslation": "думать о",
+    "explanation": "denken an + Akkusativ",
+    "wrongAnswers": [
+      "auf",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp18",
+    "verb": "diskutieren",
+    "targetWord": "über",
+    "sentence": "Wir müssen morgen _____ unseren Terminplan diskutieren.",
+    "sentenceTranslation": "Нам нужно завтра обсудить наш график.",
+    "verbTranslation": "дискутировать о / обсуждать",
+    "explanation": "diskutieren über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp19",
+    "verb": "eingehen",
+    "targetWord": "auf",
+    "sentence": "Meine Chefin geht meistens _____ die Meinung anderer ein.",
+    "sentenceTranslation": "Моя начальница обычно учитывает мнение других.",
+    "verbTranslation": "принимать во внимание / идти навстречу",
+    "explanation": "eingehen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp20",
+    "verb": "sich einigen",
+    "targetWord": "auf",
+    "sentence": "Können wir uns _____ diese Farbe für das Innenfutter einigen?",
+    "sentenceTranslation": "Мы можем договориться об этом цвете для подкладки?",
+    "verbTranslation": "сойтись на / договориться о",
+    "explanation": "sich einigen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp21",
+    "verb": "sich einsetzen",
+    "targetWord": "für",
+    "sentence": "Wir setzen uns _____ eine bessere Berufsausbildung ein.",
+    "sentenceTranslation": "Мы выступаем за лучшее профессиональное обучение.",
+    "verbTranslation": "выступать за / заступаться за",
+    "explanation": "sich einsetzen für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp22",
+    "verb": "einziehen",
+    "targetWord": "in",
+    "sentence": "Wir sind erst vor Kurzem _____ die neue Werkstatt eingezogen.",
+    "sentenceTranslation": "Мы только недавно въехали в новую мастерскую.",
+    "verbTranslation": "въезжать в",
+    "explanation": "einziehen in + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp23",
+    "verb": "sich engagieren",
+    "targetWord": "für",
+    "sentence": "Viele Leute engagieren sich _____ einen guten Zweck.",
+    "sentenceTranslation": "Многие люди принимают активное участие в благотворительности.",
+    "verbTranslation": "принимать активное участие (ради)",
+    "explanation": "sich engagieren für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp24",
+    "verb": "sich engagieren",
+    "targetWord": "gegen",
+    "sentence": "Wir engagieren uns _____ Gewalt im Alltag.",
+    "sentenceTranslation": "Мы выступаем против насилия в повседневной жизни.",
+    "verbTranslation": "выступать против",
+    "explanation": "sich engagieren gegen + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp25",
+    "verb": "sich entscheiden",
+    "targetWord": "für",
+    "sentence": "Wir haben uns _____ dieses Sofa entschieden.",
+    "sentenceTranslation": "Мы решили выбрать этот диван.",
+    "verbTranslation": "решиться на / выбрать",
+    "explanation": "sich entscheiden für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp26",
+    "verb": "sich entschuldigen",
+    "targetWord": "für",
+    "sentence": "Herr Bieber hat sich _____ seinen Fehler entschuldigt.",
+    "sentenceTranslation": "Господин Бибер извинился за свою ошибку.",
+    "verbTranslation": "извиняться за",
+    "explanation": "sich entschuldigen für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp27",
+    "verb": "sich erinnern",
+    "targetWord": "an",
+    "sentence": "Erinnern Sie sich _____ unser Gespräch neulich?",
+    "sentenceTranslation": "Вы помните наш недавний разговор?",
+    "verbTranslation": "вспоминать о / помнить",
+    "explanation": "sich erinnern an + Akkusativ",
+    "wrongAnswers": [
+      "auf",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp28",
+    "verb": "erzählen",
+    "targetWord": "über",
+    "sentence": "Was hat Pablo denn _____ den Chef erzählt?",
+    "sentenceTranslation": "Что же Пабло рассказал о шефе?",
+    "verbTranslation": "рассказывать о",
+    "explanation": "erzählen über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp29",
+    "verb": "sich freuen",
+    "targetWord": "auf",
+    "sentence": "Ich freue mich _____ unseren Ausflug am Wochenende.",
+    "sentenceTranslation": "Я с нетерпением жду нашей поездки на выходных.",
+    "verbTranslation": "радоваться (предстоящему) / ждать с нетерпением",
+    "explanation": "sich freuen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp30",
+    "verb": "sich freuen",
+    "targetWord": "über",
+    "sentence": "Meine Eltern haben sich sehr _____ meinen Besuch gefreut.",
+    "sentenceTranslation": "Мои родители очень обрадовались моему визиту.",
+    "verbTranslation": "радоваться (произошедшему)",
+    "explanation": "sich freuen über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp31",
+    "verb": "sich gewöhnen",
+    "targetWord": "an",
+    "sentence": "Ich kann mich einfach nicht _____ dieses Essen gewöhnen.",
+    "sentenceTranslation": "Я просто не могу привыкнуть к этой еде.",
+    "verbTranslation": "привыкать к",
+    "explanation": "sich gewöhnen an + Akkusativ",
+    "wrongAnswers": [
+      "auf",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp32",
+    "verb": "glauben",
+    "targetWord": "an",
+    "sentence": "Seine Chefin glaubt _____ ihn, das macht ihm Mut.",
+    "sentenceTranslation": "Его начальница верит в него, это придает ему смелости.",
+    "verbTranslation": "верить в",
+    "explanation": "glauben an + Akkusativ",
+    "wrongAnswers": [
+      "auf",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp33",
+    "verb": "halten",
+    "targetWord": "für",
+    "sentence": "Ich halte Sie _____ eine sehr kompetente Fachkraft.",
+    "sentenceTranslation": "Я считаю вас очень компетентным специалистом.",
+    "verbTranslation": "считать кем-то",
+    "explanation": "halten für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp34",
+    "verb": "sich halten",
+    "targetWord": "an",
+    "sentence": "Halten Sie sich in Zukunft bitte _____ unsere Abmachung!",
+    "sentenceTranslation": "Пожалуйста, в будущем придерживайтесь нашей договоренности!",
+    "verbTranslation": "придерживаться чего-то",
+    "explanation": "sich halten an + Akkusativ",
+    "wrongAnswers": [
+      "auf",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp35",
+    "verb": "sich handeln",
+    "targetWord": "um",
+    "sentence": "Hier handelt es sich _____ einen sehr wichtigen Auftrag für uns.",
+    "sentenceTranslation": "Речь идет об очень важном для нас заказе.",
+    "verbTranslation": "идти (о чем-то) / речь идет о",
+    "explanation": "sich handeln um + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp36",
+    "verb": "hinweisen",
+    "targetWord": "auf",
+    "sentence": "Ich möchte Sie noch _____ unsere Sonderangebote hinweisen.",
+    "sentenceTranslation": "Я хотел бы еще указать вам на наши спецпредложения.",
+    "verbTranslation": "указывать на",
+    "explanation": "hinweisen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp37",
+    "verb": "hoffen",
+    "targetWord": "auf",
+    "sentence": "Wir haben lange _____ besseres Wetter gehofft.",
+    "sentenceTranslation": "Мы долго надеялись на лучшую погоду.",
+    "verbTranslation": "надеяться на",
+    "explanation": "hoffen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp38",
+    "verb": "sich informieren",
+    "targetWord": "über",
+    "sentence": "Vor seiner Bewerbung hat er sich _____ die Firma informiert.",
+    "sentenceTranslation": "Перед откликом он узнал информацию о фирме.",
+    "verbTranslation": "осведомляться о / узнавать о",
+    "explanation": "sich informieren über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp39",
+    "verb": "sich interessieren",
+    "targetWord": "für",
+    "sentence": "Rosa interessiert sich sehr _____ große Lkws.",
+    "sentenceTranslation": "Роза очень интересуется большими грузовиками.",
+    "verbTranslation": "интересоваться чем-то",
+    "explanation": "sich interessieren für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp40",
+    "verb": "investieren",
+    "targetWord": "in",
+    "sentence": "Das Unternehmen hat viel Geld _____ dieses Projekt investiert.",
+    "sentenceTranslation": "Предприятие вложило много денег в этот проект.",
+    "verbTranslation": "инвестировать в",
+    "explanation": "investieren in + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp41",
+    "verb": "kämpfen",
+    "targetWord": "für",
+    "sentence": "Sie kämpfen _____ bessere Arbeitsbedingungen.",
+    "sentenceTranslation": "Они борются за лучшие условия труда.",
+    "verbTranslation": "бороться за",
+    "explanation": "kämpfen für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp42",
+    "verb": "kämpfen",
+    "targetWord": "gegen",
+    "sentence": "Viele Menschen kämpfen _____ Diskriminierung.",
+    "sentenceTranslation": "Многие люди борются против дискриминации.",
+    "verbTranslation": "бороться против",
+    "explanation": "kämpfen gegen + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp43",
+    "verb": "sich konzentrieren",
+    "targetWord": "auf",
+    "sentence": "Seid leiser! Ich muss mich _____ die Aufgabe konzentrieren.",
+    "sentenceTranslation": "Будьте тише! Я должен сосредоточиться на задании.",
+    "verbTranslation": "сосредоточиться на",
+    "explanation": "sich konzentrieren auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp44",
+    "verb": "sich kümmern",
+    "targetWord": "um",
+    "sentence": "Wer kümmert sich _____ die Jacke von Herrn Pohl?",
+    "sentenceTranslation": "Кто позаботится о куртке господина Поля?",
+    "verbTranslation": "заботиться о",
+    "explanation": "sich kümmern um + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp45",
+    "verb": "lachen",
+    "targetWord": "über",
+    "sentence": "_____ diesen Witz kann ich immer wieder lachen.",
+    "sentenceTranslation": "Над этой шуткой я могу смеяться снова и снова.",
+    "verbTranslation": "смеяться над",
+    "explanation": "lachen über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp46",
+    "verb": "nachdenken",
+    "targetWord": "über",
+    "sentence": "Ich denke _____ Ihr Angebot nach и gebe Ihnen Bescheid.",
+    "sentenceTranslation": "Я обдумаю ваше предложение и дам вам знать.",
+    "verbTranslation": "размышлять о",
+    "explanation": "nachdenken über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp47",
+    "verb": "reagieren",
+    "targetWord": "auf",
+    "sentence": "Wie hat die Chefin _____ deinen Vorschlag reagiert?",
+    "sentenceTranslation": "Как шефиня отреагировала на твое предложение?",
+    "verbTranslation": "реагировать на",
+    "explanation": "reagieren auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp48",
+    "verb": "reden",
+    "targetWord": "über",
+    "sentence": "Wir müssen dringend _____ unsere Arbeitsverteilung reden.",
+    "sentenceTranslation": "Нам нужно срочно поговорить о распределении работы.",
+    "verbTranslation": "разговаривать о",
+    "explanation": "reden über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp49",
+    "verb": "schimpfen",
+    "targetWord": "über",
+    "sentence": "Sie schimpft immer _____ ihre Kollegen.",
+    "sentenceTranslation": "Она всегда ругается на своих коллег.",
+    "verbTranslation": "ругаться на",
+    "explanation": "schimpfen über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp50",
+    "verb": "sorgen",
+    "targetWord": "für",
+    "sentence": "Davi sorgt _____, dass die Schneiderei eine Homepage bekommt.",
+    "sentenceTranslation": "Дави заботится о том, чтобы у ателье появилась домашняя страница.",
+    "verbTranslation": "заботиться о / обеспечивать",
+    "explanation": "sorgen für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp51",
+    "verb": "sich sorgen",
+    "targetWord": "um",
+    "sentence": "Rosa sorgt sich nicht _____ ihre berufliche Zukunft.",
+    "sentenceTranslation": "Роза не беспокоится о своем профессиональном будущем.",
+    "verbTranslation": "беспокоиться о",
+    "explanation": "sich sorgen um + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp52",
+    "verb": "sich spezialisieren",
+    "targetWord": "auf",
+    "sentence": "Davi will sich _____ Herrenmode spezialisieren.",
+    "sentenceTranslation": "Дави хочет специализироваться на мужской моде.",
+    "verbTranslation": "специализироваться на",
+    "explanation": "sich spezialisieren auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp53",
+    "verb": "sprechen",
+    "targetWord": "über",
+    "sentence": "Habt Ihr auch _____ die Arbeitsbedingungen gesprochen?",
+    "sentenceTranslation": "Вы также говорили об условиях труда?",
+    "verbTranslation": "говорить о",
+    "explanation": "sprechen über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp54",
+    "verb": "sich streiten",
+    "targetWord": "über",
+    "sentence": "Streitet ihr schon wieder _____ die gleiche Frage?",
+    "sentenceTranslation": "Вы снова спорите по тому же вопросу?",
+    "verbTranslation": "спорить о",
+    "explanation": "sich streiten über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp55",
+    "verb": "sich unterhalten",
+    "targetWord": "über",
+    "sentence": "Wir haben uns den ganzen Abend _____ Politik unterhalten.",
+    "sentenceTranslation": "Мы весь вечер беседовали о политике.",
+    "verbTranslation": "беседовать о",
+    "explanation": "sich unterhalten über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp56",
+    "verb": "sich verlassen",
+    "targetWord": "auf",
+    "sentence": "_____ meine Kollegen kann ich mich immer verlassen.",
+    "sentenceTranslation": "На моих коллег я всегда могу положиться.",
+    "verbTranslation": "полагаться на",
+    "explanation": "sich verlassen auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp57",
+    "verb": "sich verlieben",
+    "targetWord": "in",
+    "sentence": "Nino hat sich schon während der Schulzeit _____ Paul verliebt.",
+    "sentenceTranslation": "Нино влюбился в Пауля еще в школе.",
+    "verbTranslation": "влюбляться в",
+    "explanation": "sich verlieben in + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp58",
+    "verb": "verzichten",
+    "targetWord": "auf",
+    "sentence": "Faris kann morgens nicht _____ Kaffee verzichten.",
+    "sentenceTranslation": "Фарис не может отказаться от кофе по утрам.",
+    "verbTranslation": "отказываться от",
+    "explanation": "verzichten auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp59",
+    "verb": "sich vorbereiten",
+    "targetWord": "auf",
+    "sentence": "Hast du dich gut _____ das Vorstellungsgespräch vorbereitet?",
+    "sentenceTranslation": "Ты хорошо подготовился к собеседованию?",
+    "verbTranslation": "готовиться к",
+    "explanation": "sich vorbereiten auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp60",
+    "verb": "warten",
+    "targetWord": "auf",
+    "sentence": "_____ wen wartest du denn?",
+    "sentenceTranslation": "Кого ты ждешь?",
+    "verbTranslation": "ждать кого-то/что-то",
+    "explanation": "warten auf + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "für",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp61",
+    "verb": "sich wenden",
+    "targetWord": "an",
+    "sentence": "Wenden Sie sich mit weiteren Fragen bitte _____ Frau Beyerle.",
+    "sentenceTranslation": "С дальнейшими вопросами обращайтесь, пожалуйста, к госпоже Байерле.",
+    "verbTranslation": "обращаться к",
+    "explanation": "sich wenden an + Akkusativ",
+    "wrongAnswers": [
+      "auf",
+      "über",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp62",
+    "verb": "werben",
+    "targetWord": "für",
+    "sentence": "Die Schneiderei wirbt jetzt im Internet _____ ihre Angebote.",
+    "sentenceTranslation": "Ателье теперь рекламирует свои предложения в интернете.",
+    "verbTranslation": "рекламировать что-то",
+    "explanation": "werben für + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "über"
+    ]
+  },
+  {
+    "id": "vmp63",
+    "verb": "sich wundern",
+    "targetWord": "über",
+    "sentence": "Ich habe mich sehr _____ diese Frage gewundert.",
+    "sentenceTranslation": "Я очень удивился этому вопросу.",
+    "verbTranslation": "удивляться чему-то",
+    "explanation": "sich wundern über + Akkusativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "für"
+    ]
+  },
+  {
+    "id": "vmp64",
+    "verb": "abbringen",
+    "targetWord": "von",
+    "sentence": "Ich konnte ihn nicht _____ der Kündigung abbringen.",
+    "sentenceTranslation": "Я не мог отговорить его от увольнения.",
+    "verbTranslation": "отговаривать от",
+    "explanation": "abbringen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp65",
+    "verb": "abhängen",
+    "targetWord": "von",
+    "sentence": "Das Einkommen von Kellnern hängt _____ Trinkgeld ab.",
+    "sentenceTranslation": "Доход официантов зависит от чаевых.",
+    "verbTranslation": "зависеть от",
+    "explanation": "abhängen von + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "an",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp66",
+    "verb": "abmelden",
+    "targetWord": "von",
+    "sentence": "Hast du dich wirklich _____ Sportstudio abgemeldet?",
+    "sentenceTranslation": "Ты действительно выписался из спортзала?",
+    "verbTranslation": "выписываться из / отказываться от",
+    "explanation": "abmelden von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp67",
+    "verb": "abraten",
+    "targetWord": "von",
+    "sentence": "Ich kann euch _____ diesem Restaurant nur abraten.",
+    "sentenceTranslation": "Я могу только отсоветовать вам идти в этот ресторан.",
+    "verbTranslation": "отсоветовать что-то",
+    "explanation": "abraten von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp68",
+    "verb": "ändern",
+    "targetWord": "an",
+    "sentence": "Gabriela sagt, dass sie _____ der Situation nichts ändern kann.",
+    "sentenceTranslation": "Габриэла говорит, что она ничего не может изменить в этой ситуации.",
+    "verbTranslation": "изменять в",
+    "explanation": "ändern an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp69",
+    "verb": "anfangen",
+    "targetWord": "mit",
+    "sentence": "Davi, haben Sie _____ der Änderung der Hose schon angefangen?",
+    "sentenceTranslation": "Дави, вы уже начали переделывать брюки?",
+    "verbTranslation": "начинать с",
+    "explanation": "anfangen mit + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "an",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp70",
+    "verb": "anrufen",
+    "targetWord": "bei",
+    "sentence": "Hast du _____ unserem Vermieter angerufen?",
+    "sentenceTranslation": "Ты звонил нашему арендодателю?",
+    "verbTranslation": "звонить кому-то (в организацию/кому-то)",
+    "explanation": "anrufen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp71",
+    "verb": "arbeiten",
+    "targetWord": "an",
+    "sentence": "Sie arbeiten _____ einem großen Projekt.",
+    "sentenceTranslation": "Они работают над большим проектом.",
+    "verbTranslation": "работать над",
+    "explanation": "arbeiten an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "zu"
+    ]
+  },
+  {
+    "id": "vmp72",
+    "verb": "arbeiten",
+    "targetWord": "bei",
+    "sentence": "Er arbeitet _____ den Verkehrsbetrieben.",
+    "sentenceTranslation": "Он работает в транспортной компании.",
+    "verbTranslation": "работать в (компании)",
+    "explanation": "arbeiten bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp73",
+    "verb": "arbeiten",
+    "targetWord": "in",
+    "sentence": "Rosa arbeitet _____ einer mittelständischen Firma.",
+    "sentenceTranslation": "Роза работает в средней фирме.",
+    "verbTranslation": "работать в",
+    "explanation": "arbeiten in + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp74",
+    "verb": "aufhören",
+    "targetWord": "mit",
+    "sentence": "Könnt ihr bitte _____ dem Streit aufhören?",
+    "sentenceTranslation": "Вы можете, пожалуйста, прекратить спор?",
+    "verbTranslation": "прекращать что-то",
+    "explanation": "aufhören mit + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "an",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp75",
+    "verb": "ausgehen",
+    "targetWord": "von",
+    "sentence": "Ich gehe davon aus, dass der Termin gehalten wird.",
+    "sentenceTranslation": "Я исхожу из того, что срок будет соблюден.",
+    "verbTranslation": "исходить из",
+    "explanation": "ausgehen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp76",
+    "verb": "sich auskennen",
+    "targetWord": "mit",
+    "sentence": "Ahmed kennt sich gut _____ Computern aus.",
+    "sentenceTranslation": "Ахмед хорошо разбирается в компьютерах.",
+    "verbTranslation": "разбираться в",
+    "explanation": "sich auskennen mit + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "an",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp77",
+    "verb": "sich austauschen",
+    "targetWord": "mit",
+    "sentence": "Im Forum kann sich Tom _____ anderen Betroffenen austauschen.",
+    "sentenceTranslation": "На форуме Том может обменяться опытом с другими пострадавшими.",
+    "verbTranslation": "обмениваться (мнениями/опытом) с",
+    "explanation": "sich austauschen mit + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "an",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp78",
+    "verb": "sich bedanken",
+    "targetWord": "bei",
+    "sentence": "Ich möchte mich sehr _____ Ihnen bedanken.",
+    "sentenceTranslation": "Я хотел бы очень поблагодарить вас.",
+    "verbTranslation": "благодарить кого-то",
+    "explanation": "sich bedanken bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp79",
+    "verb": "sich befassen",
+    "targetWord": "mit",
+    "sentence": "Die Fortbildung befasst sich _____ dem Arbeitsrecht.",
+    "sentenceTranslation": "Повышение квалификации касается трудового права.",
+    "verbTranslation": "заниматься чем-либо / иметь дело с",
+    "explanation": "sich befassen mit + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "an",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp80",
+    "verb": "sich befinden",
+    "targetWord": "in",
+    "sentence": "Wir befinden uns hier _____ Zentrum von Rostock.",
+    "sentenceTranslation": "Мы находимся здесь, в центре Ростока.",
+    "verbTranslation": "находиться в",
+    "explanation": "sich befinden in + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp81",
+    "verb": "beginnen",
+    "targetWord": "mit",
+    "sentence": "Wann beginnst du _____ deinem neuen Job?",
+    "sentenceTranslation": "Когда ты начинаешь свою новую работу?",
+    "verbTranslation": "начинать с",
+    "explanation": "beginnen mit + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "an",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp82",
+    "verb": "beitragen",
+    "targetWord": "zu",
+    "sentence": "Möchtest du auch etwas _____ dieser Diskussion beitragen?",
+    "sentenceTranslation": "Ты тоже хочешь внести свой вклад в эту дискуссию?",
+    "verbTranslation": "вносить вклад в",
+    "explanation": "beitragen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp83",
+    "verb": "sich beklagen",
+    "targetWord": "bei",
+    "sentence": "Unsere Kollegin hat sich wieder _____ Abteilungsleiter beklagt.",
+    "sentenceTranslation": "Наша коллега снова пожаловалась начальнику отдела.",
+    "verbTranslation": "жаловаться кому-то",
+    "explanation": "sich beklagen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp84",
+    "verb": "berichten",
+    "targetWord": "von",
+    "sentence": "Frau Lin berichtet immer sehr ausführlich _____ ihren Reisen.",
+    "sentenceTranslation": "Госпожа Лин всегда очень подробно рассказывает о своих поездках.",
+    "verbTranslation": "рассказывать о",
+    "explanation": "berichten von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp85",
+    "verb": "sich beschweren",
+    "targetWord": "bei",
+    "sentence": "Herr Pohl hat sich _____ der Chefin beschwert.",
+    "sentenceTranslation": "Господин Поль пожаловался начальнице.",
+    "verbTranslation": "жаловаться кому-то",
+    "explanation": "sich beschweren bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp86",
+    "verb": "bestehen",
+    "targetWord": "aus",
+    "sentence": "Dieser Stoff besteht zu 90% _____ Merinowolle.",
+    "sentenceTranslation": "Эта ткань на 90% состоит из шерсти мериноса.",
+    "verbTranslation": "состоять из",
+    "explanation": "bestehen aus + Dativ",
+    "wrongAnswers": [
+      "von",
+      "mit",
+      "zu"
+    ]
+  },
+  {
+    "id": "vmp87",
+    "verb": "bestellen",
+    "targetWord": "bei",
+    "sentence": "Habt ihr die Lieferung _____ Herrn Krämer bestellt?",
+    "sentenceTranslation": "Вы заказали доставку у господина Кремера?",
+    "verbTranslation": "заказывать у кого-то",
+    "explanation": "bestellen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp88",
+    "verb": "sich beteiligen",
+    "targetWord": "an",
+    "sentence": "Habt ihr euch auch _____ der Internetdiskussion gestern beteiligt?",
+    "sentenceTranslation": "Вы тоже участвовали во вчерашней интернет-дискуссии?",
+    "verbTranslation": "участвовать в",
+    "explanation": "sich beteiligen an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp89",
+    "verb": "sich bewerben",
+    "targetWord": "bei",
+    "sentence": "Rosa will sich irgendwann _____ den Verkehrsbetrieben bewerben.",
+    "sentenceTranslation": "Роза хочет когда-нибудь подать заявление в транспортную компанию.",
+    "verbTranslation": "подавать заявление (в организацию)",
+    "explanation": "sich bewerben bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp90",
+    "verb": "bringen",
+    "targetWord": "zu",
+    "sentence": "Sie bringt mich immer _____ Lachen.",
+    "sentenceTranslation": "Она всегда смешит меня (доводит до смеха).",
+    "verbTranslation": "приводить к",
+    "explanation": "bringen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp91",
+    "verb": "diskutieren",
+    "targetWord": "mit",
+    "sentence": "Wir haben lange _____ der Chefin diskutiert.",
+    "sentenceTranslation": "Мы долго дискутировали с начальницей.",
+    "verbTranslation": "дискутировать с",
+    "explanation": "diskutieren mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp92",
+    "verb": "einladen",
+    "targetWord": "zu",
+    "sentence": "Ich würde dich gern _____ meiner Party einladen.",
+    "sentenceTranslation": "Я хотел бы пригласить тебя на свою вечеринку.",
+    "verbTranslation": "приглашать на",
+    "explanation": "einladen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp93",
+    "verb": "sich entschließen",
+    "targetWord": "zu",
+    "sentence": "Olga hat sich entschlossen, Elektronikerin _____ lernen.",
+    "sentenceTranslation": "Ольга решила выучиться на электроника.",
+    "verbTranslation": "решиться на",
+    "explanation": "sich entschließen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp94",
+    "verb": "sich entschuldigen",
+    "targetWord": "bei",
+    "sentence": "Die Kollegin hat sich heute _____ mir entschuldigt.",
+    "sentenceTranslation": "Коллега сегодня передо мной извинилась.",
+    "verbTranslation": "извиняться перед",
+    "explanation": "sich entschuldigen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp95",
+    "verb": "erhalten",
+    "targetWord": "von",
+    "sentence": "Haben Sie die Nachricht _____ Frau Bergmann erhalten?",
+    "sentenceTranslation": "Вы получили сообщение от госпожи Бергманн?",
+    "verbTranslation": "получать от",
+    "explanation": "erhalten von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp96",
+    "verb": "sich erholen",
+    "targetWord": "von",
+    "sentence": "Gabriela hat sich gut _____ Corona erholt.",
+    "sentenceTranslation": "Габриэла хорошо оправилась от короны.",
+    "verbTranslation": "отдыхать от / поправляться от",
+    "explanation": "sich erholen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp97",
+    "verb": "erkennen",
+    "targetWord": "an",
+    "sentence": "Ich erkenne ihn _____ seiner Stimme.",
+    "sentenceTranslation": "Я узнаю его по голосу.",
+    "verbTranslation": "узнавать по",
+    "explanation": "erkennen an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp98",
+    "verb": "sich erkundigen",
+    "targetWord": "nach",
+    "sentence": "Ich habe mich bei der VHS _____ Kursen erkundigt.",
+    "sentenceTranslation": "Я осведомился в VHS о курсах.",
+    "verbTranslation": "осведомляться о",
+    "explanation": "sich erkundigen nach + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp99",
+    "verb": "erwarten",
+    "targetWord": "von",
+    "sentence": "Was erwartest du _____ diesem Kurs?",
+    "sentenceTranslation": "Чего ты ожидаешь от этого курса?",
+    "verbTranslation": "ожидать от",
+    "explanation": "erwarten von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp100",
+    "verb": "erzählen",
+    "targetWord": "von",
+    "sentence": "Erzähl doch mal was _____ deiner Familie!",
+    "sentenceTranslation": "Расскажи-ка что-нибудь о своей семье!",
+    "verbTranslation": "рассказывать о",
+    "explanation": "erzählen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp101",
+    "verb": "erziehen",
+    "targetWord": "zu",
+    "sentence": "Sie haben ihre Kinder früh _____ Selbstständigkeit erzogen.",
+    "sentenceTranslation": "Они рано приучили своих детей к самостоятельности.",
+    "verbTranslation": "воспитывать к / приучать к",
+    "explanation": "erziehen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp102",
+    "verb": "experimentieren",
+    "targetWord": "mit",
+    "sentence": "Davi möchte _____ Farben und Stoffen experimentieren.",
+    "sentenceTranslation": "Дави хочет экспериментировать с цветами и тканями.",
+    "verbTranslation": "экспериментировать с",
+    "explanation": "experimentieren mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp103",
+    "verb": "fragen",
+    "targetWord": "nach",
+    "sentence": "Wo warst du? Gabriela hat schon dreimal _____ dir gefragt.",
+    "sentenceTranslation": "Где ты был? Габриэла уже трижды спрашивала о тебе.",
+    "verbTranslation": "спрашивать о / осведомляться о",
+    "explanation": "fragen nach + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp104",
+    "verb": "führen",
+    "targetWord": "zu",
+    "sentence": "Der Klimawandel führt _____ immer mehr Unwettern.",
+    "sentenceTranslation": "Изменение климата ведет к все большему количеству стихийных бедствий.",
+    "verbTranslation": "вести к / приводить к",
+    "explanation": "führen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp105",
+    "verb": "gehören",
+    "targetWord": "zu",
+    "sentence": "_____ welcher Projektgruppe gehörst du?",
+    "sentenceTranslation": "К какой проектной группе ты принадлежишь?",
+    "verbTranslation": "принадлежать к / относиться к",
+    "explanation": "gehören zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp106",
+    "verb": "gratulieren",
+    "targetWord": "zu",
+    "sentence": "Ich möchte dir _____ deinem guten Prüfungsergebnis gratulieren.",
+    "sentenceTranslation": "Я хочу поздравить тебя с твоим хорошим результатом экзамена.",
+    "verbTranslation": "поздравлять с",
+    "explanation": "gratulieren zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp107",
+    "verb": "handeln",
+    "targetWord": "mit",
+    "sentence": "Die Firma handelt _____ elektronischen Bauteilen.",
+    "sentenceTranslation": "Фирма торгует электронными компонентами.",
+    "verbTranslation": "торговать чем-то",
+    "explanation": "handeln mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp108",
+    "verb": "handeln",
+    "targetWord": "von",
+    "sentence": "Das Buch „Die Hauptstadt“ handelt _____ der Europäischen Union.",
+    "sentenceTranslation": "Книга «Столица» повествует о Европейском Союзе.",
+    "verbTranslation": "повествовать о / иметь темой",
+    "explanation": "handeln von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp109",
+    "verb": "halten",
+    "targetWord": "von",
+    "sentence": "Was hältst du _____ dem neuen Büro?",
+    "sentenceTranslation": "Что ты думаешь о новом офисе?",
+    "verbTranslation": "быть какого-то мнения о",
+    "explanation": "halten von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp110",
+    "verb": "helfen",
+    "targetWord": "bei",
+    "sentence": "Könntest du mir bitte _____ Aufräumen helfen?",
+    "sentenceTranslation": "Ты не мог бы помочь мне с уборкой?",
+    "verbTranslation": "помогать в / помогать с чем-то",
+    "explanation": "helfen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp111",
+    "verb": "hören",
+    "targetWord": "von",
+    "sentence": "Hast du mal was _____ Tina und Moritz gehört?",
+    "sentenceTranslation": "Ты слышал что-нибудь о Тине и Морице?",
+    "verbTranslation": "слышать о",
+    "explanation": "hören von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp112",
+    "verb": "klarkommen",
+    "targetWord": "mit",
+    "sentence": "Sie kommt sehr gut _____ ihren Kolleginnen klar.",
+    "sentenceTranslation": "Она очень хорошо ладит со своими коллегами.",
+    "verbTranslation": "ладить с / справляться с",
+    "explanation": "klarkommen mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp113",
+    "verb": "klingen",
+    "targetWord": "nach",
+    "sentence": "Das klingt _____ einem tollen Projekt.",
+    "sentenceTranslation": "Это звучит как отличный проект.",
+    "verbTranslation": "звучать как / походить на",
+    "explanation": "klingen nach + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp114",
+    "verb": "leiden",
+    "targetWord": "an",
+    "sentence": "Er leidet _____ einer schweren Krankheit.",
+    "sentenceTranslation": "Он страдает тяжелой болезнью.",
+    "verbTranslation": "страдать от (болезни)",
+    "explanation": "leiden an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp115",
+    "verb": "leiden",
+    "targetWord": "unter",
+    "sentence": "Er leidet _____ dem Lärm.",
+    "sentenceTranslation": "Он страдает от шума.",
+    "verbTranslation": "страдать от (внешних обстоятельств)",
+    "explanation": "leiden unter + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp116",
+    "verb": "liegen",
+    "targetWord": "an",
+    "sentence": "Es liegt _____ ihrem Ehrgeiz, dass sie so weit gekommen ist.",
+    "sentenceTranslation": "Дело в ее честолюбии, что она так далеко продвинулась.",
+    "verbTranslation": "зависеть от / дело в",
+    "explanation": "liegen an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp117",
+    "verb": "sich melden",
+    "targetWord": "bei",
+    "sentence": "Meldest du dich morgen _____ mir?",
+    "sentenceTranslation": "Ты свяжешься со мной завтра?",
+    "verbTranslation": "давать о себе знать / связываться с",
+    "explanation": "sich melden bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp118",
+    "verb": "motivieren",
+    "targetWord": "zu",
+    "sentence": "Kann ich dich heute _____ Joggen motivieren?",
+    "sentenceTranslation": "Могу я сегодня мотивировать тебя на пробежку?",
+    "verbTranslation": "мотивировать к",
+    "explanation": "motivieren zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp119",
+    "verb": "nachfragen",
+    "targetWord": "bei",
+    "sentence": "Das Paket ist nicht da? Hast du _____ DHL nachgefragt?",
+    "sentenceTranslation": "Посылки нет? Ты осведомлялся в DHL?",
+    "verbTranslation": "расспрашивать / осведомляться у",
+    "explanation": "nachfragen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp120",
+    "verb": "sich orientieren",
+    "targetWord": "an",
+    "sentence": "Wir haben uns _____ den üblichen Verfahren orientiert.",
+    "sentenceTranslation": "Мы ориентировались на обычные процедуры.",
+    "verbTranslation": "ориентироваться на",
+    "explanation": "sich orientieren an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp121",
+    "verb": "passen",
+    "targetWord": "zu",
+    "sentence": "Ich glaube, Davi wird gut _____ uns passen.",
+    "sentenceTranslation": "Я думаю, Дави хорошо нам подойдет.",
+    "verbTranslation": "подходить к",
+    "explanation": "passen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp122",
+    "verb": "raten",
+    "targetWord": "zu",
+    "sentence": "Ich rate dir _____, alle Aufträge gleich im Computer zu notieren.",
+    "sentenceTranslation": "Я советую тебе сразу отмечать все заказы в компьютере.",
+    "verbTranslation": "советовать что-то",
+    "explanation": "raten zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp123",
+    "verb": "sich retten",
+    "targetWord": "vor",
+    "sentence": "Alle haben sich _____ dem Feuer gerettet.",
+    "sentenceTranslation": "Все спаслись от огня.",
+    "verbTranslation": "спасаться от",
+    "explanation": "sich retten vor + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp124",
+    "verb": "sich richten",
+    "targetWord": "nach",
+    "sentence": "Ich richte mich da ganz _____ Ihnen.",
+    "sentenceTranslation": "Я здесь полностью ориентируюсь на вас (подстраиваюсь под вас).",
+    "verbTranslation": "ориентироваться на / следовать чему-то",
+    "explanation": "sich richten nach + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp125",
+    "verb": "schimpfen",
+    "targetWord": "mit",
+    "sentence": "Er schimpft den ganzen Tag _____ seinem Hund.",
+    "sentenceTranslation": "Он весь день ругается со своей собакой.",
+    "verbTranslation": "ругаться с кем-то",
+    "explanation": "schimpfen mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp126",
+    "verb": "schmecken",
+    "targetWord": "nach",
+    "sentence": "Die Schokolade schmeckt _____ Nougat.",
+    "sentenceTranslation": "Шоколад на вкус как нуга.",
+    "verbTranslation": "иметь вкус чего-то",
+    "explanation": "schmecken nach + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp127",
+    "verb": "speichern",
+    "targetWord": "auf",
+    "sentence": "Du solltest die Datei _____ der Cloud speichern.",
+    "sentenceTranslation": "Тебе стоит сохранить файл в облаке.",
+    "verbTranslation": "сохранять на",
+    "explanation": "speichern auf + Dativ",
+    "wrongAnswers": [
+      "an",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp128",
+    "verb": "sprechen",
+    "targetWord": "mit",
+    "sentence": "Kann ich mal kurz _____ Ihnen sprechen?",
+    "sentenceTranslation": "Могу я с вами коротко поговорить?",
+    "verbTranslation": "говорить с",
+    "explanation": "sprechen mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp129",
+    "verb": "sprechen",
+    "targetWord": "von",
+    "sentence": "Rosa hat den ganzen Abend nur _____ ihrer Arbeit gesprochen.",
+    "sentenceTranslation": "Роза весь вечер говорила только о своей работе.",
+    "verbTranslation": "говорить о (ком-то/чем-то)",
+    "explanation": "sprechen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp130",
+    "verb": "sterben",
+    "targetWord": "an",
+    "sentence": "Mein Opa ist letztes Jahr _____ Krebs gestorben.",
+    "sentenceTranslation": "Мой дедушка умер в прошлом году от рака.",
+    "verbTranslation": "умирать от (болезни)",
+    "explanation": "sterben an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp131",
+    "verb": "sich streiten",
+    "targetWord": "mit",
+    "sentence": "Ich habe mich gestern _____ meinem Freund gestritten.",
+    "sentenceTranslation": "Я вчера поссорился со своим другом.",
+    "verbTranslation": "ссориться с",
+    "explanation": "sich streiten mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp132",
+    "verb": "teilnehmen",
+    "targetWord": "an",
+    "sentence": "Nimmst du auch _____ nächsten Kurs teil?",
+    "sentenceTranslation": "Ты тоже участвуешь в следующем курсе?",
+    "verbTranslation": "принимать участие в",
+    "explanation": "teilnehmen an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp133",
+    "verb": "telefonieren",
+    "targetWord": "mit",
+    "sentence": "Ich habe gerade _____ der Personalabteilung telefoniert.",
+    "sentenceTranslation": "Я только что разговаривал по телефону с отделом кадров.",
+    "verbTranslation": "разговаривать по телефону с",
+    "explanation": "telefonieren mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp134",
+    "verb": "träumen",
+    "targetWord": "von",
+    "sentence": "Ich träume _____ nächsten Urlaub.",
+    "sentenceTranslation": "Я мечтаю о следующем отпуске.",
+    "verbTranslation": "мечтать о",
+    "explanation": "träumen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp135",
+    "verb": "sich treffen",
+    "targetWord": "mit",
+    "sentence": "Nach dem Kurs treffe ich mich noch _____ Jenny.",
+    "sentenceTranslation": "После курса я еще встречусь с Дженни.",
+    "verbTranslation": "встречаться с",
+    "explanation": "sich treffen mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp136",
+    "verb": "sich trennen",
+    "targetWord": "von",
+    "sentence": "Wir haben uns _____ der Mitarbeiterin leider trennen müssen.",
+    "sentenceTranslation": "Нам, к сожалению, пришлось расстаться с этой сотрудницей (уволить ее).",
+    "verbTranslation": "расставаться с / отделяться от",
+    "explanation": "sich trennen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp137",
+    "verb": "überreden",
+    "targetWord": "zu",
+    "sentence": "Ich habe sie _____ einem Ausflug überredet.",
+    "sentenceTranslation": "Я уговорил ее на поездку.",
+    "verbTranslation": "уговаривать на",
+    "explanation": "überreden zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp138",
+    "verb": "überzeugen",
+    "targetWord": "von",
+    "sentence": "Versuch nicht, mich _____ Gegenteil zu überzeugen.",
+    "sentenceTranslation": "Не пытайся убедить меня в обратном.",
+    "verbTranslation": "убеждать в чем-то",
+    "explanation": "überzeugen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp139",
+    "verb": "umgehen",
+    "targetWord": "mit",
+    "sentence": "Kannst du gut _____ Stress umgehen?",
+    "sentenceTranslation": "Ты умеешь хорошо справляться со стрессом?",
+    "verbTranslation": "обращаться с / справляться с",
+    "explanation": "umgehen mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp140",
+    "verb": "unterbrechen",
+    "targetWord": "bei",
+    "sentence": "Meine Kinder unterbrechen mich ständig _____ der Arbeit.",
+    "sentenceTranslation": "Мои дети постоянно прерывают меня во время работы.",
+    "verbTranslation": "прерывать в / мешать в чем-то",
+    "explanation": "unterbrechen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp141",
+    "verb": "sich unterhalten",
+    "targetWord": "mit",
+    "sentence": "Gestern habe ich mich lange _____ meinem Chef unterhalten.",
+    "sentenceTranslation": "Вчера я долго беседовал со своим шефом.",
+    "verbTranslation": "беседовать с",
+    "explanation": "sich unterhalten mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp142",
+    "verb": "sich unterscheiden",
+    "targetWord": "von",
+    "sentence": "Meine neue Firma unterscheidet sich deutlich _____ der alten.",
+    "sentenceTranslation": "Моя новая фирма значительно отличается от старой.",
+    "verbTranslation": "отличаться от",
+    "explanation": "sich unterscheiden von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp143",
+    "verb": "unterstützen",
+    "targetWord": "bei",
+    "sentence": "Können Sie uns _____ dem Projekt unterstützen?",
+    "sentenceTranslation": "Вы можете поддержать нас в этом проекте?",
+    "verbTranslation": "поддерживать в",
+    "explanation": "unterstützen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp144",
+    "verb": "sich verabreden",
+    "targetWord": "mit",
+    "sentence": "Ich würde mich gern mal _____ ihm privat verabreden.",
+    "sentenceTranslation": "Я хотел бы как-нибудь договориться с ним о частной встрече.",
+    "verbTranslation": "договариваться о встрече с",
+    "explanation": "sich verabreden mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp145",
+    "verb": "sich verabschieden",
+    "targetWord": "von",
+    "sentence": "Unsere Kunden haben sich erst um 12 Uhr _____ uns verabschiedet.",
+    "sentenceTranslation": "Наши клиенты попрощались с нами только в 12 часов.",
+    "verbTranslation": "прощаться с",
+    "explanation": "sich verabschieden von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp146",
+    "verb": "verbinden",
+    "targetWord": "mit",
+    "sentence": "Was verbindest du _____ dem Begriff „Gerechtigkeit“?",
+    "sentenceTranslation": "Что ты связываешь с понятием «справедливость»?",
+    "verbTranslation": "связывать с",
+    "explanation": "verbinden mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp147",
+    "verb": "vergleichen",
+    "targetWord": "mit",
+    "sentence": "Man kann Äpfel nicht _____ Birnen vergleichen.",
+    "sentenceTranslation": "Нельзя сравнивать яблоки с грушами.",
+    "verbTranslation": "сравнивать с",
+    "explanation": "vergleichen mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp148",
+    "verb": "verlangen",
+    "targetWord": "von",
+    "sentence": "Was verlangst du _____ mir?",
+    "sentenceTranslation": "Что ты требуешь от меня?",
+    "verbTranslation": "требовать от",
+    "explanation": "verlangen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp149",
+    "verb": "sich verstecken",
+    "targetWord": "vor",
+    "sentence": "Er versteckt sich _____ ihr.",
+    "sentenceTranslation": "Он прячется от нее.",
+    "verbTranslation": "прятаться от",
+    "explanation": "sich verstecken vor + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp150",
+    "verb": "sich verstehen",
+    "targetWord": "mit",
+    "sentence": "Gabriela versteht sich sehr gut _____ ihren Kollegen.",
+    "sentenceTranslation": "Габриэла очень хорошо ладит со своими коллегами.",
+    "verbTranslation": "ладить с",
+    "explanation": "sich verstehen mit + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp151",
+    "verb": "vorbeikommen",
+    "targetWord": "bei",
+    "sentence": "Kommt ihr nachher noch _____ uns vorbei?",
+    "sentenceTranslation": "Вы зайдете к нам позже?",
+    "verbTranslation": "заходить / заглядывать к кому-то",
+    "explanation": "vorbeikommen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp152",
+    "verb": "vorkommen",
+    "targetWord": "bei",
+    "sentence": "_____ meinem Computer kommt es jetzt öfter vor, dass er abstürzt.",
+    "sentenceTranslation": "С моим компьютером теперь чаще случается, что он зависает.",
+    "verbTranslation": "случаться / происходить у",
+    "explanation": "vorkommen bei + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp153",
+    "verb": "vortragen",
+    "targetWord": "vor",
+    "sentence": "Er hat die Präsentation _____ über 100 Leuten vorgetragen.",
+    "sentenceTranslation": "Он выступил с презентацией перед более чем 100 людьми.",
+    "verbTranslation": "выступать / докладывать перед",
+    "explanation": "vortragen vor + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp154",
+    "verb": "weglaufen",
+    "targetWord": "vor",
+    "sentence": "Du kannst nicht immer _____ deinen Problemen weglaufen.",
+    "sentenceTranslation": "Ты не можешь вечно убегать от своих проблем.",
+    "verbTranslation": "убегать от",
+    "explanation": "weglaufen vor + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp155",
+    "verb": "sich wünschen",
+    "targetWord": "von",
+    "sentence": "Gabriela wünscht sich _____ Ron ein Buch.",
+    "sentenceTranslation": "Габриэла хочет в подарок от Рона книгу.",
+    "verbTranslation": "желать / хотеть от кого-то",
+    "explanation": "sich wünschen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp156",
+    "verb": "zurückkommen",
+    "targetWord": "von",
+    "sentence": "Gestern ist mein Bruder _____ einer langen Reise zurückgekommen.",
+    "sentenceTranslation": "Вчера мой брат вернулся из долгой поездки.",
+    "verbTranslation": "возвращаться из/с",
+    "explanation": "zurückkommen von + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp157",
+    "verb": "zählen",
+    "targetWord": "zu",
+    "sentence": "Rosa zählt _____ den besten Fahrerinnen in ihrer Firma.",
+    "sentenceTranslation": "Роза считается одной из лучших водительниц в своей фирме.",
+    "verbTranslation": "считаться / относиться к числу",
+    "explanation": "zählen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp158",
+    "verb": "zweifeln",
+    "targetWord": "an",
+    "sentence": "Zweifelst du _____ deiner Kompetenz?",
+    "sentenceTranslation": "Ты сомневаешься в своей компетенции?",
+    "verbTranslation": "сомневаться в",
+    "explanation": "zweifeln an + Dativ",
+    "wrongAnswers": [
+      "auf",
+      "von",
+      "mit"
+    ]
+  },
+  {
+    "id": "vmp159",
+    "verb": "zwingen",
+    "targetWord": "zu",
+    "sentence": "Niemand kann dich _____ diesem Projekt zwingen.",
+    "sentenceTranslation": "Никто не может принудить тебя к этому проекту.",
+    "verbTranslation": "принуждать к",
+    "explanation": "zwingen zu + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  },
+  {
+    "id": "vmp160",
+    "verb": "sich streiten",
+    "targetWord": "um",
+    "sentence": "In Beziehungen wird oft _____ Geld gestritten.",
+    "sentenceTranslation": "В отношениях часто спорят из-за денег.",
+    "verbTranslation": "спорить из-за",
+    "explanation": "sich streiten um + Dativ",
+    "wrongAnswers": [
+      "an",
+      "auf",
+      "von"
+    ]
+  }
+]

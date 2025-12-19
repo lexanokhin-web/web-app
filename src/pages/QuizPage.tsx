@@ -17,6 +17,9 @@ interface QuizData {
     correctAnswer: string;
     wrongAnswers: string[];
     explanation?: string;
+    verbTranslation?: string;
+    sentenceTranslation?: string;
+    exampleSentence?: string;
 }
 
 interface Sentence {
@@ -26,6 +29,9 @@ interface Sentence {
     targetWordTranslation: string;
     wrongAnswers?: string[];
     explanation?: string;
+    verb?: string;
+    verbTranslation?: string;
+    sentenceTranslation?: string;
 }
 
 export const QuizPage: React.FC = () => {
@@ -107,10 +113,13 @@ export const QuizPage: React.FC = () => {
             }
 
             return {
-                question: sentence.sentence.replace('_____', '______'),
+                question: sentence.verb ? `${sentence.verb} ______` : sentence.sentence.replace('_____', '______'),
                 correctAnswer,
                 wrongAnswers,
-                explanation: sentence.explanation
+                explanation: sentence.explanation,
+                verbTranslation: sentence.verbTranslation,
+                sentenceTranslation: sentence.sentenceTranslation,
+                exampleSentence: sentence.verb ? sentence.sentence : undefined
             };
         });
 
@@ -353,6 +362,9 @@ export const QuizPage: React.FC = () => {
                         questionNumber={currentIndex + 1}
                         totalQuestions={quizData.length}
                         explanation={currentQuiz.explanation}
+                        verbTranslation={currentQuiz.verbTranslation}
+                        sentenceTranslation={currentQuiz.sentenceTranslation}
+                        exampleSentence={currentQuiz.exampleSentence}
                     />
                 )}
             </div>

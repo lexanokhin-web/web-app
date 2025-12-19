@@ -141,6 +141,12 @@ export const QUIZ_CONFIG: LevelConfig[] = [
                 title: 'Nebensatz-Konnektoren',
                 description: 'Weil, dass, wenn, ob, obwohl',
                 file: 'connectors_subordinate.json'
+            },
+            {
+                id: 'verben_mit_praeposition',
+                title: 'Verben Mit Präposition',
+                description: 'Упражнения на глаголы с предлогами (B1)',
+                file: 'verben_mit_praeposition.json'
             }
         ]
     },
