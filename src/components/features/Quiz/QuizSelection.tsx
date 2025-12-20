@@ -22,6 +22,8 @@ export const QuizSelection: React.FC<QuizSelectionProps> = ({ onSelectTopic }) =
         }
     };
 
+    const levelIcon = getLevelIcon(selectedLevelId);
+
     const getLevelColor = (level: QuizLevel) => {
         switch (level) {
             case 'A1': return 'bg-green-100 text-green-700 hover:bg-green-200';
@@ -53,7 +55,7 @@ export const QuizSelection: React.FC<QuizSelectionProps> = ({ onSelectTopic }) =
                         `}
                     >
                         {getLevelIcon(level.id)}
-                        <span className="font-bold">{level.id}</span>
+                        <span className="font-black">{level.id}</span>
                         <span className="hidden sm:inline text-sm opacity-90">- {level.title.split('-')[1].trim()}</span>
                     </button>
                 ))}
@@ -68,32 +70,32 @@ export const QuizSelection: React.FC<QuizSelectionProps> = ({ onSelectTopic }) =
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
                 >
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-3 lg:grid-cols-3 gap-2 sm:gap-6">
                         {selectedLevelConfig?.topics.map((topic) => (
                             <GlassCard
                                 key={topic.id}
-                                className="p-6 cursor-pointer group hover:border-indigo-300 transition-all duration-300 hover:shadow-md"
+                                className="p-2 sm:p-6 cursor-pointer group hover:border-indigo-300 transition-all duration-300 hover:shadow-md h-full flex flex-col items-center justify-center sm:justify-start text-center"
                                 onClick={() => onSelectTopic(selectedLevelId, topic)}
                             >
-                                <div className="flex justify-between items-start mb-4">
-                                    <div className={`p-3 rounded-lg ${getLevelColor(selectedLevelId)}`}>
-                                        {getLevelIcon(selectedLevelId)}
+                                <div className="hidden sm:flex justify-between items-start mb-2 sm:mb-4 w-full">
+                                    <div className={`p-1.5 sm:p-3 rounded-lg ${getLevelColor(selectedLevelId)}`}>
+                                        {levelIcon}
                                     </div>
-                                    <div className="text-xs font-semibold text-gray-400 bg-gray-100 px-2 py-1 rounded">
+                                    <div className="hidden sm:block text-xs font-semibold text-gray-400 bg-gray-100 px-2 py-1 rounded">
                                         Grammatik
                                     </div>
                                 </div>
 
-                                <h3 className="text-lg font-bold text-gray-800 mb-2 group-hover:text-indigo-600 transition-colors">
+                                <h3 className="text-[10px] sm:text-lg font-black text-gray-800 sm:mb-2 group-hover:text-indigo-600 transition-colors line-clamp-2 min-h-[1.5rem] sm:min-h-0 uppercase tracking-tight">
                                     {topic.title}
                                 </h3>
 
-                                <p className="text-sm text-gray-600 mb-4 line-clamp-2">
+                                <p className="hidden sm:block text-sm text-gray-600 mb-4 line-clamp-2">
                                     {topic.description}
                                 </p>
 
-                                <div className="flex items-center text-indigo-600 text-sm font-semibold group-hover:translate-x-1 transition-transform">
-                                    Starten <ChevronRight className="w-4 h-4 ml-1" />
+                                <div className="mt-auto hidden sm:flex items-center text-indigo-600 text-[8px] sm:text-sm font-bold group-hover:translate-x-1 transition-transform">
+                                    <span className="hidden sm:inline">Starten</span>
                                 </div>
                             </GlassCard>
                         ))}

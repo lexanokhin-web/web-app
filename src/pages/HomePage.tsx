@@ -240,8 +240,8 @@ export const HomePage: React.FC = () => {
                                 <button
                                     onClick={() => toggleCategory(block.blockId)}
                                     className={`w-full flex items-center justify-between p-4 rounded-xl transition-all ${isOpen
-                                            ? 'bg-gradient-to-r from-purple-500/20 to-blue-500/20 backdrop-blur-md'
-                                            : 'bg-white/40 backdrop-blur-md hover:bg-white/60'
+                                        ? 'bg-gradient-to-r from-purple-500/20 to-blue-500/20 backdrop-blur-md'
+                                        : 'bg-white/40 backdrop-blur-md hover:bg-white/60'
                                         }`}
                                 >
                                     <div className="flex items-center gap-3">
@@ -270,23 +270,21 @@ export const HomePage: React.FC = () => {
                                             transition={{ duration: 0.2 }}
                                             className="overflow-hidden"
                                         >
-                                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-3 pb-2">
+                                            <div className="grid grid-cols-3 sm:grid-cols-3 gap-2 sm:gap-4 pt-3 pb-2">
                                                 {block.exercises.map((exercise) => {
                                                     const Icon = exercise.icon;
                                                     return (
                                                         <GlassCard
                                                             key={exercise.id}
                                                             onClick={() => navigate(exercise.path)}
-                                                            className="p-4"
+                                                            className="p-2 sm:p-4 min-h-[90px] sm:min-h-[140px] flex flex-col items-center justify-center text-center"
                                                         >
-                                                            <div className="flex flex-col items-center text-center gap-2">
-                                                                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${exercise.color} flex items-center justify-center shadow-md`}>
-                                                                    <Icon className="w-6 h-6 text-white" />
-                                                                </div>
-                                                                <h3 className="text-sm font-semibold text-gray-800 leading-tight">
-                                                                    {exercise.name}
-                                                                </h3>
+                                                            <div className={`w-8 h-8 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br ${exercise.color} flex items-center justify-center shadow-md mb-1.5 sm:mb-2`}>
+                                                                <Icon className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                                                             </div>
+                                                            <h3 className="text-[10px] sm:text-sm font-bold text-gray-800 leading-tight">
+                                                                {exercise.name}
+                                                            </h3>
                                                         </GlassCard>
                                                     );
                                                 })}

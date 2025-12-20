@@ -130,7 +130,7 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
                         className={`
               ${getButtonStyle(option)}
               p-4 sm:p-6 rounded-xl
-              text-lg sm:text-xl font-semibold
+              text-lg sm:text-xl font-black
               transition-all duration-200
               backdrop-blur-md
               disabled:cursor-not-allowed
@@ -154,43 +154,65 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
                 ))}
             </div>
 
-            {/* Feedback */}
+            {/* Feedback Overlay / Section */}
             <AnimatePresence>
                 {showFeedback && (
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0 }}
-                        className="mt-6"
-                    >
-                        <div className={`
-                            p-4 rounded-xl text-center text-lg font-semibold
-                            ${isCorrect
-                                ? 'bg-green-100 text-green-800 border-2 border-green-300'
-                                : 'bg-red-100 text-red-800 border-2 border-red-300'
-                            }
-                        `}>
-                            <div>{isCorrect ? '✅ Правильно!' : `❌ Правильный ответ: ${correctAnswer}`}</div>
-                            {explanation && (
-                                <div className="mt-2 text-sm opacity-80 italic">
-                                    💡 {explanation}
-                                </div>
-                            )}
-                        </div>
+                    <>
+                        {/* Mobile Backdrop blur */}
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            className="fixed inset-0 bg-black/10 backdrop-blur-[2px] z-40 md:hidden"
+                        />
 
-                        {/* Next button */}
-                        <motion.button
-                            onClick={handleNext}
-                            className="mt-4 w-full py-4 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-xl font-bold text-lg flex items-center justify-center gap-2 hover:from-indigo-600 hover:to-purple-700 transition-all shadow-lg"
-                            whileHover={{ scale: 1.02 }}
-                            whileTap={{ scale: 0.98 }}
+                        <motion.div
+                            initial={{ opacity: 0, y: 100 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 100 }}
+                            className={`
+                                fixed bottom-0 left-0 right-0 z-50 p-6 
+                                bg-white/80 backdrop-blur-xl border-t border-white/40
+                                shadow-[0_-20px_40px_rgba(0,0,0,0.1)]
+                                md:relative md:mt-8 md:p-0 md:bg-transparent md:backdrop-blur-none md:border-none md:shadow-none
+                            `}
                         >
-                            Weiter
-                            <ArrowRight className="w-5 h-5" />
-                        </motion.button>
-                    </motion.div>
+                            <div className="max-w-2xl mx-auto">
+                                <div className={`
+                                    p-4 rounded-2xl text-center text-lg font-bold
+                                    shadow-sm
+                                    ${isCorrect
+                                        ? 'bg-green-100/80 text-green-800 border border-green-200'
+                                        : 'bg-red-100/80 text-red-800 border border-red-200'
+                                    }
+                                `}>
+                                    <div className="flex items-center justify-center gap-2">
+                                        {isCorrect ? <Check className="w-6 h-6" /> : <X className="w-6 h-6" />}
+                                        <span>{isCorrect ? 'Правильно!' : `Верный ответ: ${correctAnswer}`}</span>
+                                    </div>
+                                    {explanation && (
+                                        <div className="mt-2 text-sm font-medium opacity-70 italic leading-relaxed">
+                                            💡 {explanation}
+                                        </div>
+                                    )}
+                                </div>
+
+                                {/* Next button */}
+                                <motion.button
+                                    onClick={handleNext}
+                                    className="mt-4 w-full py-5 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-2xl font-black text-xl flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-[0_10px_20px_-5px_rgba(79,70,229,0.4)]"
+                                >
+                                    Weiter
+                                    <ArrowRight className="w-6 h-6" />
+                                </motion.button>
+                            </div>
+                        </motion.div>
+                    </>
                 )}
             </AnimatePresence>
+
+            {/* Spacer for mobile to prevent content being hidden behind the fixed footer */}
+            {showFeedback && <div className="h-40 md:hidden" />}
         </div>
     );
 };

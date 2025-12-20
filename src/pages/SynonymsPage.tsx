@@ -151,7 +151,7 @@ export const SynonymsPage: React.FC = () => {
                 onRestart={handleRestart}
                 onBack={() => navigate('/')}
                 restartLabel="Nochmal üben"
-                backLabel="Zurück zur Startseite"
+                backLabel="Zurück"
             />
         );
     }

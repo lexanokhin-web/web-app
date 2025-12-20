@@ -219,8 +219,7 @@ export const QuizPage: React.FC = () => {
                             onClick={() => navigate('/')}
                             variant="secondary"
                         >
-                            <ArrowLeft className="w-5 h-5 mr-2" />
-                            Zurück zum Hauptmenü
+                            <ArrowLeft className="w-5 h-5" />
                         </Button>
                     </div>
                     <QuizSelection onSelectTopic={handleTopicSelect} />
@@ -317,9 +316,9 @@ export const QuizPage: React.FC = () => {
                     <Button
                         onClick={handleBack}
                         variant="secondary"
+                        className="!p-3"
                     >
-                        <ArrowLeft className="w-5 h-5 mr-2" />
-                        {blockId ? 'Startseite' : 'Zurück zur Auswahl'}
+                        <ArrowLeft className="w-5 h-5" />
                     </Button>
 
                     <div className="flex items-center space-x-4">

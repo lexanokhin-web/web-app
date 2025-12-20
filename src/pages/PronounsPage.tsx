@@ -189,7 +189,7 @@ export const PronounsPage: React.FC = () => {
                                     Nochmal üben
                                 </Button>
                                 <Button onClick={() => navigate('/')} variant="secondary" className="w-full justify-center">
-                                    Zurück zur Startseite
+                                    Zurück
                                 </Button>
                             </div>
                         </GlassCard>
@@ -239,8 +239,8 @@ export const PronounsPage: React.FC = () => {
                                             setIsCorrect(null);
                                         }}
                                         className={`relative px-3 py-3 rounded-xl font-semibold text-sm transition-all transform ${isActive
-                                                ? `${config.bgActive} shadow-lg scale-105`
-                                                : config.bgInactive
+                                            ? `${config.bgActive} shadow-lg scale-105`
+                                            : config.bgInactive
                                             }`}
                                     >
                                         <div>{config.label}</div>
@@ -325,8 +325,8 @@ export const PronounsPage: React.FC = () => {
                                             onKeyPress={handleKeyPress}
                                             placeholder="ich / mich / mir / du / dich / dir..."
                                             className={`flex-1 px-4 py-3 text-xl rounded-xl border-2 transition-colors ${isCorrect === true ? 'border-green-500 bg-green-50' :
-                                                    isCorrect === false ? 'border-red-500 bg-red-50' :
-                                                        'border-gray-300 focus:border-green-500'
+                                                isCorrect === false ? 'border-red-500 bg-red-50' :
+                                                    'border-gray-300 focus:border-green-500'
                                                 } outline-none`}
                                             disabled={showHint}
                                             autoFocus
