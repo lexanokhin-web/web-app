@@ -121,7 +121,7 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
             )}
 
             {/* Options */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
                 {options.map((option, index) => (
                     <motion.button
                         key={index}
@@ -129,8 +129,8 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
                         disabled={selectedAnswer !== null}
                         className={`
               ${getButtonStyle(option)}
-              p-6 rounded-xl
-              text-xl font-semibold
+              p-4 sm:p-6 rounded-xl
+              text-lg sm:text-xl font-semibold
               transition-all duration-200
               backdrop-blur-md
               disabled:cursor-not-allowed
