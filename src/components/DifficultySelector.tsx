@@ -79,11 +79,6 @@ export const DifficultySelector: React.FC<DifficultySelectorProps> = ({
                             }`}
                     >
                         <div>{level.label}</div>
-                        {level.count > 0 && (
-                            <div className={`text-xs mt-1 ${isActive ? 'text-white/80' : 'opacity-60'}`}>
-                                {level.count} Aufgaben
-                            </div>
-                        )}
                     </motion.button>
                 );
             })}

@@ -204,9 +204,8 @@ export const PronounsPage: React.FC = () => {
             <div className="max-w-3xl mx-auto">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
-                    <Button onClick={() => navigate('/')} variant="secondary">
-                        <ArrowLeft className="w-5 h-5 mr-2" />
-                        Zurück
+                    <Button onClick={() => navigate('/')} variant="secondary" className="!p-3">
+                        <ArrowLeft className="w-5 h-5" />
                     </Button>
                     <h1 className="text-2xl font-bold text-gray-800">
                         Personalpronomen
@@ -244,9 +243,6 @@ export const PronounsPage: React.FC = () => {
                                             }`}
                                     >
                                         <div>{config.label}</div>
-                                        <div className={`text-xs mt-1 ${isActive ? 'text-white/80' : 'opacity-60'}`}>
-                                            {count}
-                                        </div>
                                     </button>
                                 );
                             })}

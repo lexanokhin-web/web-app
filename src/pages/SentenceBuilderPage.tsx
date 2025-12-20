@@ -121,9 +121,8 @@ export const SentenceBuilderPage: React.FC = () => {
                     {/* Header */}
                     <div className="flex items-center justify-between mb-8">
                         <div className="flex items-center">
-                            <Button onClick={() => navigate('/')} variant="secondary">
-                                <ArrowLeft className="w-5 h-5 mr-2" />
-                                Zurück
+                            <Button onClick={() => navigate('/')} variant="secondary" className="!p-3">
+                                <ArrowLeft className="w-5 h-5" />
                             </Button>
                             <h1 className="text-3xl font-bold text-gray-800 ml-4">
                                 🧩 Sätze bauen
@@ -138,46 +137,25 @@ export const SentenceBuilderPage: React.FC = () => {
                         </p>
                     </div>
 
-                    {/* Grammar Hint */}
-                    <ExpandableHint
-                        title="Wortstellung-Regeln"
-                        icon={<BookOpen className="w-4 h-4" />}
-                        className="mb-6"
-                    >
-                        <GlassCard className="p-4">
-                            <div className="space-y-3">
-                                {wordOrderRules.map((rule, i) => (
-                                    <div key={i} className="p-3 bg-purple-50 rounded-lg">
-                                        <div className="font-semibold text-purple-700">{rule.title}</div>
-                                        <div className="text-sm text-gray-600">{rule.rule}</div>
-                                        <div className="text-sm italic text-gray-500">z.B. {rule.example}</div>
-                                    </div>
-                                ))}
-                            </div>
-                        </GlassCard>
-                    </ExpandableHint>
 
                     {/* Level Selection */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 md:grid-cols-2 gap-3 sm:gap-4">
                         {(['A1', 'A2', 'B1', 'B2'] as const).map(level => {
                             const levelExercises = getExercisesByLevel(level);
                             return (
                                 <GlassCard
                                     key={level}
-                                    className="p-6 cursor-pointer hover:scale-105 transition-transform duration-200"
+                                    className="p-3 sm:p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-200 h-full flex flex-col"
                                     onClick={() => setSelectedLevel(level)}
                                 >
-                                    <div className={`w-full h-32 bg-gradient-to-r ${getLevelColor(level)} rounded-xl mb-4 flex items-center justify-center`}>
-                                        <span className="text-5xl font-bold text-white">{level}</span>
+                                    <div className={`w-full h-16 sm:h-32 bg-gradient-to-r ${getLevelColor(level)} rounded-xl mb-3 flex items-center justify-center`}>
+                                        <span className="text-2xl sm:text-5xl font-bold text-white">{level}</span>
                                     </div>
-                                    <h3 className="text-xl font-bold text-gray-800 mb-2">
+                                    <h3 className="text-sm sm:text-xl font-black text-gray-800 mb-1 leading-tight">
                                         {getLevelDescription(level)}
                                     </h3>
-                                    <div className="flex items-center justify-between">
-                                        <span className="text-sm text-gray-500">
-                                            {levelExercises.length} Übungen
-                                        </span>
-                                        <ChevronRight className="w-5 h-5 text-purple-600" />
+                                    <div className="flex items-center justify-end mt-auto">
+                                        <ChevronRight className="w-3 h-3 sm:w-5 sm:h-5 text-purple-600" />
                                     </div>
                                 </GlassCard>
                             );
@@ -194,31 +172,30 @@ export const SentenceBuilderPage: React.FC = () => {
             <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-indigo-50 to-purple-50">
                 <div className="max-w-4xl mx-auto">
                     <div className="flex items-center mb-8">
-                        <Button onClick={() => setSelectedLevel(null)} variant="secondary">
-                            <ArrowLeft className="w-5 h-5 mr-2" />
-                            Andere Stufe
+                        <Button onClick={() => setSelectedLevel(null)} variant="secondary" className="!p-3">
+                            <ArrowLeft className="w-5 h-5" />
                         </Button>
-                        <h1 className="text-3xl font-bold text-gray-800 ml-4">
-                            Level {selectedLevel}: Themenwahl
+                        <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 ml-4">
+                            Level {selectedLevel}
                         </h1>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
                         {/* ALL Button */}
                         <GlassCard
-                            className="p-6 cursor-pointer hover:scale-105 transition-all border-2 border-purple-200 hover:border-purple-400 group"
+                            className="p-3 sm:p-6 cursor-pointer hover:scale-[1.02] transition-all border-2 border-purple-200 hover:border-purple-400 group h-full flex flex-col"
                             onClick={() => setSelectedTopic('ALL')}
                         >
-                            <div className="flex items-center justify-between mb-4">
-                                <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center group-hover:bg-purple-200 transition-colors">
-                                    <span className="text-2xl">🌟</span>
+                            <div className="flex items-center justify-between mb-2 sm:mb-4">
+                                <div className="w-8 h-8 sm:w-12 sm:h-12 rounded-full bg-purple-100 flex items-center justify-center group-hover:bg-purple-200 transition-colors text-lg sm:text-2xl">
+                                    🌟
                                 </div>
-                                <span className="text-xs font-bold px-2 py-1 bg-purple-100 text-purple-700 rounded-full">
+                                <span className="text-[10px] sm:text-xs font-bold px-2 py-0.5 sm:py-1 bg-purple-100 text-purple-700 rounded-full">
                                     Alle
                                 </span>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-800 mb-2">Alle Übungen</h3>
-                            <p className="text-gray-600 text-sm">
+                            <h3 className="text-sm sm:text-xl font-black text-gray-800 mb-1 leading-tight mt-auto">Alle Übungen</h3>
+                            <p className="text-gray-600 text-[10px] sm:text-sm hidden sm:block">
                                 Trainiere alle Themen von Level {selectedLevel} gemischt.
                             </p>
                         </GlassCard>
@@ -231,16 +208,15 @@ export const SentenceBuilderPage: React.FC = () => {
                             return (
                                 <GlassCard
                                     key={topic}
-                                    className="p-6 cursor-pointer hover:scale-105 transition-all"
+                                    className="p-3 sm:p-6 cursor-pointer hover:scale-[1.02] transition-all h-full flex flex-col"
                                     onClick={() => setSelectedTopic(topic)}
                                 >
-                                    <h3 className="text-xl font-bold text-gray-800 mb-2">{topic}</h3>
+                                    <h3 className="text-sm sm:text-xl font-black text-gray-800 mb-1 leading-tight">{topic}</h3>
                                     {description && (
-                                        <div className="text-xs text-gray-500 mb-3 whitespace-pre-line leading-relaxed">
+                                        <div className="text-[10px] text-gray-500 mb-2 whitespace-pre-line leading-relaxed hidden sm:block">
                                             {description}
                                         </div>
                                     )}
-                                    <span className="text-sm text-purple-600 font-medium">{count} Übungen</span>
                                 </GlassCard>
                             );
                         })}
@@ -308,9 +284,8 @@ export const SentenceBuilderPage: React.FC = () => {
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
                     <div className="flex items-center gap-4">
-                        <Button onClick={() => setSelectedTopic(null)} variant="secondary">
-                            <ArrowLeft className="w-5 h-5 mr-2" />
-                            Zurück
+                        <Button onClick={() => setSelectedTopic(null)} variant="secondary" className="!p-3">
+                            <ArrowLeft className="w-5 h-5" />
                         </Button>
                         <div>
                             <h1 className="text-2xl font-bold text-gray-800">
@@ -335,14 +310,15 @@ export const SentenceBuilderPage: React.FC = () => {
                 {/* Word Order Hint */}
                 <ExpandableHint
                     title="Wortstellung-Hilfe"
-                    icon={<BookOpen className="w-4 h-4" />}
-                    className="mb-4"
+                    icon={<BookOpen className="w-3 h-3" />}
+                    className="mb-3"
+                    buttonClassName="py-1.5 text-xs font-black shadow-sm"
                 >
-                    <GlassCard className="p-3">
-                        <div className="grid grid-cols-2 gap-2 text-sm">
+                    <GlassCard className="p-2">
+                        <div className="grid grid-cols-2 gap-1.5 text-[10px] sm:text-xs">
                             {wordOrderRules.map((rule, i) => (
-                                <div key={i} className="p-2 bg-purple-50 rounded">
-                                    <span className="font-semibold text-purple-700">{rule.title}:</span>
+                                <div key={i} className="p-1.5 bg-purple-50 rounded">
+                                    <span className="font-black text-purple-700">{rule.title}:</span>
                                     <span className="text-gray-600 ml-1">{rule.rule}</span>
                                 </div>
                             ))}

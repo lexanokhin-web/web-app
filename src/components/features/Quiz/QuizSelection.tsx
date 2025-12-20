@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { GlassCard } from '../../GlassCard';
 import { QUIZ_CONFIG, type QuizLevel, type QuizTopic } from '../../../data/quizzes/quiz-config';
-import { BookOpen, Star, Trophy, GraduationCap, ChevronRight } from 'lucide-react';
+import { BookOpen, Star, Trophy, GraduationCap } from 'lucide-react';
 
 interface QuizSelectionProps {
     onSelectTopic: (level: QuizLevel, topic: QuizTopic) => void;
@@ -70,15 +70,15 @@ export const QuizSelection: React.FC<QuizSelectionProps> = ({ onSelectTopic }) =
                     exit={{ opacity: 0, y: -20 }}
                     transition={{ duration: 0.3 }}
                 >
-                    <div className="grid grid-cols-3 lg:grid-cols-3 gap-2 sm:gap-6">
+                    <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
                         {selectedLevelConfig?.topics.map((topic) => (
                             <GlassCard
                                 key={topic.id}
-                                className="p-2 sm:p-6 cursor-pointer group hover:border-indigo-300 transition-all duration-300 hover:shadow-md h-full flex flex-col items-center justify-center sm:justify-start text-center"
+                                className="p-3 sm:p-6 cursor-pointer group hover:border-indigo-300 transition-all duration-300 hover:shadow-md h-full flex flex-col items-center justify-center sm:justify-start text-center"
                                 onClick={() => onSelectTopic(selectedLevelId, topic)}
                             >
                                 <div className="hidden sm:flex justify-between items-start mb-2 sm:mb-4 w-full">
-                                    <div className={`p-1.5 sm:p-3 rounded-lg ${getLevelColor(selectedLevelId)}`}>
+                                    <div className={`p-1.5 sm:p-3 rounded-lg ${getLevelColor(selectedLevelId)} mx-auto sm:mx-0`}>
                                         {levelIcon}
                                     </div>
                                     <div className="hidden sm:block text-xs font-semibold text-gray-400 bg-gray-100 px-2 py-1 rounded">
@@ -86,7 +86,7 @@ export const QuizSelection: React.FC<QuizSelectionProps> = ({ onSelectTopic }) =
                                     </div>
                                 </div>
 
-                                <h3 className="text-[10px] sm:text-lg font-black text-gray-800 sm:mb-2 group-hover:text-indigo-600 transition-colors line-clamp-2 min-h-[1.5rem] sm:min-h-0 uppercase tracking-tight">
+                                <h3 className="text-xs sm:text-lg font-black text-gray-800 sm:mb-2 group-hover:text-indigo-600 transition-colors line-clamp-2 min-h-[1.5rem] sm:min-h-0">
                                     {topic.title}
                                 </h3>
 

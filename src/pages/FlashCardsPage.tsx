@@ -171,14 +171,13 @@ export const FlashCardsPage: React.FC = () => {
             <div className="min-h-screen py-8 px-4">
                 <div className="max-w-4xl mx-auto">
                     <div className="flex items-center mb-8">
-                        <Button onClick={() => navigate('/')} variant="secondary">
-                            <ArrowLeft className="w-5 h-5 mr-2" />
-                            Zurück
+                        <Button onClick={() => navigate('/')} variant="secondary" className="!p-3">
+                            <ArrowLeft className="w-5 h-5" />
                         </Button>
-                        <h1 className="text-3xl font-bold text-gray-800 ml-4">Lernkarten - Level wählen</h1>
+                        <h1 className="text-2xl sm:text-3xl font-black text-gray-800 ml-4">Lernkarten</h1>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-2 gap-3 sm:gap-6">
                         {levels.map(lvl => {
                             const categories = getCategoriesByLevel(lvl.id.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2');
                             const totalWords = categories.reduce((sum, cat) => sum + cat.wordCount, 0);
@@ -186,17 +185,17 @@ export const FlashCardsPage: React.FC = () => {
                             return (
                                 <GlassCard
                                     key={lvl.id}
-                                    className="p-6 cursor-pointer hover:scale-105 transition-transform"
+                                    className="p-3 sm:p-6 cursor-pointer hover:scale-[1.02] transition-transform h-full flex flex-col"
                                     onClick={() => navigate(`/flashcards/${lvl.id}`)}
                                 >
-                                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${lvl.color} flex items-center justify-center mb-4 text-4xl shadow-lg`}>
+                                    <div className={`w-10 h-10 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-gradient-to-br ${lvl.color} flex items-center justify-center mb-2 sm:mb-4 text-xl sm:text-4xl shadow-lg`}>
                                         {lvl.icon}
                                     </div>
-                                    <h3 className="text-2xl font-bold text-gray-800 mb-2">{lvl.name}</h3>
-                                    <p className="text-gray-600 mb-3">{lvl.description}</p>
-                                    <div className="flex items-center justify-between text-sm">
-                                        <span className="text-gray-500">{categories.length} Kategorien</span>
-                                        <span className="font-bold text-blue-600">{totalWords} Wörter</span>
+                                    <h3 className="text-sm sm:text-2xl font-black text-gray-800 mb-1 leading-tight mt-auto">{lvl.name}</h3>
+                                    <p className="hidden sm:block text-gray-600 mb-3 text-sm">{lvl.description}</p>
+                                    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between text-[10px] sm:text-sm text-gray-500">
+                                        <span>{categories.length} Kat.</span>
+                                        <span className="font-bold text-blue-600">{totalWords} Wört.</span>
                                     </div>
                                 </GlassCard>
                             );
@@ -229,29 +228,27 @@ export const FlashCardsPage: React.FC = () => {
             <div className="min-h-screen py-8 px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="flex items-center mb-8">
-                        <Button onClick={() => navigate('/flashcards')} variant="secondary">
-                            <ArrowLeft className="w-5 h-5 mr-2" />
-                            Zurück
+                        <Button onClick={() => navigate('/flashcards')} variant="secondary" className="!p-3">
+                            <ArrowLeft className="w-5 h-5" />
                         </Button>
                         <div className="ml-4">
-                            <h1 className="text-3xl font-bold text-gray-800">{selectedLevel.name}</h1>
-                            <p className="text-gray-600">{selectedLevel.description}</p>
+                            <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">{selectedLevel.name}</h1>
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
                         {categories.map(cat => (
                             <GlassCard
                                 key={cat.id}
-                                className="p-5 cursor-pointer hover:scale-105 transition-transform"
+                                className="p-3 sm:p-5 cursor-pointer hover:scale-[1.02] transition-transform h-full flex flex-col"
                                 onClick={() => navigate(`/flashcards/${level}/${cat.id}`)}
                             >
-                                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${selectedLevel.color} flex items-center justify-center mb-3 text-2xl shadow-lg`}>
+                                <div className={`w-8 h-8 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br ${selectedLevel.color} flex items-center justify-center mb-2 sm:mb-3 text-lg sm:text-2xl shadow-lg`}>
                                     {cat.icon}
                                 </div>
-                                <h3 className="text-lg font-bold text-gray-800 mb-1">{germanNames[cat.name] || cat.name}</h3>
-                                <p className="text-sm text-gray-500 mb-2">{cat.nameRu}</p>
-                                <p className="text-gray-600 font-semibold">{cat.wordCount} Wörter</p>
+                                <h3 className="text-xs sm:text-lg font-black text-gray-800 mb-0.5 leading-tight mt-auto">{germanNames[cat.name] || cat.name}</h3>
+                                <p className="text-[10px] sm:text-sm text-gray-500 mb-1 line-clamp-1">{cat.nameRu}</p>
+                                <p className="text-[10px] sm:text-sm text-gray-600 font-black">{cat.wordCount} Wörter</p>
                             </GlassCard>
                         ))}
                     </div>
@@ -327,9 +324,8 @@ export const FlashCardsPage: React.FC = () => {
             <div className="max-w-4xl mx-auto">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-8">
-                    <Button onClick={() => navigate(`/flashcards/${level}`)} variant="secondary">
-                        <ArrowLeft className="w-5 h-5 mr-2" />
-                        Zurück
+                    <Button onClick={() => navigate(`/flashcards/${level}`)} variant="secondary" className="!p-3">
+                        <ArrowLeft className="w-5 h-5" />
                     </Button>
 
                     <GlassCard className="px-6 py-3" animate={false}>

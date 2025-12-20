@@ -183,129 +183,220 @@ const ExerciseCard: React.FC<{
     };
 
     return (
-        <GlassCard className="p-8">
-            {/* Difficulty & Case badges with Toggle */}
-            <div className="flex justify-between items-start mb-4">
-                <AnimatePresence>
-                    {showInfo ? (
-                        <motion.div
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: 'auto' }}
-                            exit={{ opacity: 0, height: 0 }}
-                            className="flex gap-2 flex-wrap flex-1 mr-4 overflow-hidden"
-                        >
-                            <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getDifficultyColor(exercise.difficulty)}`}>
-                                {getDifficultyLabel(exercise.difficulty)}
-                            </span>
-                            <span className={`px-3 py-1 rounded-full text-xs font-semibold ${getCaseColor(exercise.case)}`}>
-                                {exercise.case}
-                            </span>
-                            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-700">
-                                {getGenderLabel(exercise.gender)}
-                            </span>
-                            <span className="px-3 py-1 rounded-full text-xs font-semibold bg-teal-100 text-teal-700">
-                                {getArticleTypeLabel(exercise.articleType)}
-                            </span>
-                        </motion.div>
-                    ) : (
-                        <div className="flex-1" /> // Spacer
-                    )}
-                </AnimatePresence>
+        <div className="relative">
+            <GlassCard className="p-6 sm:p-8">
+                {/* Difficulty & Case badges with Toggle */}
+                <div className="flex justify-between items-start mb-4">
+                    <AnimatePresence>
+                        {showInfo ? (
+                            <motion.div
+                                initial={{ opacity: 0, height: 0 }}
+                                animate={{ opacity: 1, height: 'auto' }}
+                                exit={{ opacity: 0, height: 0 }}
+                                className="flex gap-2 flex-wrap flex-1 mr-4 overflow-hidden"
+                            >
+                                <span className={`px-3 py-1 rounded-full text-[10px] sm:text-xs font-semibold border ${getDifficultyColor(exercise.difficulty)}`}>
+                                    {getDifficultyLabel(exercise.difficulty)}
+                                </span>
+                                <span className={`px-3 py-1 rounded-full text-[10px] sm:text-xs font-semibold ${getCaseColor(exercise.case)}`}>
+                                    {exercise.case}
+                                </span>
+                                <span className="px-3 py-1 rounded-full text-[10px] sm:text-xs font-semibold bg-gray-100 text-gray-700">
+                                    {getGenderLabel(exercise.gender)}
+                                </span>
+                                <span className="px-3 py-1 rounded-full text-[10px] sm:text-xs font-semibold bg-teal-100 text-teal-700">
+                                    {getArticleTypeLabel(exercise.articleType)}
+                                </span>
+                            </motion.div>
+                        ) : (
+                            <div className="flex-1" /> // Spacer
+                        )}
+                    </AnimatePresence>
 
-                <button
-                    onClick={onToggleInfo}
-                    className="p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-colors"
-                    title={showInfo ? "Infos ausblenden" : "Infos anzeigen"}
-                >
-                    {showInfo ? <Eye className="w-4 h-4" /> : <EyeOff className="w-4 h-4" />}
-                </button>
-            </div>
-
-            {/* Sentence */}
-            <div className="text-center mb-6">
-                <div className="text-2xl font-bold text-gray-800 mb-2">
-                    {renderSentence(exercise.sentence)}
+                    <button
+                        onClick={onToggleInfo}
+                        className="p-1.5 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-colors flex-shrink-0"
+                        title={showInfo ? "Infos ausblenden" : "Infos anzeigen"}
+                    >
+                        {showInfo ? <Eye className="w-4 h-4" /> : <EyeOff className="w-4 h-4" />}
+                    </button>
                 </div>
-                <p className="text-sm text-gray-500 mt-4">
-                    Adjektiv: <span className="font-semibold text-cyan-600">{exercise.adjective}</span>
-                </p>
-            </div>
 
-            {/* Result Feedback */}
-            <AnimatePresence>
-                {isCorrect === true && (
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        exit={{ opacity: 0 }}
-                        className="flex items-center justify-center gap-2 text-green-600 mb-4"
-                    >
-                        <CheckCircle className="w-6 h-6" />
-                        <span className="text-lg font-semibold">
-                            Richtig! &nbsp;
-                            <span className="opacity-75">
-                                ({exercise.correctEnding.split('|').map(e => '-' + e).join(', ')})
-                            </span>
-                        </span>
-                    </motion.div>
-                )}
-            </AnimatePresence>
+                {/* Sentence */}
+                <div className="text-center mb-6">
+                    <div className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">
+                        {renderSentence(exercise.sentence)}
+                    </div>
+                    <p className="text-sm text-gray-500 mt-4">
+                        Adjektiv: <span className="font-semibold text-cyan-600">{exercise.adjective}</span>
+                    </p>
+                </div>
 
-            {/* Hint on Wrong Answer */}
+                {/* Desktop Feedback Section */}
+                <div className="hidden md:block">
+                    {/* Result Feedback */}
+                    <AnimatePresence>
+                        {isCorrect === true && (
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                exit={{ opacity: 0 }}
+                                className="flex items-center justify-center gap-2 text-green-600 mb-4"
+                            >
+                                <CheckCircle className="w-6 h-6" />
+                                <span className="text-lg font-semibold">
+                                    Richtig! &nbsp;
+                                    <span className="opacity-75">
+                                        ({exercise.correctEnding.split('|').map(e => '-' + e).join(', ')})
+                                    </span>
+                                </span>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
+
+                    {/* Hint on Wrong Answer */}
+                    <AnimatePresence>
+                        {showHint && (
+                            <motion.div
+                                initial={{ opacity: 0, y: -10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                exit={{ opacity: 0 }}
+                                className="mb-4"
+                            >
+                                <div className="flex items-start gap-2 p-4 bg-red-50 border border-red-200 rounded-xl">
+                                    <XCircle className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />
+                                    <div>
+                                        <p className="font-semibold text-red-700 mb-1">
+                                            Leider falsch
+                                        </p>
+                                        <p className="text-sm text-gray-700">{exercise.hint}</p>
+                                    </div>
+                                </div>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
+
+                    {/* Desktop Buttons */}
+                    <div className="flex gap-2">
+                        {!showHint ? (
+                            <>
+                                <Button
+                                    onClick={handleCheck}
+                                    disabled={userInputs.some(input => !input || input.trim() === '')}
+                                    variant="primary"
+                                    className="flex-1 justify-center py-3"
+                                >
+                                    Prüfen
+                                </Button>
+                                <Button
+                                    onClick={handleSkip}
+                                    variant="secondary"
+                                    className="justify-center"
+                                    title="Überspringen"
+                                >
+                                    <HelpCircle className="w-5 h-5" />
+                                </Button>
+                            </>
+                        ) : (
+                            <Button
+                                onClick={onNext}
+                                variant="primary"
+                                className="flex-1 justify-center py-3"
+                            >
+                                Nächste Aufgabe →
+                            </Button>
+                        )}
+                    </div>
+                </div>
+
+                {/* Fixed Spacer for mobile so content doesn't get hidden behind the overlay */}
+                <div className="h-20 md:hidden" />
+            </GlassCard>
+
+            {/* Mobile Bottom Overlay */}
             <AnimatePresence>
-                {showHint && (
-                    <motion.div
-                        initial={{ opacity: 0, y: -10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0 }}
-                        className="mb-4"
-                    >
-                        <div className="flex items-start gap-2 p-4 bg-red-50 border border-red-200 rounded-xl">
-                            <XCircle className="w-5 h-5 text-red-500 mt-0.5 flex-shrink-0" />
-                            <div>
-                                <p className="font-semibold text-red-700 mb-1">
-                                    Leider falsch
-                                </p>
-                                <p className="text-sm text-gray-700">{exercise.hint}</p>
+                {(isCorrect !== null || showHint) && (
+                    <>
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            className="fixed inset-0 bg-black/10 backdrop-blur-[2px] z-40 md:hidden"
+                        />
+
+                        <motion.div
+                            initial={{ opacity: 0, y: 100 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: 100 }}
+                            className={`
+                                fixed bottom-0 left-0 right-0 z-50 p-6 
+                                bg-white/80 backdrop-blur-md border-t border-white/40
+                                shadow-[0_-20px_40px_rgba(0,0,0,0.1)]
+                                md:hidden
+                            `}
+                        >
+                            <div className="max-w-2xl mx-auto">
+                                {isCorrect === true ? (
+                                    <div className="flex items-center gap-3 text-green-600 mb-4">
+                                        <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+                                            <CheckCircle className="w-7 h-7" />
+                                        </div>
+                                        <div>
+                                            <h3 className="text-xl font-black">Richtig!</h3>
+                                            <p className="text-sm font-medium opacity-80">
+                                                ({exercise.correctEnding.split('|').map(e => '-' + e).join(', ')})
+                                            </p>
+                                        </div>
+                                    </div>
+                                ) : showHint ? (
+                                    <div className="flex items-start gap-3 text-red-600 mb-4">
+                                        <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0">
+                                            <XCircle className="w-7 h-7" />
+                                        </div>
+                                        <div>
+                                            <h3 className="text-xl font-black">Leider falsch</h3>
+                                            <p className="text-sm font-medium">{exercise.hint}</p>
+                                        </div>
+                                    </div>
+                                ) : null}
+
+                                <motion.button
+                                    onClick={onNext}
+                                    className="w-full py-5 bg-gradient-to-r from-cyan-500 to-teal-600 text-white rounded-2xl font-black text-xl flex items-center justify-center gap-3 shadow-lg"
+                                    whileTap={{ scale: 0.98 }}
+                                >
+                                    Nächste Aufgabe
+                                    <ArrowLeft className="w-6 h-6 rotate-180" />
+                                </motion.button>
                             </div>
-                        </div>
-                    </motion.div>
+                        </motion.div>
+                    </>
                 )}
             </AnimatePresence>
 
-            {/* Buttons */}
-            <div className="flex gap-2">
-                {!showHint ? (
+            {/* Mobile Check/Skip Button Bar (Shown before answer) */}
+            <div className="md:hidden fixed bottom-6 left-6 right-6 z-30 flex gap-2">
+                {isCorrect === null && !showHint && (
                     <>
                         <Button
                             onClick={handleCheck}
-                            // Disable if any input is empty
                             disabled={userInputs.some(input => !input || input.trim() === '')}
                             variant="primary"
-                            className="flex-1 justify-center py-3"
+                            className="flex-1 justify-center py-4 font-black shadow-xl"
                         >
                             Prüfen
                         </Button>
                         <Button
                             onClick={handleSkip}
                             variant="secondary"
-                            className="justify-center"
-                            title="Überspringen"
+                            className="px-6 py-4 shadow-xl"
                         >
-                            <HelpCircle className="w-5 h-5" />
+                            <HelpCircle className="w-6 h-6" />
                         </Button>
                     </>
-                ) : (
-                    <Button
-                        onClick={onNext}
-                        variant="primary"
-                        className="flex-1 justify-center py-3"
-                    >
-                        Nächste Aufgabe →
-                    </Button>
                 )}
             </div>
-        </GlassCard>
+        </div>
     );
 };
 
@@ -418,9 +509,8 @@ export const AdjektivdeklinationPage: React.FC = () => {
             <div className="max-w-3xl mx-auto">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
-                    <Button onClick={() => navigate('/')} variant="secondary">
-                        <ArrowLeft className="w-5 h-5 mr-2" />
-                        Zurück
+                    <Button onClick={() => navigate('/')} variant="secondary" className="!p-3">
+                        <ArrowLeft className="w-5 h-5" />
                     </Button>
                     <h1 className="text-2xl font-bold text-gray-800">
                         Adjektivdeklination

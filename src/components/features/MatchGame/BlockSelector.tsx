@@ -85,18 +85,18 @@ export const BlockSelector: React.FC<BlockSelectorProps> = ({
 
                         {/* Blocks Grid */}
                         {isExpanded && levelBlocks.length > 0 && (
-                            <div className="p-4 bg-white/50 grid grid-cols-2 md:grid-cols-3 gap-3">
+                            <div className="p-3 sm:p-4 bg-white/50 grid grid-cols-2 md:grid-cols-3 gap-2 sm:gap-3">
                                 {levelBlocks.map(block => (
                                     <GlassCard
                                         key={block.id}
-                                        className={`p-3 cursor-pointer transition-all ${currentBlockId === block.id
-                                                ? 'ring-2 ring-purple-500 bg-purple-50'
-                                                : 'hover:bg-gray-50'
+                                        className={`p-2 sm:p-3 cursor-pointer transition-all ${currentBlockId === block.id
+                                            ? 'ring-2 ring-purple-500 bg-purple-50'
+                                            : 'hover:bg-gray-50'
                                             }`}
                                         onClick={() => onSelectBlock(block.id)}
                                     >
-                                        <div className="flex items-center justify-between mb-2">
-                                            <span className="text-lg">
+                                        <div className="flex items-center justify-between mb-1 sm:mb-2">
+                                            <span className="text-base sm:text-lg">
                                                 {block.vocabularyCategory?.icon || '📝'}
                                             </span>
                                             <div className="flex items-center gap-1">
@@ -108,7 +108,7 @@ export const BlockSelector: React.FC<BlockSelectorProps> = ({
                                                         }}
                                                         className="p-1 text-red-500 hover:bg-red-100 rounded"
                                                     >
-                                                        <Trash2 className="w-4 h-4" />
+                                                        <Trash2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                                                     </button>
                                                 )}
                                                 <button
@@ -119,14 +119,14 @@ export const BlockSelector: React.FC<BlockSelectorProps> = ({
                                                     className="p-1 text-green-600 hover:bg-green-100 rounded"
                                                     title="Играть"
                                                 >
-                                                    <Play className="w-4 h-4" />
+                                                    <Play className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                                                 </button>
                                             </div>
                                         </div>
-                                        <h3 className="font-semibold text-gray-800 text-sm truncate">
+                                        <h3 className="font-black text-gray-800 text-[11px] sm:text-sm truncate leading-tight mb-0.5">
                                             {block.name}
                                         </h3>
-                                        <p className="text-xs text-gray-500">
+                                        <p className="text-[10px] sm:text-xs text-gray-500">
                                             {block.words.length} слов
                                         </p>
                                     </GlassCard>

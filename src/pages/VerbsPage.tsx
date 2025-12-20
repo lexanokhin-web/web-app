@@ -4,7 +4,7 @@ import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
 import { availableBlocks } from '../lib/blocks';
 import type { BlockInfo } from '../types';
-import { ArrowLeft, Play, FileCheck } from 'lucide-react';
+import { ArrowLeft, Play } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export const VerbsPage: React.FC = () => {
@@ -23,60 +23,50 @@ export const VerbsPage: React.FC = () => {
                     <Button
                         onClick={() => navigate('/')}
                         variant="secondary"
-                        className="mb-6"
+                        className="mb-6 !p-3"
                     >
-                        <ArrowLeft className="w-5 h-5 inline mr-2" />
-                        Назад
+                        <ArrowLeft className="w-5 h-5" />
                     </Button>
 
-                    <h1 className="text-4xl font-bold text-gray-800 mb-4">
-                        Verb (Глаголы)
+                    <h1 className="text-4xl font-black text-gray-800 mb-4">
+                        Verben
                     </h1>
 
                     <GlassCard className="px-6 py-4" animate={false}>
-                        <p className="text-lg text-gray-700">
-                            Выберите диапазон глаголов для изучения
+                        <p className="text-lg font-medium text-gray-700">
+                            Wähle einen Verben-Bereich zum Lernen
                         </p>
                     </GlassCard>
                 </motion.div>
 
-                {/* Blocks List */}
-                <div className="space-y-4">
+                {/* Blocks Grid */}
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-3 sm:gap-6">
                     {blocks.map((block, index) => (
                         <motion.div
                             key={block.id}
-                            initial={{ opacity: 0, x: -20 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.3, delay: index * 0.1 }}
+                            initial={{ opacity: 0, scale: 0.9 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            transition={{ duration: 0.3, delay: index * 0.05 }}
                         >
-                            <GlassCard className="p-6">
-                                <div className="flex items-center justify-between">
-                                    <div className="flex items-center space-x-4">
-                                        <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-                                            <span className="text-white font-bold text-xl">V</span>
-                                        </div>
-                                        <h3 className="text-xl font-bold text-gray-800">
-                                            {block.displayName}
-                                        </h3>
+                            <GlassCard className="p-3 sm:p-6 h-full flex flex-col">
+                                <div className="flex flex-col items-center text-center mb-4">
+                                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center mb-2 shadow-md">
+                                        <span className="text-white font-black text-lg sm:text-xl">V</span>
                                     </div>
+                                    <h3 className="text-sm sm:text-xl font-black text-gray-800 leading-tight">
+                                        {block.displayName}
+                                    </h3>
+                                </div>
 
-                                    <div className="flex space-x-3">
-                                        <Button
-                                            onClick={() => navigate(`/exercise/${block.id}`)}
-                                            variant="primary"
-                                        >
-                                            <Play className="w-5 h-5 inline mr-2" />
-                                            Упражнение
-                                        </Button>
-
-                                        <Button
-                                            onClick={() => navigate(`/test/${block.id}`)}
-                                            variant="success"
-                                        >
-                                            <FileCheck className="w-5 h-5 inline mr-2" />
-                                            Тест
-                                        </Button>
-                                    </div>
+                                <div className="mt-auto">
+                                    <Button
+                                        onClick={() => navigate(`/exercise/${block.id}`)}
+                                        variant="primary"
+                                        className="w-full justify-center !p-2 sm:!p-3 text-xs sm:text-base font-black"
+                                    >
+                                        <Play className="w-3 h-3 sm:w-5 sm:h-5 mr-1.5 sm:mr-2" />
+                                        Übung
+                                    </Button>
                                 </div>
                             </GlassCard>
                         </motion.div>

@@ -9,6 +9,7 @@ interface ExpandableHintProps {
     children: React.ReactNode;
     defaultOpen?: boolean;
     className?: string;
+    buttonClassName?: string;
 }
 
 export const ExpandableHint: React.FC<ExpandableHintProps> = ({
@@ -16,7 +17,8 @@ export const ExpandableHint: React.FC<ExpandableHintProps> = ({
     icon,
     children,
     defaultOpen = false,
-    className = ''
+    className = '',
+    buttonClassName = ''
 }) => {
     const [isOpen, setIsOpen] = useState(defaultOpen);
 
@@ -25,7 +27,7 @@ export const ExpandableHint: React.FC<ExpandableHintProps> = ({
             <Button
                 onClick={() => setIsOpen(!isOpen)}
                 variant="secondary"
-                className="w-full justify-center"
+                className={`w-full justify-center ${buttonClassName}`}
             >
                 {icon && <span className="mr-2">{icon}</span>}
                 {title}

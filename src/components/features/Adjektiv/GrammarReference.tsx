@@ -55,24 +55,33 @@ export const GrammarReference: React.FC = () => {
     return (
         <div className="mb-4">
             {/* Grammar Reference Toggles */}
-            <div className="flex gap-1.5 mb-3">
+            <div className="grid grid-cols-3 gap-1.5 mb-3">
                 <Button
                     onClick={() => setShowTables(!showTables)}
                     variant="secondary"
-                    className="flex-1 justify-center py-0.5 px-1.5 text-[10px] font-medium h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
+                    className="justify-center py-0.5 px-1 sm:px-1.5 text-[9px] sm:text-[10px] font-black h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
                 >
-                    <BookOpen className="w-3 h-3 mr-1" />
-                    Endungstabellen
-                    {showTables ? <ChevronUp className="w-3 h-3 ml-1" /> : <ChevronDown className="w-3 h-3 ml-1" />}
+                    <BookOpen className="w-3 h-3 mr-0.5 sm:mr-1" />
+                    Tabellen
+                    {showTables ? <ChevronUp className="w-3 h-3 ml-0.5 sm:ml-1" /> : <ChevronDown className="w-3 h-3 ml-0.5 sm:ml-1" />}
                 </Button>
                 <Button
                     onClick={() => setShowPrepositions(!showPrepositions)}
                     variant="secondary"
-                    className="flex-1 justify-center py-0.5 px-1.5 text-[10px] font-medium h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
+                    className="justify-center py-0.5 px-1 sm:px-1.5 text-[9px] sm:text-[10px] font-black h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
                 >
-                    <Lightbulb className="w-3 h-3 mr-1" />
-                    Präpositionen
-                    {showPrepositions ? <ChevronUp className="w-3 h-3 ml-1" /> : <ChevronDown className="w-3 h-3 ml-1" />}
+                    <Lightbulb className="w-3 h-3 mr-0.5 sm:mr-1" />
+                    Präp.
+                    {showPrepositions ? <ChevronUp className="w-3 h-3 ml-0.5 sm:ml-1" /> : <ChevronDown className="w-3 h-3 ml-0.5 sm:ml-1" />}
+                </Button>
+                <Button
+                    onClick={() => setShowSpecial(!showSpecial)}
+                    variant="secondary"
+                    className="justify-center py-0.5 px-1 sm:px-1.5 text-[9px] sm:text-[10px] font-black h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
+                >
+                    <Lightbulb className="w-3 h-3 mr-0.5 sm:mr-1" />
+                    Regeln
+                    {showSpecial ? <ChevronUp className="w-3 h-3 ml-0.5 sm:ml-1" /> : <ChevronDown className="w-3 h-3 ml-0.5 sm:ml-1" />}
                 </Button>
             </div>
 
@@ -155,18 +164,7 @@ export const GrammarReference: React.FC = () => {
                 )}
             </AnimatePresence>
 
-            {/* Special Rules */}
-            <div className="mb-2">
-                <Button
-                    onClick={() => setShowSpecial(!showSpecial)}
-                    variant="secondary"
-                    className="w-full justify-center py-0.5 px-1.5 text-[10px] font-medium h-auto min-h-0 rounded-md tracking-tight leading-4 shadow-sm"
-                >
-                    <Lightbulb className="w-3 h-3 mr-1" />
-                    Besonderheiten (Mehrere / Mengewörter)
-                    {showSpecial ? <ChevronUp className="w-3 h-3 ml-1" /> : <ChevronDown className="w-3 h-3 ml-1" />}
-                </Button>
-            </div>
+
             <AnimatePresence>
                 {showSpecial && (
                     <motion.div

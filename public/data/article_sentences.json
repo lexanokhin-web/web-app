@@ -1672,14 +1672,6 @@
         "translation": "Машина быстрая."
     },
     {
-        "id": "s0b9d3e5-9f01-4c6y-z78f-9v0w1x2y3z4a",
-        "sentence": "Ich habe ___ Kopfschmerzen.",
-        "correctArticle": "Kopfschmerzen (нет артикля)",
-        "caseName": "Akkusativ",
-        "noun": "Kopfschmerzen",
-        "translation": "У меня болит голова (головная боль)."
-    },
-    {
         "id": "t1c0e4f6-0g12-4d7z-a89g-0w1x2y3z4a5b",
         "sentence": "Die Höhe ___ Baumes ist beeindruckend.",
         "correctArticle": "des",
@@ -3410,8 +3402,8 @@
     {
         "id": "b7k6m0n2-6o78-4l3h-i45o-6e7f8g9h0i1j",
         "sentence": "Die Aussicht ___ Berges ist schön.",
-        "correctArticle": "vom",
-        "caseName": "Dativ",
+        "correctArticle": "des",
+        "caseName": "Genitiv",
         "noun": "Berg",
         "translation": "Вид с горы красивый."
     },

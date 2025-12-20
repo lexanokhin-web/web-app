@@ -135,7 +135,7 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit,
             </GlassCard>
 
             {/* Cards Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4">
                 {cards.map(card => (
                     <MatchCard
                         key={card.id}

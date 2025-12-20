@@ -57,7 +57,6 @@ const genderHints: Record<string, string> = {
 
 export const ArticlesPage: React.FC = () => {
     const navigate = useNavigate();
-    const inputRef = useRef<HTMLInputElement>(null);
 
     const { data: rawData, isLoading: isQueryLoading } = useArticleSentences();
 
@@ -71,6 +70,7 @@ export const ArticlesPage: React.FC = () => {
     const [correctCount, setCorrectCount] = useState(0);
     const [incorrectCount, setIncorrectCount] = useState(0);
     const [caseFilter, setCaseFilter] = useState<'all' | 'Nom' | 'Akk' | 'Dat'>('all');
+    const [options, setOptions] = useState<string[]>([]);
 
     useEffect(() => {
         if (rawData) {
@@ -84,17 +84,40 @@ export const ArticlesPage: React.FC = () => {
         setLoading(isQueryLoading);
     }, [isQueryLoading]);
 
-    // Filter sentences by case
     const filteredSentences = caseFilter === 'all'
         ? sentences
         : sentences.filter(s => s.caseName?.includes(caseFilter) || s.caseName?.toLowerCase().includes(caseFilter.toLowerCase()));
 
     const currentSentence = filteredSentences[currentIndex];
 
-    const getCaseCount = (caseType: string) => {
-        if (caseType === 'all') return sentences.length;
-        return sentences.filter(s => s.caseName?.includes(caseType) || s.caseName?.toLowerCase().includes(caseType.toLowerCase())).length;
+    const getOptionsForSentence = (correct: string) => {
+        const definite = ['der', 'die', 'das', 'den', 'dem', 'des'];
+        const indefinite = ['ein', 'eine', 'einen', 'einem', 'einer', 'eines'];
+
+        const isCapitalized = /^[A-Z]/.test(correct);
+        const lowCorrect = correct.toLowerCase();
+
+        let pool = definite.includes(lowCorrect) ? definite : indefinite;
+
+        // Pick 3 distractors from the same pool
+        const distractors = pool
+            .filter(a => a !== lowCorrect)
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 3);
+
+        // Combine and restore casing
+        const finalOptions = [lowCorrect, ...distractors]
+            .map(opt => isCapitalized ? opt.charAt(0).toUpperCase() + opt.slice(1) : opt)
+            .sort(() => Math.random() - 0.5);
+
+        return finalOptions;
     };
+
+    useEffect(() => {
+        if (currentSentence) {
+            setOptions(getOptionsForSentence(currentSentence.correctArticle));
+        }
+    }, [currentSentence]);
 
     const nextSentence = () => {
         setUserInput('');
@@ -103,17 +126,17 @@ export const ArticlesPage: React.FC = () => {
 
         if (currentIndex + 1 < filteredSentences.length) {
             setCurrentIndex(currentIndex + 1);
-            inputRef.current?.focus();
         } else {
             setShowCompletion(true);
         }
     };
 
-    const handleCheck = () => {
-        if (filteredSentences.length === 0 || !currentSentence) return;
+    const handleOptionSelect = (option: string) => {
+        if (showHint || isCorrect === true) return;
+        setUserInput(option);
 
         const correct = currentSentence.correctArticle.toLowerCase();
-        const input = userInput.trim().toLowerCase();
+        const input = option.trim().toLowerCase();
 
         if (input === correct) {
             setIsCorrect(true);
@@ -128,19 +151,8 @@ export const ArticlesPage: React.FC = () => {
         }
     };
 
-    const handleKeyPress = (e: React.KeyboardEvent) => {
-        if (e.key === 'Enter') {
-            if (showHint) {
-                nextSentence();
-            } else {
-                handleCheck();
-            }
-        }
-    };
-
     const handleRestart = () => {
-        const shuffled = [...sentences].sort(() => Math.random() - 0.5);
-        setSentences(shuffled);
+        setSentences(prev => [...prev].sort(() => Math.random() - 0.5));
         setCurrentIndex(0);
         setCorrectCount(0);
         setIncorrectCount(0);
@@ -211,9 +223,8 @@ export const ArticlesPage: React.FC = () => {
             <div className="max-w-3xl mx-auto">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
-                    <Button onClick={() => navigate('/')} variant="secondary">
-                        <ArrowLeft className="w-5 h-5 mr-2" />
-                        Zurück
+                    <Button onClick={() => navigate('/')} variant="secondary" className="!p-3">
+                        <ArrowLeft className="w-5 h-5" />
                     </Button>
                     <h1 className="text-2xl font-bold text-gray-800">
                         Artikel
@@ -233,7 +244,6 @@ export const ArticlesPage: React.FC = () => {
                             {(Object.keys(difficultyConfig) as Array<keyof typeof difficultyConfig>).map((level) => {
                                 const config = difficultyConfig[level];
                                 const isActive = caseFilter === level;
-                                const count = getCaseCount(level);
 
                                 return (
                                     <button
@@ -251,9 +261,6 @@ export const ArticlesPage: React.FC = () => {
                                             }`}
                                     >
                                         <div>{config.label}</div>
-                                        <div className={`text-xs mt-1 ${isActive ? 'text-white/80' : 'opacity-60'}`}>
-                                            {count}
-                                        </div>
                                     </button>
                                 );
                             })}
@@ -273,8 +280,9 @@ export const ArticlesPage: React.FC = () => {
                 {/* Expandable Article Table */}
                 <ExpandableHint
                     title="Artikel-Tabelle"
-                    icon={<BookOpen className="w-4 h-4" />}
+                    icon={<BookOpen className="w-3 h-3" />}
                     className="mb-6"
+                    buttonClassName="py-1.5 text-xs font-black shadow-sm"
                 >
                     <GlassCard className="p-4">
                         <div className="grid md:grid-cols-2 gap-4">
@@ -344,22 +352,38 @@ export const ArticlesPage: React.FC = () => {
                                         </p>
                                     </div>
 
-                                    {/* Input */}
-                                    <div className="flex gap-2">
-                                        <input
-                                            ref={inputRef}
-                                            type="text"
-                                            value={userInput}
-                                            onChange={(e) => setUserInput(e.target.value)}
-                                            onKeyPress={handleKeyPress}
-                                            placeholder="der / die / das / den / dem..."
-                                            className={`flex-1 px-4 py-3 text-xl rounded-xl border-2 transition-colors ${isCorrect === true ? 'border-green-500 bg-green-50' :
-                                                isCorrect === false ? 'border-red-500 bg-red-50' :
-                                                    'border-gray-300 focus:border-amber-500'
-                                                } outline-none`}
-                                            disabled={showHint}
-                                            autoFocus
-                                        />
+                                    {/* Options Selection */}
+                                    <div className="grid grid-cols-2 gap-3 sm:gap-4">
+                                        {options.map((option, idx) => {
+                                            const isSelected = userInput === option;
+                                            const isCorrectOption = (isCorrect === true || showHint) && option.toLowerCase() === currentSentence.correctArticle.toLowerCase();
+                                            const isWrongSelection = isCorrect === false && isSelected;
+
+                                            return (
+                                                <motion.div
+                                                    key={idx}
+                                                    whileHover={!showHint && isCorrect === null ? { scale: 1.02 } : {}}
+                                                    whileTap={!showHint && isCorrect === null ? { scale: 0.98 } : {}}
+                                                >
+                                                    <button
+                                                        onClick={() => handleOptionSelect(option)}
+                                                        disabled={showHint || isCorrect === true}
+                                                        className={`
+                                                            w-full p-4 sm:p-6 rounded-xl font-black text-lg sm:text-xl
+                                                            tracking-tight
+                                                            backdrop-blur-md border-2 transition-all duration-200
+                                                            ${isSelected && isCorrect === null ? 'bg-amber-400/40 border-amber-500 shadow-md' : 'bg-white/30 border-white/50'}
+                                                            ${isCorrectOption ? 'bg-green-400/40 border-green-500 text-green-700' : ''}
+                                                            ${isWrongSelection ? 'bg-red-400/40 border-red-500 text-red-700' : ''}
+                                                            ${!showHint && isCorrect === null ? 'hover:bg-white/50 cursor-pointer text-gray-700' : 'cursor-default'}
+                                                            disabled:opacity-70
+                                                        `}
+                                                    >
+                                                        {option}
+                                                    </button>
+                                                </motion.div>
+                                            );
+                                        })}
                                     </div>
 
                                     {/* Result Feedback */}
@@ -414,20 +438,11 @@ export const ArticlesPage: React.FC = () => {
 
                                     {/* Buttons */}
                                     <div className="flex gap-2">
-                                        {!showHint ? (
-                                            <Button
-                                                onClick={handleCheck}
-                                                disabled={userInput.trim() === ''}
-                                                variant="primary"
-                                                className="flex-1 justify-center py-3"
-                                            >
-                                                Prüfen
-                                            </Button>
-                                        ) : (
+                                        {showHint && (
                                             <Button
                                                 onClick={nextSentence}
                                                 variant="primary"
-                                                className="flex-1 justify-center py-3"
+                                                className="flex-1 justify-center py-4 font-black shadow-lg"
                                             >
                                                 Nächste Aufgabe →
                                             </Button>
@@ -438,7 +453,7 @@ export const ArticlesPage: React.FC = () => {
                         </motion.div>
                     )}
                 </AnimatePresence>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };

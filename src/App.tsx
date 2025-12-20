@@ -11,8 +11,6 @@ const ArticlesPage = lazy(() => import('./pages/ArticlesPage').then(module => ({
 const PronounsPage = lazy(() => import('./pages/PronounsPage').then(module => ({ default: module.PronounsPage })));
 const AntonymsPage = lazy(() => import('./pages/AntonymsPage').then(module => ({ default: module.AntonymsPage })));
 const SynonymsPage = lazy(() => import('./pages/SynonymsPage').then(module => ({ default: module.SynonymsPage })));
-const TestScenarioPage = lazy(() => import('./pages/TestScenarioPage').then(module => ({ default: module.TestScenarioPage })));
-const VerbTestPage = lazy(() => import('./pages/VerbTestPage').then(module => ({ default: module.VerbTestPage })));
 const FlashCardsPage = lazy(() => import('./pages/FlashCardsPage').then(module => ({ default: module.FlashCardsPage })));
 const QuizPage = lazy(() => import('./pages/QuizPage').then(module => ({ default: module.QuizPage })));
 const ProfilePage = lazy(() => import('./pages/ProfilePage').then(module => ({ default: module.ProfilePage })));
@@ -63,9 +61,6 @@ function App() {
           <Route path="/pronouns" element={<PronounsPage />} />
           <Route path="/antonyms" element={<AntonymsPage />} />
           <Route path="/synonyms" element={<SynonymsPage />} />
-          <Route path="/test-scenario-1" element={<TestScenarioPage filename="verb_test_scenarios" />} />
-          <Route path="/test-scenario-2" element={<TestScenarioPage filename="verb_test_scenarios2" />} />
-          <Route path="/test/:blockId" element={<VerbTestPage />} />
         </Routes>
       </Suspense>
     </Router>

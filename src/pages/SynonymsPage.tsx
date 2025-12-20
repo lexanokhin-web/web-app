@@ -161,9 +161,8 @@ export const SynonymsPage: React.FC = () => {
             <div className="max-w-3xl mx-auto">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
-                    <Button onClick={() => navigate('/')} variant="secondary">
-                        <ArrowLeft className="w-5 h-5 mr-2" />
-                        Zurück
+                    <Button onClick={() => navigate('/')} variant="secondary" className="!p-3">
+                        <ArrowLeft className="w-5 h-5" />
                     </Button>
                     <h1 className="text-2xl font-bold text-gray-800">
                         Synonyme
@@ -229,7 +228,7 @@ export const SynonymsPage: React.FC = () => {
                                     </div>
 
                                     {/* Options */}
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="grid grid-cols-2 gap-3 sm:gap-4">
                                         {currentExercise.options.map((option, idx) => {
                                             const isSelected = selectedOption === option;
                                             const isCorrectOption = showResult && currentExercise.correct === option;
@@ -245,12 +244,13 @@ export const SynonymsPage: React.FC = () => {
                                                         onClick={() => handleOptionSelect(option)}
                                                         disabled={showResult}
                                                         className={`
-                                                            w-full p-6 rounded-xl font-semibold text-lg
+                                                            w-full p-3 sm:p-6 rounded-xl font-black text-sm sm:text-lg
+                                                            tracking-tight
                                                             backdrop-blur-md border-2 transition-all duration-200
-                                                            ${isSelected && !showResult ? 'bg-blue-400/40 border-blue-500' : 'bg-white/30 border-white/50'}
+                                                            ${isSelected && !showResult ? 'bg-blue-400/40 border-blue-500 shadow-md' : 'bg-white/30 border-white/50'}
                                                             ${isCorrectOption ? 'bg-green-400/40 border-green-500' : ''}
                                                             ${isWrongSelection ? 'bg-red-400/40 border-red-500' : ''}
-                                                            ${!showResult ? 'hover:bg-white/50 cursor-pointer' : 'cursor-default'}
+                                                            ${!showResult ? 'hover:bg-white/50 cursor-pointer text-gray-700' : 'cursor-default'}
                                                             disabled:opacity-70
                                                         `}
                                                     >
@@ -300,7 +300,7 @@ export const SynonymsPage: React.FC = () => {
                                             onClick={handleCheck}
                                             disabled={!selectedOption}
                                             variant="primary"
-                                            className="w-full text-lg py-4 justify-center"
+                                            className="w-full text-lg py-4 justify-center font-black shadow-lg"
                                         >
                                             Prüfen
                                         </Button>
@@ -308,7 +308,7 @@ export const SynonymsPage: React.FC = () => {
                                         <Button
                                             onClick={handleNext}
                                             variant="primary"
-                                            className="w-full text-lg py-4 justify-center"
+                                            className="w-full text-lg py-4 justify-center font-black shadow-lg"
                                         >
                                             Nächste Aufgabe →
                                         </Button>

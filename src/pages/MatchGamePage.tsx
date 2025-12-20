@@ -446,9 +446,8 @@ export const MatchGamePage: React.FC = () => {
                     {/* Header */}
                     <div className="flex items-center justify-between mb-8">
                         <div className="flex items-center">
-                            <Button onClick={() => navigate('/')} variant="secondary">
-                                <ArrowLeft className="w-5 h-5 mr-2" />
-                                Назад
+                            <Button onClick={() => navigate('/')} variant="secondary" className="!p-3">
+                                <ArrowLeft className="w-5 h-5" />
                             </Button>
                             <h1 className="text-3xl font-bold text-gray-800 ml-4">
                                 🧩 Найди пары
@@ -520,9 +519,8 @@ export const MatchGamePage: React.FC = () => {
             <div className="max-w-4xl mx-auto">
                 <div className="flex items-center justify-between mb-8">
                     <div className="flex items-center">
-                        <Button onClick={resetGame} variant="secondary">
-                            <ArrowLeft className="w-5 h-5 mr-2" />
-                            Назад
+                        <Button onClick={resetGame} variant="secondary" className="!p-3">
+                            <ArrowLeft className="w-5 h-5" />
                         </Button>
                         <h1 className="text-3xl font-bold text-gray-800 ml-4">
                             🧩 Найди пары

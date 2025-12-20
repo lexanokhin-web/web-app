@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
-import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, FileCheck2, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, User, Trophy, GraduationCap, ChevronDown, ChevronRight } from 'lucide-react';
+import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, User, Trophy, GraduationCap, ChevronDown, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import { AuthModal } from '../components/AuthModal';
@@ -116,26 +116,6 @@ const exerciseBlocks = [
                 icon: GitMerge,
                 color: 'from-rose-400 to-rose-600',
                 path: '/exercise/verbindungen'
-            },
-        ]
-    },
-    {
-        blockName: '🎯 Tests',
-        blockId: 'tests',
-        exercises: [
-            {
-                id: 'test1',
-                name: 'Testszenario 1',
-                icon: FileCheck,
-                color: 'from-teal-400 to-teal-600',
-                path: '/test-scenario-1'
-            },
-            {
-                id: 'test2',
-                name: 'Testszenario 2',
-                icon: FileCheck2,
-                color: 'from-indigo-400 to-indigo-600',
-                path: '/test-scenario-2'
             },
         ]
     },
@@ -279,7 +259,7 @@ export const HomePage: React.FC = () => {
                                                             onClick={() => navigate(exercise.path)}
                                                             className="p-2 sm:p-4 min-h-[90px] sm:min-h-[140px] flex flex-col items-center justify-center text-center"
                                                         >
-                                                            <div className={`w-8 h-8 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br ${exercise.color} flex items-center justify-center shadow-md mb-1.5 sm:mb-2`}>
+                                                            <div className={`w-8 h-8 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br ${exercise.color} flex items-center justify-center shadow-md mb-1.5 sm:mb-2 mx-auto`}>
                                                                 <Icon className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                                                             </div>
                                                             <h3 className="text-[10px] sm:text-sm font-bold text-gray-800 leading-tight">
