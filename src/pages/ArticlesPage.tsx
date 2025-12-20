@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
@@ -97,7 +97,7 @@ export const ArticlesPage: React.FC = () => {
         const isCapitalized = /^[A-Z]/.test(correct);
         const lowCorrect = correct.toLowerCase();
 
-        let pool = definite.includes(lowCorrect) ? definite : indefinite;
+        const pool = definite.includes(lowCorrect) ? definite : indefinite;
 
         // Pick 3 distractors from the same pool
         const distractors = pool
@@ -164,7 +164,7 @@ export const ArticlesPage: React.FC = () => {
 
     if (loading) {
         return (
-            <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-yellow-50">
+            <div className="min-h-screen flex items-center justify-center">
                 <GlassCard className="p-8">
                     <p className="text-xl text-gray-700">Übungen werden geladen...</p>
                 </GlassCard>
@@ -177,7 +177,7 @@ export const ArticlesPage: React.FC = () => {
             ? Math.round((correctCount / (correctCount + incorrectCount)) * 100)
             : 0;
         return (
-            <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-amber-50 to-yellow-50">
+            <div className="min-h-screen py-8 px-4">
                 <div className="max-w-2xl mx-auto">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.9 }}
@@ -219,7 +219,7 @@ export const ArticlesPage: React.FC = () => {
     }
 
     return (
-        <div className="min-h-screen py-8 px-4 bg-gradient-to-br from-amber-50 to-yellow-50">
+        <div className="min-h-screen py-8 px-4">
             <div className="max-w-3xl mx-auto">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-6">
@@ -347,9 +347,14 @@ export const ArticlesPage: React.FC = () => {
 
                                     {/* Sentence */}
                                     <div className="text-center">
-                                        <p className="text-3xl font-bold text-gray-800 mb-4">
+                                        <p className="text-3xl font-bold text-gray-800 mb-2">
                                             {currentSentence.sentence}
                                         </p>
+                                        {currentSentence.translation && (
+                                            <p className="text-sm text-gray-500 font-medium">
+                                                {currentSentence.translation}
+                                            </p>
+                                        )}
                                     </div>
 
                                     {/* Options Selection */}

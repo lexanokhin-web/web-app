@@ -141,7 +141,6 @@ export const SentenceBuilderPage: React.FC = () => {
                     {/* Level Selection */}
                     <div className="grid grid-cols-2 md:grid-cols-2 gap-3 sm:gap-4">
                         {(['A1', 'A2', 'B1', 'B2'] as const).map(level => {
-                            const levelExercises = getExercisesByLevel(level);
                             return (
                                 <GlassCard
                                     key={level}
@@ -202,7 +201,6 @@ export const SentenceBuilderPage: React.FC = () => {
 
                         {/* Topic List */}
                         {availableTopics.map(topic => {
-                            const count = getExercisesByLevel(selectedLevel).filter(ex => ex.topic === topic).length;
                             const description = TOPIC_DESCRIPTIONS[selectedLevel]?.[topic];
 
                             return (

@@ -84,10 +84,6 @@ export const PronounsPage: React.FC = () => {
 
     const currentSentence = filteredSentences[currentIndex];
 
-    const getCaseCount = (caseType: string) => {
-        if (caseType === 'all') return sentences.length;
-        return sentences.filter(s => s.caseName?.includes(caseType) || s.caseName?.toLowerCase().includes(caseType.toLowerCase())).length;
-    };
 
     const nextSentence = () => {
         setUserInput('');
@@ -225,7 +221,6 @@ export const PronounsPage: React.FC = () => {
                             {(Object.keys(caseFilterConfig) as Array<keyof typeof caseFilterConfig>).map((level) => {
                                 const config = caseFilterConfig[level];
                                 const isActive = caseFilter === level;
-                                const count = getCaseCount(level);
 
                                 return (
                                     <button

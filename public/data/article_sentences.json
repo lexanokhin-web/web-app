@@ -3646,5 +3646,1605 @@
         "caseName": "Nominativ",
         "noun": "Apfel",
         "translation": "Яблоко зелёное."
+    },
+    {
+        "id": "pop-001-zeit-nom-01",
+        "sentence": "___ Zeit ist kostbar.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Zeit",
+        "translation": "Время драгоценно."
+    },
+    {
+        "id": "pop-002-jahr-nom-02",
+        "sentence": "___ Jahr vergeht wie im Flug.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Jahr",
+        "translation": "Год пролетает незаметно."
+    },
+    {
+        "id": "pop-003-weg-nom-03",
+        "sentence": "___ Weg zum Erfolg ist hart.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Weg",
+        "translation": "Путь к успеху труден."
+    },
+    {
+        "id": "pop-004-tag-nom-04",
+        "sentence": "___ Tag war sehr anstrengend.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Tag",
+        "translation": "День был очень утомительным."
+    },
+    {
+        "id": "pop-005-frau-nom-05",
+        "sentence": "___ Frau dort drüben ist meine Tante.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Frau",
+        "translation": "Вон та женщина — моя тетя."
+    },
+    {
+        "id": "pop-006-land-nom-06",
+        "sentence": "___ Land ist bekannt für seine Kultur.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Land",
+        "translation": "Страна известна своей культурой."
+    },
+    {
+        "id": "pop-007-leben-nom-07",
+        "sentence": "___ Leben bietet viele Möglichkeiten.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Leben",
+        "translation": "Жизнь предлагает много возможностей."
+    },
+    {
+        "id": "pop-008-welt-nom-08",
+        "sentence": "___ Welt verändert sich ständig.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Welt",
+        "translation": "Мир постоянно меняется."
+    },
+    {
+        "id": "pop-009-mensch-nom-09",
+        "sentence": "___ Mensch ist ein soziales Wesen.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Mensch",
+        "translation": "Человек — существо социальное."
+    },
+    {
+        "id": "pop-010-arbeit-nom-10",
+        "sentence": "___ Arbeit muss erledigt werden.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Arbeit",
+        "translation": "Работа должна быть сделана."
+    },
+    {
+        "id": "pop-011-schule-nom-11",
+        "sentence": "___ Schule beginnt im September.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Schule",
+        "translation": "Школа начинается в сентябре."
+    },
+    {
+        "id": "pop-012-geld-nom-12",
+        "sentence": "___ Geld allein macht nicht glücklich.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Geld",
+        "translation": "Деньги сами по себе не делают счастливым."
+    },
+    {
+        "id": "pop-013-abend-nom-13",
+        "sentence": "___ Abend verspricht gemütlich zu werden.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Abend",
+        "translation": "Вечер обещает быть уютным."
+    },
+    {
+        "id": "pop-014-platz-nom-14",
+        "sentence": "___ Platz in der ersten Reihe ist reserviert.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Platz",
+        "translation": "Место в первом ряду зарезервировано."
+    },
+    {
+        "id": "pop-015-frage-nom-15",
+        "sentence": "___ Frage blieb unbeantwortet.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Frage",
+        "translation": "Вопрос остался без ответа."
+    },
+    {
+        "id": "pop-016-haus-nom-16",
+        "sentence": "___ Haus am See ist wunderschön.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Haus",
+        "translation": "Дом у озера прекрасен."
+    },
+    {
+        "id": "pop-017-stadt-nom-17",
+        "sentence": "___ Stadt ist nachts hell erleuchtet.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Stadt",
+        "translation": "Город ярко освещен ночью."
+    },
+    {
+        "id": "pop-018-vater-nom-18",
+        "sentence": "___ Vater liest die Zeitung.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vater",
+        "translation": "Отец читает газету."
+    },
+    {
+        "id": "pop-019-mutter-nom-19",
+        "sentence": "___ Mutter kocht das Abendessen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Mutter",
+        "translation": "Мать готовит ужин."
+    },
+    {
+        "id": "pop-020-kind-nom-20",
+        "sentence": "___ Kind spielt im Garten.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Kind",
+        "translation": "Ребенок играет в саду."
+    },
+    {
+        "id": "pop-021-problem-nom-21",
+        "sentence": "___ Problem lässt sich lösen.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Problem",
+        "translation": "Проблему можно решить."
+    },
+    {
+        "id": "pop-022-grund-nom-22",
+        "sentence": "___ Grund für die Verspätung ist unklar.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Grund",
+        "translation": "Причина задержки неясна."
+    },
+    {
+        "id": "pop-023-beispiel-nom-23",
+        "sentence": "___ Beispiel verdeutlicht die Regel.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Beispiel",
+        "translation": "Пример иллюстрирует правило."
+    },
+    {
+        "id": "pop-024-hand-nom-24",
+        "sentence": "___ Hand zitterte leicht.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Hand",
+        "translation": "Рука слегка дрожала."
+    },
+    {
+        "id": "pop-025-auge-nom-25",
+        "sentence": "___ Auge isst mit.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Auge",
+        "translation": "Глаз тоже «ест» (о важности внешнего вида еды)."
+    },
+    {
+        "id": "pop-026-wort-nom-26",
+        "sentence": "___ Wort hat eine tiefe Bedeutung.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Wort",
+        "translation": "Слово имеет глубокое значение."
+    },
+    {
+        "id": "pop-027-seite-nom-27",
+        "sentence": "___ Seite im Buch fehlt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Seite",
+        "translation": "Страница в книге отсутствует."
+    },
+    {
+        "id": "pop-028-fall-nom-28",
+        "sentence": "___ Fall ist kompliziert.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Fall",
+        "translation": "Этот случай сложный."
+    },
+    {
+        "id": "pop-029-nacht-nom-29",
+        "sentence": "___ Nacht war sehr kurz.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Nacht",
+        "translation": "Ночь была очень короткой."
+    },
+    {
+        "id": "pop-030-gruppe-nom-30",
+        "sentence": "___ Gruppe diskutiert intensiv.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Gruppe",
+        "translation": "Группа интенсивно дискутирует."
+    },
+    {
+        "id": "pop-031-kopf-nom-31",
+        "sentence": "___ Kopf schmerzt heute.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Kopf",
+        "translation": "Голова сегодня болит."
+    },
+    {
+        "id": "pop-032-ende-nom-32",
+        "sentence": "___ Ende des Films war überraschend.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Ende",
+        "translation": "Конец фильма был неожиданным."
+    },
+    {
+        "id": "pop-033-tisch-nom-33",
+        "sentence": "___ Tisch ist aus Eichenholz.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Tisch",
+        "translation": "Стол сделан из дуба."
+    },
+    {
+        "id": "pop-034-tür-nom-34",
+        "sentence": "___ Tür lässt sich nicht öffnen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Tür",
+        "translation": "Дверь не открывается."
+    },
+    {
+        "id": "pop-035-buch-nom-35",
+        "sentence": "___ Buch liegt auf dem Regal.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Buch",
+        "translation": "Книга лежит на полке."
+    },
+    {
+        "id": "pop-036-wasser-nom-36",
+        "sentence": "___ Wasser ist eiskalt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Wasser",
+        "translation": "Вода ледяная."
+    },
+    {
+        "id": "pop-037-familie-nom-37",
+        "sentence": "___ Familie hält zusammen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Familie",
+        "translation": "Семья держится вместе."
+    },
+    {
+        "id": "pop-038-blick-nom-38",
+        "sentence": "___ Blick aus dem Fenster ist toll.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Blick",
+        "translation": "Вид из окна отличный."
+    },
+    {
+        "id": "pop-039-idee-nom-39",
+        "sentence": "___ Idee kam mir spontan.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Idee",
+        "translation": "Идея пришла ко мне спонтанно."
+    },
+    {
+        "id": "pop-040-herr-nom-40",
+        "sentence": "___ Herr dort ist unser Chef.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Herr",
+        "translation": "Тот господин — наш шеф."
+    },
+    {
+        "id": "pop-041-zimmer-nom-41",
+        "sentence": "___ Zimmer ist frisch gestrichen.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Zimmer",
+        "translation": "Комната свежепокрашена."
+    },
+    {
+        "id": "pop-042-stunde-nom-42",
+        "sentence": "___ Stunde hat 60 Minuten.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Stunde",
+        "translation": "В часе 60 минут."
+    },
+    {
+        "id": "pop-043-bereich-nom-43",
+        "sentence": "___ Bereich ist für Unbefugte gesperrt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Bereich",
+        "translation": "Эта зона закрыта для посторонних."
+    },
+    {
+        "id": "pop-044-punkt-nom-44",
+        "sentence": "___ Punkt auf der Tagesordnung fehlt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Punkt",
+        "translation": "Один пункт в повестке дня отсутствует."
+    },
+    {
+        "id": "pop-045-system-nom-45",
+        "sentence": "___ System arbeitet fehlerfrei.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "System",
+        "translation": "Система работает без ошибок."
+    },
+    {
+        "id": "pop-046-teil-nom-46",
+        "sentence": "___ Teil des Puzzles ist verschwunden.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Teil",
+        "translation": "Деталь пазла исчезла."
+    },
+    {
+        "id": "pop-047-körper-nom-47",
+        "sentence": "___ Körper braucht Erholung.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Körper",
+        "translation": "Телу нужен отдых."
+    },
+    {
+        "id": "pop-048-geschäft-nom-48",
+        "sentence": "___ Geschäft öffnet um neun Uhr.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Geschäft",
+        "translation": "Магазин открывается в девять часов."
+    },
+    {
+        "id": "pop-049-möglichkeit-nom-49",
+        "sentence": "___ Möglichkeit zur Verbesserung besteht.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Möglichkeit",
+        "translation": "Возможность для улучшения существует."
+    },
+    {
+        "id": "pop-050-gesellschaft-nom-50",
+        "sentence": "___ Gesellschaft wandelt sich rasant.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Gesellschaft",
+        "translation": "Общество стремительно меняется."
+    },
+    {
+        "id": "pop-051-entwicklung-nom-51",
+        "sentence": "___ Entwicklung der Technik schreitet voran.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Entwicklung",
+        "translation": "Развитие техники идет вперед."
+    },
+    {
+        "id": "pop-052-schule-nom-52",
+        "sentence": "___ Schule ist heute geschlossen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Schule",
+        "translation": "Школа сегодня закрыта."
+    },
+    {
+        "id": "pop-053-zeitraum-nom-53",
+        "sentence": "___ Zeitraum ist zu kurz gewählt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Zeitraum",
+        "translation": "Выбранный период времени слишком короток."
+    },
+    {
+        "id": "pop-054-unternehmen-nom-54",
+        "sentence": "___ Unternehmen macht hohe Gewinne.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Unternehmen",
+        "translation": "Предприятие получает высокую прибыль."
+    },
+    {
+        "id": "pop-055-ergebnis-nom-55",
+        "sentence": "___ Ergebnis war enttäuschend.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Ergebnis",
+        "translation": "Результат был разочаровывающим."
+    },
+    {
+        "id": "pop-056-geschichte-nom-56",
+        "sentence": "___ Geschichte wiederholt sich oft.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Geschichte",
+        "translation": "История часто повторяется."
+    },
+    {
+        "id": "pop-057-rolle-nom-57",
+        "sentence": "___ Rolle im Film war klein.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Rolle",
+        "translation": "Роль в фильме была маленькой."
+    },
+    {
+        "id": "pop-058-wirtschaft-nom-58",
+        "sentence": "___ Wirtschaft erholt sich langsam.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Wirtschaft",
+        "translation": "Экономика медленно восстанавливается."
+    },
+    {
+        "id": "pop-059-sprache-nom-59",
+        "sentence": "___ Sprache ist der Schlüssel zur Kultur.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Sprache",
+        "translation": "Язык — это ключ к культуре."
+    },
+    {
+        "id": "pop-060-projekt-nom-60",
+        "sentence": "___ Projekt muss bald fertig sein.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Projekt",
+        "translation": "Проект должен быть скоро готов."
+    },
+    {
+        "id": "pop-061-preis-nom-61",
+        "sentence": "___ Preis ist inbegriffen.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Preis",
+        "translation": "Цена включена."
+    },
+    {
+        "id": "pop-062-weg-nom-62",
+        "sentence": "___ Weg ist das Ziel.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Weg",
+        "translation": "Путь и есть цель."
+    },
+    {
+        "id": "pop-063-information-nom-63",
+        "sentence": "___ Information ist sehr wertvoll.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Information",
+        "translation": "Информация очень ценна."
+    },
+    {
+        "id": "pop-064-gesetz-nom-64",
+        "sentence": "___ Gesetz tritt morgen in Kraft.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Gesetz",
+        "translation": "Закон вступает в силу завтра."
+    },
+    {
+        "id": "pop-065-markt-nom-65",
+        "sentence": "___ Markt ist hart umkämpft.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Markt",
+        "translation": "На рынке идет жесткая конкуренция."
+    },
+    {
+        "id": "pop-066-schule-nom-66",
+        "sentence": "___ Schule prägt das Leben.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Schule",
+        "translation": "Школа формирует жизнь."
+    },
+    {
+        "id": "pop-067-situation-nom-67",
+        "sentence": "___ Situation erfordert schnelles Handeln.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Situation",
+        "translation": "Ситуация требует быстрых действий."
+    },
+    {
+        "id": "pop-068-plan-nom-68",
+        "sentence": "___ Plan wurde verworfen.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Plan",
+        "translation": "План был отброшен."
+    },
+    {
+        "id": "pop-069-erfahrung-nom-69",
+        "sentence": "___ Erfahrung kommt mit der Zeit.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Erfahrung",
+        "translation": "Опыт приходит со временем."
+    },
+    {
+        "id": "pop-070-person-nom-070",
+        "sentence": "___ Person ist mir unbekannt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Person",
+        "translation": "Этот человек мне не знаком."
+    },
+    {
+        "id": "pop-071-musik-nom-071",
+        "sentence": "___ Musik war viel zu laut.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Musik",
+        "translation": "Музыка была слишком громкой."
+    },
+    {
+        "id": "pop-072-lied-nom-072",
+        "sentence": "___ Lied ist sehr bekannt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Lied",
+        "translation": "Песня очень известная."
+    },
+    {
+        "id": "pop-073-spiel-nom-073",
+        "sentence": "___ Spiel ist aus.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Spiel",
+        "translation": "Игра окончена."
+    },
+    {
+        "id": "pop-074-auto-nom-074",
+        "sentence": "___ Auto ist in der Werkstatt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Auto",
+        "translation": "Машина в мастерской."
+    },
+    {
+        "id": "pop-075-zug-nom-075",
+        "sentence": "___ Zug hat zehn Minuten Verspätung.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Zug",
+        "translation": "Поезд задерживается на десять минут."
+    },
+    {
+        "id": "pop-076-film-nom-076",
+        "sentence": "___ Film war extrem spannend.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Film",
+        "translation": "Фильм был чрезвычайно захватывающим."
+    },
+    {
+        "id": "pop-077-buch-nom-077",
+        "sentence": "___ Buch ist ein Bestseller.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Buch",
+        "translation": "Книга — бестселлер."
+    },
+    {
+        "id": "pop-078-zeitung-nom-078",
+        "sentence": "___ Zeitung berichtet über den Vorfall.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Zeitung",
+        "translation": "Газета сообщает об инциденте."
+    },
+    {
+        "id": "pop-079-natur-nom-079",
+        "sentence": "___ Natur braucht unseren Schutz.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Natur",
+        "translation": "Природа нуждается в нашей защите."
+    },
+    {
+        "id": "pop-080-meer-nom-080",
+        "sentence": "___ Meer glitzert in der Sonne.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Meer",
+        "translation": "Море сверкает на солнце."
+    },
+    {
+        "id": "pop-081-himmel-nom-081",
+        "sentence": "___ Himmel ist wolkenlos.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Himmel",
+        "translation": "Небо безоблачное."
+    },
+    {
+        "id": "pop-082-sonne-nom-082",
+        "sentence": "___ Sonne brennt heute heiß.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Sonne",
+        "translation": "Солнце сегодня печет."
+    },
+    {
+        "id": "pop-083-mond-nom-083",
+        "sentence": "___ Mond steht hoch am Firmament.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Mond",
+        "translation": "Луна стоит высоко на небосводе."
+    },
+    {
+        "id": "pop-084-wind-nom-084",
+        "sentence": "___ Wind weht von Osten.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Wind",
+        "translation": "Ветер дует с востока."
+    },
+    {
+        "id": "pop-085-regen-nom-085",
+        "sentence": "___ Regen prasselt gegen die Scheibe.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Regen",
+        "translation": "Дождь барабанит по стеклу."
+    },
+    {
+        "id": "pop-086-schnee-nom-086",
+        "sentence": "___ Schnee deckt alles zu.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Schnee",
+        "translation": "Снег всё покрывает."
+    },
+    {
+        "id": "pop-087-baum-nom-087",
+        "sentence": "___ Baum verliert seine Blätter.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Baum",
+        "translation": "Дерево теряет листья."
+    },
+    {
+        "id": "pop-088-blume-nom-088",
+        "sentence": "___ Blume blüht im Frühling.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Blume",
+        "translation": "Цветок цветет весной."
+    },
+    {
+        "id": "pop-089-tier-nom-089",
+        "sentence": "___ Tier braucht Futter.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Tier",
+        "translation": "Животному нужен корм."
+    },
+    {
+        "id": "pop-090-hund-nom-090",
+        "sentence": "___ Hund bellt laut.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Hund",
+        "translation": "Собака громко лает."
+    },
+    {
+        "id": "pop-091-katze-nom-091",
+        "sentence": "___ Katze schnurrt zufrieden.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Katze",
+        "translation": "Кошка довольно мурлычет."
+    },
+    {
+        "id": "pop-092-vogel-nom-092",
+        "sentence": "___ Vogel baut ein Nest.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vogel",
+        "translation": "Птица строит гнездо."
+    },
+    {
+        "id": "pop-093-fisch-nom-093",
+        "sentence": "___ Fisch schwimmt im Aquarium.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Fisch",
+        "translation": "Рыба плавает в аквариуме."
+    },
+    {
+        "id": "pop-094-apfel-nom-094",
+        "sentence": "___ Apfel ist knackig.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Apfel",
+        "translation": "Яблоко хрустящее."
+    },
+    {
+        "id": "pop-095-brot-nom-095",
+        "sentence": "___ Brot ist frisch gebacken.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Brot",
+        "translation": "Хлеб свежеиспеченный."
+    },
+    {
+        "id": "pop-096-milch-nom-096",
+        "sentence": "___ Milch ist im Kühlschrank.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Milch",
+        "translation": "Молоко в холодильнике."
+    },
+    {
+        "id": "pop-097-kaffee-nom-097",
+        "sentence": "___ Kaffee ist noch zu heiß.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Kaffee",
+        "translation": "Кофе еще слишком горячий."
+    },
+    {
+        "id": "pop-098-tee-nom-098",
+        "sentence": "___ Tee beruhigt die Nerven.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Tee",
+        "translation": "Чай успокаивает нервы."
+    },
+    {
+        "id": "pop-099-essen-nom-099",
+        "sentence": "___ Essen schmeckt hervorragend.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Essen",
+        "translation": "Еда на вкус превосходна."
+    },
+    {
+        "id": "pop-100-getränk-nom-100",
+        "sentence": "___ Getränk ist sehr erfrischend.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Getränk",
+        "translation": "Напиток очень освежающий."
+    },
+    {
+        "id": "pop-101-besuch-nom-101",
+        "sentence": "___ Besuch kommt morgen.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Besuch",
+        "translation": "Гости (визит) придут завтра."
+    },
+    {
+        "id": "pop-102-blick-nom-102",
+        "sentence": "___ Blick in die Zukunft ist wichtig.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Blick",
+        "translation": "Взгляд в будущее важен."
+    },
+    {
+        "id": "pop-103-chef-nom-103",
+        "sentence": "___ Chef ist heute nicht im Büro.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Chef",
+        "translation": "Начальник сегодня не в офисе."
+    },
+    {
+        "id": "pop-104-dank-nom-104",
+        "sentence": "___ Dank gebührt dir.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Dank",
+        "translation": "Благодарность причитается тебе."
+    },
+    {
+        "id": "pop-105-erfolg-nom-105",
+        "sentence": "___ Erfolg war abzusehen.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Erfolg",
+        "translation": "Успех был предсказуем."
+    },
+    {
+        "id": "pop-106-fehler-nom-106",
+        "sentence": "___ Fehler liegt im Detail.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Fehler",
+        "translation": "Ошибка кроется в деталях."
+    },
+    {
+        "id": "pop-107-garten-nom-107",
+        "sentence": "___ Garten sieht gepflegt aus.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Garten",
+        "translation": "Сад выглядит ухоженным."
+    },
+    {
+        "id": "pop-108-gast-nom-108",
+        "sentence": "___ Gast möchte bestellen.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Gast",
+        "translation": "Гость хочет сделать заказ."
+    },
+    {
+        "id": "pop-109-gewinn-nom-109",
+        "sentence": "___ Gewinn wird reinvestiert.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Gewinn",
+        "translation": "Прибыль будет реинвестирована."
+    },
+    {
+        "id": "pop-110-glück-nom-110",
+        "sentence": "___ Glück ist das Wichtigste im Leben.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Glück",
+        "translation": "Счастье — самое важное в жизни."
+    },
+    {
+        "id": "pop-111-haushalt-nom-111",
+        "sentence": "___ Haushalt macht viel Arbeit.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Haushalt",
+        "translation": "Домашнее хозяйство требует много работы."
+    },
+    {
+        "id": "pop-112-herbst-nom-112",
+        "sentence": "___ Herbst ist windig.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Herbst",
+        "translation": "Осень ветреная."
+    },
+    {
+        "id": "pop-113-inhalt-nom-113",
+        "sentence": "___ Inhalt des Pakets ist zerbrechlich.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Inhalt",
+        "translation": "Содержимое посылки хрупкое."
+    },
+    {
+        "id": "pop-114-job-nom-114",
+        "sentence": "___ Job ist sehr stressig.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Job",
+        "translation": "Работа (джоб) очень стрессовая."
+    },
+    {
+        "id": "pop-115-kampf-nom-115",
+        "sentence": "___ Kampf war sehr fair.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Kampf",
+        "translation": "Борьба была очень честной."
+    },
+    {
+        "id": "pop-116-kollege-nom-116",
+        "sentence": "___ Kollege hilft mir oft.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Kollege",
+        "translation": "Коллега часто мне помогает."
+    },
+    {
+        "id": "pop-117-kontakt-nom-117",
+        "sentence": "___ Kontakt zu ihm ist abgebrochen.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Kontakt",
+        "translation": "Контакт с ним прервался."
+    },
+    {
+        "id": "pop-118-körper-nom-118",
+        "sentence": "___ Körper braucht Bewegung.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Körper",
+        "translation": "Телу нужно движение."
+    },
+    {
+        "id": "pop-119-krieg-nom-119",
+        "sentence": "___ Krieg ist schrecklich.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Krieg",
+        "translation": "Война — это ужасно."
+    },
+    {
+        "id": "pop-120-kunde-nom-120",
+        "sentence": "___ Kunde hat immer recht.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Kunde",
+        "translation": "Клиент всегда прав."
+    },
+    {
+        "id": "pop-121-kurs-nom-121",
+        "sentence": "___ Kurs findet online statt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Kurs",
+        "translation": "Курс проходит онлайн."
+    },
+    {
+        "id": "pop-122-lärm-nom-122",
+        "sentence": "___ Lärm stört die Nachbarn.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Lärm",
+        "translation": "Шум мешает соседям."
+    },
+    {
+        "id": "pop-123-mangel-nom-123",
+        "sentence": "___ Mangel an Wasser ist groß.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Mangel",
+        "translation": "Нехватка воды велика."
+    },
+    {
+        "id": "pop-124-moment-nom-124",
+        "sentence": "___ Moment war magisch.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Moment",
+        "translation": "Момент был волшебным."
+    },
+    {
+        "id": "pop-125-nachbar-nom-125",
+        "sentence": "___ Nachbar ist sehr freundlich.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Nachbar",
+        "translation": "Сосед очень дружелюбен."
+    },
+    {
+        "id": "pop-126-partner-nom-126",
+        "sentence": "___ Partner wartet im Auto.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Partner",
+        "translation": "Партнер ждет в машине."
+    },
+    {
+        "id": "pop-127-pass-nom-127",
+        "sentence": "___ Pass liegt im Safe.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Pass",
+        "translation": "Паспорт лежит в сейфе."
+    },
+    {
+        "id": "pop-128-rat-nom-128",
+        "sentence": "___ Rat meines Vaters war gut.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Rat",
+        "translation": "Совет моего отца был хорошим."
+    },
+    {
+        "id": "pop-129-raum-nom-129",
+        "sentence": "___ Raum ist dunkel.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Raum",
+        "translation": "Помещение (комната) темное."
+    },
+    {
+        "id": "pop-130-satz-nom-130",
+        "sentence": "___ Satz ist grammatikalisch korrekt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Satz",
+        "translation": "Предложение грамматически верно."
+    },
+    {
+        "id": "pop-131-schatten-nom-131",
+        "sentence": "___ Schatten ist kühl.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Schatten",
+        "translation": "Тень прохладная."
+    },
+    {
+        "id": "pop-132-see-nom-132",
+        "sentence": "___ See ist sehr tief.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "See",
+        "translation": "Озеро очень глубокое."
+    },
+    {
+        "id": "pop-133-sommer-nom-133",
+        "sentence": "___ Sommer war dieses Jahr heiß.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Sommer",
+        "translation": "Лето в этом году было жарким."
+    },
+    {
+        "id": "pop-134-spaß-nom-134",
+        "sentence": "___ Spaß steht im Vordergrund.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Spaß",
+        "translation": "Удовольствие стоит на первом плане."
+    },
+    {
+        "id": "pop-135-sport-nom-135",
+        "sentence": "___ Sport hält fit.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Sport",
+        "translation": "Спорт поддерживает форму."
+    },
+    {
+        "id": "pop-136-staat-nom-136",
+        "sentence": "___ Staat garantiert die Sicherheit.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Staat",
+        "translation": "Государство гарантирует безопасность."
+    },
+    {
+        "id": "pop-137-streit-nom-137",
+        "sentence": "___ Streit ist unnötig.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Streit",
+        "translation": "Спор (ссора) излишен."
+    },
+    {
+        "id": "pop-138-traum-nom-138",
+        "sentence": "___ Traum ging in Erfüllung.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Traum",
+        "translation": "Мечта (сон) сбылась."
+    },
+    {
+        "id": "pop-139-unterschied-nom-139",
+        "sentence": "___ Unterschied ist minimal.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Unterschied",
+        "translation": "Разница минимальна."
+    },
+    {
+        "id": "pop-140-urlaub-nom-140",
+        "sentence": "___ Urlaub beginnt nächste Woche.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Urlaub",
+        "translation": "Отпуск начинается на следующей неделе."
+    },
+    {
+        "id": "pop-141-vergleich-nom-141",
+        "sentence": "___ Vergleich ist schwierig.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vergleich",
+        "translation": "Сравнение затруднительно."
+    },
+    {
+        "id": "pop-142-verkehr-nom-142",
+        "sentence": "___ Verkehr ist heute extrem dicht.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Verkehr",
+        "translation": "Дорожное движение сегодня крайне плотное."
+    },
+    {
+        "id": "pop-143-vertrag-nom-143",
+        "sentence": "___ Vertrag wurde bereits unterschrieben.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vertrag",
+        "translation": "Договор уже подписан."
+    },
+    {
+        "id": "pop-144-vorteil-nom-144",
+        "sentence": "___ Vorteil liegt auf unserer Seite.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Vorteil",
+        "translation": "Преимущество на нашей стороне."
+    },
+    {
+        "id": "pop-145-wald-nom-145",
+        "sentence": "___ Wald ist die Lunge der Erde.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Wald",
+        "translation": "Лес — это легкие земли."
+    },
+    {
+        "id": "pop-146-wunsch-nom-146",
+        "sentence": "___ Wunsch wurde erfüllt.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Wunsch",
+        "translation": "Желание было исполнено."
+    },
+    {
+        "id": "pop-147-zustand-nom-147",
+        "sentence": "___ Zustand der Straße ist schlecht.",
+        "correctArticle": "Der",
+        "caseName": "Nominativ",
+        "noun": "Zustand",
+        "translation": "Состояние дороги плохое."
+    },
+    {
+        "id": "pop-148-angst-nom-148",
+        "sentence": "___ Angst ist ein schlechter Berater.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Angst",
+        "translation": "Страх — плохой советчик."
+    },
+    {
+        "id": "pop-149-antwort-nom-149",
+        "sentence": "___ Antwort lässt auf sich warten.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Antwort",
+        "translation": "Ответ заставляет себя ждать."
+    },
+    {
+        "id": "pop-150-aufgabe-nom-150",
+        "sentence": "___ Aufgabe ist kompliziert.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Aufgabe",
+        "translation": "Задача сложная."
+    },
+    {
+        "id": "pop-151-ausbildung-nom-151",
+        "sentence": "___ Ausbildung dauert drei Jahre.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Ausbildung",
+        "translation": "Обучение длится три года."
+    },
+    {
+        "id": "pop-152-bank-nom-152",
+        "sentence": "___ Bank hat heute geschlossen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Bank",
+        "translation": "Банк сегодня закрыт."
+    },
+    {
+        "id": "pop-153-bedeutung-nom-153",
+        "sentence": "___ Bedeutung des Wortes ist klar.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Bedeutung",
+        "translation": "Значение слова ясно."
+    },
+    {
+        "id": "pop-154-beziehung-nom-154",
+        "sentence": "___ Beziehung ist zerbrochen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Beziehung",
+        "translation": "Отношения разрушены."
+    },
+    {
+        "id": "pop-155-bildung-nom-155",
+        "sentence": "___ Bildung ist der Schlüssel zur Welt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Bildung",
+        "translation": "Образование — это ключ к миру."
+    },
+    {
+        "id": "pop-156-chance-nom-156",
+        "sentence": "___ Chance kommt nur einmal.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Chance",
+        "translation": "Шанс выпадает лишь однажды."
+    },
+    {
+        "id": "pop-157-ecke-nom-157",
+        "sentence": "___ Ecke ist sehr schmutzig.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Ecke",
+        "translation": "Угол очень грязный."
+    },
+    {
+        "id": "pop-158-energie-nom-158",
+        "sentence": "___ Energie wird immer teurer.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Energie",
+        "translation": "Энергия становится всё дороже."
+    },
+    {
+        "id": "pop-159-entscheidung-nom-159",
+        "sentence": "___ Entscheidung ist gefallen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Entscheidung",
+        "translation": "Решение принято."
+    },
+    {
+        "id": "pop-160-erde-nom-160",
+        "sentence": "___ Erde dreht sich um die Sonne.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Erde",
+        "translation": "Земля вращается вокруг солнца."
+    },
+    {
+        "id": "pop-161-erfahrung-nom-161",
+        "sentence": "___ Erfahrung zeigt etwas anderes.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Erfahrung",
+        "translation": "Опыт показывает другое."
+    },
+    {
+        "id": "pop-162-erinnerung-nom-162",
+        "sentence": "___ Erinnerung verblasst langsam.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Erinnerung",
+        "translation": "Воспоминание медленно угасает."
+    },
+    {
+        "id": "pop-163-erwartung-nom-163",
+        "sentence": "___ Erwartung war zu hoch.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Erwartung",
+        "translation": "Ожидание было слишком завышенным."
+    },
+    {
+        "id": "pop-164-farbe-nom-164",
+        "sentence": "___ Farbe trocknet schnell.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Farbe",
+        "translation": "Краска быстро сохнет."
+    },
+    {
+        "id": "pop-165-freude-nom-165",
+        "sentence": "___ Freude war riesig.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Freude",
+        "translation": "Радость была огромной."
+    },
+    {
+        "id": "pop-166-gefahr-nom-166",
+        "sentence": "___ Gefahr ist gebannt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Gefahr",
+        "translation": "Опасность предотвращена."
+    },
+    {
+        "id": "pop-167-gesundheit-nom-167",
+        "sentence": "___ Gesundheit geht vor.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Gesundheit",
+        "translation": "Здоровье важнее всего."
+    },
+    {
+        "id": "pop-168-hilfe-nom-168",
+        "sentence": "___ Hilfe kommt sofort.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Hilfe",
+        "translation": "Помощь придет немедленно."
+    },
+    {
+        "id": "pop-169-insel-nom-169",
+        "sentence": "___ Insel ist unbewohnt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Insel",
+        "translation": "Остров необитаем."
+    },
+    {
+        "id": "pop-170-kraft-nom-170",
+        "sentence": "___ Kraft lässt nach.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Kraft",
+        "translation": "Сила убывает."
+    },
+    {
+        "id": "pop-171-küche-nom-171",
+        "sentence": "___ Küche ist modern ausgestattet.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Küche",
+        "translation": "Кухня современно оборудована."
+    },
+    {
+        "id": "pop-172-liebe-nom-172",
+        "sentence": "___ Liebe ist ein starkes Gefühl.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Liebe",
+        "translation": "Любовь — сильное чувство."
+    },
+    {
+        "id": "pop-173-liste-nom-173",
+        "sentence": "___ Liste ist noch nicht fertig.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Liste",
+        "translation": "Список еще не готов."
+    },
+    {
+        "id": "pop-174-luft-nom-174",
+        "sentence": "___ Luft ist hier sehr sauber.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Luft",
+        "translation": "Воздух здесь очень чистый."
+    },
+    {
+        "id": "pop-175-lust-nom-175",
+        "sentence": "___ Lust auf Eis ist groß.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Lust",
+        "translation": "Желание съесть мороженое велико."
+    },
+    {
+        "id": "pop-176-meinung-nom-176",
+        "sentence": "___ Meinung zählt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Meinung",
+        "translation": "Мнение имеет значение."
+    },
+    {
+        "id": "pop-177-nähe-nom-177",
+        "sentence": "___ Nähe zum Strand ist ein Pluspunkt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Nähe",
+        "translation": "Близость к пляжу — это плюс."
+    },
+    {
+        "id": "pop-178-nummer-nom-178",
+        "sentence": "___ Nummer ist nicht vergeben.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Nummer",
+        "translation": "Номер не существует (не присвоен)."
+    },
+    {
+        "id": "pop-179-ordnung-nom-179",
+        "sentence": "___ Ordnung muss sein.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Ordnung",
+        "translation": "Порядок должен быть."
+    },
+    {
+        "id": "pop-180-pause-nom-180",
+        "sentence": "___ Pause ist wohlverdient.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Pause",
+        "translation": "Перерыв заслужен."
+    },
+    {
+        "id": "pop-181-pflege-nom-181",
+        "sentence": "___ Pflege der Haut ist wichtig.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Pflege",
+        "translation": "Уход за кожей важен."
+    },
+    {
+        "id": "pop-182-politik-nom-182",
+        "sentence": "___ Politik ist ein komplexes Thema.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Politik",
+        "translation": "Политика — сложная тема."
+    },
+    {
+        "id": "pop-183-prüfung-nom-183",
+        "sentence": "___ Prüfung war sehr schwer.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Prüfung",
+        "translation": "Экзамен был очень сложным."
+    },
+    {
+        "id": "pop-184-qualität-nom-184",
+        "sentence": "___ Qualität hat ihren Preis.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Qualität",
+        "translation": "Качество имеет свою цену."
+    },
+    {
+        "id": "pop-185-reise-nom-185",
+        "sentence": "___ Reise war sehr anstrengend.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Reise",
+        "translation": "Путешествие было очень утомительным."
+    },
+    {
+        "id": "pop-186-ruhe-nom-186",
+        "sentence": "___ Ruhe ist jetzt nötig.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Ruhe",
+        "translation": "Спокойствие сейчас необходимо."
+    },
+    {
+        "id": "pop-187-sache-nom-187",
+        "sentence": "___ Sache ist erledigt.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Sache",
+        "translation": "Дело улажено."
+    },
+    {
+        "id": "pop-188-sicherheit-nom-188",
+        "sentence": "___ Sicherheit der Passagiere ist oberste Priorität.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Sicherheit",
+        "translation": "Безопасность пассажиров — главный приоритет."
+    },
+    {
+        "id": "pop-189-stelle-nom-189",
+        "sentence": "___ Stelle ist noch vakant.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Stelle",
+        "translation": "Место (вакансия) всё еще свободно."
+    },
+    {
+        "id": "pop-190-umwelt-nom-190",
+        "sentence": "___ Umwelt liegt uns am Herzen.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Umwelt",
+        "translation": "Окружающая среда нам дорога."
+    },
+    {
+        "id": "pop-191-verantwortung-nom-191",
+        "sentence": "___ Verantwortung trägt der Chef.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Verantwortung",
+        "translation": "Ответственность несет начальник."
+    },
+    {
+        "id": "pop-192-verbindung-nom-192",
+        "sentence": "___ Verbindung ist schlecht.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Verbindung",
+        "translation": "Связь плохая."
+    },
+    {
+        "id": "pop-193-wahrheit-nom-193",
+        "sentence": "___ Wahrheit kommt immer ans Licht.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Wahrheit",
+        "translation": "Правда всегда выходит наружу."
+    },
+    {
+        "id": "pop-194-wohnung-nom-194",
+        "sentence": "___ Wohnung ist sehr hell.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Wohnung",
+        "translation": "Квартира очень светлая."
+    },
+    {
+        "id": "pop-195-zukunft-nom-195",
+        "sentence": "___ Zukunft sieht rosig aus.",
+        "correctArticle": "Die",
+        "caseName": "Nominativ",
+        "noun": "Zukunft",
+        "translation": "Будущее выглядит радужным."
+    },
+    {
+        "id": "pop-196-angebot-nom-196",
+        "sentence": "___ Angebot ist zeitlich begrenzt.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Angebot",
+        "translation": "Предложение ограничено по времени."
+    },
+    {
+        "id": "pop-197-bild-nom-197",
+        "sentence": "___ Bild hängt schief.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Bild",
+        "translation": "Картина висит криво."
+    },
+    {
+        "id": "pop-198-dorf-nom-198",
+        "sentence": "___ Dorf ist sehr ruhig.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Dorf",
+        "translation": "Деревня очень тихая."
+    },
+    {
+        "id": "pop-199-fenster-nom-199",
+        "sentence": "___ Fenster ist weit offen.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Fenster",
+        "translation": "Окно широко открыто."
+    },
+    {
+        "id": "pop-200-foto-nom-200",
+        "sentence": "___ Foto ist leider unscharf.",
+        "correctArticle": "Das",
+        "caseName": "Nominativ",
+        "noun": "Foto",
+        "translation": "Фото, к сожалению, нечеткое."
     }
 ]
