@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { FlashCard } from '../components/features/FlashCards/FlashCard';
 import { Button } from '../components/Button';
 import { GlassCard } from '../components/GlassCard';
-import { ArrowLeft, Trophy } from 'lucide-react';
+import { ArrowLeft, Trophy, Zap } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SRSService } from '../services/srs/SRSService';
 import { useAuth } from '../contexts/AuthContext';
@@ -77,6 +77,8 @@ export const FlashCardsPage: React.FC = () => {
     const navigate = useNavigate();
     const { user } = useAuth();
     const { level, categoryId } = useParams<{ level?: string; categoryId?: string }>();
+    const [searchParams] = useSearchParams();
+    const isSmartMode = searchParams.get('mode') === 'smart15';
     const { addXP } = useProgress();
 
     const [cards, setCards] = useState<WordCard[]>([]);
@@ -93,7 +95,15 @@ export const FlashCardsPage: React.FC = () => {
             const category = getCategoryById(categoryId || '');
 
             if (category) {
-                const loadedCards: WordCard[] = category.words.map(word => ({
+                let wordsToLoad = category.words;
+
+                if (isSmartMode) {
+                    wordsToLoad = [...category.words]
+                        .sort(() => Math.random() - 0.5)
+                        .slice(0, 15);
+                }
+
+                const loadedCards: WordCard[] = wordsToLoad.map(word => ({
                     id: word.id,
                     word: word.german,
                     translation: word.russian,
@@ -241,15 +251,30 @@ export const FlashCardsPage: React.FC = () => {
                         {categories.map(cat => (
                             <GlassCard
                                 key={cat.id}
-                                className="p-3 sm:p-5 cursor-pointer hover:scale-[1.02] transition-transform h-full flex flex-col"
+                                className="p-3 sm:p-5 cursor-pointer hover:scale-[1.02] transition-transform h-full flex flex-col relative group"
                                 onClick={() => navigate(`/flashcards/${level}/${cat.id}`)}
                             >
                                 <div className={`w-8 h-8 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br ${selectedLevel.color} flex items-center justify-center mb-2 sm:mb-3 text-lg sm:text-2xl shadow-lg`}>
                                     {cat.icon}
                                 </div>
-                                <h3 className="text-xs sm:text-lg font-black text-gray-800 mb-0.5 leading-tight mt-auto">{germanNames[cat.name] || cat.name}</h3>
-                                <p className="text-[10px] sm:text-sm text-gray-500 mb-1 line-clamp-1">{cat.nameRu}</p>
-                                <p className="text-[10px] sm:text-sm text-gray-600 font-black">{cat.wordCount} Wörter</p>
+                                <h3 className="text-xs sm:text-lg font-black text-gray-800 mb-0.5 leading-tight">{germanNames[cat.name] || cat.name}</h3>
+                                <p className="text-[10px] sm:text-sm text-gray-500 mb-2 line-clamp-1">{cat.nameRu}</p>
+
+                                <div className="mt-auto pt-2 border-t border-gray-100 flex items-center justify-between gap-2">
+                                    <p className="text-[10px] sm:text-sm text-gray-600 font-black">{cat.wordCount} <span className="hidden sm:inline">Wörter</span><span className="sm:hidden">W.</span></p>
+
+                                    <button
+                                        onClick={(e) => {
+                                            e.stopPropagation();
+                                            navigate(`/flashcards/${level}/${cat.id}?mode=smart15`);
+                                        }}
+                                        className="flex items-center gap-1.5 px-2 sm:px-3 py-1.5 bg-yellow-400 hover:bg-yellow-500 active:bg-yellow-600 text-white rounded-lg shadow-sm transition-all transform active:scale-95"
+                                        title="Быстрая тренировка: 15 случайных слов"
+                                    >
+                                        <Zap className="w-3 sm:w-3.5 h-3.5 fill-current" />
+                                        <span className="text-[10px] sm:text-xs font-bold whitespace-nowrap">je 15</span>
+                                    </button>
+                                </div>
                             </GlassCard>
                         ))}
                     </div>
