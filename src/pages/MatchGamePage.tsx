@@ -129,7 +129,8 @@ export const MatchGamePage: React.FC = () => {
             'Abstract Concepts': 'Abstrakte Begriffe',
 
             // B2-Beruf
-            '1 Modul': 'B2 - Beruf Modul 1'
+            '1 Modul': 'B2 - Beruf Modul 1',
+            '2 Modul': 'B2 - Beruf Modul 2'
         };
 
         const systemBlocks: WordBlock[] = allVocabularyCategories.map(category => ({
