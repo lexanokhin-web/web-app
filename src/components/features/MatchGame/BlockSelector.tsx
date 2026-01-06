@@ -89,45 +89,34 @@ export const BlockSelector: React.FC<BlockSelectorProps> = ({
                                 {levelBlocks.map(block => (
                                     <GlassCard
                                         key={block.id}
-                                        className={`p-2 sm:p-3 cursor-pointer transition-all ${currentBlockId === block.id
-                                            ? 'ring-2 ring-purple-500 bg-purple-50'
-                                            : 'hover:bg-gray-50'
+                                        className={`p-3 sm:p-4 cursor-pointer transition-all hover:scale-[1.02] active:scale-95 flex flex-col h-full relative group ${currentBlockId === block.id
+                                                ? 'ring-2 ring-purple-500 bg-purple-50'
+                                                : 'hover:bg-gray-50'
                                             }`}
-                                        onClick={() => onSelectBlock(block.id)}
+                                        onClick={() => onStartGame(block.id)}
                                     >
-                                        <div className="flex items-center justify-between mb-1 sm:mb-2">
-                                            <span className="text-base sm:text-lg">
+                                        <div className="flex items-center justify-between mb-2">
+                                            <span className="text-xl sm:text-2xl">
                                                 {block.vocabularyCategory?.icon || '📝'}
                                             </span>
-                                            <div className="flex items-center gap-1">
-                                                {!block.isVocabularyCategory && (
-                                                    <button
-                                                        onClick={(e) => {
-                                                            e.stopPropagation();
-                                                            onDeleteBlock(block.id);
-                                                        }}
-                                                        className="p-1 text-red-500 hover:bg-red-100 rounded"
-                                                    >
-                                                        <Trash2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                                                    </button>
-                                                )}
+                                            {!block.isVocabularyCategory && (
                                                 <button
                                                     onClick={(e) => {
                                                         e.stopPropagation();
-                                                        onStartGame(block.id);
+                                                        onDeleteBlock(block.id);
                                                     }}
-                                                    className="p-1 text-green-600 hover:bg-green-100 rounded"
-                                                    title="Играть"
+                                                    className="p-1.5 text-red-500 hover:bg-red-100 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"
+                                                    title="Удалить блок"
                                                 >
-                                                    <Play className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                                                    <Trash2 className="w-4 h-4" />
                                                 </button>
-                                            </div>
+                                            )}
                                         </div>
-                                        <h3 className="font-black text-gray-800 text-[11px] sm:text-sm truncate leading-tight mb-0.5">
+                                        <h3 className="font-black text-gray-800 text-xs sm:text-base leading-tight mb-1">
                                             {block.name}
                                         </h3>
-                                        <p className="text-[10px] sm:text-xs text-gray-500">
-                                            {block.words.length} слов
+                                        <p className="text-[10px] sm:text-sm text-gray-500 mt-auto">
+                                            {block.words.length} <span className="hidden sm:inline">слов</span><span className="sm:hidden">сл.</span>
                                         </p>
                                     </GlassCard>
                                 ))}
