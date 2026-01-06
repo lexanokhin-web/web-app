@@ -3,7 +3,7 @@ import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { FlashCard } from '../components/features/FlashCards/FlashCard';
 import { Button } from '../components/Button';
 import { GlassCard } from '../components/GlassCard';
-import { ArrowLeft, Trophy, Zap } from 'lucide-react';
+import { ArrowLeft, Trophy, Zap, RotateCcw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SRSService } from '../services/srs/SRSService';
 import { useAuth } from '../contexts/AuthContext';
@@ -82,12 +82,37 @@ export const FlashCardsPage: React.FC = () => {
     const { addXP } = useProgress();
 
     const [cards, setCards] = useState<WordCard[]>([]);
+    const [srsData, setSrsData] = useState<any[]>([]);
     const [loading, setLoading] = useState(false);
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [knownCards, setKnownCards] = useState<string[]>([]);
     const [unknownCards, setUnknownCards] = useState<string[]>([]);
     const [showCompletion, setShowCompletion] = useState(false);
+    const [levelDueCount, setLevelDueCount] = useState(0);
+
+    // Fetch due count for the current level
+    useEffect(() => {
+        const fetchDueCount = async () => {
+            if (level && !categoryId) {
+                const srsCards = await SRSService.getCards(user?.id);
+                const now = new Date();
+                const levelCategories = getCategoriesByLevel(level.toUpperCase() as any);
+                const allLevelWords = levelCategories.flatMap(cat => cat.words);
+
+                const count = allLevelWords.filter(word => {
+                    const srsCard = srsCards.find(c => c.wordId === word.id);
+                    // Show in "Wiederholen" if:
+                    // 1. Scheduled for review now (nextReviewDate <= now)
+                    // 2. OR it's been reset for repetition (repetitions === 0)
+                    return srsCard && (srsCard.nextReviewDate <= now || srsCard.repetitions === 0);
+                }).length;
+
+                setLevelDueCount(count);
+            }
+        };
+        fetchDueCount();
+    }, [level, categoryId, user?.id]);
 
     const loadCards = useCallback(async () => {
         setLoading(true);
@@ -95,15 +120,45 @@ export const FlashCardsPage: React.FC = () => {
             const category = getCategoryById(categoryId || '');
 
             if (category) {
-                let wordsToLoad = category.words;
+                // Fetch SRS data to filter words
+                const srsCards = await SRSService.getCards(user?.id);
+                setSrsData(srsCards);
+                const now = new Date();
+
+                let wordsToLoad = category.words.filter(word => {
+                    const srsCard = srsCards.find(c => c.wordId === word.id);
+                    return !srsCard || srsCard.nextReviewDate <= now;
+                });
 
                 if (isSmartMode) {
-                    wordsToLoad = [...category.words]
+                    wordsToLoad = [...wordsToLoad]
                         .sort(() => Math.random() - 0.5)
                         .slice(0, 15);
                 }
 
                 const loadedCards: WordCard[] = wordsToLoad.map(word => ({
+                    id: word.id,
+                    word: word.german,
+                    translation: word.russian,
+                    example: word.example
+                }));
+
+                setCards(loadedCards);
+            } else if (categoryId === 'review' && level) {
+                // Special aggregated review mode
+                const srsCards = await SRSService.getCards(user?.id);
+                setSrsData(srsCards);
+                const now = new Date();
+
+                const levelCategories = getCategoriesByLevel(level.toUpperCase() as any);
+                const allLevelWords = levelCategories.flatMap(cat => cat.words);
+
+                const dueWords = allLevelWords.filter(word => {
+                    const srsCard = srsCards.find(c => c.wordId === word.id);
+                    return srsCard && (srsCard.nextReviewDate <= now || srsCard.repetitions === 0);
+                });
+
+                const loadedCards: WordCard[] = dueWords.map(word => ({
                     id: word.id,
                     word: word.german,
                     translation: word.russian,
@@ -248,6 +303,23 @@ export const FlashCardsPage: React.FC = () => {
                     </div>
 
                     <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+                        {/* Review Card */}
+                        {levelDueCount > 0 && (
+                            <GlassCard
+                                className="p-3 sm:p-5 cursor-pointer hover:scale-[1.02] transition-transform h-full flex flex-col border-2 border-indigo-400/30 bg-indigo-50/10"
+                                onClick={() => navigate(`/flashcards/${level}/review`)}
+                            >
+                                <div className={`w-8 h-8 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center mb-2 sm:mb-3 text-lg sm:text-2xl shadow-lg text-white`}>
+                                    <RotateCcw className="w-5 h-5 sm:w-8 sm:h-8" />
+                                </div>
+                                <h3 className="text-xs sm:text-lg font-black text-indigo-900 mb-0.5 leading-tight mt-auto">Wiederholen</h3>
+                                <p className="text-[10px] sm:text-sm text-indigo-700 mb-2 line-clamp-1">Повторить всё</p>
+                                <div className="mt-auto pt-2 border-t border-indigo-100 flex items-center justify-between">
+                                    <p className="text-[10px] sm:text-sm text-indigo-800 font-black">{levelDueCount} Wörter</p>
+                                </div>
+                            </GlassCard>
+                        )}
+
                         {categories.map(cat => (
                             <GlassCard
                                 key={cat.id}
@@ -307,25 +379,42 @@ export const FlashCardsPage: React.FC = () => {
                     className="max-w-md w-full"
                 >
                     <GlassCard className="p-8 text-center">
-                        <Trophy className="w-20 h-20 text-yellow-500 mx-auto mb-4" />
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                            Ausgezeichnet! 🎉
-                        </h2>
+                        {knownCards.length === 0 && unknownCards.length === 0 && cards.length === 0 ? (
+                            <>
+                                <div className="text-6xl mb-4">🏆</div>
+                                <h2 className="text-3xl font-bold text-gray-800 mb-4">
+                                    Meisterhaft!
+                                </h2>
+                                <p className="text-gray-600 mb-6 font-medium">
+                                    Все доступные слова в этой категории выучены. <br />
+                                    Приходи позже, когда придет время повторения!
+                                </p>
+                            </>
+                        ) : (
+                            <>
+                                <Trophy className="w-20 h-20 text-yellow-500 mx-auto mb-4" />
+                                <h2 className="text-3xl font-bold text-gray-800 mb-4">
+                                    Ausgezeichnet! 🎉
+                                </h2>
+                            </>
+                        )}
 
-                        <div className="space-y-3 mb-6">
-                            <div className="flex items-center justify-between p-3 bg-green-100 rounded-lg">
-                                <span className="text-gray-700">Gewusst:</span>
-                                <span className="font-bold text-green-600">{knownCards.length}</span>
+                        {(knownCards.length > 0 || unknownCards.length > 0 || cards.length > 0) && (
+                            <div className="space-y-3 mb-6">
+                                <div className="flex items-center justify-between p-3 bg-green-100 rounded-lg">
+                                    <span className="text-gray-700">Gewusst:</span>
+                                    <span className="font-bold text-green-600">{knownCards.length}</span>
+                                </div>
+                                <div className="flex items-center justify-between p-3 bg-orange-100 rounded-lg">
+                                    <span className="text-gray-700">Wiederholen:</span>
+                                    <span className="font-bold text-orange-600">{unknownCards.length}</span>
+                                </div>
+                                <div className="flex items-center justify-between p-3 bg-blue-100 rounded-lg">
+                                    <span className="text-gray-700">Gesamt:</span>
+                                    <span className="font-bold text-blue-600">{cards.length}</span>
+                                </div>
                             </div>
-                            <div className="flex items-center justify-between p-3 bg-orange-100 rounded-lg">
-                                <span className="text-gray-700">Wiederholen:</span>
-                                <span className="font-bold text-orange-600">{unknownCards.length}</span>
-                            </div>
-                            <div className="flex items-center justify-between p-3 bg-blue-100 rounded-lg">
-                                <span className="text-gray-700">Gesamt:</span>
-                                <span className="font-bold text-blue-600">{cards.length}</span>
-                            </div>
-                        </div>
+                        )}
 
                         <div className="space-y-3">
                             <Button onClick={handleRestart} variant="primary" className="w-full">
