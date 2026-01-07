@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import type { PanInfo } from 'framer-motion';
 import { SpeakButton } from '../../SpeakButton';
-import { Check, X, RotateCcw } from 'lucide-react';
+import { Check, X, RotateCcw, Sparkles } from 'lucide-react';
+import { AIService } from '../../../services/ai/AIService';
+import type { AIExplanation } from '../../../services/ai/AIService';
+import { AIResultModal } from './AIResultModal';
 
 interface FlashCardProps {
     word: string;
@@ -22,6 +25,22 @@ export const FlashCard: React.FC<FlashCardProps> = ({
     const [isFlipped, setIsFlipped] = useState(false);
     const [dragDirection, setDragDirection] = useState<'left' | 'right' | null>(null);
 
+    // AI State
+    const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+    const [aiExplanation, setAiExplanation] = useState<AIExplanation | null>(null);
+    const [isAILoading, setIsAILoading] = useState(false);
+
+    const handleAIAsk = async (e: React.MouseEvent) => {
+        e.stopPropagation();
+        setIsAIModalOpen(true);
+        if (!aiExplanation) {
+            setIsAILoading(true);
+            const result = await AIService.explainWord(word);
+            setAiExplanation(result);
+            setIsAILoading(false);
+        }
+    };
+
     const handleDragEnd = (_event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
         const threshold = 100;
 
@@ -32,6 +51,7 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                 onKnown();
                 setDragDirection(null);
                 setIsFlipped(false);
+                setAiExplanation(null); // Reset AI for next card
             }, 300);
         } else if (info.offset.x < -threshold) {
             // Swipe left - Не знаю
@@ -40,6 +60,7 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                 onUnknown();
                 setDragDirection(null);
                 setIsFlipped(false);
+                setAiExplanation(null); // Reset AI for next card
             }, 300);
         }
     };
@@ -99,7 +120,16 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                         className="absolute inset-0 backface-hidden"
                         style={{ backfaceVisibility: 'hidden' }}
                     >
-                        <div className="h-full w-full bg-gradient-to-br from-blue-400 to-purple-600 rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center text-white">
+                        <div className="h-full w-full bg-gradient-to-br from-blue-400 to-purple-600 rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center text-white relative">
+                            {/* AI Button Front */}
+                            <button
+                                onClick={handleAIAsk}
+                                className="absolute top-6 right-6 p-3 bg-white/20 hover:bg-white/30 rounded-full backdrop-blur-md transition-all group overflow-hidden"
+                                title="Спросить AI"
+                            >
+                                <Sparkles className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                            </button>
+
                             <div className="flex items-center space-x-4 mb-4">
                                 <h2 className="text-5xl font-bold">{word}</h2>
                                 <SpeakButton text={word} size="lg" />
@@ -125,7 +155,16 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                             transform: 'rotateY(180deg)'
                         }}
                     >
-                        <div className="h-full w-full bg-gradient-to-br from-green-400 to-teal-600 rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center text-white">
+                        <div className="h-full w-full bg-gradient-to-br from-green-400 to-teal-600 rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center text-white relative">
+                            {/* AI Button Back */}
+                            <button
+                                onClick={handleAIAsk}
+                                className="absolute top-6 right-6 p-3 bg-white/20 hover:bg-white/30 rounded-full backdrop-blur-md transition-all group overflow-hidden"
+                                title="Спросить AI"
+                            >
+                                <Sparkles className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                            </button>
+
                             <RotateCcw className="w-8 h-8 mb-4 opacity-60" />
                             <h2 className="text-4xl font-bold mb-2">{translation}</h2>
 
@@ -147,12 +186,22 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                 </motion.div>
             </motion.div>
 
+            {/* AI Modal */}
+            <AIResultModal
+                isOpen={isAIModalOpen}
+                onClose={() => setIsAIModalOpen(false)}
+                word={word}
+                explanation={aiExplanation}
+                isLoading={isAILoading}
+            />
+
             {/* Action Buttons (альтернатива swipe) */}
             <div className="flex justify-center space-x-4 mt-6">
                 <motion.button
                     onClick={() => {
                         onUnknown();
                         setIsFlipped(false);
+                        setAiExplanation(null);
                     }}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
@@ -166,6 +215,7 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                     onClick={() => {
                         onKnown();
                         setIsFlipped(false);
+                        setAiExplanation(null);
                     }}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
