@@ -21,13 +21,17 @@ export class AIService {
      * Получить подробное объяснение немецкого слова
      */
     static async explainWord(word: string): Promise<AIExplanation | null> {
+        console.log('AIService: --- AI Request Started ---');
+
         if (!this.apiKey) {
-            console.error('AIService: VITE_OPENROUTER_API_KEY is missing!');
+            console.error('AIService: ERROR - VITE_OPENROUTER_API_KEY is undefined!');
+            console.log('AIService: Available VITE_ environment keys:', Object.keys(import.meta.env).filter(k => k.startsWith('VITE_')));
             return null;
         }
 
-        console.log('AIService: Requesting explanation for', word, 'using', MODEL);
-        console.log('AIService: API Key starts with:', this.apiKey.substring(0, 4) + '...');
+        console.log('AIService: Word:', word);
+        console.log('AIService: Model:', MODEL);
+        console.log('AIService: API Key found (starts with):', this.apiKey.substring(0, 4) + '...');
 
         const prompt = `
             Du bist ein Deutschlehrer. Erkläre das Wort "${word}" für einen Schüler.
@@ -43,6 +47,7 @@ export class AIService {
         `;
 
         try {
+            console.log('AIService: Fetching from OpenRouter...');
             const response = await fetch(OPENROUTER_API_URL, {
                 method: 'POST',
                 headers: {
@@ -59,8 +64,10 @@ export class AIService {
                 })
             });
 
+            console.log('AIService: Response status:', response.status);
+
             if (!response.ok) {
-                const errorData = await response.json();
+                const errorData = await response.json().catch(() => ({ error: 'Could not parse error response' }));
                 console.error('AIService: OpenRouter Error Details:', errorData);
                 return null;
             }
@@ -69,18 +76,23 @@ export class AIService {
             let content = data.choices[0]?.message?.content;
 
             if (!content) {
-                console.error('AIService: Empty content in response', data);
+                console.error('AIService: ERROR - Empty content in response', data);
                 return null;
             }
 
-            console.log('AIService: Raw AI response:', content);
+            console.log('AIService: Raw AI response received');
 
             // Cleanup content if model puts it in markdown code blocks
             content = content.replace(/```json/g, '').replace(/```/g, '').trim();
 
-            return JSON.parse(content) as AIExplanation;
+            try {
+                return JSON.parse(content) as AIExplanation;
+            } catch (pError) {
+                console.error('AIService: JSON Parse Error. Content was:', content);
+                return null;
+            }
         } catch (error) {
-            console.error('AIService: Parse or Network Error:', error);
+            console.error('AIService: Network or unexpected error:', error);
             return null;
         }
     }
