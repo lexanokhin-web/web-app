@@ -10,7 +10,7 @@ export interface AIExplanation {
 }
 
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const MODEL = 'deepseek/deepseek-r1-0528:free'; // Возвращаемся к исходному ID
+const MODEL = 'deepseek/deepseek-r1-0528:free';
 
 export class AIService {
     private static get apiKey() {
@@ -22,15 +22,10 @@ export class AIService {
      * Получить подробное объяснение немецкого слова
      */
     static async explainWord(word: string): Promise<AIExplanation | null> {
-        console.log('AIService: --- AI Request Started ---');
-
         if (!this.apiKey) {
-            console.error('AIService: ERROR - VITE_OPENROUTER_API_KEY is undefined!');
+            console.error('AIService: VITE_OPENROUTER_API_KEY is undefined!');
             return null;
         }
-
-        console.log('AIService: Word:', word);
-        console.log('AIService: Model:', MODEL);
 
         const prompt = `
             Du bist ein Deutschlehrer. Erkläre das Wort "${word}" für einen Schüler.
@@ -62,11 +57,9 @@ export class AIService {
                 })
             });
 
-            console.log('AIService: Response status:', response.status);
-
             if (!response.ok) {
                 const errorData = await response.json().catch(() => ({ error: { message: 'Unknown Error' } }));
-                console.error('AIService: OpenRouter Error Message:', errorData.error?.message || JSON.stringify(errorData));
+                console.error('AIService: OpenRouter Error:', errorData.error?.message || JSON.stringify(errorData));
                 return null;
             }
 
@@ -74,7 +67,7 @@ export class AIService {
             let content = data.choices[0]?.message?.content;
 
             if (!content) {
-                console.error('AIService: ERROR - Empty content', data);
+                console.error('AIService: Empty content in response', data);
                 return null;
             }
 
