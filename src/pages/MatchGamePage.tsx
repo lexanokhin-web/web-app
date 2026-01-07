@@ -473,7 +473,6 @@ export const MatchGamePage: React.FC = () => {
                                 currentBlockId={currentBlockId}
                                 expandedLevels={expandedLevels}
                                 onToggleLevel={toggleLevel}
-                                onSelectBlock={setCurrentBlockId}
                                 onDeleteBlock={deleteBlock}
                                 onStartGame={(id) => startGame(id)}
                                 getBlocksByLevel={getBlocksByLevel}

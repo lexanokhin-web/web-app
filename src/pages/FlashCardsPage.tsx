@@ -17,6 +17,12 @@ interface WordCard {
     example?: string;
 }
 
+interface SRSCard {
+    wordId: string;
+    repetitions: number;
+    nextReviewDate: Date;
+}
+
 // CEFR Levels
 const levels = [
     { id: 'a1', name: 'A1 - Anfänger', nameRu: 'Начальный', icon: '🌱', color: 'from-green-400 to-green-600', description: 'Grundlegende Wörter' },
@@ -82,7 +88,6 @@ export const FlashCardsPage: React.FC = () => {
     const { addXP } = useProgress();
 
     const [cards, setCards] = useState<WordCard[]>([]);
-    const [srsData, setSrsData] = useState<any[]>([]);
     const [loading, setLoading] = useState(false);
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -95,10 +100,10 @@ export const FlashCardsPage: React.FC = () => {
     useEffect(() => {
         const fetchDueCount = async () => {
             if (level && !categoryId) {
-                const srsCards = await SRSService.getCards(user?.id);
+                const srsCards = await SRSService.getCards(user?.id) as SRSCard[];
                 const srsMap = new Map(srsCards.map(c => [c.wordId, c]));
                 const now = new Date();
-                const levelCategories = getCategoriesByLevel(level.toUpperCase() as any);
+                const levelCategories = getCategoriesByLevel(level.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2');
                 const allLevelWords = levelCategories.flatMap(cat => cat.words);
 
                 const count = allLevelWords.filter(word => {
@@ -122,8 +127,7 @@ export const FlashCardsPage: React.FC = () => {
 
             if (category) {
                 // Fetch SRS data to filter words
-                const srsCards = await SRSService.getCards(user?.id);
-                setSrsData(srsCards);
+                const srsCards = await SRSService.getCards(user?.id) as SRSCard[];
                 const now = new Date();
 
                 let wordsToLoad = category.words.filter(word => {
@@ -151,11 +155,10 @@ export const FlashCardsPage: React.FC = () => {
                 setCards(loadedCards);
             } else if (categoryId === 'review' && level) {
                 // Special aggregated review mode
-                const srsCards = await SRSService.getCards(user?.id);
-                setSrsData(srsCards);
+                const srsCards = await SRSService.getCards(user?.id) as SRSCard[];
                 const now = new Date();
 
-                const levelCategories = getCategoriesByLevel(level.toUpperCase() as any);
+                const levelCategories = getCategoriesByLevel(level.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2');
                 const allLevelWords = levelCategories.flatMap(cat => cat.words);
 
                 const dueWords = allLevelWords.filter(word => {
@@ -180,7 +183,7 @@ export const FlashCardsPage: React.FC = () => {
         } finally {
             setLoading(false);
         }
-    }, [categoryId]);
+    }, [categoryId, level, user?.id, isSmartMode]);
 
     useEffect(() => {
         if (categoryId) {

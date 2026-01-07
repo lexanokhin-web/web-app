@@ -7,8 +7,10 @@ import { ScoreCounter } from '../components/ScoreCounter';
 import { ExpandableHint } from '../components/ExpandableHint';
 import { useArticleSentences } from '../hooks/useLoadData';
 import type { ArticleSentence } from '../types';
-import { ArrowLeft, CheckCircle, XCircle, BookOpen } from 'lucide-react';
+import { ArrowLeft, CheckCircle, XCircle, BookOpen, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { AIService, type AIGrammarAdvice } from '../services/ai/AIService';
+import { AIAdviceModal } from '../components/features/SentenceBuilder/AIAdviceModal';
 
 // Difficulty configuration
 const difficultyConfig = {
@@ -71,6 +73,9 @@ export const ArticlesPage: React.FC = () => {
     const [incorrectCount, setIncorrectCount] = useState(0);
     const [caseFilter, setCaseFilter] = useState<'all' | 'Nom' | 'Akk' | 'Dat'>('all');
     const [options, setOptions] = useState<string[]>([]);
+    const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+    const [aiAdvice, setAiAdvice] = useState<AIGrammarAdvice | null>(null);
+    const [isAILoading, setIsAILoading] = useState(false);
 
     useEffect(() => {
         if (rawData) {
@@ -160,6 +165,26 @@ export const ArticlesPage: React.FC = () => {
         setUserInput('');
         setShowHint(false);
         setIsCorrect(null);
+    };
+
+    const handleAIAdvice = async () => {
+        if (!currentSentence) return;
+
+        setIsAIModalOpen(true);
+        setIsAILoading(true);
+        setAiAdvice(null);
+
+        const context = `Satz: "${currentSentence.sentence}", Übersetzung: "${currentSentence.translation}", Korrekter Artikel: "${currentSentence.correctArticle}", Kasus: "${currentSentence.caseName}"`;
+        const topic = `Bestimmung des Artikels (${currentSentence.correctArticle}) im Kontext von ${currentSentence.caseName}`;
+
+        try {
+            const advice = await AIService.getGrammarAdvice(context, topic, 'B1');
+            setAiAdvice(advice);
+        } catch (error) {
+            console.error('AI Advice Error:', error);
+        } finally {
+            setIsAILoading(false);
+        }
     };
 
     if (loading) {
@@ -436,6 +461,14 @@ export const ArticlesPage: React.FC = () => {
                                                             💡 {genderHints[currentSentence.correctArticle.toLowerCase()]}
                                                         </p>
                                                     )}
+
+                                                    <button
+                                                        onClick={handleAIAdvice}
+                                                        className="mt-2 w-full flex items-center justify-center gap-2 px-4 py-2 bg-white/50 hover:bg-white border border-red-200 rounded-xl text-xs font-bold transition-all"
+                                                    >
+                                                        <Sparkles className="w-3 h-3 text-orange-500" />
+                                                        Подробный разбор (AI)
+                                                    </button>
                                                 </div>
                                             </motion.div>
                                         )}
@@ -458,6 +491,14 @@ export const ArticlesPage: React.FC = () => {
                         </motion.div>
                     )}
                 </AnimatePresence>
+
+                <AIAdviceModal
+                    isOpen={isAIModalOpen}
+                    onClose={() => setIsAIModalOpen(false)}
+                    title="AI Грамматический разбор"
+                    advice={aiAdvice}
+                    isLoading={isAILoading}
+                />
             </div >
         </div >
     );

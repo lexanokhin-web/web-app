@@ -6,14 +6,46 @@ import { useProgress } from '../hooks/useProgress';
 import { AchievementsList } from '../components/features/Gamification/AchievementsList';
 import { GlassCard } from '../components/GlassCard';
 import { Button } from '../components/Button';
-import { ArrowLeft, User, Calendar, Zap, BookOpen, Trophy, Volume2, VolumeX } from 'lucide-react';
+import { ArrowLeft, User, Calendar, Zap, BookOpen, Trophy, Volume2, VolumeX, Sparkles, Brain } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { AIService } from '../services/ai/AIService';
+import { useLocalStorage } from '../hooks/useLocalStorage';
 
 export const ProfilePage: React.FC = () => {
     const navigate = useNavigate();
     const { user, signOut } = useAuth();
     const { progress } = useProgress();
     const { isMuted, volume, toggleMute, setVolume } = useAudio();
+    const [aiTip, setAiTip] = useLocalStorage<string>('ai_profile_tip', '');
+    const [isLoadingTip, setIsLoadingTip] = React.useState(false);
+    const [lastTipDate, setLastTipDate] = useLocalStorage<string>('ai_profile_tip_date', '');
+
+    React.useEffect(() => {
+        const fetchTip = async () => {
+            const today = new Date().toDateString();
+            if (progress && (lastTipDate !== today || !aiTip)) {
+                setIsLoadingTip(true);
+                try {
+                    const tip = await AIService.getPersonalizedTip({
+                        level: progress.level || 1,
+                        xp: progress.xp || 0,
+                        streak: progress.streak || 0,
+                        learnedCount: progress.learned_words?.length || 0
+                    });
+                    if (tip) {
+                        setAiTip(tip);
+                        setLastTipDate(today);
+                    }
+                } catch (error) {
+                    console.error('Failed to fetch AI tip:', error);
+                } finally {
+                    setIsLoadingTip(false);
+                }
+            }
+        };
+
+        fetchTip();
+    }, [progress, aiTip, lastTipDate, setAiTip, setLastTipDate]);
 
     if (!user) {
         return (
@@ -93,6 +125,37 @@ export const ProfilePage: React.FC = () => {
                         <div className="text-xs text-gray-500">Место в топе</div>
                     </GlassCard>
                 </div>
+
+                {/* AI Insights Card */}
+                <motion.div
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    className="mb-8"
+                >
+                    <GlassCard className="p-6 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border-indigo-200/50">
+                        <div className="flex items-start gap-4">
+                            <div className="p-3 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl text-white shadow-lg">
+                                <Brain className="w-6 h-6" />
+                            </div>
+                            <div className="flex-1">
+                                <div className="flex items-center gap-2 mb-2">
+                                    <h3 className="font-bold text-gray-800">AI-совет дня</h3>
+                                    <Sparkles className="w-4 h-4 text-orange-500 animate-pulse" />
+                                </div>
+                                {isLoadingTip ? (
+                                    <div className="h-12 flex items-center">
+                                        <div className="w-4 h-4 border-2 border-indigo-500 border-t-transparent rounded-full animate-spin mr-2"></div>
+                                        <p className="text-sm text-gray-400 italic font-medium">Ваш репетитор готовит совет...</p>
+                                    </div>
+                                ) : (
+                                    <p className="text-gray-700 leading-relaxed font-medium">
+                                        {aiTip || "Продолжай в том же духе! Каждый шаг приближает тебя к цели."}
+                                    </p>
+                                )}
+                            </div>
+                        </div>
+                    </GlassCard>
+                </motion.div>
 
                 {/* Audio Settings */}
                 <motion.div

@@ -1,6 +1,6 @@
 import React from 'react';
 import { GlassCard } from '../../GlassCard';
-import { ChevronDown, ChevronRight, Play, Trash2 } from 'lucide-react';
+import { ChevronDown, ChevronRight, Trash2 } from 'lucide-react';
 import type { VocabularyCategory } from '../../../data/vocabulary/types';
 
 export interface WordBlock {
@@ -24,7 +24,6 @@ interface BlockSelectorProps {
     currentBlockId: string | null;
     expandedLevels: Record<string, boolean>;
     onToggleLevel: (level: string) => void;
-    onSelectBlock: (blockId: string) => void;
     onDeleteBlock: (blockId: string) => void;
     onStartGame: (blockId: string) => void;
     getBlocksByLevel: (level: string) => WordBlock[];
@@ -42,7 +41,6 @@ export const BlockSelector: React.FC<BlockSelectorProps> = ({
     currentBlockId,
     expandedLevels,
     onToggleLevel,
-    onSelectBlock,
     onDeleteBlock,
     onStartGame,
     getBlocksByLevel
@@ -90,8 +88,8 @@ export const BlockSelector: React.FC<BlockSelectorProps> = ({
                                     <GlassCard
                                         key={block.id}
                                         className={`p-3 sm:p-4 cursor-pointer transition-all hover:scale-[1.02] active:scale-95 flex flex-col h-full relative group ${currentBlockId === block.id
-                                                ? 'ring-2 ring-purple-500 bg-purple-50'
-                                                : 'hover:bg-gray-50'
+                                            ? 'ring-2 ring-purple-500 bg-purple-50'
+                                            : 'hover:bg-gray-50'
                                             }`}
                                         onClick={() => onStartGame(block.id)}
                                     >

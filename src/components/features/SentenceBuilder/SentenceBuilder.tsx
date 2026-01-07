@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { WordBlock } from './WordBlock';
 import { Button } from '../../Button';
-import { RotateCcw, Lightbulb, CheckCircle2 } from 'lucide-react';
+import { RotateCcw, Lightbulb, CheckCircle2, Sparkles } from 'lucide-react';
 import type { SentenceExercise } from '../../../data/sentences/types';
+import { AIService, type AISentenceAnalysis } from '../../../services/ai/AIService';
+import { AIAdviceModal } from './AIAdviceModal';
 
 interface SentenceBuilderProps {
     exercise: SentenceExercise;
@@ -23,6 +25,9 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
     const [showHint, setShowHint] = useState(false);
     const [hintsUsed, setHintsUsed] = useState(0);
+    const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+    const [aiAnalysis, setAiAnalysis] = useState<AISentenceAnalysis | null>(null);
+    const [isAILoading, setIsAILoading] = useState(false);
 
     const handleDragStart = (e: React.DragEvent, word: string, index: number) => {
         setDraggedWord({ word, index });
@@ -112,6 +117,29 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
 
         if (correct) {
             setTimeout(() => onComplete(true), 1500);
+        }
+    };
+
+    const handleAIExplain = async () => {
+        const userSentence = placedWords.filter(w => w !== null).join(' ');
+        const correctSentence = exercise.correctSentence.join(' ');
+
+        setIsAIModalOpen(true);
+        setIsAILoading(true);
+        setAiAnalysis(null);
+
+        try {
+            const analysis = await AIService.analyzeSentence(
+                userSentence,
+                correctSentence,
+                exercise.translation,
+                exercise.level
+            );
+            setAiAnalysis(analysis);
+        } catch (error) {
+            console.error('AI Explain Error:', error);
+        } finally {
+            setIsAILoading(false);
         }
     };
 
@@ -217,7 +245,7 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
-                        className={`p-4 rounded-xl border-2 ${isCorrect
+                        className={`p-4 rounded-xl border-2 flex flex-col md:flex-row md:items-center justify-between gap-4 ${isCorrect
                             ? 'bg-green-50 border-green-400 text-green-800'
                             : 'bg-red-50 border-red-400 text-red-800'
                             }`}
@@ -225,6 +253,16 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
                         <p className="font-bold">
                             {isCorrect ? '✓ Правильно! Отлично!' : '✗ Неправильно. Попробуйте еще раз!'}
                         </p>
+
+                        {!isCorrect && (
+                            <button
+                                onClick={handleAIExplain}
+                                className="flex items-center justify-center gap-2 px-4 py-2 bg-white/50 hover:bg-white border-2 border-red-200 rounded-xl text-sm font-bold transition-all hover:scale-105 active:scale-95"
+                            >
+                                <Sparkles className="w-4 h-4 text-orange-500" />
+                                ✨ Объяснить ошибку (AI)
+                            </button>
+                        )}
                     </motion.div>
                 )}
             </AnimatePresence>
@@ -287,6 +325,13 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
                     Проверить
                 </Button>
             </div>
+            <AIAdviceModal
+                isOpen={isAIModalOpen}
+                onClose={() => setIsAIModalOpen(false)}
+                title="AI Грамматический разбор"
+                advice={aiAnalysis}
+                isLoading={isAILoading}
+            />
         </div>
     );
 };

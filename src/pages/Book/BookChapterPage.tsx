@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useBookChapter } from '../../hooks/useBookData';
-import { ArrowLeft, Check, X, RefreshCw, ChevronRight, Lightbulb, BookOpen } from 'lucide-react';
+import { ArrowLeft, Check, X, RefreshCw, ChevronRight, Lightbulb, BookOpen, Sparkles } from 'lucide-react';
 import { useSound } from 'use-sound';
+import { AIService, type AIGrammarAdvice } from '../../services/ai/AIService';
+import { AIAdviceModal } from '../../components/features/SentenceBuilder/AIAdviceModal';
 
 export const BookChapterPage: React.FC = () => {
     const { filename } = useParams<{ filename: string }>();
@@ -16,6 +18,11 @@ export const BookChapterPage: React.FC = () => {
 
     const [playCorrect] = useSound('/sounds/correct.mp3', { volume: 0.5 });
     const [playWrong] = useSound('/sounds/wrong.mp3', { volume: 0.5 });
+
+    const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+    const [aiAdvice, setAiAdvice] = useState<AIGrammarAdvice | null>(null);
+    const [isAILoading, setIsAILoading] = useState(false);
+    const [lastAIAction, setLastAIAction] = useState<string>('');
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -77,6 +84,30 @@ export const BookChapterPage: React.FC = () => {
         setShowSolution(newSolutions);
     };
 
+    const handleAIAssist = async (action: 'explain' | 'simplify' | 'idioms') => {
+        if (!currentSection) return;
+
+        const actionTitles = {
+            explain: 'Объяснение текста',
+            simplify: 'Упрощение текста',
+            idioms: 'Разбор идиом'
+        };
+
+        setLastAIAction(actionTitles[action]);
+        setIsAIModalOpen(true);
+        setIsAILoading(true);
+        setAiAdvice(null);
+
+        try {
+            const advice = await AIService.explainText(currentSection.content, action, 'B1');
+            setAiAdvice(advice);
+        } catch (error) {
+            console.error('AI Book Assist Error:', error);
+        } finally {
+            setIsAILoading(false);
+        }
+    };
+
     return (
         <div className="min-h-screen bg-slate-50 pb-32">
             {/* Header */}
@@ -117,6 +148,37 @@ export const BookChapterPage: React.FC = () => {
                                     <p className="whitespace-pre-line text-slate-700 leading-relaxed text-lg">
                                         {currentSection.content}
                                     </p>
+                                </div>
+
+                                {/* AI Assistant Panel */}
+                                <div className="mt-8 pt-6 border-t border-slate-100">
+                                    <div className="flex items-center gap-2 mb-4 text-slate-500">
+                                        <Sparkles className="w-4 h-4 text-orange-500" />
+                                        <span className="text-sm font-bold uppercase tracking-wider">AI Помощник</span>
+                                    </div>
+                                    <div className="flex flex-wrap gap-2">
+                                        <button
+                                            onClick={() => handleAIAssist('explain')}
+                                            className="px-4 py-2 bg-indigo-50 text-indigo-700 rounded-xl text-sm font-bold hover:bg-indigo-100 transition-colors flex items-center gap-2"
+                                        >
+                                            <BookOpen className="w-4 h-4" />
+                                            Объяснить смысл
+                                        </button>
+                                        <button
+                                            onClick={() => handleAIAssist('simplify')}
+                                            className="px-4 py-2 bg-emerald-50 text-emerald-700 rounded-xl text-sm font-bold hover:bg-emerald-100 transition-colors flex items-center gap-2"
+                                        >
+                                            <RefreshCw className="w-4 h-4" />
+                                            Упростить текст
+                                        </button>
+                                        <button
+                                            onClick={() => handleAIAssist('idioms')}
+                                            className="px-4 py-2 bg-amber-50 text-amber-700 rounded-xl text-sm font-bold hover:bg-amber-100 transition-colors flex items-center gap-2"
+                                        >
+                                            <Lightbulb className="w-4 h-4" />
+                                            Найти идиомы
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -266,6 +328,14 @@ export const BookChapterPage: React.FC = () => {
                     </motion.div>
                 </AnimatePresence>
             </div>
+
+            <AIAdviceModal
+                isOpen={isAIModalOpen}
+                onClose={() => setIsAIModalOpen(false)}
+                title={`AI Помощник: ${lastAIAction}`}
+                advice={aiAdvice}
+                isLoading={isAILoading}
+            />
         </div>
     );
 };

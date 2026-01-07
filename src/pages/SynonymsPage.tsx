@@ -8,8 +8,10 @@ import { CompletionModal } from '../components/CompletionModal';
 import { DifficultySelector, defaultLevels } from '../components/DifficultySelector';
 import { useSynonymExercises } from '../hooks/useLoadData';
 import type { SynonymExercise } from '../types';
-import { ArrowLeft, CheckCircle, XCircle, BookOpen } from 'lucide-react';
+import { ArrowLeft, CheckCircle, XCircle, BookOpen, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { AIService, type AIGrammarAdvice } from '../services/ai/AIService';
+import { AIAdviceModal } from '../components/features/SentenceBuilder/AIAdviceModal';
 
 // Common synonym hints
 const synonymHints: Record<string, string> = {
@@ -46,6 +48,9 @@ export const SynonymsPage: React.FC = () => {
     const [correctCount, setCorrectCount] = useState(0);
     const [incorrectCount, setIncorrectCount] = useState(0);
     const [difficulty, setDifficulty] = useState('all');
+    const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+    const [aiAdvice, setAiAdvice] = useState<AIGrammarAdvice | null>(null);
+    const [isAILoading, setIsAILoading] = useState(false);
 
     useEffect(() => {
         if (rawExercises) {
@@ -129,6 +134,26 @@ export const SynonymsPage: React.FC = () => {
         setShowCompletion(false);
         setShowResult(false);
         setSelectedOption(null);
+    };
+
+    const handleAINuance = async () => {
+        if (!currentExercise) return;
+
+        setIsAIModalOpen(true);
+        setIsAILoading(true);
+        setAiAdvice(null);
+
+        const context = `Wort: "${currentExercise.word}", Synonym: "${currentExercise.correct}", Übersetzung: "${currentExercise.translation}"`;
+        const topic = `Unterschiede und Nuancen zwischen ${currentExercise.word} und seinem Synonym ${currentExercise.correct}`;
+
+        try {
+            const advice = await AIService.getGrammarAdvice(context, topic, 'B1');
+            setAiAdvice(advice);
+        } catch (error) {
+            console.error('AI Nuance Error:', error);
+        } finally {
+            setIsAILoading(false);
+        }
     };
 
     if (loading) {
@@ -290,6 +315,14 @@ export const SynonymsPage: React.FC = () => {
                                                         )}
                                                     </div>
                                                 )}
+
+                                                <button
+                                                    onClick={handleAINuance}
+                                                    className="mt-4 w-full flex items-center justify-center gap-2 px-4 py-2 bg-white/50 hover:bg-white border-2 border-blue-100 rounded-xl text-xs font-bold transition-all"
+                                                >
+                                                    <Sparkles className="w-3 h-3 text-orange-500" />
+                                                    Различия и нюансы (AI)
+                                                </button>
                                             </motion.div>
                                         )}
                                     </AnimatePresence>
@@ -318,6 +351,14 @@ export const SynonymsPage: React.FC = () => {
                         </motion.div>
                     )}
                 </AnimatePresence>
+
+                <AIAdviceModal
+                    isOpen={isAIModalOpen}
+                    onClose={() => setIsAIModalOpen(false)}
+                    title="AI Нюансы употребления"
+                    advice={aiAdvice}
+                    isLoading={isAILoading}
+                />
             </div>
         </div>
     );
