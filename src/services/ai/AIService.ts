@@ -10,11 +10,10 @@ export interface AIExplanation {
 }
 
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const MODEL = 'deepseek/deepseek-r1:free'; // Упрощенный ID модели
+const MODEL = 'deepseek/deepseek-r1-0528:free'; // Возвращаемся к исходному ID
 
 export class AIService {
     private static get apiKey() {
-        // Добавляем .trim() на случай случайных пробелов при копировании в Vercel
         const key = import.meta.env.VITE_OPENROUTER_API_KEY;
         return key ? key.trim() : null;
     }
@@ -31,7 +30,7 @@ export class AIService {
         }
 
         console.log('AIService: Word:', word);
-        console.log('AIService: API Key found (starts with):', this.apiKey.substring(0, 4) + '...');
+        console.log('AIService: Model:', MODEL);
 
         const prompt = `
             Du bist ein Deutschlehrer. Erkläre das Wort "${word}" für einen Schüler.
