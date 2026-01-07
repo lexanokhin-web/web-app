@@ -146,38 +146,6 @@ export class AIService {
     }
 
     /**
-     * Помощь с чтением (объяснение текста, идиом, упрощение)
-     */
-    static async explainText(
-        text: string,
-        action: 'explain' | 'simplify' | 'idioms',
-        level: string = 'B1'
-    ): Promise<AIGrammarAdvice | null> {
-        const actionLabels = {
-            explain: 'объясни смысл и сложные моменты',
-            simplify: 'упрости текст до уровня A2/B1',
-            idioms: 'найди и объясни идиомы и устойчивые выражения'
-        };
-
-        const prompt = `
-            Du bist ein Deutschlehrer. Hilf dem Schüler bei diesem Text.
-            Aktion: ${actionLabels[action]}
-            Text: ${text}
-            Ziel-Level: ${level}
-            
-            GIB DIE ANTWORT NUR ALS REINES JSON ZURÜCK.
-            Struktur:
-            {
-                "explanation": "Результат на русском (или упрощенный текст)",
-                "rule": "Краткая грамматическая заметка по тексту",
-                "mnemonic": "Совет по запоминанию или использованию"
-            }
-        `;
-        const res = await this.fetchAI(prompt);
-        return res ? JSON.parse(res) : null;
-    }
-
-    /**
      * Персонализированный совет на основе статистики
      */
     static async getPersonalizedTip(

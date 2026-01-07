@@ -17,12 +17,6 @@ const ProfilePage = lazy(() => import('./pages/ProfilePage').then(module => ({ d
 const LeaderboardPage = lazy(() => import('./pages/LeaderboardPage').then(module => ({ default: module.LeaderboardPage })));
 const MatchGamePage = lazy(() => import('./pages/MatchGamePage').then(module => ({ default: module.MatchGamePage })));
 const SentenceBuilderPage = lazy(() => import('./pages/SentenceBuilderPage').then(module => ({ default: module.SentenceBuilderPage })));
-const BookSelectionPage = lazy(() => import('./pages/Book/BookSelectionPage').then(module => ({ default: module.BookSelectionPage })));
-const BookChapterPage = lazy(() => import('./pages/Book/BookChapterPage').then(module => ({ default: module.BookChapterPage })));
-const BookQuizPage = lazy(() => import('./pages/Book/BookQuizPage').then(module => ({ default: module.BookQuizPage })));
-const A2BookSelectionPage = lazy(() => import('./pages/Book/A2BookSelectionPage'));
-const A2BookChapterPage = lazy(() => import('./pages/Book/A2BookChapterPage'));
-const A2BookQuizPage = lazy(() => import('./pages/Book/A2BookQuizPage').then(module => ({ default: module.A2BookQuizPage })));
 const AdjektivdeklinationPage = lazy(() => import('./pages/AdjektivdeklinationPage').then(module => ({ default: module.AdjektivdeklinationPage })));
 
 // Loading component
@@ -45,14 +39,7 @@ function App() {
           <Route path="/flashcards" element={<FlashCardsPage />} />
           <Route path="/flashcards/:level" element={<FlashCardsPage />} />
           <Route path="/flashcards/:level/:categoryId" element={<FlashCardsPage />} />
-          <Route path="/b1-book" element={<BookSelectionPage />} />
-          <Route path="/b1-book/quiz" element={<BookQuizPage />} />
-          <Route path="/b1-book/:filename" element={<BookChapterPage />} />
 
-          {/* A2 Book Routes */}
-          <Route path="/a2-book" element={<A2BookSelectionPage />} />
-          <Route path="/a2-book/quiz" element={<A2BookQuizPage />} />
-          <Route path="/a2-book/:chapterId" element={<A2BookChapterPage />} />
           <Route path="/quiz/:blockId?" element={<QuizPage />} />
           <Route path="/verbs" element={<VerbsPage />} />
           <Route path="/exercise/:blockId" element={<ExercisePage />} />

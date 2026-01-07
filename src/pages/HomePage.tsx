@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { GlassCard } from '../components/GlassCard';
-import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, User, Trophy, GraduationCap, ChevronDown, ChevronRight } from 'lucide-react';
+import { BookOpen, FileText, Users, ArrowLeftRight, Plus, FileCheck, Clock, Palette, Link, GitMerge, Puzzle, Hammer, LogIn, User, Trophy, ChevronDown, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import { AuthModal } from '../components/AuthModal';
@@ -117,26 +117,6 @@ const exerciseBlocks = [
                 color: 'from-rose-400 to-rose-600',
                 path: '/exercise/verbindungen'
             },
-        ]
-    },
-    {
-        blockName: '📖 Intensiv-Trainer',
-        blockId: 'b1-book',
-        exercises: [
-            {
-                id: 'a2-grammar-book',
-                name: 'Grammatik A2',
-                icon: BookOpen,
-                color: 'from-blue-500 to-cyan-500',
-                path: '/a2-book'
-            },
-            {
-                id: 'b1-grammar-book',
-                name: 'Grammatik B1',
-                icon: GraduationCap,
-                color: 'from-pink-500 to-rose-500',
-                path: '/b1-book'
-            }
         ]
     }
 ];
