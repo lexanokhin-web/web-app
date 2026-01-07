@@ -73,6 +73,7 @@ export class SRSEngine {
         const nextDate = new Date();
         nextDate.setDate(nextDate.getDate() + newCard.interval);
         newCard.nextReviewDate = nextDate;
+        newCard.lastReviewDate = new Date();
 
         return newCard;
     }

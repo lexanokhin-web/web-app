@@ -96,12 +96,13 @@ export const FlashCardsPage: React.FC = () => {
         const fetchDueCount = async () => {
             if (level && !categoryId) {
                 const srsCards = await SRSService.getCards(user?.id);
+                const srsMap = new Map(srsCards.map(c => [c.wordId, c]));
                 const now = new Date();
                 const levelCategories = getCategoriesByLevel(level.toUpperCase() as any);
                 const allLevelWords = levelCategories.flatMap(cat => cat.words);
 
                 const count = allLevelWords.filter(word => {
-                    const srsCard = srsCards.find(c => c.wordId === word.id);
+                    const srsCard = srsMap.get(word.id);
                     // Show in "Wiederholen" if:
                     // 1. Scheduled for review now (nextReviewDate <= now)
                     // 2. OR it's been reset for repetition (repetitions === 0)
@@ -127,7 +128,11 @@ export const FlashCardsPage: React.FC = () => {
 
                 let wordsToLoad = category.words.filter(word => {
                     const srsCard = srsCards.find(c => c.wordId === word.id);
-                    return !srsCard || srsCard.nextReviewDate <= now;
+                    // Show if:
+                    // 1. New card (no srsCard)
+                    // 2. OR due for review
+                    // 3. OR reset for repetition
+                    return !srsCard || srsCard.nextReviewDate <= now || srsCard.repetitions === 0;
                 });
 
                 if (isSmartMode) {

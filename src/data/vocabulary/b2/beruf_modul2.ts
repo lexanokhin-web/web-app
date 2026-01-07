@@ -114,7 +114,6 @@ export const b2BerufModul2: VocabularyWord[] = [
     { id: 'b2_beruf_313', german: 'anrühren', russian: 'приготовлять (жидкость), трогать', level: 'B2', category: 'beruf_modul2' },
     { id: 'b2_beruf_314', german: 'mischen', russian: 'смешивать', level: 'B2', category: 'beruf_modul2' },
     { id: 'b2_beruf_315', german: 'rühren', russian: 'мешать, перемешивать', level: 'B2', category: 'beruf_modul2' },
-    { id: 'b2_beruf_316', german: 'mixen', russian: 'миксовать, смешивать', level: 'B2', category: 'beruf_modul2' },
     { id: 'b2_beruf_317', german: 'berühren', russian: 'трогать, касаться', level: 'B2', category: 'beruf_modul2' },
     { id: 'b2_beruf_318', german: 'anfassen', russian: 'трогать, прикасаться', level: 'B2', category: 'beruf_modul2' },
     { id: 'b2_beruf_319', german: 'ausführen', russian: 'выполнять', level: 'B2', category: 'beruf_modul2' },

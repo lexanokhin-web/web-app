@@ -12,6 +12,8 @@ export class SRSService {
      * Получить все карточки пользователя
      */
     static async getCards(userId?: string): Promise<SRSCard[]> {
+        const localCards = this.getLocalCards();
+
         if (isSupabaseConfigured() && userId) {
             // Загрузить из Supabase
             const { data, error } = await supabase!
@@ -21,14 +23,38 @@ export class SRSService {
 
             if (error) {
                 console.error('Error loading SRS cards from Supabase:', error);
-                return this.getLocalCards();
+                return localCards;
             }
 
-            return (data || []).map(this.dbToCard);
+            const dbCards = (data || []).map(this.dbToCard);
+
+            // Гибридное слияние: берем самую свежую версию каждой карточки (из локала или из базы)
+            const cardMap = new Map<string, SRSCard>();
+
+            // Сначала кладём локальные
+            localCards.forEach(card => cardMap.set(card.wordId, card));
+
+            // Затем накладываем из БД, если они новее или их нет в локале
+            dbCards.forEach(dbCard => {
+                const localCard = cardMap.get(dbCard.wordId);
+                if (!localCard) {
+                    cardMap.set(dbCard.wordId, dbCard);
+                } else {
+                    // Сравниваем даты последнего обновления
+                    const localUpdate = localCard.lastReviewDate?.getTime() || 0;
+                    const dbUpdate = dbCard.lastReviewDate?.getTime() || 0;
+
+                    if (dbUpdate >= localUpdate) {
+                        cardMap.set(dbCard.wordId, dbCard);
+                    }
+                }
+            });
+
+            return Array.from(cardMap.values());
         }
 
         // Fallback to localStorage
-        return this.getLocalCards();
+        return localCards;
     }
 
     /**
