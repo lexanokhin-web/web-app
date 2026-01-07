@@ -10,11 +10,13 @@ export interface AIExplanation {
 }
 
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const MODEL = 'deepseek/deepseek-r1-0528:free'; // Конкретная бесплатная модель
+const MODEL = 'deepseek/deepseek-r1:free'; // Упрощенный ID модели
 
 export class AIService {
     private static get apiKey() {
-        return import.meta.env.VITE_OPENROUTER_API_KEY;
+        // Добавляем .trim() на случай случайных пробелов при копировании в Vercel
+        const key = import.meta.env.VITE_OPENROUTER_API_KEY;
+        return key ? key.trim() : null;
     }
 
     /**
@@ -25,12 +27,10 @@ export class AIService {
 
         if (!this.apiKey) {
             console.error('AIService: ERROR - VITE_OPENROUTER_API_KEY is undefined!');
-            console.log('AIService: Available VITE_ environment keys:', Object.keys(import.meta.env).filter(k => k.startsWith('VITE_')));
             return null;
         }
 
         console.log('AIService: Word:', word);
-        console.log('AIService: Model:', MODEL);
         console.log('AIService: API Key found (starts with):', this.apiKey.substring(0, 4) + '...');
 
         const prompt = `
@@ -47,7 +47,6 @@ export class AIService {
         `;
 
         try {
-            console.log('AIService: Fetching from OpenRouter...');
             const response = await fetch(OPENROUTER_API_URL, {
                 method: 'POST',
                 headers: {
@@ -67,8 +66,8 @@ export class AIService {
             console.log('AIService: Response status:', response.status);
 
             if (!response.ok) {
-                const errorData = await response.json().catch(() => ({ error: 'Could not parse error response' }));
-                console.error('AIService: OpenRouter Error Details:', errorData);
+                const errorData = await response.json().catch(() => ({ error: { message: 'Unknown Error' } }));
+                console.error('AIService: OpenRouter Error Message:', errorData.error?.message || JSON.stringify(errorData));
                 return null;
             }
 
@@ -76,11 +75,9 @@ export class AIService {
             let content = data.choices[0]?.message?.content;
 
             if (!content) {
-                console.error('AIService: ERROR - Empty content in response', data);
+                console.error('AIService: ERROR - Empty content', data);
                 return null;
             }
-
-            console.log('AIService: Raw AI response received');
 
             // Cleanup content if model puts it in markdown code blocks
             content = content.replace(/```json/g, '').replace(/```/g, '').trim();
@@ -92,7 +89,7 @@ export class AIService {
                 return null;
             }
         } catch (error) {
-            console.error('AIService: Network or unexpected error:', error);
+            console.error('AIService: Network error:', error);
             return null;
         }
     }
