@@ -3,7 +3,7 @@ import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { FlashCard } from '../components/features/FlashCards/FlashCard';
 import { Button } from '../components/Button';
 import { GlassCard } from '../components/GlassCard';
-import { ArrowLeft, Trophy, Zap, RotateCcw } from 'lucide-react';
+import { ArrowLeft, Trophy, Library, RotateCcw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SRSService } from '../services/srs/SRSService';
 import { useAuth } from '../contexts/AuthContext';
@@ -84,7 +84,7 @@ export const FlashCardsPage: React.FC = () => {
     const { user } = useAuth();
     const { level, categoryId } = useParams<{ level?: string; categoryId?: string }>();
     const [searchParams] = useSearchParams();
-    const isSmartMode = searchParams.get('mode') === 'smart15';
+    const isAllMode = searchParams.get('mode') === 'all';
     const { addXP } = useProgress();
 
     const [cards, setCards] = useState<WordCard[]>([]);
@@ -97,31 +97,38 @@ export const FlashCardsPage: React.FC = () => {
     const [levelDueCount, setLevelDueCount] = useState(0);
 
     // Fetch due count for the current level
-    useEffect(() => {
-        const fetchDueCount = async () => {
-            if (level && !categoryId) {
-                const srsCards = await SRSService.getCards(user?.id) as SRSCard[];
-                const srsMap = new Map(srsCards.map(c => [c.wordId, c]));
-                const now = new Date();
-                const levelCategories = getCategoriesByLevel(level.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2');
-                const allLevelWords = levelCategories.flatMap(cat => cat.words);
+    const fetchDueCount = useCallback(async () => {
+        if (level && !categoryId) {
+            const srsCards = await SRSService.getCards(user?.id) as SRSCard[];
+            const srsMap = new Map(srsCards.map(c => [c.wordId, c]));
+            const now = new Date();
+            const levelCategories = getCategoriesByLevel(level.toUpperCase() as 'A1' | 'A2' | 'B1' | 'B2');
+            const allLevelWords = levelCategories.flatMap(cat => cat.words);
 
-                const count = allLevelWords.filter(word => {
-                    const srsCard = srsMap.get(word.id);
-                    // Show in "Wiederholen" if:
-                    // 1. Scheduled for review now (nextReviewDate <= now)
-                    // 2. OR it's been reset for repetition (repetitions === 0)
-                    return srsCard && (srsCard.nextReviewDate <= now || srsCard.repetitions === 0);
-                }).length;
+            const count = allLevelWords.filter(word => {
+                const srsCard = srsMap.get(word.id);
+                // Show in "Wiederholen" if:
+                // 1. Scheduled for review now (nextReviewDate <= now)
+                // 2. OR it's been reset for repetition (repetitions === 0)
+                return srsCard && (srsCard.nextReviewDate <= now || srsCard.repetitions === 0);
+            }).length;
 
-                setLevelDueCount(count);
-            }
-        };
-        fetchDueCount();
+            setLevelDueCount(count);
+        }
     }, [level, categoryId, user?.id]);
+
+    useEffect(() => {
+        fetchDueCount();
+    }, [fetchDueCount]);
 
     const loadCards = useCallback(async () => {
         setLoading(true);
+        // Reset session state
+        setCurrentIndex(0);
+        setKnownCards([]);
+        setUnknownCards([]);
+        setShowCompletion(false);
+
         try {
             const category = getCategoryById(categoryId || '');
 
@@ -139,7 +146,7 @@ export const FlashCardsPage: React.FC = () => {
                     return !srsCard || srsCard.nextReviewDate <= now || srsCard.repetitions === 0;
                 });
 
-                if (isSmartMode) {
+                if (!isAllMode) {
                     wordsToLoad = [...wordsToLoad]
                         .sort(() => Math.random() - 0.5)
                         .slice(0, 15);
@@ -183,7 +190,7 @@ export const FlashCardsPage: React.FC = () => {
         } finally {
             setLoading(false);
         }
-    }, [categoryId, level, user?.id, isSmartMode]);
+    }, [categoryId, level, user?.id, isAllMode]);
 
     useEffect(() => {
         if (categoryId) {
@@ -229,6 +236,8 @@ export const FlashCardsPage: React.FC = () => {
             setCurrentIndex(currentIndex + 1);
         } else {
             setShowCompletion(true);
+            // Refresh counts after a session
+            fetchDueCount();
         }
     };
 
@@ -346,13 +355,13 @@ export const FlashCardsPage: React.FC = () => {
                                     <button
                                         onClick={(e) => {
                                             e.stopPropagation();
-                                            navigate(`/flashcards/${level}/${cat.id}?mode=smart15`);
+                                            navigate(`/flashcards/${level}/${cat.id}?mode=all`);
                                         }}
-                                        className="flex items-center gap-1.5 px-2 sm:px-3 py-1.5 bg-yellow-400 hover:bg-yellow-500 active:bg-yellow-600 text-white rounded-lg shadow-sm transition-all transform active:scale-95"
-                                        title="Быстрая тренировка: 15 случайных слов"
+                                        className="flex items-center gap-1.5 px-2 sm:px-3 py-1.5 bg-blue-500 hover:bg-blue-600 active:bg-blue-700 text-white rounded-lg shadow-sm transition-all transform active:scale-95"
+                                        title="Alle Wörter lernen"
                                     >
-                                        <Zap className="w-3 sm:w-3.5 h-3.5 fill-current" />
-                                        <span className="text-[10px] sm:text-xs font-bold whitespace-nowrap">je 15</span>
+                                        <Library className="w-3 sm:w-3.5 h-3.5" />
+                                        <span className="text-[10px] sm:text-xs font-bold whitespace-nowrap">Alle</span>
                                     </button>
                                 </div>
                             </GlassCard>

@@ -498,6 +498,8 @@ export const ArticlesPage: React.FC = () => {
                     title="AI Грамматический разбор"
                     advice={aiAdvice}
                     isLoading={isAILoading}
+                    context={`Предложение: "${currentSentence?.sentence.replace('___', currentSentence.correctArticle)}"\nПеревод: "${currentSentence?.translation}"`}
+                    topic={`Немецкие артикли и падеж ${currentSentence?.caseName}`}
                 />
             </div >
         </div >

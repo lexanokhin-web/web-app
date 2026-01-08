@@ -358,6 +358,8 @@ export const SynonymsPage: React.FC = () => {
                     title="AI Нюансы употребления"
                     advice={aiAdvice}
                     isLoading={isAILoading}
+                    context={`Слово: "${currentExercise?.word}"\nСинонимы: ${currentExercise?.options.join(', ')}`}
+                    topic={`Синонимы и нюансы употребления слова ${currentExercise?.word}`}
                 />
             </div>
         </div>

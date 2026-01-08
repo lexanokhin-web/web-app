@@ -130,13 +130,23 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                                 <Sparkles className="w-5 h-5 group-hover:scale-110 transition-transform" />
                             </button>
 
-                            <div className="flex items-center space-x-4 mb-4">
-                                <h2 className="text-5xl font-bold">{word}</h2>
-                                <SpeakButton text={word} size="lg" />
+                            <div className="flex flex-col items-center justify-center w-full px-4 text-center">
+                                <div className="flex items-center justify-center gap-4 mb-4 flex-wrap">
+                                    <h2 className={`font-bold transition-all duration-300 break-words [hyphens:auto] ${word.length > 25 ? 'text-2xl' :
+                                        word.length > 20 ? 'text-3xl' :
+                                            word.length > 15 ? 'text-4xl' :
+                                                'text-5xl'
+                                        }`}
+                                        lang="de"
+                                    >
+                                        {word}
+                                    </h2>
+                                    <SpeakButton text={word} size="lg" />
+                                </div>
                             </div>
 
                             {example && (
-                                <p className="text-lg text-white/80 italic text-center mt-4">
+                                <p className="text-base sm:text-lg text-white/80 italic text-center mt-4 line-clamp-4 px-2">
                                     "{example}"
                                 </p>
                             )}
@@ -165,16 +175,22 @@ export const FlashCard: React.FC<FlashCardProps> = ({
                                 <Sparkles className="w-5 h-5 group-hover:scale-110 transition-transform" />
                             </button>
 
-                            <RotateCcw className="w-8 h-8 mb-4 opacity-60" />
-                            <h2 className="text-4xl font-bold mb-2">{translation}</h2>
+                            <RotateCcw className="w-8 h-8 mb-4 opacity-60 flex-shrink-0" />
+                            <h2 className={`font-bold transition-all duration-300 break-words text-center px-4 w-full ${translation.length > 25 ? 'text-xl' :
+                                translation.length > 20 ? 'text-2xl' :
+                                    translation.length > 15 ? 'text-3xl' :
+                                        'text-4xl'
+                                }`}>
+                                {translation}
+                            </h2>
 
                             {example && (
-                                <div className="mt-8">
-                                    <p className="text-sm text-white/60 mb-2">Пример:</p>
-                                    <p className="text-lg text-white/90 italic text-center">
+                                <div className="mt-6 w-full px-4 overflow-hidden flex flex-col items-center">
+                                    <p className="text-xs text-white/60 mb-1">Пример:</p>
+                                    <p className="text-base sm:text-lg text-white/90 italic text-center line-clamp-3">
                                         "{example}"
                                     </p>
-                                    <SpeakButton text={example} size="md" className="mt-4 mx-auto" />
+                                    <SpeakButton text={example} size="md" className="mt-3" />
                                 </div>
                             )}
 

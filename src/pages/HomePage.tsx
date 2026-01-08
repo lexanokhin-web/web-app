@@ -148,7 +148,10 @@ export const HomePage: React.FC = () => {
                 >
                     {/* Top Row: User Actions */}
                     <div className="flex justify-between items-center mb-4">
-                        <div className="flex items-center gap-2">
+                        <div
+                            className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
+                            onClick={() => navigate('/')}
+                        >
                             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center shadow-lg">
                                 <BookOpen className="w-5 h-5 text-white" />
                             </div>
