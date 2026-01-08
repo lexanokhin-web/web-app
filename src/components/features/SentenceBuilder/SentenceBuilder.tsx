@@ -331,8 +331,6 @@ export const SentenceBuilder: React.FC<SentenceBuilderProps> = ({ exercise, onCo
                 title="AI Грамматический разбор"
                 advice={aiAnalysis}
                 isLoading={isAILoading}
-                context={`Пользователь: "${placedWords.filter(w => w !== null).join(' ')}"\nПравильно: "${exercise.correctSentence.join(' ')}"`}
-                topic={exercise.grammarFocus || exercise.subTopic}
             />
         </div>
     );

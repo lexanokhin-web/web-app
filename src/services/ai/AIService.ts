@@ -1,5 +1,5 @@
 /**
- * AIService для взаимодействия с OpenRouter (DeepSeek R1 Free)
+ * AIService для взаимодействия с Google Gemini API
  */
 
 export interface AIExplanation {
@@ -21,34 +21,29 @@ export interface AIGrammarAdvice {
     mnemonic?: string;
 }
 
-const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-
-// Список моделей: от самых надежных до запасных
-const MODELS = [
-    'google/gemma-3-12b-it:free',           // Умная и стабильная
-    'mistralai/mistral-small-3.1-24b-instruct:free', // Надёжная
-    'meta-llama/llama-3.2-3b-instruct:free' // Быстрая запасная
-];
+// Google Gemini API endpoint
+const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models';
+const GEMINI_MODEL = 'gemini-2.5-flash';
 
 export class AIService {
     private static get apiKey() {
-        const key = import.meta.env.VITE_OPENROUTER_API_KEY;
+        const key = import.meta.env.VITE_GOOGLE_AI_KEY;
         return key ? key.trim() : null;
     }
 
     /**
-     * Извлекает JSON из строки, даже если модель прислала лишний текст или теги <think>
+     * Извлекает JSON из строки, даже если модель прислала лишний текст или markdown
      */
     private static extractJSON(content: string): string | null {
         try {
-            // Убираем теги <think>
-            const withoutThink = content.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
-            const firstBrace = withoutThink.indexOf('{');
-            const lastBrace = withoutThink.lastIndexOf('}');
+            // Убираем markdown code fences (```json ... ```)
+            const cleaned = content.replace(/```json\s*/g, '').replace(/```\s*/g, '').trim();
+
+            const firstBrace = cleaned.indexOf('{');
+            const lastBrace = cleaned.lastIndexOf('}');
 
             if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
-                const jsonCandidate = withoutThink.substring(firstBrace, lastBrace + 1);
-                // Проверяем, что это валидный JSON
+                const jsonCandidate = cleaned.substring(firstBrace, lastBrace + 1);
                 JSON.parse(jsonCandidate);
                 return jsonCandidate;
             }
@@ -59,76 +54,64 @@ export class AIService {
     }
 
     /**
-     * Выполняет запрос к ИИ с поддержкой повторных попыток и переключением моделей
+     * Выполняет запрос к Google Gemini API
      */
-    private static async fetchAIWithRetry(prompt: string, maxRetries: number = 1): Promise<string | null> {
+    private static async fetchGemini(prompt: string, expectJSON: boolean = true): Promise<string | null> {
         if (!this.apiKey) {
-            console.error('AIService: VITE_OPENROUTER_API_KEY is missing!');
+            console.error('AIService: VITE_GOOGLE_AI_KEY is missing!');
             return null;
         }
 
-        const referer = window.location.origin || 'http://localhost:5173';
+        const url = `${GEMINI_API_URL}/${GEMINI_MODEL}:generateContent?key=${this.apiKey}`;
 
-        for (const modelId of MODELS) {
-            for (let attempt = 0; attempt <= maxRetries; attempt++) {
-                try {
-                    if (attempt > 0) {
-                        await new Promise(resolve => setTimeout(resolve, 1000));
-                        console.log(`AIService: Retrying ${modelId} (Attempt ${attempt + 1})`);
+        try {
+            console.log('AIService: Requesting Gemini...');
+
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    contents: [{
+                        parts: [{ text: prompt }]
+                    }],
+                    generationConfig: {
+                        temperature: 0.5,
+                        maxOutputTokens: 2048
                     }
+                }),
+                signal: AbortSignal.timeout(30000)
+            });
 
-                    console.log(`AIService: Requesting ${modelId}...`);
+            if (response.ok) {
+                const data = await response.json();
+                const content = data.candidates?.[0]?.content?.parts?.[0]?.text;
+                console.log(`AIService: Gemini response length: ${content?.length || 0}`);
 
-                    const response = await fetch(OPENROUTER_API_URL, {
-                        method: 'POST',
-                        headers: {
-                            'Authorization': `Bearer ${this.apiKey}`,
-                            'HTTP-Referer': referer,
-                            'X-Title': 'Deutsch Lern-App',
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            model: modelId,
-                            messages: [{ role: 'user', content: prompt }]
-                        }),
-                        // Тайм-аут на запрос 30 секунд (бесплатные модели могут долго висеть в очереди)
-                        signal: AbortSignal.timeout(30000)
-                    });
-
-                    if (response.ok) {
-                        const data = await response.json();
-                        const content = data.choices[0]?.message?.content;
-                        console.log(`AIService: ${modelId} response length: ${content?.length || 0}`);
-                        if (content) {
-                            const extracted = this.extractJSON(content);
-                            if (extracted) {
-                                console.log(`AIService: Success with ${modelId}`);
-                                return extracted;
-                            } else {
-                                console.warn(`AIService: ${modelId} returned non-JSON content:`, content.substring(0, 200));
-                            }
-                        }
-                    } else {
-                        const errorText = await response.text();
-                        console.error(`AIService: Model ${modelId} failed (Status ${response.status}):`, errorText);
-
-                        // Если ошибка авторизации, нет смысла пробовать другие модели
-                        if (response.status === 401 || response.status === 403) {
+                if (content) {
+                    if (expectJSON) {
+                        const extracted = this.extractJSON(content);
+                        if (extracted) {
+                            console.log('AIService: Success with Gemini');
+                            return extracted;
+                        } else {
+                            console.warn('AIService: Gemini returned non-JSON:', content.substring(0, 200));
                             return null;
                         }
-                        // Если rate limit - сразу выходим, нет смысла пробовать другие модели
-                        if (response.status === 429) {
-                            console.error('AIService: Rate limit exceeded! Wait until tomorrow or add credits.');
-                            return null;
-                        }
-                    }
-                } catch (error: unknown) {
-                    if (error instanceof Error && error.name === 'TimeoutError') {
-                        console.warn(`AIService: ${modelId} timed out after 25s`);
                     } else {
-                        console.error(`AIService: Error with ${modelId}:`, error);
+                        return content;
                     }
                 }
+            } else {
+                const errorText = await response.text();
+                console.error(`AIService: Gemini failed (Status ${response.status}):`, errorText);
+            }
+        } catch (error: unknown) {
+            if (error instanceof Error && error.name === 'TimeoutError') {
+                console.warn('AIService: Gemini timed out after 30s');
+            } else {
+                console.error('AIService: Error with Gemini:', error);
             }
         }
 
@@ -151,10 +134,10 @@ export class AIService {
             }
         `;
         try {
-            const res = await this.fetchAIWithRetry(prompt);
+            const res = await this.fetchGemini(prompt);
             return res ? JSON.parse(res) : null;
         } catch {
-            console.error('AIService: Parse error in explainWord:');
+            console.error('AIService: Parse error in explainWord');
             return null;
         }
     }
@@ -185,7 +168,7 @@ export class AIService {
             }
         `;
         try {
-            const res = await this.fetchAIWithRetry(prompt);
+            const res = await this.fetchGemini(prompt);
             return res ? JSON.parse(res) : null;
         } catch (e) {
             console.error('AIService: Parse error in analyzeSentence:', e);
@@ -215,7 +198,7 @@ export class AIService {
             }
         `;
         try {
-            const res = await this.fetchAIWithRetry(prompt);
+            const res = await this.fetchGemini(prompt);
             return res ? JSON.parse(res) : null;
         } catch (e) {
             console.error('AIService: Parse error in getGrammarAdvice:', e);
@@ -235,62 +218,6 @@ export class AIService {
             GIB NUR DEN REINEN TEXT DES TIPPS AUF RUSSISCH ZURÜCK. MAXIMAL 2 SÄTZE.
             KEIN JSON, NUR TEXT.
         `;
-        return await this.fetchAIWithRetry(prompt);
-    }
-
-    /**
-     * Глубокий анализ (использует мощную модель DeepSeek R1)
-     */
-    static async getDeepAnalysis(
-        context: string,
-        topic: string,
-        level: string = 'B1'
-    ): Promise<string | null> {
-        const prompt = `
-            Du bist ein Deutschlehrer-Experte. Gib eine SEHR DETAILLIERТЕЛЬНУЮ и глубокую объяснительную записку (Deep Analysis) по этой теме: ${topic}.
-            Контекст: ${context}
-            Уровень ученика: ${level}
-            
-            Объясни все нюансы, исключения и логику максимально подробно на русском языке.
-            GIB NUR DEN REINEN TEXT ZURÜCK (Markdown format ist erlaubt).
-        `;
-
-        // Для глубокого анализа используем только R1
-        const r1Model = 'deepseek/deepseek-r1-0528:free';
-
-        if (!this.apiKey) return null;
-        const referer = window.location.origin || 'http://localhost:5173';
-
-        try {
-            console.log('AIService: Starting Deep Analysis with R1...');
-            const response = await fetch(OPENROUTER_API_URL, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${this.apiKey}`,
-                    'HTTP-Referer': referer,
-                    'X-Title': 'Deutsch Lern-App',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    model: r1Model,
-                    messages: [{ role: 'user', content: prompt }]
-                }),
-                signal: AbortSignal.timeout(60000) // 1 минута на глубокий анализ
-            });
-
-            if (response.ok) {
-                const data = await response.json();
-                let content = data.choices[0]?.message?.content;
-                if (content) {
-                    // Убираем <think> теги для чистого вывода
-                    content = content.replace(/<think>[\s\S]*?<\/think>/g, '').trim();
-                }
-                return content;
-            }
-            return null;
-        } catch (error) {
-            console.error('AIService: Deep Analysis failed:', error);
-            return null;
-        }
+        return await this.fetchGemini(prompt, false);
     }
 }
