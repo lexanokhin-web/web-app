@@ -147,6 +147,12 @@ export const QUIZ_CONFIG: LevelConfig[] = [
                 title: 'Verben Mit Präposition',
                 description: 'Упражнения на глаголы с предлогами (B1)',
                 file: 'verben_mit_praeposition.json'
+            },
+            {
+                id: 'cases',
+                title: 'Kasus-Bestimmung',
+                description: 'Умное задание: определи падеж (Nom, Akk, Dat, Gen)',
+                file: 'cases.json'
             }
         ]
     },

@@ -1,0 +1,1042 @@
+[
+    {
+        "id": "case_1",
+        "sentence": "Ich sehe **den Hund**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Hund (м.р.) в роли прямого объекта → den Hund (Akkusativ).",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_2",
+        "sentence": "Das ist das Buch **meines Vaters**.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Чья книга? — Отца. Мужской род в родительном падеже → meines Vaters (Genetiv).",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_3",
+        "sentence": "Ich helfe **der Frau**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол helfen всегда требует Dativ. Frau (ж.р.) → der Frau (Dativ).",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_4",
+        "sentence": "**Der Himmel** ist heute sehr blau.",
+        "targetWord": "Nominativ",
+        "targetWordTranslation": "Именительный падеж",
+        "explanation": "Кто/что? — Небо. Подлежащее всегда стоит в Nominativ.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Akkusativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_5",
+        "sentence": "Wir kaufen **einen neuen Fernseher**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Покупать (кого/что?) — Fernseher (м.р.) → einen ... Fernseher (Akkusativ).",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_6",
+        "sentence": "Das ist das Haus **unserer Nachbarn**.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Чье здание? — Соседей (мн.ч.) → unserer Nachbarn (Genetiv).",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_7",
+        "sentence": "Er gibt **dem Lehrer** das Heft.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Кому он дает? — Учителю (м.р., косвенный объект) → dem Lehrer (Dativ).",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_8",
+        "sentence": "**Diese Leute** sind sehr nett.",
+        "targetWord": "Nominativ",
+        "targetWordTranslation": "Именительный падеж",
+        "explanation": "Кто? — Эти люди. Подлежащее во множественном числе → Nominativ.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Akkusativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_9",
+        "sentence": "Ich besuche **meine Großeltern**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Посещать (кого?) — Бабушку и дедушку (мн.ч.) → meine Großeltern (Akkusativ).",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_10",
+        "sentence": "Wegen **des schlechten Wetters** bleiben wir hier.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'wegen' требует после себя Genetiv. Wetter (н.р.) → des ... Wetters (Genetiv).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_11",
+        "sentence": "Sie vertraut **ihrem Instinkt**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол vertrauen требует Dativ. Instinkt (м.р.) → ihrem Instinkt (Dativ).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_12",
+        "sentence": "Dort steht **ein altes Auto**.",
+        "targetWord": "Nominativ",
+        "targetWordTranslation": "Именительный падеж",
+        "explanation": "Кто/что стоит? — Машина (н.р.). Подлежащее после глаголов состояния (steht) → Nominativ.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Akkusativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_13",
+        "sentence": "Er trinkt **eine Tasse** Kaffee.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Пьет (кого/что?) — Чашку (ж.р., прямой объект) → eine Tasse (Akkusativ).",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_14",
+        "sentence": "Trotz **aller Schwierigkeiten** haben wir es geschafft.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'trotz' требует Genetiv. Schwierigkeiten (мн.ч.) → aller Schwierigkeiten (Genetiv).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_15",
+        "sentence": "Ich danke **dir** für die Hilfe.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол danken требует Dativ. Pronomen 'du' в дательном падеже → dir (Dativ).",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_16",
+        "sentence": "Wir gehen **durch den Wald**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'durch' всегда требует Akkusativ.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_17",
+        "sentence": "Er arbeitet **bei einer großen Firma**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'bei' всегда требует Dativ. Firma (ж.р.) → einer Firma.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_18",
+        "sentence": "Das ist das Auto **meines Freundes**.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Чье авто? — Друга (м.р.). В Genetiv добавляется 's' к существительному.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_19",
+        "sentence": "Ich folge **dir**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'folgen' (следовать) требует Dativ.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_20",
+        "sentence": "Wir warten **auf den Bus**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Глагол 'warten' с предлогом 'auf' (в значении ожидания) требует Akkusativ.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_21",
+        "sentence": "Während **der Ferien** habe ich viel gelesen.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'während' требует Genetiv. Ferien (мн.ч.) → der Ferien.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_22",
+        "sentence": "Kommst du **mit mir**?",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'mit' всегда требует Dativ. 'ich' в Dativ → mir.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_23",
+        "sentence": "Ich schreibe **einen Brief**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Писать (кого/что?) — Письмо (м.р.) в Akkusativ → einen Brief.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_24",
+        "sentence": "Statt **eines Kaffees** trinke ich Tee.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'statt' требует Genetiv. Kaffee (м.р.) → eines Kaffees.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_25",
+        "sentence": "Er antwortet **dem Kind**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'antworten' требует Dativ. Kind (н.р.) → dem Kind.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_26",
+        "sentence": "Ich sehe **dich**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Видеть (кого?) — Тебя. 'du' в Akkusativ → dich.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_27",
+        "sentence": "Gefällt **euch** der Film?",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'gefallen' требует Dativ. 'ihr' (вы) в Dativ → euch.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_28",
+        "sentence": "Trotz **des Regens** gehen wir spazieren.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'trotz' требует Genetiv. Regen (м.р.) → des Regens.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_29",
+        "sentence": "Ich gehe **zu meinem Bruder**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'zu' всегда требует Dativ. Bruder (м.р.) → meinem Bruder.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_30",
+        "sentence": "Ohne **deine Hilfe** schaffe ich das nicht.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'ohne' всегда требует Akkusativ. Hilfe (ж.р.) → deine Hilfe.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_31",
+        "sentence": "Ich stelle die Vase **auf den Tisch**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Глагол движения (куда?) с предлогом двойного управления 'auf' требует Akkusativ. Tisch (м.р.) → den Tisch.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_32",
+        "sentence": "Die Vase steht **auf dem Tisch**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол состояния (где?) с предлогом двойного управления 'auf' требует Dativ. Tisch (м.р.) → dem Tisch.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_33",
+        "sentence": "Innerhalb **eines Monats** hat er Deutsch gelernt.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'innerhalb' всегда требует Genetiv. Monat (м.р.) → eines Monats.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_34",
+        "sentence": "Er kam mir **entgegen**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'entgegen' требует Dativ и часто стоит после существительного/местоимения. 'ich' → mir.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_35",
+        "sentence": "Wir protestieren **gegen die Entscheidung**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'gegen' всегда требует Akkusativ. Entscheidung (ж.р.) → die Entscheidung.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_36",
+        "sentence": "Außer **meiner Schwester** war niemand da.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'außer' требует Dativ. Schwester (ж.р.) → meiner Schwester.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_37",
+        "sentence": "Das ist die Meinung **meines Bruders**.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Чье мнение? — Брата. Мужской род в Genetiv получает окончание -s.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_38",
+        "sentence": "Ich interessiere mich **für dieses Thema**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'für' всегда требует Akkusativ. Thema (н.р.) → dieses Thema.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_39",
+        "sentence": "Seit **einem Jahr** wohne ich in Berlin.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'seit' всегда требует Dativ. Jahr (н.р.) → einem Jahr.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_40",
+        "sentence": "Wir gehen den Fluss **entlang**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'entlang' при стоянии после существительного требует Akkusativ. Fluss (м.р.) → den Fluss.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_41",
+        "sentence": "Das Haus liegt **außerhalb der Stadt**.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'außerhalb' требует Genetiv. Stadt (ж.р.) → der Stadt.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_42",
+        "sentence": "Er gratuliert **dem Kind** zum Geburtstag.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'gratulieren' требует дополнения в Dativ. Kind (н.р.) → dem Kind.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_43",
+        "sentence": "Ich brauche **einen neuen Computer**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Глагол 'brauchen' требует Akkusativ. Computer (м.р.) → einen ... Computer.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_44",
+        "sentence": "Sie sitzt **gegenüber dem Bahnhof**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'gegenüber' требует Dativ. Bahnhof (м.р.) → dem Bahnhof.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_45",
+        "sentence": "Wir treffen uns **um acht Uhr**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'um' (в контексте времени или пространства) требует Akkusativ.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_46",
+        "sentence": "Wegen **meines Fehlers** haben wir verloren.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'wegen' требует Genetiv. Fehler (м.р.) → meines Fehlers.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_47",
+        "sentence": "Ich schreibe mit **einem blauen Kuli**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'mit' всегда требует Dativ. Kuli (м.р.) → einem ... Kuli.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_48",
+        "sentence": "Er fragt **den Polizisten** nach dem Weg.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Глагол 'fragen' требует Akkusativ для лица, которое спрашивают. Polizist (м.р., слаб. скл.) → den Polizisten.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_49",
+        "sentence": "Das Geschenk ist **für dich**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'für' требует Akkusativ. 'du' → 'dich'.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_50",
+        "sentence": "Das Kind gehorcht **seinen Eltern**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'gehorchen' (слушаться) требует Dativ. Eltern (мн.ч.) → seinen Eltern.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_51",
+        "sentence": "Statt **eines Geschenks** gab er mir Geld.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'statt' требует Genetiv. Geschenk (н.р.) → eines Geschenks.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_52",
+        "sentence": "Wir wandern **durch das Tal**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'durch' всегда требует Akkusativ. Tal (н.р.) → das Tal.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_53",
+        "sentence": "Ich spreche **von meinem Freund**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'von' всегда требует Dativ. Freund (м.р.) → meinem Freund.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_54",
+        "sentence": "Trotz **der Kälte** spielt er draußen.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'trotz' требует Genetiv. Kälte (ж.р.) → der Kälte.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_55",
+        "sentence": "Er läuft **bis an das Ende** der Welt.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "В паре 'bis an' падеж определяется последним предлогом 'an' (куда? → Akkusativ).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_56",
+        "sentence": "Ab **nächster Woche** habe ich Urlaub.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'ab' обычно используется с Dativ. Woche (ж.р.) → nächster Woche.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_57",
+        "sentence": "Die Tasche **dieser Frau** ist sehr teuer.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Чья сумка? — Этой женщины. Женский род в Genetiv → dieser Frau.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_58",
+        "sentence": "Ich kann **ohne dich** nicht leben.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'ohne' всегда требует Akkusativ. 'du' → 'dich'.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_59",
+        "sentence": "Wir danken **dem Mitarbeiter** für seinen Einsatz.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'danken' требует Dativ. Mitarbeiter (м.р.) → dem Mitarbeiter.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_60",
+        "sentence": "Während **des Films** haben wir gelacht.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'während' требует Genetiv. Film (м.р.) → des Films.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_61",
+        "sentence": "Ich schreibe **meiner Mutter** eine E-Mail.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Косвенный объект (кому?) в немецком — это Dativ. Mutter (ж.р.) → meiner Mutter.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_62",
+        "sentence": "Ich schreibe **eine E-Mail**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Прямой объект (что?) — Akkusativ. E-Mail (ж.р.) → eine E-Mail.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_63",
+        "sentence": "Er kommt **aus der Schweiz**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'aus' всегда требует Dativ. Schweiz (ж.р.) → der Schweiz.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_64",
+        "sentence": "Das ist der Koffer **meines Gastes**.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Чей чемодан? — Гостя. Мужской род в Genetiv → meines Gastes.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_65",
+        "sentence": "Die Leute warten **auf das Ergebnis**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Глагол 'warten auf' (ждать чего-то) требует Akkusativ. Ergebnis (н.р.) → das Ergebnis.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_66",
+        "sentence": "Bei **schlechtem Wetter** bleiben wir zu Hause.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'bei' требует Dativ. Wetter (н.р., без артикля, прил. принимает окончание -m) → schlechtem.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_67",
+        "sentence": "Wir gehen **um das Haus** herum.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'um' требует Akkusativ. Haus (н.р.) → das Haus.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_68",
+        "sentence": "Was sagst du **zu diesem Plan**?",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'zu' всегда требует Dativ. Plan (м.р.) → diesem Plan.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_69",
+        "sentence": "Wegen **des Umzugs** habe ich keine Zeit.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'wegen' требует Genetiv. Umzug (м.р.) → des Umzugs.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_70",
+        "sentence": "Ich sehe **einen alten Mann**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Прямой объект (кого?) — Akkusativ. Mann (м.р.) → einen ... Mann.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_71",
+        "sentence": "Er ähnelt **seinem Vater**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'ähneln' (быть похожим) требует Dativ. Vater (м.р.) → seinem Vater.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_72",
+        "sentence": "Trotz **der Warnung** ging er ins Wasser.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'trotz' требует Genetiv. Warnung (ж.р.) → der Warnung.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_73",
+        "sentence": "Wir sprechen **über den Film**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Глагол 'sprechen über' требует Akkusativ. Film (м.р.) → den Film.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_74",
+        "sentence": "Er wohnt **nahe der Grenze**.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'nahe' в официальном стиле может требовать Genetiv (хотя в разговорном часто Dativ). Здесь Genetiv: Grenze (ж.р.) → der Grenze.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_75",
+        "sentence": "Das gehört **mir**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'gehören' (принадлежать) требует Dativ. 'ich' → 'mir'.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_76",
+        "sentence": "Sie geht **ohne ihren Hund** spazieren.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Предлог 'ohne' требует Akkusativ. Hund (м.р.) → ihren Hund.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_77",
+        "sentence": "Nach **dem Essen** gehen wir schlafen.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Предлог 'nach' всегда требует Dativ. Essen (н.р.) → dem Essen.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_78",
+        "sentence": "Innerhalb **des Hauses** ist es warm.",
+        "targetWord": "Genetiv",
+        "targetWordTranslation": "Родительный падеж",
+        "explanation": "Предлог 'innerhalb' требует Genetiv. Haus (н.р.) → des Hauses.",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+        ]
+    },
+    {
+        "id": "case_79",
+        "sentence": "Er kauft **einen Apfel**.",
+        "targetWord": "Akkusativ",
+        "targetWordTranslation": "Винительный падеж",
+        "explanation": "Прямой объект (что?) — Akkusativ. Apfel (м.р.) → einen Apfel.",
+        "difficulty": "easy",
+        "wrongAnswers": [
+            "Nominativ",
+            "Dativ",
+            "Genetiv"
+        ]
+    },
+    {
+        "id": "case_80",
+        "sentence": "Ich helfe **den Kindern**.",
+        "targetWord": "Dativ",
+        "targetWordTranslation": "Дательный падеж",
+        "explanation": "Глагол 'helfen' требует Dativ. Множественное число в Dativ получает окончание -n: Kindern.",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "Nominativ",
+            "Akkusativ",
+            "Genetiv"
+        ]
+    }
+]

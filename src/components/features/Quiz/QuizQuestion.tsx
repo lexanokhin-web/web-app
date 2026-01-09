@@ -7,6 +7,8 @@ interface QuizQuestionProps {
     correctAnswer: string;
     wrongAnswers: string[];
     onAnswer: (isCorrect: boolean) => void;
+    onCorrectFeedback?: () => void;
+    onShowAIAdvice?: () => void;
     questionNumber: number;
     totalQuestions: number;
     explanation?: string;
@@ -20,6 +22,8 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
     correctAnswer,
     wrongAnswers,
     onAnswer,
+    onCorrectFeedback,
+    onShowAIAdvice,
     questionNumber,
     totalQuestions,
     explanation,
@@ -42,7 +46,10 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
         const correct = answer === correctAnswer;
         setIsCorrect(correct);
         setShowFeedback(true);
-        // No auto-advance - user clicks "Weiter" button
+
+        if (correct && onCorrectFeedback) {
+            onCorrectFeedback();
+        }
     };
 
     const handleNext = () => {
@@ -67,6 +74,26 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
         return 'bg-gray-300/40 border-2 border-gray-400/40 opacity-50';
     };
 
+    const renderStyledText = (text: string) => {
+        if (!text || !text.includes('**')) return text;
+
+        const parts = text.split(/(\*\*.*?\*\*)/g);
+        return parts.map((part, i) => {
+            if (part.startsWith('**') && part.endsWith('**')) {
+                const content = part.slice(2, -2);
+                return (
+                    <strong
+                        key={i}
+                        className="text-indigo-200 font-black underline decoration-indigo-300/60 underline-offset-8 decoration-2"
+                    >
+                        {content}
+                    </strong>
+                );
+            }
+            return part;
+        });
+    };
+
     return (
         <div className="w-full max-w-2xl mx-auto">
             {/* Question number */}
@@ -80,9 +107,12 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-gradient-to-br from-blue-400 to-purple-600 rounded-2xl p-8 mb-8 text-center shadow-2xl relative overflow-hidden"
+                className="bg-gradient-to-br from-indigo-500 via-purple-600 to-indigo-700 rounded-2xl p-8 mb-8 text-center shadow-2xl relative overflow-hidden"
             >
-                <p className="text-3xl font-bold text-white mb-2">"{question}"</p>
+                <div className="absolute top-0 left-0 w-full h-1 bg-white/20" />
+                <p className="text-3xl font-bold text-white mb-2 leading-tight">
+                    {renderStyledText(question)}
+                </p>
                 {verbTranslation && (
                     <motion.p
                         initial={{ opacity: 0 }}
@@ -108,7 +138,7 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
                                     }
                                     return exampleSentence.replace('_____', `[${displayAnswer}]`);
                                 })()
-                                : exampleSentence.replace('_____', '______')
+                                : renderStyledText(exampleSentence.replace('_____', '______'))
                             }
                         </p>
                     )}
@@ -194,6 +224,15 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
                                         <div className="mt-2 text-sm font-medium opacity-70 italic leading-relaxed">
                                             💡 {explanation}
                                         </div>
+                                    )}
+
+                                    {onShowAIAdvice && (
+                                        <button
+                                            onClick={onShowAIAdvice}
+                                            className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-2 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 rounded-xl text-xs font-bold transition-all text-indigo-700"
+                                        >
+                                            <span className="animate-pulse">✨</span> Подробный разбор (AI)
+                                        </button>
                                     )}
                                 </div>
 

@@ -11,6 +11,9 @@ import { useGenericQuizData } from '../hooks/useLoadData';
 import { useAudio } from '../contexts/AudioContext';
 import useSound from 'use-sound';
 import type { QuizLevel, QuizTopic } from '../data/quizzes/quiz-config';
+import { AIService, type AIGrammarAdvice } from '../services/ai/AIService';
+import { AIAdviceModal } from '../components/features/SentenceBuilder/AIAdviceModal';
+import { GrammarHints } from '../components/features/Quiz/GrammarHints';
 
 interface QuizData {
     question: string;
@@ -55,6 +58,11 @@ export const QuizPage: React.FC = () => {
     const [answeredCount, setAnsweredCount] = useState(0);
     const [showResults, setShowResults] = useState(false);
     const [loading, setLoading] = useState(false);
+
+    // AI Advice State
+    const [isAIModalOpen, setIsAIModalOpen] = useState(false);
+    const [aiAdvice, setAiAdvice] = useState<AIGrammarAdvice | null>(null);
+    const [isAILoading, setIsAILoading] = useState(false);
 
     const [currentPath, setCurrentPath] = useState<string | null>(null);
     const { data: rawSentences, isLoading: isQueryLoading, isError } = useGenericQuizData(currentPath);
@@ -112,7 +120,7 @@ export const QuizPage: React.FC = () => {
             }
 
             return {
-                question: sentence.verb ? `${sentence.verb} ______` : sentence.sentence.replace('_____', '______'),
+                question: sentence.verb ? `${sentence.verb} ______` : sentence.sentence,
                 correctAnswer,
                 wrongAnswers,
                 explanation: sentence.explanation,
@@ -151,7 +159,6 @@ export const QuizPage: React.FC = () => {
 
         if (isCorrect) {
             setScore(score + 1);
-            playCorrect();
         }
 
         // Move to next question or show results
@@ -205,6 +212,26 @@ export const QuizPage: React.FC = () => {
             </div>
         );
     }
+
+    const handleShowAIAdvice = async () => {
+        const currentQuiz = quizData[currentIndex];
+        if (!currentQuiz) return;
+
+        setIsAIModalOpen(true);
+        setIsAILoading(true);
+        setAiAdvice(null);
+
+        try {
+            const context = `Satz: "${currentQuiz.exampleSentence || currentQuiz.question}", Korrekte Antwort: "${currentQuiz.correctAnswer}", Thema: ${selectedTopic?.title}`;
+            const topic = `немецкая грамматика: ${selectedTopic?.title || 'Kasus'}`;
+            const advice = await AIService.getGrammarAdvice(context, topic, 'B1');
+            setAiAdvice(advice);
+        } catch (error) {
+            console.error('AI Advice Error:', error);
+        } finally {
+            setIsAILoading(false);
+        }
+    };
 
     // Selection Mode
     if (mode === 'selection') {
@@ -335,6 +362,9 @@ export const QuizPage: React.FC = () => {
                     </div>
                 </div>
 
+                {/* Grammar Hints for Case Identification */}
+                {selectedTopic?.id === 'cases' && !showResults && <GrammarHints />}
+
                 {/* Progress Bar */}
                 <div className="mb-8">
                     <div className="h-3 bg-gray-200 rounded-full overflow-hidden">
@@ -355,6 +385,8 @@ export const QuizPage: React.FC = () => {
                         correctAnswer={currentQuiz.correctAnswer}
                         wrongAnswers={currentQuiz.wrongAnswers}
                         onAnswer={handleAnswer}
+                        onCorrectFeedback={() => playCorrect()}
+                        onShowAIAdvice={handleShowAIAdvice}
                         questionNumber={currentIndex + 1}
                         totalQuestions={quizData.length}
                         explanation={currentQuiz.explanation}
@@ -363,6 +395,14 @@ export const QuizPage: React.FC = () => {
                         exampleSentence={currentQuiz.exampleSentence}
                     />
                 )}
+
+                <AIAdviceModal
+                    isOpen={isAIModalOpen}
+                    onClose={() => setIsAIModalOpen(false)}
+                    title="AI Грамматический разбор"
+                    advice={aiAdvice}
+                    isLoading={isAILoading}
+                />
             </div>
         </div>
     );
