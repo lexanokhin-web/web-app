@@ -27,7 +27,7 @@ export const Button: React.FC<ButtonProps> = ({
             whileHover={!disabled ? { scale: 1.05 } : {}}
             whileTap={!disabled ? { scale: 0.95 } : {}}
             className={`
-        px-6 py-3 rounded-xl font-semibold
+        px-6 py-3 rounded-xl font-bold
         backdrop-blur-sm border border-white/30
         shadow-lg transition-all duration-200
         disabled:opacity-50 disabled:cursor-not-allowed

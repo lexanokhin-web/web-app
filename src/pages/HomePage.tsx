@@ -245,7 +245,7 @@ export const HomePage: React.FC = () => {
                                                             <div className={`w-8 h-8 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-gradient-to-br ${exercise.color} flex items-center justify-center shadow-md mb-1.5 sm:mb-2 mx-auto`}>
                                                                 <Icon className="w-4 h-4 sm:w-6 sm:h-6 text-white" />
                                                             </div>
-                                                            <h3 className="text-[10px] sm:text-sm font-bold text-gray-800 leading-tight">
+                                                            <h3 className="text-sm sm:text-sm font-bold text-gray-800 leading-tight text-shadow-sm">
                                                                 {exercise.name}
                                                             </h3>
                                                         </GlassCard>

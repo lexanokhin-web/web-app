@@ -16,12 +16,13 @@ export const GrammarHints: React.FC = () => {
                 <button
                     onClick={() => toggleTab('prepositions')}
                     className={`
-                        py-2 text-[10px] sm:text-xs font-black rounded-xl
-                        shadow-md transition-all transform active:scale-95
+                        py-2.5 text-sm font-bold rounded-xl
+                        shadow-lg transition-all transform active:scale-95
                         uppercase tracking-tighter border-none text-white
+                        text-shadow-sm
                         ${activeTab === 'prepositions'
                             ? 'bg-gradient-to-r from-indigo-700 to-purple-700 ring-2 ring-indigo-300 ring-offset-2 scale-[1.02]'
-                            : 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700'
+                            : 'bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 hover:scale-[1.02]'
                         }
                     `}
                 >
@@ -30,12 +31,13 @@ export const GrammarHints: React.FC = () => {
                 <button
                     onClick={() => toggleTab('declination')}
                     className={`
-                        py-2 text-[10px] sm:text-xs font-black rounded-xl
-                        shadow-md transition-all transform active:scale-95
+                        py-2.5 text-sm font-bold rounded-xl
+                        shadow-lg transition-all transform active:scale-95
                         uppercase tracking-tighter border-none text-white
+                        text-shadow-sm
                         ${activeTab === 'declination'
                             ? 'bg-gradient-to-r from-purple-700 to-indigo-700 ring-2 ring-purple-300 ring-offset-2 scale-[1.02]'
-                            : 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700'
+                            : 'bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 hover:scale-[1.02]'
                         }
                     `}
                 >

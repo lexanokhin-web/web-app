@@ -55,7 +55,7 @@ export const QuizSelection: React.FC<QuizSelectionProps> = ({ onSelectTopic }) =
                         `}
                     >
                         {getLevelIcon(level.id)}
-                        <span className="font-black">{level.id}</span>
+                        <span className="font-bold">{level.id}</span>
                         <span className="hidden sm:inline text-sm opacity-90">- {level.title.split('-')[1].trim()}</span>
                     </button>
                 ))}
@@ -86,7 +86,7 @@ export const QuizSelection: React.FC<QuizSelectionProps> = ({ onSelectTopic }) =
                                     </div>
                                 </div>
 
-                                <h3 className="text-xs sm:text-lg font-black text-gray-800 sm:mb-2 group-hover:text-indigo-600 transition-colors line-clamp-2 min-h-[1.5rem] sm:min-h-0">
+                                <h3 className="text-sm sm:text-lg font-bold text-gray-800 sm:mb-2 group-hover:text-indigo-600 transition-colors line-clamp-2 min-h-[1.5rem] sm:min-h-0 text-shadow-sm">
                                     {topic.title}
                                 </h3>
 
