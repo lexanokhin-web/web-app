@@ -41,7 +41,6 @@ export const QuizPage: React.FC = () => {
     const { isMuted, volume } = useAudio();
 
     const [playCorrect] = useSound('/sounds/correct.mp3', { volume: isMuted ? 0 : volume });
-    const [playIncorrect] = useSound('/sounds/incorrect.mp3', { volume: isMuted ? 0 : volume });
     const [playLevelUp] = useSound('/sounds/levelup.mp3', { volume: isMuted ? 0 : volume });
 
     // Flow State
@@ -153,8 +152,6 @@ export const QuizPage: React.FC = () => {
         if (isCorrect) {
             setScore(score + 1);
             playCorrect();
-        } else {
-            playIncorrect();
         }
 
         // Move to next question or show results

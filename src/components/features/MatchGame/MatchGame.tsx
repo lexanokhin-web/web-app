@@ -11,11 +11,10 @@ interface MatchGameProps {
     onComplete: (stats: { matches: number; mistakes: number; timeSeconds: number }) => void;
     onExit: () => void;
     onCorrect?: () => void;
-    onIncorrect?: () => void;
     onRestartWithNewWords?: () => void;
 }
 
-export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit, onCorrect, onIncorrect, onRestartWithNewWords }) => {
+export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit, onCorrect, onRestartWithNewWords }) => {
     const [cards, setCards] = useState<MatchCardData[]>([]);
     const [firstSelection, setFirstSelection] = useState<MatchCardData | null>(null);
     const [secondSelection, setSecondSelection] = useState<MatchCardData | null>(null);
@@ -48,7 +47,6 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit,
             setSecondSelection(null);
         } else {
             // No match
-            onIncorrect?.();
             setMistakes(prev => prev + 1);
             setIncorrectPairs(new Set([firstSelection.id, secondSelection.id]));
 
@@ -58,7 +56,7 @@ export const MatchGame: React.FC<MatchGameProps> = ({ pairs, onComplete, onExit,
                 setSecondSelection(null);
             }, 1000);
         }
-    }, [firstSelection, secondSelection, onCorrect, onIncorrect]);
+    }, [firstSelection, secondSelection, onCorrect]);
 
     const initializeGame = React.useCallback(() => {
         setCards(createDeck());

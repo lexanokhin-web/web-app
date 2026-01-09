@@ -39,7 +39,6 @@ export const MatchGamePage: React.FC = () => {
     const { isMuted, volume } = useAudio();
 
     const [playCorrect] = useSound('/sounds/correct.mp3', { volume: isMuted ? 0 : volume });
-    const [playIncorrect] = useSound('/sounds/incorrect.mp3', { volume: isMuted ? 0 : volume });
     const [playLevelUp] = useSound('/sounds/levelup.mp3', { volume: isMuted ? 0 : volume });
 
     const completionSoundPlayed = useRef(false);
@@ -534,7 +533,6 @@ export const MatchGamePage: React.FC = () => {
                         onComplete={handleComplete}
                         onExit={resetGame}
                         onCorrect={playCorrect}
-                        onIncorrect={playIncorrect}
                         onRestartWithNewWords={handleRestartWithNewWords}
                     />
                 )}
