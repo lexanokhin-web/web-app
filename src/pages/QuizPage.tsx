@@ -154,22 +154,37 @@ export const QuizPage: React.FC = () => {
         }
     }, [isError]);
 
-    const handleAnswer = (isCorrect: boolean) => {
-        setAnsweredCount(answeredCount + 1);
+    const [transitionTimer, setTransitionTimer] = useState<ReturnType<typeof setTimeout> | null>(null);
 
+    const handleAnswer = (isCorrect: boolean) => {
+        if (transitionTimer) clearTimeout(transitionTimer);
+
+        setAnsweredCount(prev => prev + 1);
+        const newScore = isCorrect ? score + 1 : score;
         if (isCorrect) {
-            setScore(score + 1);
+            setScore(newScore);
+
+            // Auto-advance ONLY if CORRECT after 2 seconds
+            const timer = setTimeout(() => {
+                handleNextQuestion(newScore);
+            }, 2000);
+            setTransitionTimer(timer);
+        }
+        // If INCORRECT, we do nothing - the user must click "Weiter"
+    };
+
+    const handleNextQuestion = (currentScore?: number) => {
+        if (transitionTimer) {
+            clearTimeout(transitionTimer);
+            setTransitionTimer(null);
         }
 
-        // Move to next question or show results
+        const finalScore = currentScore !== undefined ? currentScore : score;
+
         if (currentIndex < quizData.length - 1) {
-            setTimeout(() => {
-                setCurrentIndex(currentIndex + 1);
-            }, 1600);
+            setCurrentIndex(currentIndex + 1);
         } else {
-            setTimeout(() => {
-                finishQuiz(score + (isCorrect ? 1 : 0));
-            }, 1600);
+            finishQuiz(finalScore);
         }
     };
 
@@ -214,6 +229,12 @@ export const QuizPage: React.FC = () => {
     }
 
     const handleShowAIAdvice = async () => {
+        // Clear timer so it doesn't auto-advance while reading advice
+        if (transitionTimer) {
+            clearTimeout(transitionTimer);
+            setTransitionTimer(null);
+        }
+
         const currentQuiz = quizData[currentIndex];
         if (!currentQuiz) return;
 
@@ -385,6 +406,7 @@ export const QuizPage: React.FC = () => {
                         correctAnswer={currentQuiz.correctAnswer}
                         wrongAnswers={currentQuiz.wrongAnswers}
                         onAnswer={handleAnswer}
+                        onNext={() => handleNextQuestion()}
                         onCorrectFeedback={() => playCorrect()}
                         onShowAIAdvice={handleShowAIAdvice}
                         questionNumber={currentIndex + 1}
@@ -398,7 +420,10 @@ export const QuizPage: React.FC = () => {
 
                 <AIAdviceModal
                     isOpen={isAIModalOpen}
-                    onClose={() => setIsAIModalOpen(false)}
+                    onClose={() => {
+                        setIsAIModalOpen(false);
+                        handleNextQuestion();
+                    }}
                     title="AI Грамматический разбор"
                     advice={aiAdvice}
                     isLoading={isAILoading}

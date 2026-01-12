@@ -7,6 +7,7 @@ interface QuizQuestionProps {
     correctAnswer: string;
     wrongAnswers: string[];
     onAnswer: (isCorrect: boolean) => void;
+    onNext: () => void;
     onCorrectFeedback?: () => void;
     onShowAIAdvice?: () => void;
     questionNumber: number;
@@ -22,6 +23,7 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
     correctAnswer,
     wrongAnswers,
     onAnswer,
+    onNext,
     onCorrectFeedback,
     onShowAIAdvice,
     questionNumber,
@@ -50,12 +52,14 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
         if (correct && onCorrectFeedback) {
             onCorrectFeedback();
         }
+
+        // Notify parent immediately
+        // QuizPage will handle the score and auto-advance timer
+        onAnswer(correct);
     };
 
     const handleNext = () => {
-        if (isCorrect !== null) {
-            onAnswer(isCorrect);
-        }
+        onNext();
     };
 
     const getButtonStyle = (option: string) => {
@@ -229,21 +233,25 @@ export const QuizQuestion: React.FC<QuizQuestionProps> = ({
                                     {onShowAIAdvice && (
                                         <button
                                             onClick={onShowAIAdvice}
-                                            className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-2 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 rounded-xl text-xs font-bold transition-all text-indigo-700"
+                                            className="mt-3 w-full flex items-center justify-center gap-2 px-4 py-3 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 rounded-xl text-sm font-bold transition-all text-indigo-700 shadow-sm"
                                         >
-                                            <span className="animate-pulse">✨</span> Подробный разбор (AI)
+                                            <span className="animate-pulse text-lg">✨</span> Подробный разбор (AI)
                                         </button>
                                     )}
                                 </div>
 
-                                {/* Next button */}
-                                <motion.button
-                                    onClick={handleNext}
-                                    className="mt-4 w-full py-5 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-2xl font-black text-xl flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-[0_10px_20px_-5px_rgba(79,70,229,0.4)]"
-                                >
-                                    Weiter
-                                    <ArrowRight className="w-6 h-6" />
-                                </motion.button>
+                                {/* Show Next button ONLY if the answer was WRONG */}
+                                {!isCorrect && (
+                                    <motion.button
+                                        initial={{ opacity: 0, y: 10 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        onClick={handleNext}
+                                        className="mt-4 w-full py-5 bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-2xl font-black text-xl flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-[0_10px_20px_-5px_rgba(79,70,229,0.4)]"
+                                    >
+                                        Weiter
+                                        <ArrowRight className="w-6 h-6" />
+                                    </motion.button>
+                                )}
                             </div>
                         </motion.div>
                     </>
