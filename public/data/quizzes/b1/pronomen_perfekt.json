@@ -466,5 +466,655 @@
             "ihn ihr",
             "ihr ihn"
         ]
+    },
+    {
+        "id": "ex_37",
+        "sentence": "Hat der Chef der Sekretärin den Brief diktiert? - Ja, er hat _____ diktiert.",
+        "targetWord": "ihn ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (ihn - письмо, m) vor Dativ (ihr - секретарше).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr ihn",
+            "es ihr",
+            "ihr es"
+        ]
+    },
+    {
+        "id": "ex_38",
+        "sentence": "Hat die Mutter den Kindern das Spielzeug gekauft? - Ja, sie hat _____ gekauft.",
+        "targetWord": "es ihnen",
+        "targetWordTranslation": "его им",
+        "explanation": "Akkusativ (es - игрушка, n) vor Dativ (ihnen - детям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen es",
+            "sie ihnen",
+            "ihnen sie"
+        ]
+    },
+    {
+        "id": "ex_39",
+        "sentence": "Hat der Lehrer dem Schüler die Bücher geliehen? - Ja, er hat _____ geliehen.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "их ему",
+        "explanation": "Akkusativ (sie - книги, f) vor Dativ (ihm - ученику).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_40",
+        "sentence": "Hat der Nachbar den Mietern den Schlüssel gegeben? - Ja, er hat _____ gegeben.",
+        "targetWord": "ihn ihnen",
+        "targetWordTranslation": "его им",
+        "explanation": "Akkusativ (ihn - ключ, m) vor Dativ (ihnen - жильцам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen ihn",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_41",
+        "sentence": "Hat die Ärztin dem Patienten das Rezept ausgestellt? - Ja, sie hat _____ ausgestellt.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (es - рецепт, n) vor Dativ (ihm - пациенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_42",
+        "sentence": "Hat der Bäcker den Kunden die Brötchen gebracht? - Ja, er hat _____ gebracht.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - булочки, f) vor Dativ (ihnen - клиентам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_43",
+        "sentence": "Hat der Vater der Tochter das Fahrrad repariert? - Ja, er hat _____ repariert.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - велосипед, n) vor Dativ (ihr - дочери).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "ihn ihr",
+            "ihr ihn"
+        ]
+    },
+    {
+        "id": "ex_44",
+        "sentence": "Hat der Verkäufer dem Kind den Ball gezeigt? - Ja, er hat _____ gezeigt.",
+        "targetWord": "ihn ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (ihn - мяч, m) vor Dativ (ihm - ребёнку).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm ihn",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_45",
+        "sentence": "Hat die Freundin ihrer Kollegin die Fotos geschickt? - Ja, sie hat _____ geschickt.",
+        "targetWord": "sie ihr",
+        "targetWordTranslation": "их ей",
+        "explanation": "Akkusativ (sie - фото, f) vor Dativ (ihr - коллеге).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr sie",
+            "es ihr",
+            "ihr es"
+        ]
+    },
+    {
+        "id": "ex_46",
+        "sentence": "Hat der Kellner den Gästen die Speisekarte gegeben? - Ja, er hat _____ gegeben.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - меню, f) vor Dativ (ihnen - гостям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_47",
+        "sentence": "Hat der Pilot den Passagieren die Landung erklärt? - Ja, er hat _____ erklärt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - посадка, f) vor Dativ (ihnen - пассажирам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_48",
+        "sentence": "Hat der Professor den Studenten die Aufgabe gestellt? - Ja, er hat _____ gestellt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - задача, f) vor Dativ (ihnen - студентам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_49",
+        "sentence": "Hat die Mutter ihrem Sohn das Hemd gebügelt? - Ja, sie hat _____ gebügelt.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (es - рубашка, n) vor Dativ (ihm - сыну).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_50",
+        "sentence": "Hat der Trainer dem Team die Strategie erklärt? - Ja, er hat _____ erklärt.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (sie - стратегия, f) vor Dativ (ihm - команде).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_51",
+        "sentence": "Hat der Chef der Abteilung den Bericht geschickt? - Ja, er hat _____ geschickt.",
+        "targetWord": "ihn ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (ihn - отчёт, m) vor Dativ (ihr - отделу).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr ihn",
+            "es ihr",
+            "ihr es"
+        ]
+    },
+    {
+        "id": "ex_52",
+        "sentence": "Hat der Arzt dem Patienten die Medizin verschrieben? - Ja, er hat _____ verschrieben.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (sie - медицина, f) vor Dativ (ihm - пациенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_53",
+        "sentence": "Hat der Vater den Kindern das Geld gegeben? - Ja, er hat _____ gegeben.",
+        "targetWord": "es ihnen",
+        "targetWordTranslation": "его им",
+        "explanation": "Akkusativ (es - деньги, n) vor Dativ (ihnen - детям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen es",
+            "sie ihnen",
+            "ihnen sie"
+        ]
+    },
+    {
+        "id": "ex_54",
+        "sentence": "Hat die Lehrerin den Schülern die Hefte zurückgegeben? - Ja, sie hat _____ zurückgegeben.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - тетради, f) vor Dativ (ihnen - ученикам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_55",
+        "sentence": "Hat der Mechaniker dem Kunden die Rechnung geschickt? - Ja, er hat _____ geschickt.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (sie - счёт, f) vor Dativ (ihm - клиенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_56",
+        "sentence": "Hat die Oma dem Enkel die Geschichte erzählt? - Ja, sie hat _____ erzählt.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (sie - история, f) vor Dativ (ihm - внуку).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_57",
+        "sentence": "Hat der Verkäufer der Dame die Blumen verkauft? - Ja, er hat _____ verkauft.",
+        "targetWord": "sie ihr",
+        "targetWordTranslation": "их ей",
+        "explanation": "Akkusativ (sie - цветы, f) vor Dativ (ihr - даме).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr sie",
+            "es ihr",
+            "ihr es"
+        ]
+    },
+    {
+        "id": "ex_58",
+        "sentence": "Hat der Kollege dem Chef das Projekt vorgestellt? - Ja, er hat _____ vorgestellt.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (es - проект, n) vor Dativ (ihm - шефу).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_59",
+        "sentence": "Hat die Mutter ihrer Tochter das Kleid genäht? - Ja, sie hat _____ genäht.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - платье, n) vor Dativ (ihr - дочери).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "ihn ihr",
+            "ihr ihn"
+        ]
+    },
+    {
+        "id": "ex_60",
+        "sentence": "Hat der Fahrer den Touristen die Sehenswürdigkeiten gezeigt? - Ja, er hat _____ gezeigt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - достопримечательности, f) vor Dativ (ihnen - туристам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_61",
+        "sentence": "Hat der Bruder seiner Schwester den Computer geliehen? - Ja, er hat _____ geliehen.",
+        "targetWord": "ihn ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (ihn - компьютер, m) vor Dativ (ihr - сестре).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr ihn",
+            "es ihr",
+            "ihr es"
+        ]
+    },
+    {
+        "id": "ex_62",
+        "sentence": "Hat die Sekretärin dem Direktor die Post gebracht? - Ja, sie hat _____ gebracht.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (sie - почта, f) vor Dativ (ihm - директору).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_63",
+        "sentence": "Hat der Briefträger den Bewohnern die Pakete gegeben? - Ja, er hat _____ gegeben.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - посылки, f) vor Dativ (ihnen - жильцам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_64",
+        "sentence": "Hat der Anwalt seinem Mandanten den Vertrag erklärt? - Ja, er hat _____ erklärt.",
+        "targetWord": "ihn ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (ihn - договор, m) vor Dativ (ihm - клиенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm ihn",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_65",
+        "sentence": "Hat die Tante den Nichten die Puppen geschenkt? - Ja, sie hat _____ geschenkt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - куклы, f) vor Dativ (ihnen - племянницам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_66",
+        "sentence": "Hat der Dozent den Studenten die Prüfung angekündigt? - Ja, er hat _____ angekündigt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - экзамен, f) vor Dativ (ihnen - студентам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_67",
+        "sentence": "Hat der Handwerker dem Hausbesitzer die Rechnung geschickt? - Ja, er hat _____ geschickt.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (sie - счёт, f) vor Dativ (ihm - домовладельцу).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_68",
+        "sentence": "Hat die Freundin ihrer Freundin das Buch empfohlen? - Ja, sie hat _____ empfohlen.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - книга, n) vor Dativ (ihr - подруге).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "ihn ihr",
+            "ihr ihn"
+        ]
+    },
+    {
+        "id": "ex_69",
+        "sentence": "Hat der Trainer den Sportlern die Übungen gezeigt? - Ja, er hat _____ gezeigt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - упражнения, f) vor Dativ (ihnen - спортсменам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_70",
+        "sentence": "Hat der Kellner dem Gast das Menü gebracht? - Ja, er hat _____ gebracht.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (es - меню, n) vor Dativ (ihm - гостю).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_71",
+        "sentence": "Hat die Bibliothekarin dem Leser die Zeitung gegeben? - Ja, sie hat _____ gegeben.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (sie - газета, f) vor Dativ (ihm - читателю).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_72",
+        "sentence": "Hat der Professor dem Assistenten die Forschungsergebnisse gezeigt? - Ja, er hat _____ gezeigt.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "их ему",
+        "explanation": "Akkusativ (sie - результаты, f) vor Dativ (ihm - ассистенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_73",
+        "sentence": "Hat der Nachbar den Kindern den Ball zurückgegeben? - Ja, er hat _____ zurückgegeben.",
+        "targetWord": "ihn ihnen",
+        "targetWordTranslation": "его им",
+        "explanation": "Akkusativ (ihn - мяч, m) vor Dativ (ihnen - детям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen ihn",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_74",
+        "sentence": "Hat die Kassiererin dem Kunden das Wechselgeld gegeben? - Ja, sie hat _____ gegeben.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (es - сдача, n) vor Dativ (ihm - клиенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_75",
+        "sentence": "Hat der Chef der Mitarbeiterin das Gehalt überwiesen? - Ja, er hat _____ überwiesen.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - зарплата, n) vor Dativ (ihr - сотруднице).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "ihn ihr",
+            "ihr ihn"
+        ]
+    },
+    {
+        "id": "ex_76",
+        "sentence": "Hat der Guide den Touristen die Route erklärt? - Ja, er hat _____ erklärt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - маршрут, f) vor Dativ (ihnen - туристам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_77",
+        "sentence": "Hat der Vater seinem Sohn das Motorrad verkauft? - Ja, er hat _____ verkauft.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (es - мотоцикл, n) vor Dativ (ihm - сыну).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_78",
+        "sentence": "Hat die Lehrerin den Eltern die Zeugnisse gegeben? - Ja, sie hat _____ gegeben.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - табели, f) vor Dativ (ihnen - родителям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_79",
+        "sentence": "Hat der Künstler dem Publikum seine Werke gezeigt? - Ja, er hat _____ gezeigt.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "их ему",
+        "explanation": "Akkusativ (sie - работы, f) vor Dativ (ihm - публике).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_80",
+        "sentence": "Hat der Bäcker den Kunden die Kuchen gezeigt? - Ja, er hat _____ gezeigt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - торты, f) vor Dativ (ihnen - клиентам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_81",
+        "sentence": "Hat der Onkel den Nichten die Geschenke gebracht? - Ja, er hat _____ gebracht.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "их им",
+        "explanation": "Akkusativ (sie - подарки, f) vor Dativ (ihnen - племянницам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_82",
+        "sentence": "Hat der Verkäufer dem Kunden den Mantel empfohlen? - Ja, er hat _____ empfohlen.",
+        "targetWord": "ihn ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (ihn - пальто, m) vor Dativ (ihm - клиенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm ihn",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_83",
+        "sentence": "Hat die Mutter der Tochter das Rezept verraten? - Ja, sie hat _____ verraten.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - рецепт, n) vor Dativ (ihr - дочери).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "ihn ihr",
+            "ihr ihn"
+        ]
+    },
+    {
+        "id": "ex_84",
+        "sentence": "Hat der Trainer den Spielern die Taktik erklärt? - Ja, er hat _____ erklärt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - тактика, f) vor Dativ (ihnen - игрокам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_85",
+        "sentence": "Hat der Chef der Belegschaft die Neuerungen mitgeteilt? - Ja, er hat _____ mitgeteilt.",
+        "targetWord": "sie ihr",
+        "targetWordTranslation": "их ей",
+        "explanation": "Akkusativ (sie - нововведения, f) vor Dativ (ihr - коллективу).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr sie",
+            "es ihr",
+            "ihr es"
+        ]
+    },
+    {
+        "id": "ex_86",
+        "sentence": "Hat der Arzt dem Patienten die Tabletten verschrieben? - Ja, er hat _____ verschrieben.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "их ему",
+        "explanation": "Akkusativ (sie - таблетки, f) vor Dativ (ihm - пациенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
     }
 ]
