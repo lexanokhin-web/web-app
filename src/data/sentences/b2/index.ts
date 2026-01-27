@@ -7,6 +7,7 @@ import { b2Passiversatz } from './passiversatz';
 import { b2Modalverben } from './modalverben';
 import { b2KomplexeSaetze } from './komplexe_saetze';
 import { b2Adjektive } from './adjektive_praepositionen';
+import { b2Tekamolo } from './tekamolo';
 
 export const b2Exercises = [
     ...b2ExercisesOld,
@@ -17,5 +18,6 @@ export const b2Exercises = [
     ...b2Passiversatz,
     ...b2Modalverben,
     ...b2KomplexeSaetze,
-    ...b2Adjektive
+    ...b2Adjektive,
+    ...b2Tekamolo
 ];

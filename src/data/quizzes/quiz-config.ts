@@ -153,6 +153,12 @@ export const QUIZ_CONFIG: LevelConfig[] = [
                 title: 'Kasus-Bestimmung',
                 description: 'Умное задание: определи падеж (Nom, Akk, Dat, Gen)',
                 file: 'cases.json'
+            },
+            {
+                id: 'pronomen_perfekt',
+                title: 'Pronomen & Perfekt',
+                description: 'Порядок местоимений и построение предложений в Perfekt / Präteritum',
+                file: 'pronomen_perfekt.json'
             }
         ]
     },

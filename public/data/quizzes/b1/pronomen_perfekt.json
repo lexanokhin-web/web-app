@@ -1,0 +1,470 @@
+[
+    {
+        "id": "ex9_a",
+        "sentence": "Ich habe _____ den Termin mitgeteilt.",
+        "targetWord": "dir",
+        "targetWordTranslation": "тебе",
+        "explanation": "mitteilen + Dativ (кому?) -> dir",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "dein"
+        ]
+    },
+    {
+        "id": "ex9_b",
+        "sentence": "Er hat _____ seine Unterstützung angeboten.",
+        "targetWord": "mir",
+        "targetWordTranslation": "мне",
+        "explanation": "anbieten + Dativ (кому?) -> mir",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "mich",
+            "mein",
+            "ich"
+        ]
+    },
+    {
+        "id": "ex10_a",
+        "sentence": "Lieferte man dem Kunden das Gerät? - Ja, man hat _____ geliefert.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Если оба дополнения - местоимения, то Akkusativ (es) стоит перед Dativ (ihm).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex10_b",
+        "sentence": "Beantwortete der Zeuge dem Anwalt die Fragen? - Ja, er hat _____ beantwortet.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "их ему",
+        "explanation": "Akkusativ (sie - вопросы) перед Dativ (ihm - адвокату).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex12_a",
+        "sentence": "Hat man dir diesen Auftrag (m) erteilt? - Natürlich hat man _____ erteilt.",
+        "targetWord": "ihn mir",
+        "targetWordTranslation": "его мне",
+        "explanation": "Akkusativ-Pronomen (ihn) перед Dativ-Pronomen (mir).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "mir ihn",
+            "ihm mich",
+            "es mir"
+        ]
+    },
+    {
+        "id": "ex12_f",
+        "sentence": "Hat Jana ihrem Kollegen das Dokument gegeben? - Natürlich hat sie _____ gegeben.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "N-A-D Regel: Akkusativ (es) перед Dativ (ihm).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_7",
+        "sentence": "Die Lehrerin hat _____ die Hausaufgabe erklärt.",
+        "targetWord": "uns",
+        "targetWordTranslation": "нам",
+        "explanation": "erklären + Dativ (кому?) -> uns",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "wir",
+            "unser",
+            "euch"
+        ]
+    },
+    {
+        "id": "ex_8",
+        "sentence": "Hat der Chef dem Team den Plan gezeigt? - Ja, er hat _____ gezeigt.",
+        "targetWord": "ihn ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (ihn - план) перед Dativ (ihm - команде).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm ihn",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_9",
+        "sentence": "Ich habe _____ das Buch gegeben.",
+        "targetWord": "ihr",
+        "targetWordTranslation": "ей",
+        "explanation": "geben + Dativ (кому?) -> ihr",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "sie",
+            "ihre",
+            "ihren"
+        ]
+    },
+    {
+        "id": "ex_10",
+        "sentence": "Hat der Kellner den Gästen die Rechnung gebracht? - Ja, er hat _____ gebracht.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - счёт, f) перед Dativ (ihnen - гостям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_11",
+        "sentence": "Der Arzt hat _____ ein Rezept ausgestellt.",
+        "targetWord": "ihm",
+        "targetWordTranslation": "ему",
+        "explanation": "ausstellen + Dativ (кому?) -> ihm",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihn",
+            "er",
+            "sein"
+        ]
+    },
+    {
+        "id": "ex_12",
+        "sentence": "Hat Maria ihrer Freundin das Geheimnis verraten? - Ja, sie hat _____ verraten.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - секрет) перед Dativ (ihr - подруге).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "sie ihr",
+            "ihr sie"
+        ]
+    },
+    {
+        "id": "ex_13",
+        "sentence": "Wir haben _____ die Wahrheit gesagt.",
+        "targetWord": "euch",
+        "targetWordTranslation": "вам",
+        "explanation": "sagen + Dativ (кому?) -> euch",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihr",
+            "eure",
+            "euer"
+        ]
+    },
+    {
+        "id": "ex_14",
+        "sentence": "Hat der Lehrer den Schülern die Aufgabe gegeben? - Ja, er hat _____ gegeben.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - задание, f) перед Dativ (ihnen - ученикам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_15",
+        "sentence": "Sie hat _____ einen Brief geschrieben.",
+        "targetWord": "mir",
+        "targetWordTranslation": "мне",
+        "explanation": "schreiben + Dativ (кому?) -> mir",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "mich",
+            "mein",
+            "ich"
+        ]
+    },
+    {
+        "id": "ex_16",
+        "sentence": "Hat der Vater seinem Sohn das Auto geliehen? - Ja, er hat _____ geliehen.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (es - машина, n) перед Dativ (ihm - сыну).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_17",
+        "sentence": "Der Verkäufer hat _____ den Preis genannt.",
+        "targetWord": "ihr",
+        "targetWordTranslation": "ей",
+        "explanation": "nennen + Dativ (кому?) -> ihr",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "sie",
+            "ihre",
+            "ihren"
+        ]
+    },
+    {
+        "id": "ex_18",
+        "sentence": "Hat die Mutter den Kindern die Geschichte erzählt? - Ja, sie hat _____ erzählt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - история, f) перед Dativ (ihnen - детям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_19",
+        "sentence": "Er hat _____ das Geld zurückgegeben.",
+        "targetWord": "uns",
+        "targetWordTranslation": "нам",
+        "explanation": "zurückgeben + Dativ (кому?) -> uns",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "wir",
+            "unser",
+            "unsere"
+        ]
+    },
+    {
+        "id": "ex_20",
+        "sentence": "Hat der Großvater dem Enkel die Uhr geschenkt? - Ja, er hat _____ geschenkt.",
+        "targetWord": "sie ihm",
+        "targetWordTranslation": "их ему",
+        "explanation": "Akkusativ (sie - часы, f) перед Dativ (ihm - внуку).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm sie",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_21",
+        "sentence": "Die Sekretärin hat _____ die Nachricht übermittelt.",
+        "targetWord": "ihm",
+        "targetWordTranslation": "ему",
+        "explanation": "übermitteln + Dativ (кому?) -> ihm",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihn",
+            "er",
+            "sein"
+        ]
+    },
+    {
+        "id": "ex_22",
+        "sentence": "Hat der Koch den Gästen das Essen serviert? - Ja, er hat _____ serviert.",
+        "targetWord": "es ihnen",
+        "targetWordTranslation": "его им",
+        "explanation": "Akkusativ (es - еда, n) перед Dativ (ihnen - гостям).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen es",
+            "ihn ihnen",
+            "ihnen ihn"
+        ]
+    },
+    {
+        "id": "ex_23",
+        "sentence": "Ich habe _____ meine Hilfe angeboten.",
+        "targetWord": "ihnen",
+        "targetWordTranslation": "им",
+        "explanation": "anbieten + Dativ (кому?) -> ihnen",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "sie",
+            "ihre",
+            "ihr"
+        ]
+    },
+    {
+        "id": "ex_24",
+        "sentence": "Hat der Postbote der Frau das Paket gebracht? - Ja, er hat _____ gebracht.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - посылка, n) перед Dativ (ihr - женщине).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "ihn ihr",
+            "ihr ihn"
+        ]
+    },
+    {
+        "id": "ex_25",
+        "sentence": "Sie haben _____ die Einladung geschickt.",
+        "targetWord": "mir",
+        "targetWordTranslation": "мне",
+        "explanation": "schicken + Dativ (кому?) -> mir",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "mich",
+            "mein",
+            "ich"
+        ]
+    },
+    {
+        "id": "ex_26",
+        "sentence": "Hat der Trainer dem Spieler den Ball gegeben? - Ja, er hat _____ gegeben.",
+        "targetWord": "ihn ihm",
+        "targetWordTranslation": "его ему",
+        "explanation": "Akkusativ (ihn - мяч, m) перед Dativ (ihm - игроку).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm ihn",
+            "es ihm",
+            "ihm es"
+        ]
+    },
+    {
+        "id": "ex_27",
+        "sentence": "Der Nachbar hat _____ den Schlüssel gegeben.",
+        "targetWord": "uns",
+        "targetWordTranslation": "нам",
+        "explanation": "geben + Dativ (кому?) -> uns",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "wir",
+            "unser",
+            "unsere"
+        ]
+    },
+    {
+        "id": "ex_28",
+        "sentence": "Hat die Verkäuferin der Kundin die Tüte gegeben? - Ja, sie hat _____ gegeben.",
+        "targetWord": "sie ihr",
+        "targetWordTranslation": "её ей",
+        "explanation": "Akkusativ (sie - пакет, f) перед Dativ (ihr - покупательнице).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr sie",
+            "es ihr",
+            "ihr es"
+        ]
+    },
+    {
+        "id": "ex_29",
+        "sentence": "Er hat _____ das Problem erklärt.",
+        "targetWord": "ihr",
+        "targetWordTranslation": "ей",
+        "explanation": "erklären + Dativ (кому?) -> ihr",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "sie",
+            "ihre",
+            "ihren"
+        ]
+    },
+    {
+        "id": "ex_30",
+        "sentence": "Hat der Mechaniker dem Kunden das Auto repariert? - Ja, er hat _____ repariert.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (es - машина, n) перед Dativ (ihm - клиенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_31",
+        "sentence": "Die Großmutter hat _____ Kekse gebacken.",
+        "targetWord": "uns",
+        "targetWordTranslation": "нам",
+        "explanation": "backen + Dativ (для кого?) -> uns",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "wir",
+            "unser",
+            "unsere"
+        ]
+    },
+    {
+        "id": "ex_32",
+        "sentence": "Hat der Bibliothekar dem Studenten das Buch gegeben? - Ja, er hat _____ gegeben.",
+        "targetWord": "es ihm",
+        "targetWordTranslation": "её ему",
+        "explanation": "Akkusativ (es - книга, n) перед Dativ (ihm - студенту).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihm es",
+            "ihn ihm",
+            "ihm ihn"
+        ]
+    },
+    {
+        "id": "ex_33",
+        "sentence": "Ich habe _____ die Adresse gegeben.",
+        "targetWord": "ihm",
+        "targetWordTranslation": "ему",
+        "explanation": "geben + Dativ (кому?) -> ihm",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "ihn",
+            "er",
+            "sein"
+        ]
+    },
+    {
+        "id": "ex_34",
+        "sentence": "Hat der Pilot den Passagieren die Ankunftszeit mitgeteilt? - Ja, er hat _____ mitgeteilt.",
+        "targetWord": "sie ihnen",
+        "targetWordTranslation": "её им",
+        "explanation": "Akkusativ (sie - время, f) перед Dativ (ihnen - пассажирам).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihnen sie",
+            "es ihnen",
+            "ihnen es"
+        ]
+    },
+    {
+        "id": "ex_35",
+        "sentence": "Sie hat _____ einen Kaffee gebracht.",
+        "targetWord": "dir",
+        "targetWordTranslation": "тебе",
+        "explanation": "bringen + Dativ (кому?) -> dir",
+        "difficulty": "medium",
+        "wrongAnswers": [
+            "dich",
+            "du",
+            "dein"
+        ]
+    },
+    {
+        "id": "ex_36",
+        "sentence": "Hat die Ärztin der Patientin das Medikament verschrieben? - Ja, sie hat _____ verschrieben.",
+        "targetWord": "es ihr",
+        "targetWordTranslation": "его ей",
+        "explanation": "Akkusativ (es - лекарство, n) перед Dativ (ihr - пациентке).",
+        "difficulty": "hard",
+        "wrongAnswers": [
+            "ihr es",
+            "ihn ihr",
+            "ihr ihn"
+        ]
+    }
+]
