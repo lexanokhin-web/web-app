@@ -18,6 +18,7 @@ const LeaderboardPage = lazy(() => import('./pages/LeaderboardPage').then(module
 const MatchGamePage = lazy(() => import('./pages/MatchGamePage').then(module => ({ default: module.MatchGamePage })));
 const SentenceBuilderPage = lazy(() => import('./pages/SentenceBuilderPage').then(module => ({ default: module.SentenceBuilderPage })));
 const AdjektivdeklinationPage = lazy(() => import('./pages/AdjektivdeklinationPage').then(module => ({ default: module.AdjektivdeklinationPage })));
+const WordPuzzlePage = lazy(() => import('./pages/WordPuzzlePage').then(module => ({ default: module.WordPuzzlePage })));
 
 // Loading component
 const Loading = () => (
@@ -48,6 +49,7 @@ function App() {
           <Route path="/pronouns" element={<PronounsPage />} />
           <Route path="/antonyms" element={<AntonymsPage />} />
           <Route path="/synonyms" element={<SynonymsPage />} />
+          <Route path="/puzzle" element={<WordPuzzlePage />} />
         </Routes>
       </Suspense>
     </Router>

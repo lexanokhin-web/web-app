@@ -35,6 +35,13 @@ const exerciseBlocks = [
                 color: 'from-emerald-400 to-cyan-600',
                 path: '/quiz'
             },
+            {
+                id: 'puzzle',
+                name: 'Wörterrätsel',
+                icon: FileText,
+                color: 'from-indigo-400 to-purple-600',
+                path: '/puzzle'
+            },
         ]
     },
     {

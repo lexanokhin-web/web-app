@@ -1,0 +1,1594 @@
+{
+    "level": "A1",
+    "puzzles": [
+        {
+            "id": 1,
+            "solutionWord": "SCHULE",
+            "clues": [
+                {
+                    "hint": "Ein Elefant ist groß, eine Maus ist ___",
+                    "answer": "KLEIN",
+                    "letterPositions": [
+                        7,
+                        8,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "hint": "Montag, Dienstag, Mittwoch... das sind ___",
+                    "answer": "TAGE",
+                    "letterPositions": [
+                        12,
+                        13,
+                        14,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Der Himmel ist ___ (Farbe)",
+                    "answer": "BLAU",
+                    "letterPositions": [
+                        15,
+                        8,
+                        13,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Wie viele Jahreszeiten haben wir?",
+                    "answer": "VIER",
+                    "letterPositions": [
+                        16,
+                        10,
+                        9,
+                        17
+                    ]
+                },
+                {
+                    "hint": "Es ist ganz oben auf dem Haus",
+                    "answer": "DACH",
+                    "letterPositions": [
+                        18,
+                        13,
+                        6,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Das Tier macht 'Wau Wau'",
+                    "answer": "HUND",
+                    "letterPositions": [
+                        5,
+                        3,
+                        11,
+                        18
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                1,
+                6,
+                5,
+                3,
+                8,
+                9
+            ]
+        },
+        {
+            "id": 2,
+            "solutionWord": "WASSER",
+            "clues": [
+                {
+                    "hint": "Im Sommer ist das Wetter ___",
+                    "answer": "WARM",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Apfel und Banane sind ___",
+                    "answer": "OBST",
+                    "letterPositions": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                {
+                    "hint": "Schnee ist ___ (Farbe)",
+                    "answer": "WEISS",
+                    "letterPositions": [
+                        1,
+                        9,
+                        10,
+                        7,
+                        7
+                    ]
+                },
+                {
+                    "hint": "Mama und Papa sind meine ___",
+                    "answer": "ELTERN",
+                    "letterPositions": [
+                        9,
+                        11,
+                        8,
+                        9,
+                        3,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Damit kann ich sehen",
+                    "answer": "AUGE",
+                    "letterPositions": [
+                        2,
+                        13,
+                        14,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Tomaten sind ___ (Farbe)",
+                    "answer": "ROT",
+                    "letterPositions": [
+                        3,
+                        5,
+                        8
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                1,
+                2,
+                7,
+                7,
+                9,
+                3
+            ]
+        },
+        {
+            "id": 3,
+            "solutionWord": "FREUNDE",
+            "clues": [
+                {
+                    "hint": "Das Gegenteil von 'Abend'",
+                    "answer": "MORGEN",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Nicht 'Du', sondern '___' (höflich)",
+                    "answer": "IHNEN",
+                    "letterPositions": [
+                        7,
+                        8,
+                        6,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Wenn man geht, sagt man 'Auf ___!'",
+                    "answer": "WIEDERSEHEN",
+                    "letterPositions": [
+                        9,
+                        7,
+                        5,
+                        10,
+                        5,
+                        3,
+                        11,
+                        5,
+                        8,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Man sagt 'Danke', ich sage 'Vielen ___'",
+                    "answer": "DANK",
+                    "letterPositions": [
+                        10,
+                        12,
+                        6,
+                        13
+                    ]
+                },
+                {
+                    "hint": "Cola kaufe ich in einer ___",
+                    "answer": "FLASCHE",
+                    "letterPositions": [
+                        18,
+                        17,
+                        12,
+                        11,
+                        15,
+                        8,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Es tut mir leid! ___ Sie!",
+                    "answer": "ENTSCHULDIGEN",
+                    "letterPositions": [
+                        5,
+                        6,
+                        16,
+                        11,
+                        15,
+                        8,
+                        14,
+                        17,
+                        10,
+                        7,
+                        4,
+                        5,
+                        6
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                18,
+                3,
+                5,
+                14,
+                6,
+                10,
+                5
+            ]
+        },
+        {
+            "id": 4,
+            "solutionWord": "MONTAG",
+            "clues": [
+                {
+                    "hint": "In der Schule ___ ich Deutsch",
+                    "answer": "LERNE",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Das Gegenteil von 'Ja'",
+                    "answer": "NEIN",
+                    "letterPositions": [
+                        4,
+                        5,
+                        6,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Wir haben zehn Finger: Eins bis ___",
+                    "answer": "ZEHN",
+                    "letterPositions": [
+                        7,
+                        5,
+                        8,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Sofa, Stuhl und Tisch",
+                    "answer": "MÖBEL",
+                    "letterPositions": [
+                        9,
+                        10,
+                        11,
+                        5,
+                        1
+                    ]
+                },
+                {
+                    "hint": "Suppe esse ich mit dem ___",
+                    "answer": "LÖFFEL",
+                    "letterPositions": [
+                        1,
+                        10,
+                        12,
+                        12,
+                        5,
+                        1
+                    ]
+                },
+                {
+                    "hint": "Ein Jahr hat 365 ___e",
+                    "answer": "TAG",
+                    "letterPositions": [
+                        13,
+                        14,
+                        15
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                9,
+                10,
+                4,
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "id": 5,
+            "solutionWord": "ARBEIT",
+            "clues": [
+                {
+                    "hint": "Ich schneide das Brot mit dem ___",
+                    "answer": "MESSER",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        3,
+                        2,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Nach dem Sommer kommt der ___",
+                    "answer": "HERBST",
+                    "letterPositions": [
+                        5,
+                        2,
+                        4,
+                        6,
+                        3,
+                        7
+                    ]
+                },
+                {
+                    "hint": "In der Bibliothek muss man ___ sein",
+                    "answer": "LEISE",
+                    "letterPositions": [
+                        8,
+                        2,
+                        9,
+                        3,
+                        2
+                    ]
+                },
+                {
+                    "hint": "Das Gegenteil von 'jung'",
+                    "answer": "ALT",
+                    "letterPositions": [
+                        10,
+                        8,
+                        7
+                    ]
+                },
+                {
+                    "hint": "Der Winter-Monat (2. Monat)",
+                    "answer": "FEBRUAR",
+                    "letterPositions": [
+                        11,
+                        2,
+                        6,
+                        4,
+                        12,
+                        10,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Da, wo der Daumen links ist, ist ___",
+                    "answer": "RECHTS",
+                    "letterPositions": [
+                        4,
+                        2,
+                        13,
+                        5,
+                        7,
+                        3
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                10,
+                4,
+                6,
+                2,
+                9,
+                7
+            ]
+        },
+        {
+            "id": 6,
+            "solutionWord": "KUCHEN",
+            "clues": [
+                {
+                    "hint": "Körperteil zum Hören",
+                    "answer": "OHR",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Die Sonne macht es ___ (nicht dunkel)",
+                    "answer": "HELL",
+                    "letterPositions": [
+                        2,
+                        4,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Ich ___ gern Musik (Verb)",
+                    "answer": "HÖRE",
+                    "letterPositions": [
+                        2,
+                        1,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Die Woche hat ___ Tage",
+                    "answer": "SIEBEN",
+                    "letterPositions": [
+                        6,
+                        7,
+                        4,
+                        8,
+                        4,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Darauf kann man sitzen",
+                    "answer": "STUHL",
+                    "letterPositions": [
+                        6,
+                        10,
+                        11,
+                        2,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Gegenteil von 'schlecht'",
+                    "answer": "GUT",
+                    "letterPositions": [
+                        12,
+                        11,
+                        10
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                13,
+                11,
+                14,
+                2,
+                4,
+                9
+            ]
+        },
+        {
+            "id": 7,
+            "solutionWord": "ESSEN",
+            "clues": [
+                {
+                    "hint": "Gegenteil von 'langsam'",
+                    "answer": "SCHNELL",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Ein Getränk aus Früchten",
+                    "answer": "SAFT",
+                    "letterPositions": [
+                        1,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Dieses Tier gibt uns Milch",
+                    "answer": "KUH",
+                    "letterPositions": [
+                        10,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Nicht Kinder, sondern ___",
+                    "answer": "ELTERN",
+                    "letterPositions": [
+                        4,
+                        5,
+                        9,
+                        4,
+                        13,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Hände ___! (nicht unten)",
+                    "answer": "HOCH",
+                    "letterPositions": [
+                        12,
+                        14,
+                        2,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Es ist groß, blau und nass",
+                    "answer": "MEER",
+                    "letterPositions": [
+                        15,
+                        4,
+                        4,
+                        13
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                4,
+                1,
+                1,
+                4,
+                3
+            ]
+        },
+        {
+            "id": 8,
+            "solutionWord": "WINTER",
+            "clues": [
+                {
+                    "hint": "Eine Feder ist ___ (nicht schwer)",
+                    "answer": "LEICHT",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Das ist mitten im Gesicht",
+                    "answer": "NASE",
+                    "letterPositions": [
+                        7,
+                        8,
+                        9,
+                        2
+                    ]
+                },
+                {
+                    "hint": "Der ___ hat 24 Stunden",
+                    "answer": "TAG",
+                    "letterPositions": [
+                        6,
+                        8,
+                        10
+                    ]
+                },
+                {
+                    "hint": "Gegenteil von 'wenig'",
+                    "answer": "VIEL",
+                    "letterPositions": [
+                        11,
+                        3,
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "hint": "Wo ___ Sie? (Ihre Adresse)",
+                    "answer": "WOHNEN",
+                    "letterPositions": [
+                        12,
+                        13,
+                        5,
+                        7,
+                        2,
+                        7
+                    ]
+                },
+                {
+                    "hint": "Der Monat vor Juli",
+                    "answer": "JUNI",
+                    "letterPositions": [
+                        14,
+                        15,
+                        7,
+                        3
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                12,
+                3,
+                7,
+                6,
+                2,
+                16
+            ]
+        },
+        {
+            "id": 9,
+            "solutionWord": "APFEL",
+            "clues": [
+                {
+                    "hint": "Ich bin glücklich und ___",
+                    "answer": "FROH",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Man isst mit Löffel, Messer und ___",
+                    "answer": "GABEL",
+                    "letterPositions": [
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Millionäre sind ___",
+                    "answer": "REICH",
+                    "letterPositions": [
+                        2,
+                        8,
+                        10,
+                        11,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Ein großes, starkes Tier aus Afrika",
+                    "answer": "LÖWE",
+                    "letterPositions": [
+                        9,
+                        3,
+                        12,
+                        8
+                    ]
+                },
+                {
+                    "hint": "Ich ___ müde (Verb: sein)",
+                    "answer": "BIN",
+                    "letterPositions": [
+                        7,
+                        10,
+                        13
+                    ]
+                },
+                {
+                    "hint": "Das ist ___. (korrekt)",
+                    "answer": "RICHTIG",
+                    "letterPositions": [
+                        2,
+                        10,
+                        11,
+                        4,
+                        14,
+                        10,
+                        5
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                6,
+                15,
+                1,
+                8,
+                9
+            ]
+        },
+        {
+            "id": 10,
+            "solutionWord": "DANKE",
+            "clues": [
+                {
+                    "hint": "Oma ist ___",
+                    "answer": "ALT",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Darin schläft man",
+                    "answer": "BETT",
+                    "letterPositions": [
+                        4,
+                        5,
+                        3,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Die Farbe von Gras",
+                    "answer": "GRÜN",
+                    "letterPositions": [
+                        6,
+                        7,
+                        8,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Wasser muss man ___",
+                    "answer": "TRINKEN",
+                    "letterPositions": [
+                        3,
+                        7,
+                        10,
+                        9,
+                        11,
+                        5,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Eine Giraffe hat einen ___en Hals",
+                    "answer": "LANG",
+                    "letterPositions": [
+                        2,
+                        1,
+                        9,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Dort kocht man Essen",
+                    "answer": "KÜCHE",
+                    "letterPositions": [
+                        11,
+                        8,
+                        12,
+                        13,
+                        5
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                14,
+                1,
+                9,
+                11,
+                5
+            ]
+        },
+        {
+            "id": 11,
+            "solutionWord": "BROT",
+            "clues": [
+                {
+                    "hint": "Am Tag scheint die Sonne, in der ___ der Mond",
+                    "answer": "NACHT",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Ich ___ ein Berliner. (sagt Kennedy)",
+                    "answer": "BIN",
+                    "letterPositions": [
+                        6,
+                        7,
+                        1
+                    ]
+                },
+                {
+                    "hint": "Eis ist sehr ___",
+                    "answer": "KALT",
+                    "letterPositions": [
+                        8,
+                        2,
+                        9,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Der Monat, in dem das Jahr beginnt",
+                    "answer": "JANUAR",
+                    "letterPositions": [
+                        10,
+                        2,
+                        1,
+                        11,
+                        2,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Die Wüste ist sehr ___ (nicht nass)",
+                    "answer": "TROCKEN",
+                    "letterPositions": [
+                        5,
+                        12,
+                        13,
+                        3,
+                        8,
+                        14,
+                        1
+                    ]
+                },
+                {
+                    "hint": "___, zwei, drei...",
+                    "answer": "EINS",
+                    "letterPositions": [
+                        14,
+                        7,
+                        1,
+                        15
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                6,
+                12,
+                13,
+                5
+            ]
+        },
+        {
+            "id": 12,
+            "solutionWord": "MILCH",
+            "clues": [
+                {
+                    "hint": "Damit schreibe ich auf Papier",
+                    "answer": "STIFT",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        2
+                    ]
+                },
+                {
+                    "hint": "Tür auf, Tür ___",
+                    "answer": "ZU",
+                    "letterPositions": [
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Er hat lange Ohren und mag Karotten",
+                    "answer": "HASE",
+                    "letterPositions": [
+                        7,
+                        8,
+                        1,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Wie viele Beine hat eine Spinne?",
+                    "answer": "ACHT",
+                    "letterPositions": [
+                        8,
+                        10,
+                        7,
+                        2
+                    ]
+                },
+                {
+                    "hint": "Ich habe zwei Arme und zwei ___",
+                    "answer": "BEINE",
+                    "letterPositions": [
+                        11,
+                        9,
+                        3,
+                        12,
+                        9
+                    ]
+                },
+                {
+                    "hint": "In der Schule müssen wir viel ___",
+                    "answer": "LERNEN",
+                    "letterPositions": [
+                        13,
+                        9,
+                        14,
+                        12,
+                        9,
+                        12
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                15,
+                3,
+                13,
+                10,
+                7
+            ]
+        },
+        {
+            "id": 13,
+            "solutionWord": "PIZZA",
+            "clues": [
+                {
+                    "hint": "2 + 2 = 5. Das ist ___!",
+                    "answer": "FALSCH",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Ich ___ gern Spaghetti",
+                    "answer": "ESSE",
+                    "letterPositions": [
+                        7,
+                        4,
+                        4,
+                        7
+                    ]
+                },
+                {
+                    "hint": "Ich trage den Hut auf dem ___",
+                    "answer": "KOPF",
+                    "letterPositions": [
+                        8,
+                        9,
+                        10,
+                        1
+                    ]
+                },
+                {
+                    "hint": "Verwandte: Mutter und Vater",
+                    "answer": "ELTERN",
+                    "letterPositions": [
+                        7,
+                        3,
+                        11,
+                        7,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "hint": "Das kostet nur 1 Euro! Das ist ___",
+                    "answer": "BILLIG",
+                    "letterPositions": [
+                        14,
+                        15,
+                        3,
+                        3,
+                        15,
+                        16
+                    ]
+                },
+                {
+                    "hint": "Die Mitte der Woche",
+                    "answer": "MITTWOCH",
+                    "letterPositions": [
+                        17,
+                        15,
+                        11,
+                        11,
+                        18,
+                        9,
+                        5,
+                        6
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                10,
+                15,
+                19,
+                19,
+                2
+            ]
+        },
+        {
+            "id": 14,
+            "solutionWord": "KAFFEE",
+            "clues": [
+                {
+                    "hint": "23:00 Uhr ist sehr ___",
+                    "answer": "SPÄT",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Ein Haus für viele Bücher",
+                    "answer": "BIBLIOTHEK",
+                    "letterPositions": [
+                        5,
+                        6,
+                        5,
+                        7,
+                        6,
+                        8,
+                        4,
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "hint": "Mein Glas ist ___ (nichts mehr drin? Nein, Gegenteil!)",
+                    "answer": "VOLL",
+                    "letterPositions": [
+                        12,
+                        8,
+                        7,
+                        7
+                    ]
+                },
+                {
+                    "hint": "Nach dem Winter kommt der ___",
+                    "answer": "FRÜHLING",
+                    "letterPositions": [
+                        13,
+                        14,
+                        15,
+                        9,
+                        7,
+                        6,
+                        16,
+                        17
+                    ]
+                },
+                {
+                    "hint": "Man geht durch die ___",
+                    "answer": "TÜR",
+                    "letterPositions": [
+                        4,
+                        15,
+                        14
+                    ]
+                },
+                {
+                    "hint": "Ich ___ Hunger (Verb)",
+                    "answer": "HABE",
+                    "letterPositions": [
+                        9,
+                        3,
+                        5,
+                        10
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                11,
+                3,
+                13,
+                13,
+                10,
+                10
+            ]
+        },
+        {
+            "id": 15,
+            "solutionWord": "VOGEL",
+            "clues": [
+                {
+                    "hint": "Ein Auto ist ___ (nicht leicht)",
+                    "answer": "SCHWER",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Ein großer Laden für Essen",
+                    "answer": "SUPERMARKT",
+                    "letterPositions": [
+                        1,
+                        7,
+                        8,
+                        5,
+                        6,
+                        9,
+                        10,
+                        6,
+                        11,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Der Tag nach Samstag",
+                    "answer": "SONNTAG",
+                    "letterPositions": [
+                        1,
+                        13,
+                        14,
+                        14,
+                        12,
+                        10,
+                        15
+                    ]
+                },
+                {
+                    "hint": "Nicht vorne, sondern ___",
+                    "answer": "HINTEN",
+                    "letterPositions": [
+                        3,
+                        16,
+                        14,
+                        12,
+                        5,
+                        14
+                    ]
+                },
+                {
+                    "hint": "Blut ist ___ (Farbe)",
+                    "answer": "ROT",
+                    "letterPositions": [
+                        6,
+                        13,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Zitronen schmecken ___",
+                    "answer": "SAUER",
+                    "letterPositions": [
+                        1,
+                        10,
+                        7,
+                        5,
+                        6
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                17,
+                13,
+                15,
+                5,
+                18
+            ]
+        },
+        {
+            "id": 16,
+            "solutionWord": "STADT",
+            "clues": [
+                {
+                    "hint": "Eine Prinzessin ist ___",
+                    "answer": "SCHÖN",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Drei mal drei ist ___",
+                    "answer": "NEUN",
+                    "letterPositions": [
+                        5,
+                        6,
+                        7,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Dort schaut man Filme auf großer Leinwand",
+                    "answer": "KINO",
+                    "letterPositions": [
+                        8,
+                        9,
+                        5,
+                        10
+                    ]
+                },
+                {
+                    "hint": "Meine Schuhe sind ___ (müssen geputzt werden)",
+                    "answer": "SCHMUTZIG",
+                    "letterPositions": [
+                        1,
+                        2,
+                        11,
+                        7,
+                        12,
+                        13,
+                        9,
+                        14
+                    ]
+                },
+                {
+                    "hint": "Wenn man schläft, ist es ___",
+                    "answer": "NACHT",
+                    "letterPositions": [
+                        5,
+                        15,
+                        2,
+                        3,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Der Monat, der macht, was er will (Wetter)",
+                    "answer": "APRIL",
+                    "letterPositions": [
+                        15,
+                        16,
+                        17,
+                        9,
+                        18
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                1,
+                12,
+                15,
+                19,
+                12
+            ]
+        },
+        {
+            "id": 17,
+            "solutionWord": "BLUME",
+            "clues": [
+                {
+                    "hint": "Rockmusik ist oft ___",
+                    "answer": "LAUT",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "hint": "Die Engländer trinken gern ___",
+                    "answer": "TEE",
+                    "letterPositions": [
+                        4,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Eine Schnecke ist sehr ___",
+                    "answer": "LANGSAM",
+                    "letterPositions": [
+                        1,
+                        2,
+                        6,
+                        7,
+                        8,
+                        2,
+                        9
+                    ]
+                },
+                {
+                    "hint": "Er lebt im Wasser und kann schwimmen",
+                    "answer": "FISCH",
+                    "letterPositions": [
+                        10,
+                        11,
+                        8,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "hint": "Alles neu macht der ___ (Monat)",
+                    "answer": "MAI",
+                    "letterPositions": [
+                        9,
+                        2,
+                        11
+                    ]
+                },
+                {
+                    "hint": "Ein Model ist oft sehr ___ (Figur)",
+                    "answer": "DÜNN",
+                    "letterPositions": [
+                        14,
+                        3,
+                        6,
+                        6
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                15,
+                1,
+                3,
+                9,
+                5
+            ]
+        },
+        {
+            "id": 18,
+            "solutionWord": "HAUS",
+            "clues": [
+                {
+                    "hint": "Darin schlafe ich",
+                    "answer": "BETT",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Der Himmel ist ___, die Erde ist unten",
+                    "answer": "OBEN",
+                    "letterPositions": [
+                        4,
+                        1,
+                        2,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Zitronen und Bananen sind ___",
+                    "answer": "GELB",
+                    "letterPositions": [
+                        6,
+                        2,
+                        7,
+                        1
+                    ]
+                },
+                {
+                    "hint": "Nicht hier, sondern ___",
+                    "answer": "DORT",
+                    "letterPositions": [
+                        8,
+                        4,
+                        9,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Ein Garten für die ganze Stadt",
+                    "answer": "PARK",
+                    "letterPositions": [
+                        10,
+                        11,
+                        9,
+                        12
+                    ]
+                },
+                {
+                    "hint": "Eine Biene arbeitet viel, sie ist ___",
+                    "answer": "FLEISSIG",
+                    "letterPositions": [
+                        13,
+                        7,
+                        2,
+                        14,
+                        15,
+                        15,
+                        14,
+                        6
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                16,
+                11,
+                17,
+                15
+            ]
+        },
+        {
+            "id": 19,
+            "solutionWord": "BAUM",
+            "clues": [
+                {
+                    "hint": "Gegenteil von Feind",
+                    "answer": "FREUND",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Jahreszeit für Schwimmen und Sonne",
+                    "answer": "SOMMER",
+                    "letterPositions": [
+                        7,
+                        8,
+                        9,
+                        9,
+                        3,
+                        2
+                    ]
+                },
+                {
+                    "hint": "Ich habe Fieber, ich bin ___",
+                    "answer": "KRANK",
+                    "letterPositions": [
+                        10,
+                        2,
+                        11,
+                        5,
+                        10
+                    ]
+                },
+                {
+                    "hint": "Hier kaufe ich Brötchen",
+                    "answer": "BÄCKEREI",
+                    "letterPositions": [
+                        12,
+                        11,
+                        13,
+                        10,
+                        3,
+                        2,
+                        3,
+                        14
+                    ]
+                },
+                {
+                    "hint": "Wir essen mit dem ___",
+                    "answer": "MUND",
+                    "letterPositions": [
+                        9,
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "hint": "Wenn man traurig ist, muss man ___",
+                    "answer": "WEINEN",
+                    "letterPositions": [
+                        15,
+                        3,
+                        14,
+                        5,
+                        3,
+                        5
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                12,
+                11,
+                4,
+                9
+            ]
+        },
+        {
+            "id": 20,
+            "solutionWord": "REIS",
+            "clues": [
+                {
+                    "hint": "Ich habe ein ___ Auto (nicht alt)",
+                    "answer": "NEUES",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3,
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "hint": "Viel Wasser, Schiffe und Fische. Das ___",
+                    "answer": "MEER",
+                    "letterPositions": [
+                        4,
+                        2,
+                        2,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Mach das Licht an, es ist ___",
+                    "answer": "DUNKEL",
+                    "letterPositions": [
+                        6,
+                        3,
+                        1,
+                        7,
+                        2,
+                        8
+                    ]
+                },
+                {
+                    "hint": "Monat Nummer 11",
+                    "answer": "NOVEMBER",
+                    "letterPositions": [
+                        1,
+                        9,
+                        10,
+                        2,
+                        4,
+                        11,
+                        2,
+                        5
+                    ]
+                },
+                {
+                    "hint": "Etwas, das ich noch nicht kenne, ist ___",
+                    "answer": "NEU",
+                    "letterPositions": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "hint": "Hier halten Züge",
+                    "answer": "BAHNHOF",
+                    "letterPositions": [
+                        11,
+                        13,
+                        14,
+                        1,
+                        14,
+                        9,
+                        15
+                    ]
+                }
+            ],
+            "solutionMapping": [
+                5,
+                2,
+                16,
+                12
+            ]
+        }
+    ]
+}

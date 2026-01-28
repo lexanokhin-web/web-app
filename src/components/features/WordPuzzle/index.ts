@@ -1,0 +1,1 @@
+export { WordPuzzle } from './WordPuzzle';
