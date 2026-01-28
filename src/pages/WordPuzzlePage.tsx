@@ -194,7 +194,7 @@ export const WordPuzzlePage: React.FC = () => {
             <div className="max-w-3xl mx-auto">
                 {/* Main Menu Header */}
                 <div className="flex items-center justify-between mb-8">
-                    <Button onClick={() => navigate('/')} variant="ghost" className="!p-2">
+                    <Button onClick={() => navigate('/')} variant="secondary" className="!p-2">
                         <ArrowLeft className="w-6 h-6 text-gray-600" />
                     </Button>
                     <h1 className="text-3xl font-bold text-gray-800">
